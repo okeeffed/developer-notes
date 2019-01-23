@@ -6,14 +6,18 @@ These are my own personal notes and not necessarily formatted to please anyone i
 
 Note that some of these notes also cover old courses I have undertaken. If those notes are of use to you, please consider finding the original resource and contributing.
 
+## Note
+
+Some of the incredibly long markdown files having issues loading with Docz. Over time I will break those files down into smaller components as a fix.
+
 ## Running locally
 
 Pull the repo and run `yarn install`. This repo using `docz` and there are two npm scripts to help you run local development and build the repo.
 
 ```json
 "scripts": {
-    "docz:dev": "yarn docz dev",
-    "docz:build": "docz build"
+    "start": "yarn docz dev",
+    "build": "docz build"
 }
 ```
 
