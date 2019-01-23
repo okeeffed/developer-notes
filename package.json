@@ -1,0 +1,22 @@
+{
+  "name": "documentation",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "docz:dev": "yarn docz dev",
+    "docz:build": "docz build"
+  },
+  "dependencies": {
+    "fs-extra": "^7.0.1",
+    "lodash.kebabcase": "^4.1.1",
+    "lodash.startcase": "^4.4.0",
+    "recursive-readdir": "^2.2.2"
+  },
+  "devDependencies": {
+    "docz": "^0.13.7",
+    "docz-theme-default": "^0.13.7",
+    "replace-in-file": "^3.4.3",
+    "yargs-parser": "^11.1.1"
+  }
+}
