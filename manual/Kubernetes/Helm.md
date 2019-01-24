@@ -29,7 +29,7 @@ Helm uses a packaging format call **charts**.
 
 ### Helm commands
 
-```bash
+```shell
 $ helm init # install tiller on the cluster
 $ helm reset # remove tiller
 $ helm install # install chart
@@ -41,7 +41,7 @@ $ helm create <% chart_name %> # create your own chart
 
 ### Installing Helm
 
-```bash
+```shell
 $ curl https://raw.githubusercontent.com/helm/helm/master/scripts/get > get_helm.sh
 $ chmod 700 get_helm.sh
 $ ./get_helm.sh
@@ -55,7 +55,7 @@ curl https://raw.githubusercontent.com/helm/helm/master/scripts/get | bash
 
 #### Linux Distro Install
 
-```bash
+```shell
 $ wget https://kubernetes-helm.storage.googleapis.com/helm-v2.11.0-linux-amd64.tar.gz
 $ tar -xzvf helm-v2.11.0-linux-amd64.tar.gz
 $ sudo mv linux-amd64/helm /usr/local/bin/helm
@@ -63,7 +63,7 @@ $ sudo mv linux-amd64/helm /usr/local/bin/helm
 
 ### Adding to cluster
 
-```bash
+```shell
 $ kubectl create -f helm-rbac.yaml
 $ helm init --service-account tiller
 ```
@@ -82,7 +82,7 @@ This is the recommended way to deploy applications.
 
 If you have charts stored on S3:
 
-```bash
+```shell
 # Install plugin
 $ helm plugin install https://github.com/hypnoglow/helm-s3.git
 
