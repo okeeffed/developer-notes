@@ -21,3 +21,13 @@ public class HelloWorld {
 ```shell
 javac HelloWorld.java
 ```
+
+## Types
+
+| Type    |
+| ------- |
+| int     |
+| double  |
+| boolean |
+| char    |
+| String  |
