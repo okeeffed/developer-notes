@@ -76,18 +76,21 @@ String[] wordArr = ["One", "Two", "Three"];
 A Java interface is more like an abstract class than a regular class. An interface can only contain method signatures and static final fields. An interface is merely a contract between the interface and classes that implement it. Like with abstract classes, classes that implement an interface must implement its methods’ bodies to provide functionality.
 
 ```java
-// HellWorld.java
-public class HelloWorld implements Interface<Item> {
-    private final int a, b;
+public interface Character {
+    Random randomGenerator = new Random();
 
-    public HelloWorld(int a0, int b0) {
-        a = a0;
-        b = b0;
-    }
+    String getName();
+    double getHealth();
+    long getExperience();
+    int getAttackPower();
+    void setAttackPower(int attackPower);
 
-    public static void Main(String[], args) {
-        System.out.print("Hello, World");
-    }
+    void defend();
+    void jump();
+    int heal();
+    void attack(Character opponent);
+    double decreaseHealth(int opponentAttackPower);
+    long gainExperience(long experience);
 }
 ```
 
