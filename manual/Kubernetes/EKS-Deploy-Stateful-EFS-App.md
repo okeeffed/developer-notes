@@ -12,3 +12,7 @@ menu: Kubernetes
 - Highly available, scalable, expensive (3xgp2), pay per use.
 
 ![Under the hood](https://res.cloudinary.com/gitgoodclub/image/upload/v1548299128/eks-course/Screen_Shot_2019-01-24_at_2.05.15_pm.png)
+
+## EFS for Kubernetes
+
+Using EFS, our Wordpress Pods can now be launched into any AZ, and therefore on any K8s worker nodes.
