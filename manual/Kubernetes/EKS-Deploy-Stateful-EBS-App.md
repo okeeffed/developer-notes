@@ -186,3 +186,7 @@ Using the dashboard or AWS console, we should now be able to confirm after the p
 One of the issues we face is that if we deploy with EBS, the EBS volume will at most attach only to one node. This is very important to understand!
 
 As for a `StatefulSet` with an EBS volume, it is used to **attach to a pod** (used for things like ZooKeeper, Kafka etc).
+
+### Wordpress as a deployment
+
+We will launch the Wordpress app as a `Deployment`, and what that means is that each pod launched will refer to the same Persistent Volume!
