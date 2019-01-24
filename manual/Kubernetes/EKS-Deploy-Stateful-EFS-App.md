@@ -26,3 +26,5 @@ Heading to the AWS console. Head to the EFS page and create EFS. By default, it 
 **Ensure that you attach the correct node worker security groups that we are using for Kubernetes and not the default.**
 
 After adding, feel free to add a name tag but then accept the other defaults.
+
+Ensure you take note of the `DNS name` and `File System ID`.
