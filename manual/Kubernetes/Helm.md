@@ -331,6 +331,8 @@ dependencies:
       - node-app-database
 ```
 
+Ensure you update the chart if you need to change the `containerPort` or env variables etc.
+
 ## 5.3 Setting up Helm Repo with S3
 
 If you have charts stored on S3:
