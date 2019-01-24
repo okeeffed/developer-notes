@@ -178,3 +178,5 @@ root@root:~/eks-course/stateful-app# kubectl get pods
 NAME                              READY   STATUS              RESTARTS   AGE
 wordpress-mysql-565494758-9p4zm   0/1     ContainerCreating   0          13s
 ```
+
+Using the dashboard or AWS console, we should now be able to confirm after the pod is ready that the volume has successfully attached to the pod.
