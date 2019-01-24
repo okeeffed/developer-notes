@@ -319,7 +319,17 @@ affinity: {}
 # Here you can add dependencies
 ```
 
-If your helm has depencies, these can be defined in a `requirements.yaml` file.
+If your helm has depencies, these can be defined in a `requirements.yaml` file. Example:
+
+```yaml
+dependencies:
+  - name: mariadb
+    version: 4.x.x
+    repository: https://kubernetes-charts.storage.googleapis.com/
+    condition: mariadb.enabled
+    tags:
+      - node-app-database
+```
 
 ## 5.3 Setting up Helm Repo with S3
 
