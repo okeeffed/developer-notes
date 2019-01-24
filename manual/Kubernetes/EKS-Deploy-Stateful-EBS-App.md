@@ -106,7 +106,7 @@ spec:
       storage: 20Gi
 ```
 
-Afte applying, we can see the pvcs there running `kubectl get pvc --namespace=<NS>`.
+After applying with `kubectl apply -f pvcs.yaml --namespace=ns-eks-course`, we can see the pvcs there running `kubectl get pvc --namespace=<NS>`.
 
 ## Deploying MySQL
 
