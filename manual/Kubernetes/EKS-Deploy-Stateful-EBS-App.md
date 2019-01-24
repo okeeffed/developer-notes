@@ -317,3 +317,7 @@ spec:
             storage: 10Gi
         storageClassName: gp2
 ```
+
+## Cleanup of resource
+
+Delete all the frontend, the backend and the EBS volumes.
