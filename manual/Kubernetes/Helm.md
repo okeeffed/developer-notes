@@ -279,9 +279,7 @@ image:
   tag: latest
   pullPolicy: IfNotPresent
 
-nameOverride: ""
-fullnameOverride: ""
-
+# Could also be LoadBalancer
 service:
   type: ClusterIP
   port: 80
@@ -294,6 +292,7 @@ ingress:
   paths: []
   hosts:
     - chart-example.local
+    # this could also be whatever.domain.com
   tls: []
   #  - secretName: chart-example-tls
   #    hosts:
