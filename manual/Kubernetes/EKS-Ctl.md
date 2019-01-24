@@ -1,9 +1,9 @@
 ---
-name: EKSCtl
+name: eksctl
 menu: Kubernetes
 ---
 
-# EKSCtl
+# eksctl
 
 https://eksctl.io/
 
@@ -17,6 +17,16 @@ https://eksctl.io/
 | Create cluster   | `eksctl create cluster --name=cluster-1 --nodes=4`                                                    |
 | Write kubeconfig | `eksctl utils write-kubeconfig --name=<name> [--kubeconfig=<path>] [--set-kubeconfig-context=<bool>]` |
 | Delete cluster   | `eksctl delete cluster --name=<name> [--region=<region>]`                                             |
+
+
+eksctl create cluster --name=cluster-3 --nodes=4 --auto-kubeconfig
+
+| Action                    | Flag                     | Example                                           |
+| ------------------------- | ------------------------ | ------------------------------------------------- |
+| Name the cluster          | --name                   | eksctl create cluster --name=cluster-3            |
+| Set default node count    | --nodes                  | eksctl create cluster --nodes=4                   |
+| Auto configure kubectl    | --auto-kubeconfig        | eksctl create cluster --auto-kubeconfig           |
+| Use an auth scaling group | --nodes-min, --nodes-max | eksctl create cluster --nodes-min=3 --nodes-max=5 |
 
 ### Node Groups
 
