@@ -69,6 +69,16 @@ So we have `vi`, `vim` - the improved vi and `gvim`.
 | :r `[filename]`        | Insert the file `[filename]` below the cursor              |
 | :r ![command]          | Execute `[command]` and insert its output below the cursor |
 
+## Delete Text
+
+| Key | What it does                  |
+| --- | ----------------------------- |
+| x   | Delete at cursor              |
+| dw  | Delete word                   |
+| d0  | Delete to beginning of a line |
+| d$  | Delete to end of a line       |
+
+
 ## Executing external commands
 
 These are a few of the more advanced things.
