@@ -60,6 +60,8 @@ So we have `vi`, `vim` - the improved vi and `gvim`.
 | G                      | Go to end of file                 |
 | (                      | Jump to previous sentence         |
 | )                      | Jump to next sentence             |
+| }                      | Jump to next paragraph            |
+| {                      | Jump to previous paragraph        |
 
 ## Executing external commands
 
