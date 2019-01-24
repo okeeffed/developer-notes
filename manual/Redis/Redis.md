@@ -15,4 +15,4 @@ menu: Redis
 
 ## Redis commands
 
-A full list can be found here https://redis.io/commands.
+A full list can be found at https://redis.io/commands.
