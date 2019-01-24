@@ -361,5 +361,3 @@ helm s3 init s3://helm-bucket/charts
 # Add report to helm
 helm repo add my-charts s3://helm-bucket/charts
 ```
-
-test test test test test
