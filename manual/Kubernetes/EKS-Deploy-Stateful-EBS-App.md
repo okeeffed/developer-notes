@@ -127,6 +127,7 @@ spec:
   selector:
     app: wordpress
     tier: mysql
+  # Ensures no dedicated cluster IP and to remain private
   clusterIP: None
 ---
 apiVersion: apps/v1 # for versions before 1.9.0 use apps/v1beta2
