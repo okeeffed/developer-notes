@@ -70,3 +70,21 @@ int s = Integer.parseInt(String s);
 ```java
 String[] wordArr = ["One", "Two", "Three"];
 ```
+
+## Implementing Interface
+
+```java
+// HellWorld.java
+public class HelloWorld implements Interface<Item> {
+    private final int a, b;
+
+    public HelloWorld(int a0, int b0) {
+        a = a0;
+        b = b0;
+    }
+
+    public static void Main(String[], args) {
+        System.out.print("Hello, World");
+    }
+}
+```
