@@ -69,7 +69,11 @@ export KUBECONFIG=~/.kube/eksctl/clusters/cluster
 
 ## Services
 
+To do
+
 ## Pods
+
+To do
 
 ## Deployments
 
