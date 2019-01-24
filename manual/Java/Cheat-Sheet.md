@@ -50,3 +50,10 @@ void System.out.print(String s); // Print s
 void System.out.println(String s); // print s, followed by new line
 void System.out.println(); // print a new line
 ```
+
+## Parsing
+
+```java
+// Example like so for parseDouble and parseLong too
+int s = Integer.parseInt(String s);
+```
