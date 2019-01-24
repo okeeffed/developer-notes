@@ -109,3 +109,5 @@ spec:
 Afte applying, we can see the pvcs there running `kubectl get pvc --namespace=<NS>`.
 
 ## Deploying MySQL
+
+First we need to create a secret. We can just pass a literal secret by running `kubectl create secret generic mysql-pass --from-literal=password=eks-course-mysql-pw --namespace=ns-eks-course`
