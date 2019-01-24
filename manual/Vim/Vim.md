@@ -20,52 +20,54 @@ So we have `vi`, `vim` - the improved vi and `gvim`.
 2.  Insert/Ex mode
 3.  Mark mode
 
-| Key                    | What it does                      |
-| ---------------------- | --------------------------------- |
-| x                      | Delete character                  |
-| :q!                    | Quit and omit changes             |
-| :wq                    | Write and quit                    |
-| :                      | "File mode"                       |
-| h                      | Left                              |
-| j                      | Down                              |
-| k                      | Up                                |
-| l                      | Right                             |
-| w                      | Word forward                      |
-| e                      | Word forward last char            |
-| b                      | Back word                         |
-| 0                      | Go to start                       |
-| $                      | Go to end                         |
-| v                      | Highlight words                   |
-| %                      | Go to matching bracket/quotes etc |
-| Number, command        | Move by certain amount            |
-| r                      | Replace                           |
-| u                      | Undo                              |
-| .                      | Redo                              |
-| d (twice)              | Delete the line                   |
-| d, w                   | Delete the word                   |
-| Number, i              | Insert a number of times          |
-| Number, r              | Replace a number of chars         |
-| Number, x              | Delete certain number of keys     |
-| y, move to new spot, p | Yank the link, then paste         |
-| v, then y              | Mark mode and yank                |
-| >>                     | Indent forward                    |
-| <<                     | Indent back                       |
-| `/<word>`              | Find a word                       |
-| n/N                    | Forward search, N upwards         |
-| `?<word>`              | Search bottom up (N/n swap)       |
-| %s/ex/EX/g             | Global ex regex                   |
-| #s/ex/EX/gc            | Confirm value swapping            |
-| j + j                  | Go back to normal mode            |
-| g + g                  | Go to top of document             |
-| G                      | Go to end of file                 |
-| (                      | Jump to previous sentence         |
-| )                      | Jump to next sentence             |
-| }                      | Jump to next paragraph            |
-| {                      | Jump to previous paragraph        |
-| a                      | Insert text before cursor         |
-| A                      | Insert test at end of line        |
-| o                      | Begin new line below the cursor   |
-| O                      | Begin new line above the cursor   |
+| Key                    | What it does                                               |
+| ---------------------- | ---------------------------------------------------------- |
+| x                      | Delete character                                           |
+| :q!                    | Quit and omit changes                                      |
+| :wq                    | Write and quit                                             |
+| :                      | "File mode"                                                |
+| h                      | Left                                                       |
+| j                      | Down                                                       |
+| k                      | Up                                                         |
+| l                      | Right                                                      |
+| w                      | Word forward                                               |
+| e                      | Word forward last char                                     |
+| b                      | Back word                                                  |
+| 0                      | Go to start                                                |
+| $                      | Go to end                                                  |
+| v                      | Highlight words                                            |
+| %                      | Go to matching bracket/quotes etc                          |
+| Number, command        | Move by certain amount                                     |
+| r                      | Replace                                                    |
+| u                      | Undo                                                       |
+| .                      | Redo                                                       |
+| d (twice)              | Delete the line                                            |
+| d, w                   | Delete the word                                            |
+| Number, i              | Insert a number of times                                   |
+| Number, r              | Replace a number of chars                                  |
+| Number, x              | Delete certain number of keys                              |
+| y, move to new spot, p | Yank the link, then paste                                  |
+| v, then y              | Mark mode and yank                                         |
+| >>                     | Indent forward                                             |
+| <<                     | Indent back                                                |
+| `/<word>`              | Find a word                                                |
+| n/N                    | Forward search, N upwards                                  |
+| `?<word>`              | Search bottom up (N/n swap)                                |
+| %s/ex/EX/g             | Global ex regex                                            |
+| #s/ex/EX/gc            | Confirm value swapping                                     |
+| j + j                  | Go back to normal mode                                     |
+| g + g                  | Go to top of document                                      |
+| G                      | Go to end of file                                          |
+| (                      | Jump to previous sentence                                  |
+| )                      | Jump to next sentence                                      |
+| }                      | Jump to next paragraph                                     |
+| {                      | Jump to previous paragraph                                 |
+| a                      | Insert text before cursor                                  |
+| A                      | Insert test at end of line                                 |
+| o                      | Begin new line below the cursor                            |
+| O                      | Begin new line above the cursor                            |
+| :r `[filename]`        | Insert the file `[filename]` below the cursor              |
+| :r ![command]          | Execute `[command]` and insert its output below the cursor |
 
 ## Executing external commands
 
