@@ -57,3 +57,9 @@ void System.out.println(); // print a new line
 // Example like so for parseDouble and parseLong too
 int s = Integer.parseInt(String s);
 ```
+
+## Arrays
+
+```java
+String[] wordArr = ["One", "Two", "Three"]
+```
