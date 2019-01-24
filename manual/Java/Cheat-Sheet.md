@@ -42,3 +42,11 @@ a = 1234;
 // inline initialization
 int c = 1234;
 ```
+
+## Printing
+
+```java
+void System.out.print(String s); // Print s
+void System.out.println(String s); // print s, followed by new line
+void System.out.println(); // print a new line
+```
