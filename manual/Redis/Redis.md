@@ -13,3 +13,6 @@ menu: Redis
 | Info                 | brew info redis                                                             |
 | Run Redis CLI client | redis-cli                                                                   |
 
+## Redis commands
+
+A full list can be found here https://redis.io/commands.
