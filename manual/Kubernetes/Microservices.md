@@ -1,4 +1,9 @@
-## 7. Microservices
+---
+name: Microservices
+menu: Kubernetes
+---
+
+# 7. Microservices
 
 If we have multiple apps that require information from between each other, we need to start talking about the  **service mesh**. Normally between applications,  we run into the following problems:
 
