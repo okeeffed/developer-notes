@@ -333,6 +333,8 @@ dependencies:
 
 Ensure you update the chart if you need to change the `containerPort` or env variables etc.
 
+Once the chart is up and running, you can update charts.
+
 ## 5.3 Setting up Helm Repo with S3
 
 If you have charts stored on S3:
