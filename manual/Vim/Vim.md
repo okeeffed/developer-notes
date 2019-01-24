@@ -83,6 +83,15 @@ So we have `vi`, `vim` - the improved vi and `gvim`.
 | dd  | Delete line                   |
 | 3dd | Delete three lines            |
 
+## Copy/Paste
+
+| Key | What it does                          |
+| --- | ------------------------------------- |
+| yy  | Copy current line into storage buffer |
+| p   | Paste storage buffer after line       |
+| P   | Paste storage buffer before line      |
+
+
 ## Executing external commands
 
 These are a few of the more advanced things.
