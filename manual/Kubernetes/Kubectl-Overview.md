@@ -19,6 +19,7 @@ menu: Kubernetes
 | node       | Cluster nodes           |
 | sc         | Storage Class           |
 | pvc        | Persistent Volume Claim |
+| secrets    | Secrets                 |
 
 ### Actions 
 
