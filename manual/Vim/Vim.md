@@ -81,7 +81,7 @@ So we have `vi`, `vim` - the improved vi and `gvim`.
 | dgg | Delete to beginning of file   |
 | dG  | Delete to end of file         |
 | dd  | Delete line                   |
-
+| 3dd | Delete three lines            |
 
 ## Executing external commands
 
