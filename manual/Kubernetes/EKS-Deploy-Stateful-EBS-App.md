@@ -52,3 +52,19 @@ We can see there are no storage classes by running the following:
 ```shell
 kubectl get storageClass --all-namespaces
 ```
+
+We can create the storage class by applying the following YAML file:
+
+```yml
+# gp2-storage-class.yaml
+kind: StorageClass
+apiVersion: storage.k8s.io/v1
+metadata:
+  name: gp2
+provisioner: kubernetes.io/aws-ebs
+parameters:
+  type: gp2
+reclaimPolicy: Retain
+mountOptions:
+  - debug
+```
