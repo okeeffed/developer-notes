@@ -73,6 +73,24 @@ function getArray(key) {
   });
 }
 
+function pushToList(key) {
+  return new Promise((resolve, reject) => {
+    client.rpush(key, (err, res) => {
+      if (err) reject(err);
+      resolve(res);
+    });
+  });
+}
+
+function popFromList(key) {
+  return new Promise((resolve, reject) => {
+    client.lpop(key, (err, res) => {
+      if (err) reject(err);
+      resolve(res);
+    });
+  });
+}
+
 function deleteArrayMember(key, value) {
   return new Promise((resolve, reject) => {
     client.srem(key, value, (err, res) => {
