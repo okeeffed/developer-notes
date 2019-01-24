@@ -18,3 +18,5 @@ menu: Kubernetes
 Using EFS, our Wordpress Pods can now be launched into any AZ, and therefore on any K8s worker nodes.
 
 They will all access the same underlying HTML folder (therefore sharing state).
+
+## Enabling EFS
