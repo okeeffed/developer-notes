@@ -12,7 +12,18 @@ menu: Redis
 | HGETALL | Get all fields and values in hash | HGETALL coin:btc      |
 | HKEYS   | Get all fields in hash            | HKEYS coin:btc        |
 | HGET    | Get value of hash field           | HGET coin:btc id      |
+| HMGET   | Multiple get value of hash field  | HGET coin:btc id      |
 | HSET    | Set value of hash field           | HSET coin:btc id 1234 |
+| HMSET   | Multiple set value of hash field  | HSET coin:btc id 1234 |
+
+### Run local server and attach
+
+```
+# terminal one
+redis-server /usr/local/etc/redis.conf
+# terminal two
+redis-cli
+```
 
 ## Command list
 
