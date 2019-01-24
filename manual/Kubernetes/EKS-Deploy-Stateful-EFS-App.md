@@ -10,3 +10,5 @@ menu: Kubernetes
 - Managed NFS that can be mounted on many EC2.
 - EFS works with EC2 instances in multi-AZ.
 - Highly available, scalable, expensive (3xgp2), pay per use.
+
+![Under the hood](https://res.cloudinary.com/gitgoodclub/image/upload/v1548299128/eks-course/Screen_Shot_2019-01-24_at_2.05.15_pm.png)
