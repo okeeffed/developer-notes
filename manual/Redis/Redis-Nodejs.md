@@ -73,7 +73,7 @@ function getArray(key) {
   });
 }
 
-function pushToList(key) {
+function pushToListEnd(key) {
   return new Promise((resolve, reject) => {
     client.rpush(key, (err, res) => {
       if (err) reject(err);
@@ -82,7 +82,7 @@ function pushToList(key) {
   });
 }
 
-function popFromList(key) {
+function popFromListStart(key) {
   return new Promise((resolve, reject) => {
     client.lpop(key, (err, res) => {
       if (err) reject(err);
