@@ -7,14 +7,14 @@ menu: Redis
 
 ## tl;dr
 
-| Command | Function                          | Example               |
-| ------- | --------------------------------- | --------------------- |
-| HGETALL | Get all fields and values in hash | HGETALL coin:btc      |
-| HKEYS   | Get all fields in hash            | HKEYS coin:btc        |
-| HGET    | Get value of hash field           | HGET coin:btc id      |
-| HMGET   | Multiple get value of hash field  | HGET coin:btc id      |
-| HSET    | Set value of hash field           | HSET coin:btc id 1234 |
-| HMSET   | Multiple set value of hash field  | HSET coin:btc id 1234 |
+| Command | Function                          | Example                                  |
+| ------- | --------------------------------- | ---------------------------------------- |
+| HGETALL | Get all fields and values in hash | HGETALL coin:btc                         |
+| HKEYS   | Get all fields in hash            | HKEYS coin:btc                           |
+| HGET    | Get value of hash field           | HGET coin:btc id                         |
+| HMGET   | Multiple get value of hash field  | HGET coin:btc id buy sell                |
+| HSET    | Set value of hash field           | HSET coin:btc id 1234                    |
+| HMSET   | Multiple set value of hash field  | HSET coin:btc id ID1234 buy 123 sell 100 |
 
 ### Run local server and attach
 
