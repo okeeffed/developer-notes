@@ -250,6 +250,10 @@ spec:
     app.kubernetes.io/instance: {{ .Release.Name }}
 ```
 
+From here, you can directly install the helm chart using `helm install mychart/`.
+
+
+
 ## 5.3 Setting up Helm Repo with S3
 
 If you have charts stored on S3:
