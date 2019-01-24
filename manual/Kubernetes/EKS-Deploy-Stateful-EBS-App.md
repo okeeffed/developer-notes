@@ -71,4 +71,4 @@ mountOptions:
 
 After applying with `kubectl`, we will have the EBS class created.
 
-We need to set this to default, which we can do by running `kubectl patch storageclass gp2 -p '{"metadata": {"annotations":{"storageclass.kubernetes.io/is-default-class":"true"}}}' --namespace=ns-eks-course`
+We need to set this to default, which we can do by running `kubectl patch sc gp2 -p '{"metadata": {"annotations":{"storageclass.kubernetes.io/is-default-class":"true"}}}' --namespace=ns-eks-course`
