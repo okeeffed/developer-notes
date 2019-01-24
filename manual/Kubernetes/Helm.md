@@ -47,6 +47,12 @@ $ chmod 700 get_helm.sh
 $ ./get_helm.sh
 ```
 
+Alternatively:
+
+```shell
+curl https://raw.githubusercontent.com/helm/helm/master/scripts/get | bash
+```
+
 #### Linux Distro Install
 
 ```bash
