@@ -24,6 +24,7 @@ menu: Redis
 | ------- | ----------------------------- | ---------------- |
 | RPUSH   | Push elements onto a list     | RPUSH list "one" |
 | LPOP    | Pop element from last on list | LPOP list        |
+| LLEN    | Get list length               | LLEN list        |
 
 
 ### Run local server and attach
