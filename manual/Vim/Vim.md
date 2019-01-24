@@ -63,6 +63,7 @@ So we have `vi`, `vim` - the improved vi and `gvim`.
 | `?<word>`              | Search bottom up (N/n swap)       |
 | %s/ex/EX/g             | Global ex regex                   |
 | #s/ex/EX/gc            | Confirm value swapping            |
+| j + j                  | Go back to normal mode            |
 
 ## Executing external commands
 
