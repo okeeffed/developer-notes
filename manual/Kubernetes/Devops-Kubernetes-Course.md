@@ -3,7 +3,6 @@ name: Devops Kubernetes Course
 menu: Kubernetes 
 ---
 # DevOps Kubernetes Course
-
 - [DevOps Kubernetes Course](#devops-kubernetes-course)
   - [Course layout](#course-layout)
     - [Objectives](#objectives)
