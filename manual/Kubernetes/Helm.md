@@ -224,7 +224,7 @@ spec:
 
 These values will be filled out when deployed.
 
-The spec is generally defined by the earlier `values.yaml`.
+The spec values are generally defined by the earlier `values.yaml`.
 
 ## 5.3 Setting up Helm Repo with S3
 
