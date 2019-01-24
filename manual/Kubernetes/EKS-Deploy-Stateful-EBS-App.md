@@ -323,5 +323,5 @@ spec:
 To delete all the frontend, the backend and the EBS volumes resources, run the applicable kubectl delete on all of the yaml files we have used.
 
 ```yaml
-kubectl delete -f [NAME].yaml
+kubectl delete -f NAME.yaml
 ```
