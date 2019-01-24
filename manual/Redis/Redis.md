@@ -7,9 +7,10 @@ menu: Redis
 
 ## tl;dr
 
-| Function | Command | Example |
-| -------- | ------- | ------- |
-
+| Command | Function                | Example          |
+| ------- | ----------------------- | ---------------- |
+| HGETALL | Get all fields in hash  | HGETALL coin:btc |
+| HGET    | Get value of hash field | HGET coin:btc id |
 
 ## Command list
 
