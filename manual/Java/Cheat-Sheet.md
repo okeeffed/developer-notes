@@ -61,5 +61,5 @@ int s = Integer.parseInt(String s);
 ## Arrays
 
 ```java
-String[] wordArr = ["One", "Two", "Three"]
+String[] wordArr = ["One", "Two", "Three"];
 ```
