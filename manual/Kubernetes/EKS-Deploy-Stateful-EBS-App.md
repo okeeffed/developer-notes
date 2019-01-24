@@ -183,4 +183,4 @@ Using the dashboard or AWS console, we should now be able to confirm after the p
 
 ## Deployment vs StatefulSet by using storageclass for EBS
 
-One of the issues we face is that the EBS volume will at most attach only to one node.
+One of the issues we face is that the EBS volume will at most attach only to one node. This is very important to understand!
