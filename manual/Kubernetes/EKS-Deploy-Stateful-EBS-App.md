@@ -253,6 +253,8 @@ spec:
 
 In this case for understanding Stateful Sets, we can use this example to show each pod deploying with it's own PVC. In the case of WordPress, this would be an issue given that an image uploaded to one pod would not be available to another -- but this is for the sake of demonstration.
 
+Ensure you always go for a stateful set when it is the better choice (Zookeeper etc).
+
 ```yml
 apiVersion: v1
 kind: Service
