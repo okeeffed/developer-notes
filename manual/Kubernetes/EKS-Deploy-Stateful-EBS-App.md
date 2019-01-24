@@ -248,3 +248,5 @@ spec:
           persistentVolumeClaim:
             claimName: wp-pv-claim
 ```
+
+### Wordpress as a Stateful Set
