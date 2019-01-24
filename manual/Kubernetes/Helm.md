@@ -226,6 +226,30 @@ These values will be filled out when deployed.
 
 The spec values are generally defined by the earlier `values.yaml`.
 
+The `mychart/service.yaml` also templates how the service file will be created:
+
+```yaml
+apiVersion: v1
+kind: Service
+metadata:
+  name: {{ include "test.fullname" . }}
+  labels:
+    app.kubernetes.io/name: {{ include "test.name" . }}
+    helm.sh/chart: {{ include "test.chart" . }}
+    app.kubernetes.io/instance: {{ .Release.Name }}
+    app.kubernetes.io/managed-by: {{ .Release.Service }}
+spec:
+  type: {{ .Values.service.type }}
+  ports:
+    - port: {{ .Values.service.port }}
+      targetPort: http
+      protocol: TCP
+      name: http
+  selector:
+    app.kubernetes.io/name: {{ include "test.name" . }}
+    app.kubernetes.io/instance: {{ .Release.Name }}
+```
+
 ## 5.3 Setting up Helm Repo with S3
 
 If you have charts stored on S3:
