@@ -116,6 +116,9 @@ module.exports = {
   getValue,
   setArray,
   getArray,
-  deleteArrayMember
+  deleteArrayMember,
+  getListLen,
+  pushToListEnd,
+  popFromListStart
 };
 ```
