@@ -107,3 +107,5 @@ spec:
 ```
 
 Afte applying, we can see the pvcs there running `kubectl get pvc --namespace=<NS>`.
+
+## Deploying MySQL
