@@ -121,3 +121,73 @@ public abstract class Human {
     public double decreaseHealth(int opponentAttackPower) {...}
 }
 ```
+
+## Interfaces and Abstract classes in use
+
+```java
+public abstract class Human implements Character{
+    protected Pet pet;
+    ...
+
+    public Human(String name) {
+        ...
+        numCharacters++;
+    }
+    public void setPet(Pet pet) { this.pet = pet; }
+    public Pet getPet() { return pet; }
+    public abstract void attack(Character opponent);
+    ...
+}
+public abstract class Pet implements Character{
+    protected Human owner;
+    ...
+    public Pet(String name, Human owner) {
+        this.name = name;
+        this.owner = owner;
+        gainExperience(1);
+        numCharacters++;
+    }
+
+    public Human getOwner() { return owner; }
+    public abstract void attack(Character opponent);
+    ...
+}
+public class Archer extends Human {
+    private int numArrows = 0;
+
+    public Archer(String name) {
+        super(name);
+        findArrows();
+    }
+
+    private void findArrows() {
+        System.out.println("Looking for arrows");
+    }
+    @Override
+    public void attack(Character opponent) {...}
+    @Override
+    public void defend() {...}
+    @Override
+    public void jump() {...}
+    @Override
+    public int heal() { return 0; }
+}
+public class Dog extends Pet {
+    public Dog(String name, Human owner) {
+        super(name, owner);
+    }
+
+    public void bark() {
+        System.out.println("Wolf Wolf!");
+    }
+
+    @Override
+    public void attack(Character opponent) {...}
+    @Override
+    public void defend() {...}
+    @Override
+    public void jump() {...}
+    @Override
+    public int heal() { return 0; }
+}
+```
