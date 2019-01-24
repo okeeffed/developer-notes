@@ -335,7 +335,9 @@ Ensure you update the chart if you need to change the `containerPort` or env var
 
 Once the chart is up and running, you can update charts which will update the orchestration. Use `helm update <OPTIONS> <CHART> path/to/chart`
 
-Rollbacks can easily be done as well. Use `helm history <CHART>` to get a history of deployments.
+Rollbacks can easily be done as well. 
+
+Use `helm history <CHART>` to get a history of deployments. Say we want to rollback to revision one, we can then just run `helm rollback <CHART> 1`.
 
 ## 5.3 Setting up Helm Repo with S3
 
