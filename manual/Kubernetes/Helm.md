@@ -41,6 +41,8 @@ Helm uses a packaging format call **charts**.
 | helm create `<CHART_NAME>`                | Create your own chart                    |
 | helm history `<CHART_NAME>`               | See upgrade history of chart             |
 | helm rollback `<CHART_NAME>` `<REVISION>` | Rollback to version                      |
+| helm list                                 | List running charts                      |
+| helm list --all                           | List all charts that have ran            |
 
 ### Installing Helm
 
