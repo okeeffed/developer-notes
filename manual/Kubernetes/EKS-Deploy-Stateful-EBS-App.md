@@ -75,7 +75,7 @@ We need to set this to default, which we can do by running `kubectl patch sc gp2
 
 ## Creating the persistent volume claim (PVC)
 
-Here we are creating two persistent volume claims.
+Here we are creating two persistent volume claims for both MySQL and WordPress.
 
 ```yaml
 # pvcs.yml
