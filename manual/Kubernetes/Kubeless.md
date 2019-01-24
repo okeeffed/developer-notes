@@ -3,7 +3,7 @@ name: Kubeless
 menu: Kubernetes
 ---
 
-# Serverless on Kubernetes
+# 6. Serverless on Kubernetes
 
 With the serverless products, you don't need to manage the underlying functions. It can also greatly reduce costs.
 
