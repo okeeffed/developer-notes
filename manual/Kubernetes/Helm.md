@@ -73,9 +73,7 @@ helm init --service-account tiller
 This is the recommended way to deploy applications.
 
 - Packaging the app allows you to deploy the app in 1 command.
-
 - Helm allows for upgrades and rollbacks.
-
 - Helm chart is also version controlled.
 
 ## 5.3 Setting up Helm Repo with S3
