@@ -252,7 +252,7 @@ spec:
 
 From here, you can directly install the helm chart using `helm install mychart/`.
 
-
+Using the default chart, there is a `nginx` configuration you then port forward and curl.
 
 ## 5.3 Setting up Helm Repo with S3
 
