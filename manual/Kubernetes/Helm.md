@@ -30,21 +30,21 @@ Helm uses a packaging format call **charts**.
 ### Helm commands
 
 ```shell
-$ helm init # install tiller on the cluster
-$ helm reset # remove tiller
-$ helm install # install chart
-$ helm search redis #looks for redis chart
-$ helm install --name myredis stable/redis # install chart from redis search found under myredis
-$ helm delete myredis # delete redis install named myredis
-$ helm create <% chart_name %> # create your own chart
+helm init # install tiller on the cluster
+helm reset # remove tiller
+helm install # install chart
+helm search redis #looks for redis chart
+helm install --name myredis stable/redis # install chart from redis search found under myredis
+helm delete myredis # delete redis install named myredis
+helm create <% chart_name %> # create your own chart
 ```
 
 ### Installing Helm
 
 ```shell
-$ curl https://raw.githubusercontent.com/helm/helm/master/scripts/get > get_helm.sh
-$ chmod 700 get_helm.sh
-$ ./get_helm.sh
+curl https://raw.githubusercontent.com/helm/helm/master/scripts/get > get_helm.sh
+chmod 700 get_helm.sh
+./get_helm.sh
 ```
 
 Alternatively:
@@ -56,16 +56,16 @@ curl https://raw.githubusercontent.com/helm/helm/master/scripts/get | bash
 #### Linux Distro Install
 
 ```shell
-$ wget https://kubernetes-helm.storage.googleapis.com/helm-v2.11.0-linux-amd64.tar.gz
-$ tar -xzvf helm-v2.11.0-linux-amd64.tar.gz
-$ sudo mv linux-amd64/helm /usr/local/bin/helm
+wget https://kubernetes-helm.storage.googleapis.com/helm-v2.11.0-linux-amd64.tar.gz
+tar -xzvf helm-v2.11.0-linux-amd64.tar.gz
+sudo mv linux-amd64/helm /usr/local/bin/helm
 ```
 
 ### Adding to cluster
 
 ```shell
-$ kubectl create -f helm-rbac.yaml
-$ helm init --service-account tiller
+kubectl create -f helm-rbac.yaml
+helm init --service-account tiller
 ```
 
 ## 5.2 Creating your own helm charts
@@ -84,11 +84,11 @@ If you have charts stored on S3:
 
 ```shell
 # Install plugin
-$ helm plugin install https://github.com/hypnoglow/helm-s3.git
+helm plugin install https://github.com/hypnoglow/helm-s3.git
 
 # Initialise s3 bucket
-$ helm s3 init s3://helm-bucket/charts
+helm s3 init s3://helm-bucket/charts
 
 # Add report to helm
-$ helm repo add my-charts s3://helm-bucket/charts
+helm repo add my-charts s3://helm-bucket/charts
 ```
