@@ -1,0 +1,13 @@
+[Settings]
+ID = "docs.dennisokeeffe.com"
+
+[build]
+  command = "yarn build"
+  publish = "build"
+
+# The following redirect is intended for use with most SPAs that handle
+# routing internally.
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
