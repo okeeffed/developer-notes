@@ -58,6 +58,8 @@ So we have `vi`, `vim` - the improved vi and `gvim`.
 | j + j                  | Go back to normal mode            |
 | g + g                  | Go to top of document             |
 | G                      | Go to end of file                 |
+| (                      | Jump to previous sentence         |
+| )                      | Jump to next sentence             |
 
 ## Executing external commands
 
