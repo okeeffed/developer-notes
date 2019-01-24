@@ -99,8 +99,8 @@ public abstract class Human {
     // ...
 
     public Human(String name) {
-        //...
-        }
+        // ...
+    }
 
     public abstract void attack(Human human);
     public abstract void defend();
