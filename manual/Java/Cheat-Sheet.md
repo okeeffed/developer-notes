@@ -31,3 +31,14 @@ javac HelloWorld.java
 | boolean |
 | char    |
 | String  |
+
+## Declaring
+
+```java
+// declare statement
+int a, b;
+// assigning literal
+a = 1234;
+// inline initialization
+int c = 1234;
+```
