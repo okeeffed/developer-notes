@@ -100,6 +100,7 @@ This is the recommended way to deploy applications.
 - Helm chart is also version controlled.
 
 ```shell
+# creates director mychart/
 helm create mychart
 ```
 
