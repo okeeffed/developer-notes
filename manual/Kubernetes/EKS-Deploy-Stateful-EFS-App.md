@@ -28,3 +28,7 @@ Heading to the AWS console. Head to the EFS page and create EFS. By default, it 
 After adding, feel free to add a name tag but then accept the other defaults.
 
 Ensure you take note of the `DNS name` and `File System ID`.
+
+To be able to enable the EFS, we need to install `amazon-efs-utils` onto each of the worker nodes.
+
+Example being `ssh -i .ssh/path/to/key.pem ec2-user@REDACTED "sudo yum install -y amazon-efs-utils`.
