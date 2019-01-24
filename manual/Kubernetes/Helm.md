@@ -254,6 +254,15 @@ From here, you can directly install the helm chart using `helm install mychart/`
 
 Using the default chart, there is a `nginx` configuration you then port forward and curl.
 
+```shell
+kubectl port-forward 80:8080
+# Press ^z here
+bg # set to background
+curl localhost:8080 
+# result should be default nginx html
+fg # bring port-forward back to foreground
+```
+
 ## 5.3 Setting up Helm Repo with S3
 
 If you have charts stored on S3:
