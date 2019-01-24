@@ -6,3 +6,5 @@ kratos.json
 stories/
 storybook.js
 *.log
+nodemon.json
+./index.js

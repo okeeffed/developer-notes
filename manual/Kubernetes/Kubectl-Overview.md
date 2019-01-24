@@ -5,6 +5,28 @@ menu: Kubernetes
 
 # Kubectl Overview
 
+## tl;dr
+
+### Resources
+
+| Reference  | Resource      |
+| ---------- | ------------- |
+| pod        | Pods          |
+| svc        | Services      |
+| ns         | Namespaces    |
+| rs         | Replica Sets  |
+| deployment | Deployments   |
+| node       | Cluster nodes |
+
+### Actions 
+
+| Command  | Action            | Example                         |
+| -------- | ----------------- | ------------------------------- |
+| get      | Get resource      | kubectl get pods                |
+| describe | Describe resource | kubectl describe node `<NODE>`  |
+| delete   | Delete resource   | kubectl delete pod `<POD>`      |
+| create   | Create resource   | kubectl create ns `<NAMESPACE>` |
+
 ## Setting config
 
 Example exporting to set the correct `KUBECONFIG`.
@@ -37,6 +59,13 @@ export KUBECONFIG=~/.kube/eksctl/clusters/cluster
 | Get rolebindings                  | kubectl get rolebindings --namespace `<namespace>`                          |
 | Describe rolebindings             | kubectl describe rolebindings --namespace `<namespace>`                     |
 | Describe rolebindings for service | kubectl describe rolebindings `<service account>` --namespace `<namespace>` |
+
+## Namespaces
+
+| Action           | Command                                |
+| ---------------- | -------------------------------------- |
+| Create namespace | kubectl create namespace `<NAMESPACE>` |
+| Get namespace    | kubectl get namespace                  |
 
 ## Services
 
