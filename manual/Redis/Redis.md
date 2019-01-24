@@ -5,6 +5,12 @@ menu: Redis
 
 # Redis
 
+## tl;dr
+
+| Function | Command | Example |
+| -------- | ------- | ------- |
+
+
 ## Command list
 
 | Function             | Command                                                                     |
