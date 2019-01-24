@@ -44,3 +44,11 @@ Let's create our own Wordpress stateful app.
 ```shell
 kubectl create namespace ns-eks-course
 ```
+
+## Creating the storage class
+
+We can see there are no storage classes by running the following:
+
+```shell
+kubectl get storageClass --all-namespaces
+```
