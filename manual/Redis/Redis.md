@@ -12,3 +12,4 @@ menu: Redis
 | Uninstall            | brew uninstall redis && rm ~/Library/LaunchAgents/homebrew.mxcl.redis.plist |
 | Info                 | brew info redis                                                             |
 | Run Redis CLI client | redis-cli                                                                   |
+
