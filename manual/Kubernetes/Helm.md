@@ -44,6 +44,7 @@ Helm uses a packaging format call **charts**.
 | helm rollback `<CHART_NAME>` `<REVISION>`       | Rollback to version                      |
 | helm list                                       | List running charts                      |
 | helm list --all                                 | List all charts that have ran            |
+| helm delete `<CHART_NAME>` --purge              | Release deleted chart                    |
 
 ### Installing Helm
 
