@@ -20,6 +20,8 @@ So we have `vi`, `vim` - the improved vi and `gvim`.
 2.  Insert/Ex mode
 3.  Mark mode
 
+## Basics
+
 | Key                    | What it does                                               |
 | ---------------------- | ---------------------------------------------------------- |
 | x                      | Delete character                                           |
