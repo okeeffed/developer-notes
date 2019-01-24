@@ -5,6 +5,16 @@ menu: Kubernetes
 
 # EKS - Deploy Stateless App
 
+- [EKS - Deploy Stateless App](#eks---deploy-stateless-app)
+  - [In this app](#in-this-app)
+    - [Backend](#backend)
+    - [Frontend](#frontend)
+  - [Deploying the backend](#deploying-the-backend)
+    - [The Redis Master](#the-redis-master)
+    - [The Redis Slaves](#the-redis-slaves)
+  - [Deploying the Frontend](#deploying-the-frontend)
+  - [Scaling Pods up and down](#scaling-pods-up-and-down)
+
 In this example, we will be build a basic guestbook example from Kubernetes.
 
 ## In this app
