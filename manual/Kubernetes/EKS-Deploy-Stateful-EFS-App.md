@@ -34,3 +34,13 @@ To be able to enable the EFS, we need to install `amazon-efs-utils` onto each of
 Example being `ssh -i .ssh/path/to/key.pem ec2-user@REDACTED "sudo yum install -y amazon-efs-utils`.
 
 ## Creating the namespace and prepping storage
+
+![Layout](https://res.cloudinary.com/gitgoodclub/image/upload/v1548300383/eks-course/Screen_Shot_2019-01-24_at_2.26.08_pm.png)
+
+Steps:
+
+1. Create namespaces
+2. Create RBAC permissions
+3. Create EFS provisioner
+4. Create storageclass
+5. Create PVC's for MySQL and WordPress
