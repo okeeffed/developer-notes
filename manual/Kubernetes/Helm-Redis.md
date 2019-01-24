@@ -56,3 +56,5 @@ To connect to your Redis server:
 
   redis-cli -h redisha-redis-ha.default.svc.cluster.local
 ```
+
+Ensure to delete by using `helm delete <NAME>`.
