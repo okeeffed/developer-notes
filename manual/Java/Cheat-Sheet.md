@@ -88,3 +88,31 @@ public class HelloWorld implements Interface<Item> {
     }
 }
 ```
+
+## Abstract classes
+
+An abstract class is much like a regular class in that it can have fields and methods. What makes it special is its methods may or may not have bodies. That means an abstract class can have method signatures that are declared as abstract as well as full methods as usual.
+
+```java
+public abstract class Human {
+    protected String name;
+    // ...
+
+    public Human(String name) {
+        //...
+        }
+
+    public abstract void attack(Human human);
+    public abstract void defend();
+    public abstract void jump();
+    public abstract double heal();
+
+    public String getName() {...}
+    public double getHealth(){...}
+    public long getExperience(){...}
+    public void setAttackPower(int attackPower) {...}
+    public long gainExperience(long experience){...}
+    public double heal(double additionalHealth) {...}
+    public double decreaseHealth(int opponentAttackPower) {...}
+}
+```
