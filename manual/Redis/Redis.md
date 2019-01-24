@@ -7,6 +7,8 @@ menu: Redis
 
 ## tl;dr
 
+### Hash Sets
+
 | Command | Function                          | Example                                  |
 | ------- | --------------------------------- | ---------------------------------------- |
 | HGETALL | Get all fields and values in hash | HGETALL coin:btc                         |
@@ -15,6 +17,14 @@ menu: Redis
 | HMGET   | Multiple get value of hash field  | HGET coin:btc id buy sell                |
 | HSET    | Set value of hash field           | HSET coin:btc id 1234                    |
 | HMSET   | Multiple set value of hash field  | HSET coin:btc id ID1234 buy 123 sell 100 |
+
+### Lists
+
+| Command | Function                      | Example          |
+| ------- | ----------------------------- | ---------------- |
+| RPUSH   | Push elements onto a list     | RPUSH list "one" |
+| LPOP    | Pop element from last on list | LPOP list "one"  |
+
 
 ### Run local server and attach
 
