@@ -29,16 +29,18 @@ Helm uses a packaging format call **charts**.
 
 ### Helm commands
 
-| Command                                  | Description                              |
-| ---------------------------------------- | ---------------------------------------- |
-| helm init                                | Install tiller on the cluser             |
-| helm reset                               | Remove tiller                            |
-| helm install `<CHART>`                   | Install chart                            |
-| helm search `<CHART>`                    | Searches for chart                       |
-| helm search redis                        | Looks for Redis chart                    |
-| helm install --name myredis stable/redis | Installs Redis chart found under myredis |
-| helm delete myredis                      | Delete Redis install named myredis       |
-| helm create `<CHART_NAME>`               | Create your own chart                    |
+| Command                                   | Description                              |
+| ----------------------------------------- | ---------------------------------------- |
+| helm init                                 | Install tiller on the cluser             |
+| helm reset                                | Remove tiller                            |
+| helm install `<CHART>`                    | Install chart                            |
+| helm search `<CHART>`                     | Searches for chart                       |
+| helm search redis                         | Looks for Redis chart                    |
+| helm install --name myredis stable/redis  | Installs Redis chart found under myredis |
+| helm delete myredis                       | Delete Redis install named myredis       |
+| helm create `<CHART_NAME>`                | Create your own chart                    |
+| helm history `<CHART_NAME>`               | Create your own chart                    |
+| helm rollback `<CHART_NAME>` `<REVISION>` | Create your own chart                    |
 
 ### Installing Helm
 
@@ -338,6 +340,8 @@ Once the chart is up and running, you can update charts which will update the or
 Rollbacks can easily be done as well. 
 
 Use `helm history <CHART>` to get a history of deployments. Say we want to rollback to revision one, we can then just run `helm rollback <CHART> 1`. 
+
+
 
 ## 5.3 Setting up Helm Repo with S3
 
