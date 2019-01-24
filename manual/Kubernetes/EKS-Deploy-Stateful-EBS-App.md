@@ -115,6 +115,7 @@ First we need to create a secret. We can just pass a literal secret by running `
 We can deploy SQL with the following:
 
 ```yml
+# mysql.yaml
 apiVersion: v1
 kind: Service
 metadata:
