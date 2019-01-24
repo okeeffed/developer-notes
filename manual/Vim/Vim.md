@@ -62,6 +62,10 @@ So we have `vi`, `vim` - the improved vi and `gvim`.
 | )                      | Jump to next sentence             |
 | }                      | Jump to next paragraph            |
 | {                      | Jump to previous paragraph        |
+| a                      | Insert text before cursor         |
+| A                      | Insert test at end of line        |
+| o                      | Begin new line below the cursor   |
+| O                      | Begin new line above the cursor   |
 
 ## Executing external commands
 
