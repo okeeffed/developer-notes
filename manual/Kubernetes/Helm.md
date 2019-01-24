@@ -29,15 +29,16 @@ Helm uses a packaging format call **charts**.
 
 ### Helm commands
 
-```shell
-helm init # install tiller on the cluster
-helm reset # remove tiller
-helm install # install chart
-helm search redis #looks for redis chart
-helm install --name myredis stable/redis # install chart from redis search found under myredis
-helm delete myredis # delete redis install named myredis
-helm create <% chart_name %> # create your own chart
-```
+| Command                                  | Description                              |
+| ---------------------------------------- | ---------------------------------------- |
+| helm init                                | Install tiller on the cluser             |
+| helm reset                               | Remove tiller                            |
+| helm install `<CHART>`                   | Install chart                            |
+| helm search `<CHART>`                    | Searches for chart                       |
+| helm search redis                        | Looks for Redis chart                    |
+| helm install --name myredis stable/redis | Installs Redis chart found under myredis |
+| helm delete myredis                      | Delete Redis install named myredis       |
+| helm create `<CHART_NAME>`               | Create your own chart                    |
 
 ### Installing Helm
 
