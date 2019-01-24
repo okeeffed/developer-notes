@@ -9,15 +9,16 @@ menu: Kubernetes
 
 ### Resources
 
-| Reference  | Resource      |
-| ---------- | ------------- |
-| pod        | Pods          |
-| svc        | Services      |
-| ns         | Namespaces    |
-| rs         | Replica Sets  |
-| deployment | Deployments   |
-| node       | Cluster nodes |
-| sc         | Storage Class |
+| Reference  | Resource                |
+| ---------- | ----------------------- |
+| pod        | Pods                    |
+| svc        | Services                |
+| ns         | Namespaces              |
+| rs         | Replica Sets            |
+| deployment | Deployments             |
+| node       | Cluster nodes           |
+| sc         | Storage Class           |
+| pvc        | Persistent Volume Claim |
 
 ### Actions 
 
