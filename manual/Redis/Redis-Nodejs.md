@@ -5,6 +5,8 @@ menu: Redis
 
 # Redis with Nodejs
 
+`yarn install redis` and use the controller. Example controller setup.
+
 ```javascript
 const redis = require('redis');
 
