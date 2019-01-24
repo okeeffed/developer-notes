@@ -29,20 +29,21 @@ Helm uses a packaging format call **charts**.
 
 ### Helm commands
 
-| Command                                   | Description                              |
-| ----------------------------------------- | ---------------------------------------- |
-| helm init                                 | Install tiller on the cluser             |
-| helm reset                                | Remove tiller                            |
-| helm install `<CHART>`                    | Install chart                            |
-| helm search `<CHART>`                     | Searches for chart                       |
-| helm search redis                         | Looks for Redis chart                    |
-| helm install --name myredis stable/redis  | Installs Redis chart found under myredis |
-| helm delete myredis                       | Delete Redis install named myredis       |
-| helm create `<CHART_NAME>`                | Create your own chart                    |
-| helm history `<CHART_NAME>`               | See upgrade history of chart             |
-| helm rollback `<CHART_NAME>` `<REVISION>` | Rollback to version                      |
-| helm list                                 | List running charts                      |
-| helm list --all                           | List all charts that have ran            |
+| Command                                         | Description                              |
+| ----------------------------------------------- | ---------------------------------------- |
+| helm init                                       | Install tiller on the cluser             |
+| helm reset                                      | Remove tiller                            |
+| helm install `<CHART>`                          | Install chart                            |
+| helm search `<CHART>`                           | Searches for chart                       |
+| helm search redis                               | Looks for Redis chart                    |
+| helm install --name myredis stable/redis        | Installs Redis chart found under myredis |
+| helm delete myredis                             | Delete Redis install named myredis       |
+| helm create `<CHART_NAME>`                      | Create your own chart                    |
+| helm update `<OPTIONS>` `<CHART>` path/to/chart | See upgrade history of chart             |
+| helm history `<CHART_NAME>`                     | See upgrade history of chart             |
+| helm rollback `<CHART_NAME>` `<REVISION>`       | Rollback to version                      |
+| helm list                                       | List running charts                      |
+| helm list --all                                 | List all charts that have ran            |
 
 ### Installing Helm
 
