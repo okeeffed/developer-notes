@@ -7,11 +7,12 @@ menu: Redis
 
 ## tl;dr
 
-| Command | Function                          | Example          |
-| ------- | --------------------------------- | ---------------- |
-| HGETALL | Get all fields and values in hash | HGETALL coin:btc |
-| HKEYS   | Get all fields in hash            | HKEYS coin:btc   |
-| HGET    | Get value of hash field           | HGET coin:btc id |
+| Command | Function                          | Example               |
+| ------- | --------------------------------- | --------------------- |
+| HGETALL | Get all fields and values in hash | HGETALL coin:btc      |
+| HKEYS   | Get all fields in hash            | HKEYS coin:btc        |
+| HGET    | Get value of hash field           | HGET coin:btc id      |
+| HSET    | Set value of hash field           | HSET coin:btc id 1234 |
 
 ## Command list
 
