@@ -5,6 +5,8 @@ menu: Redis
 
 # Redis
 
+## Command list
+
 | Function             | Command                                                                     |
 | -------------------- | --------------------------------------------------------------------------- |
 | Install              | brew install redis                                                          |
