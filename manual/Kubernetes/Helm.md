@@ -99,6 +99,10 @@ This is the recommended way to deploy applications.
 - Helm allows for upgrades and rollbacks.
 - Helm chart is also version controlled.
 
+```shell
+helm create mychart
+```
+
 ## 5.3 Setting up Helm Repo with S3
 
 If you have charts stored on S3:
