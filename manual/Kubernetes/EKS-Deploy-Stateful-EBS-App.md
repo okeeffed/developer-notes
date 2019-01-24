@@ -249,4 +249,69 @@ spec:
             claimName: wp-pv-claim
 ```
 
-### Wordpress as a Stateful Set
+## Wordpress as a Stateful Set
+
+In this case for understanding Stateful Sets, we can use this example to show each pod deploying with it's own PVC. In the case of WordPress, this would be an issue given that an image uploaded to one pod would not be available to another -- but this is for the sake of demonstration.
+
+```yml
+apiVersion: v1
+kind: Service
+metadata:
+  name: wordpress-statefulset
+  labels:
+    app: wordpress-statefulset
+spec:
+  ports:
+    - port: 80
+  selector:
+    app: wordpress-statefulset
+    tier: frontend
+  type: LoadBalancer
+---
+apiVersion: apps/v1 # for versions before 1.9.0 use apps/v1beta2
+kind: StatefulSet
+metadata:
+  name: wordpress-statefulset
+  labels:
+    app: wordpress-statefulset
+spec:
+  selector:
+    matchLabels:
+      app: wordpress-statefulset
+      tier: frontend
+  replicas: 1
+  serviceName: wordpress-statefulset-frontend
+  template:
+    metadata:
+      labels:
+        app: wordpress-statefulset
+        tier: frontend
+    spec:
+      containers:
+        - image: wordpress:4.8-apache
+          name: wordpress
+          env:
+            - name: WORDPRESS_DB_HOST
+              value: wordpress-mysql
+            - name: WORDPRESS_DB_PASSWORD
+              valueFrom:
+                secretKeyRef:
+                  name: mysql-pass
+                  key: password
+          volumeMounts:
+            - name: wordpress-persistent-storage
+              mountPath: /var/www/html
+          ports:
+            - containerPort: 80
+              name: wordpress
+  volumeClaimTemplates:
+    - metadata:
+        name: wordpress-persistent-storage
+      spec:
+        accessModes:
+          - ReadWriteOnce
+        resources:
+          requests:
+            storage: 10Gi
+        storageClassName: gp2
+```
