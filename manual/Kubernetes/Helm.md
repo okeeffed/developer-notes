@@ -319,6 +319,8 @@ affinity: {}
 # Here you can add dependencies
 ```
 
+If your helm has depencies, these can be defined in a `requirements.yaml` file.
+
 ## 5.3 Setting up Helm Repo with S3
 
 If you have charts stored on S3:
