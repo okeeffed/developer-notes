@@ -73,6 +73,15 @@ function getArray(key) {
   });
 }
 
+function getListLen(key) {
+  return new Promise((resolve, reject) => {
+    client.llen(key, (err, res) => {
+      if (err) reject(err);
+      resolve(res);
+    });
+  });
+}
+
 function pushToListEnd(key) {
   return new Promise((resolve, reject) => {
     client.rpush(key, (err, res) => {
