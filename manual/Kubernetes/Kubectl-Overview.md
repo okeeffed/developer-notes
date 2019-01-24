@@ -17,6 +17,7 @@ menu: Kubernetes
 | rs         | Replica Sets  |
 | deployment | Deployments   |
 | node       | Cluster nodes |
+| sc         | Storage Class |
 
 ### Actions 
 
