@@ -91,6 +91,12 @@ So we have `vi`, `vim` - the improved vi and `gvim`.
 | p   | Paste storage buffer after line       |
 | P   | Paste storage buffer before line      |
 
+## Undo/Redo 
+
+| Key      | What it does            |
+| -------- | ----------------------- |
+| u        | Undo the last operation |
+| ctrl + r | Redo the last undo      |
 
 ## Executing external commands
 
