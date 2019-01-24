@@ -71,7 +71,9 @@ int s = Integer.parseInt(String s);
 String[] wordArr = ["One", "Two", "Three"];
 ```
 
-## Implementing Interface
+## Interfaces
+
+A Java interface is more like an abstract class than a regular class. An interface can only contain method signatures and static final fields. An interface is merely a contract between the interface and classes that implement it. Like with abstract classes, classes that implement an interface must implement its methods’ bodies to provide functionality.
 
 ```java
 // HellWorld.java
