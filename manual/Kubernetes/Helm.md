@@ -87,7 +87,7 @@ subjects:
 ```
 
 ```shell
-kubectl create -f helm-rbac.yaml
+kubectl apply -f helm-rbac.yaml
 helm init --service-account tiller
 ```
 
