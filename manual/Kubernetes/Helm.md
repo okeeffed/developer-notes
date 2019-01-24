@@ -84,7 +84,6 @@ subjects:
   - kind: ServiceAccount
     name: tiller
     namespace: kube-system
-
 ```
 
 ```shell
