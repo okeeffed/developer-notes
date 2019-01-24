@@ -102,6 +102,8 @@ This is the recommended way to deploy applications.
 ```shell
 # creates director mychart/
 helm create mychart
+ls mychart
+# Displays Chart.yaml  charts  templates  values.yaml
 ```
 
 ## 5.3 Setting up Helm Repo with S3
