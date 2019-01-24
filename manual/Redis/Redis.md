@@ -18,7 +18,7 @@ menu: Redis
 
 ### Run local server and attach
 
-```
+```shell
 # terminal one
 redis-server /usr/local/etc/redis.conf
 # terminal two
