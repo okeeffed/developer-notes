@@ -23,7 +23,7 @@ menu: Redis
 | Command | Function                      | Example          |
 | ------- | ----------------------------- | ---------------- |
 | RPUSH   | Push elements onto a list     | RPUSH list "one" |
-| LPOP    | Pop element from last on list | LPOP list "one"  |
+| LPOP    | Pop element from last on list | LPOP list        |
 
 
 ### Run local server and attach
