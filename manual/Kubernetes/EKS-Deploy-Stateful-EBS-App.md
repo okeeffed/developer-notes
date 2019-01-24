@@ -68,3 +68,5 @@ reclaimPolicy: Retain
 mountOptions:
   - debug
 ```
+
+After applying with `kubectl`, we will have the EBS class created.
