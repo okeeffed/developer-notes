@@ -333,7 +333,9 @@ dependencies:
 
 Ensure you update the chart if you need to change the `containerPort` or env variables etc.
 
-Once the chart is up and running, you can update charts which will update the orchestration.
+Once the chart is up and running, you can update charts which will update the orchestration. Use `helm update <OPTIONS> <CHART> path/to/chart`
+
+Rollbacks can easily be done as well using `
 
 ## 5.3 Setting up Helm Repo with S3
 
