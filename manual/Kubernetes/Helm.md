@@ -337,7 +337,7 @@ Once the chart is up and running, you can update charts which will update the or
 
 Rollbacks can easily be done as well. 
 
-Use `helm history <CHART>` to get a history of deployments. Say we want to rollback to revision one, we can then just run `helm rollback <CHART> 1`.
+Use `helm history <CHART>` to get a history of deployments. Say we want to rollback to revision one, we can then just run `helm rollback <CHART> 1`. 
 
 ## 5.3 Setting up Helm Repo with S3
 
