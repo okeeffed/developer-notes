@@ -174,7 +174,7 @@ spec:
 Apply the file and we should get what we want:
 
 ```shell
-root@:~/eks-course/stateful-app# kubectl get pods
+root@root:~/eks-course/stateful-app# kubectl get pods
 NAME                              READY   STATUS              RESTARTS   AGE
 wordpress-mysql-565494758-9p4zm   0/1     ContainerCreating   0          13s
 ```
