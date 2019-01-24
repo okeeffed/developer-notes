@@ -315,6 +315,8 @@ nodeSelector: {}
 tolerations: []
 
 affinity: {}
+
+# Here you can add dependencies
 ```
 
 ## 5.3 Setting up Helm Repo with S3
