@@ -5,6 +5,20 @@ menu: Kubernetes
 
 # Deploying a stateful app
 
+- [Deploying a stateful app](#deploying-a-stateful-app)
+  - [The app](#the-app)
+    - [Frontend](#frontend)
+    - [Backend](#backend)
+  - [The EBS Volumes](#the-ebs-volumes)
+  - [Creating the Namespace](#creating-the-namespace)
+  - [Creating the storage class](#creating-the-storage-class)
+  - [Creating the persistent volume claim (PVC)](#creating-the-persistent-volume-claim-pvc)
+  - [Deploying MySQL](#deploying-mysql)
+  - [Deployment vs StatefulSet by using storageclass for EBS](#deployment-vs-statefulset-by-using-storageclass-for-ebs)
+  - [Wordpress as a Deployment](#wordpress-as-a-deployment)
+  - [Wordpress as a Stateful Set](#wordpress-as-a-stateful-set)
+  - [Cleanup of resource](#cleanup-of-resource)
+
 ## The app
 
 ![App layout](https://res.cloudinary.com/gitgoodclub/image/upload/v1548289711/eks-course/Screen_Shot_2019-01-24_at_11.28.22_am.png)
