@@ -5,6 +5,8 @@ menu: Java
 
 # Java Cheat Sheet
 
+## Basic file
+
 ```java
 // HellWorld.java
 public class HelloWorld {
@@ -12,4 +14,10 @@ public class HelloWorld {
         System.out.print("Hello, World");
     }
 }
+```
+
+## Compilation
+
+```shell
+javac HelloWorld.java
 ```
