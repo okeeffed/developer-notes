@@ -21,4 +21,6 @@ They will all access the same underlying HTML folder (therefore sharing state).
 
 ## Enabling EFS
 
-Heading to the AWS console. Head to the EFS page.
+Heading to the AWS console. Head to the EFS page and create EFS. By default, it will try attach it to whateever VPC is available.
+
+**Ensure that you attach the correct security groups that we are using for Kubernetes and not the default.**
