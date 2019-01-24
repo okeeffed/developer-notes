@@ -80,6 +80,8 @@ So we have `vi`, `vim` - the improved vi and `gvim`.
 | d)  | Delete to end of sentence     |
 | dgg | Delete to beginning of file   |
 | dG  | Delete to end of file         |
+| dd  | Delete line                   |
+
 
 ## Executing external commands
 
