@@ -4,15 +4,7 @@ menu: Vim
 ---
 # Vim
 
-<!-- TOC -->
-
-- [Vim](#vim)
-  - [Vim Packages and creating files](#vim-packages-and-creating-files)
-  - [Vim modes, navigation and commands](#vim-modes-navigation-and-commands)
-  - [Executing external commands](#executing-external-commands)
-  - [Files and buffers](#files-and-buffers)
-
-<!-- /TOC -->
+<!-- TOC -->autoauto- [Vim](#vim)auto    - [Vim Packages and creating files](#vim-packages-and-creating-files)auto    - [Vim modes, navigation and commands](#vim-modes-navigation-and-commands)auto    - [Executing external commands](#executing-external-commands)auto    - [Files and buffers](#files-and-buffers)autoauto<!-- /TOC -->
 
 ## Vim Packages and creating files
 
