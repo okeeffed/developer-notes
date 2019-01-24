@@ -39,7 +39,7 @@ Helm uses a packaging format call **charts**.
 | helm install --name myredis stable/redis        | Installs Redis chart found under myredis |
 | helm delete myredis                             | Delete Redis install named myredis       |
 | helm create `<CHART_NAME>`                      | Create your own chart                    |
-| helm update `<OPTIONS>` `<CHART>` path/to/chart | See upgrade history of chart             |
+| helm update `<OPTIONS>` `<CHART>` path/to/chart | Update the chart                         |
 | helm history `<CHART_NAME>`                     | See upgrade history of chart             |
 | helm rollback `<CHART_NAME>` `<REVISION>`       | Rollback to version                      |
 | helm list                                       | List running charts                      |
