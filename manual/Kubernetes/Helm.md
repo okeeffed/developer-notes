@@ -159,6 +159,13 @@ tolerations: []
 affinity: {}
 ```
 
+Inside the `mychart/templates` folder we have...
+
+```shell
+ls mychart/templates
+# shows NOTES.txt  _helpers.tpl  deployment.yaml  ingress.yaml  service.yaml  tests
+```
+
 ## 5.3 Setting up Helm Repo with S3
 
 If you have charts stored on S3:
