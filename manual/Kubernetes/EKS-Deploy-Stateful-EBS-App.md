@@ -320,7 +320,7 @@ spec:
 
 ## Cleanup of resource
 
-To delete all the frontend, the backend and the EBS volumes resources, run the applicable kubectl delete on all of the yaml files we have used.
+To delete all the frontend, the backend and the EBS volumes resources, run the applicable kubectl delete on all of the yaml files we have used. This should includes deployments, pods, secrets, pvcs etc.
 
 ```yaml
 kubectl delete -f NAME.yaml --namespace=ns-course
