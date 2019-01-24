@@ -105,3 +105,5 @@ spec:
     requests:
       storage: 20Gi
 ```
+
+Afte applying, we can see the pvcs there running `kubectl get pvc --namespace=<NS>`.
