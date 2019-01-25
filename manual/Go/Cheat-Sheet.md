@@ -106,12 +106,6 @@ func scope() func() int {
     return foo
 }
 
-func another_scope() func() int{
-    // won't compile because outer_var and foo not defined in this scope
-    outer_var = 444
-    return foo
-}
-
 
 // Closures
 func outer() (func() int, int) {
