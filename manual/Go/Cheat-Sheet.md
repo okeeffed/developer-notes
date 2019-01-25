@@ -51,3 +51,37 @@ var foo = 42 // type omitted, will be inferred
 foo := 42 // shorthand, only in func bodies, omit var keyword, type is always implicit
 const constant = "This is a constant"
 ```
+
+## Functions
+
+```go
+
+// a simple function
+func functionName() {}
+
+// function with parameters (again, types go after identifiers)
+func functionName(param1 string, param2 int) {}
+
+// multiple parameters of the same type
+func functionName(param1, param2 int) {}
+
+// return type declaration
+func functionName() int {
+    return 42
+}
+
+// Can return multiple values at once
+func returnMulti() (int, string) {
+    return 42, "foobar"
+}
+var x, str = returnMulti()
+
+// Return multiple named results simply by return
+func returnMulti2() (n int, s string) {
+    n = 42
+    s = "foobar"
+    // n and s will be returned
+    return
+}
+var x, str = returnMulti2()
+```
