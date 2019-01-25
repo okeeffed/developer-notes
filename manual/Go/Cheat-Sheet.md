@@ -85,3 +85,42 @@ func returnMulti2() (n int, s string) {
 }
 var x, str = returnMulti2()
 ```
+
+## Funcs as values and closures
+
+```go
+func main() {
+    // assign a function to a name
+    add := func(a, b int) int {
+        return a + b
+    }
+    // use the name to call the function
+    fmt.Println(add(3, 4))
+}
+
+// Closures, lexically scoped: Functions can access values that were
+// in scope when defining the function
+func scope() func() int{
+    outer_var := 2
+    foo := func() int { return outer_var}
+    return foo
+}
+
+func another_scope() func() int{
+    // won't compile because outer_var and foo not defined in this scope
+    outer_var = 444
+    return foo
+}
+
+
+// Closures
+func outer() (func() int, int) {
+    outer_var := 2
+    inner := func() int {
+        outer_var += 99 // outer_var from outer scope is mutated.
+        return outer_var
+    }
+    inner()
+    return inner, outer_var // return inner func and mutated outer_var 101
+}
+```
