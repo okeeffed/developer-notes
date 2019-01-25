@@ -23,3 +23,20 @@ https://github.com/a8m/go-lang-cheat-sheet
 - Has closures
 - Pointers, but not pointer arithmetic
 - Built-in concurrency primitives: Goroutines and Channels
+
+## Basics
+
+```go
+
+package main
+
+import "fmt"
+
+func main() {
+    fmt.Println("Hello Go")
+}
+```
+
+```shell
+go run hello.go
+```
