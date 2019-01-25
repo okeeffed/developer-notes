@@ -40,3 +40,14 @@ func main() {
 ```shell
 go run hello.go
 ```
+
+## Declarations
+
+```go
+var foo int // declaration without initialization
+var foo int = 42 // declaration with initialization
+var foo, bar int = 42, 1302 // declare and init multiple vars at once
+var foo = 42 // type omitted, will be inferred
+foo := 42 // shorthand, only in func bodies, omit var keyword, type is always implicit
+const constant = "This is a constant"
+```
