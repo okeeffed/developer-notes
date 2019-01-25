@@ -100,7 +100,7 @@ func main() {
 
 // Closures, lexically scoped: Functions can access values that were
 // in scope when defining the function
-func scope() func() int{
+func scope() func() int {
     outer_var := 2
     foo := func() int { return outer_var}
     return foo
