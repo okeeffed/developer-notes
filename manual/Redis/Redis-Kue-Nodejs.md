@@ -48,6 +48,36 @@ const run = async (job, done) => {
   }
 };
 
+module.exports = (app) => {
+  app.post('/', async function(req, res) {
+    try {
+      // Create a fork for a process
+      const buildJob = queue
+        .create('build', {
+          // Job Type
+          project: project, // Job Data
+          data: req.body
+        })
+        .removeOnComplete(true) // REMOVE THE JOB FROM THE QUEUE ONCE IT'S COMPLETED
+        .attempts(5) // The maximum number of retries you want the job to have
+        .backoff({ delay: 60 * 1000, type: 'exponential' }) // Time between retries. Read docs.
+        .save(); // PERSIST THE DAMN JOB LOL
+
+      buildJob.on('failed', function(errorMessage) {
+        console.log('Job failed');
+        let error = JSON.parse(errorMessage);
+        // error now contains the object passed from the worker when the job failed
+        console.log(error); // Check it out for yourself
+        // call pagerduty or whatever jazz you wanna do in case of failure
+      });
+
+      res.status(200).send('Building ' + project);
+    } catch (err) {
+      return res.status(500).send('Failed');
+    }
+  });
+};
+
 // buildWeb.js
 const run = async (data) => {
   try {
