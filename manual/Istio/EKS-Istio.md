@@ -282,6 +282,73 @@ First we need to tell Istio about the different versions that exist and how to t
 kubectl apply -f samples/bookinfo/networking/destination-rule-all.yaml
 ```
 
+```yaml
+# destination-rule-all.yaml
+apiVersion: networking.istio.io/v1alpha3
+kind: DestinationRule
+metadata:
+  name: productpage
+spec:
+  host: productpage
+  subsets:
+    - name: v1
+      labels:
+        version: v1
+---
+apiVersion: networking.istio.io/v1alpha3
+kind: DestinationRule
+metadata:
+  name: reviews
+spec:
+  host: reviews
+  subsets:
+    - name: v1
+      labels:
+        version: v1
+    - name: v2
+      labels:
+        version: v2
+    - name: v3
+      labels:
+        version: v3
+---
+apiVersion: networking.istio.io/v1alpha3
+kind: DestinationRule
+metadata:
+  name: ratings
+spec:
+  host: ratings
+  subsets:
+    - name: v1
+      labels:
+        version: v1
+    - name: v2
+      labels:
+        version: v2
+    - name: v2-mysql
+      labels:
+        version: v2-mysql
+    - name: v2-mysql-vm
+      labels:
+        version: v2-mysql-vm
+---
+apiVersion: networking.istio.io/v1alpha3
+kind: DestinationRule
+metadata:
+  name: details
+spec:
+  host: details
+  subsets:
+    - name: v1
+      labels:
+        version: v1
+    - name: v2
+      labels:
+        version: v2
+---
+
+```
+
 ![Dest rules](https://i-h1.pinimg.com/564x/e9/a7/81/e9a7819b6ed349f27d4ea0915c0665f5.jpg)
 
 With those subsets of the reviews Service defined, we can tell Istio that anyone looking to call reviews should always be directed to v1.
