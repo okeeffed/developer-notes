@@ -274,6 +274,8 @@ spec:
           number: 8080
 ```
 
+## Advanced Routing
+
 ### Mutual TLS example
 
 Create pods, services, destinationrules, virtualservices
