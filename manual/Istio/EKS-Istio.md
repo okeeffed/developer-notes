@@ -57,3 +57,15 @@ kubectl apply -f \<(istioctl kube-inject -f samples/bookinfo/platform/kube/booki
 # Expose the BookInfo with the Gateway resource
 kubectl apply -f samples/bookinfo/networking/bookinfo-gateway.yaml
 ```
+
+The following commands will locate the host and port we ultimately need to hit to access our Bookinfo application from across the internet:
+
+```shell
+$ export INGRESS_HOST=$(kubectl -n istio-system \
+get service istio-ingressgateway \
+-o jsonpath='{.status.loadBalancer.ingress[0].hostname}')
+$ export INGRESS_PORT=$(kubectl -n istio-system \
+get service istio-ingressgateway \
+-o jsonpath='{.spec.ports[?(@.name=="http2")].port}')
+$ export GATEWAY_URL=$INGRESS_HOST:$INGRESS_PORT
+```
