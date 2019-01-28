@@ -83,3 +83,5 @@ kubectl apply -f samples/bookinfo/networking/destination-rule-all.yaml
 ```
 
 ![Dest rules](https://i-h1.pinimg.com/564x/e9/a7/81/e9a7819b6ed349f27d4ea0915c0665f5.jpg)
+
+![Route changes](https://d2908q01vomqb2.cloudfront.net/ca3512f4dfa95a03169c5a670a4c91a19b3077b4/2018/08/22/istio-host-reviews.jpg)
