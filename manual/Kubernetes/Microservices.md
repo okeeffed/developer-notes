@@ -235,6 +235,44 @@ spec:
 
 After deploying and applying the Istio injection from following the above istio commands, we will see that each deploying will have an app running with it along with the sidebar.
 
+For the Istio gateway, we launch the following:
+
+```yaml
+apiVersion: networking.istio.io/v1alpha3
+kind: Gateway
+metadata:
+  name: helloworld-gateway
+spec:
+  selector:
+    istio: ingressgateway # use istio default controller
+  servers:
+  - port:
+      number: 80
+      name: http
+      protocol: HTTP
+    hosts:
+    - "*"
+---
+apiVersion: networking.istio.io/v1alpha3
+kind: VirtualService
+metadata:
+  name: helloworld
+spec:
+  hosts:
+  - "*"
+  gateways:
+  - helloworld-gateway
+  http:
+  - match:
+    - uri:
+        prefix: /hello
+    route:
+    - destination:
+        host: hello.default.svc.cluster.local
+        port:
+          number: 8080
+```
+
 ### Mutual TLS example
 
 Create pods, services, destinationrules, virtualservices
