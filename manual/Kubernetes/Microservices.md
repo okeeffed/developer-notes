@@ -1642,6 +1642,8 @@ $ kubectl edit svc jaegar-query -n istio-system # changing ClusterIP to LoadBala
 
 To find the traces, you need to find the svc **LoadBalancer** port for Jaegar Query and then you can access the web url using the port.
 
+This ports are only internal, so you would either need to expose the IP address or use `kubectl port-forward` to forward all the ports on.
+
 ## 7.11 Istio Metrics with Grafana
 
 Similar to Jaegar, you can find the Grafana service by getting the services for the Istio System.
