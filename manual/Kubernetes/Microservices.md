@@ -358,7 +358,9 @@ spec:
 
 Now, if we apply this virtual service to the service mesh, then based on whether we pass the "end-user" header or not, we will hit either v1 or v2!
 
-We can test by running `curl loadbalanceraddress.domain.com -H "host: hello.example.com"`
+We can test by running `curl loadbalanceraddress.domain.com -H "host: hello.example.com"`.
+
+For v2 we can run ``curl loadbalanceraddress.domain.com -H "host: hello.example.com" -H "end-user: John"`. 
 
 ## 7.4 Canary deployments
 
