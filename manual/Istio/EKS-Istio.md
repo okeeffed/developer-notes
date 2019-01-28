@@ -37,4 +37,5 @@ After changing in, ensure that you are using `helm` to set up.
 ```shell
 kubectl create -f install/kubernetes/helm/helm-service-account.yaml
 helm init --service-account tiller
+kubectl label namespace default istio-injection=enabled
 ```
