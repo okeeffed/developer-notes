@@ -24,3 +24,10 @@ eksctl create cluster \
     --nodes 2 \
     --ssh-public-key "~/.ssh/id_rsa.pub"
 ```
+
+Ensure you download and abstract the latest Istio release.
+
+```shell
+curl -L https://git.io/getLatestIstio | sh -
+cd istio-1.*
+```
