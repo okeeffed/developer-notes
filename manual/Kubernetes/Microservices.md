@@ -1644,6 +1644,8 @@ To find the traces, you need to find the svc **LoadBalancer** port for Jaegar Qu
 
 This ports are only internal, so you would either need to expose the IP address or use `kubectl port-forward` to forward all the ports on.
 
+To results, you'll need to use the `open-tracing` headers.
+
 ## 7.11 Istio Metrics with Grafana
 
 Similar to Jaegar, you can find the Grafana service by getting the services for the Istio System.
