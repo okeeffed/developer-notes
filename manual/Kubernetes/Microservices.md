@@ -281,6 +281,7 @@ spec:
 Thanks to Istio, we can do advanced routing based around the above diagram thanks to the Deployments having different metadata:
 
 ```yaml
+# helloworld-v2-routing
 apiVersion: networking.istio.io/v1alpha3
 kind: DestinationRule
 metadata:
