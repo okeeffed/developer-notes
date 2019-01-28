@@ -358,6 +358,8 @@ spec:
 
 Now, if we apply this virtual service to the service mesh, then based on whether we pass the "end-user" header or not, we will hit either v1 or v2!
 
+We can test by running `curl loadbalanceraddress.domain.com -H "host: hello.example.com"`
+
 ## 7.4 Canary deployments
 
 Canary deployments basically want routing mainly to the first version, but we also want some A/B testing to have version 2 having a 10% weight.
