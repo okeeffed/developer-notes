@@ -509,6 +509,8 @@ spec:
       perTryTimeout: 2s
 ```
 
+We can call `kubectl get destinationrule` etc to get and describe particular rules.
+
 ## 7.6 Mutual TLS example
 
 Create pods, services, destinationrules, virtualservices
