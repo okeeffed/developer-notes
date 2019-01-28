@@ -52,6 +52,8 @@ Note: This is not the best example of security practice. Check Helm docs for RBA
 ## Running a test application
 
 ```shell
-# From the istio folder
+# From the istio folder, apply the book info
 kubectl apply -f \<(istioctl kube-inject -f samples/bookinfo/platform/kube/bookinfo.yaml)
+# Expose the BookInfo with the Gateway resource
+kubectl apply -f samples/bookinfo/networking/bookinfo-gateway.yaml
 ```
