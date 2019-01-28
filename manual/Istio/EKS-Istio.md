@@ -99,10 +99,7 @@ Deleting the resources:
 ``shell
 kubectl delete -f samples/bookinfo/networking/bookinfo-gateway.yaml
 kubectl delete -f \<(istioctl kube-inject -f samples/bookinfo/platform/kube/bookinfo.yaml)
-helm delete \
---wait \
---name istio \
---namespace istio-system install/kubernetes/helm/istio
+helm delete --wait --name istio --namespace istio-system install/kubernetes/helm/istio
 
 ```
 
