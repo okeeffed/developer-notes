@@ -420,8 +420,6 @@ kubectl create -f <(istioctl kube-inject -f helloworld-tls.yaml)
 kubectl create -f helloworld-legacy.yaml
 ```
 
-## 7.6 Mutual TLS
-
 The goals of Istio security are:
 
 - **Security by default:** no changes needed for application code and infrastructure.
