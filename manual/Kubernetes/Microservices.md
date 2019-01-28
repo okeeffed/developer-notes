@@ -233,6 +233,8 @@ spec:
 ---
 ```
 
+After deploying and applying the Istio injection from following the above istio commands, we will see that each deploying will have an app running with it along with the sidebar.
+
 ### Mutual TLS example
 
 Create pods, services, destinationrules, virtualservices
