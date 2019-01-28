@@ -91,3 +91,20 @@ kubectl apply -f samples/bookinfo/networking/virtual-service-all-v1.yaml
 ```
 
 ![Route changes](https://d2908q01vomqb2.cloudfront.net/ca3512f4dfa95a03169c5a670a4c91a19b3077b4/2018/08/22/istio-host-reviews.jpg)
+
+## Teardown
+
+Deleting the resources:
+
+``shell
+kubectl delete -f samples/bookinfo/networking/bookinfo-gateway.yaml
+kubectl delete -f \<(istioctl kube-inject -f samples/bookinfo/platform/kube/bookinfo.yaml)
+helm delete \
+--wait \
+--name istio \
+--namespace istio-system \
+install/kubernetes/helm/istio
+
+```
+
+```
