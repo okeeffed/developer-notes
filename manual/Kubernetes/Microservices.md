@@ -112,6 +112,7 @@ kubectl apply -f helloworld-gw.yaml
 ```
 
 ```yaml
+# helloworld.yaml
 apiVersion: extensions/v1beta1
 kind: Deployment
 metadata:
