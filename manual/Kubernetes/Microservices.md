@@ -262,6 +262,7 @@ spec:
   - "*"
   gateways:
   - helloworld-gateway
+  # if we match uri /hello, then follow routing
   http:
   - match:
     - uri:
