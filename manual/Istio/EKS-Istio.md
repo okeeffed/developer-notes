@@ -69,3 +69,15 @@ get service istio-ingressgateway \
 -o jsonpath='{.spec.ports[?(@.name=="http2")].port}')
 $ export GATEWAY_URL=$INGRESS_HOST:$INGRESS_PORT
 ```
+
+## Layer 7 Routing
+
+So, let’s get things under control and pin all calls to reviews v1 for now.
+
+The Bookinfo sample has a few pre-made Istio configs we can use, and this is one of them.
+
+First we need to tell Istio about the different versions that exist and how to tell them apart (in this case, labels on the Kubernetes Deployment).
+
+```shell
+kubectl apply -f samples/bookinfo/networking/destination-rule-all.yaml
+```
