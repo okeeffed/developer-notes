@@ -406,67 +406,19 @@ spec:
       weight: 10
 ```
 
-## 7.5 Mutual TLS example
+## 7.5 Running retries 
+
+If one of the pods stop working, we can retry to another pod without the client seeing any of the issues. The example app has one of three pods running with a 5s latency but a 2s timeout to demonstrate this. It looks like the following:
+
+![Retry diagram](https://res.cloudinary.com/gitgoodclub/image/upload/v1540110459/Screen_Shot_2018-10-21_at_7.26.50_pm.png)
+
+## 7.6 Mutual TLS example
 
 Create pods, services, destinationrules, virtualservices
 ```bash
 kubectl create -f <(istioctl kube-inject -f helloworld-tls.yaml)
 kubectl create -f helloworld-legacy.yaml
 ```
-
-## 7.6 End-user authentication
-
-```bash
-kubectl create -f <(istioctl kube-inject -f helloworld-jwt.yaml)
-kubectl create -f helloworld-jwt-enable.yaml
-```
-
-If we want to access a Pod, we need to use a gateway. 
-
-```yaml
-# helloworld-gw.yaml
-apiVersion: networking.istio.io/v1alpha3
-kind: Gateway
-metadata:
-  name: helloworld-gateway
-spec:
-  selector:
-    istio: ingressgateway # use istio default controller
-  servers:
-  - port:
-      number: 80
-      name: http
-      protocol: HTTP
-    hosts:
-    - "*"
----
-apiVersion: networking.istio.io/v1alpha3
-kind: VirtualService
-metadata:
-  name: helloworld
-spec:
-  hosts:
-  - "*"
-  gateways:
-  - helloworld-gateway
-  http:
-  - match:
-    - uri:
-        prefix: /hello
-    route:
-    - destination:
-        host: hello.default.svc.cluster.local
-        port:
-          number: 8080
-```
-
-If you want a service within Istio, you will always need to define the `VirtualService`. We don't need the `VirtualService` for services that are accessed by the client.
-
-## 7.5 Running retries 
-
-If one of the pods stop working, we can retry to another pod without the client seeing any of the issues. The example app has one of three pods running with a 5s latency but a 2s timeout to demonstrate this. It looks like the following:
-
-![Retry diagram](https://res.cloudinary.com/gitgoodclub/image/upload/v1540110459/Screen_Shot_2018-10-21_at_7.26.50_pm.png)
 
 ## 7.6 Mutual TLS
 
@@ -886,7 +838,55 @@ spec:
 
 Apply this file to enable mutual TLS that works one way but not the other (as like in the diagram). However, in the above yaml files we did now enable the traffic policy, so you need to update that and apply the updated files for all of this to work.
 
-## 7.7 RBAC with Istio and MTLS
+## 7.7 End-user authentication
+
+```bash
+kubectl create -f <(istioctl kube-inject -f helloworld-jwt.yaml)
+kubectl create -f helloworld-jwt-enable.yaml
+```
+
+If we want to access a Pod, we need to use a gateway. 
+
+```yaml
+# helloworld-gw.yaml
+apiVersion: networking.istio.io/v1alpha3
+kind: Gateway
+metadata:
+  name: helloworld-gateway
+spec:
+  selector:
+    istio: ingressgateway # use istio default controller
+  servers:
+  - port:
+      number: 80
+      name: http
+      protocol: HTTP
+    hosts:
+    - "*"
+---
+apiVersion: networking.istio.io/v1alpha3
+kind: VirtualService
+metadata:
+  name: helloworld
+spec:
+  hosts:
+  - "*"
+  gateways:
+  - helloworld-gateway
+  http:
+  - match:
+    - uri:
+        prefix: /hello
+    route:
+    - destination:
+        host: hello.default.svc.cluster.local
+        port:
+          number: 8080
+```
+
+If you want a service within Istio, you will always need to define the `VirtualService`. We don't need the `VirtualService` for services that are accessed by the client.
+
+## 7.8 RBAC with Istio and MTLS
 
 Now that we have MTLS, we have strong identites.
 
@@ -1265,7 +1265,7 @@ spec:
 
 Evidently enough, it is incredibly important to ensure the routing is set up correctly so there is no large scale failure.
 
-## 7.8 End-user Authentication
+## 7.9 End-user Authentication
 
 Istio currently supports JWT tokens to authenticate users.
 
@@ -1470,7 +1470,7 @@ The example uses [this Github repo](https://github.com/wardviaene/http-echo/blob
 
 Something useful is that you can also check the logs of the Istio proxy. This can be done with `kubectl logs <% pod_name %> -c istio-proxy`.
 
-## 7.9 Istio Ingress Traffic
+## 7.10 Istio Ingress Traffic
 
 To enable ingress traffic to allow to access outside services, we can apply an external service file. The following example will allow the `ifconfig.co` hostname to be accessible from the pods.
 
