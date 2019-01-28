@@ -1631,7 +1631,7 @@ You should now be able to log into the pod to try out contacting other services.
 
 ## 7.10 Distributed Tracing with Jaegar
 
-Jaegar is automatically store in the `isto-system`. You can confirm this with the following:
+Jaegar is automatically stored in the `isto-system`. You can confirm this with the following:
 
 ```bash
 $ kubectl get pod -n istio-system # istio-tracing pod
