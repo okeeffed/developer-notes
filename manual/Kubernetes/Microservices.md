@@ -412,6 +412,103 @@ If one of the pods stop working, we can retry to another pod without the client 
 
 ![Retry diagram](https://res.cloudinary.com/gitgoodclub/image/upload/v1540110459/Screen_Shot_2018-10-21_at_7.26.50_pm.png)
 
+We can see this being done with `Hello World v3` so we can see this in action with:
+
+```yaml
+helloworld-v3.yaml
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  name: hello-v3
+spec:
+  replicas: 2
+  template:
+    metadata:
+      labels:
+        app: hello
+        version: v3
+    spec:
+      containers:
+      - name: hello
+        image: wardviaene/http-echo
+        env:
+        - name: MY_POD_NAME
+          valueFrom:
+            fieldRef:
+              fieldPath: metadata.name
+        - name: TEXT
+          value: hello, this is $(MY_POD_NAME)
+        ports:
+        - name: http
+          containerPort: 8080
+---
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  name: hello-v3-latency
+spec:
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: hello
+        version: v3
+    spec:
+      containers:
+      - name: hello
+        image: wardviaene/http-echo
+        env:
+        - name: MY_POD_NAME
+          valueFrom:
+            fieldRef:
+              fieldPath: metadata.name
+        - name: TEXT
+          value: hello, this is $(MY_POD_NAME)
+        - name: LATENCY
+          value: "5"
+        ports:
+        - name: http
+          containerPort: 8080
+---
+apiVersion: networking.istio.io/v1alpha3
+kind: DestinationRule
+metadata:
+  name: hello
+spec:
+  host: hello.default.svc.cluster.local
+  subsets:
+  - name: v1
+    labels:
+      version: v1
+  - name: v2
+    labels:
+      version: v2
+  - name: v3
+    labels:
+      version: v3
+---
+apiVersion: networking.istio.io/v1alpha3
+kind: VirtualService
+metadata:
+  name: helloworld-v3
+spec:
+  hosts:
+  - "hello-v3.example.com"
+  gateways:
+  - helloworld-gateway
+  http:
+  - route: # default route for hello.example.com
+    - destination:
+        host: hello.default.svc.cluster.local
+        subset: v3 # match v3 only
+        port:
+          number: 8080
+    timeout: 10s
+    retries:
+      attempts: 2
+      perTryTimeout: 2s
+```
+
 ## 7.6 Mutual TLS example
 
 Create pods, services, destinationrules, virtualservices
