@@ -138,6 +138,7 @@ spec:
         - name: http
           containerPort: 8080
 ---
+# Exposing a service for "hello"
 apiVersion: v1
 kind: Service
 metadata:
@@ -152,6 +153,7 @@ spec:
     port: 8080
     targetPort: 8080
 ---
+# Spinning up container for world
 apiVersion: extensions/v1beta1
 kind: Deployment
 metadata:
@@ -176,6 +178,7 @@ spec:
         - name: http
           containerPort: 8080
 ---
+# Exposing world container
 apiVersion: v1
 kind: Service
 metadata:
@@ -190,6 +193,7 @@ spec:
     port: 8080
     targetPort: 8080
 ---
+# World 2 deployment
 apiVersion: extensions/v1beta1
 kind: Deployment
 metadata:
@@ -212,6 +216,7 @@ spec:
         - name: http
           containerPort: 8080
 ---
+# Exposing service for world 2 deployment
 apiVersion: v1
 kind: Service
 metadata:
