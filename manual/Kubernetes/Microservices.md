@@ -290,6 +290,7 @@ metadata:
 spec:
   replicas: 3
   template:
+    # we use this metadata for Istio to distinguish on routes
     metadata:
       labels:
         app: hello
