@@ -274,64 +274,6 @@ spec:
           number: 8080
 ```
 
-## Advanced Routing
-
-### Mutual TLS example
-
-Create pods, services, destinationrules, virtualservices
-```bash
-kubectl create -f <(istioctl kube-inject -f helloworld-tls.yaml)
-kubectl create -f helloworld-legacy.yaml
-```
-
-### End-user authentication
-
-```bash
-kubectl create -f <(istioctl kube-inject -f helloworld-jwt.yaml)
-kubectl create -f helloworld-jwt-enable.yaml
-```
-
-If we want to access a Pod, we need to use a gateway. 
-
-```yaml
-# helloworld-gw.yaml
-apiVersion: networking.istio.io/v1alpha3
-kind: Gateway
-metadata:
-  name: helloworld-gateway
-spec:
-  selector:
-    istio: ingressgateway # use istio default controller
-  servers:
-  - port:
-      number: 80
-      name: http
-      protocol: HTTP
-    hosts:
-    - "*"
----
-apiVersion: networking.istio.io/v1alpha3
-kind: VirtualService
-metadata:
-  name: helloworld
-spec:
-  hosts:
-  - "*"
-  gateways:
-  - helloworld-gateway
-  http:
-  - match:
-    - uri:
-        prefix: /hello
-    route:
-    - destination:
-        host: hello.default.svc.cluster.local
-        port:
-          number: 8080
-```
-
-If you want a service within Istio, you will always need to define the `VirtualService`. We don't need the `VirtualService` for services that are accessed by the client.
-
 ## 7.3 Advanced Istio Routing
 
 ![Advanced Routing Setup](https://res.cloudinary.com/gitgoodclub/image/upload/v1540109060/Screen_Shot_2018-10-21_at_7.04.07_pm.png)
@@ -427,6 +369,62 @@ spec:
           number: 8080
       weight: 10
 ```
+
+## 7.5 Mutual TLS example
+
+Create pods, services, destinationrules, virtualservices
+```bash
+kubectl create -f <(istioctl kube-inject -f helloworld-tls.yaml)
+kubectl create -f helloworld-legacy.yaml
+```
+
+## 7.6 End-user authentication
+
+```bash
+kubectl create -f <(istioctl kube-inject -f helloworld-jwt.yaml)
+kubectl create -f helloworld-jwt-enable.yaml
+```
+
+If we want to access a Pod, we need to use a gateway. 
+
+```yaml
+# helloworld-gw.yaml
+apiVersion: networking.istio.io/v1alpha3
+kind: Gateway
+metadata:
+  name: helloworld-gateway
+spec:
+  selector:
+    istio: ingressgateway # use istio default controller
+  servers:
+  - port:
+      number: 80
+      name: http
+      protocol: HTTP
+    hosts:
+    - "*"
+---
+apiVersion: networking.istio.io/v1alpha3
+kind: VirtualService
+metadata:
+  name: helloworld
+spec:
+  hosts:
+  - "*"
+  gateways:
+  - helloworld-gateway
+  http:
+  - match:
+    - uri:
+        prefix: /hello
+    route:
+    - destination:
+        host: hello.default.svc.cluster.local
+        port:
+          number: 8080
+```
+
+If you want a service within Istio, you will always need to define the `VirtualService`. We don't need the `VirtualService` for services that are accessed by the client.
 
 ## 7.5 Running retries 
 
