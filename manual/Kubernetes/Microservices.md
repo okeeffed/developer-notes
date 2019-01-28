@@ -509,7 +509,7 @@ spec:
       perTryTimeout: 2s
 ```
 
-We can call `kubectl get destinationrule` etc to get and describe particular rules.
+We can also call `kubectl get destinationrule` etc to get and describe particular rules.
 
 ## 7.6 Mutual TLS example
 
