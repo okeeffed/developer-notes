@@ -53,6 +53,5 @@ Note: This is not the best example of security practice. Check Helm docs for RBA
 
 ```shell
 # From the istio folder
-kubectl apply -f \
-\<(istioctl kube-inject -f samples/bookinfo/platform/kube/bookinfo.yaml)
+kubectl apply -f \<(istioctl kube-inject -f samples/bookinfo/platform/kube/bookinfo.yaml)
 ```
