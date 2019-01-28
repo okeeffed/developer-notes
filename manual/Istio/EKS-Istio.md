@@ -102,8 +102,7 @@ kubectl delete -f \<(istioctl kube-inject -f samples/bookinfo/platform/kube/book
 helm delete \
 --wait \
 --name istio \
---namespace istio-system \
-install/kubernetes/helm/istio
+--namespace istio-system install/kubernetes/helm/istio
 
 ```
 
