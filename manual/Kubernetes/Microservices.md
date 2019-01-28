@@ -415,7 +415,7 @@ If one of the pods stop working, we can retry to another pod without the client 
 We can see this being done with `Hello World v3` so we can see this in action with:
 
 ```yaml
-helloworld-v3.yaml
+# helloworld-v3.yaml
 apiVersion: extensions/v1beta1
 kind: Deployment
 metadata:
