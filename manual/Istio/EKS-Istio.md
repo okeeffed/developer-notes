@@ -31,3 +31,10 @@ Ensure you download and abstract the latest Istio release.
 curl -L https://git.io/getLatestIstio | sh -
 cd istio-1.*
 ```
+
+After changing in, ensure that you are using `helm` to set up.
+
+```shell
+kubectl create -f install/kubernetes/helm/helm-service-account.yaml
+helm init --service-account tiller
+```
