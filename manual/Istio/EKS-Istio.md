@@ -48,3 +48,11 @@ kubectl label namespace default istio-injection=enabled
 ```
 
 Note: This is not the best example of security practice. Check Helm docs for RBAC to show you how to set up securely.
+
+## Running a test application
+
+```shell
+# From the istio folder
+kubectl apply -f \
+<(istioctl kube-inject -f samples/bookinfo/platform/kube/bookinfo.yaml)
+```
