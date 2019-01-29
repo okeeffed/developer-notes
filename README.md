@@ -6,6 +6,10 @@ These are my own personal notes and not necessarily formatted to please anyone i
 
 Note that some of these notes also cover old courses I have undertaken. If those notes are of use to you, please consider finding the original resource and contributing.
 
+## Published
+
+You can find these notes quickly thrown together using Docz here https://docs.dennisokeeffe.com/
+
 ## Note
 
 Some of the incredibly long markdown files having issues loading with Docz. Over time I will break those files down into smaller components as a fix.
