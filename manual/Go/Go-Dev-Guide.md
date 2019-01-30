@@ -141,3 +141,32 @@ We can use the `range` keyword to iterate over a slice.
 Note that there are no classes in Go.
 
 In Go, what we do is declare a new type and then create `functions with a receiver`. This is a common pattern that repeats throughout Go courses.
+
+In practice, we can update the `main.go` file with a new type we create:
+
+```go
+// main.go
+package main
+
+import "fmt"
+
+func main() {
+	cards := deck{newCard()}
+	cards = append(cards, "Six of Spades")
+
+	for i, card := range cards {
+		fmt.Println(i, card)
+	}
+}
+
+func newCard() string {
+	return "Ace of spades"
+}
+
+// deck.go
+package main
+
+// Create a new type of 'deck'
+// which is a slice of strings
+type deck []string
+```
