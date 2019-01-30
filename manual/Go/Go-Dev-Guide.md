@@ -118,3 +118,13 @@ Go has two basic structures for handling lists:
 2. Slice: an array that can grow or shrink
 
 Every slice must also be of the same type.
+
+For a slice, we create it like so:
+
+```go
+func main() {
+	cards := []string{newCard()}
+	cards = append(cards, "Six of Spades")
+	fmt.Println(cards)
+}
+```
