@@ -30,7 +30,7 @@ import "fmt"
  * Run using go -o
  */
 func main() {
-	fmt.Println("Hi there!")
+  fmt.Println("Hi there!")
 }
 ```
 
@@ -45,20 +45,20 @@ package main
 import "fmt"
 
 func main() {
-	fmt.Println("Hi there!")
+  fmt.Println("Hi there!")
 }
 
 // support.go
 package main
 
 func main() {
-	fmt.Println("Hi support!")
+  fmt.Println("Hi support!")
 }
 
 // helper.go
 package main
 
 func main() {
-	fmt.Println("Hi helper!")
+  fmt.Println("Hi helper!")
 }
 ```
