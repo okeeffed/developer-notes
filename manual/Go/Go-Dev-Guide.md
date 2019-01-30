@@ -76,5 +76,11 @@ Any executable package also needs a func called `main`.
 
 ## Variable Declarations
 
+```go
+package main
 
+func main() {
+    var card string = "Ace of spades"
+    easierCard := "Ace of hearts"
+}
 
