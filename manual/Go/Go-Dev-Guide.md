@@ -89,3 +89,21 @@ func main() {
     easierCard = "Five of Diamonds"
 }
 ```
+
+## Functions and Return Types
+
+```go
+package main
+
+import "fmt"
+
+func main() {
+  card := newCard()
+
+  fmt.Println(card)
+}
+
+func newCard() string {
+  return "Ace of spades"
+}
+```
