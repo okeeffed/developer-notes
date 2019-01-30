@@ -76,6 +76,8 @@ Any executable package also needs a func called `main`.
 
 ## Variable Declarations
 
+Variables in Go can generally be inferred from the right hand side. Linters will generally help you out with this.
+
 ```go
 package main
 
@@ -83,4 +85,4 @@ func main() {
     var card string = "Ace of spades"
     easierCard := "Ace of hearts"
 }
-
+```
