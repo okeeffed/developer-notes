@@ -128,3 +128,5 @@ func main() {
   fmt.Println(cards)
 }
 ```
+
+Note that the cards variable is immutable and a new slice is returned when we use the `append` function to add to the slice.
