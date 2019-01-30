@@ -176,3 +176,4 @@ func (d deck) print() {
 }
 ```
 
+It is important to note that if
