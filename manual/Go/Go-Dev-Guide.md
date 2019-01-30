@@ -33,3 +33,32 @@ func main() {
 	fmt.Println("Hi there!")
 }
 ```
+
+## Go Packages
+
+When you see lines like `package main`, that's like a workspace. Take for example three files
+
+```go
+// main.go
+package main
+
+import "fmt"
+
+func main() {
+	fmt.Println("Hi there!")
+}
+
+// support.go
+package main
+
+func main() {
+	fmt.Println("Hi support!")
+}
+
+// helper.go
+package main
+
+func main() {
+	fmt.Println("Hi helper!")
+}
+```
