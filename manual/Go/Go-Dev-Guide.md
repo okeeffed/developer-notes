@@ -116,3 +116,5 @@ Go has two basic structures for handling lists:
 
 1. Array: fixed length list of things
 2. Slice: an array that can grow or shrink
+
+Every slice must also be of the same type.
