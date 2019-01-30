@@ -1,7 +1,8 @@
 ---
-name: I OS Gaming Intro
-menu: I OS 
+name: iOS Gaming Intro
+menu: iOS
 ---
+
 # iOS Gaming Intro
 
 ## IOSGAME-1: Ziggity Gag using SpriteKit

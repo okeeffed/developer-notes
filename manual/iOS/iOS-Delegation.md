@@ -1,17 +1,18 @@
 ---
-name: I OS Delegation
-menu: I OS 
+name: iOS Delegation
+menu: iOS
 ---
+
 # Delegation in iOS
 
 <!-- TOC -->
 
-*   [Delegation in iOS](#delegation-in-ios)
-    *   [IOSD-1: Intro to Design Patterns](#iosd-1-intro-to-design-patterns)
-    *   [IOSD-2: Learning by example - Racing Horses](#iosd-2-learning-by-example---racing-horses)
-    *   [IOSD-3: Acting as a Delegate](#iosd-3-acting-as-a-delegate)
-    *   [IOSD-4: Examples - CLLocation Manager](#iosd-4-examples---cllocation-manager)
-    *   [IOSD-5: Examples - UITextFieldDelegate](#iosd-5-examples---uitextfielddelegate)
+- [Delegation in iOS](#delegation-in-ios)
+  - [IOSD-1: Intro to Design Patterns](#iosd-1-intro-to-design-patterns)
+  - [IOSD-2: Learning by example - Racing Horses](#iosd-2-learning-by-example---racing-horses)
+  - [IOSD-3: Acting as a Delegate](#iosd-3-acting-as-a-delegate)
+  - [IOSD-4: Examples - CLLocation Manager](#iosd-4-examples---cllocation-manager)
+  - [IOSD-5: Examples - UITextFieldDelegate](#iosd-5-examples---uitextfielddelegate)
 
 <!-- /TOC -->
 

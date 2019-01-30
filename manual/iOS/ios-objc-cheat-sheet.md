@@ -1,7 +1,8 @@
 ---
-name: Ios Objc Cheat Sheet
-menu: I OS 
+name: iOS Objc Cheat Sheet
+menu: iOS
 ---
+
 # iOS Cheat Sheet
 
 ## OBJIOS-1: Open Settings

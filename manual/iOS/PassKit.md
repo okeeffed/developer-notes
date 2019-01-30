@@ -1,19 +1,16 @@
 ---
 name: Pass Kit
-menu: I OS 
+menu: iOS
 ---
+
 # PassKit
 
-<!-- TOC -->
-
-*   [PassKit](#passkit)
-    *   [Adding the certificate](#adding-the-certificate)
-    *   [PHP Server](#php-server)
-        *   [Plan ticket example](#plan-ticket-example)
-        *   [Store card example](#store-card-example)
-    *   [More info](#more-info)
-
-<!-- /TOC -->
+- [PassKit](#passkit)
+	- [Adding the certificate](#adding-the-certificate)
+	- [PHP Server](#php-server)
+		- [Plan ticket example](#plan-ticket-example)
+		- [Store card example](#store-card-example)
+	- [More info](#more-info)
 
 ## Adding the certificate
 
