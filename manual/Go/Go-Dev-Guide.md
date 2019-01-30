@@ -149,14 +149,14 @@ In practice, we can update the `main.go` file with a new type we create:
 package main
 
 func main() {
-	cards := deck{newCard()}
-	cards = append(cards, "Six of Spades")
+  cards := deck{newCard()}
+  cards = append(cards, "Six of Spades")
 
-	cards.print()
+  cards.print()
 }
 
 func newCard() string {
-	return "Ace of spades"
+  return "Ace of spades"
 }
 
 // deck.go
@@ -169,10 +169,9 @@ import "fmt"
 type deck []string
 
 func (d deck) print() {
-	for i, card := range d {
-		fmt.Println(i, card)
-	}
+  for i, card := range d {
+    fmt.Println(i, card)
+  }
 }
-
 ```
 
