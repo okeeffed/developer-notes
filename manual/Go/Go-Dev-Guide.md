@@ -92,6 +92,8 @@ func main() {
 
 ## Functions and Return Types
 
+The patter for declaring a return type is to name that return type after a func is called.
+
 ```go
 package main
 
