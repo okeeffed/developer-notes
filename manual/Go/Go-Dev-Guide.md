@@ -58,14 +58,14 @@ func main() {
 // support.go
 package main
 
-func main() {
+func support() {
   fmt.Println("Hi support!")
 }
 
 // helper.go
 package main
 
-func main() {
+func helper() {
   fmt.Println("Hi helper!")
 }
 ```
