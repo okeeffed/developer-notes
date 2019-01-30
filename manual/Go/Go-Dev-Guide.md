@@ -74,3 +74,7 @@ How can we tell the difference between whether we are creating a `executable` or
 
 Any executable package also needs a func called `main`.
 
+## Variable Declarations
+
+
+
