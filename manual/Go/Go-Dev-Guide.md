@@ -125,7 +125,10 @@ For a slice, we create it like so:
 func main() {
   cards := []string{newCard()}
   cards = append(cards, "Six of Spades")
-  fmt.Println(cards)
+  
+  for i, card := range cards {
+    fmt.Println(i, card)
+  }
 }
 ```
 
