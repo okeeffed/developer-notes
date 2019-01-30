@@ -36,7 +36,14 @@ func main() {
 
 ## Go Packages
 
-When you see lines like `package main`, that's like a workspace. Take for example three files
+When you see lines like `package main`, that's like a workspace. 
+
+There are two types of packages in Golang: 
+
+1. Executable: Generates a file that we can run.
+2. Reuseable: Code used as "helpers" - a good place to put reusable login.
+
+Take for example three files:
 
 ```go
 // main.go
@@ -62,3 +69,4 @@ func main() {
   fmt.Println("Hi helper!")
 }
 ```
+
