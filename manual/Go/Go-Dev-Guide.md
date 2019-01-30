@@ -148,26 +148,31 @@ In practice, we can update the `main.go` file with a new type we create:
 // main.go
 package main
 
-import "fmt"
-
 func main() {
-  cards := deck{newCard()}
-  cards = append(cards, "Six of Spades")
+	cards := deck{newCard()}
+	cards = append(cards, "Six of Spades")
 
-  for i, card := range cards {
-    fmt.Println(i, card)
-  }
+	cards.print()
 }
 
 func newCard() string {
-  return "Ace of spades"
+	return "Ace of spades"
 }
 
 // deck.go
 package main
 
+import "fmt"
+
 // Create a new type of 'deck'
 // which is a slice of strings
 type deck []string
+
+func (d deck) print() {
+	for i, card := range d {
+		fmt.Println(i, card)
+	}
+}
+
 ```
 
