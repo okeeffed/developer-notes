@@ -195,6 +195,14 @@ sliceRangeThree := [2:]
 
 ```go
 func deal(d deck, handSize int) (deck, deck) {
-	
+	return d[:handSize], d[handSize:]
+}
+
+func main() {
+	cards := newDeck()
+
+	hand, remainingDeck := deal(cards, 5)
+	hand.print()
+	remainingDeck.print()
 }
 ```
