@@ -194,6 +194,7 @@ sliceRangeThree := [2:]
 ## Returning multiple values
 
 ```go
+// Use slices
 func deal(d deck, handSize int) (deck, deck) {
   return d[:handSize], d[handSize:]
 }
@@ -201,6 +202,7 @@ func deal(d deck, handSize int) (deck, deck) {
 func main() {
   cards := newDeck()
 
+  // init and assign return values
   hand, remainingDeck := deal(cards, 5)
   hand.print()
   remainingDeck.print()
