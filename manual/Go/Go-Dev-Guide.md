@@ -135,3 +135,7 @@ func main() {
 Note that the cards variable is immutable and a new slice is returned when we use the `append` function to add to the slice.
 
 We can use the `range` keyword to iterate over a slice.
+
+## Object Oriented approach vs Go approach
+
+Note that there are no classes in Go.
