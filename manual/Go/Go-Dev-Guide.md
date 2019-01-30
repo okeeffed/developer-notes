@@ -176,4 +176,4 @@ func (d deck) print() {
 }
 ```
 
-It is important to note that if
+It is important to note that if your other `package main` files are not in the `$GOPATH` that you need to include them during your run state ie `go run main.go deck.go`.
