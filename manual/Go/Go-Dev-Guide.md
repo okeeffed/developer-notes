@@ -139,3 +139,5 @@ We can use the `range` keyword to iterate over a slice.
 ## Object Oriented approach vs Go approach
 
 Note that there are no classes in Go.
+
+In Go, what we do is declare a new type and then create `functions with a receiver`.
