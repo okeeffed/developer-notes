@@ -7,10 +7,14 @@ menu: Go
 
 ## Intro to the Go CLI
 
-| Command  | Action                                 |
-| -------- | -------------------------------------- |
-| go build | Compiles go source files               |
-| go run   | Compiles and executes one or two files |
+| Command    | Action                                                  |
+| ---------- | ------------------------------------------------------- |
+| go build   | Compiles go source files                                |
+| go run     | Compiles and executes one or two files                  |
+| go fmt     | Formats all go code in current directory                |
+| go install | Compiles and "installs" a package                       |
+| go get     | Downloads the raw source code of someone else's pacakge |
+| go test    | Runs any tests associated with the current project      |
 
 ## Hello World
 
