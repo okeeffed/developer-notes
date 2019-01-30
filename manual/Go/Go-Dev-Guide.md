@@ -111,3 +111,8 @@ func newCard() string {
 ```
 
 ## Slices and For Loops
+
+Go has two basic structures for handling lists: 
+
+1. Array: fixed length list of things
+2. Slice: an array that can grow or shrink
