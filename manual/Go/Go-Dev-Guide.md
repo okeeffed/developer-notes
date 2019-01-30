@@ -109,3 +109,5 @@ func newCard() string {
   return "Ace of spades"
 }
 ```
+
+## Slices and For Loops
