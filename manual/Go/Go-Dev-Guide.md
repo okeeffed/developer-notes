@@ -171,7 +171,7 @@ type deck []string
 // Creating a receiver function
 func (d deck) print() {
   for i, card := range d {
-    fmt.Println(i, card)
+  fmt.Println(i, card)
   }
 }
 ```
@@ -195,14 +195,14 @@ sliceRangeThree := [2:]
 
 ```go
 func deal(d deck, handSize int) (deck, deck) {
-	return d[:handSize], d[handSize:]
+  return d[:handSize], d[handSize:]
 }
 
 func main() {
-	cards := newDeck()
+  cards := newDeck()
 
-	hand, remainingDeck := deal(cards, 5)
-	hand.print()
-	remainingDeck.print()
+  hand, remainingDeck := deal(cards, 5)
+  hand.print()
+  remainingDeck.print()
 }
 ```
