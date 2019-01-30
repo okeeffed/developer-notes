@@ -72,4 +72,5 @@ func helper() {
 
 How can we tell the difference between whether we are creating a `executable` or `reuseable` type of package? It actually depends on whether you use the name `package main`. If you ran `go build` and you did not use `package main`, it will not spit out an executable file.
 
-Any executable package also needs a func called main.
+Any executable package also needs a func called `main`.
+
