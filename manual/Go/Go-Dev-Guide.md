@@ -84,9 +84,9 @@ Shorthand declarations with initialisation can be done with `:=`, although it sh
 package main
 
 func main() {
-    var card string = "Ace of spades"
-    easierCard := "Ace of hearts"
-    easierCard = "Five of Diamonds"
+  var card string = "Ace of spades"
+  easierCard := "Ace of hearts"
+  easierCard = "Five of Diamonds"
 }
 ```
 
@@ -127,7 +127,7 @@ func main() {
   cards = append(cards, "Six of Spades")
   
   for i, card := range cards {
-    fmt.Println(i, card)
+  fmt.Println(i, card)
   }
 }
 ```
@@ -151,16 +151,16 @@ package main
 import "fmt"
 
 func main() {
-	cards := deck{newCard()}
-	cards = append(cards, "Six of Spades")
+  cards := deck{newCard()}
+  cards = append(cards, "Six of Spades")
 
-	for i, card := range cards {
-		fmt.Println(i, card)
-	}
+  for i, card := range cards {
+    fmt.Println(i, card)
+  }
 }
 
 func newCard() string {
-	return "Ace of spades"
+  return "Ace of spades"
 }
 
 // deck.go
@@ -170,3 +170,4 @@ package main
 // which is a slice of strings
 type deck []string
 ```
+
