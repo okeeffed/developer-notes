@@ -183,5 +183,10 @@ It is important to note that if your other `package main` files are not in the `
 ```go
 // [StartingAt : UpToButNotInclusive]
 slice := ["one", "two", "three"]
-sliceRang := slice[0:2]
+// Get "one", "two"
+sliceRange := slice[0:2]
+// Same as...
+sliceRangeTwo  := [:2]
+// Get just the last
+sliceRangeThree := [2:]
 ```
