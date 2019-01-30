@@ -70,3 +70,4 @@ func main() {
 }
 ```
 
+How can we tell the difference between whether we are creating a `executable` or `reuseable` type of package? It actually depends on whether you use the name `package main`.
