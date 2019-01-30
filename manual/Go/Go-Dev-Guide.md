@@ -209,7 +209,7 @@ func main() {
 }
 ```
 
-## Converting to bite slices
+## Converting to bite slices (type conversion)
 
 ```go
 byteSlice := []byte("Hi there")
