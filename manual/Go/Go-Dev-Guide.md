@@ -190,3 +190,11 @@ sliceRangeTwo  := [:2]
 // Get just the last
 sliceRangeThree := [2:]
 ```
+
+## Returning multiple values
+
+```go
+func deal(d deck, handSize int) (deck, deck) {
+	
+}
+```
