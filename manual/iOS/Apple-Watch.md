@@ -1,6 +1,6 @@
 ---
 name: Apple Watch
-menu: I OS 
+menu: iOS 
 ---
 # Development on Apple Watch
 
