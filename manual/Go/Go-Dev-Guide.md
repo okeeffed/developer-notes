@@ -214,3 +214,48 @@ func main() {
 ```go
 byteSlice := []byte("Hi there")
 ```
+
+## Writing to file
+
+```go
+// main.go
+package main
+
+func main() {
+  cards := newDeck()
+  cards.saveToFile("my_cards")
+}
+
+// deck.go
+
+// omit newDeck()
+func (d deck) saveToFile(filename string) error {
+   return ioutil.WriteFile(filename, []byte(d.toString()), 0666)
+}
+```
+
+## Reading from hard drive
+
+```go
+// main.go
+// main.go
+package main
+
+func main() {
+  cards := newDeckFromFile("my_cards")
+  cards.print()
+}
+
+// deck.go
+func newDeckFromFile(filename string) deck {
+	// bs = byteSlice
+	bs, err := ioutil.ReadFile(filename)
+	if err != nil {
+		fmt.Println("Error:", err)
+		os.Exit(1)
+	}
+
+	s := strings.Split(string(bs), ",")
+	return deck(s)
+}
+```
