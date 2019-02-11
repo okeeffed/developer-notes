@@ -170,3 +170,14 @@ const maxCharThree = str => {
     }
 }
 ```
+
+## Fizz Buzz
+
+```javascript
+const fizzBuzz = (i) => {
+  switch (i) {
+    case i % 3 === 0 && i % 5 === 0:
+      return 'fizzbuzz';
+  }
+};
+```
