@@ -882,11 +882,22 @@ Using this will dramatically improve runtime.
 Recursive solution with memoization:
 
 ```javascript
-const fibonacci = n => {
+const memoize(fn) {
+  const cache = {};
+  return function(...args) {
+    if (cache[args]) {
+      return cache[args];
+    }
+  }
+}
+
+const slowFibonacci = n => {
   if (n < 2) {
     return n;
   }
 
   return fib(n - 1) + fib(n - 2);
 }
+
+const fibonacci = memoize(slowFibonacci);
 ```
