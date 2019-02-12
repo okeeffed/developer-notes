@@ -864,3 +864,5 @@ The time complexity is O(2^n).
 ## Memoization
 
 Here are some of the performance characteristics of recursion vs quadratic. 
+
+For the recusive function, if we saw the tree that represents all the calls, you will see quickly that each iteration requires two more calls until we reach `fib(1)` and `fib(0)`.
