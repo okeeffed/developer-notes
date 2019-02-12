@@ -284,3 +284,5 @@ let arrayChunk = (arr, i) => {
   return chunkedArr;
 };
 ```
+
+## Anagrams
