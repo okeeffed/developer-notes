@@ -178,6 +178,12 @@ const fizzBuzz = (i) => {
   switch (i) {
     case i % 3 === 0 && i % 5 === 0:
       return 'fizzbuzz';
+    case i % 3:
+      return 'fizz';
+    case i % 5:
+      return 'buzz';
+    default:
+      return i;
   }
 };
 ```
