@@ -907,5 +907,5 @@ const slowFib = n => {
 }
 
 const fibonacci = memoize(slowFib);
-// fib = memoize(fib); // could also do this
+// fib = memoize(fib); // could also do this if we rename slowFib => fib
 ```
