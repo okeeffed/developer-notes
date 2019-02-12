@@ -627,3 +627,8 @@ let vowels = (str) => {
   return count;
 };
 ```
+
+Solution Two:
+
+```javascript
+```
