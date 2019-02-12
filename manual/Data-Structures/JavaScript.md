@@ -793,3 +793,7 @@ How can we determine complexity?
 | Two nested for loops on different collections                     | O(n*m)                                         |
 | Sorting?                                                          | O(n*log(n))                                    |
 | Searching a sorted array?                                         | O(log(n))                                      |
+
+## Space Complexity
+
+Extremely similar to performance but related to memory.
