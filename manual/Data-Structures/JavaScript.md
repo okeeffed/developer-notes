@@ -866,3 +866,5 @@ The time complexity is O(2^n).
 Here are some of the performance characteristics of recursion vs quadratic. 
 
 For the recusive function, if we saw the tree that represents all the calls, you will see quickly that each iteration requires two more calls until we reach `fib(1)` and `fib(0)`.
+
+Given the number of operations increases exponentially, we then know that it becomes `O(n^2)`. This is a massive no no.
