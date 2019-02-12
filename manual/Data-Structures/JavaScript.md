@@ -420,27 +420,18 @@ Solution four:
 
 ```javascript
 const anagrams = (strA, strB) => {
-  const charMapA = buildCharMap(strA);
-  const charMapB = buildCharMap(strB);
+  const a = cleanStr(strA);
+  const b = cleanStr(strB);
 
-  if (Object.keys(charMapA).length !== Object.keys(charMapB).length) {
-    return false;
-  }
-
-  for (let char in charMapA) {
-    if (aCharMap[char] !== bCharMap[char]) {
-      return false;
-    }
-  }
-
-  return true;
+  return a === b;
 };
 
-const buildCharMap = (str) => {
-  const charMap = {};
-  for (let char of str.replace(/[^\w]/g, '').toLowerCase()) {
-  }
-
-  return charMap;
+const cleanStr = (str) => {
+  return str
+    .replace(/[^\w]/g, '')
+    .toLowerCase()
+    .split('')
+    .sort()
+    .join('');
 };
 ```
