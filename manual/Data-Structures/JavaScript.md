@@ -898,7 +898,7 @@ const memoize(fn) {
   };
 }
 
-const slowFibonacci = n => {
+const fib = n => {
   if (n < 2) {
     return n;
   }
@@ -906,5 +906,5 @@ const slowFibonacci = n => {
   return fib(n - 1) + fib(n - 2);
 }
 
-const fibonacci = memoize(slowFibonacci);
+const fibonacci = memoize(fib);
 ```
