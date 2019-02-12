@@ -927,3 +927,5 @@ Implementing a queue in JS:
 | ----------------- | ---------------- |
 | Add to queue      | array.unshift(); |
 | Remove from queue | array.pop();     |
+
+So we could handicap an array. Why would we do that? Just to basically help hide some of the array functionality to lock it down.
