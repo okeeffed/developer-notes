@@ -385,3 +385,20 @@ const anagram = (strA, strB) => {
   return true;
 };
 ```
+
+Solution three:
+
+```javascript
+const anagrams = (strA, strB) => {
+  const charMapA = buildCharMap(strA);
+  const charMapB = buildCharMap(strB);
+};
+
+const buildCharMap = (str) => {
+  const charMap = {};
+  for (let char of str.replace(/[^\w]/g, '').toLowerCase()) {
+  }
+
+  return charMap;
+};
+```
