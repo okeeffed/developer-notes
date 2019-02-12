@@ -732,7 +732,7 @@ const capitaliseStr = (str) => {
 };
 ```
 
-For an example of exponential runtime (N^2):
+For an example of quadratic runtime (N^2):
 
 ```javascript
 const step = (n, row = 0, stair = '') => {
