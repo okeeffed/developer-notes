@@ -759,3 +759,5 @@ const step = (n, row = 0, stair = '') => {
 ```
 
 ### Determining complexity
+
+How can we determine complexity?
