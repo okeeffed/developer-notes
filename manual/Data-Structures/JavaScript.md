@@ -868,3 +868,7 @@ Here are some of the performance characteristics of recursion vs quadratic.
 For the recusive function, if we saw the tree that represents all the calls, you will see quickly that each iteration requires two more calls until we reach `fib(1)` and `fib(0)`.
 
 Given the number of operations increases exponentially, we then know that it becomes `O(n^2)`. This is a massive no no.
+
+With the first iterative solutin, we will get linear runtime. 
+
+What the interviewer wants to hear for the recursive answer is that we are wasting resources by recalling the same functions over and over (think of how often `fib(3)` might be called lower in the recursion tree when running `fib(6)`).
