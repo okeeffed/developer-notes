@@ -791,3 +791,5 @@ How can we determine complexity?
 | Sorting                                                           | O(n*log(n))                                    |
 | Two nested for loops                                              | O(n^2)                                         |
 | Two nested for loops on different collections                     | O(n*m)                                         |
+| Sorting?                                                          | O(n*log(n))                                    |
+| Searching a sorted array?                                         | O(log(n))                                      |
