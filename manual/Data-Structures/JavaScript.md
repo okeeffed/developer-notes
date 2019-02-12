@@ -713,3 +713,5 @@ let matrix = (n) => {
   return results;
 };
 ```
+
+## Runtime Complexity
