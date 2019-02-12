@@ -757,3 +757,5 @@ const step = (n, row = 0, stair = '') => {
   return step(n, row, stair);
 };
 ```
+
+### Determining complexity
