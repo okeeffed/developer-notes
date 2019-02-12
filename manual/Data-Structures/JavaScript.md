@@ -429,3 +429,5 @@ const cleanStr = (str) =>
     .sort()
     .join('');
 ```
+
+## Capitalising a sentece
