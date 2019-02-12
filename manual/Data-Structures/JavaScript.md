@@ -637,7 +637,30 @@ let vowels = (str) => {
 };
 ```
 
-## General Matrix Spirals
+## General Matrix
+
+Solution One:
+
+```javascript
+let matrix = (n) => {
+  let mat = [];
+  let count = 1;
+  for (let i = 0; i < n; i++) {
+    for (let j = 0; j < n; j++) {
+      if (j === 0) {
+        mat[i] = [];
+      }
+
+      mat[i][j] = count;
+      count++;
+    }
+  }
+
+  return mat;
+};
+```
+
+## General Matrix Spiral
 
 Solution One:
 
