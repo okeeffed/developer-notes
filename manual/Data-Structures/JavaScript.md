@@ -438,6 +438,8 @@ Easy solution for first of sentence:
 const capitaliseStr = (str) => str[0].toUpperCase() + str.slice(1);
 ```
 
+If you actually need to capitalise all sentences...
+
 First solution:
 
 ```javascript
