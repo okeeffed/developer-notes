@@ -392,6 +392,10 @@ Solution three:
 const anagrams = (strA, strB) => {
   const charMapA = buildCharMap(strA);
   const charMapB = buildCharMap(strB);
+
+  if (Object.keys(charMapA).length !== Object.keys(charMapB).length) {
+    return;
+  }
 };
 
 const buildCharMap = (str) => {
