@@ -472,6 +472,8 @@ const capitaliseStr = (str) => {
 
 ## Stepper
 
+Without a space:
+
 ```javascript
 const step = (stepper) => {
   let res = '';
@@ -479,6 +481,37 @@ const step = (stepper) => {
     let count = 0;
     while (count <= i) {
       res = res + '#';
+      count++;
+    }
+
+    if (i !== stepper - 1) {
+      res = res + '\n';
+    }
+  }
+
+  console.log(res);
+  return res;
+};
+
+module.exports = {
+  step
+};
+```
+
+With a space:
+
+```javascript
+const step = (stepper) => {
+  let res = '';
+  for (let i = 0; i < stepper; i++) {
+    let count = 0;
+    while (count <= i) {
+      res = res + '#';
+      count++;
+    }
+
+    while (count <= stepper) {
+      res = res + ' ';
       count++;
     }
 
