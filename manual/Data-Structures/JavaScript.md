@@ -771,3 +771,8 @@ How can we determine complexity?
 | Quadratic   | n^2        | Every el in a collection has to be compared to every other elements (handshake problem)                                                                 |
 | Exponential | 2^n        | If you add a "single" element to a collection, the processing power required doubles                                                                    |
 
+### Big 'O' Notation
+
+| O(n) | Linear |
+| O(1) | Constant |
+| O(n^2) | Quadratic |
