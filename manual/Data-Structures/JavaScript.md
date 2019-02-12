@@ -773,6 +773,8 @@ How can we determine complexity?
 
 ### Big 'O' Notation
 
-| O(n) | Linear |
-| O(1) | Constant |
-| O(n^2) | Quadratic |
+| Complexity | Name      |
+| ---------- | --------- |
+| O(n)       | Linear    |
+| O(1)       | Constant  |
+| O(n^2)     | Quadratic |
