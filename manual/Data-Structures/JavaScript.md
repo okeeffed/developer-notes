@@ -254,12 +254,12 @@ let arrayChunk = (arr, i) => {
   const chunkedArr = [];
   let start = 0;
   let index = 1;
-  do {
+  while (start < arr.length) {
     chunkedArr.push(arr.slice(start, index * i));
 
     start = start + i;
     index++;
-  } while (start < arr.length);
+  }
   return chunkedArr;
 };
 ```
