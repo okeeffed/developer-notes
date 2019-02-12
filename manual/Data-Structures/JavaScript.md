@@ -768,3 +768,5 @@ How can we determine complexity?
 | Logarithmic | log(n)     | You have this if doubling the number of elements you are iterating over doesn't double the amount of work. Always assume search algorithms to be log(n) |
 | Linear      | n          | Iterating through all elements in a colection of data (think arrays)                                                                                    |
 | Quasilinear | n * log(n) | You have this if doubling the number of elements you are iterating over doesn't double the amount of work. Always assume sort algorithms to be n*log(n) |
+| Quadratic   | n^2        | Every el in a collection has to be compared to every other elements (handshake problem)                                                                 |
+| Exponential | 2^n        | If you add a "single" element to a collection, the processing power required doubles                                                                    |
