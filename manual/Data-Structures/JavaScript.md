@@ -794,6 +794,6 @@ How can we determine complexity?
 | Sorting?                                                          | O(n*log(n))                                    |
 | Searching a sorted array?                                         | O(log(n))                                      |
 
-## Space Complexity
+### Space Complexity
 
 Extremely similar to performance but related to memory.
