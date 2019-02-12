@@ -263,3 +263,24 @@ let arrayChunk = (arr, i) => {
   return chunkedArr;
 };
 ```
+
+Fourth solution:
+
+```javascript
+/**
+ * Given an 1D array, chunk into 2D based on int
+ *
+ * @param {*} arr Init array
+ * @param {*} i Chunk size
+ * @returns {Object} Chunked array object
+ */
+let arrayChunk = (arr, i) => {
+  const chunkedArr = [];
+  let start = 0;
+  while (start < arr.length) {
+    chunkedArr.push(arr.slice(start, start + i));
+    start += i;
+  }
+  return chunkedArr;
+};
+```
