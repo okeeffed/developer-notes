@@ -421,12 +421,11 @@ Solution four:
 ```javascript
 const anagrams = (strA, strB) => cleanStr(strA) === cleanStr(strB);
 
-const cleanStr = (str) => {
-  return str
+const cleanStr = (str) =>
+  str
     .replace(/[^\w]/g, '')
     .toLowerCase()
     .split('')
     .sort()
     .join('');
-};
 ```
