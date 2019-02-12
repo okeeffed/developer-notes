@@ -340,9 +340,11 @@ Solution two:
 
 ```javascript
 const anagram = (strA, strB) => {
+  const filterStr = (str) => str.replace(/[^\w]/g, '').toLowerCase();
+
   // use regexp to remove spaces and grammar
-  const cmpA = strA.replace(/[^\w]/g, '').toLowerCase();
-  const cmpB = strB.replace(/[^\w]/g, '').toLowerCase();
+  const cmpA = filterStr(str);
+  const cmpB = filterStr(str);
 
   if (cmpA.length !== cmpB.length) {
     return false;
@@ -350,18 +352,17 @@ const anagram = (strA, strB) => {
 
   let charMapA = {};
   let charMapB = {};
-  for (let i in cmpA) {
-    if (!charMapA[cmpA[i]]) {
-      charMapA[cmpA[i]] = 1;
+  const mapHelper = (i, str, map) => {
+    if (!map[str[i]]) {
+      map[str[i]] = 1;
     } else {
-      charMapA[cmpA[i]] = charMapA[cmpA[i]]++;
+      map[str[i]] = map[str[i]]++;
     }
+  };
 
-    if (!charMapB[cmpB[i]]) {
-      charMapB[cmpB[i]] = 1;
-    } else {
-      charMapB[cmpB[i]] = charMapB[cmpB[i]]++;
-    }
+  for (let i in cmpA) {
+    mapHelper(i, cmpA, charMapA);
+    mapHelper(i, cmpB, charMapB);
   }
 
   const keysA = Object.keys(charMapA);
