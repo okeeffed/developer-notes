@@ -419,12 +419,7 @@ const buildCharMap = (str) => {
 Solution four:
 
 ```javascript
-const anagrams = (strA, strB) => {
-  const a = cleanStr(strA);
-  const b = cleanStr(strB);
-
-  return a === b;
-};
+const anagrams = (strA, strB) => cleanStr(strA) === cleanStr(strB);
 
 const cleanStr = (str) => {
   return str
