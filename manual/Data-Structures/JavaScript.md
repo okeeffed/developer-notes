@@ -876,3 +876,17 @@ What the interviewer wants to hear for the recursive answer is that we are wasti
 What they want to here is `memoization` - store the arguments of each function call along with the result. If the function is called again with the same arguments, return the precomputed results, rather than running the function again. 
 
 Using this will dramatically improve runtime.
+
+### Implementing memoization
+
+Recursive solution with memoization:
+
+```javascript
+const fibonacci = n => {
+  if (n < 2) {
+    return n;
+  }
+
+  return fib(n - 1) + fib(n - 2);
+}
+```
