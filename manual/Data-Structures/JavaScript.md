@@ -336,7 +336,7 @@ const anagram = (strA, strB) => {
 };
 ```
 
-Solution two:
+Solution two (basic refactor):
 
 ```javascript
 const anagram = (strA, strB) => {
