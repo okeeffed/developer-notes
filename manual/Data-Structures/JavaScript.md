@@ -860,3 +860,6 @@ We don't care of fib(0) since it comes back with zero.
 Therefore for us, we can total calls of `fib(1)` and that is how we see that we get 5 for `fib(4)`.
 
 The time complexity is O(2^n).
+
+## Memoization
+
