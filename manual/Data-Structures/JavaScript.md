@@ -228,10 +228,10 @@ Second solution:
 let arrayChunk = (arr, i) => {
   const chunkedArr = [];
   for (let el of arr) {
-    const last = chunked[chunked.length - 1];
+    const last = chunkedArr[chunkedArr.length - 1];
 
     if (!last || last.length === size) {
-      chunked.push([el]);
+      chunkedArr.push([el]);
     } else [
       last.push([el]);
     ]
