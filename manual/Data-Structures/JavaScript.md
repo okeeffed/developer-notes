@@ -817,7 +817,7 @@ const fib = n => {
 }
 ```
 
-Recursive solution:
+Recursive solution one:
 
 ```javascript
 const fibonacci = (n, iter = 0, value = 1, prev = 0) => {
@@ -835,4 +835,16 @@ const fibonacci = (n, iter = 0, value = 1, prev = 0) => {
 
     return value;
 };
+```
+
+Recursive solution two:
+
+```javascript
+const fibonacci = n => {
+  if (n < 2) {
+    return n;
+  }
+
+  return fib(n - 1) + fib(n - 2);
+}
 ```
