@@ -441,11 +441,13 @@ const capitaliseStr = (str) => str[0].toUpperCase() + str.slice(1);
 First solution:
 
 ```javascript
-const arr = str.split(' ');
+const capitaliseStr = (str) => {
+  const arr = str.split(' ');
 
-return arr
-  .map((str) => {
-    return str[0].toUpperCase() + str.slice(1);
-  })
-  .join(' ');
+  return arr
+    .map((str) => {
+      return str[0].toUpperCase() + str.slice(1);
+    })
+    .join(' ');
+};
 ```
