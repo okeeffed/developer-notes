@@ -889,7 +889,8 @@ const memoize(fn) {
       return cache[args];
     }
 
-    // NOTE: apply is integral - check MDN if you don't know how it works https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/apply
+    // NOTE: apply is integral - check MDN if you don't know how it works 
+    // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/apply
     const result = fn.apply(this, args);
     cache[args] = result;
 
