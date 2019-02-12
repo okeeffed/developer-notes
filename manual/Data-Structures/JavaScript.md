@@ -409,6 +409,36 @@ const anagrams = (strA, strB) => {
 const buildCharMap = (str) => {
   const charMap = {};
   for (let char of str.replace(/[^\w]/g, '').toLowerCase()) {
+    charMap[char] = charMap[char] + 1 || 1;
+  }
+
+  return charMap;
+};
+```
+
+Solution four:
+
+```javascript
+const anagrams = (strA, strB) => {
+  const charMapA = buildCharMap(strA);
+  const charMapB = buildCharMap(strB);
+
+  if (Object.keys(charMapA).length !== Object.keys(charMapB).length) {
+    return false;
+  }
+
+  for (let char in charMapA) {
+    if (aCharMap[char] !== bCharMap[char]) {
+      return false;
+    }
+  }
+
+  return true;
+};
+
+const buildCharMap = (str) => {
+  const charMap = {};
+  for (let char of str.replace(/[^\w]/g, '').toLowerCase()) {
   }
 
   return charMap;
