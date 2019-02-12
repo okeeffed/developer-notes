@@ -778,3 +778,6 @@ How can we determine complexity?
 | O(n)       | Linear    |
 | O(1)       | Constant  |
 | O(n^2)     | Quadratic |
+
+### Common Complexities
+
