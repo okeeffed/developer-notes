@@ -396,6 +396,12 @@ const anagrams = (strA, strB) => {
   if (Object.keys(charMapA).length !== Object.keys(charMapB).length) {
     return false;
   }
+
+  for (let char in charMapA) {
+    if (aCharMap[char] !== bCharMap[char]) {
+      return false;
+    }
+  }
 };
 
 const buildCharMap = (str) => {
