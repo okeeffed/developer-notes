@@ -907,4 +907,5 @@ const fib = n => {
 }
 
 const fibonacci = memoize(fib);
+// fib = memoize(fib); // could also do this
 ```
