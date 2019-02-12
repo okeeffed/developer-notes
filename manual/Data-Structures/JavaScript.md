@@ -920,3 +920,10 @@ Data structures are all about runtime complexity:
 ## Queueing 
 
 Enqueing: push to back, dequeueing: pop from top.
+
+Implementing a queue in JS:
+
+| Queue             | Array equivalent |
+| ----------------- | ---------------- |
+| Add to queue      | array.unshift(); |
+| Remove from queue | array.pop();     |
