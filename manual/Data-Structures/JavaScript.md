@@ -616,7 +616,7 @@ Solution One:
 ```javascript
 let vowels = (str) => {
   let count = 0;
-  // could also just use 'aeiou'
+  // could also just use vowels = 'aeiou'
   const vowels = ['a', 'e', 'i', 'o', 'u'];
   for (let char of str) {
     if (vowels.includes(char)) {
