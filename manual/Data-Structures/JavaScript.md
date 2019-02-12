@@ -466,5 +466,6 @@ const capitaliseStr = (str) => {
       res = res + str[i];
     }
   }
+  return res;
 };
 ```
