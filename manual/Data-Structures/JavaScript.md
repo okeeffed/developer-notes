@@ -761,3 +761,8 @@ const step = (n, row = 0, stair = '') => {
 ### Determining complexity
 
 How can we determine complexity?
+
+| Time        | Value  | Definition                                                                                                                                              |
+| ----------- | ------ | ------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Constant    | 1      | No mantter how many elements we're working with, the algorithm/operation/whatever will always take the same amount of time                              |
+| Logarithmic | log(n) | You have this if doubling the number of elements you are iterating over doesn't double the amount of work. Always assume search algorithms to be log(n) |
