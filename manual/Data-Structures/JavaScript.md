@@ -190,6 +190,8 @@ let fizzBuzz = (i) => {
 
 ## Array Chunk Problem
 
+One solution:
+
 ```javascript
 /**
  * Given an 1D array, chunk into 2D based on int
@@ -209,6 +211,31 @@ let arrayChunk = (arr, i) => {
     }
   });
 
+  return chunkedArr;
+};
+```
+
+Second solution:
+
+```javascript
+/**
+ * Given an 1D array, chunk into 2D based on int
+ *
+ * @param {*} arr Init array
+ * @param {*} i Chunk size
+ * @returns {Object} Chunked array object
+ */
+let arrayChunk = (arr, i) => {
+  const chunkedArr = [];
+  for (let el of arr) {
+    const last = chunked[chunked.length - 1];
+
+    if (!last || last.length === size) {
+      chunked.push([el]);
+    } else [
+      last.push([el]);
+    ]
+  }
   return chunkedArr;
 };
 ```
