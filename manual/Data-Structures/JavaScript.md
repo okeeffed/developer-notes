@@ -848,3 +848,7 @@ const fibonacci = n => {
   return fib(n - 1) + fib(n - 2);
 }
 ```
+
+To get the complexity of the Fibonacci sequence, we need to think about how all the totals come together for the return calls.
+
+![Complexity for recursive Fibonacci](https://res.cloudinary.com/gitgoodclub/image/upload/v1550011633/developer-notes/Screen_Shot_2019-02-13_at_9.46.05_am.png)
