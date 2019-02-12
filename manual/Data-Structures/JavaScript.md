@@ -888,7 +888,11 @@ const memoize(fn) {
     if (cache[args]) {
       return cache[args];
     }
-  }
+
+    // NOTE: apply is integral - check MDN if you don't know how it works.
+    const results = fn.apply(this, args);
+    cache[args] = results;
+  };
 }
 
 const slowFibonacci = n => {
