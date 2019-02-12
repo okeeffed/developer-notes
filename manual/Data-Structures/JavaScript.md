@@ -863,3 +863,4 @@ The time complexity is O(2^n).
 
 ## Memoization
 
+Here are some of the performance characteristics of recursion vs quadratic. 
