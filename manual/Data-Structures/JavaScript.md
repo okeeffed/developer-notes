@@ -453,3 +453,8 @@ const capitaliseStr = (str) => {
     .join(' ');
 };
 ```
+
+Second solution:
+
+```javascript
+```
