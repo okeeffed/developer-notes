@@ -788,4 +788,4 @@ How can we determine complexity?
 | Iterating through 2 different collections with separate for loops | O(n + m)                                       |
 | Two nested for loops iterating over the same collection?          | O(n^2)                                         |
 | Two nested for loops iterating over different collections?        | O(n*m)                                         |
-| Sorting                                                           | O(n*log(n)                                     |
+| Sorting                                                           | O(n*log(n))                                    |
