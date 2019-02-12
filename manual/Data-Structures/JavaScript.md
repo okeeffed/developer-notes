@@ -555,4 +555,6 @@ const step = (n, row = 0, stair = '') => {
 };
 ```
 
-## Pyramids vs Steps
+## Pyramids
+
+Solution One:
