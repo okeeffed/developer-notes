@@ -919,4 +919,4 @@ Data structures are all about runtime complexity:
 
 ## Queueing 
 
-Enqueing: push, dequeueing: pop.
+Enqueing: push to back, dequeueing: pop from top.
