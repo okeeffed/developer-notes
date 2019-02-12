@@ -851,4 +851,10 @@ const fibonacci = n => {
 
 To get the complexity of the Fibonacci sequence, we need to think about how all the totals come together for the return calls.
 
-![Complexity for recursive Fibonacci](https://res.cloudinary.com/gitgoodclub/image/upload/v1550011633/developer-notes/Screen_Shot_2019-02-13_at_9.46.05_am.png)
+![Fibonacci tree](https://res.cloudinary.com/gitgoodclub/image/upload/v1550011633/developer-notes/Screen_Shot_2019-02-13_at_9.46.05_am.png)
+
+We don't care of fib(0) since it comes back with zero.
+
+![Remove fib(0)](https://res.cloudinary.com/gitgoodclub/image/upload/v1550011724/developer-notes/Screen_Shot_2019-02-13_at_9.48.20_am.png)
+
+Therefore for us, we can total calls of `fib(1)` and that is how we see that we get 5 for `fib(4)`
