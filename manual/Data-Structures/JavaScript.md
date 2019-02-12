@@ -608,3 +608,21 @@ const pyramid = (n, row = 0, level = '') => {
   return pyramid(n, row, level + add);
 };
 ```
+
+## Vowel Counting
+
+Solution One:
+
+```javascript
+let vowels = (str) => {
+  let count = 0;
+  const vowels = ['a', 'e', 'i', 'o', 'u'];
+  for (let char of str) {
+    if (vowels.includes(char)) {
+      count++;
+    }
+  }
+
+  return count;
+};
+```
