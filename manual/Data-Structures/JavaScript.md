@@ -402,6 +402,8 @@ const anagrams = (strA, strB) => {
       return false;
     }
   }
+
+  return true;
 };
 
 const buildCharMap = (str) => {
