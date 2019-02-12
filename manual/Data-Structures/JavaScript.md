@@ -800,6 +800,25 @@ Extremely similar to performance but related to memory.
 
 ## Fibonacci
 
+First solution:
+
+```javascript
+const fib = n => {
+  const result = [0,1];
+
+  for (let i = 2; i <= n; i++) {
+    const a = result[result.length -1];
+    const b = result[result.length -2];
+
+    result.push(a + b);
+  }
+
+  return result[n];
+}
+```
+
+Recursive solution:
+
 ```javascript
 const fibonacci = (n, iter = 0, value = 1, prev = 0) => {
     // 0, 1, 1, 2, 3, 5 ... handle base cases
