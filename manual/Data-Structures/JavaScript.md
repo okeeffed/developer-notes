@@ -779,7 +779,7 @@ How can we determine complexity?
 | O(1)       | Constant  |
 | O(n^2)     | Quadratic |
 
-### Common Complexities
+### Common Complexities (Runtime)
 
 | Example                                                           | Likely complexity                              |
 | ----------------------------------------------------------------- | ---------------------------------------------- |
