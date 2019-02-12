@@ -558,3 +558,49 @@ const step = (n, row = 0, stair = '') => {
 ## Pyramids
 
 Solution One:
+
+```javascript
+const pyramid = (n) => {
+  const midpoint = Math.floor((2 * n - 1) / 2);
+  let level = '';
+  for (let row = 0; row < n; row++) {
+    for (let column = 0; column < 2 * n - 1; column++) {
+      if (midpoint - row <= column && midpoint + row >= column) {
+        level += '#';
+      } else {
+        level += ' ';
+      }
+
+      if (column === 2 * n - 2) {
+        level += '\n';
+      }
+    }
+  }
+
+  return level;
+};
+```
+
+Solution with recursion:
+
+```javascript
+const pyramid = (n) => {
+  const midpoint = Math.floor((2 * n - 1) / 2);
+  let level = '';
+  for (let row = 0; row < n; row++) {
+    for (let column = 0; column < 2 * n - 1; column++) {
+      if (midpoint - row <= column && midpoint + row >= column) {
+        level += '#';
+      } else {
+        level += ' ';
+      }
+
+      if (column === 2 * n - 2) {
+        level += '\n';
+      }
+    }
+  }
+
+  return level;
+};
+```
