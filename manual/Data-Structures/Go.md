@@ -11,13 +11,13 @@ menu: Data Structures
 func fizzBuzz(i int) string {
   switch true {
   case i%3 == 0 && i%5 == 0:
-    return "fizzbuzz"
+  return "fizzbuzz"
   case i%3 == 0:
-    return "fizz"
+  return "fizz"
   case i%5 == 0:
-    return "buzz"
+  return "buzz"
   default:
-    return strconv.Itoa(i)
+  return strconv.Itoa(i)
   }
 }
 ```
@@ -26,23 +26,23 @@ func fizzBuzz(i int) string {
 
 ```go
 func arrayChunk(arr []int, size int) [][]int {
-	if len(arr) <= 0 {
-		return nil
-	}
+  if len(arr) <= 0 {
+    return nil
+  }
 
-	var tmp []int
-	var chunkedArr [][]int
-	for i, item := range arr {
-		tmp = append(tmp, item)
+  var tmp []int
+  var chunkedArr [][]int
+  for i, item := range arr {
+    tmp = append(tmp, item)
 
-		isFinal := len(arr)-1 == i
-		if i%size == size-1 || isFinal {
-			fmt.Printf("%v", tmp)
-			chunkedArr = append(chunkedArr, tmp)
-			tmp = nil
-		}
-	}
+    isFinal := len(arr)-1 == i
+    if i%size == size-1 || isFinal {
+      fmt.Printf("%v", tmp)
+      chunkedArr = append(chunkedArr, tmp)
+      tmp = nil
+    }
+  }
 
-	return chunkedArr
+  return chunkedArr
 }
 ```
