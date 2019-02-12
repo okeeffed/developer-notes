@@ -432,8 +432,20 @@ const cleanStr = (str) =>
 
 ## Capitalising a sentece
 
-Easy solution:
+Easy solution for first of sentence:
 
 ```javascript
 const capitaliseStr = (str) => str[0].toUpperCase() + str.slice(1);
+```
+
+First solution:
+
+```javascript
+const arr = str.split(' ');
+
+return arr
+  .map((str) => {
+    return str[0].toUpperCase() + str.slice(1);
+  })
+  .join(' ');
 ```
