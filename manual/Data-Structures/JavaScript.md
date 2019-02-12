@@ -872,3 +872,5 @@ Given the number of operations increases exponentially, we then know that it bec
 With the first iterative solutin, we will get linear runtime. 
 
 What the interviewer wants to hear for the recursive answer is that we are wasting resources by recalling the same functions over and over (think of how often `fib(3)` might be called lower in the recursion tree when running `fib(6)`).
+
+What they want to here is `memoization` - store the arguments of each function call along with the result. If the function is called again with the same arguments, return the precomputed results, rather than running the function again.
