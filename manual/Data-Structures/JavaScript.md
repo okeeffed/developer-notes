@@ -174,7 +174,7 @@ const maxCharThree = str => {
 ## Fizz Buzz
 
 ```javascript
-const fizzBuzz = (i) => {
+let fizzBuzz = (i) => {
   switch (true) {
     case i % 3 === 0 && i % 5 === 0:
       return 'fizzbuzz';
