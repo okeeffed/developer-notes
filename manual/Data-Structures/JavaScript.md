@@ -857,4 +857,6 @@ We don't care of fib(0) since it comes back with zero.
 
 ![Remove fib(0)](https://res.cloudinary.com/gitgoodclub/image/upload/v1550011724/developer-notes/Screen_Shot_2019-02-13_at_9.48.20_am.png)
 
-Therefore for us, we can total calls of `fib(1)` and that is how we see that we get 5 for `fib(4)`
+Therefore for us, we can total calls of `fib(1)` and that is how we see that we get 5 for `fib(4)`.
+
+The time complexity is O(2^n).
