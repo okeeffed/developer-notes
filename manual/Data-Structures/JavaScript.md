@@ -911,3 +911,5 @@ const fibonacci = memoize(slowFib);
 ```
 
 ## What's a data structure?
+
+Data structures are all about runtime complexity.
