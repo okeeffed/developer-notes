@@ -1503,7 +1503,15 @@ class Node {
    * Given some data, create a new node and add it to the current node's 'children' array
    */
   add(data) {
-    this.children.push
+    const node = new Node(data);
+    this.children.push(node);
+  }
+
+  /**
+   * Given ome data, look at each child of the current node and remove any node with data === data
+   */
+  remove() {
+
   }
 }
 
