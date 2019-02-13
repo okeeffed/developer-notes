@@ -1445,6 +1445,8 @@ const midpoint = list => {
 
 ## Detecting Linked List Loops
 
+How can you detect if a linked list has a circular reference?
+
 ```javascript
 const circular = list => {
   let slow = list.getFirst();
@@ -1462,3 +1464,6 @@ const circular = list => {
   return false;
 }
 ```
+
+## From last
+
