@@ -1059,5 +1059,5 @@ while (s1.peek()) {
 }
 
 // now to act as if it is FIFO
-s2.pop();
+s2.pop(); // gets out green
 ```
