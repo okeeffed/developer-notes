@@ -1363,3 +1363,14 @@ for (let value of generator) {
 
 console.log(values); // [1,2,3,4,5,6,7]
 ```
+
+A practical example:
+
+```javascript
+class Tree {
+  constructor(value = null, children = []) {
+    this.value = value;
+    this.children = children;
+  }
+}
+```
