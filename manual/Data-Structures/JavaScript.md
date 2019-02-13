@@ -1513,7 +1513,13 @@ class Node {
     this.children = this.children.filter(node => node.data !== data);
   }
 }
+```
 
+For the tree class, we want a constructor with root set to null.
+
+We then want a `traverseBFS` and `traverseDFS` method.
+
+```javascript
 class Tree {
 
 }
