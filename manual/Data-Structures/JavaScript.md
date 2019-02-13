@@ -1103,3 +1103,5 @@ class Queue {
   }
 }
 ```
+
+To clarify with the above challenge, it's to go A => StackA => StackB and back treating both the stacks as a queue.
