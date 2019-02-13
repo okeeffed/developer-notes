@@ -1519,7 +1519,11 @@ For the tree class, we want a constructor with root set to null.
 
 We then want a `traverseBFS` and `traverseDFS` method.
 
-Note: Practical reasoning for BFS vs DFS. Example one includes a tree of the position hierarchy of a company.
+Note: Practical reasoning for BFS vs DFS. 
+
+BFS example includes a tree of the position hierarchy of a company and wanting to print a tree of positions given importance. 
+
+DFS example.
 
 ```javascript
 class Tree {
