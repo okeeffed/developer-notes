@@ -1032,3 +1032,4 @@ class Stack {
     return this.data[0];
   }
 }
+```
