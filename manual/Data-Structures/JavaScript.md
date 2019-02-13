@@ -1538,7 +1538,7 @@ class Tree {
     // start at root
     // check if children
     // if children, iterate through and recall function 
-
+    
   }
 
   traverseDFS(fn) {
