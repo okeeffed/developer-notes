@@ -1494,7 +1494,17 @@ A node class should have a data property, add method and remove method.
 
 ```javascript
 class Node {
-  conn
+  constructor(data) {
+    this.data = data;
+    this.children = [];
+  }
+
+  /**
+   * Given some data, create a new node and add it to the current node's 'children' array
+   */
+  add(data) {
+    this.children.push
+  }
 }
 
 class Tree {
