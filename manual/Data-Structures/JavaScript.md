@@ -1425,3 +1425,15 @@ for (let node of list) {
 }
 ```
 
+## Midpoint of a Linked List
+
+1. Get list length / 2 but fetch the roof.
+
+```javascript
+if (!list.head) {
+  return;
+}
+
+let node = list.head;
+
+```
