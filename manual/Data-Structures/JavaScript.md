@@ -1489,3 +1489,15 @@ const fromLast = (list, n) => {
 ## Trees Overview
 
 Two basics ways we will go through the trees. Depth First Search and Breadth First Search.
+
+A node class should have a data property, add method and remove method.
+
+```javascript
+class Node {
+  conn
+}
+
+class Tree {
+
+}
+```
