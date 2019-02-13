@@ -1007,3 +1007,6 @@ const runWeave = (qOne, qTwo) => {
     return weave;
 }
 ```
+
+## Stacks
+
