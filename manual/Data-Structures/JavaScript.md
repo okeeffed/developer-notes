@@ -979,6 +979,11 @@ export default class Queue {
   }
 }
 
+import Queue from 'path/to/file';
 // using weave
-function 
+function weave(srcOne, srcTwo) {
+  const q = new Queue();
+}
+
+module.exports = weave;
 ```
