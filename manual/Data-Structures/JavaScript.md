@@ -1014,3 +1014,21 @@ Stack is like a push pop implementation of records. It is `First in, Last out`.
 
 ![Stack implemntation](https://res.cloudinary.com/gitgoodclub/image/upload/v1550020065/developer-notes/Screen_Shot_2019-02-13_at_12.07.28_pm.png)
 
+```javascript
+class Stack {
+  constructor() {
+    this.data = [];
+  }
+
+  push(record) {
+    this.data.unshift(record);
+  }
+
+  pop() {
+    return this.data.shift();
+  }
+
+  peek() {
+    return this.data[0];
+  }
+}
