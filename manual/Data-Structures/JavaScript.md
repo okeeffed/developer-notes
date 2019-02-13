@@ -1112,3 +1112,14 @@ To clarify with the above challenge, it's to go A => StackA => StackB and back t
 
 A node generally contains data and a reference to the next node and the linked list is the collections of nodes linked to each other.
 
+```javascript
+const nodeOne = {
+  data: 123
+}
+
+const nodeTwo = {
+  data: 456
+}
+
+nodeOne.next = nodeTwo;
+```
