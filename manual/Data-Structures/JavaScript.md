@@ -1418,4 +1418,10 @@ class LinkedList {
         }
     }
 }
+
+// in use assuming we have a LinkedList object list
+for (let node of list) {
+  console.log(node.data);
+}
 ```
+
