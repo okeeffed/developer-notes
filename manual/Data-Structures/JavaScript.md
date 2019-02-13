@@ -1091,8 +1091,14 @@ class Queue {
       while (this.first.peek()) {
         this.second.push(this.first.pop());
       }
-      
-      return this.second[this.second.length-1];
+
+      const record = this.second.peek();
+
+      while (this.second.peek()) {
+        this.first.push(this.second.pop());
+      }
+
+      return record;
     }
   }
 }
