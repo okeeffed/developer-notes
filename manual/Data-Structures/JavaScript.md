@@ -1470,5 +1470,13 @@ const circular = list => {
 Given linked list and int n, return el `n` spaces from the last node in the list. Do not call the size method. Always assume that nwill be less than the length of the list.
 
 ```javascript
+const fromLast = (list, n) => {
+  let slow = list.getFirst();
+  let fast = list.getFirst();
 
+  while (fast.next && fast.next.next) {
+    slow = slow.next;
+    fast = fast.next.next;
+  }
+}
 ```
