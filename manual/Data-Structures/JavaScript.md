@@ -1538,7 +1538,11 @@ class Tree {
     // start at root
     // check if children
     // if children, iterate through and recall function 
-    
+    const arr = [this.root];
+    while (arr.length) {
+      const node = arr.shift();
+      arr.push(...node.children);
+    }
   }
 
   traverseDFS(fn) {
