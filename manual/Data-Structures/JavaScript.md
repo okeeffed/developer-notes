@@ -867,7 +867,7 @@ Here are some of the performance characteristics of recursion vs quadratic.
 
 For the recusive function, if we saw the tree that represents all the calls, you will see quickly that each iteration requires two more calls until we reach `fib(1)` and `fib(0)`.
 
-Given the number of operations increases exponentially, we then know that it becomes `O(n^2)`. This is a massive no no.
+Given the number of operations increases exponentially, we then know that it becomes `O(2^n)`. This is a massive no no.
 
 With the first iterative solutin, we will get linear runtime. 
 
@@ -929,3 +929,19 @@ Implementing a queue in JS:
 | Remove from queue | array.pop();     |
 
 So we could handicap an array. Why would we do that? Just to basically help hide some of the array functionality to lock it down.
+
+```javascript
+export default class Queue {
+  constructor() {
+    this.data = [];
+  }
+
+  add(record) {
+    this.data.unshift(record);
+  }
+
+  remove() {
+    return this.data.pop();
+  }
+}
+```
