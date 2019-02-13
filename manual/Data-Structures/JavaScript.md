@@ -1088,6 +1088,10 @@ class Queue {
     }
 
     peek() {
+      while (this.first.peek()) {
+        this.second.push(this.first.pop());
+      }
+      
       return this.second[this.second.length-1];
     }
   }
