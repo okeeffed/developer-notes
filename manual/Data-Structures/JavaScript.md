@@ -1376,7 +1376,7 @@ class Tree {
   *printValues() {
     yield this.value;
     for (let child of this.children) {
-      yield* children.printValues();
+      yield* child.printValues();
     }
   }
 }
