@@ -1110,3 +1110,4 @@ To clarify with the above challenge, it's to go A => StackA => StackB and back t
 
 ![Basic singularly linked list](https://res.cloudinary.com/gitgoodclub/image/upload/v1550023986/developer-notes/Screen_Shot_2019-02-13_at_1.12.51_pm.png)
 
+A node generally contains data and a reference to the next node and the linked list is the collections of nodes linked to each other.
