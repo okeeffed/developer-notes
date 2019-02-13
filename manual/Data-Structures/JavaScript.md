@@ -1445,3 +1445,19 @@ const midpoint = list => {
 
 ## Detecting Linked List Loops
 
+```javascript
+const circular = list => {
+  let slow = list.getFirst();
+  let fast = list.getFirst();
+
+  while (fast.next && fast.next.next) {
+    if (slow === fast) {
+      return true;
+    }
+    slow = slow.next;
+    fast = fast.next.next;
+  }
+
+  return false;
+}
+```
