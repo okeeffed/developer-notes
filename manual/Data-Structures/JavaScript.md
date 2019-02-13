@@ -1033,3 +1033,18 @@ class Stack {
   }
 }
 ```
+
+## Queue from Stacks
+
+Using two stacks, can we emulate a queue?
+
+```javascript
+const Stack = require('stack');
+const Queue = require('queue');
+
+const s1 = new Stack();
+const s2 = new Stack();
+
+const q = new Queue();
+
+```
