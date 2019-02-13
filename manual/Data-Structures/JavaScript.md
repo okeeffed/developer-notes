@@ -1467,3 +1467,4 @@ const circular = list => {
 
 ## From last
 
+Given linked list and int n, return el n spaces from the last node in the list. Do not call the size method. Always assume that nwill be less than the length of the list.
