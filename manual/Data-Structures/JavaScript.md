@@ -1530,8 +1530,14 @@ class Tree {
   constructor() {
     this.root = null;
   }
-
+  
+  /**
+   * (node) => // do something with node
+   */
   traverseBFS(fn) {
+    // start at root
+    // check if children
+    // if children, iterate through and recall function 
 
   }
 
