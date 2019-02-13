@@ -1372,5 +1372,14 @@ class Tree {
     this.value = value;
     this.children = children;
   }
+
+  *printValues() {
+    yield this.value;
+  }
 }
+
+const tree = new Tree(1, [
+  new Tree(2, [new Tree(4)]),
+  new Tree(3)
+])
 ```
