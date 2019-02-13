@@ -1047,4 +1047,17 @@ const s2 = new Stack();
 
 const q = new Queue();
 
+const base = ['green', 'blue', 'red'];
+// start with ['green', 'blue', 'red']
+// act as if we were queueing to get green out first
+while (base.length > 0) {
+  s1.push(base.unshift());
+}
+
+while (s1.peek()) {
+  s2.push(s1.pop());
+}
+
+// now to act as if it is FIFO
+s2.pop();
 ```
