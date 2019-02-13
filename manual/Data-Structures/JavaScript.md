@@ -1442,3 +1442,6 @@ const midpoint = list => {
   return slow;
 }
 ```
+
+## Detecting Linked List Loops
+
