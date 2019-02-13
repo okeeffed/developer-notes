@@ -1559,3 +1559,5 @@ class Tree {
   }
 }
 ```
+
+## Level width
