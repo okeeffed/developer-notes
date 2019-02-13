@@ -1083,6 +1083,8 @@ class Queue {
       while (this.second.peek()) {
         this.first.push(this.second.pop());
       }
+
+      return record;
     }
 
     peek() {
