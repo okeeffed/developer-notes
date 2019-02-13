@@ -1404,7 +1404,7 @@ class LinkedList {
     }
 
     // ... other methods
-    
+
     /**
      * This will allow us to use a for/of loop with our linked list.
      *
