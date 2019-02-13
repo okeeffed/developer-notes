@@ -957,6 +957,8 @@ const nextInQ = q.remove();
 
 Weave receives two queues as arguments and combines the contents of each into a new, third queue. The third queue should contain the `alterating` content of the two queues. The function should handle queues of different lengths without inserting `undefined` into the new one.
 
+Image you have queue one `[1,2,3]` and queue two `'hello', 'world', '!` then we want to have `[1, 'hello', 2, 'world', 3, '!']`.
+
 ```javascript
 // first, update queue
 export default class Queue {
@@ -977,10 +979,6 @@ export default class Queue {
   }
 }
 
-// another file 
-import Queue from 'path/to/file';
-const q = new Queue();
-
-q.add({foo: 'bar'});
-const nextInQ = q.remove();
+// using weave
+function 
 ```
