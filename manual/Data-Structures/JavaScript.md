@@ -1061,3 +1061,29 @@ while (s1.peek()) {
 // now to act as if it is FIFO
 s2.pop(); // gets out green
 ```
+
+Instead of just emulating, if we create a new queue:
+
+```javascript
+class Queue {
+  constructor() {
+    this.first = new Stack();
+    this.second = new Stack();
+
+    add(record) {
+      this.first.push(record);
+      while (this.first.peek()) {
+        this.second.push(this.first.pop());
+      }
+    }
+
+    remove() {
+      return this.second.pop();
+    }
+
+    peek() {
+      return this.second[this.second.length-1];
+    }
+  }
+}
+```
