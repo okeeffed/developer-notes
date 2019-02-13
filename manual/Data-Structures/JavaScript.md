@@ -952,3 +952,5 @@ const q = new Queue();
 q.add({foo: 'bar'});
 const nextInQ = q.remove();
 ```
+
+## Weave
