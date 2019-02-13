@@ -1381,5 +1381,5 @@ class Tree {
 const tree = new Tree(1, [
   new Tree(2, [new Tree(4)]),
   new Tree(3)
-])
+]);
 ```
