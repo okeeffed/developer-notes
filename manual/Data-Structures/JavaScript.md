@@ -987,3 +987,23 @@ function weave(srcOne, srcTwo) {
 
 module.exports = weave;
 ```
+
+Assuming we have that queue class, one implementation is:
+
+```javascript
+const runWeave = (qOne, qTwo) => {
+    const weave = new Queue();
+
+    while (qOne.peek() || qTwo.peek()) {
+        if (qOne.peek()) {
+            weave.add(qOne.remove());
+        }
+
+        if (qTwo.peek()) {
+            weave.add(qTwo.remove());
+        }
+    }
+
+    return weave;
+}
+```
