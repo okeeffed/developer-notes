@@ -1387,4 +1387,10 @@ const tree = new Tree(1, [
 ]);
 
 // Go in a DFS way to print out the tree
+const values = [];
+for (let value of tree.printValues()) {
+  values.push(value);
+}
+
+console.log(values); // [1,2,4,3]
 ```
