@@ -1343,7 +1343,7 @@ class LinkedList {
 function *numbers() {
   yield 1;
   yield 2;
-  yield* moreNumbers();
+  yield* moreNumbers(); // I will pass another generator, next should continue to receive yields from this function
   yield 6;
   yield 7;
 }
