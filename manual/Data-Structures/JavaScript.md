@@ -1474,9 +1474,14 @@ const fromLast = (list, n) => {
   let slow = list.getFirst();
   let fast = list.getFirst();
 
-  while (fast.next && fast.next.next) {
+  while (n > 0) {
+    fast = fast.next;
+    n--;
+  }
+
+  while (fast.next && fast.next) {
     slow = slow.next;
-    fast = fast.next.next;
+    fast = fast.next;
   }
 }
 ```
