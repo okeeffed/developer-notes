@@ -1386,7 +1386,7 @@ const tree = new Tree(1, [
   new Tree(3)
 ]);
 
-// Go in a DFS way to print out the tree
+// Go in a Depth First Search way to print out the tree
 const values = [];
 for (let value of tree.printValues()) {
   values.push(value);
