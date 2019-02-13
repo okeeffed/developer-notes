@@ -944,4 +944,11 @@ export default class Queue {
     return this.data.pop();
   }
 }
+
+// another file 
+import Queue from 'path/to/file';
+const q = new Queue();
+
+q.add({foo: 'bar'});
+const nextInQ = q.remove();
 ```
