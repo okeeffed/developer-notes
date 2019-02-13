@@ -1547,7 +1547,15 @@ class Tree {
   }
 
   traverseDFS(fn) {
-
+    // start with root
+    // check if children
+    // if children, iterate through in depth fashion
+    const arr = [this.root];
+    while (arr.length) {
+      const node = arr.shift();
+      arr.unshift(...node.children);
+      fn(node);
+    }
   }
 }
 ```
