@@ -34,7 +34,7 @@ export default App extends React.Component {
 
     render() {
         return <div>
-            <button onClick={this.handleClick}>Update</button>
+            <button onClick={this.handleClick}>{this.state.counter}</button>
         </div>
     }
 }
@@ -47,8 +47,8 @@ export default App extends React.Component {
 import React, {useState} from 'react';
 
 const App = () => {
-        return <div>
-            <button onClick={this.handleClick}>Update</button>
-        </div>
-    }
+    return <div>
+        <button onClick={this.handleClick}>{this.state.counter}</button>
+    </div>
+}
 ```
