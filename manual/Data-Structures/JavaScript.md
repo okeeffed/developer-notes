@@ -1577,7 +1577,6 @@ const levelWidth = node => {
   const arr = [node, 's'];
   while (arr.length > 1) {
     const node = arr.shift();
-    
     if (node === 's') {
       arr.push('s');
       counters.push(0);
