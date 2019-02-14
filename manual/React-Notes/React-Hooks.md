@@ -52,8 +52,8 @@ const App = () => {
     const updateCounter = () => setCounter(counter++)
 
     useEffect(() => {
-
-    }, []);
+        updateCounter(counter)
+    }, [counter]);
 
     return <div>
         <button onClick={updateCounter}>{counter}</button>
