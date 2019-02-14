@@ -458,7 +458,7 @@ func main() {
   jimPointer.updateName("jimmy")
   jim.print() // prints jimmy
 
-  // Also works - shortcut for the reciever 
+  // Also works - shortcut for the receiver
   jim.updatename("jimmy")
   jim.print()
 }
