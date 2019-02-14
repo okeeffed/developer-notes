@@ -1597,3 +1597,27 @@ levelWidth(node.root);
 Binary trees can only have at most 2 children.
 
 Because of the restrictions of `binary search trees`, we generally set them up so that the node has properties `left` and `right` with a `value` property that is greater than `left.value` but smaller than `right.value`.
+
+Creating a BST:
+
+```javascript
+class Node {
+  constructor(data) {
+    this.data = data;
+    this.left = null;
+    this.right = null;
+  }
+
+  insert(data) {
+    if (data < this.data && this.left) {
+      this.left.insert(data);
+    } else if (data < this.data && !this.left) {
+      this.left = new Node(data);
+    } else if (data > this.data && this.right) {
+      this.right.insert(data);
+    } else if (data > this.data && this.right) {
+      this.right = new Node(data);
+    }
+  }
+}
+```
