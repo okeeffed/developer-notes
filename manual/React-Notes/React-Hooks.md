@@ -47,7 +47,7 @@ export default App extends React.Component {
 import React, {useState} from 'react';
 
 const App = () => {
-    const [resource, setResource] = useState('counter');
+    const [resource, setResource] = useState(0);
 
     return <div>
         <button onClick={() setResource(resource++)}>{resource}</button>
