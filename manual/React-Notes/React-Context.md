@@ -70,3 +70,5 @@ class App extends Component {
     }
 }
 ```
+
+### Gotchas Around Context
