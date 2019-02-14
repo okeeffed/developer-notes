@@ -44,19 +44,11 @@ export default App extends React.Component {
 
 ```javascript
 // components/App.js
-import React from 'react';
+import React, {useState} from 'react';
 
-export default App extends React.Component {
-    state = {
-        counter: 0
-    }
-
-    handleClick = () => this.setState({counter: this.state.counter++})
-
-    render() {
+const App = () => {
         return <div>
             <button onClick={this.handleClick}>Update</button>
         </div>
     }
-}
 ```
