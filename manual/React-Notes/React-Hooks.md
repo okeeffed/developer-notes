@@ -80,3 +80,6 @@ useEffect(() => {
 
 ## Code Reuse Example
 
+Believe it or not, what we can actually do is abstract the useEffect outside of the function component. 
+
+This is incredibly useful to create reuseable effects.
