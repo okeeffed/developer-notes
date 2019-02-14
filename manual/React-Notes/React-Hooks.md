@@ -54,3 +54,5 @@ const App = () => {
     </div>
 }
 ```
+
+## Lifecycles with useEffect
