@@ -1583,6 +1583,7 @@ const levelWidth = node => {
       counters.push(0);
     } else {
       counters[counters.length - 1] = counters[counters.length - 1] + 1;
+      
       arr.push(...node.children);
     }
   } 
