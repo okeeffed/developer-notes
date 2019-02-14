@@ -485,6 +485,7 @@ func (p *person) updateName(newFirstName string) {
 - Turn `address` into `value` with `*address`
 - Turn `value` into `address` with `&value`
 - Note that with slices vs structs, you can manipulate the slice directly without having to use a pointer, unlike structs.
+- Slices with the underlying array get copied, but the array points to the same addresses.
 
 ### Reference vs Value Types
 
