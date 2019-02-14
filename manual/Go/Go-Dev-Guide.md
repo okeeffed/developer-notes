@@ -500,3 +500,4 @@ Use pointers for value types, don't worry about it for reference types.
 | structs     | functions       |
 
 ## Maps
+
