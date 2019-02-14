@@ -56,3 +56,5 @@ const App = () => {
 ```
 
 ## Lifecycles with useEffect
+
+`useEffect` allows us to effectively use a combined version of `componentDidMount` and `componentDidUpdate`.
