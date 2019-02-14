@@ -77,3 +77,6 @@ useEffect(() => {
     console.log('Counter updated!');
 }, [counter]);
 ```
+
+## Code Reuse Example
+
