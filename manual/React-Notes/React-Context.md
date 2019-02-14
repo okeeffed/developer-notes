@@ -114,8 +114,8 @@ export default class Button extends React.Component {
             <ColorContext.Consumer>
             {color => {
                 <LanguageContext.Consumer>
-              {value => value === 'english' ? 'Submit' : 'Voorleggen'}
-           </LanguageContext.Consumer>  
+                    {value => value === 'english' ? 'Submit' : 'Voorleggen'}
+                </LanguageContext.Consumer>  
             }}
            </ColorContext.Consumer>
         </button>
