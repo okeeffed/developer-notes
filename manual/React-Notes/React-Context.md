@@ -125,3 +125,8 @@ export default class Button extends React.Component {
 
 ## Context vs Redux
 
+| Redux                                 | Context                                                       |
+| ------------------------------------- | ------------------------------------------------------------- |
+| Excellent documentation               | No need for extra lib                                         |
+| Well-known for design patterns        | Hard to build a 'store' component with cross cutting concerns |
+| Tremendous amount of open source libs |                                                               |
