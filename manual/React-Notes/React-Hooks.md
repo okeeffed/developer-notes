@@ -52,7 +52,7 @@ const App = () => {
     const updateCounter = () => setCounter(counter++)
 
     useEffect(() => {
-        updateCounter(counter)
+        updateCounter(counter);
     }, [counter]);
 
     return <div>
@@ -66,7 +66,9 @@ const App = () => {
 `useEffect` allows us to effectively use a combined version of `componentDidMount` and `componentDidUpdate`.
 
 ```javascript
-useEffect(() => {
+import React, {useEffect} from 'react';
 
-}, []);
+useEffect(() => {
+    updateCounter(counter);
+}, [counter]);
 ```
