@@ -457,6 +457,10 @@ func main() {
   jimPointer := &jim
   jimPointer.updateName("jimmy")
   jim.print() // prints jimmy
+
+  // Also works - shortcut for the receiver 
+  jim.updatename("jimmy")
+  jim.print()
 }
 
 func (p person) print() {
@@ -480,3 +484,4 @@ func (p *person) updateName(newFirstName string) {
 
 - Turn `address` into `value` with `*address`
 - Turn `value` into `address` with `&value`
+- 
