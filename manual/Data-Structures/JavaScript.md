@@ -1615,9 +1615,14 @@ class Node {
       this.left = new Node(data);
     } else if (data > this.data && this.right) {
       this.right.insert(data);
-    } else if (data > this.data && this.right) {
+    } else if (data > this.data && !this.right) {
       this.right = new Node(data);
     }
+  }
+
+  // Find node with data value
+  contains(data) {
+
   }
 }
 ```
