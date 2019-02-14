@@ -487,3 +487,4 @@ func (p *person) updateName(newFirstName string) {
 - Note that with slices vs structs, you can manipulate the slice directly without having to use a pointer, unlike structs.
 
 ### Reference vs Value Types
+
