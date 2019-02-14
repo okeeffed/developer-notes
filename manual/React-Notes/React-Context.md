@@ -96,3 +96,29 @@ export default class Button extends React.Component {
     }
 }
 ```
+
+### Using Multiple Consumers
+
+```javascript
+// context/language/index.js
+import React from 'react';
+
+// creating context with default 'english'
+export default React.createContext('english');
+
+// inside of a component 
+import LanguageContext from 'path/to/file';
+export default class Button extends React.Component {
+    render() {
+        return <button>
+            <ColorContext.Consumer>
+            {color => {
+                <LanguageContext.Consumer>
+              {value => value === 'english' ? 'Submit' : 'Voorleggen'}
+           </LanguageContext.Consumer>  
+            }}
+           </ColorContext.Consumer>
+        </button>
+    }
+}
+```
