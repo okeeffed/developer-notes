@@ -68,6 +68,7 @@ const App = () => {
 ```javascript
 import React, {useEffect} from 'react';
 
+// second argument controls whether or not the arrow function is called
 useEffect(() => {
     updateCounter(counter);
 }, [counter]);
