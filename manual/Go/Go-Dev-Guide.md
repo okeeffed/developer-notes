@@ -498,3 +498,5 @@ Use pointers for value types, don't worry about it for reference types.
 | string      | channels        |
 | bool        | pointers        |
 | structs     | functions       |
+
+## Maps
