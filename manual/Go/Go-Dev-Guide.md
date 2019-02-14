@@ -489,3 +489,12 @@ func (p *person) updateName(newFirstName string) {
 
 ### Reference vs Value Types
 
+Use pointers for value types, don't worry about it for reference types.
+
+| Value types | Reference types |
+| ----------- | --------------- |
+| int         | slices          |
+| float       | maps            |
+| string      | channels        |
+| bool        | pointers        |
+| structs     | functions       |
