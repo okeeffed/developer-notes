@@ -1573,15 +1573,18 @@ What we need to do is use a "stopper" variable to help us define when we hit the
 let node = new Node(); // assume initiated with a bunch of children
 
 const levelWidth = node => {
-  const counters = [node.children.length];
-  const arr = [node];
+  const counters = [0];
+  const arr = [node, 's'];
   while (arr.length) {
     const node = arr.shift();
-    arr.push(...node.children);
 
-    const levelLength = node.children.reduce((el, value) => {
-      return value + el.children.length;
-    }, 0);
+    if (node === 's') {
+      arr.push('s');
+      counters.push(0);
+    } else {
+      counters[counters.length - 1]++;
+      arr.push(...node.children);
+    }
   } 
 }
 
