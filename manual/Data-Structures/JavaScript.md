@@ -1566,6 +1566,8 @@ Given the root node of a tree, return an array where each element is the width o
 
 What we need to do is use a "stopper" variable to help us define when we hit the end of level.
 
+![Approach to level width](https://res.cloudinary.com/gitgoodclub/image/upload/v1550103801/developer-notes/Screen_Shot_2019-02-14_at_11.22.10_am.png)
+
 ```javascript
 // given a node 
 let node = new Node(); // assume initiated with a bunch of children
