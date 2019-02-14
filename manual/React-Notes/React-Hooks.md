@@ -44,10 +44,14 @@ export default App extends React.Component {
 
 ```javascript
 // components/App.js
-import React, {useState} from 'react';
+import React, {useState, useEffect} from 'react';
 
 const App = () => {
     const [counter, setCounter] = useState(0);
+
+    useEffect(() => {
+
+    }, []);
 
     return <div>
         <button onClick={() => setCounter(counter++)}>{counter}</button>
@@ -58,3 +62,9 @@ const App = () => {
 ## Lifecycles with useEffect
 
 `useEffect` allows us to effectively use a combined version of `componentDidMount` and `componentDidUpdate`.
+
+```javascript
+useEffect(() => {
+
+}, []);
+```
