@@ -1564,3 +1564,22 @@ class Tree {
 
 Given the root node of a tree, return an array where each element is the width of the tree at each level.
 
+```javascript
+// given a node 
+let node = new Node(); // assume initiated with a bunch of children
+
+const levelWidth = node => {
+  const counters = [node.children.length];
+  const arr = [node];
+  while (arr.length) {
+    const node = arr.shift();
+    arr.push(...node.children);
+
+    const levelLength = node.children.reduce((el, value) => {
+      return value + el.children.length;
+    }, 0);
+  } 
+}
+
+levelWidth(node.root);
+```
