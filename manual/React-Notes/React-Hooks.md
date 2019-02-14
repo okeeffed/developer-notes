@@ -50,7 +50,7 @@ const App = () => {
     const [counter, setCounter] = useState(0);
 
     return <div>
-        <button onClick={() setCounter(counter++)}>{counter}</button>
+        <button onClick={() => setCounter(counter++)}>{counter}</button>
     </div>
 }
 ```
