@@ -87,8 +87,6 @@ export default React.createContext('english');
 // inside of a component 
 import LanguageContext from 'path/to/file';
 export default class Button extends React.Component {
-    static contextType = LanguageContext;
-
     render() {
         return <button>
             <LanguageContext.Consumer>
