@@ -47,7 +47,8 @@ export default App extends React.Component {
 import React, {useState} from 'react';
 
 const App = () => {
-    const [resource, setResource] = useState('posts');
+    const [resource, setResource] = useState('counter');
+
     return <div>
         <button onClick={this.handleClick}>{this.state.counter}</button>
     </div>
