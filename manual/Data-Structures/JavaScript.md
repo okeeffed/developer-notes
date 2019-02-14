@@ -1564,6 +1564,8 @@ class Tree {
 
 Given the root node of a tree, return an array where each element is the width of the tree at each level.
 
+What we need to do is use a "stopper" variable to help us define when we hit the end of level.
+
 ```javascript
 // given a node 
 let node = new Node(); // assume initiated with a bunch of children
