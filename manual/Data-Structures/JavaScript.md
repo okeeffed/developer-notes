@@ -1592,3 +1592,6 @@ const levelWidth = node => {
 levelWidth(node.root);
 ```
 
+## Binary Search Trees
+
+Binary trees can only have 2 children.
