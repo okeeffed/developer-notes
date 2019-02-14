@@ -50,7 +50,7 @@ const App = () => {
     const [resource, setResource] = useState('counter');
 
     return <div>
-        <button onClick={this.handleClick}>{this.state.counter}</button>
+        <button onClick={() setResource(resource++)}>{resource}</button>
     </div>
 }
 ```
