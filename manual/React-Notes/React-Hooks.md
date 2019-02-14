@@ -52,7 +52,7 @@ const App = () => {
     const updateCounter = () => setCounter(counter++)
 
     useEffect(() => {
-        updateCounter(counter);
+        console.log('Counter updated!');
     }, [counter]);
 
     return <div>
@@ -70,6 +70,6 @@ import React, {useEffect} from 'react';
 
 // second argument controls whether or not the arrow function is called
 useEffect(() => {
-    updateCounter(counter);
+    console.log('Counter updated!');
 }, [counter]);
 ```
