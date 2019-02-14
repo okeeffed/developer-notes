@@ -92,7 +92,7 @@ export default class Button extends React.Component {
     render() {
         return <button>
             <LanguageContext.Consumer>
-           {value => value === 'english' ? 'Submit' : 'Voorleggen'}
+              {value => value === 'english' ? 'Submit' : 'Voorleggen'}
            </LanguageContext.Consumer>
         </button>
     }
