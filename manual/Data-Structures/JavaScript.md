@@ -1594,4 +1594,4 @@ levelWidth(node.root);
 
 ## Binary Search Trees
 
-Binary trees can only have 2 children.
+Binary trees can only have at most 2 children.
