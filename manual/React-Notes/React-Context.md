@@ -72,3 +72,5 @@ class App extends Component {
 ```
 
 ### Gotchas Around Context
+
+The big gotcha with the context is dealing with the value prop given to the provider.
