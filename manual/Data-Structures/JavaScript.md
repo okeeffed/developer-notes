@@ -1575,15 +1575,14 @@ let node = new Node(); // assume initiated with a bunch of children
 const levelWidth = node => {
   const counters = [0];
   const arr = [node, 's'];
-  while (arr.length) {
+  while (arr.length > 1) {
     const node = arr.shift();
-
+    
     if (node === 's') {
       arr.push('s');
       counters.push(0);
-    } else {
-      counters[counters.length - 1] = counters[counters.length - 1] + 1;
-      
+    } else if (arr.length) {
+      counters[counters.length - 1]++;
       arr.push(...node.children);
     }
   } 
