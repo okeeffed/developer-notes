@@ -65,6 +65,10 @@ const App = () => {
 
 `useEffect` allows us to effectively use a combined version of `componentDidMount` and `componentDidUpdate`.
 
+Notes:
+
+- useEffect argument function cannot be an async func.
+
 ```javascript
 import React, {useEffect} from 'react';
 
