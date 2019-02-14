@@ -259,3 +259,224 @@ func newDeckFromFile(filename string) deck {
 	return deck(s)
 }
 ```
+
+## Shuffling a Deck
+
+There is no inbuilt function to randomise a slice.
+
+```go
+// main.go
+package main
+import (
+  "math/rand"
+  "time"
+)
+
+// Use slices
+func deal(d deck, handSize int) (deck, deck) {
+  return d[:handSize], d[handSize:]
+}
+
+func (d deck) shuffle() {
+  source := rand.NewSource(time.Now().UnixNano())
+  r := rand.New(source)
+
+  for i := range d {
+    newPosition := r.Intn(len(d) - 1)
+
+    // fancy one line swap
+    d[i], d[newPosition] = d[newPosition], d[i]
+  }
+}
+
+func main() {
+   func main() {
+     cards := newDeck()
+
+     // init and assign return values
+     cards.shuffle()
+     cards.print()
+   }
+}
+```
+
+## Testing with Go
+
+```go
+// deck_test.go
+package main
+
+import "testing"
+
+func TestNewDeck(t *testing.T) {
+  d := newDeck()
+
+  if len(d) != 16 {
+    t.Errorf("Expected deck length of 16, but got %v", len(d))
+  }
+}
+```
+
+### Asserting Elements 
+
+```go
+// deck_test.go
+package main
+
+import "testing"
+
+func TestNewDeck(t *testing.T) {
+  d := newDeck()
+
+  if len(d) != 16 {
+    t.Errorf("Expected deck length of 16, but got %v", len(d))
+  }
+
+  if d[0] != "Ace of Spaces" {
+    t.Errorf("Expected first card of Ace of Spaces, but got %v", d[0]);
+  }
+
+  if d[len(d-1)] != "Four of Clubs" {
+    t.Errorf("Expected first card of Four of Clubs, but got %v", d[len(d-1)]);
+  }
+}
+```
+
+### Clean up for file writing
+
+```go
+// deck_test.go
+package main
+
+import (
+  "testing"
+  "os"
+)
+
+func TestNewDeck(t *testing.T) {
+  d := newDeck()
+
+  if len(d) != 16 {
+    t.Errorf("Expected deck length of 16, but got %v", len(d))
+  }
+
+  if d[0] != "Ace of Spaces" {
+    t.Errorf("Expected first card of Ace of Spaces, but got %v", d[0]);
+  }
+
+  if d[len(d-1)] != "Four of Clubs" {
+    t.Errorf("Expected first card of Four of Clubs, but got %v", d[len(d-1)]);
+  }
+}
+
+// although long name, the test 
+func TestSaveToDeckAndNewDeckFromFile(t *testing.T) {
+  os.Remove("_decktesting")
+
+  d := new Deck()
+  d.saveToFile("_decktesting")
+
+  loadedDeck := newDeckFromFile("_decktesting")
+
+  if len(loadedDeck) != 16 {
+    t.Errorf("Expected 16 cards in deck, got %v", len(loadedDeck))
+  }
+
+  os.Remove("_decktesting")
+}
+```
+
+## Structs in Go
+
+Structs are a collection of different properties linked with a particular purpose.
+
+If we want to convert the string "Ace of Spaces" to become more flexible and as a structure, we could create a struct:
+
+If you init a struct with no values, the zero values are assigned as the following:
+
+| Type   | Zero Value |
+| ------ | ---------- |
+| string | ""         |
+| int    | 0          |
+| float  | 0          |
+| bool   | false      |
+
+```go
+type card struct {
+  house string
+  value string
+}
+
+// usage
+func main() {
+  card := card{"Spaces", "Ace"}
+  // being more definitive
+  cardTwo := card{house: "Spaces", value: "Ace"}
+  fmt.Println(card)
+
+  // non-init - sets the zero value
+  // %+v will print out all field names and values
+  var cardThree card
+  fmt.Printf("%+v", cardThree)
+}
+```
+
+## Embedding Structs
+
+```go
+type contactInfo struct {
+  email string
+  zipCode int
+}
+
+type person struct {
+  firstName string
+  lastName string
+  contactInfo
+}
+
+func main() {
+  jim := person{
+    firstName: "Jim",
+    lastName: "Party",
+    contactInfo: contactInfo{
+      email: "jim@gmail.com",
+      zipCode: 94000
+    }
+  }
+
+  fmt.Printf("%+v", jim)
+  // same as
+  jim.print()
+
+  // Update name
+  jim.updateNameIncorrect("jimmy")
+  jim.print() // still shows jim instead of jimmy
+
+  // Correct
+  jimPointer := &jim
+  jimPointer.updateName("jimmy")
+  jim.print() // prints jimmy
+}
+
+func (p person) print() {
+  fmt.Printf("%+v", p)
+}
+
+// updateName without a pointer
+func (p person) updateNameIncorrect(newFirstName string) {
+  p.firstName = newFirstname
+}
+
+// updateName correctly
+// note that taking *type means we're working with a pointer
+// *variable means we want to manipulate the value it is pointing at
+func (p *person) updateName(newFirstName string) {
+  (*p).firstName = newFirstname
+}
+```
+
+## Pointer operations
+
+- Turn `address` into `value` with `*address`
+- Turn `value` into `address` with `&value`
