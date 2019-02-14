@@ -49,12 +49,14 @@ import React, {useState, useEffect} from 'react';
 const App = () => {
     const [counter, setCounter] = useState(0);
 
+    const updateCounter = () => setCounter(counter++)
+
     useEffect(() => {
 
     }, []);
 
     return <div>
-        <button onClick={() => setCounter(counter++)}>{counter}</button>
+        <button onClick={updateCounter}>{counter}</button>
     </div>
 }
 ```
