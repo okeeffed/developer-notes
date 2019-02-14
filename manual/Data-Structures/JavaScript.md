@@ -1622,7 +1622,165 @@ class Node {
 
   // Find node with data value
   contains(data) {
-
+    if (this.data === data) {
+      return this;
+    } else if (data < this.data) {
+      return this.left.contains(data);
+    } else if (data > this.data && this.right) {
+      return this.right.contains(data);
+    }
   }
 }
 ```
+
+## Validating a BST
+
+To handle this, we basically want to keep a `min` and `max` value to ensure that the thresholds are kept correctly.
+
+```javascript
+const validation = (node, min = null, max = null) => {
+  if (max !== null && node.data > max) {
+    return false;
+  } else if (min !== null && node.data < min) {
+    return false;
+  }
+
+  if (node.left && !validate(node.left, min, node.data)) {
+    return false;
+  }
+
+  if (node.right && !validate(node.right, node.data, max)) {
+    return false;
+  }
+
+  return true;
+} 
+
+validation(rootNode);
+```
+
+## Eventing system
+
+```javascript
+class Events {
+  constructor() {
+    this.events = {};
+  }
+
+  on(eventName, callback) {
+    if (this.events[eventName]) {
+      this.events[eventName].push(callback);
+    } else {
+      this.events[eventName] = [callback];
+    }
+  }
+
+  trigger(eventName) {
+    if (this.events[eventName]) {
+      for (let fn of this.events[eventName]) {
+        fn();
+      }
+    }
+  }
+
+  off(eventName) {
+    delete this.events[eventName];
+  }
+}
+``` 
+
+## Sort Algos and Complexities
+
+| Name          | Worst case runtime | Difficulty |
+| ------------- | ------------------ | ---------- |
+| BubbleSort    | n^2                | easiest    |
+| SelectionSort | n^2                | easier     |
+| MergeSort     | n*log(n)           | medium     |
+
+### Bubble sort
+
+Take example `[10,-30,97,0,5]`.
+
+```javascript
+const arr = [10,-30,97,0,5];
+
+const bubbleSort = arr => {
+  for (let i=0; i < arr.length; i++) {
+    for (let j=0; j < arr.length - i - 1; j++) {
+      if (arr[j] > arr[j+1]) {
+        let temp = arr[j+1];
+        arr[j+1] = arr[j];
+        arr[j] = temp;
+      }
+    }
+  }
+  return arr;
+}
+const bubbleSorted = bubbleSort(arr);
+```
+
+### Selection Sort
+
+```javascript
+const selectionSort = arr => { 
+  for (let i=0; i < arr.length; i++) {
+    let indexOfMin = i;
+    for (let j=i+1; j < arr.length; j++) {
+      if (arr[j] > arr[indexOfMin]) {
+        indexOfMin = j;
+      }
+    }
+
+    if (indexOfMin !== i) {
+        let temp = arr[j];
+        arr[j] = arr[indexOfMin];
+        arr[indexOfMin] = temp;
+    }
+  }
+  return arr;
+}
+
+const selectionSorted = selectionSort(arr);
+```
+
+### Merge Sort
+
+```javascript
+// Used to break down array recursively
+const mergeSort = arr => {
+  if (arr.length === 1) {
+    return arr;
+  }
+
+  const center = Math.floor(arr.length / 2);
+  const left = arr.slice(0, center);
+  const right = arr.slice(center);
+
+  return merge (
+    mergeSort(left);
+    mergeSort(right);
+  );
+}
+
+// Used to build the array back together
+const merge = (left, right) => {
+  // create results array 
+  let results = [];
+  // while elements in BOTH arrays
+  while (left.length && right.length) {
+    // compare first left < first right 
+    if (left[0] < right[0]) {
+      // shift el into res arr
+      results.push(left.shift());
+    } else {
+      results.push(right.shift());
+    }
+  }
+
+  // take everything from the arr that has stuff in it and put it in results
+  return [...results, ...left, ...right];
+}
+```
+
+## Building Twitter
+
