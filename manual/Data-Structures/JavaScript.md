@@ -1782,5 +1782,3 @@ const merge = (left, right) => {
 }
 ```
 
-## Building Twitter
-
