@@ -28,7 +28,7 @@ class App extends Component {
 }
 ```
 
-### Getting Data Out of Context
+## Getting Data Out of Context
 
 1. Create context file
 2. Set contextType as static property to class
@@ -74,3 +74,27 @@ class App extends Component {
 ### Gotchas Around Context
 
 The big gotcha with the context is dealing with the value prop given to the provider.
+
+## Alternative Consumption of Data with Consumers
+
+```javascript
+// context/language/index.js
+import React from 'react';
+
+// creating context with default 'english'
+export default React.createContext('english');
+
+// inside of a component 
+import LanguageContext from 'path/to/file';
+export default class Button extends React.Component {
+    static contextType = LanguageContext;
+
+    render() {
+        return <button>
+            <LanguageContext.Consumer>
+           {value => value === 'english' ? 'Submit' : 'Voorleggen'}
+           </LanguageContext.Consumer>
+        </button>
+    }
+}
+```
