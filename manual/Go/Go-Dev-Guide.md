@@ -518,7 +518,7 @@ func main() {
   // map: declare new map
   // [string]: keys are type string
   // string: values are type string
-  colros := map[string]string {
+  colors := map[string]string {
     "red": "#ff0000",
     "green": "#4b9000"
   }
@@ -541,3 +541,16 @@ We MUST use square braces to access map values, NOT dot notation.
 
 ## Iterating Over Maps
 
+```go
+colors := map[string]string {
+  "red": "#ff0000",
+  "green": "#4b9000"
+}
+
+
+func printMap(c map[string]string) {
+  for color, hex := range c {
+    fmt.Println("Hex code for", color, "is", hex)
+  }
+}
+```
