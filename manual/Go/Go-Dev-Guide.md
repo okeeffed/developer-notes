@@ -640,6 +640,7 @@ import (
   "fmt"
   "net/http"
   "os"
+  "io"
 )
 
 func main() {
