@@ -538,3 +538,6 @@ colorsEq["white"] = "#ffffff"
 ```
 
 We MUST use square braces to access map values, NOT dot notation.
+
+## Iterating Over Maps
+
