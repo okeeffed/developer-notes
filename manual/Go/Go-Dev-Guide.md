@@ -576,6 +576,14 @@ package main
 type englishBot struct {}
 type spanishBot struct {}
 
+type bot interface {
+  getGreeting() string
+}
+
+func main() {
+
+}
+
 func (eb englishBot) getGreeting() string {
   // assume very custom logic to prove diff to spanishBot
   return "Hi There!"
@@ -586,7 +594,7 @@ func (sb spanishBot) getGreeting() string {
   return "Hola!"
 }
 
-func main() {
-
+func printGreet(b bot ) {
+  fmt.Println(b.getGreeting())
 }
 ```
