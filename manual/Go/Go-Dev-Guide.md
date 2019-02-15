@@ -576,12 +576,17 @@ package main
 type englishBot struct {}
 type spanishBot struct {}
 
+//
 type bot interface {
   getGreeting() string
 }
 
 func main() {
+  eb := englishBot()
+  sb := spanishBot()
 
+  printGreeting(eb)
+  printGreeting(sb)
 }
 
 func (eb englishBot) getGreeting() string {
@@ -594,7 +599,8 @@ func (sb spanishBot) getGreeting() string {
   return "Hola!"
 }
 
-func printGreet(b bot ) {
+// any type that implements getGreeting is now an "honorary" member of type bot
+func printGreet(b bot) {
   fmt.Println(b.getGreeting())
 }
 ```
