@@ -638,6 +638,16 @@ Using http and getting a body response back and helping us understanding how str
 If we use an interface as a property of a struct, we can add any property there as long as it conforms to the interface.
 
 ```go
+type example interface {
+  Reader
+}
+
+type resp struct {
+  example example
+}
+```
+
+```go
 package main
 
 import (
