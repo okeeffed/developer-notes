@@ -501,3 +501,6 @@ Use pointers for value types, don't worry about it for reference types.
 
 ## Maps
 
+Maps are similar to structs, but have some differences. These are basically `key:value` pairs.
+
+These are comparable to `hash` in Ruby, `object` in JavaScript or `Dict` in Python.
