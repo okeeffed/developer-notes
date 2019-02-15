@@ -522,5 +522,7 @@ func main() {
     "red": "#ff0000",
     "green": "#4b9000"
   }
+
+  fmt.Println(colors)
 }
 ```
