@@ -633,6 +633,8 @@ You can only create values out of the concrete types and not interface types.
 
 Using http and getting a body response back and helping us understanding how structs work a little better.
 
+![Diagram of how to access return body](https://res.cloudinary.com/gitgoodclub/image/upload/v1550201024/developer-notes/Screen_Shot_2019-02-15_at_2.22.59_pm.png)
+
 ```go
 package main
 
