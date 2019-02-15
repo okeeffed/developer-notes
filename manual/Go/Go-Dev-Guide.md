@@ -624,3 +624,7 @@ type bot interface {
 ```
 
 You can only create values out of the concrete types and not interface types.
+
+- Interfaces are not generic types (other langs have them, Go famously does not).
+- Interfaces are "implicit", we don't have to say a custom type satisfies some interface.
+- Interfaces are a contract to help us manage types.
