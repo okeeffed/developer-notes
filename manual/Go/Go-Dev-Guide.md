@@ -659,6 +659,8 @@ type readCloser interface {
 }
 ```
 
+For an application of this in action with the http.Get func:
+
 ```go
 package main
 
