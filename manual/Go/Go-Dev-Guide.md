@@ -526,3 +526,10 @@ func main() {
   fmt.Println(colors)
 }
 ```
+
+Creating a zero value map can be done basically in two ways:
+
+```go
+var colors map[string]string
+colorsEq = make(map[string]string)
+```
