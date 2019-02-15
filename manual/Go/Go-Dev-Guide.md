@@ -604,3 +604,11 @@ func printGreet(b bot) {
   fmt.Println(b.getGreeting())
 }
 ```
+
+More complex interfaces in Go might have signatures like the following:
+
+```go
+type bot interface {
+  getGreeting(string,int) (string, error)
+}
+```
