@@ -536,3 +536,5 @@ colorsEq = make(map[string]string)
 // adding in values
 colorsEq["white"] = "#ffffff"
 ```
+
+We MUST use square braces to access map values, NOT dot notation.
