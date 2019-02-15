@@ -622,3 +622,5 @@ type bot interface {
   respondToUser(user) string
 }
 ```
+
+You can only create values out of the concrete types and not interface types.
