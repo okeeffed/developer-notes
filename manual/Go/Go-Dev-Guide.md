@@ -631,7 +631,7 @@ You can only create values out of the concrete types and not interface types.
 
 ## HTTP Package
 
-Using http and getting a body response back.
+Using http and getting a body response back and helping us understanding how structs work a little better.
 
 ```go
 package main
