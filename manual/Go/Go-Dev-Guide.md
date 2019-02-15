@@ -565,3 +565,6 @@ func printMap(c map[string]string) {
 | Don't need to know all keys at compile time         | Use to represent a `thing` with a lot of properties   |
 | Keys are indexed - can iterate over them            | Value type!                                           |
 | Reference type !                                    |                                                       |
+
+## Interfaces
+
