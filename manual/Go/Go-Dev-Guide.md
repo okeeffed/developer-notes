@@ -643,7 +643,7 @@ type example interface {
 }
 
 type resp struct {
-  example example
+  propOne example
 }
 ```
 
