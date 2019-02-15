@@ -630,3 +630,21 @@ You can only create values out of the concrete types and not interface types.
 - Interfaces are a contract to help us manage types.
 
 ## HTTP Package
+
+```go
+package main
+
+import (
+  "fmt"
+  "net/http"
+  "os"
+)
+
+func main() {
+  resp, err := http.Get("https://google.com")
+  if err != nil {
+    fmt.Println("Error:", err)
+    os.Exit(1)
+  }
+}
+```
