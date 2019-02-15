@@ -647,7 +647,7 @@ type resp struct {
 }
 ```
 
-We can also assemble multiple interfaces together to create another interface:
+We can also assemble multiple interfaces together to create another interface where all requirements need to be satisfied:
 
 ```go
 type reader interface {}
