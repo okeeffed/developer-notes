@@ -569,5 +569,22 @@ func printMap(c map[string]string) {
 ## Interfaces
 
 ```go
+package main
 
+type englishBot struct {}
+type spanishBot struct {}
+
+func (eb englishBot) getGreeting() string {
+  // assume very custom logic to prove diff to spanishBot
+  return "Hi There!"
+}
+
+func (sb spanishBot) getGreeting() string {
+  // assume very custom logic to prove diff to spanishBot
+  return "Hola!"
+}
+
+func main() {
+
+}
 ```
