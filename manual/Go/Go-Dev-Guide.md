@@ -519,7 +519,8 @@ func main() {
   // [string]: keys are type string
   // string: values are type string
   colros := map[string]string {
-    "red": "#ff0000"
+    "red": "#ff0000",
+    "green": "#4b9000"
   }
 }
 ```
