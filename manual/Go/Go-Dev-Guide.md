@@ -647,6 +647,18 @@ type resp struct {
 }
 ```
 
+We can also assemble multiple interfaces together to create another interface:
+
+```go
+type reader interface {}
+type closer interface {}
+
+type readCloser interface {
+  reader
+  closer
+}
+```
+
 ```go
 package main
 
