@@ -612,3 +612,13 @@ type bot interface {
   getGreeting(string,int) (string, error)
 }
 ```
+
+If you want to set more "qualifiers" to conform to the interface, you can add more methods to the signature:
+
+```go
+type bot interface {
+  getGreeting(string,int) (string, error)
+  getBotVersion() float64
+  respondToUser(user) string
+}
+```
