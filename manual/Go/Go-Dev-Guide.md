@@ -568,6 +568,8 @@ func printMap(c map[string]string) {
 
 ## Interfaces
 
+The following example shows similar types but returning different values.
+
 ```go
 package main
 
