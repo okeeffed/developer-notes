@@ -506,3 +506,20 @@ Maps are similar to structs, but have some differences. These are basically `key
 These are comparable to `hash` in Ruby, `object` in JavaScript or `Dict` in Python.
 
 For a map, the keys all need to be the same type, and the values all need to be the same type.
+
+```go
+package main
+
+import (
+  "fmt
+)
+
+func main() {
+  // map: declare new map
+  // [string]: keys are type string
+  // string: values are type string
+  colros := map[string]string {
+
+  }
+}
+```
