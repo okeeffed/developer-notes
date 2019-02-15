@@ -635,6 +635,8 @@ Using http and getting a body response back and helping us understanding how str
 
 ![Diagram of how to access return body](https://res.cloudinary.com/gitgoodclub/image/upload/v1550201024/developer-notes/Screen_Shot_2019-02-15_at_2.22.59_pm.png)
 
+If we use an interface as a property of a struct, we can add any property there as long as it conforms to the interface.
+
 ```go
 package main
 
