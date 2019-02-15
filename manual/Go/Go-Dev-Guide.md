@@ -631,6 +631,8 @@ You can only create values out of the concrete types and not interface types.
 
 ## HTTP Package
 
+Using http and getting a body response back.
+
 ```go
 package main
 
