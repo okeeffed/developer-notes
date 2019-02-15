@@ -554,3 +554,14 @@ func printMap(c map[string]string) {
   }
 }
 ```
+
+## Maps Vs Structs
+
+| Maps                                                | Structs                                               |
+| --------------------------------------------------- | ----------------------------------------------------- |
+| All keys must be same type                          | Values can be different types                         |
+| Use to represent a collection of related properties | Need to know all the different fields at compile time |
+| All values must be the same type                    | Keys don't support indexing                           |
+| Don't need to know all keys at compile time         | Use to represent a `thing` with a lot of properties   |
+| Keys are indexed - can iterate over them            | Value type!                                           |
+| Reference type !                                    |                                                       |
