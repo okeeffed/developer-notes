@@ -684,3 +684,5 @@ func main() {
   fmt.Println(string(bs))
 }
 ```
+
+In order to prevent ourselves from having to manually create a byte slice each time, we can do this instead.
