@@ -710,3 +710,31 @@ func main() {
 ```
 
 With everything that we have learned so far about how `io.Copy` works, let's create something that implements the `Writer` interface:
+
+```go
+package main
+
+import (
+  "fmt"
+  "net/http"
+  "os"
+  "io"
+)
+
+type logWriter struct {}
+
+func main() {
+  resp, err := http.Get("https://google.com")
+  if err != nil {
+    fmt.Println("Error:", err)
+    os.Exit(1)
+  }
+
+  // Updated code to simplify the process and print the resp.Body to Stdout
+  io.Copy(os.Stdout, resp.Body)
+}
+
+func (logWriter) Write(bs []byte) (int, error) {
+  
+}
+```
