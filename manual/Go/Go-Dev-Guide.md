@@ -812,7 +812,7 @@ func checkLink(link string) {
 }
 ```
 
-So what's happening behind the scenes?
+### Go Scheduler Behind The Scenes
 
 ![Go scheduler](https://res.cloudinary.com/gitgoodclub/image/upload/v1550533611/developer-notes/Screen_Shot_2019-02-19_at_10.46.20_am.png)
 
@@ -826,3 +826,38 @@ In Go, you will constantly see `concurrency is not parallelism`. Concurrency is 
 
 If one thread blocks, another one is picked up and worked out. Parallelism is the use of multiple physical CPU cores at the same time.
 
+### Returning from Go routines
+
+In order to get back to the `main` routine from child routines, we need to update the code to do the following:
+
+```go
+package main
+
+import (
+  "io/http"
+)
+
+func main() {
+  ws := []string{
+    "http://google.com",
+    "http://amazon.com",
+    "http://facebook.com"
+  }
+
+  for _, link := range ws {
+    // creates new Go routine
+    go checkLink(link)
+  }
+}
+
+// this implementation will be synchronous
+func checkLink(link string) {
+  _, err := http.Get(link)
+  if err != nil {
+    fmt.Println(link, "might be down!")
+    return
+  }
+
+  fmt.Println(link, "is up!")
+}
+```
