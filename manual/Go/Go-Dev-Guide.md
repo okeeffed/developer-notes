@@ -777,3 +777,30 @@ func checkLink(link string) {
 ```
 
 If we think of the main function as the `main go routine`, we can start to imagine the above working sequentially as a result. In order to create new go routines, we can use the keyword `go`.
+
+```go
+package main
+
+import (
+  "io/http"
+)
+
+func main() {
+  ws := []string{"http://google.com", "http://amazon.com", "http://facebook.com"}
+
+  for _, link := range ws {
+    go checkLink(link)
+  }
+}
+
+// this implementation will be synchronous
+func checkLink(link string) {
+  _, err := http.Get(link)
+  if err != nil {
+    fmt.Println(link, "might be down!")
+    return
+  }
+
+  fmt.Println(link, "is up!")
+}
+```
