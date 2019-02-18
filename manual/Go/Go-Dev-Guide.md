@@ -828,7 +828,9 @@ If one thread blocks, another one is picked up and worked out. Parallelism is th
 
 ### Returning from Go routines
 
-In order to get back to the `main` routine from child routines, we need to update the code to do the following:
+In order to get back to the `main` routine from child routines, we need to update the code to handle channels for communication.
+
+Each `channel` communicates with a particular type - something incredibly important.
 
 ```go
 package main
