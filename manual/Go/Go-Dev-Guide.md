@@ -764,6 +764,7 @@ func main() {
   }
 }
 
+// this implementation will be synchronous
 func checkLink(link string) {
   _, err := http.Get(link)
   if err != nil {
