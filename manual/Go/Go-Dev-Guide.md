@@ -686,3 +686,25 @@ func main() {
 ```
 
 In order to prevent ourselves from having to manually create a byte slice each time, we can do this instead.
+
+```go
+package main
+
+import (
+  "fmt"
+  "net/http"
+  "os"
+  "io"
+)
+
+func main() {
+  resp, err := http.Get("https://google.com")
+  if err != nil {
+    fmt.Println("Error:", err)
+    os.Exit(1)
+  }
+
+  // Updated code to simplify the process
+  io.Copy(os.Stdout, resp.Body)
+}
+```
