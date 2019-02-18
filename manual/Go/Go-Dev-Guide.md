@@ -775,3 +775,5 @@ func checkLink(link string) {
   fmt.Println(link, "is up!")
 }
 ```
+
+If we think of the main function as the `main go routine`, we can start to imagine the above working sequentially as a result. In order to create new go routines, we can use the keyword `go`.
