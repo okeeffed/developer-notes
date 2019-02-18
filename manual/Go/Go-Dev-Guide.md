@@ -685,7 +685,7 @@ func main() {
 }
 ```
 
-In order to prevent ourselves from having to manually create a byte slice each time, we can do this instead.
+In order to prevent ourselves from having to manually create a byte slice each time, we can use the `io.Copy` function instead. The method signature for this requires a destination that implements the `Writer` interface and a source that implements the `Reader` interface.
 
 ```go
 package main
@@ -708,3 +708,4 @@ func main() {
   io.Copy(os.Stdout, resp.Body)
 }
 ```
+
