@@ -817,3 +817,7 @@ So what's happening behind the scenes?
 ![Go scheduler](https://res.cloudinary.com/gitgoodclub/image/upload/v1550533611/developer-notes/Screen_Shot_2019-02-19_at_10.46.20_am.png)
 
 Not that with one CPU, the Go scheduler runs `one` routine until finished or hits a blocking call. If a blocking call is hit, the scheduler pausing execution on a routine and starts the next one.
+
+If we insteads have multiple cores, the scheduler runs one thread on each "logical" core.
+
+By default, Go tries to use one core.
