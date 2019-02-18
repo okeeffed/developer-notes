@@ -742,3 +742,7 @@ func (logWriter) Write(bs []byte) (int, error) {
   return len(bs), nil
 }
 ```
+
+## Channels and Go Routines
+
+Both channels and go routines are used for cocurrency programming.
