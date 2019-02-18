@@ -822,3 +822,4 @@ If we insteads have multiple cores, the scheduler runs one thread on each "logic
 
 By default, Go tries to use one core.
 
+In Go, you will constantly see `concurrency is not parallelism`. 
