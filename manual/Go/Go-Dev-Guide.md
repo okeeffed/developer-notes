@@ -752,11 +752,19 @@ The project for this particular example will use a status checker.
 ```go
 package main
 
+import (
+  "io/http"
+)
+
 func main() {
   ws := []string{"http://google.com", "http://amazon.com", "http://facebook.com"}
 
   for _, link := range ws {
 
   }
+}
+
+func checkLink(link string) {
+  _, err := http.Get(link)
 }
 ```
