@@ -818,6 +818,6 @@ So what's happening behind the scenes?
 
 Not that with one CPU, the Go scheduler runs `one` routine until finished or hits a blocking call. If a blocking call is hit, the scheduler pausing execution on a routine and starts the next one.
 
-If we insteads have multiple cores, the scheduler runs one thread on each "logical" core.
+If we insteads have multiple cores, the scheduler runs one thread on each "logical" core. This then truly runs multiple routines at the same time.
 
 By default, Go tries to use one core.
