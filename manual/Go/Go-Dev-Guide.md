@@ -809,3 +809,5 @@ func checkLink(link string) {
   fmt.Println(link, "is up!")
 }
 ```
+
+So what's happening behind the scenes?
