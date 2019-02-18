@@ -679,6 +679,7 @@ func main() {
   }
 
   // Note: Reader interface manipulates byte slice -- it doesn't return it
+  
   fmt.Println(resp)
 }
 ```
