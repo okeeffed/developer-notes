@@ -709,4 +709,4 @@ func main() {
 }
 ```
 
-With everything that we have learned so far, let's create something that implements the `Writer` interface:
+With everything that we have learned so far about how `io.Copy` works, let's create something that implements the `Writer` interface:
