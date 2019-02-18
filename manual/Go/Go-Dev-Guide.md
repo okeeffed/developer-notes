@@ -735,6 +735,6 @@ func main() {
 }
 
 func (logWriter) Write(bs []byte) (int, error) {
-  
+  return 1, nil
 }
 ```
