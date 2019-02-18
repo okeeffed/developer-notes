@@ -815,3 +815,5 @@ func checkLink(link string) {
 So what's happening behind the scenes?
 
 ![Go scheduler](https://res.cloudinary.com/gitgoodclub/image/upload/v1550533611/developer-notes/Screen_Shot_2019-02-19_at_10.46.20_am.png)
+
+Not that with one CPU, the Go scheduler runs `one` routine until finished or hits a blocking call.
