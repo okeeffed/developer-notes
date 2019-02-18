@@ -822,4 +822,6 @@ If we insteads have multiple cores, the scheduler runs one thread on each "logic
 
 By default, Go tries to use one core.
 
-In Go, you will constantly see `concurrency is not parallelism`. Concurrency is the case of multiple threads executing code. If one thread blocks, another one is picked up and worked out.
+In Go, you will constantly see `concurrency is not parallelism`. Concurrency is the case of multiple threads executing code. 
+
+If one thread blocks, another one is picked up and worked out. Parallelism is the use of multiple cores at the same time.
