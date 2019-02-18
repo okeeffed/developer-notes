@@ -760,7 +760,7 @@ func main() {
   ws := []string{"http://google.com", "http://amazon.com", "http://facebook.com"}
 
   for _, link := range ws {
-
+    checkLink(link)
   }
 }
 
