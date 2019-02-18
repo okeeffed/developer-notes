@@ -730,8 +730,10 @@ func main() {
     os.Exit(1)
   }
 
+  lw := logWriter{}
+
   // Updated code to simplify the process and print the resp.Body to Stdout
-  io.Copy(os.Stdout, resp.Body)
+  io.Copy(lw, resp.Body)
 }
 
 func (logWriter) Write(bs []byte) (int, error) {
