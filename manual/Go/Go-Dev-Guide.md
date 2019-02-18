@@ -678,8 +678,7 @@ func main() {
     os.Exit(1)
   }
 
-  // Note: Reader interface manipulates byte slice -- it doesn't return it
-
+  // Note: Reader interface manipulates byte slice -- it doesn't return it. Go also has easier help functions to simply reading responses.
   bs := make([]byte, 99999)
   resp.Body.Read(bs)
   fmt.Println(string(bs))
