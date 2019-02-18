@@ -679,6 +679,8 @@ func main() {
   }
 
   // Note: Reader interface manipulates byte slice -- it doesn't return it
+
+  bs := make([]byte, 99999)
   
   fmt.Println(resp)
 }
