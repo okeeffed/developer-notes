@@ -704,7 +704,7 @@ func main() {
     os.Exit(1)
   }
 
-  // Updated code to simplify the process
+  // Updated code to simplify the process and print the resp.Body to Stdout
   io.Copy(os.Stdout, resp.Body)
 }
 ```
