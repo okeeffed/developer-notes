@@ -749,6 +749,8 @@ Both channels and go routines are used for cocurrency programming.
 
 The project for this particular example will use a status checker.
 
+![Project layout](https://res.cloudinary.com/gitgoodclub/image/upload/v1550533610/developer-notes/Screen_Shot_2019-02-19_at_9.59.38_am.png)
+
 ```go
 package main
 
@@ -811,3 +813,5 @@ func checkLink(link string) {
 ```
 
 So what's happening behind the scenes?
+
+![Go scheduler](https://res.cloudinary.com/gitgoodclub/image/upload/v1550533611/developer-notes/Screen_Shot_2019-02-19_at_10.46.20_am.png)
