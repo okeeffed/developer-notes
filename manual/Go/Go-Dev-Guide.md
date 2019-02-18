@@ -747,3 +747,10 @@ func (logWriter) Write(bs []byte) (int, error) {
 
 Both channels and go routines are used for cocurrency programming.
 
+```go
+package main
+
+func main() {
+  ws := []string{"http://google.com", "http://amazon.com", "http://facebook.com"}
+}
+```
