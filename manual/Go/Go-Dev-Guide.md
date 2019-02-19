@@ -968,6 +968,7 @@ func main() {
   // this range loop is equivalent to the above for loop
   for l := range c {
     go checkLink(l, c)
+    time.Sleep(time.Second)
   }
 }
 
