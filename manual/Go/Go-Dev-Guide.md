@@ -846,6 +846,9 @@ func main() {
     "http://facebook.com"
   }
 
+  // creating a channel
+  c := make(chan string)
+
   for _, link := range ws {
     // creates new Go routine
     go checkLink(link)
