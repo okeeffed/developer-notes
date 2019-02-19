@@ -867,7 +867,7 @@ func main() {
 
   // note that to receive, we need to handle all changes
   for i := 0; i < len(links); i++ {
-    checkLink(<- c)
+    checkLink(<-c)
   }
 }
 
