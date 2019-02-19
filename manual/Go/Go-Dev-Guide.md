@@ -856,6 +856,7 @@ func main() {
 }
 
 // this implementation will be synchronous
+// you must now declare the channel and channel type
 func checkLink(link string, c chan string) {
   _, err := http.Get(link)
   if err != nil {
