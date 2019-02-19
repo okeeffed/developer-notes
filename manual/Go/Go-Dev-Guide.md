@@ -967,7 +967,10 @@ func main() {
   // this is creating an infinite loop for all go routines receiving a value
   // this range loop is equivalent to the above for loop
   for l := range c {
-    go checkLink(l, c)
+    go func() {
+      time.Sleep(5*time.Second)
+      checkLink(l, c)
+    }
   }
 }
 
