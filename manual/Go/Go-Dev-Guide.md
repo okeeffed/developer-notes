@@ -866,7 +866,7 @@ func main() {
   }
 
   // note that to receive, we need to handle all changes
-  // this is creating an infinite loop for all go routines
+  // this is creating an infinite loop for all go routines receiving a value
   for {
     go checkLink(<-c)
   }
