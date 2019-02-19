@@ -23,3 +23,13 @@ def arrayChunk(arr, size):
             tmp = []
     return chunkedArr
 ```
+
+## Palindromes
+
+```python
+import re
+
+def isPalindrome(string):
+    reStr = re.sub("[^a-zA-Z]", "", string).strip().lower()
+    return reStr[::-1] == reStr
+```
