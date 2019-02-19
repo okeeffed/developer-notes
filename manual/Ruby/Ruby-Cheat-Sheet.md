@@ -12,7 +12,8 @@ name: Ruby Cheat Sheet
 
 class Sample
    def hello
-      puts "Hello Ruby!"
+      helloWorld = "Hello, World!"
+      helloWorld
    end
 end
 
