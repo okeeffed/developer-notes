@@ -862,6 +862,8 @@ func main() {
     // creates new Go routine - pass in a channel link
     go checkLink(link, c)
   }
+
+  fmt.Println(<- c)
 }
 
 // this implementation will be synchronous
