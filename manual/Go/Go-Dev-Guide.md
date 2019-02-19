@@ -841,7 +841,7 @@ Each `channel` communicates with a particular type - something incredibly import
 | `myNumber <- channel`     | Wait for value to be sent into the channel. When we get one, assign the value to 'myNumber' |
 | `fmt.Println(<- channel)` | Wait for value to be sent into channel. When we get one, log it out immediately             |
 
-One of the challenging concepts with channels is that each message coming back from a channel is also blocking code. This means that for every iteration that uses a channel, it is important to have the appropriate amount of receivers ready on the main routine.
+One of the challenging concepts with channels is that each message coming back from a channel is also `blocking` code. This means that for every iteration that uses a channel, it is important to have the appropriate amount of receivers ready on the main routine.
 
 ```go
 package main
