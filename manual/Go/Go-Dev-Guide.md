@@ -886,3 +886,52 @@ func checkLink(link string, c chan string) {
   c <- link
 }
 ```
+
+### Alternative loop syntax
+
+So we don't want to continually ping a request, we can update the control loop with the following:
+
+```go
+package main
+
+import (
+  "io/http"
+)
+
+func main() {
+  ws := []string{
+    "http://google.com",
+    "http://amazon.com",
+    "http://facebook.com"
+  }
+
+  // creating a channel
+  c := make(chan string)
+
+  for _, link := range ws {
+    // creates new Go routine - pass in a channel link
+    go checkLink(link, c)
+  }
+
+  // note that to receive, we need to handle all changes
+  // this is creating an infinite loop for all go routines receiving a value
+  // this range loop is equivalent to the above for loop
+  for l := range c {
+    go checkLink(l, c)
+  }
+}
+
+// this implementation will be synchronous
+// you must now declare the channel and channel type
+func checkLink(link string, c chan string) {
+  _, err := http.Get(link)
+  if err != nil {
+    fmt.Println(link, "might be down!")
+    c <- link
+    return
+  }
+
+  fmt.Println(link, "is up!")
+  c <- link
+}
+```
