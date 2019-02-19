@@ -851,7 +851,7 @@ func main() {
 
   for _, link := range ws {
     // creates new Go routine
-    go checkLink(link)
+    go checkLink(link, c)
   }
 }
 
