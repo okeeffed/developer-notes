@@ -935,3 +935,5 @@ func checkLink(link string, c chan string) {
   c <- link
 }
 ```
+
+### Sleeping a routine
