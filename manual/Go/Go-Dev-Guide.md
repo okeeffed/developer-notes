@@ -832,6 +832,15 @@ In order to get back to the `main` routine from child routines, we need to updat
 
 Each `channel` communicates with a particular type - something incredibly important.
 
+
+### Sending Data with Channels
+
+| Syntax                    | Action                                                                                      |
+| ------------------------- | ------------------------------------------------------------------------------------------- |
+| `channel <- 5`            | Send value 5 into this channel                                                              |
+| `myNumber <- channel`     | Wait for value to be sent into the channel. When we get one, assign the value to 'myNumber' |
+| `fmt.Println(<- channel)` | Wait for value to be sent into channel. When we get one, log it out immediately             |
+
 ```go
 package main
 
