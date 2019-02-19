@@ -865,7 +865,10 @@ func main() {
     go checkLink(link, c)
   }
 
-  fmt.Println(<- c)
+  // note that to receive, we need to handle all changes
+  for i := 0; i < len(links); i++ {
+    fmt.Println(<- c)
+  }
 }
 
 // this implementation will be synchronous
