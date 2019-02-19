@@ -850,13 +850,13 @@ func main() {
   c := make(chan string)
 
   for _, link := range ws {
-    // creates new Go routine
+    // creates new Go routine - pass in a channel link
     go checkLink(link, c)
   }
 }
 
 // this implementation will be synchronous
-func checkLink(link string) {
+func checkLink(link string, c chan string) {
   _, err := http.Get(link)
   if err != nil {
     fmt.Println(link, "might be down!")
