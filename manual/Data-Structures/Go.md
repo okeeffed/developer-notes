@@ -46,3 +46,34 @@ func arrayChunk(arr []int, size int) [][]int {
 	return chunkedArr
 }
 ```
+
+## Palindromes
+
+```go
+package main
+
+// return whether it is a palindrome or not
+func main() {
+	return
+}
+
+// String converts string struct expecting palindromes
+type String struct {
+	str string
+}
+
+func newPalindrome(s string) String {
+	return String{s}
+}
+
+func (s String) isPalindrome() bool {
+	r := []rune(s.str)
+	for i, j := 0, len(r)-1; i < len(r)/2; i, j = i+1, j-1 {
+		if r[i] != r[j] {
+			return false
+		}
+	}
+
+	return true
+}
+```
