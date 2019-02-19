@@ -970,7 +970,7 @@ func main() {
     go func() {
       time.Sleep(5*time.Second)
       checkLink(l, c)
-    }
+    }()
   }
 }
 
