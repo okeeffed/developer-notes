@@ -37,7 +37,7 @@ empty_table = Array.new(3) { Array.new(3) }
 # => [[nil, nil, nil], [nil, nil, nil], [nil, nil, nil]]
 ```
 
-## Accessubg Elements
+### Accessing Elements
 
 ```ruby
 arr = [1, 2, 3, 4, 5, 6]
@@ -47,4 +47,13 @@ arr[-3]   #=> 4
 arr[2, 3] #=> [3, 4, 5]
 arr[1..4] #=> [2, 3, 4, 5]
 arr[1..-3] #=> [2, 3, 4]
+arr.at(0) #=> 1
+```
+
+### Accessing with an error thrown for out of bounds
+
+```ruby
+arr = ['a', 'b', 'c', 'd', 'e', 'f']
+arr.fetch(100) #=> IndexError: index 100 outside of array bounds: -6...6
+arr.fetch(100, "oops") #=> "oops"
 ```
