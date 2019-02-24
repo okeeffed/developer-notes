@@ -36,3 +36,15 @@ Array.new(4) {|i| i.to_s } #=> ["0", "1", "2", "3"]
 empty_table = Array.new(3) { Array.new(3) }
 # => [[nil, nil, nil], [nil, nil, nil], [nil, nil, nil]]
 ```
+
+## Accessubg Elements
+
+```ruby
+arr = [1, 2, 3, 4, 5, 6]
+arr[2]    #=> 3
+arr[100]  #=> nil
+arr[-3]   #=> 4
+arr[2, 3] #=> [3, 4, 5]
+arr[1..4] #=> [2, 3, 4, 5]
+arr[1..-3] #=> [2, 3, 4]
+```
