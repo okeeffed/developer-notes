@@ -70,6 +70,6 @@ arr.fetch(100, "oops") #=> "oops"
 
 ## String methods
 
-```
+```ruby
 
 ```
