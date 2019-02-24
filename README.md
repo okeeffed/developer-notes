@@ -10,6 +10,10 @@ Note that some of these notes also cover old courses I have undertaken. If those
 
 You can find these notes quickly thrown together using Docz here https://docs.dennisokeeffe.com/
 
+## Manual
+
+All the separate folders are found under `manual`.
+
 ## Note
 
 Some of the incredibly long markdown files having issues loading with Docz. Over time I will break those files down into smaller components as a fix.
@@ -39,4 +43,4 @@ Feel free to contribute. Make a pull request and I will double check you aren't 
 
 ## Connect
 
-Catch me infrequently on Twitter [@dendribbles](https://twitter.com/dendribbles)
+Catch me on Twitter for spicy mémés [@dendribbles](https://twitter.com/dendribbles)
