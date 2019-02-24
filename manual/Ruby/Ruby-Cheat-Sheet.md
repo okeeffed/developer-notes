@@ -21,3 +21,7 @@ end
 object = Sample. new
 object.hello
 ```
+
+## Arrays
+
+A great resource for seeing the [Ruby Array methods](https://ruby-doc.org/core-2.5.0/Array.html).
