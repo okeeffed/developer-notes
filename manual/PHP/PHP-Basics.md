@@ -7,6 +7,16 @@ menu: PHP
 
 ## Strings Functions
 
+```php
+<?php
+
+$string = 'bac';
+
+$stringParts = str_split($string);
+sort($stringParts);
+echo implode('', $stringParts);
+```
+
 ## Regex Replacement on Strings
 
 ```php
