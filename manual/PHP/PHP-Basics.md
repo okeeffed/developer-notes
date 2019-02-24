@@ -5,6 +5,8 @@ menu: PHP
 
 # PHP Basics
 
+## Strings Functions
+
 ## Regex Replacement on Strings
 
 ```php
