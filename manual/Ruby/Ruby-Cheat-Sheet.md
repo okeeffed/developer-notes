@@ -5,6 +5,16 @@ name: Ruby Cheat Sheet
 
 # Ruby Cheat Sheet
 
+## Loops
+
+```ruby
+i = 0
+while i < 5 do
+   puts i
+   i += 1
+end
+```
+
 ## Classes
 
 ```ruby
