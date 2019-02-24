@@ -72,5 +72,5 @@ arr.fetch(100, "oops") #=> "oops"
 
 ```ruby
 # Examples
-a.gsub(/[^a-z]/i, "").downcase.chars.sort.join
+a.gsub(/[^a-z]/i, "").downcase.chars.sort.join! # update variable a
 ```
