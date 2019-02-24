@@ -71,5 +71,6 @@ arr.fetch(100, "oops") #=> "oops"
 ## String methods
 
 ```ruby
-
+# Examples
+a.gsub(/[^a-z]/i, "").downcase.chars.sort.join
 ```
