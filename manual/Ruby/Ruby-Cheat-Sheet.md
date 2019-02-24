@@ -34,5 +34,5 @@ Array.new(3, true) #=> [true, true, true]
 Array.new(4) { Hash.new }  #=> [{}, {}, {}, {}]
 Array.new(4) {|i| i.to_s } #=> ["0", "1", "2", "3"]
 empty_table = Array.new(3) { Array.new(3) }
-#=> [[nil, nil, nil], [nil, nil, nil], [nil, nil, nil]]
+# => [[nil, nil, nil], [nil, nil, nil], [nil, nil, nil]]
 ```
