@@ -12,7 +12,7 @@ You can find these notes quickly thrown together using Docz here https://docs.de
 
 ## Manual
 
-All the separate folders are found under `manual`.
+All the separate topics are found as folders under `manual`.
 
 ## Note
 
