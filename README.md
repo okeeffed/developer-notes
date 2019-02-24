@@ -39,6 +39,4 @@ Feel free to contribute. Make a pull request and I will double check you aren't 
 
 ## Connect
 
-Catch me infrequently on Twitter `@d_okeeffe`.
-
-https://twitter.com/d_okeeffe
+Catch me infrequently on Twitter [@dendribbles](https://twitter.com/dendribbles)
