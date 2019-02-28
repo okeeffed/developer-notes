@@ -84,4 +84,6 @@ b = a.first() # a[0]
 # => ["a!"]
 a += b
 # => ["a!", "b!", "c!", "a!"]
+first, *rest = a
+# first = ["a!"], rest = ["b!", "c!", "a!"]
 ```
