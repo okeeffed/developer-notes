@@ -92,4 +92,6 @@ a.drop(1)
 # => ["b!", "c!", "a!"]
 a.select{|x| x != "a!"}
 # => ["b!", "c!"]
+a.select{|x| !x.include? "a"}
+# => ["b!", "c!"]
 ```
