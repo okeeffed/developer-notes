@@ -5,7 +5,8 @@ menu: Interactive Shells
 
 # Accessing Interactive Shells
 
-| Language | Input  |
-| -------- | ------ |
-| ruby     | irb    |
-| php      | php -a |
+| Language | Input   |
+| -------- | ------- |
+| ruby     | irb     |
+| php      | php -a  |
+| js       | node -i |
