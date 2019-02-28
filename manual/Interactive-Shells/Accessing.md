@@ -12,3 +12,4 @@ menu: Interactive Shells
 | js       | node -i    |
 | python   | python -i  |
 | python3  | python3 -i |
+| go       | gore       |
