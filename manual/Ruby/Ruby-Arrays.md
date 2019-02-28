@@ -8,6 +8,7 @@ menu: Ruby
 ## Map
 
 ```ruby
+# map.rb
 class Arrays
     def self.updatesVar(arr)
         arr.map! {|x| x + "!"}
