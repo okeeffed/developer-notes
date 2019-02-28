@@ -19,6 +19,8 @@ import (
 package slices
 ```
 
+## Push
+
 ```go
 // slices_test.go
 func TestPushToIntSlice(t *testing.T) {
@@ -39,6 +41,8 @@ func Push(a []int, b int) []int {
 	return append(a, b)
 }
 ```
+
+## Pop
 
 ```go
 // slices_test.go
@@ -67,6 +71,8 @@ func Pop(a []int) (int, []int) {
 }
 ```
 
+## Unshift
+
 ```go
 // slices_test.go
 
@@ -75,6 +81,8 @@ func Unshift(a []int, b int) []int {
 	return append([]int{b}, a...)
 }
 ```
+
+## Shift
 
 ```go
 // slices_test.go
