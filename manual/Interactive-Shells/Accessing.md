@@ -12,4 +12,4 @@ menu: Interactive Shells
 | js       | node -i    | .exit  |
 | python   | python -i  | exit() |
 | python3  | python3 -i | exit() |
-| go       | gore       | exit() |
+| go       | gore       | ^D     |
