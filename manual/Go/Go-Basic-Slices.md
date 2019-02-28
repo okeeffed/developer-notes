@@ -89,6 +89,7 @@ func Unshift(a []int, b int) []int {
 
 // Shift remove from front and return int and new slice
 func Shift(a []int) (int, []int) {
-
+	x, b := a[0], a[1:]
+	return x, b
 }
 ```
