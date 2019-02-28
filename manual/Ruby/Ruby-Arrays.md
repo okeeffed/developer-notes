@@ -66,3 +66,18 @@ end
 
 __END__
 ```
+
+## Other important functions
+
+```ruby
+a = ["a","b","c"]
+# => ["a", "b", "c"]
+a.map! {|x| x+"!"}
+# => ["a!", "b!", "c!"]
+a = a.join(', ')
+# => "a!, b!, c!"
+a = a.split(', ')
+# => ["a!", "b!", "c!"]
+a = a.reverse()
+# => ["c!", "b!", "a!"]
+```
