@@ -72,8 +72,11 @@ __END__
 ```ruby
 a = ["a","b","c"]
 # => ["a", "b", "c"]
-a.map! {|x| x+"!"}
+a.map! {|x| x + "!"}
 # => ["a!", "b!", "c!"]
+num = [1, 2, 3, 4]
+num.map! &-> (x) { x + 2 } # mapping as lambda
+# => [3, 4, 5, 6]
 a = a.join(', ')
 # => "a!, b!, c!"
 a = a.split(', ')
@@ -94,4 +97,26 @@ a.select{|x| x != "a!"}
 # => ["b!", "c!"]
 a.select{|x| !x.include? "a"}
 # => ["b!", "c!"]
+num = [1, 2, 3, 4]
+num.map! &-> (x) { x > 3 }
+# => [4]
+c = num.reduce(0) {|x,y| x + y}
+# => 10
+num = [4, 3, 2, 1]
+num.sort!
+# => [1, 2, 3, 4]
+num.size()
+# => 4
+num.push(5)
+# => [1, 2, 3, 4, 5]
+num.pop()
+# => 5
+num.unshift(5)
+# => [5, 1, 2, 3, 4]
+num.shift()
+# => 5
+num.min()
+# => 1
+num.max()
+# => 4
 ```
