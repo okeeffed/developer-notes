@@ -115,3 +115,5 @@ Recall that we included the input/output functionality from the standard library
 io::stdin().read_line(&mut guess)
     .expect("Failed to read line");
 ```
+
+If we hadn’t listed the `use std::io` line at the beginning of the program, we could have written this function call as `std::io::stdin`. The stdin function returns an instance of `std::io::Stdin`, which is a type that represents a handle to the standard input for your terminal.
