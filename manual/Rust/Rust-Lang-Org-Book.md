@@ -206,3 +206,5 @@ fn main() {
     }
 }
 ```
+
+Note here that we are using some standard string methods to trim, parse and expect a number type for the `guess` variable.
