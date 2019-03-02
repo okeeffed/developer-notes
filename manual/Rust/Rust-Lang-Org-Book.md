@@ -233,3 +233,22 @@ The call to parse could easily cause an error. If, for example, the string conta
     }
 }
 ```
+
+This is suboptimal as the only way to exit at the moment is to pass a string that cannot be passed to cause an error.
+
+What we can do instead is update this is break the loop at particular parts:
+
+```rust
+// --snip--
+
+        match guess.cmp(&secret_number) {
+            Ordering::Less => println!("Too small!"),
+            Ordering::Greater => println!("Too big!"),
+            Ordering::Equal => {
+                println!("You win!");
+                break;
+            }
+        }
+    }
+}
+```
