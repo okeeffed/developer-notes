@@ -122,4 +122,4 @@ The `&` indicates that this argument is a reference, which gives you a way to le
 
 As mentioned earlier, `read_line` puts what the user types into the string we’re passing it, but it also returns a value—in this case, an `io::Result`. Rust has a number of types named `Result` in its standard library: a generic `Result` as well as specific versions for submodules, such as `io::Result`.
 
-The Result types are enumerations, often referred to as enums. An enumeration is a type that can have a fixed set of values, and those values are called the enum’s variants. Chapter 6 will cover enums in more detail.
+The `Result` types are enumerations, often referred to as `enums`. An enumeration is a type that can have a fixed set of values, and those values are called the enum’s variants.
