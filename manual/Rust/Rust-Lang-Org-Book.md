@@ -140,3 +140,38 @@ fn main() {
 ```
 
 This code would print x = 5 and y = 10.
+
+## Generating a random number
+
+In this case, we would have to update our `Cargo.toml` file to include the `rand` crate
+
+```toml
+[dependencies]
+rand = "0.4.0"
+```
+
+`cargo build` to install the dependency, but running `cargo update` would also update the version for the latest minor version.
+
+In use, we can now random generate a number:
+
+```rust
+use std::io;
+use rand::Rng;
+
+fn main() {
+    println!("Guess the number!");
+
+    let secret_number = rand::thread_rng().gen_range(1, 101);
+
+    println!("The secret number is: {}", secret_number);
+
+    println!("Please input your guess.");
+
+    let mut guess = String::new();
+
+    io::stdin().read_line(&mut guess)
+        .expect("Failed to read line");
+
+    println!("You guessed: {}", guess);
+}
+```
