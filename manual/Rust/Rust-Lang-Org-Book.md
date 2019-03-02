@@ -58,6 +58,6 @@ $ cargo check
 
 ## Building for release
 
-```s
+```shell
 $ cargo build --release
 ```
