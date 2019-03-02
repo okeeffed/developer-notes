@@ -95,3 +95,10 @@ use std::io;
 ```
 
 By default, Rust brings only a few types into the scope of every program in the prelude. If a type you want to use isn’t in the prelude, you have to bring that type into scope explicitly with a use statement. Using the `std::io` library provides you with a number of useful features, including the ability to accept user input.
+
+The following example shows how to use `mut` before the variable name to make a variable mutable:
+
+```rust
+let foo = 5; // immutable
+let mut bar = 5; // mutable
+```
