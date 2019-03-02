@@ -120,6 +120,6 @@ If we hadn’t listed the `use std::io` line at the beginning of the program, we
 
 The `&` indicates that this argument is a reference, which gives you a way to let multiple parts of your code access one piece of data without needing to copy that data into memory multiple times. References are a complex feature, and one of Rust’s major advantages is how safe and easy it is to use references.
 
-As mentioned earlier, `read_line` puts what the user types into the string we’re passing it, but it also returns a value—in this case, an `io::Result`. Rust has a number of types named Result in its standard library: a generic Result as well as specific versions for submodules, such as `io::Result`.
+As mentioned earlier, `read_line` puts what the user types into the string we’re passing it, but it also returns a value—in this case, an `io::Result`. Rust has a number of types named `Result` in its standard library: a generic `Result` as well as specific versions for submodules, such as `io::Result`.
 
 The Result types are enumerations, often referred to as enums. An enumeration is a type that can have a fixed set of values, and those values are called the enum’s variants. Chapter 6 will cover enums in more detail.
