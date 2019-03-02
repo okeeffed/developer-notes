@@ -42,3 +42,9 @@ edition = "2018"
 
 [dependencies]
 ```
+
+## Building and running from a cargo project
+
+```shell
+$ cargo build
+```
