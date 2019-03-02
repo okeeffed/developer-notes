@@ -138,3 +138,5 @@ fn main() {
     println!("x = {} and y = {}", x, y);
 }
 ```
+
+This code would print x = 5 and y = 10.
