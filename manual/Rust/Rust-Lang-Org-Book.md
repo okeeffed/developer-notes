@@ -131,8 +131,6 @@ For Result, the variants are `Ok` or `Err`. The `Ok` variant indicates the opera
 The set of curly brackets, `{}`, is a placeholder: think of `{}` as little crab pincers that hold a value in place. You can print more than one value using curly brackets: the first set of curly brackets holds the first value listed after the format string, the second set holds the second value, and so on. Printing multiple values in one call to println! would look like this:
 
 ```rust
-
-#![allow(unused_variables)]
 fn main() {
     let x = 5;
     let y = 10;
