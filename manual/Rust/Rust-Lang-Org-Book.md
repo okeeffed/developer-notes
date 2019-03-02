@@ -117,3 +117,5 @@ io::stdin().read_line(&mut guess)
 ```
 
 If we hadn’t listed the `use std::io` line at the beginning of the program, we could have written this function call as `std::io::stdin`. The stdin function returns an instance of `std::io::Stdin`, which is a type that represents a handle to the standard input for your terminal.
+
+The `&` indicates that this argument is a reference, which gives you a way to let multiple parts of your code access one piece of data without needing to copy that data into memory multiple times. References are a complex feature, and one of Rust’s major advantages is how safe and easy it is to use references.
