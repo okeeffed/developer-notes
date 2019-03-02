@@ -134,9 +134,9 @@ The set of curly brackets, {}, is a placeholder: think of {} as little crab pinc
 
 #![allow(unused_variables)]
 fn main() {
-let x = 5;
-let y = 10;
+    let x = 5;
+    let y = 10;
 
-println!("x = {} and y = {}", x, y);
+    println!("x = {} and y = {}", x, y);
 }
 ```
