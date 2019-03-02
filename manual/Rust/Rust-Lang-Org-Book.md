@@ -252,3 +252,21 @@ What we can do instead is update this is break the loop at particular parts:
     }
 }
 ```
+
+We could also now update the `parse` method to handle and continue on errors now that we are looping:
+
+```rust
+// --snip--
+
+io::stdin().read_line(&mut guess)
+    .expect("Failed to read line");
+
+let guess: u32 = match guess.trim().parse() {
+    Ok(num) => num,
+    Err(_) => continue,
+};
+
+println!("You guessed: {}", guess);
+
+// --snip--
+```
