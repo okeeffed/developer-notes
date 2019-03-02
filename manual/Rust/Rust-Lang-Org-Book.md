@@ -50,4 +50,6 @@ $ cargo build
 # This command creates an executable file in target/debug/hello_cargo (or target\debug\hello_cargo.exe on Windows) rather than in your current directory. You can run the executable with this command:
 $ ./target/debug/hello_cargo
 > Hello, world!
+# We can also run with cargo run
+$ cargo run
 ```
