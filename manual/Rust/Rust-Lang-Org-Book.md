@@ -175,3 +175,26 @@ fn main() {
     println!("You guessed: {}", guess);
 }
 ```
+
+## Comparing a guess to the secret number
+
+We can now use another standard library to help give more information on the accuracy of the guess.
+
+```rust
+use std::io;
+use std::cmp::Ordering;
+use rand::Rng;
+
+fn main() {
+
+    // ---snip---
+
+    println!("You guessed: {}", guess);
+
+    match guess.cmp(&secret_number) {
+        Ordering::Less => println!("Too small!"),
+        Ordering::Greater => println!("Too big!"),
+        Ordering::Equal => println!("You win!"),
+    }
+}
+```
