@@ -178,7 +178,7 @@ fn main() {
 
 ## Comparing a guess to the secret number
 
-We can now use another standard library to help give more information on the accuracy of the guess.
+We can now use another standard library to help give more information on the accuracy of the guess:
 
 ```rust
 use std::io;
