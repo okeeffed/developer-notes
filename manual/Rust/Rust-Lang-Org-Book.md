@@ -125,3 +125,18 @@ As mentioned earlier, `read_line` puts what the user types into the string we’
 The `Result` types are enumerations, often referred to as `enums`. An enumeration is a type that can have a fixed set of values, and those values are called the enum’s variants.
 
 For Result, the variants are `Ok` or `Err`. The `Ok` variant indicates the operation was successful, and inside `Ok` is the successfully generated value. The `Err` variant means the operation failed, and `Err` contains information about how or why the operation failed.
+
+## Printing values with the println placeholders
+
+The set of curly brackets, {}, is a placeholder: think of {} as little crab pincers that hold a value in place. You can print more than one value using curly brackets: the first set of curly brackets holds the first value listed after the format string, the second set holds the second value, and so on. Printing multiple values in one call to println! would look like this:
+
+```rust
+
+#![allow(unused_variables)]
+fn main() {
+let x = 5;
+let y = 10;
+
+println!("x = {} and y = {}", x, y);
+}
+```
