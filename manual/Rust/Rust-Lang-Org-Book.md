@@ -87,3 +87,11 @@ fn main() {
     println!("You guessed: {}", guess);
 }
 ```
+
+This code contains a lot of information, so let’s go over it line by line. To obtain user input and then print the result as output, we need to bring the io (input/output) library into scope. The io library comes from the standard library (which is known as std):
+
+```rust
+use std::io;
+```
+
+By default, Rust brings only a few types into the scope of every program in the prelude. If a type you want to use isn’t in the prelude, you have to bring that type into scope explicitly with a use statement. Using the std::io library provides you with a number of useful features, including the ability to accept user input.
