@@ -5,4 +5,4 @@ menu: Rust
 
 # Rust Lang Book
 
-Resources for this can be found from https://doc.rust-lang.org/book/foreword.html
+Resources for this can be found from [here](https://doc.rust-lang.org/book/foreword.html).
