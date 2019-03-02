@@ -102,3 +102,17 @@ The following example shows how to use `mut` before the variable name to make a 
 let foo = 5; // immutable
 let mut bar = 5; // mutable
 ```
+
+The `::` syntax in the `::new` line indicates that new is an associated function of the `String` type. An associated function is implemented on a type, in this case String, rather than on a particular instance of a String. Some languages call this a static method.
+
+This new function creates a new, empty string. You’ll find a new function on many types, because it’s a common name for a function that makes a new value of some kind.
+
+To summarize, the `let mut guess = String::new();` line has created a mutable variable that is currently bound to a new, empty instance of a String.
+
+Recall that we included the input/output functionality from the standard library with use `std::io`; on the first line of the program. Now we’ll call an associated function, `stdin`, on `io`:
+
+````rust
+io::stdin().read_line(&mut guess)
+    .expect("Failed to read line");
+    ```
+````
