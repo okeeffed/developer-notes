@@ -13,3 +13,5 @@ try:
 except:
     print('Linux function was not executed')
 ```
+
+## Example case
