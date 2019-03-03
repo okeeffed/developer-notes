@@ -40,3 +40,16 @@ function countVowels($str)
     return strlen(preg_replace("/[^aeiou]/i", "", $str));
 }
 ```
+
+## Python
+
+```python
+import re
+
+def run(src):
+    return len(re.sub("[^aeiouAEUIO]", "", src))
+```
+
+## Ruby
+
+## Rust
