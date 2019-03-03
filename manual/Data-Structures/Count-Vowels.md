@@ -29,3 +29,14 @@ class CountVowels {
     }
 }
 ```
+
+## PHP
+
+```php
+<?php
+
+function countVowels($str)
+{
+    return strlen(preg_replace("/[^aeiou]/i", "", $str));
+}
+```
