@@ -16,7 +16,7 @@ import "regexp"
 
 // CountVowels should have a comment documenting it.
 func CountVowels(arg string) int {
-	return len(regexp.MustCompile(`[^aeiouAEIOU]`).ReplaceAllString(arg, ""))
+  return len(regexp.MustCompile(`[^aeiouAEIOU]`).ReplaceAllString(arg, ""))
 }
 ```
 
