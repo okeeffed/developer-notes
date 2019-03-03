@@ -15,3 +15,12 @@ except:
 ```
 
 ## Example case
+
+```python
+class LinkedList:
+    def __init__(self, head=None):
+        self.head = head
+
+    def getFirst(self):
+        if self.head ==
+```
