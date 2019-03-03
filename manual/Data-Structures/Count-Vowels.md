@@ -62,3 +62,12 @@ end
 ```
 
 ## Rust
+
+```rust
+extern crate regex;
+use regex::Regex;
+
+pub fn count_vowels(s: String) -> usize {
+    return Regex::new("[^aeiouAEIOU]").unwrap().replace_all(&s, "").len();
+}
+```
