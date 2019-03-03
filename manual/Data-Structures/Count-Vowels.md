@@ -52,4 +52,13 @@ def run(src):
 
 ## Ruby
 
+```ruby
+class CountVowels
+    def self.count(input)
+        flt = input.gsub(/[^aeiou]/i, '')
+        return flt.length
+    end
+end
+```
+
 ## Rust
