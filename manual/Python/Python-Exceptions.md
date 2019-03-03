@@ -5,7 +5,7 @@ menu: Python
 
 # Python Exceptions
 
-The base example is to use a try/except block.
+The base example is to use a try/except block. You can raise exceptions in code that can be caught by the except block.
 
 ```python
 try:
