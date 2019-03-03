@@ -28,7 +28,8 @@ class LinkedList:
             return self.head
 
 try:
-
+    ll = LinkedList()
+    ll.getFirst()
 except Exception, error:
     print(error)
 ```
