@@ -26,4 +26,9 @@ class LinkedList:
             raise Exception("No items in list")
         else:
             return self.head
+
+try:
+
+except Exception, error:
+    print(error)
 ```
