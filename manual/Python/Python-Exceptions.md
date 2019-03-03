@@ -22,5 +22,8 @@ class LinkedList:
         self.head = head
 
     def getFirst(self):
-        if self.head ==
+        if self.head == None:
+            raise Exception("No items in list")
+        else:
+            return self.head
 ```
