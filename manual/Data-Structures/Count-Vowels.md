@@ -30,6 +30,16 @@ class CountVowels {
 }
 ```
 
+## JavaScript
+
+```javascript
+const run = (arg) => arg.replace(/[^aeiou]/gi, '').length;
+
+module.exports = {
+  run
+};
+```
+
 ## PHP
 
 ```php
