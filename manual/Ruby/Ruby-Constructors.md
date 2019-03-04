@@ -7,6 +7,8 @@ menu: Ruby
 
 The important constructor method is the `initialize` method.
 
+## Simple Example
+
 ```ruby
 # Ruby program to initialize instance
 # variable using constructor
@@ -36,3 +38,5 @@ obj1 = Geeks.new()
 # calling display method
 obj1.display()
 ```
+
+## Linked List Example
