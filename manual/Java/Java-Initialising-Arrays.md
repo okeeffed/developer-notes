@@ -7,5 +7,6 @@ menu: Java
 
 ```java
 int[] smallArr = new int[2]; // init with memory for 2 spaces
+int[] another; // declaration
 Integer[] res = { n.data };
 ```
