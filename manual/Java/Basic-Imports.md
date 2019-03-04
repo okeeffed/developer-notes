@@ -85,3 +85,24 @@ public class Node {
     }
 }
 ```
+
+## File 3: src/test/java/LinkedListTest.java
+
+For this particular test, we also need to import the `Node` package to ensure we can create nodes for the LinkedList.
+
+```java
+import org.junit.Ignore;
+import org.junit.Test;
+
+import static org.junit.Assert.assertEquals;
+import main.java.Node;
+
+public class LinkedListTest {
+    @Test
+    public void testGetFirst() {
+        Node n1 = new Node(2);
+        LinkedList ll = new LinkedList(n1);
+        assertEquals(ll.getFirst(), n1);
+    }
+}
+```
