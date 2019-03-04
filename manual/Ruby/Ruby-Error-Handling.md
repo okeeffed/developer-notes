@@ -5,6 +5,8 @@ menu: Ruby
 
 # Ruby Error Handling
 
+This is a basic example of raising and exception and rescueing the thrown exception.
+
 ```ruby
 def raise_and_rescue
   begin
