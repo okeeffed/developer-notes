@@ -12,3 +12,12 @@ int[] allocArr = new int[2]; // init with memory for 2 spaces
 int[] declareArr; // declaration
 int[] withValues = { n.data }; // shorthand init with values
 ```
+
+## Push, pop, shift, unshift
+
+```java
+Array.push    -> ArrayList.add(Object o); // Append the list
+Array.pop     -> ArrayList.remove(int index); // Remove list[index]
+Array.shift   -> ArrayList.remove(0); // Remove first element
+Array.unshift -> ArrayList.add(int index, Object o); // Prepend the list
+```
