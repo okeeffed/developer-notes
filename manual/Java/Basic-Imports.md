@@ -5,6 +5,10 @@ menu: Java
 
 # Basic Java Importing
 
+This is a basic reminder on how to declare `packages` and import those packages when running Gradle tests.
+
+## Layout
+
 Given the following example to test a `Linked List` Java class, we have the following layout for the `.java` and test files:
 
 ```shell
