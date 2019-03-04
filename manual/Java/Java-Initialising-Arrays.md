@@ -60,6 +60,5 @@ public class Main {
         System.out.println(animals); // [Lion, Tiger, Cat, Dog]
 
     }
-
 }
 ```
