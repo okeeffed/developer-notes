@@ -13,7 +13,6 @@ menu: Ruby
 
 # class name
 class Geeks
-
 	# constructor
 	def initialize
 
