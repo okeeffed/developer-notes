@@ -40,3 +40,59 @@ obj1.display()
 ```
 
 ## Linked List Example
+
+```ruby
+"""
+Basic implementation without all methods
+"""
+
+class LinkedList
+    def initialize(head=nil)
+        if head.nil?
+            @size = 0
+        else
+            @size = 1
+        end
+        @head = head
+    end
+
+    def getSize
+        @size
+    end
+
+    def insertFirst(n)
+        if @head.nil?
+            @head = n
+        else
+            tmp = @head
+            @head = n
+            n.setNext(tmp)
+        end
+        @size += 1
+    end
+
+    def clear
+        @head = nil
+        @size = 0
+    end
+
+    def getFirst
+        @head
+    end
+end
+
+class Node
+    def initialize(data = nil)
+        @data = data
+        @next = nil
+    end
+
+    def getNext
+        @next
+    end
+
+    def setNext(n)
+        @next = n
+    end
+end
+```
