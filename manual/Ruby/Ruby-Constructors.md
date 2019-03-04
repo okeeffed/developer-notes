@@ -5,6 +5,8 @@ menu: Ruby
 
 # Ruby Contructors
 
+The important method is the `initialize` method.
+
 ```ruby
 # Ruby program to initialize instance
 # variable using constructor
