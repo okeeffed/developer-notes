@@ -48,6 +48,24 @@ $arr = array("one","two","three");
 $value = array_pop($arr);
 ```
 
+## Shift
+
+```php
+// create our array with 3 elements
+$arr = array("one","two","three");
+// $value will be "one" and array's value will now be array("two","three");
+$value = array_shift($arr);
+```
+
+## Unshift
+
+```php
+// create our array with 3 elements
+$arr = array("three","four","five");
+// $count will now be 5 and array will hold one - five
+$count = array_unshift($arr,"one","two");
+```
+
 ## Resources + Reading
 
 http://www.thecave.info/php-array-push-pop-shift-and-unshift/
