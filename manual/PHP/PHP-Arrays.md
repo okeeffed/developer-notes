@@ -66,6 +66,67 @@ $arr = array("three","four","five");
 $count = array_unshift($arr,"one","two");
 ```
 
+## Example - Basic Tree Implementation
+
+```php
+<?php
+
+class Tree {
+    function __construct($root = null) {
+        $this->root = $root;
+    }
+
+    public function bfs() {
+        // 1. shift val
+        // 2. if children, append to arr
+        // 3. append data to array to compare
+        if ($this->root == null) {
+            throw new Error("No tree root");
+        }
+
+        $arr = array($this->root);
+        $res = [];
+
+        while (count($arr) > 0) {
+            $x = array_shift($arr);
+            if ($x->children != null) {
+                $arr = array_merge($arr, $x->children);
+            }
+
+            array_push($res, $x->data);
+        }
+        return $res;
+    }
+
+    public function dfs() {
+        // shift from arr
+        // if children exist, unshift array
+        // add data to res array
+
+        $res = [];
+        $arr = array($this->root);
+
+        while (count($arr) > 0) {
+            $x = array_shift($arr);
+            if ($x->children != null) {
+                $arr = array_merge($x->children, $arr);
+            }
+
+            array_push($res, $x->data);
+        }
+
+        return $res;
+    }
+}
+
+class Node {
+    function __construct($data = null, $children = null) {
+        $this->data = $data;
+        $this->children = $children;
+    }
+}
+```
+
 ## Resources + Reading
 
 http://www.thecave.info/php-array-push-pop-shift-and-unshift/
