@@ -41,6 +41,13 @@ $count = count($arr); // $count will be 3
 
 ## Pop
 
+```php
+// create our array with 3 elements
+$arr = array("one","two","three");
+// $value will be "three" and array's value will now be array("one","two");
+$value = array_pop($arr);
+```
+
 ## Resources + Reading
 
 http://www.thecave.info/php-array-push-pop-shift-and-unshift/
