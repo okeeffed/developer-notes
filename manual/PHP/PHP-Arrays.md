@@ -66,7 +66,7 @@ $arr = array("three","four","five");
 $count = array_unshift($arr,"one","two");
 ```
 
-## Example - Basic Tree Implementation
+## Example: Basic Tree Implementation
 
 ```php
 <?php
