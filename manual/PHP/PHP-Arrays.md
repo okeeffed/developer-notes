@@ -16,7 +16,7 @@ $arr = array("one");
 $count = array_push($arr,"two","three");
 ```
 
-Alternative:
+Alternative using `$arr[]`:
 
 ```php
 // create our array with 1 element
@@ -27,6 +27,16 @@ $arr[] = "two";
 $arr[] = "three";
 // $count will be 3
 $count = count($arr)
+```
+
+Alternative using `$array_merge()`:
+
+```php
+// create our array with 1 element
+$arr = array("one");
+// alternate method using array_merge()
+$arr = array_merge($arr,array("two","three")); // $arr will now be array("one","two","three");
+$count = count($arr); // $count will be 3
 ```
 
 ## Pop
