@@ -9,7 +9,6 @@ menu: Java
 
 ```java
 // src/main/java/Lambda.java
-
 interface Anon {
     String helloWorld();
 }
