@@ -18,3 +18,15 @@ menu: Tensorflow
 We can decide what application or technique we are going to used based on the type of output.
 
 For example, if the output data itself is continuous, we know that we would apply regression. If in fact the output data is discrete in nature ie pass/fail, then we would consider options like classification.
+
+## Plinko Example
+
+In the example of Plinko, we want to try figure out where a ball dropped into the Plinko grid will end up.
+
+From the example, we can determine that we have these features:
+
+1. Drop Position
+2. Ball Bounciness
+3. Ball Size
+
+From these pieces of data, we want to know the output label of which bucket a ball lands in.
