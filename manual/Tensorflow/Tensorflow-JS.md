@@ -7,7 +7,7 @@ menu: Tensorflow
 
 ## Problem Solving Process
 
-1. Identify data relevant to problem
+1. Identify data relevant to problem (features, labels)
 2. Assemble a set of data related to problem to be solved
 3. Decide on the type of output you are predicting
 4. Based on type of output, pick an algorithm that will determine a correlation between your 'features' and 'labels'
