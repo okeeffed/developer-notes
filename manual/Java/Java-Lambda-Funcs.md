@@ -5,6 +5,8 @@ menu: Java
 
 # Java Lambda Funcs
 
+The basic gist is to generate a `interface` with the lambda signature, then explicitly create a function preface by the interface type.
+
 ## Example
 
 ```java
