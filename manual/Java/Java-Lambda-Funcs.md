@@ -7,6 +7,8 @@ menu: Java
 
 The basic gist is to generate a `interface` with the lambda signature, then explicitly create a function preface by the interface type.
 
+This will allow you to call the lambda function as a instance method.
+
 ## Example
 
 ```java
