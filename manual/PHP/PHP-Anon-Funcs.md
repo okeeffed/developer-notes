@@ -5,6 +5,10 @@ menu: PHP
 
 # PHP Anonymous Functions
 
+The basic gist is to use the keyword `function()` with a block scope.
+
+If you want to use variables declared by the direct parent scope, ensure you use the `use()` keyword. A simple example of this can be found below.
+
 ## Simple Example
 
 ```php
