@@ -5,6 +5,14 @@ menu: Ruby
 
 # Ruby Lambda Functions
 
+The basic gist of declaration and usage is to use the `lambda` keyword. Note that Lambda functions have subtle differences to Proc functions, although they both derive from the Proc object.
+
+The Lambda function enforces the number of arguments passed.
+
+In addition, Lambda and Proc functions treat the `return` differently. Lambda will return from the scope of that closure function, whereas Proc will return from the parent scope.
+
+## Simple Example
+
 ```ruby
 # lambda.rb
 class Lambda
