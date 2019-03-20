@@ -3,7 +3,11 @@ name: PHP Arrays
 menu: PHP
 ---
 
-# PHP Arrays
+# PHP Array Method Applications
+
+This covers the basic actions of applying a push, pop, shift and unshift function with PHP.
+
+These functions are incredibly useful for data structure implementations.
 
 ## Push
 
@@ -127,6 +131,6 @@ class Node {
 }
 ```
 
-## Resources + Reading
+## Resources + Extra Reading
 
 http://www.thecave.info/php-array-push-pop-shift-and-unshift/
