@@ -1,10 +1,9 @@
 ---
 name: Redux Persist
-menu: Redux 
+menu: Redux
 ---
-# Redux Persist
 
-## React Native implementation
+# Redux Persist usage with React Native
 
 ```bash
 yarn add redux-persist redux-persist-sensitive-storage
@@ -32,28 +31,25 @@ enhancers.push(applyMiddleware(logger, reduxNavMiddleware, sagaMiddleware));
 const persistConfig = {
   key: 'primary',
   storage,
-  // should put FirebaseReducer back to whitelist once index.jon is ready
   whitelist: __DEV__
-    ? ['ProfileReducer', 'OffersReducer', 'StoresReducer', 'LoyaltyCardReducer']
+    ? ['CopyReducer', 'OffersReducer', 'StoresReducer']
     : [
+        'CopyReducer',
         'ProfileReducer',
         'OffersReducer',
         'StoresReducer',
-        'LoyaltyCardReducer',
-        'FirebaseReducer'
+        'LoyaltyCardReducer'
       ]
 };
 const configuredReducers = persistReducer(persistConfig, reducers);
 const store = createStore(configuredReducers, composeEnhancers(...enhancers));
 
-// if you need sensitive storage
+/* if you need sensitive storage */
 const persistor = persistStore(store, createSensitiveStorage(), () =>
   console.info('Persist configured')
 );
-// else
-const persistor = persistStore(store);
-
-// ...
+/* else */
+// const persistor = persistStore(store);
 
 export default class App extends Component {
   render() {

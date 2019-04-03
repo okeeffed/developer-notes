@@ -5,7 +5,7 @@ menu: Redis
 
 # Redis with Nodejs
 
-`yarn install redis` and use the controller. Example controller setup.
+`yarn install redis` and use the controller. Example controller setup. Use promises to enable sequential optionality.
 
 ```javascript
 const redis = require('redis');

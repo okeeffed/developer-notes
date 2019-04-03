@@ -1,23 +1,17 @@
 ---
 name: CL Logistic Regression
-menu: Machine Learning 
+menu: Machine Learning
 ---
+
 # Classification: Logistic Regression
 
-<!-- TOC -->
+This is a basic look at `Logistic Regression` and implementing an example from a `csv` file. While the CSV file itself with the data is excluded, this basic look will show how to interpret the CSV in a particular way to give your dependent and independent variables.
 
-*   [Classification: Logistic Regression](#classification-logistic-regression)
-    *   [Logistic Regression Intuition](#logistic-regression-intuition)
-        *   [The scientific approach](#the-scientific-approach)
-    *   [Implementation in Python](#implementation-in-python)
-        *   [Fitting the logistic regression model to the Training Set](#fitting-the-logistic-regression-model-to-the-training-set)
-        *   [Checking the fit predictions using the Confusion Matrix](#checking-the-fit-predictions-using-the-confusion-matrix)
-        *   [Visualising the predictive power using a graph](#visualising-the-predictive-power-using-a-graph)
-        *   [How do we interpret the graph?](#how-do-we-interpret-the-graph)
-        *   [What is the point of the classifiers?](#what-is-the-point-of-the-classifiers)
-        *   [Checking the results when applied to the Test Set](#checking-the-results-when-applied-to-the-test-set)
+The performance and reduction of these independent variables to improve the model are not included in this basic overview.
 
-<!-- /TOC -->
+## Note
+
+The original text below includes mathmetical formulas that do not translate into their mathematical expressions on the blog. Some familiarity with Latex will be required to interpret the expressions used.
 
 ## Logistic Regression Intuition
 
@@ -33,7 +27,7 @@ In the example given above, we wouldn't use a linear model (as you could imagine
 
 If we take the linear `y = b[0] + b[1]*x` and take that into the sigmoid function `p = 1 / (1 + pow(e, -y))` and then we through that into `ln(p/(1-p)) = b[0] + b[1]*x` then we can get the y. Therefore the last equation is the one for logistical regression.
 
-```
+```python
 # MAIN FORMULA
 ln(p/(1-p)) = b[0] + b[1]*x
 ```
@@ -54,19 +48,9 @@ For accurate predictions, we do use feature scaling and we will also create a cl
 # Data Preprocessing Template
 
 # Importing the libraries
-import sys, json
 import numpy as np
 import matplotlib.pyplot as plt
 import pandas as pd
-
-# send() for Node.js Python Shell lib
-def send(arg, type = 0):
-	if type == 1:
-		print json.dumps(json.loads(arg))
-	elif type == 2:
-		print arg
-	else:
-		print json.dumps(arg)
 
 # Importing the dataset
 dataset = pd.read_csv('data/Social_Network_Ads.csv')
@@ -74,8 +58,9 @@ dataset = pd.read_csv('data/Social_Network_Ads.csv')
 X = dataset.iloc[:, 2:4].values
 y = dataset.iloc[:, 4].values
 
-send(X.tolist());
-send(y.tolist());
+# If you wish to check to lists
+# print(X.tolist())
+# print(y.tolist())
 
 # Splitting the dataset into the Training set and Test set
 from sklearn.model_selection import train_test_split
@@ -88,7 +73,7 @@ sc_X = StandardScaler()
 X_train = sc_X.fit_transform(X_train)
 X_test = sc_X.fit_transform(X_test)
 
-send(X_train.tolist());
+print(X_train.tolist())
 ```
 
 ### Fitting the logistic regression model to the Training Set
@@ -106,7 +91,7 @@ In order to make a prediction on the X_test:
 ```python
 # y_pred will be the vector of predictions
 y_pred = classifier.predict(X_test)
-send(y_pred.tolist())
+print(y_pred.tolist())
 ```
 
 ### Checking the fit predictions using the Confusion Matrix
@@ -116,9 +101,9 @@ We do this by making a `Confusion Matrix`.
 ```python
 # Create the confusion matrix
 from sklearn.metrics import confusion_matrix
-cm = confusion_matrix(y_test, y_pred);
-send("\nConfusion Matrix")
-send(cm.tolist())
+cm = confusion_matrix(y_test, y_pred)
+print("\nConfusion Matrix")
+print(cm.tolist())
 ```
 
 ### Visualising the predictive power using a graph

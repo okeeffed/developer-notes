@@ -1,8 +1,11 @@
 ---
 name: Intro To Reselect
-menu: Redux 
+menu: Redux
 ---
+
 # Intro to Reselect
+
+Quick and dirty implementation of `reselect`. This assumes you already have the requirements for Redux installed and in operation.
 
 ## Links
 
@@ -29,7 +32,11 @@ export const getElementsUiState = createSelector(
 const mapStateToProps = (state) => ({
   elementsUi: reducers.getElementsUiState(state)
 });
+
+// Basic mapping dispatch
 const mapDispatchToProps = (dispatch) => ({ dispatch: dispatch });
+
+// Basic wiring of program
 export default connect(
   mapStateToProps,
   mapDispatchToProps

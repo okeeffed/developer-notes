@@ -298,7 +298,7 @@ spec:
     image: okeeffed/docker-demo
     ports:
     - containerPort: 3000
-    # @@@ This is the health check
+    # ! This is the health check
     livenessProbe:
     httpGet:
       path: /

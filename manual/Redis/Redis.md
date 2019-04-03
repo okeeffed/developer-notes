@@ -1,5 +1,5 @@
 ---
-name: Basic Redis
+name: Redis CLI Basics
 menu: Redis
 ---
 
