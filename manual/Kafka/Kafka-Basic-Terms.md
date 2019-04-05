@@ -96,7 +96,7 @@ If a topic is configured as `log compacted`, it means Kafka will retain only the
 
 ## Multiple Clusters
 
-The benefits:
+As deployment grow, it is important to have multiple clusters. The benefits:
 
 - Segregation of types of data
 - Isolation for security requirements
