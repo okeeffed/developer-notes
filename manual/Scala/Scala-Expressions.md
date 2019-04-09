@@ -57,5 +57,10 @@ val c = while (i < 10) {
 object Functions extends App {
     // this works because we know everything is an expression
     def functionExample(a: String, b: Int): String = a + " " + b
+
+    def parameterlessFunc(): Int = 42
+    println(parameterlessFunc())
+    // also valid in Scala to call func
+    println(parameterlessFunc)
 }
 ```
