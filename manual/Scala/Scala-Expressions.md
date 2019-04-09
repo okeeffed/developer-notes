@@ -38,7 +38,7 @@ val a = {
     2 < 3
 }
 
-// type Integ
+// type Int value 10
 val b = {
     if(a) 123 else 321
     10
