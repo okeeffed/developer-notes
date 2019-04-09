@@ -7,7 +7,7 @@ menu: Scala
 
 ## For Loops
 
-For loops are not recommended in Scala. They return `Unit` which in itself is equivalent to`null`.
+For loops are not recommended in Scala. They return `Unit` which in itself is equivalent to`null`. This is the case for side effects - an intergral part of understanding Scala.
 
 ## Code Blocks
 
