@@ -52,3 +52,9 @@ val c = while (i < 10) {
 ```
 
 ## Functions
+
+```scala
+object Functions extends App {
+    def functionExample(a: String, b: Int): String = a + b
+}
+```
