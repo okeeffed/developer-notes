@@ -44,7 +44,7 @@ val b = {
     10
 }
 
-// type Unit
+// c is of type Unit
 var i = 0
 val c = while (i < 10) {
     i += 1
