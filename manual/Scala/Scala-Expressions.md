@@ -1,9 +1,9 @@
 ---
-name: Scala Expressions
+name: Scala Expressions and Functions
 menu: Scala
 ---
 
-# Scala Expressions
+# Scala Expressions and Functions
 
 As opposed to instructions, everything in Scala is considered an `expression`. Even if/else statements themselves in Scala are expressions.
 
