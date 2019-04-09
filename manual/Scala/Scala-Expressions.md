@@ -26,3 +26,21 @@ val codeBlock = {
 println(codeBlock)
 // evaluates to "hi"
 ```
+
+## Examples of expressions in actions
+
+```scala
+"hello" // type String
+println("hello") // type Unit
+
+// type Boolean
+val a = {
+    2 < 3
+}
+
+// type Integ
+val b = {
+    if(a) 123 else 321
+    10
+}
+```
