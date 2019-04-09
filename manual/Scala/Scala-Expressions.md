@@ -62,5 +62,10 @@ object Functions extends App {
     println(parameterlessFunc())
     // also valid in Scala to call func
     println(parameterlessFunc)
+
+    def repeterFunc(a: String, n: Int): String  = {
+        if (n == 1) a
+        else a + repeterFunc(a, n-1)
+    }
 }
 ```
