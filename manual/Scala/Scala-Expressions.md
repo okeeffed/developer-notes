@@ -27,7 +27,7 @@ println(codeBlock)
 // evaluates to "hi"
 ```
 
-## Examples of Expressions in Action
+## Examples of Expressions and Side Effects
 
 ```scala
 "hello" // type String
