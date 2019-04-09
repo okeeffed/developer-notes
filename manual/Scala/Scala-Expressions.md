@@ -43,4 +43,10 @@ val b = {
     if(a) 123 else 321
     10
 }
+
+// type Unit
+var i = 0
+val c = while (i < 10) {
+    i += 1
+}
 ```
