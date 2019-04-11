@@ -117,6 +117,8 @@ Example of an `IPv6` address: `2001:0DB8:AC10:FE01:0000:0000:0000:0000` which ca
 
 The main advantage of IPv6 over IPv4 is the larger address space.
 
+Each segment is represented by 16 bites.
+
 ### MAC
 
 - 48 bit
