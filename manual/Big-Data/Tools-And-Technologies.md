@@ -104,3 +104,20 @@ The order of a job goes as the following:
 3. Used by Google Maps to calculate nearest neighbour.
 4. Performing statistical aggregate type functions on large data sets.
 5. Counting number of href links in web log files for clickstream analysis.
+
+### Writing and Running Hadoop MapReduce Jobs
+
+Typicall jobs are written in Java, but can also be written using:
+
+1. Hadoop Streaming: A utility which allows users to create an run MapReduce jobs with any executables.
+2. Hadoop Pipes: C++ API to implement MapReduce applications
+
+### Hadoop Job configurations
+
+Consists of:
+
+- Input and output locations on HDFS.
+- Map and reduce functions via implementations of interfaces or abstract classes.
+- Other job parameters.
+
+A Hadoop job client submits the job (jar/executable) and configuration to the `ResourceManager` in `YARN` which distributes them to the workers and performs functions like scheduling, monitoring and providing status and diagnostic information.
