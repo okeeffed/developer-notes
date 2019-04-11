@@ -60,3 +60,12 @@ The MapReduce layer consists of:
 
 1. MapReduce Java API to write workflows
 2. Services to manage these workflows and provide the scheduling, distribution and parallelizing.
+
+### MapReduce jobs
+
+1. Splits the data sets into independent chunks.
+2. Data sets are processed by map tasks in parallel.
+3. MapReduce sorts the output of map jobs and feeds them to reduce tasks.
+4. Both input and output of map and reduce are stored on the file system.
+5. Framework takes care of scheduling tasks, monitoring them and re-executing failed tasks.
+6. MapReduce framework and HDFS are running on the same set of nodes. Tasks are scheduled on nodes where data is already present, hence yielding high bandwidth across the cluster.
