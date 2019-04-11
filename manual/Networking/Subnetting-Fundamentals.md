@@ -175,6 +175,8 @@ Formula is `2^b / n+2` where:
 
 ## CIDR -> Classless Inter-Domain Routing
 
+This is a replacement for classful networking.
+
 - does no use classes for network assignment or sizing
 - entire unicast range (0-233 in first octet) can be segmented into any sized network
 - subnet masks not limited to `255.255.255.0`, `255.255.0.0` or `255.0.0.0`
