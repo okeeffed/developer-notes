@@ -40,3 +40,5 @@ The framework is composed of:
 2. Files split into blocks, and blocks are stored on datanodes (generally one per node within cluster).
 3. Datanodes manage storage attached to nodes that they run on.
 4. Namenode controls all metadata, including what blocks make up a file and which datanode the blocks are stored on.
+
+![HDFS Architecture](https://hadoop.apache.org/docs/r1.2.1/images/hdfsarchitecture.gif)
