@@ -8,3 +8,5 @@ menu: Big Data
 ## Apache Hadoop
 
 Hadoop is a very significant player in the Big Data landscape.
+
+It's an open-sourced framework for distributed storage and processing of very large data sets.
