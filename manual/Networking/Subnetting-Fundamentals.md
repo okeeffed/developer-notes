@@ -121,6 +121,7 @@ Each segment is represented by 16 bits.
 
 ### Media Access Control (MAC) Address
 
+- Within range to `FF:FF:FF:FF:FF:FF`
 - 48 bit address
 - First three sections represent the Organizationally Unique Identifier (OUI) - number deontes the manufacturer and whether this is a `universal` or `local` MAC address
 - The MAC addresses are mapped to IP addresses through the `Address Resolution Protocol (ARP)`
