@@ -138,6 +138,8 @@ The highest IP in the range isn't used for host assignment as it is consider the
 
 The `broadcast` address also cannot be an even number.
 
+Common network masks include `255.255.255.0`, `255.255.0.0` and `255.0.0.0`
+
 ### Calculating Subnet Hosts
 
 Formula is `2^n - 2` where n is the number of host bits.
