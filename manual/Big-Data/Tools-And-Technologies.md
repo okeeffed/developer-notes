@@ -48,4 +48,4 @@ The framework is composed of:
 
 ![HDFS Architecture](https://hadoop.apache.org/docs/r1.2.1/images/hdfsarchitecture.gif)
 
-The `Namenode` makes all decisions around replication of blocks for data durability.
+The `Namenode` makes all decisions around replication of blocks for data durability. Periodically receives heartbeat and `BlockReport` from datanodes in the cluster. Receipt of heartbeat is the health check.
