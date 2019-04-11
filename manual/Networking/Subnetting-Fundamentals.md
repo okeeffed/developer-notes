@@ -115,6 +115,8 @@ IPv4 address are 32bit with an octet each consisting of 8 bits (hence the 255.25
 
 Example of an `IPv6` address: `2001:0DB8:AC10:FE01:0000:0000:0000:0000` which can be further compressed to be represented as `2001:0DB8:AC10:FE01::`.
 
+The main advantage of IPv6 over IPv4 is the larger address space.
+
 ### MAC
 
 - 48 bit
