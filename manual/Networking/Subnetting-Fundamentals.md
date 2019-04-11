@@ -138,7 +138,7 @@ The highest IP in the range isn't used for host assignment as it is consider the
 
 The `broadcast` address also cannot be an even number.
 
-Common network masks include `255.255.255.0`, `255.255.0.0` and `255.0.0.0` where the 255s represent the network portion and the 0s represent the host portion.
+Common network masks include `255.255.255.0`, `255.255.0.0` and `255.0.0.0` where the 255s represent the network portion and the 0s represent the host portion. The are also the submasks of the `A, B and C networks`.
 
 ### Calculating Subnet Hosts
 
