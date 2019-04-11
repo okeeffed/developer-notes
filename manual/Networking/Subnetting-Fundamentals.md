@@ -140,6 +140,8 @@ The highest IP in the range isn't used for host assignment as it is consider the
 
 Formula is `2^n - 2` where n is the number of host bits.
 
+We subtract 2 addresses for the host ID and the broadcast.
+
 ### Calculating Subnet Range
 
 ```shell
