@@ -166,3 +166,10 @@ Formula is `2^b / n+2` where:
 - does no use classes for network assignment or sizing
 - entire unicast range (0-233 in first octet) can be segmented into any sized network
 - subnet masks not limited to `255.255.255.0`, `255.255.0.0` or `255.0.0.0`
+
+## FLSM and VLSM
+
+Classful networking and CIDR apply to IP assignments, FLSM and VLSM apply to how subnets are assigned within an infrastructure and if the routing protocol send the subnet mask. FLSM is uncommon and has been replaced by VLSM.
+
+- FLSM = Fixed Length Subnet Mask
+- VLSM = Variable Length Subnet Mask
