@@ -54,6 +54,4 @@ The `Namenode` makes all decisions around replication of blocks for data durabil
 
 A framework that makes it easy to write applications which can consume huge amouts of data.
 
-It allows processing in parallel on large clusters consisting of thousands of nodes.
-
-It is reliable and fault tolerant.
+It allows processing in parallel on large clusters consisting of thousands of nodes in a manner that is reliable and fault tolerant.
