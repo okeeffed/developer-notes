@@ -128,7 +128,7 @@ IPv4 address are 32bit with an octet each consisting of 8 bits (hence the 255.25
 
 Designates which sections of the IP address apply to the network, and which apply to the host.
 
-Example, for `192.168.001.101` we could have Network Portion `255.255.255` and Host Portion `.101`. Only the `101` part of this address is the host portion. The network mask determines the network size and `range`.
+Example, for `192.168.001.101` we could have Network Portion `255.255.255` and Host Portion `.101`. Only the `101` part of this address is the host portion, so in the above case we know the network is `192.168.001`. The network mask determines the network size and `range`.
 
 In this example the `range` is `192.168.001.0 - 192.168.001.255`.
 
