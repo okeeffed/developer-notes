@@ -55,3 +55,8 @@ The `Namenode` makes all decisions around replication of blocks for data durabil
 A framework that makes it easy to write applications which can consume huge amouts of data.
 
 It allows processing in parallel on large clusters consisting of thousands of nodes in a manner that is reliable and fault tolerant.
+
+The MapReduce layer consists of:
+
+1. MapReduce Java API to write workflows
+2. Services to manage these workflows and provide the scheduling distribution and parallelizing.
