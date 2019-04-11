@@ -128,7 +128,7 @@ Each segment is represented by 16 bits.
 
 ### Address Resolution Protocol (ARP)
 
-When requestion a resolution to an address, a member of the LAN network sends out a broadcast on the network to all devices with a `Target` IP but no `Target` MAC address.
+When requestion a resolution to an address, a member of the LAN network sends out a broadcast on the network to all devices asking for a `Target` IP but no `Target` MAC address.
 
 The device with the `Target` IP would then respond with a Unicast to the original device provide the `Target` MAC address that was requested..
 
