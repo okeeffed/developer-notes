@@ -140,3 +140,7 @@ The `ApplicationMaster` has the responsibility of negotiating appropriate resour
 ### Container
 
 Note that for YARN, a `container` represents a collection of physical `resources`. Also could mean CPU cores, disk along with RAM.
+
+## Hadoop Ecosystem
+
+![Ecosystem](https://i.ytimg.com/vi/1WY63n2XRLM/maxresdefault.jpg)
