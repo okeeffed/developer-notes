@@ -121,3 +121,11 @@ Consists of:
 - Other job parameters.
 
 A Hadoop job client submits the job (jar/executable) and configuration to the `ResourceManager` in `YARN` which distributes them to the workers and performs functions like scheduling, monitoring and providing status and diagnostic information.
+
+## Yet Another Resource Negotiator (YARN)
+
+Introduced in Hadoop 2.0, YARN provides a general processing platform not constrained to `MapReduce`.
+
+`Global ResourceManager` is the authority that delegates resources among the applications in the system.
+
+It has a `NodeManager` on each node that is responsible for containers, monitoring their resource usage (CPU, memory, disk, network) and reporting the same to the `ResourceManager`.
