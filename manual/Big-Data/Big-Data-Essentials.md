@@ -25,3 +25,9 @@ name: Big Data Essentials
 3. Business transactions
 4. IOT
 5. Sensors
+
+## Formats
+
+- Structured: Data has a defined length and format. Examples include words, dates. This data is easy to store (normally SQL) and analyze.
+- Semi-Structured: Does not conform to a specific format but is self-describing (simple key-value pairs). Examples are EDI, SWIFT and XML.
+- Unstructured: Data with no specific format. This includes audio, images, text messaged etc.
