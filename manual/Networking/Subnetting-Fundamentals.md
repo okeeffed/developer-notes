@@ -136,6 +136,8 @@ Note that in a classful network, the `.0` is not a valid IP as it represents a n
 
 The highest IP in the range isn't used for host assignment as it is consider the `broadcast IP` for broadcasting a packet to an entire IPv4 subnet.
 
+The `broadcast` address also cannot be an even number.
+
 ### Calculating Subnet Hosts
 
 Formula is `2^n - 2` where n is the number of host bits.
