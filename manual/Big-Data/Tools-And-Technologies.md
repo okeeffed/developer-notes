@@ -30,6 +30,6 @@ The framework is composed of:
 - Data service that sits atop regular file systems, allowing a fault tolerant, resilient clustered approach to storing and processing data.
 - Fault-tolerant: Detection of faults and quick automatic recovery is a core architectural goal.
 - Tuned to support large files. Typically a file is GB or TB and can support tens of millions of files by scaling to hundreds of nodes in a cluster.
-- Following the `write once, read multiple` approach simplifying data coherency issues and enabling high throughput data access. Example is a web crawler application.
+- Follows `write once, read multiple` approach simplifying data coherency issues and enabling high throughput data access. Example is a web crawler application.
 - Optimized for throughput rather than latency. This makes it suited for long batch operations on large scale data rather than interactive analysis on streaming data.
 - Moving computation near the data reduces network congestion and increses throughput. HDFS provides interfaces or applications to move closer to data storage.
