@@ -77,3 +77,9 @@ The MapReduce layer consists of:
 - Input split into independent data sets and map function produces key-value pair for each record in the data set.
 - Output of mappers is shuffled, sorted, grouped and passed to the reducers.
 - Reducer function applied to sets of key-value pairs that share the same key. The reducer function often agregates the value for the pairs with the same key.
+
+It is important to know that:
+
+1. Almost all data can be mapped to a key-value pair using a map function.
+2. Keys and values can be of any type. If using a custom type, the type must be implement a writable interface.
+3. `MapReduce` cannot be used if a computation of a value depends on a previously computed value. Recursive funcs like Fibonnaci cannot be implemented using `MapReduce`.
