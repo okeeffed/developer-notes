@@ -192,6 +192,10 @@ This is a replacement for classful networking.
 - entire unicast range (0-233 in first octet) can be segmented into any sized network
 - subnet masks not limited to `255.255.255.0`, `255.255.0.0` or `255.0.0.0`
 
+CIDR blocks are denoted with an IP address followed by a `/n` where n is a number between 0 and 32 that notes the side of the `host portion`.
+
+Example address `192.168.100.1/24` would be a network that supports 256 host addresses (the last octet).
+
 ## FLSM and VLSM
 
 Classful networking and CIDR apply to IP assignments, FLSM and VLSM apply to how subnets are assigned within an infrastructure and if the routing protocol send the subnet mask. FLSM is uncommon and has been replaced by VLSM.
