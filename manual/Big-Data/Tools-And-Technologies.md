@@ -40,5 +40,10 @@ The framework is composed of:
 2. Files split into blocks, and blocks are stored on datanodes (generally one per node within cluster).
 3. Datanodes manage storage attached to nodes that they run on.
 4. Namenode controls all metadata, including what blocks make up a file and which datanode the blocks are stored on.
+5. Namenode executres file system operations like opening, closing and renaming files and directories.
+6. Datanodes serve read and write requests from the clients.
+7. Datanodes perform block creation, deletion, replication upon instruction from the Namenode.
+8. Namenode and Datanode are Java software designed to run on commodity hardware that supports Java.
+9. Usually a cluster contains a single Namenode and multiple datanodes, one each for each node in the cluster.
 
 ![HDFS Architecture](https://hadoop.apache.org/docs/r1.2.1/images/hdfsarchitecture.gif)
