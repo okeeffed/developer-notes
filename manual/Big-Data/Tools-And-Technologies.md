@@ -51,3 +51,9 @@ The framework is composed of:
 The `Namenode` makes all decisions around replication of blocks for data durability. Periodically receives heartbeat and `BlockReport` from datanodes in the cluster. Receipt of heartbeat is the health check.
 
 ## Hadoop MapReduce
+
+A framework that makes it easy to write applications which can consume huge amouts of data.
+
+It allows processing in parallel on large clusters consisting of thousands of nodes.
+
+It is reliable and fault tolerant.
