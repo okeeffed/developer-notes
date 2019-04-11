@@ -146,6 +146,8 @@ We subtract 2 addresses for the host ID and the broadcast.
 
 ### Calculating Subnet Range
 
+We take an IP address and the subnet mask and use an AND calculation on their respective binary representations to figure out the IP range.
+
 ```shell
 192.168.100.200 => 11000000 10101000 01100100 11001000
 255.255.255.224 => 11111111 11111111 11111111 11100000 (2^5 = 32)
