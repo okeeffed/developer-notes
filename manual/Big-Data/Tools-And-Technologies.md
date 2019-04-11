@@ -69,3 +69,9 @@ The MapReduce layer consists of:
 4. Both input and output of map and reduce are stored on the file system.
 5. Framework takes care of scheduling tasks, monitoring them and re-executing failed tasks.
 6. MapReduce framework and HDFS are running on the same set of nodes. Tasks are scheduled on nodes where data is already present, hence yielding high bandwidth across the cluster.
+
+### Inputs and Outputs of a MapReduce Job
+
+- Exclusively operates on key-value pairs.
+- Iput is large scale data set which benefits from parallel processing and does not fit on a single machine.
+-
