@@ -84,4 +84,6 @@ It is important to know that:
 2. Keys and values can be of any type. If using a custom type, the type must be implement a writable interface.
 3. `MapReduce` cannot be used if a computation of a value depends on a previously computed value. Recursive funcs like Fibonnaci cannot be implemented using `MapReduce`.
 
+This is an example of a word count `MapReduce` job.
+
 ![Example of MapReduce job](https://www.guru99.com/images/Big_Data/061114_0930_Introductio1.png)
