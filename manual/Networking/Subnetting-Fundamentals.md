@@ -113,7 +113,7 @@ IPv4 address are 32bit with an octet each consisting of 8 bits (hence the 255.25
 - Leading 0s can be compressed
 - Groups of zeroes can be removed (once) and represented by `::`
 
-Example of an `IPv6` address: `2001:0DB8:AC10:FE01:0000:0000:0000:0000` which can be further compressed to be represented as `2001:0DB8:AC10:FE01::`
+Example of an `IPv6` address: `2001:0DB8:AC10:FE01:0000:0000:0000:0000` which can be further compressed to be represented as `2001:0DB8:AC10:FE01::`.
 
 ### MAC
 
