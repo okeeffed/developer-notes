@@ -142,7 +142,7 @@ Common network masks include `255.255.255.0`, `255.255.0.0` and `255.0.0.0` wher
 
 The `network portion` means we can have many networks.
 
-The `host portion` defines how many devices or how many portions you can have on your LAN.
+The `host portion` defines how many devices or how many portions you can have on your LAN. This is the only part of the address on a LAN that changes.
 
 ### Calculating Subnet Hosts
 
