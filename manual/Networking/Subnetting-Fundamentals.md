@@ -140,6 +140,8 @@ The `broadcast` address also cannot be an even number.
 
 Common network masks include `255.255.255.0`, `255.255.0.0` and `255.0.0.0` where the 255s represent the network portion and the 0s represent the host portion. The are also the submasks of the `A, B and C networks`.
 
+The `host portion` defines how many devices or how many portions you can have on your LAN.
+
 ### Calculating Subnet Hosts
 
 Formula is `2^n - 2` where n is the number of host bits.
