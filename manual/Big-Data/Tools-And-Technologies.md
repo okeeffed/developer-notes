@@ -144,3 +144,11 @@ Note that for YARN, a `container` represents a collection of physical `resources
 ## Hadoop Ecosystem
 
 ![Ecosystem](https://i.ytimg.com/vi/1WY63n2XRLM/maxresdefault.jpg)
+
+5 functions of Hadoop ecosystem:
+
+1. Data management using HDFS, HBase and YARN
+2. Data access with MapReduce, Hive and Pig
+3. Data ingestion and integration using Flume, Sqoop, Kafka and Storm
+4. Data monitoring using Ambari, Zookeeper and Oozie
+5. Data governance and security using Falcon, Ranger and Knox
