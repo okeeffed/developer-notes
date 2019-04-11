@@ -87,3 +87,12 @@ It is important to know that:
 This is an example of a word count `MapReduce` job.
 
 ![Example of MapReduce job](https://www.guru99.com/images/Big_Data/061114_0930_Introductio1.png)
+
+The order of a job goes as the following:
+
+1. Input
+2. Splitting
+3. Mapping
+4. Shuffle
+5. Reduce
+6. Final Result
