@@ -119,7 +119,7 @@ The main advantage of IPv6 over IPv4 is the larger address space.
 
 Each segment is represented by 16 bits.
 
-### MAC
+### Media Access Control (MAC) Address
 
 - 48 bit address
 - First three sections represent the Organizationally Unique Identifier (OUI) - number deontes the manufacturer and whether this is a `universal` or `local` MAC address
