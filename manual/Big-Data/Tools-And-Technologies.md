@@ -74,4 +74,4 @@ The MapReduce layer consists of:
 
 - Exclusively operates on key-value pairs.
 - Input is large scale data set which benefits from parallel processing and does not fit on a single machine.
--
+- Input split into independent data sets and map function produces key-value pair for each record in teh data set.
