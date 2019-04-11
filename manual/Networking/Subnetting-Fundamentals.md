@@ -138,7 +138,7 @@ The highest IP in the range isn't used for host assignment as it is consider the
 
 ### Calculating Subnet Hosts
 
-Formula is `2^n` where n is the number of host bits.
+Formula is `2^n - 2` where n is the number of host bits.
 
 ### Calculating Subnet Range
 
