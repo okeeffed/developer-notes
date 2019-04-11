@@ -128,4 +128,4 @@ Introduced in Hadoop 2.0, YARN provides a general processing platform not constr
 
 `Global ResourceManager` is the authority that delegates resources among the applications in the system.
 
-It has a `NodeManager` on each node that is responsible for containers, monitoring their resource usage (CPU, memory, disk, network) and reporting the same to the `ResourceManager`.
+It has a `NodeManager` on each node that is responsible for containers, monitoring their resource usage (CPU, memory, disk, network) and reporting this data to the `ResourceManager`.
