@@ -96,3 +96,11 @@ The order of a job goes as the following:
 4. Shuffle
 5. Reduce
 6. Final Result
+
+### Example Applications of MapReduce
+
+1. Counting votes by processing data from each polling booth.
+2. Aggregating electricy consumption from data points collected across a large geographical area.
+3. Used by Google Maps to calculate nearest neighbour.
+4. Performing statistical aggregate type functions on large data sets.
+5. Counting number of href links in web log files for clickstream analysis.
