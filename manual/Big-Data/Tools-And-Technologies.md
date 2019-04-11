@@ -83,3 +83,5 @@ It is important to know that:
 1. Almost all data can be mapped to a key-value pair using a map function.
 2. Keys and values can be of any type. If using a custom type, the type must be implement a writable interface.
 3. `MapReduce` cannot be used if a computation of a value depends on a previously computed value. Recursive funcs like Fibonnaci cannot be implemented using `MapReduce`.
+
+![Example of MapReduce job](https://www.google.com/url?sa=i&source=images&cd=&ved=2ahUKEwiWtZKA1sfhAhUQeisKHephAK8QjRx6BAgBEAU&url=https%3A%2F%2Fwww.guru99.com%2Fintroduction-to-mapreduce.html&psig=AOvVaw1tKnhEX7W4tqX7pM_AvJXO&ust=1555059436678253)
