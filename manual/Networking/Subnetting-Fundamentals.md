@@ -196,6 +196,8 @@ CIDR blocks are denoted with an IP address followed by a `/n` where n is a numbe
 
 Example address `192.168.100.1/24` would be a network that supports 256 host addresses (the last octet).
 
+`192.168.100.1/23` would support 512 host addresses.
+
 ## FLSM and VLSM
 
 Classful networking and CIDR apply to IP assignments, FLSM and VLSM apply to how subnets are assigned within an infrastructure and if the routing protocol send the subnet mask. FLSM is uncommon and has been replaced by VLSM.
