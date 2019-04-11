@@ -14,3 +14,5 @@ It's an open-sourced framework for distributed storage and processing of very la
 Originally built in 2005 by a Yahoo engineer.
 
 It was inspired by Google's `MapReduce` and the `Google File System` papers.
+
+It was written in Java to implement the `MapReduce` programming model for scalable, reliable and distributed computing.
