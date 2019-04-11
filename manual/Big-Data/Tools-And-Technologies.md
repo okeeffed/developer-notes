@@ -136,3 +136,7 @@ The `ResourceManager` has two components:
 2. ApplicationsManager - responsible for accepting job-submissions, negotiating the first container for executing the application-specific `ApplicationMaster` and provides the service for restarting the `ApplicationMaster` on failure.
 
 The `ApplicationMaster` has the responsibility of negotiating appropriate resource containers from the `Scheduler`, tracking their status and monitoring progress.
+
+### Container
+
+Note that for YARN, a `container` represents a collection of physical `resources`. Also could mean CPU cores, disk along with RAM.
