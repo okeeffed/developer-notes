@@ -47,3 +47,5 @@ The framework is composed of:
 9. Usually a cluster contains a single Namenode and multiple datanodes, one each for each node in the cluster.
 
 ![HDFS Architecture](https://hadoop.apache.org/docs/r1.2.1/images/hdfsarchitecture.gif)
+
+The `Namenode` makes all decisions around replication of blocks for data durability.
