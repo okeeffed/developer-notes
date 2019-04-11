@@ -33,3 +33,10 @@ The framework is composed of:
 - Follows `write once, read multiple` approach, simplifying data coherency issues and enabling high throughput data access. Example is a web crawler application.
 - Optimized for throughput rather than latency. This makes it suited for long batch operations on large scale data rather than interactive analysis on streaming data.
 - Moving computation near the data reduces network congestion and increses throughput. HDFS provides interfaces or applications to move closer to data storage.
+
+### Architecture
+
+1. Leader-follower architecture, where `Namenode` is the leader and `Datanodes` are slaves.
+2. Files split into blocks, and blocks are stored on datanodes (generally one per node within cluster).
+3. Datanodes manage storage attached to nodes that they run on.
+4. Namenode controls all metadata, including what blocks make up a file and which datanode the blocks are stored on.
