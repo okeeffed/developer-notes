@@ -59,4 +59,4 @@ It allows processing in parallel on large clusters consisting of thousands of no
 The MapReduce layer consists of:
 
 1. MapReduce Java API to write workflows
-2. Services to manage these workflows and provide the scheduling distribution and parallelizing.
+2. Services to manage these workflows and provide the scheduling, distribution and parallelizing.
