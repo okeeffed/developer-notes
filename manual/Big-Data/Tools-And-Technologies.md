@@ -73,5 +73,5 @@ The MapReduce layer consists of:
 ### Inputs and Outputs of a MapReduce Job
 
 - Exclusively operates on key-value pairs.
-- Iput is large scale data set which benefits from parallel processing and does not fit on a single machine.
+- Input is large scale data set which benefits from parallel processing and does not fit on a single machine.
 -
