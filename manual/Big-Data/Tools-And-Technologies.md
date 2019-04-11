@@ -74,4 +74,6 @@ The MapReduce layer consists of:
 
 - Exclusively operates on key-value pairs.
 - Input is large scale data set which benefits from parallel processing and does not fit on a single machine.
-- Input split into independent data sets and map function produces key-value pair for each record in teh data set.
+- Input split into independent data sets and map function produces key-value pair for each record in the data set.
+- Output of mappers is shuffled, sorted, grouped and passed to the reducers.
+- Reducer function applied to sets of key-value pairs that share the same key. The reducer function often agregates the value for the pairs with the same key.
