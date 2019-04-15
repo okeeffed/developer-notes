@@ -72,4 +72,4 @@ Preload resources you have high-confidence will be used in the current page. Pre
 
 Both preload and prefetched resources are stored in the HTTP cache.
 
-Most `preload` cases are doing so to preload web fonts.
+Most `preload` cases are doing so to preload web fonts. Other sites are using it to asynchronously load CSS files.
