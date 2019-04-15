@@ -107,3 +107,7 @@ Reducing it can be done by:
 8. Minimize elements updated
 9. Know that smoothness comprimises performance
 10. Use tools to analyze repaint issues
+
+Source: https://www.smashingmagazine.com/2016/12/gpu-animation-doing-it-right/
+
+Note that the `transform` and `opacity` properties are guaranteed to neither affect nor be affected by the normal flow or DOM environment (that is, they won’t cause a reflow or repaint, so their animation can be completely offloaded to the GPU).
