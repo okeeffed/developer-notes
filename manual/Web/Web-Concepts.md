@@ -17,4 +17,4 @@ When present on a response to a HEAD request that has no body, it indicates the 
 
 Source: https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Transfer-Encoding
 
-Usual headers include `Transfer-Encoding: gzip` - HTTP 2.0 does not support `chunked`.
+Usual headers include `Transfer-Encoding: gzip` - HTTP/2 does not support `chunked`.
