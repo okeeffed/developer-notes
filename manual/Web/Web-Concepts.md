@@ -71,3 +71,5 @@ Source: https://medium.com/reloading/preload-prefetch-and-priorities-in-chrome-7
 Preload resources you have high-confidence will be used in the current page. Prefetch resources likely to be used for future navigations across multiple navigation boundaries.
 
 Both preload and prefetched resources are stored in the HTTP cache.
+
+Most `preload` cases are doing so to preload web fonts.
