@@ -42,3 +42,9 @@ The same-origin policy is a critical security mechanism that restricts how a doc
 ### iFrame
 
 On one side it’s a tag, but from the other side it’s a window-in-window.
+
+## Web Performance
+
+### Critical Rendering Path
+
+Optimizing for performance is all about understanding what happens in these intermediate steps between receiving the HTML, CSS, and JavaScript bytes and the required processing to turn them into rendered pixels - that's the critical rendering path.
