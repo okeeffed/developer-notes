@@ -66,7 +66,10 @@ Things to note about a service worker:
 
 ### Preload vs Prefetch
 
-Source: https://medium.com/reloading/preload-prefetch-and-priorities-in-chrome-776165961bbf
+Sources:
+
+- https://medium.com/reloading/preload-prefetch-and-priorities-in-chrome-776165961bbf
+- http://yoavweiss.github.io/link_htmlspecial_16/#53
 
 Preload resources you have high-confidence will be used in the current page. Prefetch resources likely to be used for future navigations across multiple navigation boundaries.
 
