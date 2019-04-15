@@ -157,4 +157,5 @@ In computer science, ACID (Atomicity, Consistency, Isolation, Durability) is a s
 
 ## Semantic Markup
 
-- async: When present, it specifies that the script will be executed asynchronously as soon as it is available.
+- `async`: When present, it specifies that the script will be executed asynchronously as soon as it is available.
+- `defer`: When present, it specifies that the script is executed when the page has finished parsing.
