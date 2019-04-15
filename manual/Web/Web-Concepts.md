@@ -120,5 +120,5 @@ To get rid of implicit compositing issues and to reduce visual artifacts:
 ## Seperation of Concerns
 
 - Model-View-Controller (MVC)
-- Model-View-ViewModel (MVVM)
+- Model-View-View-Model (MVVM)
 - Model-View-Presenter (MVP) patterns
