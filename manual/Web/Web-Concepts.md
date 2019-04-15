@@ -170,3 +170,37 @@ In computer science, ACID (Atomicity, Consistency, Isolation, Durability) is a s
 Source: https://javascriptweblog.wordpress.com/2010/07/06/function-declarations-vs-function-expressions/
 
 Context (which ECMA 5 breaks into LexicalEnvironment, VariableEnvironment and ThisBinding) and Process (a set of statements to be invoked in sequence). Declarations contribute to the VariableEnvironment when the execution scope is entered. They are distinct from Statements (such as return) and are not subject to their rules of process.
+
+### Hoisting
+
+```javascript
+function foo() {
+  var bar = function() {
+    return 3;
+  };
+  return bar();
+  var bar = function() {
+    return 8;
+  };
+}
+alert(foo());
+```
+
+This when run becomes this:
+
+```javascript
+//**Simulated processing sequence for Question 2**
+function foo() {
+  //a declaration for each function expression
+  var bar = undefined;
+  var bar = undefined;
+  //first Function Expression is executed
+  bar = function() {
+    return 3;
+  };
+  // Function created by first Function Expression is invoked
+  return bar();
+  // second Function Expression unreachable
+}
+alert(foo()); //3
+```
