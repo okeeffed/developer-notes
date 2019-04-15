@@ -154,3 +154,7 @@ CAP Theorem is a concept that a distributed database system can only have 2 of t
 ## ACID
 
 In computer science, ACID (Atomicity, Consistency, Isolation, Durability) is a set of properties of database transactions intended to guarantee validity even in the event of errors, power failures, etc.
+
+## Semantic Markup
+
+- async: When present, it specifies that the script will be executed asynchronously as soon as it is available.
