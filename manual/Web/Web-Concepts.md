@@ -220,6 +220,8 @@ function foo() {
 alert(foo());
 ```
 
+...which becomes:
+
 ```javascript
 function foo() {
   function bar() {
@@ -229,6 +231,39 @@ function foo() {
     return 8;
   }
   return bar();
+}
+alert(foo());
+```
+
+In the case where the return occurs in a particular order, we can still return an `undefined` function:
+
+```javascript
+function foo() {
+  return bar();
+  var bar = function() {
+    return 3;
+  };
+  var bar = function() {
+    return 8;
+  };
+}
+alert(foo());
+```
+
+This results in...
+
+```javascript
+function foo() {
+  //a declaration for each function expression
+  var bar = undefined;
+  var bar = undefined;
+  return bar();
+  bar = function() {
+    return 3;
+  };
+  bar = function() {
+    return 8;
+  };
 }
 alert(foo());
 ```
