@@ -83,4 +83,12 @@ Source: https://www.smashingmagazine.com/2017/04/guide-http2-server-push/
 
 Server push lets the server preemptively “push” website assets to the client without the user having explicitly asked for them. When used with care, we can send what we know the user is going to need for the page they’re requesting.
 
+### Browser Layout vs Compositing vs Painting
+
+Source: https://www.quora.com/What-is-the-difference-between-layout-painting-and-compositing
+
+1. Layout: Browser will determine how much space each element takes up and where to place it.
+2. Painting: This is the process of filling in pixels. It involves drawing out elements.
+3. Compositing: Browser draws element to the screen in the correct order so the page renders correctly.
+
 ### Reduce browser reflows and when to promote an element to the GPU
