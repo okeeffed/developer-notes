@@ -91,4 +91,6 @@ Source: https://www.quora.com/What-is-the-difference-between-layout-painting-and
 2. Painting: This is the process of filling in pixels. It involves drawing out elements.
 3. Compositing: Browser draws element to the screen in the correct order so the page renders correctly.
 
-### Reduce browser reflows and when to promote an element to the GPU
+### Reflows and when to promote to GPU
+
+This refers to the re-calculation of positions and dimensions of all elements, which leads to re-rendering part or all of the document. Changing a single element can affect all children, ancestors, and siblings.
