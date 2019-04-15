@@ -146,3 +146,7 @@ Layout – if you’re designing a system used by multiple development teams, yo
 ## Rendering
 
 Rendering – client-side (CSR), server-side (SSR) and universal rendering.
+
+## CAP Theory
+
+CAP Theorem is a concept that a distributed database system can only have 2 of the 3: Consistency, Availability and Partition Tolerance.
