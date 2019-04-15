@@ -150,3 +150,7 @@ Rendering – client-side (CSR), server-side (SSR) and universal rendering.
 ## CAP Theory
 
 CAP Theorem is a concept that a distributed database system can only have 2 of the 3: Consistency, Availability and Partition Tolerance.
+
+## ACID
+
+In computer science, ACID (Atomicity, Consistency, Isolation, Durability) is a set of properties of database transactions intended to guarantee validity even in the event of errors, power failures, etc.
