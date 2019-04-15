@@ -32,3 +32,9 @@ Source: https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/ETag
 The tl;dr is that `REST enforces a client/server model, where the client is interested in gaining information and acting on a set of resources that are managed by the server. It doesn’t make sense to talk about RPC vs REST. In fact you can implement a RESTful service on top of any RPC implementation by creating methods that conform to the constraints of REST. You can even create an HTTP style REST implementation on top of an RPC implementation by creating methods for GET, POST, PUT, DELETE that take in some metadata that mirrors HTTP headers and return a string that mirrors the body of an HTTP request.`
 
 Best source: https://etherealbits.com/2012/12/debunking-the-myths-of-rpc-rest/
+
+## Security
+
+### Same-Origin Policy
+
+The same-origin policy is a critical security mechanism that restricts how a document or script loaded from one origin can interact with a resource from another origin. It helps isolate potentially malicious documents, reducing possible attack vectors.
