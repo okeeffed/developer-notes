@@ -122,3 +122,7 @@ To get rid of implicit compositing issues and to reduce visual artifacts:
 - Model-View-Controller (MVC)
 - Model-View-View-Model (MVVM)
 - Model-View-Presenter (MVP) patterns
+
+## Multi-Device Support
+
+- Mobile-first styles
