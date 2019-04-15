@@ -162,3 +162,9 @@ In computer science, ACID (Atomicity, Consistency, Isolation, Durability) is a s
 - `disabled`: A disabled input element is unusable and un-clickable.
 - `data-*`: data-\* attributes allow us to store extra information on standard, semantic HTML elements without other hacks such as non-standard attributes, extra properties on DOM, or Node.setUserData().
 - Aria labels: Accessibility concerns, for example, making sure an input checkbox has a larger responding area (use label “for”). Also, role=”button”, role=”presentation”, etc.
+
+## JavaScript
+
+### Context and Process
+
+Context (which ECMA 5 breaks into LexicalEnvironment, VariableEnvironment and ThisBinding) and Process (a set of statements to be invoked in sequence). Declarations contribute to the VariableEnvironment when the execution scope is entered. They are distinct from Statements (such as return) and are not subject to their rules of process.
