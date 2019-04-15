@@ -161,3 +161,4 @@ In computer science, ACID (Atomicity, Consistency, Isolation, Durability) is a s
 - `defer`: When present, it specifies that the script is executed when the page has finished parsing.
 - `disabled`: A disabled input element is unusable and un-clickable.
 - `data-*`: data-\* attributes allow us to store extra information on standard, semantic HTML elements without other hacks such as non-standard attributes, extra properties on DOM, or Node.setUserData().
+- Aria labels: Accessibility concerns, for example, making sure an input checkbox has a larger responding area (use label “for”). Also, role=”button”, role=”presentation”, etc.
