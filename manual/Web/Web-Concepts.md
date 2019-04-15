@@ -48,3 +48,18 @@ On one side it’s a tag, but from the other side it’s a window-in-window.
 ### Critical Rendering Path
 
 Optimizing for performance is all about understanding what happens in these intermediate steps between receiving the HTML, CSS, and JavaScript bytes and the required processing to turn them into rendered pixels - that's the critical rendering path.
+
+### Service Workers
+
+Source: https://developers.google.com/web/fundamentals/primers/service-workers/
+
+A service worker is a script that your browser runs in the background, separate from a web page, opening the door to features that don't need a web page or user interaction. Today, they already include features like push notifications and background sync. In the future, service workers might support other things like periodic sync or geofencing. The core feature discussed in this tutorial is the ability to intercept and handle network requests, including programmatically managing a cache of responses.
+
+The reason this is such an exciting API is that it allows you to support offline experiences, giving developers complete control over the experience.
+
+Things to note about a service worker:
+
+- It's a JavaScript Worker, so it can't access the DOM directly. Instead, a service worker can communicate with the pages it controls by responding to messages sent via the postMessage interface, and those pages can manipulate the DOM if needed.
+- Service worker is a programmable network proxy, allowing you to control how network requests from your page are handled.
+- It's terminated when not in use, and restarted when it's next needed, so you cannot rely on global state within a service worker's onfetch and onmessage handlers. If there is information that you need to persist and reuse across restarts, service workers do have access to the IndexedDB API.
+- Service workers make extensive use of promises.
