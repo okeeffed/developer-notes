@@ -63,3 +63,7 @@ Things to note about a service worker:
 - Service worker is a programmable network proxy, allowing you to control how network requests from your page are handled.
 - It's terminated when not in use, and restarted when it's next needed, so you cannot rely on global state within a service worker's onfetch and onmessage handlers. If there is information that you need to persist and reuse across restarts, service workers do have access to the IndexedDB API.
 - Service workers make extensive use of promises.
+
+### Preload vs Prefetch
+
+Preload resources you have high-confidence will be used in the current page. Prefetch resources likely to be used for future navigations across multiple navigation boundaries.
