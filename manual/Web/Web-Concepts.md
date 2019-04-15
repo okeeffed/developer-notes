@@ -76,3 +76,11 @@ Preload resources you have high-confidence will be used in the current page. Pre
 Both preload and prefetched resources are stored in the HTTP cache.
 
 Most `preload` cases are doing so to preload web fonts. Other sites are using it to asynchronously load CSS files.
+
+### Server Push
+
+Source: https://www.smashingmagazine.com/2017/04/guide-http2-server-push/
+
+Server push lets the server preemptively “push” website assets to the client without the user having explicitly asked for them. When used with care, we can send what we know the user is going to need for the page they’re requesting.
+
+### Reduce browser reflows and when to promote an element to the GPU
