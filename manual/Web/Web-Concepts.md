@@ -167,4 +167,6 @@ In computer science, ACID (Atomicity, Consistency, Isolation, Durability) is a s
 
 ### Context and Process
 
+Source: https://javascriptweblog.wordpress.com/2010/07/06/function-declarations-vs-function-expressions/
+
 Context (which ECMA 5 breaks into LexicalEnvironment, VariableEnvironment and ThisBinding) and Process (a set of statements to be invoked in sequence). Declarations contribute to the VariableEnvironment when the execution scope is entered. They are distinct from Statements (such as return) and are not subject to their rules of process.
