@@ -69,3 +69,5 @@ Things to note about a service worker:
 Source: https://medium.com/reloading/preload-prefetch-and-priorities-in-chrome-776165961bbf
 
 Preload resources you have high-confidence will be used in the current page. Prefetch resources likely to be used for future navigations across multiple navigation boundaries.
+
+Both preload and prefetched resources are stored in the HTTP cache.
