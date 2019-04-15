@@ -16,3 +16,5 @@ Transfer-Encoding is a hop-by-hop header, that is applied to a message between t
 When present on a response to a HEAD request that has no body, it indicates the value that would have applied to the corresponding GET message.
 
 Source: https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Transfer-Encoding
+
+Usual headers include `Transfer-Encoding: gzip` - HTTP 2.0 does not support `chunked`.
