@@ -41,4 +41,4 @@ The same-origin policy is a critical security mechanism that restricts how a doc
 
 ### iFrame
 
-On one side it’s a tag, just like <script> or <img>. From the other side it’s a window-in-window.
+On one side it’s a tag, but from the other side it’s a window-in-window.
