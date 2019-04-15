@@ -159,3 +159,5 @@ In computer science, ACID (Atomicity, Consistency, Isolation, Durability) is a s
 
 - `async`: When present, it specifies that the script will be executed asynchronously as soon as it is available.
 - `defer`: When present, it specifies that the script is executed when the page has finished parsing.
+- `disabled`: A disabled input element is unusable and un-clickable.
+- `data-*`: data-\* attributes allow us to store extra information on standard, semantic HTML elements without other hacks such as non-standard attributes, extra properties on DOM, or Node.setUserData().
