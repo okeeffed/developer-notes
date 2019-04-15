@@ -142,3 +142,7 @@ State management such as choosing between unidirectional data flow or two-way da
 ## Layout
 
 Layout – if you’re designing a system used by multiple development teams, you need to think about building components and if you require teams to follow a consist markup to use said components.
+
+## Rendering
+
+Rendering – client-side (CSR), server-side (SSR) and universal rendering.
