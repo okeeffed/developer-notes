@@ -138,3 +138,7 @@ Your components may need to communicate in real-time with the server. The design
 ## State Management
 
 State management such as choosing between unidirectional data flow or two-way data binding. You should also think about if your design will follow a passive or reactive programming model, and how components related to each other for example Foo–> Bar or Foo –>Bar.
+
+## Layout
+
+Layout – if you’re designing a system used by multiple development teams, you need to think about building components and if you require teams to follow a consist markup to use said components.
