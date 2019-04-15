@@ -99,3 +99,6 @@ Reducing it can be done by:
 
 1. Use Best-Practise Layout techniques
 2. Minimize CSS Rules
+3. Minimize DOM depth
+4. Update classes low on the tree
+5. Remove complex animations from the flow (position fixed/absolute)
