@@ -204,3 +204,31 @@ function foo() {
 }
 alert(foo()); //3
 ```
+
+Hoisting of functions not assigned to variables is a little different:
+
+```javascript
+function foo() {
+  function bar() {
+    return 3;
+  }
+  return bar();
+  function bar() {
+    return 8;
+  }
+}
+alert(foo());
+```
+
+```javascript
+function foo() {
+  function bar() {
+    return 3;
+  }
+  function bar() {
+    return 8;
+  }
+  return bar();
+}
+alert(foo());
+```
