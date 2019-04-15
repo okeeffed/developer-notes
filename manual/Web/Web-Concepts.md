@@ -94,3 +94,8 @@ Source: https://www.quora.com/What-is-the-difference-between-layout-painting-and
 ### Reflows and when to promote to GPU
 
 This refers to the re-calculation of positions and dimensions of all elements, which leads to re-rendering part or all of the document. Changing a single element can affect all children, ancestors, and siblings.
+
+Reducing it can be done by:
+
+1. Use Best-Practise Layout techniques
+2. Minimize CSS Rules
