@@ -102,3 +102,8 @@ Reducing it can be done by:
 3. Minimize DOM depth
 4. Update classes low on the tree
 5. Remove complex animations from the flow (position fixed/absolute)
+6. Modify hidden elements
+7. Update elements in batch
+8. Minimize elements updated
+9. Know that smoothness comprimises performance
+10. Use tools to analyze repaint issues
