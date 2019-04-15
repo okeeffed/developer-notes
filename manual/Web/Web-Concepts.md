@@ -111,3 +111,8 @@ Reducing it can be done by:
 Source: https://www.smashingmagazine.com/2016/12/gpu-animation-doing-it-right/
 
 Note that the `transform` and `opacity` properties are guaranteed to neither affect nor be affected by the normal flow or DOM environment (that is, they won’t cause a reflow or repaint, so their animation can be completely offloaded to the GPU).
+
+To get rid of implicit compositing issues and to reduce visual artifacts:
+
+1. Try to keep animated objects as high as possible in the z-index. Ideally, these elements should be direct children of the body element. Of course, this is not always possible in the markup when an animated element is nested deep inside the DOM tree and depends on the normal flow. In such cases, you could clone the element and put it in the body for animation only.
+2. You can give browser a hint that you’re going to use compositing with the will-change CSS property. With this property set on an element, the browser will (but not always!) promote it to a compositing layer in advance, so that the animation can start and stop smoothly. But don’t misuse this property, or else you’ll end up with a tremendous increase in memory consumption!
