@@ -121,4 +121,4 @@ To get rid of implicit compositing issues and to reduce visual artifacts:
 
 - Model-View-Controller (MVC)
 - Model-View-ViewModel (MVVM)
-- Model-View-Presenter (MVP) patterns.
+- Model-View-Presenter (MVP) patterns
