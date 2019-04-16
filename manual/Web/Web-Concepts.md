@@ -867,6 +867,13 @@ const foo = () => {
 foo()
 ```
 
+## Host vs Native Objects
+
+Source: https://medium.com/@rlynjb/js-interview-question-what-s-the-difference-between-host-objects-and-native-objects-b395f7c5fbf1
+
+- Host: Browser objects supplied
+- Native: Native to JavaScript
+
 ## More
 
 - [What is Prefetching?](https://www.keycdn.com/support/prefetching)
