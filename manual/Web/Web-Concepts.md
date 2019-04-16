@@ -33,6 +33,12 @@ Source: https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Frame-Option
 
 Indicates whether or not a browser should be able to load in a `frame`, `iframe`, `object` or `embed` tag.
 
+### DNT
+
+Source: https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/DNT
+
+Indicates if a user would prefer privacy over personalisation.
+
 ## RPC vs REST
 
 The tl;dr is that `REST enforces a client/server model, where the client is interested in gaining information and acting on a set of resources that are managed by the server. It doesn’t make sense to talk about RPC vs REST. In fact you can implement a RESTful service on top of any RPC implementation by creating methods that conform to the constraints of REST. You can even create an HTTP style REST implementation on top of an RPC implementation by creating methods for GET, POST, PUT, DELETE that take in some metadata that mirrors HTTP headers and return a string that mirrors the body of an HTTP request.`
