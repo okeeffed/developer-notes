@@ -574,3 +574,9 @@ listNode.appendChild(frag);
 
 Source: https://codeburst.io/taming-huge-collections-of-dom-nodes-bebafdba332
 
+- If you are looking for performance, don’t use frameworks. Period.
+- At the end of the day, DOM is slow.
+- Repaints and reflows are even slower.
+- Whatever performance you get out of your app, repaints and reflows are still going to be the last remaining bottleneck.
+- Keep the number of DOM nodes down.
+- Cache created DOM nodes, and use them as a pool of pre-assembled elements you can put back in the page as needed.
