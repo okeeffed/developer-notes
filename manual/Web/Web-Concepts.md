@@ -837,6 +837,12 @@ After the HTTP request is sent and the server responds with an HTTP response, th
 
 ## Event Loops
 
+In general, in most browsers there is an event loop for every browser tab, to make every process isolated and avoid a web page with infinite loops or heavy processing to block your entire browser.
+
+The environment manages multiple concurrent event loops, to handle API calls for example. Web Workers run in their own event loop as well.
+
+You mainly need to be concerned that your code will run on a single event loop, and write code with this thing in mind to avoid blocking it.
+
 - JS is single-threaded and everything is based to be non-blocking. The event loop is given to each browser and if a function call doesn't return, it becomes blocked and unresponsive.
 - The `call stack` is a LIFO queue that executes functionality.
 - Events are put on a `message queue` and when the event runs, they are put on the back of the `call stack` line.
