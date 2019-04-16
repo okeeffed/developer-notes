@@ -513,8 +513,19 @@ repeat(3, (n) => {
 
 ## DOM
 
+Source: https://www.digitalocean.com/community/tutorials/how-to-make-changes-to-the-dom
+
 - Selecting or finding nodes using `document.querySelector` and in older browsers `document.getElementsByTagName`.
 - Traversal up and down – `Node.parentNode`, `Node.firstChild`, `Node.lastChild` and `Node.childNodes`.
 - Traversal left and right – `Node.previousSibling` and `Node.nextSibling`.
 - Manipulation – add, remove, copy, and create nodes in the DOM tree. You should know operations such as how to change the text content of a node and toggle, remove or add a CSS classname.
 - Performance – touching the DOM can be expensive when you have many nodes, you should at least know about document fragments and node caching.
+
+### Creating Nodes
+
+| Property/Method  | Description                                    |
+| ---------------- | ---------------------------------------------- |
+| createElement()  | Create a new element node                      |
+| createTextNode() | Create a new text node                         |
+| node.textContent | Get or set the text content of an element node |
+| node.innerHTML   | Get or set the HTML content of an element      |
