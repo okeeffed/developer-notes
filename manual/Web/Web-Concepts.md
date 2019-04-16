@@ -393,7 +393,17 @@ setTimeout(function() {
 setTimeout(() => user.sayHi(), 1000); // Hello, John!
 ```
 
-Solution 2:
+Solution 2: Bind
 
 ```javascript
+let user = {
+  firstName: 'John'
+};
+
+function func() {
+  alert(this.firstName);
+}
+
+let funcUser = func.bind(user);
+funcUser(); // John
 ```
