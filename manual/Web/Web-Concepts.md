@@ -622,7 +622,7 @@ Transitions
 }
 ```
 
-### OOCSS vs BEMS vs SMACSS vs ACSS
+### OOCSS vs ACSS vs BEMS vs SMACSS
 
 Source: https://clubmate.fi/oocss-acss-bem-smacss-what-are-they-what-should-i-use/
 
@@ -638,3 +638,5 @@ Trashes everything you’ve know about CSS (pretty much). Premise being: only us
 #### Block, Element, Modifier (BEMS):
 
 Attemps to address the naming of things.
+
+#### Scalable and Modular Architecture for CSS
