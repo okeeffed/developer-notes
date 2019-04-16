@@ -537,3 +537,10 @@ Source: https://www.digitalocean.com/community/tutorials/how-to-make-changes-to-
 | node.appendChild()  | Add a node as the last child of a parent element                      |
 | node.insertBefore() | Insert a node into the parent element before a specified sibling node |
 | node.replaceChild() | Replace an existing node with a new node                              |
+
+### Removal
+
+| Method             | Description       |
+| ------------------ | ----------------- |
+| node.removeChild() | Remove child node |
+| node.remove()      | Remove node       |
