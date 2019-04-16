@@ -165,6 +165,50 @@ In computer science, ACID (Atomicity, Consistency, Isolation, Durability) is a s
 
 ## JavaScript
 
+### Hash Map
+
+Requires:
+
+- Get
+- Set
+- Hash for key
+
+```javascript
+class DumbMap {
+  constructor() {
+    this.list = []
+  }
+
+  get(x) {
+    let i = hash(x)
+
+    if (!this.list[i]) {
+      return undefined
+    }
+
+    let result
+
+    this.list[i].forEach(pairs => {
+      if (pairs[0] === x) {
+        result = pairs[1]
+      }
+    })
+
+    return result
+  }
+
+  set(x, y) {
+    let i = hash(x)
+
+    if (!this.list[i]) {
+      this.list[i] = []
+    }
+
+    this.list[i].push([x, y])
+  }
+}
+````
+
 ### Context and Process
 
 Source: https://javascriptweblog.wordpress.com/2010/07/06/function-declarations-vs-function-expressions/
@@ -646,3 +690,4 @@ More of a styleguide for CSS conventions layout.
 #### Reasonable System for CSS Stylesheet Structure
 
 CSS file structure.
+
