@@ -838,3 +838,4 @@ After the HTTP request is sent and the server responds with an HTTP response, th
 ## More
 
 - [What is Prefetching?](https://www.keycdn.com/support/prefetching)
+- [Sorting algorithms](https://medium.com/@george.seif94/a-tour-of-the-top-5-sorting-algorithms-with-python-code-43ea9aa02889)
