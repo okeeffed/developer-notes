@@ -81,7 +81,7 @@ Most `preload` cases are doing so to preload web fonts. Other sites are using it
 
 Source: https://www.smashingmagazine.com/2017/04/guide-http2-server-push/
 
-Server push lets the server preemptively “push” website assets to the client without the user having explicitly asked for them. When used with care, we can send what we know the user is going to need for the page they’re requesting.
+Server push lets the server preemptively "push" website assets to the client without the user having explicitly asked for them. When used with care, we can send what we know the user is going to need for the page they’re requesting.
 
 ### Browser Layout vs Compositing vs Painting
 
@@ -161,7 +161,7 @@ In computer science, ACID (Atomicity, Consistency, Isolation, Durability) is a s
 - `defer`: When present, it specifies that the script is executed when the page has finished parsing.
 - `disabled`: A disabled input element is unusable and un-clickable.
 - `data-*`: data-\* attributes allow us to store extra information on standard, semantic HTML elements without other hacks such as non-standard attributes, extra properties on DOM, or Node.setUserData().
-- Aria labels: Accessibility concerns, for example, making sure an input checkbox has a larger responding area (use label “for”). Also, role=”button”, role=”presentation”, etc.
+- Aria labels: Accessibility concerns, for example, making sure an input checkbox has a larger responding area (use label "for"). Also, role="button", role="presentation", etc.
 
 ## JavaScript
 
@@ -293,3 +293,8 @@ const b = 2 + ''; // "2"
 // explicit
 a.toString(); // "2"
 ```
+
+## Browser events: bubbling, capturing, and delegation
+
+- The "bubbling" model achieves this by saying the event bubbles from bottom to top, visiting each handler in turn. First it visits the SPAN’s handler, and if that handler doesn’t cancel the event, it propagates up to the A, and so on.
+- The "capturing" model says instead that event handlers are visited top-to-bottom. The BODY handler captures the event first, and if it doesn’t cancel the event, it propagates downwards to the P, and so on.
