@@ -781,7 +781,14 @@ Cookie: stores data that has to be sent back to the server with subsequent reque
 
 Cookies are primarily for server-side reading (can also be read on client-side), localStorage and sessionStorage can only be read on client-side.
 
+## Describe the process of typing in a URL to when a website loads on the screen
+
+When I enter a website's URL, in the transport layer, it will ask a local DNS what is the IP of the provided URL. We know the IP of the local DNS server by the DHCP protocol, when a node connects to internet and gets an IP address.
+
+After that, a browser will try to establish a TCP connection with a server having the retrieved IP by 3-way handshake. When it establish a TCP connection, the browser will form an HTTP request containing an HTTP header and body.
+
+After the HTTP request is sent and the server responds with an HTTP response, the browser will parse the HTTP response header and body, and will render the website. If the document contains additional assets, the browser will create HTTP requests for the assets and send them like above.
+
 ## More
 
 - [What is Prefetching?](https://www.keycdn.com/support/prefetching)
-- 
