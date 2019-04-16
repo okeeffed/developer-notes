@@ -636,3 +636,4 @@ Source: https://clubmate.fi/oocss-acss-bem-smacss-what-are-they-what-should-i-us
 Trashes everything you’ve know about CSS (pretty much). Premise being: only use reusable classes like. Just one declaration per selector. Essentially, putting the styling back to the markup, like we used to do in the early nineties.
 
 #### Block, Element, Modifier (BEMS):
+
