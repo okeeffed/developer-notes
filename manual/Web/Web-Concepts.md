@@ -352,6 +352,7 @@ function foo() {
     console.log(memory);
   };
 }
+
 var memory = null,
   baz = foo();
 baz(); // 'hello closure'
