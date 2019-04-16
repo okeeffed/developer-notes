@@ -518,7 +518,7 @@ Source: https://www.digitalocean.com/community/tutorials/how-to-make-changes-to-
 - Selecting or finding nodes using `document.querySelector` and in older browsers `document.getElementsByTagName`.
 - Traversal up and down – `Node.parentNode`, `Node.firstChild`, `Node.lastChild` and `Node.childNodes`.
 - Traversal left and right – `Node.previousSibling` and `Node.nextSibling`.
-- Manipulation – add, remove, copy, and create nodes in the DOM tree. You should know operations such as how to change the text content of a node and toggle, remove or add a CSS classname.
+- Manipulation – add, remove, copy, and create nodes in the DOM tree. You should know operations such as how to change the text content of a node and toggle, remove or add a CSS classname (node.classList.add/remove).
 - Performance – touching the DOM can be expensive when you have many nodes, you should at least know about document fragments and node caching.
 
 ### Creating Nodes
