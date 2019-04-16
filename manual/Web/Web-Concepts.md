@@ -695,3 +695,6 @@ More of a styleguide for CSS conventions layout.
 
 CSS file structure.
 
+### CSS Sprites
+
+Source: https://css-tricks.com/css-sprites/
