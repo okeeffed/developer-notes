@@ -409,3 +409,25 @@ sayHi(); // Hello, John!
 
 setTimeout(sayHi, 1000); // Hello, John!
 ```
+
+### Currying
+
+```javascript
+function curry(f) {
+  // curry(f) does the currying transform
+  return function(a) {
+    return function(b) {
+      return f(a, b);
+    };
+  };
+}
+
+// usage
+function sum(a, b) {
+  return a + b;
+}
+
+let carriedSum = curry(sum);
+
+alert(carriedSum(1)(2)); // 3
+```
