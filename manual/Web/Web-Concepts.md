@@ -565,4 +565,7 @@ for(var x = 0; x < 10; x++) {
     li.innerHTML = "List item " + x;
     frag.appendChild(li);
 }
+
+// Mass-add the fragment nodes to the list
+listNode.appendChild(frag);
 ```
