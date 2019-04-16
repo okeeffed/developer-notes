@@ -840,7 +840,7 @@ After the HTTP request is sent and the server responds with an HTTP response, th
 - JS is single-threaded and everything is based to be non-blocking. The event loop is given to each browser and if a function call doesn't return, it becomes blocked and unresponsive.
 - The `call stack` is a LIFO queue that executes functionality.
 - Events are put on a `message queue` and when the event runs, they are put on the back of the `call stack` line.
-- Job queues used by Promises and introduced in ES6 are similar to the message queue with the except that they are fast-tracked to the front of the call stack.
+- Job queues used by Promises and introduced in ES6 are similar to the message queue with the except that they are fast-tracked to the front of the call stack when a promise resolves.
 
 ## More
 
