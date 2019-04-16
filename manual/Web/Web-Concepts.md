@@ -482,6 +482,8 @@ class Alligator extends Animal {
 
 ### Higher Order Function
 
+Basic example:
+
 ```javascript
 function greaterThan(n) {
   return (m) => m > n;
@@ -489,4 +491,20 @@ function greaterThan(n) {
 let greaterThan10 = greaterThan(10);
 console.log(greaterThan10(11));
 // true
+```
+
+Example to show alternative control logic:
+
+```javascript
+function unless(test, then) {
+  if (!test) then();
+}
+
+repeat(3, (n) => {
+  unless(n % 2 == 1, () => {
+    console.log(n, 'is even');
+  });
+});
+//  0 is even
+//  2 is even
 ```
