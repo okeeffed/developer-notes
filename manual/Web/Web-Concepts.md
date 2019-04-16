@@ -569,3 +569,7 @@ for(var x = 0; x < 10; x++) {
 // Mass-add the fragment nodes to the list
 listNode.appendChild(frag);
 ```
+
+### Node Cacheing
+
+Source: https://codeburst.io/taming-huge-collections-of-dom-nodes-bebafdba332
