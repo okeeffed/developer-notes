@@ -357,3 +357,5 @@ var memory = null,
   baz = foo();
 baz(); // 'hello closure'
 ```
+
+Lexical scope: A lexical scope in Javascript means that a variable defined outside a function can be accessible inside another function defined after the variable declaration. But the opposite is not true, the variables defined inside a function will not be accessible outside that function.
