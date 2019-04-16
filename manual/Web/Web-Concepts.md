@@ -835,6 +835,13 @@ After that, a browser will try to establish a TCP connection with a server havin
 
 After the HTTP request is sent and the server responds with an HTTP response, the browser will parse the HTTP response header and body, and will render the website. If the document contains additional assets, the browser will create HTTP requests for the assets and send them like above.
 
+## Event Loops
+
+- JS is single-threaded and everything is based to be non-blocking. The event loop is given to each browser and if a function call doesn't return, it becomes blocked and unresponsive.
+- The `call stack` is a LIFO queue that executes functionality.
+- Events are put on a `message queue` and when the event runs, they are put on the back of the `call stack` line.
+- Job queues used by Promises and introduced in ES6 are similar to the message queue with the except that they are fast-tracked to the front of the call stack.
+
 ## More
 
 - [What is Prefetching?](https://www.keycdn.com/support/prefetching)
