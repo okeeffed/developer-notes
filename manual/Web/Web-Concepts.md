@@ -699,3 +699,4 @@ CSS file structure.
 
 Source: https://css-tricks.com/css-sprites/
 
+Get the image once, and shift it around and only display parts of it. This reduces the overhead of having to fetch multiple images.
