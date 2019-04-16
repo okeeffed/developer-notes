@@ -594,3 +594,9 @@ Examples that cause reflows include: adding or removing content, explicitly or i
 ## Media Breakpoints
 
 Media Breakpoints: https://getflywheel.com/layout/css-breakpoints-responsive-design-how-to/
+
+```css
+@media only screen and (min-width: 768px) and (max-width: 959px){
+    display: inline-block;
+}
+```
