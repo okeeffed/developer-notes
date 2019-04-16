@@ -298,5 +298,7 @@ a.toString(); // "2"
 
 `<body> <p> <a><span>Hello</span></a> </p> </body>`
 
+If we add a “click” event listener to the A, we’d expect it to fire when the user clicks the SPAN. We’d also expect clicking on the SPAN to trigger listeners on the P and BODY. If we added listeners to every element — the SPAN, the A, the P, and the BODY — we’d expect them to all fire when the user clicks the SPAN.
+
 - The "bubbling" model achieves this by saying the event bubbles from bottom to top, visiting each handler in turn. First it visits the SPAN’s handler, and if that handler doesn’t cancel the event, it propagates up to the A, and so on.
 - The "capturing" model says instead that event handlers are visited top-to-bottom. The BODY handler captures the event first, and if it doesn’t cancel the event, it propagates downwards to the P, and so on.
