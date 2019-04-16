@@ -482,6 +482,8 @@ class Alligator extends Animal {
 
 ### Higher Order Function
 
+Source: https://eloquentjavascript.net/05_higher_order.html
+
 Basic example:
 
 ```javascript
