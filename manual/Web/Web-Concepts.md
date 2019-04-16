@@ -174,6 +174,8 @@ Requires:
 - Hash for key
 
 ```javascript
+const hash = require('string-hash');
+
 class DumbMap {
   constructor() {
     this.list = []
