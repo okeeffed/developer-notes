@@ -550,3 +550,19 @@ Source: https://www.digitalocean.com/community/tutorials/how-to-make-changes-to-
 | Method           | Description |
 | ---------------- | ----------- |
 | node.cloneNode() | Clone node  |
+
+### Document Fragment
+
+Source: https://davidwalsh.name/documentfragment
+
+```javascript
+// Create the fragment
+var frag = document.createDocumentFragment();
+
+// Create numerous list items, add to fragment
+for(var x = 0; x < 10; x++) {
+	var li = document.createElement("li");
+	li.innerHTML = "List item " + x;
+	frag.appendChild(li);
+}
+```
