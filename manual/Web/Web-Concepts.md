@@ -267,3 +267,21 @@ function foo() {
 }
 alert(foo());
 ```
+
+## typeof, instanceof
+
+```javascript
+class A {
+  hello = () => 'hello';
+}
+const a = new A();
+console.log(a instanceof A); // true
+console.log(typeof a === 'object'); // true
+```
+
+## Type Coercion
+
+1. `Type coercion` is the process of converting value from one type to another
+2. `Implicit vs. Explicit` coercion
+3. Three types of conversions: to string, to boolean, to number
+   first convert to a primitive value
