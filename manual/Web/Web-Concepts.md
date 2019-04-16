@@ -591,7 +591,9 @@ A `reflow` is even more critical to performance because it involves changes that
 
 Examples that cause reflows include: adding or removing content, explicitly or implicitly changing width, height, font-family, font-size and more.
 
-## Media Breakpoints
+## CSS
+
+### Media Breakpoints
 
 Media Breakpoints: https://getflywheel.com/layout/css-breakpoints-responsive-design-how-to/
 
@@ -605,3 +607,21 @@ Media Breakpoints: https://getflywheel.com/layout/css-breakpoints-responsive-des
 
 Source: https://css-tricks.com/almanac/properties/a/animation/
 
+Transitions
+
+```css
+.target {
+    opacity: 1;
+    transition: opacity 300ms ease-out;
+}
+
+@media (max-width: 667px) {
+    .target {
+        opacity: 0;
+    }
+}
+```
+
+### OOCSS vs BEMS vs SMACSS vs ACSS
+
+Source: https://clubmate.fi/oocss-acss-bem-smacss-what-are-they-what-should-i-use/
