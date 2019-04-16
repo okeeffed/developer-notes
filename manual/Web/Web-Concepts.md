@@ -268,7 +268,7 @@ function foo() {
 alert(foo());
 ```
 
-## typeof, instanceof
+### typeof, instanceof
 
 ```javascript
 class A {
@@ -294,7 +294,7 @@ const b = 2 + ''; // "2"
 a.toString(); // "2"
 ```
 
-## Browser events: bubbling, capturing, and delegation
+### Browser events: bubbling, capturing, and delegation
 
 Source: https://blog.meteor.com/browser-events-bubbling-capturing-and-delegation-14db28e924ae
 
@@ -306,3 +306,7 @@ If we add a "click" event listener to the A, we’d expect it to fire when the u
 - The "capturing" model says instead that event handlers are visited top-to-bottom. The BODY handler captures the event first, and if it doesn’t cancel the event, it propagates downwards to the P, and so on.
 
 Event delegation is not a browser feature, but a popular technique built into libraries like jQuery. Many blogs get confused talking about it or equate it with bubbling, but I hope the following description is clear.
+
+### Mixins
+
+Source: https://javascript.info/mixins
