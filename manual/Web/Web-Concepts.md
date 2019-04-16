@@ -630,3 +630,7 @@ OOCSS: Object Orientated CSS:
 
 1. Keep structure and skin separate
 2. Separate container and content
+
+Atomic CSS:
+
+Trashes everything you’ve know about CSS (pretty much). Premise being: only use reusable classes like
