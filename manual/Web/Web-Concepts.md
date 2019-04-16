@@ -727,3 +727,6 @@ Get the image once, and shift it around and only display parts of it. This reduc
 Graceful degradation means building an application with a baseline of full functionality available in modern browsers and then taking the layers off to ensure it works with older browsers. Basically, you downgrade/degrade the enhanced version (that why it’s called this way).
 
 Progressive enhancement is the opposite of graceful degradation. Instead of developing all features from the start, a web page is built from a baseline of the features supported by all browsers (and browser versions). Then, more advanced features are added like layers, so the web page takes advantage of the functionality newer browsers have to offer. 
+
+## Explain some of the pros and cons for CSS animations versus JavaScript animations
+
