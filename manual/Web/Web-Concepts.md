@@ -268,6 +268,8 @@ function foo() {
 alert(foo());
 ```
 
+Note that anything declared with `let` will not hoist and cause a reference error!
+
 ### typeof, instanceof
 
 ```javascript
