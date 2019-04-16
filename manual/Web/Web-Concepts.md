@@ -435,3 +435,21 @@ alert(carriedSum(1)(2)); // 3
 ### Prototypes
 
 Source: https://medium.com/backticks-tildes/javascript-prototypes-ee46810e4866
+
+Objects in JavaScript have an internal property known as prototype. It is simply a reference to another object and contains common attributes/properties across all instances of the object.
+
+```javascript
+let protoRabbit = function(color, word, type) {
+  this.color = color;
+  this.word = word;
+  this.type = type;
+};
+protoRabbit.prototype.getColor = function() {
+  return this.color;
+};
+protoRabbit.prototype.speak = function() {
+  console.log(`The ${this.type} rabbit says ${this.word}`);
+};
+let killerRabbit = new protoRabbit('grey', 'SKREEEEE!', 'assassin');
+killerRabbit.speak();
+```
