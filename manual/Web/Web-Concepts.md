@@ -734,4 +734,4 @@ TL;DR
 
 - Use CSS animations for simpler "one-shot" transitions, like toggling UI element states.
 - Use JavaScript animations when you want to have advanced effects like bouncing, stop, pause, rewind, or slow down.
-If you choose to animate with JavaScript, use the Web Animations API or a modern framework that you're comfortable with.
+- If you choose to animate with JavaScript, use the Web Animations API or a modern framework that you're comfortable with.
