@@ -296,6 +296,8 @@ a.toString(); // "2"
 
 ## Browser events: bubbling, capturing, and delegation
 
+Source: https://blog.meteor.com/browser-events-bubbling-capturing-and-delegation-14db28e924ae
+
 `<body> <p> <a><span>Hello</span></a> </p> </body>`
 
 If we add a “click” event listener to the A, we’d expect it to fire when the user clicks the SPAN. We’d also expect clicking on the SPAN to trigger listeners on the P and BODY. If we added listeners to every element — the SPAN, the A, the P, and the BODY — we’d expect them to all fire when the user clicks the SPAN.
