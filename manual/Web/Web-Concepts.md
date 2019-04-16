@@ -165,6 +165,8 @@ In computer science, ACID (Atomicity, Consistency, Isolation, Durability) is a s
 - `data-*`: data-\* attributes allow us to store extra information on standard, semantic HTML elements without other hacks such as non-standard attributes, extra properties on DOM, or Node.setUserData().
 - Aria labels: Accessibility concerns, for example, making sure an input checkbox has a larger responding area (use label "for"). Also, role="button", role="presentation", etc.
 
+Also note extra source and info: https://www.hongkiat.com/blog/html-5-semantics/
+
 ## JavaScript
 
 ### Hash Map
