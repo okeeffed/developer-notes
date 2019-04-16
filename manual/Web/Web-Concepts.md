@@ -731,6 +731,14 @@ A BFC is an HTML box that satisfies at least one of the following conditions:
 3. The value of display is table-cell, table-caption, inline-block, flex, or inline-flex.
 4. The value of overflow is not visible.
 
+### What are some of the “gotchas” for writing efficient CSS?
+
+Firstly, understand that browsers match selectors from rightmost (key selector) to left. Browsers filter out elements in the DOM according to the key selector, and traverse up its parent elements to determine matches. The shorter the length of the selector chain, the faster the browser can determine if that element matches the selector. Hence avoid key selectors that are tag and universal selectors. They match a large numbers of elements and browsers will have to do more work in determining if the parents do match.
+
+BEM (Block Element Modifier) methodology recommends that everything has a single class, and, where you need hierarchy, that gets baked into the name of the class as well, this naturally makes the selector efficient and easy to override.
+
+Be aware of which CSS properties trigger reflow, repaint and compositing. Avoid writing styles that change the layout (trigger reflow) where possible.
+
 ### More CSS Interview Qs
 
 https://codeburst.io/clearing-your-front-end-job-interview-css-95bdd82871f2
