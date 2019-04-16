@@ -626,11 +626,11 @@ Transitions
 
 Source: https://clubmate.fi/oocss-acss-bem-smacss-what-are-they-what-should-i-use/
 
-OOCSS: Object Orientated CSS:
+#### OOCSS: Object Orientated CSS:
 
 1. Keep structure and skin separate
 2. Separate container and content
 
-Atomic CSS:
+#### Atomic CSS:
 
 Trashes everything you’ve know about CSS (pretty much). Premise being: only use reusable classes like. Just one declaration per selector. Essentially, putting the styling back to the markup, like we used to do in the early nineties.
