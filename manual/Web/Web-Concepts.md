@@ -374,3 +374,26 @@ let user = {
 
 setTimeout(user.sayHi, 1000); // Hello, undefined!
 ```
+
+Solution 1:
+
+```javascript
+let user = {
+  firstName: 'John',
+  sayHi() {
+    alert(`Hello, ${this.firstName}!`);
+  }
+};
+
+setTimeout(function() {
+  user.sayHi(); // Hello, John!
+}, 1000);
+
+// same, but shorter
+setTimeout(() => user.sayHi(), 1000); // Hello, John!
+```
+
+Solution 2:
+
+```javascript
+```
