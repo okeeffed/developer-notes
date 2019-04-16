@@ -223,6 +223,10 @@ console.log(min);
 
 Promises are not callbacks. A promise represents the future result of an asynchronous operation.
 
+### Identity (===) vs Equality (==) Operator
+
+The identity (===) operator behaves identically to the equality (==) operator except no type conversion is done, and the types must be the same to be considered equal.
+
 ### Hash Map
 
 Requires:
