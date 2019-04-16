@@ -397,13 +397,15 @@ Solution 2: Bind
 
 ```javascript
 let user = {
-  firstName: 'John'
+  firstName: 'John',
+  sayHi() {
+    alert(`Hello, ${this.firstName}!`);
+  }
 };
 
-function func() {
-  alert(this.firstName);
-}
+let sayHi = user.sayHi.bind(user); // (*)
 
-let funcUser = func.bind(user);
-funcUser(); // John
+sayHi(); // Hello, John!
+
+setTimeout(sayHi, 1000); // Hello, John!
 ```
