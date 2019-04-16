@@ -722,6 +722,10 @@ Get the image once, and shift it around and only display parts of it. This reduc
 }
 ```
 
+### More CSS Interview Qs
+
+https://codeburst.io/clearing-your-front-end-job-interview-css-95bdd82871f2
+
 ## Graceful Degradation vs Progressive Enhancements
 
 Graceful degradation means building an application with a baseline of full functionality available in modern browsers and then taking the layers off to ensure it works with older browsers. Basically, you downgrade/degrade the enhanced version (that why it’s called this way).
