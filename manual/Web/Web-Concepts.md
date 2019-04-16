@@ -221,7 +221,7 @@ console.log(min);
 
 ### Promises vs Callbacks
 
-Promises are not callbacks. A promise represents the future result of an asynchronous operation. 
+Promises are not callbacks. A promise represents the future result of an asynchronous operation.
 
 ### Hash Map
 
