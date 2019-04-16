@@ -431,3 +431,7 @@ let carriedSum = curry(sum);
 
 alert(carriedSum(1)(2)); // 3
 ```
+
+### Prototypes
+
+Source: https://medium.com/backticks-tildes/javascript-prototypes-ee46810e4866
