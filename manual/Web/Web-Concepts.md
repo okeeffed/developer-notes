@@ -544,3 +544,9 @@ Source: https://www.digitalocean.com/community/tutorials/how-to-make-changes-to-
 | ------------------ | ----------------- |
 | node.removeChild() | Remove child node |
 | node.remove()      | Remove node       |
+
+### Copy
+
+| Method           | Description |
+| ---------------- | ----------- |
+| node.cloneNode() | Clone node  |
