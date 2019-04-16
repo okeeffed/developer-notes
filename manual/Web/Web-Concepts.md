@@ -529,3 +529,11 @@ Source: https://www.digitalocean.com/community/tutorials/how-to-make-changes-to-
 | createTextNode() | Create a new text node                         |
 | node.textContent | Get or set the text content of an element node |
 | node.innerHTML   | Get or set the HTML content of an element      |
+
+### Inserting Nodes
+
+| Property/Method     | Description                                                           |
+| ------------------- | --------------------------------------------------------------------- |
+| node.appendChild()  | Add a node as the last child of a parent element                      |
+| node.insertBefore() | Insert a node into the parent element before a specified sibling node |
+| node.replaceChild() | Replace an existing node with a new node                              |
