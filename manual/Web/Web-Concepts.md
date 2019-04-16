@@ -622,7 +622,7 @@ Transitions
 }
 ```
 
-### OOCSS vs ACSS vs BEMS vs SMACSS
+### OOCSS vs ACSS vs BEMS vs SMACSS v RSCSS
 
 Source: https://clubmate.fi/oocss-acss-bem-smacss-what-are-they-what-should-i-use/
 
@@ -640,4 +640,8 @@ Trashes everything you’ve know about CSS (pretty much). Premise being: only us
 Attemps to address the naming of things.
 
 #### Scalable and Modular Architecture for CSS
+
+More of a styleguide for CSS conventions layout.
+
+#### Reasonable System for CSS Stylesheet Structure
 
