@@ -284,3 +284,12 @@ console.log(typeof a === 'object'); // true
 1. `Type coercion` is the process of converting value from one type to another
 2. `Implicit vs. Explicit` coercion
 3. Three types of conversions: to string, to boolean, to number
+
+```javascript
+// implicit
+const a = 2;
+const b = 2 + ''; // "2"
+
+// explicit
+a.toString(); // "2"
+```
