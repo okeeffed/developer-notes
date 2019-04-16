@@ -335,3 +335,7 @@ Object.assign(User.prototype, sayHiMixin);
 // now User can say hi
 new User('Dude').sayHi(); // Hello Dude!
 ```
+
+### Lexical Scope, Closures + Hoisting
+
+Source: https://medium.com/@nickbalestra/javascripts-lexical-scope-hoisting-and-closures-without-mystery-c2324681d4be
