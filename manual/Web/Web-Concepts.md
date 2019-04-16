@@ -626,3 +626,7 @@ Transitions
 
 Source: https://clubmate.fi/oocss-acss-bem-smacss-what-are-they-what-should-i-use/
 
+OOCSS: Object Orientated CSS:
+
+1. Keep structure and skin separate
+2. Separate container and content
