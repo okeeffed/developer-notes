@@ -117,6 +117,8 @@ To get rid of implicit compositing issues and to reduce visual artifacts:
 1. Try to keep animated objects as high as possible in the z-index. Ideally, these elements should be direct children of the body element. Of course, this is not always possible in the markup when an animated element is nested deep inside the DOM tree and depends on the normal flow. In such cases, you could clone the element and put it in the body for animation only.
 2. You can give browser a hint that you’re going to use compositing with the `will-change` CSS property. With this property set on an element, the browser will (but not always!) promote it to a compositing layer in advance, so that the animation can start and stop smoothly. But don’t misuse this property, or else you’ll end up with a tremendous increase in memory consumption!
 
+Source: https://blog.teamtreehouse.com/increase-your-sites-performance-with-hardware-accelerated-css
+
 ## Seperation of Concerns
 
 - Model-View-Controller (MVC)
@@ -700,3 +702,20 @@ CSS file structure.
 Source: https://css-tricks.com/css-sprites/
 
 Get the image once, and shift it around and only display parts of it. This reduces the overhead of having to fetch multiple images.
+
+### CSS animation property
+
+```css
+.element {
+  animation: pulse 5s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    background-color: #001F3F;
+  }
+  100% {
+    background-color: #FF4136;
+  }
+}
+```
