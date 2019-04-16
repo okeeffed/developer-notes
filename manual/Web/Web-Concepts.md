@@ -304,3 +304,5 @@ If we add a “click” event listener to the A, we’d expect it to fire when t
 
 - The "bubbling" model achieves this by saying the event bubbles from bottom to top, visiting each handler in turn. First it visits the SPAN’s handler, and if that handler doesn’t cancel the event, it propagates up to the A, and so on.
 - The "capturing" model says instead that event handlers are visited top-to-bottom. The BODY handler captures the event first, and if it doesn’t cancel the event, it propagates downwards to the P, and so on.
+
+Event delegation is not a browser feature, but a popular technique built into libraries like jQuery. Many blogs get confused talking about it or equate it with bubbling, but I hope the following description is clear.
