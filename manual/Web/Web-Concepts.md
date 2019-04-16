@@ -837,6 +837,8 @@ After the HTTP request is sent and the server responds with an HTTP response, th
 
 ## Event Loops
 
+Source: https://flaviocopes.com/javascript-event-loop/
+
 In general, in most browsers there is an event loop for every browser tab, to make every process isolated and avoid a web page with infinite loops or heavy processing to block your entire browser.
 
 The environment manages multiple concurrent event loops, to handle API calls for example. Web Workers run in their own event loop as well.
