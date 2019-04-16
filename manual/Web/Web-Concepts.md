@@ -840,3 +840,4 @@ After the HTTP request is sent and the server responds with an HTTP response, th
 - [What is Prefetching?](https://www.keycdn.com/support/prefetching)
 - [Sorting algorithms (Python)](https://medium.com/@george.seif94/a-tour-of-the-top-5-sorting-algorithms-with-python-code-43ea9aa02889)
 - [Sorting algorithms (JS)](https://dev.to/wangonya/sorting-algorithms-with-javascript-part-1-4aca)
+- [What is the event loop](https://flaviocopes.com/javascript-event-loop/)
