@@ -341,3 +341,5 @@ new User('Dude').sayHi(); // Hello Dude!
 ### Lexical Scope, Closures + Hoisting
 
 Source: https://medium.com/@nickbalestra/javascripts-lexical-scope-hoisting-and-closures-without-mystery-c2324681d4be
+
+Closure: Closure is when a function is able to remember and access its lexical scope even when that function is executing outside its lexical scope.
