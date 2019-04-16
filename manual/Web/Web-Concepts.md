@@ -561,8 +561,8 @@ var frag = document.createDocumentFragment();
 
 // Create numerous list items, add to fragment
 for(var x = 0; x < 10; x++) {
-	var li = document.createElement("li");
-	li.innerHTML = "List item " + x;
-	frag.appendChild(li);
+    var li = document.createElement("li");
+    li.innerHTML = "List item " + x;
+    frag.appendChild(li);
 }
 ```
