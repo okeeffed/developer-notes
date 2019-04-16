@@ -768,3 +768,7 @@ sessionStorage: similar to localStorage but expires when the browser closed (not
 Cookie: stores data that has to be sent back to the server with subsequent requests. Its expiration varies based on the type and the expiration duration can be set from either server-side or client-side (normally from server-side).
 
 Cookies are primarily for server-side reading (can also be read on client-side), localStorage and sessionStorage can only be read on client-side.
+
+## More
+
+- [What is Prefetching?](https://www.keycdn.com/support/prefetching)
