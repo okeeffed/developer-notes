@@ -453,3 +453,29 @@ protoRabbit.prototype.speak = function() {
 let killerRabbit = new protoRabbit('grey', 'SKREEEEE!', 'assassin');
 killerRabbit.speak();
 ```
+
+### Composition
+
+Source: https://alligator.io/js/class-composition/
+
+```javascript
+class Animal {
+  constructor(name) {
+    this.name = name;
+  }
+}
+
+class Alligator extends Animal {}
+
+const jack = new Alligator('jack');
+```
+
+If you wish to be explicit...
+
+```javascript
+class Alligator extends Animal {
+  constructor(...args) {
+    super(...args);
+  }
+}
+```
