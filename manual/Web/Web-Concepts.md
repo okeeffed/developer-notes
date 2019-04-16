@@ -633,4 +633,4 @@ OOCSS: Object Orientated CSS:
 
 Atomic CSS:
 
-Trashes everything you’ve know about CSS (pretty much). Premise being: only use reusable classes like
+Trashes everything you’ve know about CSS (pretty much). Premise being: only use reusable classes like. Just one declaration per selector. Essentially, putting the styling back to the markup, like we used to do in the early nineties.
