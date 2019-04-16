@@ -842,6 +842,23 @@ After the HTTP request is sent and the server responds with an HTTP response, th
 - Events are put on a `message queue` and when the event runs, they are put on the back of the `call stack` line.
 - Job queues used by Promises and introduced in ES6 are similar to the message queue with the except that they are fast-tracked to the front of the call stack when a promise resolves.
 
+```javascript
+const bar = () => console.log('bar')
+
+const baz = () => console.log('baz')
+
+const foo = () => {
+  console.log('foo')
+  setTimeout(bar, 0)
+  new Promise((resolve, reject) =>
+    resolve('should be right after baz, before bar')
+  ).then(resolve => console.log(resolve))
+  baz()
+}
+
+foo()
+```
+
 ## More
 
 - [What is Prefetching?](https://www.keycdn.com/support/prefetching)
