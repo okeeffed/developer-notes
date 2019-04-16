@@ -637,3 +637,4 @@ Trashes everything you’ve know about CSS (pretty much). Premise being: only us
 
 #### Block, Element, Modifier (BEMS):
 
+Attemps to address the naming of things.
