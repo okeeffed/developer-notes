@@ -722,6 +722,15 @@ Get the image once, and shift it around and only display parts of it. This reduc
 }
 ```
 
+### Block Formatting Context (BFC)
+
+A BFC is an HTML box that satisfies at least one of the following conditions:
+
+The value of float is not none.
+The value of position is neither static nor relative.
+The value of display is table-cell, table-caption, inline-block, flex, or inline-flex.
+The value of overflow is not visible.
+
 ### More CSS Interview Qs
 
 https://codeburst.io/clearing-your-front-end-job-interview-css-95bdd82871f2
