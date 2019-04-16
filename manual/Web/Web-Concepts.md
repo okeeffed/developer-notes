@@ -204,6 +204,19 @@ function Food(name, price) {
 
 console.log(new Food('cheese', 5).name);
 // expected output: "cheese"
+
+// Object.apply
+var numbers = [5, 6, 2, 3, 7];
+
+var max = Math.max.apply(null, numbers);
+
+console.log(max);
+// expected output: 7
+
+var min = Math.min.apply(null, numbers);
+
+console.log(min);
+// expected output: 2
 ```
 
 
