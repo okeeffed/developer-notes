@@ -27,6 +27,12 @@ If the resource at a given URL changes, a new Etag value must be generated. Etag
 
 Source: https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/ETag
 
+### X-Frame-Options
+
+Source: https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Frame-Options
+
+Indicates whether or not a browser should be able to load in a `frame`, `iframe`, `object` or `embed` tag.
+
 ## RPC vs REST
 
 The tl;dr is that `REST enforces a client/server model, where the client is interested in gaining information and acting on a set of resources that are managed by the server. It doesn’t make sense to talk about RPC vs REST. In fact you can implement a RESTful service on top of any RPC implementation by creating methods that conform to the constraints of REST. You can even create an HTTP style REST implementation on top of an RPC implementation by creating methods for GET, POST, PUT, DELETE that take in some metadata that mirrors HTTP headers and return a string that mirrors the body of an HTTP request.`
@@ -772,3 +778,4 @@ Cookies are primarily for server-side reading (can also be read on client-side),
 ## More
 
 - [What is Prefetching?](https://www.keycdn.com/support/prefetching)
+- 
