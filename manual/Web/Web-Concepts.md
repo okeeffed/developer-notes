@@ -874,6 +874,10 @@ Source: https://medium.com/@rlynjb/js-interview-question-what-s-the-difference-b
 - Host: Browser objects supplied
 - Native: Native to JavaScript
 
+## What’s the difference between feature detection, feature inference, and using the UA string
+
+These 3 are just practices of determining if a certain web technology feature exists in a user’s browser or environment. Though features may vary with not just modern web technology but with programming languages as well.
+
 ## More
 
 - [What is Prefetching?](https://www.keycdn.com/support/prefetching)
