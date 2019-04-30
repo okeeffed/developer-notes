@@ -65,3 +65,7 @@ client
     });
   });
 ```
+
+## Structure
+
+The importantant part of the recursive structure is that each
