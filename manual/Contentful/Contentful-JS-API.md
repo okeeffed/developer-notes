@@ -11,7 +11,7 @@ name: Contentful JS API
 yarn add contentful
 ```
 
-## Getting started
+## Quickstart
 
 Create a `.env` file with following values:
 
