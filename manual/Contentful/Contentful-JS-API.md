@@ -53,6 +53,7 @@ var client = contentful.createClient({
   accessToken: process.env.CONTENTFUL_API_KEY
 });
 
+// example content type could be a blog post etc
 client
   .getEntries({
     'fields.sku': '<sku_value>',
