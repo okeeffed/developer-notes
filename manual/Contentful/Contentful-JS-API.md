@@ -68,4 +68,4 @@ client
 
 ## Structure
 
-The importantant part of the recursive structure is that each
+The importantant part of the recursive structure is that each field that requires another type is place under the `fields` JSON type.
