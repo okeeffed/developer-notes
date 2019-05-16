@@ -83,4 +83,7 @@ Remember these three principles:
 
 ### Other notes
 
-- Secondary index
+- Secondary index normally not unique (consider the use of `user_id`)
+- R-Trees normally used for optimised geospatial query efficiency.
+
+### OLAP vs OLTP
