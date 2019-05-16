@@ -38,3 +38,13 @@ It is always a good idea to ask questions about the exact scope of the problem w
 ## 2. API Definition
 
 Define the API for the system. This should help establish the exact contract expected.
+
+Examples:
+
+```javascript
+postTweet(user_id, tweet_data, tweet_location, user_location, timestamp, ...)
+
+generateTimeline(user_id, current_time, user_location, ...)
+
+markTweetFavorite(user_id, tweet_id, timestamp, ...)
+```
