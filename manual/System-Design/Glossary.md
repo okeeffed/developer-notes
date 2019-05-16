@@ -412,3 +412,9 @@ This is made possible by providing a standardized way for the server to send con
 Under SSEs the client establishes a persistent and long-term connection with the server.
 
 The server uses this connection to send data to a client. If the client wants to send data to the server, it would require the use of another technology/protocol to do so.
+
+1. Client requests data from a server using regular HTTP.
+2. The requested webpage opens a connection to the server.
+3. The server sends the data to the client whenever there’s new information available.
+
+SSEs are best when we need real-time traffic from the server to the client or if the server is generating data in a loop and will be sending multiple events to the client.
