@@ -13,7 +13,7 @@ These topics cover the following:
 2. Failover: electing a new leader during the process but handling potential issues with asynchronous writes & discarding writes.
 3. "Split Brain" in the scenario when 2 nodes think they are the leader.
 
-### Replication
+## Replication
 
 The purpose of replication is to provide high availability, disconnected operation, latency and scalability.
 
@@ -26,3 +26,13 @@ There are a number of approaches to replication:
 In leaderless replication, clients write to several nodes and write from several nodes in parallel in order to detect & correct nodes with stale data.
 
 Multi leader + leaderless have benefits for facility nodes, network interruptions & latency spikes. The cost for using these is a weak consistency guarentee.
+
+### Sync/Async Replication
+
+Replication can be synchronous/asynchronous.
+
+The help with consistency, there are a few models:
+
+1. Read-after-write consistency
+2. Monotonic reads
+3. Consistent prefix reads
