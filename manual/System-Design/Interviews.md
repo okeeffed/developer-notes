@@ -15,7 +15,7 @@ Acronym: CASM HDR
 4. Modelling Data
 5. High-Level Design
 6. Detailed Design
-7. Resolve Bottlenecks
+7. Reduce Bottlenecks
 
 ## 1. Clarify Requirements
 
@@ -101,7 +101,7 @@ Remember there is no single answer, the only important thing is to consider trad
 - How much and at which layer should we introduce cache to speed things up?
   What components need better load balancing?
 
-## 7. Resolve/Identify Bottlenecks
+## 7. Reduce/Resolve/Identify Bottlenecks
 
 Try to discuss as many bottlenecks as possible and different approaches to mitigate them.
 
