@@ -283,3 +283,9 @@ In NoSQL, schemas are dynamic. Columns can be added on the fly and each 'row' (o
 SQL databases use SQL (structured query language) for defining and manipulating the data, which is very powerful.
 
 In a NoSQL database, queries are focused on a collection of documents. Sometimes it is also called UnQL (Unstructured Query Language). Different databases have different syntax for using UnQL.
+
+#### Scalability
+
+In most common situations, SQL databases are vertically scalable, i.e., by increasing the horsepower (higher Memory, CPU, etc.) of the hardware, which can get very expensive. It is possible to scale a relational database across multiple servers, but this is a challenging and time-consuming process.
+
+On the other hand, NoSQL databases are horizontally scalable, meaning we can add more servers easily in our NoSQL database infrastructure to handle a lot of traffic.
