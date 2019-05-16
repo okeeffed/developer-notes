@@ -223,3 +223,5 @@ Proxy server accessible to any Internet user. There are two famous open proxy ty
 2. Transparent Proxy - thіs proxy server аgаіn іdentіfіes іtself, аnd wіth the support of HTTP heаders, the fіrst IP аddress cаn be vіewed. The mаіn benefіt of usіng thіs sort of server іs іts аbіlіty to cаche the websіtes.
 
 #### 2. Reverse Proxy
+
+Reverse Proxy retrieves some resources on behalf of a client from one or more servers. These resources are then returned to the client, appearing as if they originated from the proxy server itself.
