@@ -344,3 +344,12 @@ Consistent hashing is a very useful strategy for distributed caching system and 
 When a hash table is resized, only `k/n` keys need to be remapped where `k` is the total number of keys and `n` the total number of servers.
 
 Note that in a caching system using the `modulo` as the hash function, all keys need to be remapped.
+
+### How does it work?
+
+1. Given a list of cache servers, hash them to integers in the range.
+2. To map a key to a server:
+   - Hash it to a single integer.
+   - Move clockwise on the ring until finding the first cache it encounters.
+
+That cache is the one that contains the key. See animation below as an example: key1 maps to cache A; key2 maps to cache C.
