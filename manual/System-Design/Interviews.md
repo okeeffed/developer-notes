@@ -48,3 +48,5 @@ generateTimeline(user_id, current_time, user_location, ...)
 
 markTweetFavorite(user_id, tweet_id, timestamp, ...)
 ```
+
+## 3. Scale Estimation
