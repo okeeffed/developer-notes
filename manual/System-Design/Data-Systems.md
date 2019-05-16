@@ -1,11 +1,11 @@
 ---
 menu: System Design
-name: Designing Data Intensive Systems
+name: Data Systems
 ---
 
-# Designing Data Intensive Systems
+# Data Systems
 
-## Data Systems
+## Basics
 
 - The aim is to keep them: Reliable, Scalable and Maintainable
 - Data Systems knowledge includes understanding caches, search indexes, stream/batch processing
