@@ -365,3 +365,10 @@ To handle this issue, we add “virtual replicas” for caches. Instead of mappi
 If the hash function “mixes well,” as the number of replicas increases, the keys will be more balanced.
 
 ## Long-Polling vs WebSockets vs Server-Sent Events
+
+This will cover:
+
+1. Ajax Polling
+2. HTTP Long-Polling
+3. WebSockets
+4. Server-Sent Events (SSEs)
