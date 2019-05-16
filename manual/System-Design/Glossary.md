@@ -340,3 +340,7 @@ Suppose we are designing a distributed caching system. Given ‘n’ cache serve
 ### What is Consistent Hashing?
 
 Consistent hashing is a very useful strategy for distributed caching system and DHTs. It allows us to distribute data across a cluster in such a way that will minimize reorganization when nodes are added or removed. Hence, the caching system will be easier to scale up or scale down.
+
+When a hash table is resized, only `k/n` keys need to be remapped where `k` is the total number of keys and `n` the total number of servers.
+
+Note that in a caching system using the `modulo` as the hash function, all keys need to be remapped.
