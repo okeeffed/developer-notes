@@ -235,3 +235,9 @@ For example, if there is only one copy of a file stored on a single server, then
 Redundancy plays a key role in removing the single points of failure in the system and provides backups if needed in a crisis. For example, if we have two instances of a service running in production and one fails, the system can failover to the other one.
 
 Replication means sharing information to ensure consistency between redundant resources, such as software or hardware components, to improve reliability, fault-tolerance, or accessibility.
+
+## SQL vs NoSQL
+
+Relational databases are structured and have predefined schemas like phone books that store phone numbers and addresses.
+
+Non-relational databases are unstructured, distributed, and have a dynamic schema like file folders that hold everything from a person’s address and phone number to their Facebook ‘likes’ and online shopping preferences.
