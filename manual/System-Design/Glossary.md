@@ -396,3 +396,5 @@ HTTP Long-Polling Life Cycle:
 3. When an update is available, the server sends a full response to the client.
 4. The client typically sends a new long-poll request, either immediately upon receiving a response or after a pause to allow an acceptable latency period.
 5. Each Long-Poll request has a timeout. The client has to reconnect periodically after the connection is closed due to timeouts.
+
+### WebSockets
