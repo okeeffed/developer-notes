@@ -87,3 +87,5 @@ Remember these three principles:
 - R-Trees normally used for optimised geospatial query efficiency.
 
 ### OLAP vs OLTP
+
+- A transaction needn't adhere to all principles of ACID. "Transaction" processing mean low latency read/writes.
