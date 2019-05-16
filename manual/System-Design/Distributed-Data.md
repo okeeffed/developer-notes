@@ -59,3 +59,9 @@ There are a few kinds:
   - Write skew
   - Lost updates
   - Phantom reads
+
+To prevent many of the race conditions, you can create serializable transactions:
+
+1. Execution in serial order.
+2. Two-phase locking.
+3. Serializable snapshot isolation (SSI).
