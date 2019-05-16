@@ -82,3 +82,13 @@ Clients => Load Balancer => Server <=> Database
                          => Server <=> File System
                          => Server
 ```
+
+## 6. Detailed Design
+
+Dig deeper into two or three components; interviewer’s feedback should always guide us what parts of the system need further discussion. We should be able to present:
+
+1. Different approaches
+2. Their pros and cons
+3. Explain why we will prefer one approach on the other.
+
+Remember there is no single answer, the only important thing is to consider tradeoffs between different options while keeping system constraints in mind.
