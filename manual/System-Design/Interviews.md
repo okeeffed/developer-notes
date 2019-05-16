@@ -7,7 +7,7 @@ name: Interviews
 
 ## Steps
 
-CASM HDR
+Acronym: CASM HDR
 
 1. Clarify requirements
 2. API Definition
