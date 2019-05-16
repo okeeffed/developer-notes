@@ -11,7 +11,7 @@ CloSED HDR
 
 1. Clarify requirements
 2. System Interface Definition
-3. Estimation for back-of-the-envelope
+3. Estimate Scale
 4. Defining the Data Model
 5. High-Level Design
 6. Detailed Design
