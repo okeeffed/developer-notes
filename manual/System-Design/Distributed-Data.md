@@ -16,3 +16,13 @@ These topics cover the following:
 ### Replication
 
 The purpose of replication is to provide high availability, disconnected operation, latency and scalability.
+
+There are a number of approaches to replication:
+
+1. Single Leader
+2. Multi Leader (all nodes can handles writes)
+3. Leaderless
+
+In leaderless replication, clients write to several nodes and write from several nodes in parallel in order to detect & correct nodes with stale data.
+
+Multi leader + leaderless have benefits for facility nodes, network interruptions & latency spikes. The cost for using these is a weak consistency guarentee.
