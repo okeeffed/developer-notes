@@ -184,3 +184,7 @@ So, to find out where a particular data entity resides, we query the directory s
 ### Common Sharding Problems
 
 On a sharded database there are certain extra constraints on the different operations that can be performed. Most of these constraints are due to the fact that operations across multiple tables or multiple rows in the same table will no longer run on the same server.
+
+1. Joins and Denormalization: not feasible across servers.
+2. Referential Integrity: dangling references.
+3. Rebalancing: due to data distribution not being uniform or a lot of load on a shard.
