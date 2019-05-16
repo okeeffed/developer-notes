@@ -245,3 +245,9 @@ Non-relational databases are unstructured, distributed, and have a dynamic schem
 ### SQL
 
 Relational databases store data in rows and columns. Each row contains all the information about one entity and each column contains all the separate data points. Some of the most popular relational databases are MySQL, Oracle, MS SQL Server, SQLite, Postgres, and MariaDB.
+
+### NoSQL
+
+#### Key-Value Stores
+
+Data is stored in an array of key-value pairs. The ‘key’ is an attribute name which is linked to a ‘value’. Well-known key-value stores include Redis, Voldemort, and Dynamo.
