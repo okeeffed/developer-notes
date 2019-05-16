@@ -106,3 +106,7 @@ There are a variety of LB methods with different algorithms for different needs:
 ### Redundant Load Balancers
 
 LB can be a single point of failure, therefore a second load balancer can be connected to the first to form a cluster. In the case that the first LB fails, the second moves from passive to active.
+
+## Caching
+
+Caching enables you to make vastly better use of the resources you already have as well as making otherwise unattainable product requirements feasible.
