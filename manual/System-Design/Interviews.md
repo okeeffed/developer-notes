@@ -67,7 +67,3 @@ Defining the data model early will clarify how data will flow among different co
 | Tweet          | TweetID, Content, TweetLocation, NumberOfLikes, TimeStamp, etc. |
 | UserFollowing  | UserdID1, UserID2                                               |
 | FavoriteTweets | UserID, TweetID, TimeStamp                                      |
-
-```
-
-```
