@@ -204,3 +204,9 @@ Finding a small payload in such a large dataset can be a real challenge, since w
 An index can dramatically speed up data retrieval but may itself be large due to the additional keys, which slow down data insertion & update.
 
 When adding rows or making updates to existing rows for a table with an active index, we not only have to write the data but also have to update the index. This will decrease the write performance.
+
+## Proxies
+
+A proxy server is an intermediate server between the client and the back-end server. Clients connect to proxy servers to request for a service like a web page, file, connection, etc. In short, a proxy server is a piece of software or hardware that acts as an intermediary for requests from clients seeking resources from other servers.
+
+Typically used to filter requests, log requests or sometimes transform requests (adding/removing headers, encryption or resource compression).
