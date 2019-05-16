@@ -353,3 +353,5 @@ Note that in a caching system using the `modulo` as the hash function, all keys 
    - Move clockwise on the ring until finding the first cache it encounters.
 
 That cache is the one that contains the key. See animation below as an example: key1 maps to cache A; key2 maps to cache C.
+
+To add a new server, say D, keys that were originally residing at C will be split. Some of them will be shifted to D, while other keys will not be touched.
