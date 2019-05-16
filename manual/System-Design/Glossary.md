@@ -295,3 +295,8 @@ On the other hand, NoSQL databases are horizontally scalable, meaning we can add
 The vast majority of relational databases are ACID compliant. So, when it comes to data reliability and safe guarantee of performing transactions, SQL databases are still the better bet.
 
 Most of the NoSQL solutions sacrifice ACID compliance for performance and scalability.
+
+### Reasons for SQL
+
+- ACID compliance
+- Structured and unchanging data
