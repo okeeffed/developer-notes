@@ -197,7 +197,7 @@ The goal of creating an index on a particular table in a database is to make it 
 
 The trick with indexes is that we must carefully consider how users will access the data. In the case of data sets that are many terabytes in size, but have very small payloads (e.g., 1 KB), indexes are a necessity for optimizing data access.
 
-Finding a small payload in such a large dataset can be a real challenge, since we can’t possibly iterate over that much data in any reasonable time. Furthermore, it is very likely that such a large data set is spread over several physical devices—this means we need some way to find the correct physical location of the desired data. Indexes are the best way to do this.
+Finding a small payload in such a large dataset can be a real challenge, since we can’t possibly iterate over that much data in any reasonable time. Furthermore, it is very likely that such a large data set is spread over several physical devices — this means we need some way to find the correct physical location of the desired data. Indexes are the best way to do this.
 
 ### Indexes decrease write performance
 
@@ -214,6 +214,8 @@ Typically used to filter requests, log requests or sometimes transform requests 
 Another advantage is for a proxy server to cache requests.
 
 ### Proxy Server Types
+
+Basic proxy type is closed off from the open Internet.
 
 #### 1. Open Proxy
 
@@ -240,7 +242,7 @@ Replication means sharing information to ensure consistency between redundant re
 
 Relational databases are structured and have predefined schemas like phone books that store phone numbers and addresses.
 
-Non-relational databases are unstructured, distributed, and have a dynamic schema like file folders that hold everything from a person’s address and phone number to their Facebook ‘likes’ and online shopping preferences.
+Non-relational databases are unstructured, distributed, and have a dynamic schema like file folders that hold everything from a person's address and phone number to their Facebook 'likes' and online shopping preferences.
 
 ### SQL
 
