@@ -241,3 +241,7 @@ Replication means sharing information to ensure consistency between redundant re
 Relational databases are structured and have predefined schemas like phone books that store phone numbers and addresses.
 
 Non-relational databases are unstructured, distributed, and have a dynamic schema like file folders that hold everything from a person’s address and phone number to their Facebook ‘likes’ and online shopping preferences.
+
+### SQL
+
+Relational databases store data in rows and columns. Each row contains all the information about one entity and each column contains all the separate data points. Some of the most popular relational databases are MySQL, Oracle, MS SQL Server, SQLite, Postgres, and MariaDB.
