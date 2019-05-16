@@ -85,8 +85,12 @@ Remember these three principles:
 
 - Secondary index normally not unique (consider the use of `user_id`)
 - R-Trees normally used for optimised geospatial query efficiency.
+- LSM-Trees themselves do not handle updating. They essentially can only append and remove the stale data. B-Trees can update in place.
 
 ### OLAP vs OLTP
 
 - A transaction needn't adhere to all principles of ACID. "Transaction" processing mean low latency read/writes.
 - Commonly used with relational databases.
+- Performance can be improved using vectorized processing (SIMD - single instruction multi data)
+  - Column compression can also make use of the L1 cache.
+  - Update-in-place like what B-Trees use are not possible with column compression.
