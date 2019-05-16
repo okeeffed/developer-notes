@@ -86,3 +86,4 @@ This could mean before a web server layer, an application server layer and datab
 
 - UX is faster, uninterrupted. Requests are immediately passed on to a more readily available resource.
 - Less downtime and higher throughput.
+- Easier for sys admins to handle incoming requests while decreasing wait time for users.
