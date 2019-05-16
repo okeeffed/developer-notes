@@ -36,3 +36,15 @@ The help with consistency, there are a few models:
 1. Read-after-write consistency
 2. Monotonic reads
 3. Consistent prefix reads
+
+### Partitioning
+
+There are a few kinds:
+
+1. Key-range partitioning: keys are sorted and partition owns all keys from some minimum to some maximum. The advantage of efficient range queries, but hot spots occur when frequently accessed keys are close together. Key-range partitions also rebalance dynamically.
+2. Hash partitioning: hash function applied to a key and partition owns a range of hashes. Destroys ordering of keys, but more balanced.
+
+### Relationships with the secondary indexes
+
+1. Document-partitioned indexes: secondary index stored in some part as primary key & value. Single partition updated on write, but read of secondary requires scatter/gather across all partitions.
+2. Term-partitioned indexes: secondary indexes partitioned seperately but read can happen from single partition.
