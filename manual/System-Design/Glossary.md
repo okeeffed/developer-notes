@@ -89,3 +89,7 @@ This could mean before a web server layer, an application server layer and datab
 - Easier for sys admins to handle incoming requests while decreasing wait time for users.
 - Smart LBs provide predictive analytics to determine traffic bottlenecks and give actionable insights.
 - SysAdmins experience fewer failed or stressed components.
+
+### LB Algorithms
+
+- Health checks: used for load balancers to check for healthy backend servers.
