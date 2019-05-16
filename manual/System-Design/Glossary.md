@@ -92,4 +92,4 @@ This could mean before a web server layer, an application server layer and datab
 
 ### LB Algorithms
 
-- Health checks: used for load balancers to check for healthy backend servers.
+- Health checks: used for load balancers to check for healthy backend servers. If a health check fails, the server is automatically removed from the pool.
