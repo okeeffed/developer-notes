@@ -69,3 +69,5 @@ Defining the data model early will clarify how data will flow among different co
 | FavoriteTweets | UserID, TweetID, TimeStamp                                      |
 
 Which database system should we use? Will NoSQL like Cassandra best fit our needs, or should we use a MySQL-like solution? What kind of block storage should we use to store photos and videos?
+
+## 5. High Level Design
