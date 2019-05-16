@@ -76,8 +76,12 @@ Load balancer typically sits between the client and the server accepting incomin
 
 By balancing app requests, the LB reduces individual server load and prevents one single application from becoming a single point of failure - improving overall application availability and responsiveness.
 
-## Utilizing full scalability and redundancy
+### Utilizing full scalability and redundancy
 
 To utilize full scalability and redundancy, we can try to balance the load at each layer of the system.
 
 This could mean before a web server layer, an application server layer and database server layer.
+
+### LB Pros
+
+- UX is faster, uninterrupted. Requests are immediately passed on to a more readily available resource.
