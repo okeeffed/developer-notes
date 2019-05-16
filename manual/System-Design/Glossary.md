@@ -149,3 +149,7 @@ Under this scheme, data is written to cache alone and completion is immediately 
 4. Most Recently Used (MRU): Discards, in contrast to LRU, the most recently used items first.
 5. Least Frequently Used (LFU): Counts how often an item is needed. Those that are used least often are discarded first.
 6. Random Replacement (RR): Randomly selects a candidate item and discards it to make space when necessary.
+
+## Sharding/Partitioning
+
+Technique to break a big database into smaller parts.
