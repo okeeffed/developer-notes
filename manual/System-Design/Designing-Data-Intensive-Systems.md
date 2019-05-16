@@ -80,3 +80,7 @@ Remember these three principles:
 ### The downsides of LSM-Trees
 
 - Compaction process can sometimes interfere with ongoing reads/writes.
+
+### Other notes
+
+- Secondary index
