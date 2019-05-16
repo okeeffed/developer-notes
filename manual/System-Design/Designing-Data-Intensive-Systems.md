@@ -41,3 +41,23 @@ Remember these three principles:
 1. Operability
 2. Simplicity (- think abstractions like SQL)
 3. Evolvability
+
+## Data Models
+
+- Relational
+- Document
+- Graph (this is essentially a subtype of relational)
+
+### Pros of the Document Model
+
+- Schema flexibility
+- Better performance due to locality
+- Apps are generally closer to the data structure
+
+## Storage + Retrieval
+
+- Big difference in storage engines that are optimized for transactional vs analytical (think OLTP/OLAP)
+- Indexes help find keys but generally slow down writes
+- In-memory tress: examples red-black trees, AVL trees. We can make the storage engines to use these styles of trees.
+- LSM Trees can be slow when looking up keys that don't exist
+  - Can be countered by "Bloom Filters" -> can tell if the key exists.
