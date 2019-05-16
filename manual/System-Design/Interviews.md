@@ -105,7 +105,7 @@ Remember there is no single answer, the only important thing is to consider trad
 
 Try to discuss as many bottlenecks as possible and different approaches to mitigate them.
 
-Is there any single point of failure in our system? What are we doing to mitigate it?
-Do we have enough replicas of the data so that if we lose a few servers we can still serve our users?
-Similarly, do we have enough copies of different services running such that a few failures will not cause total system shutdown?
-How are we monitoring the performance of our service? Do we get alerts whenever critical components fail or their performance degrades?
+- Is there any single point of failure in our system? What are we doing to mitigate it?
+- Do we have enough replicas of the data so that if we lose a few servers we can still serve our users?
+- Similarly, do we have enough copies of different services running such that a few failures will not cause total system shutdown?
+  How are we monitoring the performance of our service? Do we get alerts whenever critical components fail or their performance degrades?
