@@ -67,3 +67,5 @@ Defining the data model early will clarify how data will flow among different co
 | Tweet          | TweetID, Content, TweetLocation, NumberOfLikes, TimeStamp, etc. |
 | UserFollowing  | UserdID1, UserID2                                               |
 | FavoriteTweets | UserID, TweetID, TimeStamp                                      |
+
+Which database system should we use? Will NoSQL like Cassandra best fit our needs, or should we use a MySQL-like solution? What kind of block storage should we use to store photos and videos?
