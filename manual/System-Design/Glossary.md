@@ -266,25 +266,25 @@ These databases are used to store data whose relations are best represented in a
 
 ### High Level differences between SQL and NoSQL
 
-#### Storage
+#### DB Storage
 
 SQL stores data in tables where each row represents an entity and each column represents a data point about that entity.
 
 NoSQL databases have different data storage models. The main ones are key-value, document, graph, and columnar.
 
-#### Schema
+#### DB Schema
 
 In SQL, each record conforms to a fixed schema, meaning the columns must be decided and chosen before data entry and each row must have data for each column. The schema can be altered later, but it involves modifying the whole database and going offline.
 
 In NoSQL, schemas are dynamic. Columns can be added on the fly and each 'row' (or equivalent) doesn’t have to contain data for each 'column.'
 
-#### Querying
+#### DB Querying
 
 SQL databases use SQL (structured query language) for defining and manipulating the data, which is very powerful.
 
 In a NoSQL database, queries are focused on a collection of documents. Sometimes it is also called UnQL (Unstructured Query Language). Different databases have different syntax for using UnQL.
 
-#### Scalability
+#### DB Scalability
 
 In most common situations, SQL databases are vertically scalable, i.e., by increasing the horsepower (higher Memory, CPU, etc.) of the hardware, which can get very expensive. It is possible to scale a relational database across multiple servers, but this is a challenging and time-consuming process.
 
