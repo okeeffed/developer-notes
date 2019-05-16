@@ -89,3 +89,4 @@ Remember these three principles:
 ### OLAP vs OLTP
 
 - A transaction needn't adhere to all principles of ACID. "Transaction" processing mean low latency read/writes.
+- Commonly used with relational databases.
