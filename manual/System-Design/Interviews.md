@@ -35,6 +35,6 @@ It is always a good idea to ask questions about the exact scope of the problem w
 - Do we need to display hot trending topics?
 - Will there be any push notification for new (or important) tweets?
 
-## 2. System Interface Definition
+## 2. API Definition
 
-Define the API for the system
+Define the API for the system. This should help establish the exact contract expected.
