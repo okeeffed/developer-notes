@@ -337,7 +337,7 @@ Suppose we are designing a distributed caching system. Given ‘n’ cache serve
 1. Not horizontally scalable - new cache hosts break all existing mappings.
 2. It may not be load balanced. For a caching system, this translates into some caches becoming hot and saturated while others idle and almost empty.
 
-### What is Consistent Hashing?
+### What is Consistent Hashing
 
 Consistent hashing is a very useful strategy for distributed caching system and DHTs. It allows us to distribute data across a cluster in such a way that will minimize reorganization when nodes are added or removed. Hence, the caching system will be easier to scale up or scale down.
 
@@ -345,7 +345,7 @@ When a hash table is resized, only `k/n` keys need to be remapped where `k` is t
 
 Note that in a caching system using the `modulo` as the hash function, all keys need to be remapped.
 
-### How does it work?
+### How does it work
 
 1. Given a list of cache servers, hash them to integers in the range.
 2. To map a key to a server:
