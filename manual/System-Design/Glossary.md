@@ -210,3 +210,5 @@ When adding rows or making updates to existing rows for a table with an active i
 A proxy server is an intermediate server between the client and the back-end server. Clients connect to proxy servers to request for a service like a web page, file, connection, etc. In short, a proxy server is a piece of software or hardware that acts as an intermediary for requests from clients seeking resources from other servers.
 
 Typically used to filter requests, log requests or sometimes transform requests (adding/removing headers, encryption or resource compression).
+
+Another advantage is for a proxy server to cache requests.
