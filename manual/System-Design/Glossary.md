@@ -388,3 +388,11 @@ This is a variation of the traditional polling technique that allows the server 
 
 - If the server does not have any data available for the client, instead of sending an empty response, the server holds the request and waits until some data becomes available.
 - Once the data becomes available, a full response is sent to the client. The client then immediately re-request information from the server so that the server will almost always have an available waiting request that it can use to deliver data in response to an event.
+
+HTTP Long-Polling Life Cycle:
+
+1. The client makes an initial request using regular HTTP and then waits for a response.
+2. The server delays its response until an update is available or a timeout has occurred.
+3. When an update is available, the server sends a full response to the client.
+4. The client typically sends a new long-poll request, either immediately upon receiving a response or after a pause to allow an acceptable latency period.
+5. Each Long-Poll request has a timeout. The client has to reconnect periodically after the connection is closed due to timeouts.
