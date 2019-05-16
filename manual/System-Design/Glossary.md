@@ -180,3 +180,7 @@ So, to find out where a particular data entity resides, we query the directory s
 2. List partitioning
 3. Round-robin partitioning
 4. Composite partitioning
+
+### Common Sharding Problems
+
+On a sharded database there are certain extra constraints on the different operations that can be performed. Most of these constraints are due to the fact that operations across multiple tables or multiple rows in the same table will no longer run on the same server.
