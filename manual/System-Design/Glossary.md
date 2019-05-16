@@ -329,3 +329,10 @@ Distributed Hash Table (DHT) is one of the fundamental components used in distri
 ```shell
 index = hashFunction(key)
 ```
+
+### key % n issues
+
+Suppose we are designing a distributed caching system. Given ‘n’ cache servers, an intuitive hash function would be ‘key % n’. It is simple and commonly used. But it has two major drawbacks:
+
+1. Not horizontally scalable - new cache hosts break all existing mappings.
+2. It may not be load balanced.
