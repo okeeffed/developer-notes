@@ -140,3 +140,12 @@ This technique is similar to write through cache, but data is written directly t
 #### Write-back cache
 
 Under this scheme, data is written to cache alone and completion is immediately confirmed to the client. The write to the permanent storage is done after specified intervals or under certain conditions. This results in low latency and high throughput for write-intensive applications, however, this speed comes with the risk of data loss in case of a crash or other adverse event because the only copy of the written data is in the cache.
+
+### Cache Eviction Policies
+
+1. First In First Out (FIFO): Cache evicts the first block first without any regard to how often or how many times it was accessed before.
+2. Last In First Out (LIFO): The cache evicts the block accessed most recently first without any regard to how often or how many times it was accessed before.
+3. Least Recently Used (LRU): Discards the least recently used items first.
+4. Most Recently Used (MRU): Discards, in contrast to LRU, the most recently used items first.
+5. Least Frequently Used (LFU): Counts how often an item is needed. Those that are used least often are discarded first.
+6. Random Replacement (RR): Randomly selects a candidate item and discards it to make space when necessary.
