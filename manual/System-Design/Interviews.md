@@ -92,3 +92,11 @@ Dig deeper into two or three components; interviewer’s feedback should always 
 3. Explain why we will prefer one approach on the other.
 
 Remember there is no single answer, the only important thing is to consider tradeoffs between different options while keeping system constraints in mind.
+
+### Example questions to think about
+
+- Since we will be storing a massive amount of data, how should we partition our data to distribute it to multiple databases? Should we try to store all the data of a user on the same database? What issue could it cause?
+- How will we handle hot users who tweet a lot or follow lots of people?
+- Since users’ timeline will contain the most recent (and relevant) tweets, should we try to store our data in such a way that is optimized for scanning the latest tweets?
+- How much and at which layer should we introduce cache to speed things up?
+  What components need better load balancing?
