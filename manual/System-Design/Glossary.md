@@ -173,3 +173,10 @@ The main problem with this approach is that if our application experiences addit
 A loosely coupled approach to work around issues mentioned in the above schemes is to create a lookup service which knows your current partitioning scheme and abstracts it away from the DB access code.
 
 So, to find out where a particular data entity resides, we query the directory server that holds the mapping between each tuple key to its DB server. This loosely coupled approach means we can perform tasks like adding servers to the DB pool or changing our partitioning scheme without having an impact on the application.
+
+### Partitioning Criteria
+
+1. Key or Hash-based partitioning
+2. List partitioning
+3. Round-robin partitioning
+4. Composite partitioning
