@@ -100,3 +100,12 @@ Remember there is no single answer, the only important thing is to consider trad
 - Since users’ timeline will contain the most recent (and relevant) tweets, should we try to store our data in such a way that is optimized for scanning the latest tweets?
 - How much and at which layer should we introduce cache to speed things up?
   What components need better load balancing?
+
+## 7. Resolve/Identify Bottlenecks
+
+Try to discuss as many bottlenecks as possible and different approaches to mitigate them.
+
+Is there any single point of failure in our system? What are we doing to mitigate it?
+Do we have enough replicas of the data so that if we lose a few servers we can still serve our users?
+Similarly, do we have enough copies of different services running such that a few failures will not cause total system shutdown?
+How are we monitoring the performance of our service? Do we get alerts whenever critical components fail or their performance degrades?
