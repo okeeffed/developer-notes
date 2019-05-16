@@ -11,4 +11,8 @@ These topics cover the following:
 
 1. Replication/Partitioning (Sharding)
 2. Failover: electing a new leader during the process but handling potential issues with asynchronous writes & discarding writes.
-3. "Split Brain" in the scenario when 2 nodes think they are the leadeer.
+3. "Split Brain" in the scenario when 2 nodes think they are the leader.
+
+### Replication
+
+The purpose of replication is to provide high availability, disconnected operation, latency and scalability.
