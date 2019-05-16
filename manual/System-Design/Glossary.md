@@ -96,8 +96,7 @@ Health checks are used for load balancers to check for healthy backend servers. 
 
 There are a variety of LB methods with different algorithms for different needs:
 
-1.**Least Connection Method** - directs traffic to server with least active connections.
-
+1. **Least Connection Method** - directs traffic to server with least active connections.
 2. **Least Response Time Method** - directs to server with the fewest active connections and the lowest average response time
 3. **Least Bandwidth Method** - This method selects the server that is currently serving the least amount of traffic measured in megabits per second (Mbps).
 4. **Round Robin Method** — This method cycles through a list of servers and sends each new request to the next server. When it reaches the end of the list, it starts over at the beginning. It is most useful when the servers are of equal specification and there are not many persistent connections.
