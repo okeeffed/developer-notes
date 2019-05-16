@@ -379,3 +379,5 @@ This will cover:
 2. The requested webpage sends requests to the server at regular intervals (e.g., 0.5 seconds).
 3. The server calculates the response and sends it back, just like regular HTTP traffic.
 4. The client repeats the above three steps periodically to get updates from the server.
+
+The problem with Polling is that the client has to keep asking the server for any new data. As a result, a lot of responses are empty, creating HTTP overhead.
