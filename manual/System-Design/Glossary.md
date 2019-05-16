@@ -321,3 +321,11 @@ Most of the NoSQL solutions sacrifice ACID compliance for performance and scalab
 - Availability + Partition Tolerance: Cassandra, CouchDB
 - Availability + Consistency: RDBMS
 - Consistency + Partition Tolerance: BigTable, MongoDB, HBase
+
+## Consistent Hashing
+
+Distributed Hash Table (DHT) is one of the fundamental components used in distributed scalable systems. Hash Tables need a key, a value, and a hash function where hash function maps the key to a location where the value is stored.
+
+```shell
+index = hashFunction(key)
+```
