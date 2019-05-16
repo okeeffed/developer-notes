@@ -92,4 +92,9 @@ This could mean before a web server layer, an application server layer and datab
 
 ### LB Algorithms
 
-- Health checks: used for load balancers to check for healthy backend servers. If a health check fails, the server is automatically removed from the pool.
+Health checks are used for load balancers to check for healthy backend servers. If a health check fails, the server is automatically removed from the pool.
+
+There are a variety of LB methods with different algorithms for different needs:
+
+1. Least Connection Method - directs traffic to server with least active connections.
+2. Least Response Time Method - directs to server with the fewest active connections and the lowest average response time
