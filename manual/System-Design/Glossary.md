@@ -255,3 +255,7 @@ Data is stored in an array of key-value pairs. The 'key' is an attribute name wh
 #### Document Databases
 
 In these databases, data is stored in documents (instead of rows and columns in a table) and these documents are grouped together in collections. Each document can have an entirely different structure. Document databases include the CouchDB and MongoDB.
+
+#### Wide-Column Databases
+
+Instead of ‘tables,’ in columnar databases we have column families, which are containers for rows. Unlike relational databases, we don’t need to know all the columns up front and each row doesn’t have to have the same number of columns. Columnar databases are best suited for analyzing large datasets - big names include Cassandra and HBase.
