@@ -398,3 +398,5 @@ HTTP Long-Polling Life Cycle:
 5. Each Long-Poll request has a timeout. The client has to reconnect periodically after the connection is closed due to timeouts.
 
 ### WebSockets
+
+WebSocket provides `full duplex` communication channels over a TCP connection. It provides a persistent connection between a client and a server that both parties can use to start sending data at any time.
