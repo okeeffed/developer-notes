@@ -60,3 +60,14 @@ It is always a good idea to estimate the scale of the system we’re going to de
 ## 4. Modelling Data
 
 Defining the data model early will clarify how data will flow among different components of the system. Later, it will guide towards data partitioning and management. The candidate should be able to identify various entities of the system, how they will interact with each other, and different aspect of data management like storage, transportation, encryption, etc.
+
+| Entity         | Attributes                                                      |
+| -------------- | --------------------------------------------------------------- |
+| User           | UserID, Name, Email, DoB, CreationData, LastLogin, etc.         |
+| Tweet          | TweetID, Content, TweetLocation, NumberOfLikes, TimeStamp, etc. |
+| UserFollowing  | UserdID1, UserID2                                               |
+| FavoriteTweets | UserID, TweetID, TimeStamp                                      |
+
+```
+
+```
