@@ -406,3 +406,5 @@ The client establishes a WebSocket connection through a process known as the Web
 The WebSocket protocol enables communication between a client and a server with lower overheads, facilitating real-time data transfer from and to the server.
 
 This is made possible by providing a standardized way for the server to send content to the browser without being asked by the client and allowing for messages to be passed back and forth while keeping the connection open. In this way, a two-way (bi-directional) ongoing conversation can take place between a client and a server.
+
+### Server-Sent Events (SSEs)
