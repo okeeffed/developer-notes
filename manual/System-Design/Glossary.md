@@ -188,3 +188,5 @@ On a sharded database there are certain extra constraints on the different opera
 1. Joins and Denormalization: not feasible across servers.
 2. Referential Integrity: dangling references.
 3. Rebalancing: due to data distribution not being uniform or a lot of load on a shard. Rebalancing without incurring downtime is extremely difficult.
+
+## Indexes
