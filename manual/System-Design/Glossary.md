@@ -304,6 +304,6 @@ Most of the NoSQL solutions sacrifice ACID compliance for performance and scalab
 ### Reasons for NoSQL
 
 - Prevent data from being the bottleneck (when all other components of the application are fast and seamless)
-- Storing large volumes of data that often have little to no structure. A NoSQL database sets no limits on the types of data we can store together and allows us to add new types as the need changes.
-- Making the most of cloud computing and storage.
+- Storing large volumes of data that often have little to no structure - a NoSQL database sets no limits on the types of data we can store together and allows us to add new types as the need changes
+- Making the most of cloud computing and storage
 - Rapid development
