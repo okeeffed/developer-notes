@@ -7,15 +7,15 @@ name: Interviews
 
 ## Steps
 
-CloSED HDR
+CASM HDR
 
 1. Clarify requirements
-2. System Interface Definition
-3. Estimate Scale
-4. Defining the Data Model
+2. API Definition
+3. Scale Estimatation
+4. Model Data
 5. High-Level Design
 6. Detailed Design
-7. Resolution and Identify Bottlenecks
+7. Resolve Bottlenecks
 
 ## 1. Clarify Requirements
 
@@ -36,3 +36,5 @@ It is always a good idea to ask questions about the exact scope of the problem w
 - Will there be any push notification for new (or important) tweets?
 
 ## 2. System Interface Definition
+
+Define the API for the system
