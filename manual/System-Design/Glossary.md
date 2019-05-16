@@ -335,4 +335,4 @@ index = hashFunction(key)
 Suppose we are designing a distributed caching system. Given ‘n’ cache servers, an intuitive hash function would be ‘key % n’. It is simple and commonly used. But it has two major drawbacks:
 
 1. Not horizontally scalable - new cache hosts break all existing mappings.
-2. It may not be load balanced.
+2. It may not be load balanced. For a caching system, this translates into some caches becoming hot and saturated while others idle and almost empty.
