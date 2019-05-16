@@ -381,3 +381,5 @@ This will cover:
 4. The client repeats the above three steps periodically to get updates from the server.
 
 The problem with Polling is that the client has to keep asking the server for any new data. As a result, a lot of responses are empty, creating HTTP overhead.
+
+### HTTP Long-Polling
