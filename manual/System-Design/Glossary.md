@@ -385,3 +385,6 @@ The problem with Polling is that the client has to keep asking the server for an
 ### HTTP Long-Polling
 
 This is a variation of the traditional polling technique that allows the server to push information to a client whenever the data is available. With Long-Polling, the client requests information from the server exactly as in normal polling, but with the expectation that the server may not respond immediately. That’s why this technique is sometimes referred to as a "Hanging GET".
+
+- If the server does not have any data available for the client, instead of sending an empty response, the server holds the request and waits until some data becomes available.
+- Once the data becomes available, a full response is sent to the client. The client then immediately re-request information from the server so that the server will almost always have an available waiting request that it can use to deliver data in response to an event.
