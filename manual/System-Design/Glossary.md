@@ -190,3 +190,7 @@ On a sharded database there are certain extra constraints on the different opera
 3. Rebalancing: due to data distribution not being uniform or a lot of load on a shard. Rebalancing without incurring downtime is extremely difficult.
 
 ## Indexes
+
+In databases, sooner or later there comes a time when database performance is no longer satisfactory. One of the very first things you should turn to when that happens is database indexing.
+
+The goal of creating an index on a particular table in a database is to make it faster to search through the table and find the row or rows that we want. Indexes can be created using one or more columns of a database table, providing the basis for both rapid random lookups and efficient access of ordered records.
