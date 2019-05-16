@@ -263,3 +263,17 @@ Instead of ‘tables,’ in columnar databases we have column families, which ar
 #### Graph Databases
 
 These databases are used to store data whose relations are best represented in a graph. Data is saved in graph structures with nodes (entities), properties (information about the entities), and lines (connections between the entities). Examples of graph database include Neo4J and InfiniteGraph.
+
+### High Level differences between SQL and NoSQL
+
+#### Storage
+
+SQL stores data in tables where each row represents an entity and each column represents a data point about that entity.
+
+NoSQL databases have different data storage models. The main ones are key-value, document, graph, and columnar.
+
+#### Schema
+
+In SQL, each record conforms to a fixed schema, meaning the columns must be decided and chosen before data entry and each row must have data for each column. The schema can be altered later, but it involves modifying the whole database and going offline.
+
+In NoSQL, schemas are dynamic. Columns can be added on the fly and each 'row' (or equivalent) doesn’t have to contain data for each 'column.'
