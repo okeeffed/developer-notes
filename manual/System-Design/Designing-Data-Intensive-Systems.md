@@ -61,3 +61,17 @@ Remember these three principles:
 - In-memory tress: examples red-black trees, AVL trees. We can make the storage engines to use these styles of trees.
 - LSM Trees can be slow when looking up keys that don't exist
   - Can be countered by "Bloom Filters" -> can tell if the key exists.
+
+### B-Trees
+
+- Most common index used by databases.
+- While log-structured indexes work in variable-size segments and written sequentially, B-Trees have fixed sized "blocks" or "pages" - this design corresponds to reflecting the underlying hardware.
+- B-Tree variant "fractal trees" borrow log-structured ideas to reduce disk seeks.
+
+### B-Trees vs LSM-Trees
+
+- B-Tree more mature
+- LSM faster for writes
+- B faster for reads
+- B-Tree must write everything twice (write-ahead log and potential multi-writes to tree pages)
+- Log structured indexes also rewrite data multiple times. This is known as "write amplification" and is a concern for SSDs.
