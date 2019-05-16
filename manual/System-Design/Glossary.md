@@ -315,3 +315,9 @@ Most of the NoSQL solutions sacrifice ACID compliance for performance and scalab
 1. Consistency
 2. Availability
 3. Partition Tolerance
+
+### Examples of databases and what they provide
+
+- Availability + Partition Tolerance: Cassandra, CouchDB
+- Availability + Consistency: RDBMS
+- Consistency + Partition Tolerance: BigTable, MongoDB, HBase
