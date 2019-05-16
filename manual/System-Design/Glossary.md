@@ -372,3 +372,10 @@ This will cover:
 2. HTTP Long-Polling
 3. WebSockets
 4. Server-Sent Events (SSEs)
+
+### Ajax Polling
+
+1. The client opens a connection and requests data from the server using regular HTTP.
+2. The requested webpage sends requests to the server at regular intervals (e.g., 0.5 seconds).
+3. The server calculates the response and sends it back, just like regular HTTP traffic.
+4. The client repeats the above three steps periodically to get updates from the server.
