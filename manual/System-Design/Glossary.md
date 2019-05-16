@@ -345,7 +345,7 @@ When a hash table is resized, only `k/n` keys need to be remapped where `k` is t
 
 Note that in a caching system using the `modulo` as the hash function, all keys need to be remapped.
 
-### How does it work
+### How Does Consistent Hashing Work
 
 1. Given a list of cache servers, hash them to integers in the range.
 2. To map a key to a server:
