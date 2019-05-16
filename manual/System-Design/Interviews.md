@@ -12,7 +12,7 @@ Acronym: CASM HDR
 1. Clarify requirements
 2. API Definition
 3. Scale Estimatation
-4. Model Data
+4. Modelling Data
 5. High-Level Design
 6. Detailed Design
 7. Resolve Bottlenecks
@@ -56,3 +56,5 @@ It is always a good idea to estimate the scale of the system we’re going to de
 1. What scale is expected from the system (e.g., number of new tweets, number of tweet views, number of timeline generations per sec., etc.)?
 2. How much storage will we need? We will have different numbers if users can have photos and videos in their tweets.
 3. What network bandwidth usage are we expecting? This will be crucial in deciding how we will manage traffic and balance load between servers.
+
+## 4. Modelling Data
