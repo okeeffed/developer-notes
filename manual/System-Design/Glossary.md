@@ -277,3 +277,9 @@ NoSQL databases have different data storage models. The main ones are key-value,
 In SQL, each record conforms to a fixed schema, meaning the columns must be decided and chosen before data entry and each row must have data for each column. The schema can be altered later, but it involves modifying the whole database and going offline.
 
 In NoSQL, schemas are dynamic. Columns can be added on the fly and each 'row' (or equivalent) doesn’t have to contain data for each 'column.'
+
+#### Querying
+
+SQL databases use SQL (structured query language) for defining and manipulating the data, which is very powerful.
+
+In a NoSQL database, queries are focused on a collection of documents. Sometimes it is also called UnQL (Unstructured Query Language). Different databases have different syntax for using UnQL.
