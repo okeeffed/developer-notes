@@ -85,3 +85,4 @@ This could mean before a web server layer, an application server layer and datab
 ### LB Pros
 
 - UX is faster, uninterrupted. Requests are immediately passed on to a more readily available resource.
+- Less downtime and higher throughput.
