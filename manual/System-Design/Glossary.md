@@ -399,4 +399,6 @@ HTTP Long-Polling Life Cycle:
 
 ### WebSockets
 
-WebSocket provides `full duplex` communication channels over a TCP connection. It provides a persistent connection between a client and a server that both parties can use to start sending data at any time.
+WebSocket provides `full duplex` communication channels over a TCP connection.
+
+The client establishes a WebSocket connection through a process known as the WebSocket handshake. If the process succeeds, then the server and client can exchange data in both directions at any time.
