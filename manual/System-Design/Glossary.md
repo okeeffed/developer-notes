@@ -212,3 +212,9 @@ A proxy server is an intermediate server between the client and the back-end ser
 Typically used to filter requests, log requests or sometimes transform requests (adding/removing headers, encryption or resource compression).
 
 Another advantage is for a proxy server to cache requests.
+
+### Proxy Server Types
+
+#### 1. Open Proxy
+
+Proxy server accessible to any Internet user.
