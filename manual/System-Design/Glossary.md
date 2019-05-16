@@ -307,3 +307,11 @@ Most of the NoSQL solutions sacrifice ACID compliance for performance and scalab
 - Storing large volumes of data that often have little to no structure - a NoSQL database sets no limits on the types of data we can store together and allows us to add new types as the need changes
 - Making the most of cloud computing and storage
 - Rapid development
+
+## CAP Theorem
+
+"Impossible for a distributed software system to simultaneously provide more than two out of three of the following guarantees.
+
+1. Consistency
+2. Availability
+3. Partition Tolerance
