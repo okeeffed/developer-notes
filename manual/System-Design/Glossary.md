@@ -202,3 +202,5 @@ Finding a small payload in such a large dataset can be a real challenge, since w
 ### Indexes decrease write performance
 
 An index can dramatically speed up data retrieval but may itself be large due to the additional keys, which slow down data insertion & update.
+
+When adding rows or making updates to existing rows for a table with an active index, we not only have to write the data but also have to update the index. This will decrease the write performance.
