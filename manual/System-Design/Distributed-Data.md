@@ -48,3 +48,14 @@ There are a few kinds:
 
 1. Document-partitioned indexes: secondary index stored in some part as primary key & value. Single partition updated on write, but read of secondary requires scatter/gather across all partitions.
 2. Term-partitioned indexes: secondary indexes partitioned seperately but read can happen from single partition.
+
+## Transactions
+
+- Without transactions, susceptible to process crashes, network interruptions, power outages, disk full and unexpected concurrency.
+- Transactions help prevent certain race conditions:
+  - Dirty reads
+  - Dirty writes
+  - Read skew
+  - Write skew
+  - Lost updates
+  - Phantom reads
