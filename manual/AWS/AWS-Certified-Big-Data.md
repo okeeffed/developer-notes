@@ -19,3 +19,12 @@ These are some of the services we will touch base with:
 | Visualization | QuickSight                                                       |
 
 The course will follow the "data dispatch" pipeline to give you an idea of what we can do.
+
+## Exam Requirements
+
+The exam tests:
+
+1. Tech skills and experience needed to design and implement AWS services to derive value from data.
+2. Implement core AWS Big Data services according to basic architectural best practices.
+3. Design and maintain Big Data solutions.
+4. Leverage tools to automate Data Analysis.
