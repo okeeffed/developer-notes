@@ -22,4 +22,13 @@ The Thing registry is used to keep track of all your Internet-connected things s
 - Describe things to see the relevant information about a thing
 - Delete a thing to remove the thing from the device registry
 
+## Thing types
+
 IoT also allows you to use "thing types" to store config info that is the same for all things associated with that thing type.
+
+Each thing type can have:
+
+- Different values specific to the thing in question
+- Up to 50 attributes
+- only one thing associated
+- no limit to the total number associated with an AWS account
