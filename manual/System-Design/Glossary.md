@@ -312,7 +312,7 @@ Most of the NoSQL solutions sacrifice ACID compliance for performance and scalab
 
 ## CAP Theorem
 
-"Impossible for a distributed software system to simultaneously provide more than two out of three of the following guarantees.
+"Impossible for a distributed software system to simultaneously provide more than two out of three of the following guarantees."
 
 1. Consistency
 2. Availability
@@ -326,6 +326,8 @@ Most of the NoSQL solutions sacrifice ACID compliance for performance and scalab
 
 ## Consistent Hashing
 
+### DHT
+
 Distributed Hash Table (DHT) is one of the fundamental components used in distributed scalable systems. Hash Tables need a key, a value, and a hash function where hash function maps the key to a location where the value is stored.
 
 ```shell
@@ -334,7 +336,7 @@ index = hashFunction(key)
 
 ### key % n issues
 
-Suppose we are designing a distributed caching system. Given ‘n’ cache servers, an intuitive hash function would be ‘key % n’. It is simple and commonly used. But it has two major drawbacks:
+Suppose we are designing a distributed caching system. Given 'n' cache servers, an intuitive hash function would be 'key % n'. It is simple and commonly used. But it has two major drawbacks:
 
 1. Not horizontally scalable - new cache hosts break all existing mappings.
 2. It may not be load balanced. For a caching system, this translates into some caches becoming hot and saturated while others idle and almost empty.
@@ -362,7 +364,7 @@ To remove a cache or, if a cache fails, say A, all keys that were originally map
 
 For load balancing, as we discussed in the beginning, the real data is essentially randomly distributed and thus may not be uniform. It may make the keys on caches unbalanced.
 
-To handle this issue, we add “virtual replicas” for caches. Instead of mapping each cache to a single point on the ring, we map it to multiple points on the ring, i.e. replicas. This way, each cache is associated with multiple portions of the ring.
+To handle this issue, we add "virtual replicas" for caches. Instead of mapping each cache to a single point on the ring, we map it to multiple points on the ring, i.e. replicas. This way, each cache is associated with multiple portions of the ring.
 
 If the hash function “mixes well,” as the number of replicas increases, the keys will be more balanced.
 
@@ -382,7 +384,7 @@ This will cover:
 3. The server calculates the response and sends it back, just like regular HTTP traffic.
 4. The client repeats the above three steps periodically to get updates from the server.
 
-The problem with Polling is that the client has to keep asking the server for any new data. As a result, a lot of responses are empty, creating HTTP overhead.
+The problem with Ajax Polling is that the client has to keep asking the server for any new data. As a result, a lot of responses are empty, creating HTTP overhead.
 
 ### HTTP Long-Polling
 
