@@ -4,3 +4,7 @@ name: Certified Big Data
 ---
 
 # AWS Certified Big Data
+
+| Type | Service |
+| ---- | ------- |
+
