@@ -5,6 +5,8 @@ name: Software First Principles
 
 # Software First Principles
 
+## Coding First Principles
+
 1. SOLID - Single Responsibility Principle, Open-Close Principle, Liskov's Substitution Princple, Interface Segregation Principle, Dependency Inversion Principle
 2. KISS - Keep It Simple Stupid
 3. DRY - Don't Repeat Yourself
@@ -17,3 +19,5 @@ name: Software First Principles
 10. Occam's Razor - Does the benefit outweigh the cost?
 11. Least Astonishment Principle - Naming should come as no surprise to what it does
 12. Law of Demeter - Divide responsibility between classes
+
+##
