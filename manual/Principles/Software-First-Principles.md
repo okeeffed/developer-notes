@@ -14,6 +14,6 @@ name: Software First Principles
 7. Avoid Premature Optimisation
 8. Refactor Refactor Refactor
 9. Clean Code > Clever Code
-10. Occam's Razor
-11. Least Astonishment Principle
+10. Occam's Razor - Does the benefit outweigh the cost?
+11. Least Astonishment Principle - Naming should come as no surprise to what it does
 12. Law of Demeter - Divide responsibility between classes
