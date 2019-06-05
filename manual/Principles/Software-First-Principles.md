@@ -20,4 +20,14 @@ name: Software First Principles
 11. Least Astonishment Principle - Naming should come as no surprise to what it does
 12. Law of Demeter - Divide responsibility between classes
 
-##
+## LEAN Startup Principles
+
+1. Macros/Micros - Which part of the user journey is a macro journey and which are micro changes?
+2. Begin With The End In Mind
+3. Validated Metrics > Empty Metrics
+4. Know When To Pivot
+5. 5 Why's - Ask to better understand the root cause
+6. What Are The User Stories? - Find the "why" behind a user journey.
+7. Vision - Start, Define, Learn, Experiment
+8. Steer - Leap, Test, Measure, Pivot
+9. Accellerate - Batch, Grow, Adapt, Innovate
