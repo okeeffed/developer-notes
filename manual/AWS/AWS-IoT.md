@@ -34,3 +34,4 @@ Each thing type can have:
 - no limit to the total number associated with an AWS account
 
 ## Thing Groups
+
