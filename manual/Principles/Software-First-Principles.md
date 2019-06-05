@@ -40,4 +40,5 @@ name: Software First Principles
 
 ## OKRs
 
-1.
+1. Generate Objectives with their respective Key Results
+2. Revolve Objectives Around User Journeys
