@@ -31,3 +31,7 @@ name: Software First Principles
 7. Vision - Start, Define, Learn, Experiment
 8. Steer - Leap, Test, Measure, Pivot
 9. Accellerate - Batch, Grow, Adapt, Innovate
+
+## System Design
+
+1. CASM HDR - Clarification, API Design, Scale Estimation, Model Data, High-Level Design, Detailed-Level Design, Resolve Bottlenecks
