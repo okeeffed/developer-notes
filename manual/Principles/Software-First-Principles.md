@@ -9,3 +9,11 @@ name: Software First Principles
 2. KISS - Keep It Simple Stupid
 3. DRY - Don't Repeat Yourself
 4. YAGNI - You Ain't Gonna Need It
+5. Composition > Inheritance
+6. Separation of Concerns
+7. Avoid Premature Optimisation
+8. Refactor Refactor Refactor
+9. Clean Code > Clever Code
+10. Occam's Razor
+11. Least Astonishment Principle
+12. Law of Demeter - Divide responsibility between classes
