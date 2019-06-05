@@ -35,3 +35,9 @@ name: Software First Principles
 ## System Design
 
 1. CASM HDR - Clarification, API Design, Scale Estimation, Model Data, High-Level Design, Detailed-Level Design, Resolve Bottlenecks
+2. Clarification FON - Functional, Non-Functional, Out-Of-Scope
+3. Scale Estimation USB - User Activity, Storage, Bandwidth
+
+## OKRs
+
+1.
