@@ -68,6 +68,8 @@ name: First Principles
    - Purpose: Reason to exist
    - Vision: Aspiration for future
    - Strategy: Alignment of opportunities, plans & behaviours
+5. Think, say, do in harmony
+6. No shortcuts to results, only efficiencies
 
 ## Pixar 22 Rules of Storytelling
 
