@@ -51,6 +51,7 @@ name: First Principles
 9. "Innovation means saying no to 1000 things"
 10. Every commitment to one things means not committing to another
 11. OKRs required contiuous feedback early and often
+12. "Big Hairy Audacious Goals" - clear, compelling and people get it straight away
 
 ## Pixar 22 Rules of Storytelling
 
