@@ -54,6 +54,21 @@ name: First Principles
 12. "Big Hairy Audacious Goals" - clear, compelling and people get it straight away
 13. Big rock theory: order things into the jar first with the big rocks, then the pebbles, then the sand
 
+## Story Driven Goals
+
+1. Sell many things, not just one
+2. "Begin with the end in mind" - think not how but what can be contributed
+3. Story outline:
+   - Purpose & Vision: Where you are going and why
+   - Strategy: How to get there
+   - Tactics: What along the way
+4. Story Driven Framework:
+   - Backstory: The story until now
+   - Values: Guiding beliefs
+   - Purpose: Reason to exist
+   - Vision: Aspiration for future
+   - Strategy: Alignment of opportunities, plans & behaviours
+
 ## Pixar 22 Rules of Storytelling
 
 Note - 22 is overkill, these rules are here to reference for when constructing UX and goal narratives.
