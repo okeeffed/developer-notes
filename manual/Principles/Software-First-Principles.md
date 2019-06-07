@@ -3,7 +3,7 @@ menu: Principles
 name: First Principles
 ---
 
-# Software First Principles
+# Software & Goal Settings First Principles
 
 ## Coding First Principles
 
