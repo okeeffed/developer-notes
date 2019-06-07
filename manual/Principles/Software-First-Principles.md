@@ -70,6 +70,7 @@ name: First Principles
    - Strategy: Alignment of opportunities, plans & behaviours
 5. Think, say, do in harmony
 6. No shortcuts to results, only efficiencies
+7. "Once you figure out the question, the answer is relatively easy."
 
 ## Pixar 22 Rules of Storytelling
 
