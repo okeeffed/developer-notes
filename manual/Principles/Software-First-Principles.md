@@ -48,6 +48,8 @@ name: First Principles
 6. Bad companies are destroyed by crisis, good companies survive it and great companies improve from it
 7. "When you are tired of saying it, people are starting to hear it." - Jeff Weiner
 8. OKRs are dispensible
+9. "Innovation means saying no to 1000 things"
+10. Every commitment to one things means not committing to another
 
 ## Pixar 22 Rules of Storytelling
 
