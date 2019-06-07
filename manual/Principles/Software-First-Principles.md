@@ -38,7 +38,7 @@ name: First Principles
 2. Clarification FON - Functional, Non-Functional, Out-Of-Scope
 3. Scale Estimation USB - User Activity, Storage, Bandwidth
 
-# Measure What Matters. OKRs
+# Measure What Matters (OKRs)
 
 1. Objectives are the WHAT, the Key Results are the HOW and help surface primary goals
 2. Revolve Objectives Around User Journeys
