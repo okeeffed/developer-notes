@@ -50,6 +50,7 @@ name: First Principles
 8. OKRs are dispensible
 9. "Innovation means saying no to 1000 things"
 10. Every commitment to one things means not committing to another
+11. OKRs required contiuous feedback early and often
 
 ## Pixar 22 Rules of Storytelling
 
