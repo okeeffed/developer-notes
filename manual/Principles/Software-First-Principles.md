@@ -52,6 +52,7 @@ name: First Principles
 10. Every commitment to one things means not committing to another
 11. OKRs required contiuous feedback early and often
 12. "Big Hairy Audacious Goals" - clear, compelling and people get it straight away
+13. Big rock theory: order things into the jar first with the big rocks, then the pebbles, then the sand
 
 ## Pixar 22 Rules of Storytelling
 
