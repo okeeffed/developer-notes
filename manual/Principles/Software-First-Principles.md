@@ -5,6 +5,11 @@ name: First Principles
 
 # Software & Goal Settings First Principles
 
+## Nodular First Principles
+
+- 9-5 Exit Strategy
+- Startups From The Coffee Table
+
 ## Coding First Principles
 
 1. SOLID - Single Responsibility Principle, Open-Close Principle, Liskov's Substitution Princple, Interface Segregation Principle, Dependency Inversion Principle
