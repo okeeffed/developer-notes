@@ -72,6 +72,12 @@ name: First Principles
 6. No shortcuts to results, only efficiencies
 7. "Once you figure out the question, the answer is relatively easy."
 
+## Deep Work
+
+- Deep work: The art of performing deep, intense, uninterrupted work that push your cognitive skills to the limit.
+- Shallow work: noncognitively demanding, logistical-style tasks that are often performed while distracted.
+- Batch together absolutely unavoidable shallow tasks and finish them all at the same time.
+
 ## Pixar 22 Rules of Storytelling
 
 Note - 22 is overkill, these rules are here to reference for when constructing UX and goal narratives.
