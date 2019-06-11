@@ -83,6 +83,7 @@ name: First Principles
 - Shallow work: noncognitively demanding, logistical-style tasks that are often performed while distracted.
 - Batch together absolutely unavoidable shallow tasks and finish them all at the same time.
 - If you don't produce, you won't thrive: no matter how good you are.
+- Clarity about what matters means clarity about what does not.
 
 ## Pixar 22 Rules of Storytelling
 
