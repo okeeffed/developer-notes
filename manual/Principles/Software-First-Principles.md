@@ -77,6 +77,7 @@ name: First Principles
 - Deep work: The art of performing deep, intense, uninterrupted work that push your cognitive skills to the limit.
 - Shallow work: noncognitively demanding, logistical-style tasks that are often performed while distracted.
 - Batch together absolutely unavoidable shallow tasks and finish them all at the same time.
+- If you don't produce, you won't thrive: no matter how good you are.
 
 ## Pixar 22 Rules of Storytelling
 
