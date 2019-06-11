@@ -84,6 +84,7 @@ name: First Principles
 - Batch together absolutely unavoidable shallow tasks and finish them all at the same time.
 - If you don't produce, you won't thrive: no matter how good you are.
 - Clarity about what matters means clarity about what does not.
+- "It's this propensity to view 'the Internet' as a source of wisdom and policy advice that transforms it from a fairly uninteresting set of cables and network routers into a seductive and exciting technology - perhaps today's uber-ideology." - Mozorov
 
 ## Pixar 22 Rules of Storytelling
 
