@@ -106,6 +106,7 @@ name: First Principles
 - Dog food marketing - have you ever seen a dog buy dog food?
 - Sooner or later, each of us becomes the kind of person who believes the reptile people control the earth. We're all seeking our own pocket of uniqueness.
 - If you want to find the true benefits of your story, articulate it on a XY graph with competition.
+- What is "better" is entirely up to individuals.
 
 ## Pixar 22 Rules of Storytelling
 
