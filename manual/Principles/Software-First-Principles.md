@@ -89,6 +89,7 @@ name: First Principles
 - Beautiful code is short and concise, almost like writing a poem.
 - The five hardest common desires to fight against include the Internet and television.
 - Email is a wonderful thing for someone who needs to be on top of things - if not, be on the bottom of things.
+- The key to developing a deep work habit is to move beyond good intentions and add routines and rituals to your working life designed to minimize the amount of your limited willpower necessary to transition into and maintain a state of unbroken concentration.
 
 ## Pixar 22 Rules of Storytelling
 
