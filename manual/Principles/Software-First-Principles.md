@@ -86,6 +86,7 @@ name: First Principles
 - Clarity about what matters means clarity about what does not.
 - "It's this propensity to view 'the Internet' as a source of wisdom and policy advice that transforms it from a fairly uninteresting set of cables and network routers into a seductive and exciting technology - perhaps today's uber-ideology." - Mozorov
 - In a post-enlightenment world, we are tasked to define what is meaningful and what is not, an exercise that can seem abritrary and induce a creeping nihilism.
+- Beautiful code is short and concise, almost like writing a poem
 
 ## Pixar 22 Rules of Storytelling
 
