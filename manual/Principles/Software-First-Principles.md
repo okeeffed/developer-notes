@@ -99,6 +99,7 @@ name: First Principles
 - Marketing is the generous act of helping someone solve a problem. Their problem.
 - It is easier to find products and services for the customers you seek to serve than it is to find customers for your products and services.
 - Stop looking for shortcuts, start insisting on a long, viable path instead.
+- People don't want what you make. They want what it will do for them. They want the way it will make them feel. And there aren't that many feelings to choose from.
 
 ## Pixar 22 Rules of Storytelling
 
