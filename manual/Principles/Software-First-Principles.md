@@ -104,6 +104,7 @@ name: First Principles
 - Do not convince others of your work. Dance with them instead.
 - Marketing finds a spot on a map with that edges to what people want to find.
 - Dog food marketing - have you ever seen a dog buy dog food?
+- Sooner or later, each of us becomes the kind of person who believes the reptile people control the earth. We're all seeking our own pocket of uniqueness.
 
 ## Pixar 22 Rules of Storytelling
 
