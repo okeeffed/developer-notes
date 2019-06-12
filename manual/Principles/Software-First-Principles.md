@@ -94,6 +94,8 @@ name: First Principles
 - Idleness is not just a vacation, it is as indispensible to the brain at vitamin D is for the body.
 - When tasked with a difficult problem, acknowledge and avoid looping.
 
+## This Is Marketing
+
 ## Pixar 22 Rules of Storytelling
 
 Note - 22 is overkill, these rules are here to reference for when constructing UX and goal narratives.
