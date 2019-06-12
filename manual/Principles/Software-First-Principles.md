@@ -92,6 +92,7 @@ name: First Principles
 - The key to developing a deep work habit is to move beyond good intentions and add routines and rituals to your working life designed to minimize the amount of your limited willpower necessary to transition into and maintain a state of unbroken concentration.
 - Minimise connectability.
 - Idleness is not just a vacation, it is as indispensible to the brain at vitamin D is for the body.
+- When tasked with a difficult problem, acknowledge and avoid looping.
 
 ## Pixar 22 Rules of Storytelling
 
