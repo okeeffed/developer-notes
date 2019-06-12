@@ -108,6 +108,7 @@ name: First Principles
 - If you want to find the true benefits of your story, articulate it on a XY graph with competition.
 - What is "better" is entirely up to individuals.
 - Beware feedback from the polar opposites of a bimodal distribution of your audiences.
+- Pattern match: to get colleagues to tell you, "You're missing out". Pattern disrupt: to enforce a new tool in a workplace entirely.
 
 ## Pixar 22 Rules of Storytelling
 
