@@ -97,6 +97,7 @@ name: First Principles
 ## This Is Marketing
 
 - Marketing is the generous act of helping someone solve a problem. Their problem.
+- It is easier to find products and services for the customers you seek to serve than it is to find customers for your products and services.
 
 ## Pixar 22 Rules of Storytelling
 
