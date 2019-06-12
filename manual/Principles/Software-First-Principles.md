@@ -102,6 +102,7 @@ name: First Principles
 - People don't want what you make. They want what it will do for them. They want the way it will make them feel. And there aren't that many feelings to choose from.
 - People don't believe what you believe. People don't know what you know. They don't want what you want. Realise this and sonder.
 - Do not convince others of your work. Dance with them instead.
+- Marketing finds a spot on a map with that edges to what people want to find.
 
 ## Pixar 22 Rules of Storytelling
 
