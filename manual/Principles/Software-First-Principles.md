@@ -103,6 +103,7 @@ name: First Principles
 - People don't believe what you believe. People don't know what you know. They don't want what you want. Realise this and sonder.
 - Do not convince others of your work. Dance with them instead.
 - Marketing finds a spot on a map with that edges to what people want to find.
+- Dog food marketing - have you ever seen a dog buy dog food?
 
 ## Pixar 22 Rules of Storytelling
 
