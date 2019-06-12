@@ -88,6 +88,7 @@ name: First Principles
 - In a post-enlightenment world, we are tasked to define what is meaningful and what is not, an exercise that can seem abritrary and induce a creeping nihilism.
 - Beautiful code is short and concise, almost like writing a poem.
 - The five hardest common desires to fight against include the Internet and television.
+- Email is a wonderful thing for someone who needs to be on top of things - if not, be on the bottom of things.
 
 ## Pixar 22 Rules of Storytelling
 
