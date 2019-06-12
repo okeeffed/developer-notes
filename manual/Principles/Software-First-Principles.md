@@ -105,6 +105,7 @@ name: First Principles
 - Marketing finds a spot on a map with that edges to what people want to find.
 - Dog food marketing - have you ever seen a dog buy dog food?
 - Sooner or later, each of us becomes the kind of person who believes the reptile people control the earth. We're all seeking our own pocket of uniqueness.
+- If you want to find the true benefits of your story, articulate it on a XY graph with competition.
 
 ## Pixar 22 Rules of Storytelling
 
