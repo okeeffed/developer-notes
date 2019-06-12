@@ -96,6 +96,8 @@ name: First Principles
 
 ## This Is Marketing
 
+- Marketing is the generous act of helping someone solve a problem. Their problem.
+
 ## Pixar 22 Rules of Storytelling
 
 Note - 22 is overkill, these rules are here to reference for when constructing UX and goal narratives.
