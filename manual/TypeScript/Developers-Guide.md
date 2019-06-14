@@ -96,4 +96,10 @@ Abstract classes:
 4. Can refer to methods that don't exist yet
 
 ```javascript
+abstract class Examlpe {
+  // promises we will create this func later
+  abstract requireFunc(argA: number): void;
+
+  swap = (a:number) => requireFunc(a);
+}
 ```
