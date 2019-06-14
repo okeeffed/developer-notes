@@ -65,3 +65,5 @@ const logger = (message: string): void => console.log(message);
 // Never returns
 const throwError = (message: string): never => throw new Error(message);
 ```
+
+## Typed arrays
