@@ -7,7 +7,7 @@ name: Developer's Guide
 
 ## Types
 
-For types, we have all our basic types and
+For types, we have all our basic types and we can also have custom types.
 
 ```javascript
 interface Todo {
