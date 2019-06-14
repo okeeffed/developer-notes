@@ -158,6 +158,18 @@ const holdAllTheThings = new holdMultipleAnything<string, number, Coordinates>()
 -
 
 ```javascript
+class Car {
+  print() {
+    console.log('Car');
+  }
+}
+
+class House {
+  print() {
+    console.log('House');
+  }
+}
+
 interface Printable {
   print(): void;
 }
@@ -166,5 +178,6 @@ function printWhatever<T extends Printable>(el: T) {
   el.print();
 }
 
-printWhatever();
+printWhatever(new Car());
+printWhatever(new House());
 ```
