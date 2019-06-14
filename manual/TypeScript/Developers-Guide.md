@@ -120,3 +120,7 @@ enum Result {
 ```
 
 ## Generics
+
+- Like function args, but for types in class/function definitions
+- Allow us to define the type of a property/argument/return value at a future point
+- Used heavily when writing useable code
