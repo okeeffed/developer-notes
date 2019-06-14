@@ -163,7 +163,7 @@ interface Printable {
 }
 
 function printWhatever<T extends Printable>(el: T) {
-  T.print();
+  el.print();
 }
 
 printWhatever();
