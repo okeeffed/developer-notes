@@ -11,6 +11,8 @@ For types, we have all our basic types and we can also have custom types.
 
 There are two types, `primitive` and `object` - the `object` types itself can be what we define.
 
+Why do we care? The compiler uses it to search for errors.
+
 ```javascript
 interface Todo {
   id: number;
