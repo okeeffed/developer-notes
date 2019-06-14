@@ -51,4 +51,7 @@ The object literal gets a bit nasty, but we have ways around this using `types` 
 ```javascript
 const json = '{"x":10, "y": 20}';
 const coordinates = JSON.parse(json); // by default gets any time
+
+// this is the better
+const coor: { x: number, y: number } = JSON.parse(json);
 ```
