@@ -60,8 +60,8 @@ const coor: { x: number, y: number } = JSON.parse(json);
 
 ```javascript
 // Returns nothing
-const logger = (message:string) : void => console.log(message);
+const logger = (message: string): void => console.log(message);
 
 // Never returns
-const throwError = (message:string) : never => throw new Error(message;
+const throwError = (message: string): never => throw new Error(message);
 ```
