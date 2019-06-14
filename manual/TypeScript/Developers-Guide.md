@@ -151,3 +151,5 @@ class holdMultipleAnything<T,U,V> {
 
 const holdAllTheThings = new holdMultipleAnything<string, number, Coordinates>();
 ```
+
+### Constraints with Generics
