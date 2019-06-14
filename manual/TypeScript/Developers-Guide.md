@@ -131,4 +131,23 @@ class HoldAnything<TypeOfData> {
 }
 
 const holdNumber = new HolderAnything<number>();
+const holdString = new HolderAnything<string>();
+
+interface Coordinates {
+  x: number;
+  y: number;
+}
+
+const holdCoordinates = new HolderAnything<Coordinates>();
+
+// TypeOfData can actually be called anything
+// Convention is normally T, but then we go alphabetical order if we need multiple generics
+
+class holdMultipleAnything<T,U,V> {
+  firstThing: T;
+  secondThing: U;
+  thirdThing: V;
+}
+
+const holdAllTheThings = new holdMultipleAnything<string, number, Coordinates>();
 ```
