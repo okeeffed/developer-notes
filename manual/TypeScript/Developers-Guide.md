@@ -154,5 +154,17 @@ const holdAllTheThings = new holdMultipleAnything<string, number, Coordinates>()
 
 ### Constraints with Generics
 
-- Cannot call method on generics since there is no guarantee
+- Cannot call base methods on generics since there is no guarantee without a interface
 -
+
+```javascript
+interface Printable {
+  print(): void;
+}
+
+function printWhatever<T extends Printable>(el: T) {
+  T.print();
+}
+
+printWhatever();
+```
