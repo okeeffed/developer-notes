@@ -7,10 +7,12 @@ name: Developer's Guide
 
 ## Types
 
+For types, we have all our basic types and
+
 ```javascript
-type Todo = {
-  id: number,
-  completed: boolean
+interface Todo {
+  id: number;
+  completed: boolean;
 };
 
 const todo = obj.data as Todo;
