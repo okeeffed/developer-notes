@@ -37,6 +37,11 @@ let point: { x: number, y: number } = {
   x: 10,
   y: 20
 };
+
+// functions
+const logNumber = (i: number) => {
+  console.log(i);
+};
 ```
 
 The object literal gets a bit nasty, but we have ways around this using `types` and `interfaces`.
