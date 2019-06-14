@@ -154,5 +154,5 @@ const holdAllTheThings = new holdMultipleAnything<string, number, Coordinates>()
 
 ### Constraints with Generics
 
-- Cannot call method on generics
+- Cannot call method on generics since there is no guarantee
 -
