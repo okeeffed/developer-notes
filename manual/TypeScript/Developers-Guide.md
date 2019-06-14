@@ -21,3 +21,9 @@ interface Todo {
 
 const todo = obj.data as Todo;
 ```
+
+## Declaring types examples
+
+```javascript
+let colors: string[] = ['a', 'b', 'c'];
+```
