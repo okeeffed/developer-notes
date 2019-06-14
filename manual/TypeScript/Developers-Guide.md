@@ -129,4 +129,6 @@ enum Result {
 class HoldAnything<TypeOfData> {
   data: TypeOfData;
 }
+
+const holdNumber = new HolderAnything<number>();
 ```
