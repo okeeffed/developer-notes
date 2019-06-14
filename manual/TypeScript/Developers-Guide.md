@@ -118,3 +118,5 @@ enum Result {
   Draw = 'D'
 }
 ```
+
+## Generics
