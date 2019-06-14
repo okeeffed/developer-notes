@@ -45,3 +45,10 @@ const logNumber: (i: number) => void = (i: number) => {
 ```
 
 The object literal gets a bit nasty, but we have ways around this using `types` and `interfaces`.
+
+## The 'any' type
+
+```javascript
+const json = '{"x":10, "y": 20}';
+const coordinates = JSON.parse(json);
+```
