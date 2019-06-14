@@ -25,13 +25,18 @@ const todo = obj.data as Todo;
 ## Declaring types examples
 
 ```javascript
+// array
 let colors: string[] = ['a', 'b', 'c'];
 
+// class
 class Car {}
 let car: Car = new Car();
 
+// object literal
 let point: { x: number, y: number } = {
   x: 10,
   y: 20
 };
 ```
+
+The object literal gets a bit nasty, but we have ways around this using `types` and `interfaces`.
