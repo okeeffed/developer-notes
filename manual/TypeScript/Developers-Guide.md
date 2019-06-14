@@ -66,4 +66,34 @@ const logger = (message: string): void => console.log(message);
 const throwError = (message: string): never => throw new Error(message);
 ```
 
-## Typed arrays
+## Interfaces
+
+```javascript
+interface Vehicle {
+  name: string;
+  year: number;
+  broken: boolean;
+}
+
+const oldCivic = {
+  name: 'civic',
+  year: 2000,
+  broken: true
+};
+
+const printVehicle = (vehicle: Vehicle): void => {};
+```
+
+## Abstract Classes
+
+Good for classes that we only want to use to extend. Think expectation vs reality.
+
+Abstract classes:
+
+1. Cannot create objects directly
+2. Only used as a parent class
+3. Can contain real implementations of some methods
+4. Can refer to methods that don't exist yet
+
+```javascript
+```
