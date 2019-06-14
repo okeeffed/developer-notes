@@ -103,3 +103,8 @@ abstract class Examlpe {
   swap = (a:number) => requireFunc(a);
 }
 ```
+
+## Abstract classes vs Interfaces
+
+- Interfaces promot loose coupling, Abstract/Inheritance is for strong coupling
+- Interfaces for very different objects we want to work together, Abstract/Inheritance for when we want to build up a definition of an object
