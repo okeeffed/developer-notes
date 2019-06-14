@@ -108,3 +108,13 @@ abstract class Examlpe {
 
 - Interfaces promot loose coupling, Abstract/Inheritance is for strong coupling
 - Interfaces for very different objects we want to work together, Abstract/Inheritance for when we want to build up a definition of an object
+
+## Enums
+
+```javascript
+enum Result {
+  Win = 'W',
+  Loss = 'L',
+  Draw = 'D'
+}
+```
