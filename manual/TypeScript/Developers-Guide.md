@@ -26,4 +26,12 @@ const todo = obj.data as Todo;
 
 ```javascript
 let colors: string[] = ['a', 'b', 'c'];
+
+class Car {}
+let car: Car = new Car();
+
+let point: { x: number, y: number } = {
+  x: 10,
+  y: 20
+};
 ```
