@@ -55,3 +55,13 @@ const coordinates = JSON.parse(json); // by default gets any time
 // this is the better
 const coor: { x: number, y: number } = JSON.parse(json);
 ```
+
+## The 'void' and 'never' return types
+
+```javascript
+// Returns nothing
+const logger = (message:string) : void => console.log(message);
+
+// Never returns
+const throwError = (message:string) : never => throw new Error(message;
+```
