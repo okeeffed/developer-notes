@@ -11,7 +11,7 @@ For types, we have all our basic types and we can also have custom types.
 
 There are two types, `primitive` and `object` - the `object` types itself can be what we define.
 
-Why do we care? The compiler uses it to search for errors.
+Why do we care? The compiler uses it to search for errors and it allows other engineers to understand what type of data is flowing around.
 
 ```javascript
 interface Todo {
