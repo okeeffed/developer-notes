@@ -15,7 +15,8 @@ Derivational morphology is the oppositive. When you change a word graphic (noun)
 
 A cover term for any type of phonological string that has been added to a base word to create a new, modified word.
 
-| Affix  | Definition             | Example    |
-| ------ | ---------------------- | ---------- |
-| Prefix | Added before base word | "Re"-do    |
-| Suffix | Added after base word  | Punch-"ed" |
+| Affix     | Definition                   | Example         |
+| --------- | ---------------------------- | --------------- |
+| Prefix    | Added before base word       | "Re"-do         |
+| Suffix    | Added after base word        | Punch-"ed"      |
+| Circumfix | Combination of prefix/suffix | "E"-long-"ated" |
