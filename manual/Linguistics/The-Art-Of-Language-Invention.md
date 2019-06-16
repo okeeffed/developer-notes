@@ -138,3 +138,7 @@ If we had to take our examples from before, we would end up with:
 - Me fought he.
 - He is sleeping.
 - Her hugged she.
+
+This type of language focuses on the different experiences of the participants in a sentence.
+
+The subject of an intransitive verb and the object of the transitive verb are marked with the same case called the `absolutive case`. For the remaining role, the subject of a transitive verb is marked with the `ergative case`.
