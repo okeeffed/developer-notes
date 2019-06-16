@@ -92,3 +92,7 @@ Examples include "to walk", "to run", "to swim".
 Verbs ended in `-ing` and functioning as a noun.
 
 Examples include "Jumping is fun", "He liked skiing", and "He had a unique way of whistling".
+
+### Participles
+
+Verbs ending in `-ing` (present participle) or `-ed`, `-d`, `-t`, `-en`, `-n` (past participle).
