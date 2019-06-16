@@ -98,6 +98,6 @@ They were broken down into:
 - Class III: Edible plants and trees with edible fruit
 - Class IV: Everything else
 
-## Langauge System Notes
+## Language System Notes
 
 Gender systems based at least partially on phonology are much more likely to survive than those based purely on semantics.
