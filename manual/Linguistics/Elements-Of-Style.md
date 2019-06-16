@@ -126,7 +126,7 @@ The imperfect tense is used to describe a completed event that occurred over a p
 | ----------------------- | ------------------------------------------ |
 | Simple past             | I swam/we swam                             |
 | Imperfect past          | I was swimming/we were swimming            |
-| Perfect past            | I had swum/ we had swum                    |
+| Perfect past            | I had swum/we had swum                     |
 | Past perfect continuous | I had been swimming/they had been swimming |
 
 ### Compound Subjects
