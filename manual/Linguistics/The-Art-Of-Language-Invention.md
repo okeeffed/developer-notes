@@ -37,3 +37,7 @@ When part of all of a word is repeated for mophological reasons: "lovey-dovey", 
 ## Paradigm
 
 A set of inflectional forms eg short, shorter, shortest.
+
+## Exponence
+
+A cover term to refer to the reification or instantiation of any inflectional or derivational category. In geese, the exponence is the apophony whereby oo becomes ee.
