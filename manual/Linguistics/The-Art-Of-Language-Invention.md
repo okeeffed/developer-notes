@@ -171,4 +171,4 @@ There are two valency changing operations: valency reducing and valency increasi
 
 ## Passivization
 
-Converting a transitive verb to a intransitive verb.
+Converting a transitive verb to a intransitive verb. This is done by deleting the agent.
