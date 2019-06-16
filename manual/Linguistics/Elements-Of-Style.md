@@ -53,6 +53,10 @@ A word to identify any of a class of people, places, things (common) or a partic
 
 A word that replaces a noun. Instead of "Sam likes pizza", using "He likes pizza" would have the pronoun "he".
 
+### Preposition
+
+Shows relationship between a noun or pronoun and some other word in the sentence. The relationship is spatial, temporal or directional. "I walked towards the house" would have "towards" as the proposition as it shows direction.
+
 ### Adjective
 
 Descriptively modifies a noun of pronoun. "I am a tall, skinny man" would use two adjectives "tall" and "skinny".
