@@ -181,3 +181,30 @@ function printWhatever<T extends Printable>(el: T) {
 printWhatever(new Car());
 printWhatever(new House());
 ```
+
+```javascript
+// method overloading in other languages
+class Utility {
+  static function add(a:number, b: number): number {
+    return a + b;
+  }
+
+  static function add(a:string, b: string): string {
+    return a + " " + b;
+  }
+}
+Utility.add(1,2) // return 2
+Utility.add('Hello','World') // return "Hello World"
+
+// method overloading in other typescript
+class Utility {
+  static function add(a:number, b: number): number;
+  static function add(a:string, b: string): string;
+
+  static function add(a, b) {
+    return a + b;
+  }
+}
+Utility.add(1,2) // return 2
+Utility.add('Hello','World') // return "HelloWorld"
+```
