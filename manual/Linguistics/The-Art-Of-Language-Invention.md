@@ -168,3 +168,7 @@ Valency refers to the number of nominal arguments a verb has and what approximat
 A verb needs to get paired with a noun to express any meaning. The noun is called an argument. Some verbs require exactly one argument. These are called monovalent or intransitive verbs. Transitive verbs are call divalent.
 
 There are two valency changing operations: valency reducing and valency increasing.
+
+## Passivization
+
+Converting a transitive verb to a intransitive verb.
