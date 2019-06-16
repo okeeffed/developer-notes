@@ -55,7 +55,7 @@ A word that replaces a noun. Instead of "Sam likes pizza", using "He likes pizza
 
 ### Preposition
 
-Shows relationship between a noun or pronoun and some other word in the sentence. The relationship is spatial, temporal or directional. "I walked towards the house" would have "towards" as the proposition as it shows direction.
+Shows relationship between a noun or pronoun and some other word in the sentence. The relationship is spatial, temporal or directional. "I walked towards the house" would have "towards" as the proposition as it shows direction. When linked with noun or pronouns, it creates a "prepositional phrase" -- the example being "towards the house".
 
 ### Adjective
 
