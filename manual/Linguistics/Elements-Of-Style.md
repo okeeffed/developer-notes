@@ -86,3 +86,9 @@ Similar to adjectives, the adverb modifies a verb, an adjective or another adver
 A verb form that almost always begins with the word "to" and ends with a simple verb.
 
 Examples include "to walk", "to run", "to swim".
+
+### Gerunds
+
+Verbs ended in `-ing` and functioning as a noun.
+
+Examples include "Jumping is fun", "He liked skiing", and "He had a unique way of whistling".
