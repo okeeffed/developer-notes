@@ -102,3 +102,7 @@ Examples include "The dancing parrots entertained the crowd.", "The wrecked sail
 ### Transitive, Intransitive and Ditransitive verbs
 
 A transitive verb takes a direct object; that is, the verb transmits action to an object.
+
+He _sent_ the _letter_. (letter = direct object of sent)
+
+She _gave_ the _lecture_. (lecture = direct object of gave)
