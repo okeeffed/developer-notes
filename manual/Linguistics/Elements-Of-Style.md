@@ -117,7 +117,7 @@ More than one actor.
 
 - Eileen and he (not Eileen and him) enjoy dancing.
 
-## Adjective and Adverb Degrees
+## Adjective and Adverb Degrees (Paradigms)
 
 Adjectives and adverbs change to show the comparative degree and superlative degree.
 
