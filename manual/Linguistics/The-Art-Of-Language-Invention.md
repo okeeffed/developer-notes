@@ -86,3 +86,7 @@ The idea behind genders systems is to point out the fact that nouns in a given l
 ## Animacy-based Gender Systems
 
 Reference either to how active a particular noun is, or how alive it is.
+
+## Sematic Systems
+
+Semantic systems are larger than gender or animacy systems and take into account the actual semantics of a laguage. Sometimes there will be crossover. Austrailan language Dyirbal, all nouns are assigned to one of four classes, each taking a different article.
