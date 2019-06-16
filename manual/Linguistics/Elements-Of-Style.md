@@ -115,3 +115,9 @@ An intranstive verb does not take an object:
 Ditransitive verbs is one that takes both a direct object and indirect objects.
 
 - He _gave_ _her_ the _letter_ (letter = direct object, her = indirect object).
+
+### Compound Subjects
+
+More than one actor.
+
+- Eileen and he (not Eileen and him) enjoy dancing.
