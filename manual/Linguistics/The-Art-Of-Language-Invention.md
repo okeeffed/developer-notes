@@ -182,3 +182,9 @@ Converting a transitive verb to a intransitive verb. This is done by deleting th
 ## Causativization
 
 The number of arguments is increased from one to two for an intransitive verb and two to three for a transitive verb.
+
+## Applicative
+
+Takes a nondirect or peripheral argument and promotes it to the direct object position, deleting or demoting the old direct object (if there was one).
+
+Example, "I shot better than him" to "I outshot him".
