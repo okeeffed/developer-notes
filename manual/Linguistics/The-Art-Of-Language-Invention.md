@@ -33,3 +33,7 @@ When two forms that should be related are not related at all. Example being "goo
 ## Reduplication
 
 When part of all of a word is repeated for mophological reasons: "lovey-dovey", "ooey-gooey".
+
+## Paradigm
+
+A set of inflectional forms eg short, shorter, shortest.
