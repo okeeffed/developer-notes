@@ -178,3 +178,7 @@ Example, "The coyote (agent) disrespected the onion (patient)".
 ## Passivization
 
 Converting a transitive verb to a intransitive verb. This is done by deleting the agent.
+
+## Causativization
+
+The number of arguments is increased from one to two for an intransitive verb and two to three for a transitive verb.
