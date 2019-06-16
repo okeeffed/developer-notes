@@ -63,7 +63,7 @@ Used to link words or parts of a sentence together. There are four types: coordi
 
 ### Interjection
 
-A word added to sentence to convey emotion and is not grammatically related to any other part of the sentence. Example "Wow!".
+A word added to sentence to convey emotion and is not grammatically related to any other part of the sentence. Example "Wow!". Should be avoided in academic and professional writing.
 
 ### Adjective
 
