@@ -160,3 +160,9 @@ The subject of an intransitive verb and the object of the transitive verb are ma
 ## Agreement
 
 There are two different types of bevaiour languages display with respect to the nouns referred to. In English you always have to state the subject of the sentence, in other languages, though, the agreement morphology on the verb is sufficient to allow users to drop the subject entirely (pro-drop).
+
+## Valency
+
+Valency refers to the number of nominal arguments a verb has and what approximate role those arguments play.
+
+A verb needs to get paired with a noun to express any meaning. The noun is called an argument. Some verbs require exactly one argument. These are called monovalent or intransitive verbs. Transitive verbs are call divalent.
