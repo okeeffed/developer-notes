@@ -45,3 +45,17 @@ A cover term to refer to the reification or instantiation of any inflectional or
 ## No Marking in languages
 
 Some languages make no morphological distinction between singular and plural outside of a a couple of instances. Nouns in Mandarin Chinese are netiher singular nor plural; the only place where plural marking exists obligatorily is in the pronoun system.
+
+## Subjects and Objects in Grammatical Contexts
+
+"David" being the change context.
+
+| Sentence                                    | Context         |
+| ------------------------------------------- | --------------- |
+| David loves the cat.                        | Subject         |
+| The cat loves David                         | Object          |
+| The cat often brings her string to David    | Indirect Object |
+| The cat is a fan of David                   | Possessor       |
+| The cat sits on David                       | Location        |
+| The cat likes to walk downstairs with David | Companion       |
+| David! Go feed the cat!                     | Addressee       |
