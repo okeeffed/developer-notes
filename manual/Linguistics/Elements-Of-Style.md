@@ -53,7 +53,9 @@ A word to identify any of a class of people, places, things (common) or a partic
 
 A word that replaces a noun. Instead of "Sam likes pizza", using "He likes pizza" would have the pronoun "he".
 
-### Indefinite Pronoun
+### Adjective
+
+Descriptively modifies a noun of pronoun. "I am a tall, skinny man" would use two adjectives "tall" and "skinny".
 
 ### Verbs
 
