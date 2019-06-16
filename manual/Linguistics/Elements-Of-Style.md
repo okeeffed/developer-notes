@@ -53,7 +53,7 @@ Examples include "to walk", "to run", "to swim".
 
 ### Nouns
 
-A naming word. Exampes include the names of people, places, things.
+A word to identify any of a class of people, places, things (common) or a particular name of one of these (proper).
 
 ### Verbs
 
