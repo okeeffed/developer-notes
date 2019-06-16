@@ -27,22 +27,6 @@ Place long conditions after the main clause.
 - Don't: If you own more than fifty acres and cultivate grapes, you are subject to water rationing.
 - Do: You are subject to water rationing if you own more than 50 acres and cultivate grapes.
 
-## Word Clutter
-
-### Intruders
-
-Intruders are a type of word clutter that add nothing to the sentence:
-
-- Don't: Paper records are endangered by fluctuating weather conditions.
-- Do: Paper records are endangered by fluctuating weather.
-
-### Redundancy
-
-Adding unnecessary words that repeat the same thing.
-
-- Don't: The roof was partially destroyed by the cyclone.
-- Do: The roof was damaged by the cyclone.
-
 ## Noun
 
 A word to identify any of a class of people, places, things (common) or a particular name of one of these (proper).
@@ -132,3 +116,19 @@ The imperfect tense is used to describe a completed event that occurred over a p
 More than one actor.
 
 - Eileen and he (not Eileen and him) enjoy dancing.
+
+## Word Clutter
+
+### Intruders
+
+Intruders are a type of word clutter that add nothing to the sentence:
+
+- Don't: Paper records are endangered by fluctuating weather conditions.
+- Do: Paper records are endangered by fluctuating weather.
+
+### Redundancy
+
+Adding unnecessary words that repeat the same thing.
+
+- Don't: The roof was partially destroyed by the cyclone.
+- Do: The roof was damaged by the cyclone.
