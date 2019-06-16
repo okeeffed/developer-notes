@@ -124,9 +124,17 @@ Both the subject of a transitive verb and the subject of an intransitive verb ta
 Examples:
 
 - I am sleeping.
-- He hugged him.
+- He fought me.
+- He is sleeping.
 - She kicked her.
 
 ## Ergative-Absolutive Aligment
 
 These are the mirror images of `nominative-accusative` languages.
+
+If we had to take our examples from before, we would end up with:
+
+- I am sleeping.
+- Me fought he.
+- He is sleeping.
+- Her hugged she.
