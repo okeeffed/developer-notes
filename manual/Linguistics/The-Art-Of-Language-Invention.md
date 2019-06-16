@@ -25,3 +25,7 @@ A cover term for any type of phonological string that has been added to a base w
 ## Apophony
 
 Cover term that refers to any type of word-internal process used to effect a change in a word (either inflectional or derivational) - the irregular plural of goose, geese is an example.
+
+## Suppletion
+
+When two forms that should be related are not related at all. Example being "good", "better".
