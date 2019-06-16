@@ -59,3 +59,18 @@ Some languages make no morphological distinction between singular and plural out
 | The cat sits on David                       | Location        |
 | The cat likes to walk downstairs with David | Companion       |
 | David! Go feed the cat!                     | Addressee       |
+
+## Nominal Inflection
+
+Inflecting words based on a numeral value ie one man vs two men.
+
+| Name         | Definition                                            |
+| ------------ | ----------------------------------------------------- |
+| Dual         | Two or an item                                        |
+| Trial        | Three of an item                                      |
+| Paucal       | A few of some item                                    |
+| Collective   | A large group of some item                            |
+| Singulative  | Substance whose most basic form is plural or masslike |
+| Distributive | Plural entity that's evenly divided between a group   |
+
+An example for distributive would be inflection that demonstrates something like "our horses (each of us has one horse)" as is the case for Southern Paiute.
