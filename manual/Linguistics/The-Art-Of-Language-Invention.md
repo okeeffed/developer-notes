@@ -73,4 +73,4 @@ Inflecting words based on a numeral value ie one man vs two men.
 | Singulative  | Substance whose most basic form is plural or masslike |
 | Distributive | Plural entity that's evenly divided between a group   |
 
-An example for distributive would be inflection that demonstrates something like "our horses (each of us has one horse)" as is the case for Southern Paiute.
+An example for distributive would be inflection that demonstrates something like "our horses (each of us has one horse)" as is the case for that example in Southern Paiute.
