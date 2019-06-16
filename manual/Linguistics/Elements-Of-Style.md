@@ -69,20 +69,20 @@ A word added to sentence to convey emotion and is not grammatically related to a
 
 Descriptively modifies a noun of pronoun. "I am a tall, skinny man" would use two adjectives "tall" and "skinny".
 
-### Adverb
+### Articles
 
-Similar to adjectives, the adverb modifies a verb, an adjective or another adverb. "I walked slowly towards the door" would have "slowly" as the adverb.
+Articles include "a", "an" and "the".
 
 ### Verbs
 
 The "doing" words. They show action. They are at heart of compelling writing.
 
-### Infinitive
+### Adverb
+
+Similar to adjectives, the adverb modifies a verb, an adjective or another adverb. "I walked slowly towards the door" would have "slowly" as the adverb.
+
+### Infinitives
 
 A verb form that almost always begins with the word "to" and ends with a simple verb.
 
 Examples include "to walk", "to run", "to swim".
-
-### Articles
-
-Articles include "a", "an" and "the".
