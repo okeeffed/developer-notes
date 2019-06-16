@@ -119,4 +119,4 @@ There are two main ones:
 
 ## Nominative-Accusative Alignment
 
-Both the subject of a transitive verb and the subject of an intransitive verb take the same form. This form is called the `nominative case`.
+Both the subject of a transitive verb and the subject of an intransitive verb take the same form. This form is called the `nominative case`. Objects of transitive verbs take a different form, and that form is called the `accusative case`.
