@@ -142,3 +142,9 @@ If we had to take our examples from before, we would end up with:
 This type of language focuses on the different experiences of the participants in a sentence.
 
 The subject of an intransitive verb and the object of the transitive verb are marked with the same case called the `absolutive case`. For the remaining role, the subject of a transitive verb is marked with the `ergative case`.
+
+## Other Non-Local Cases
+
+- Instrumental: use with a noun that's used to accomplish the action of a sentence.
+- Comitative: Used with noun whom another noun is associated.
+- Benefactive: Used with a noun on behalf of whom the action of the sentence is accomplished.
