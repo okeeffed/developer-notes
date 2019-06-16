@@ -21,3 +21,7 @@ A cover term for any type of phonological string that has been added to a base w
 | Suffix    | Added after base word        | Punch-"ed"             |
 | Circumfix | Combination of prefix/suffix | "E"-long-"ated"        |
 | Infix     | Inserted into middle of word | In-"freaking"-credible |
+
+## Apophony
+
+Cover term that refers to any type of word-internal process used to effect a change in a word (either inflectional or derivational) - the irregular plural of goose, geese is an example.
