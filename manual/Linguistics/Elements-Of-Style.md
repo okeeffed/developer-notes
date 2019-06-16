@@ -50,3 +50,13 @@ Adding unnecessary words that repeat the same thing.
 A verb form that almost always begins with the word "to" and ends with a simple verb.
 
 Examples include "to walk", "to run", "to swim".
+
+### Pronoun
+
+A word that replaces a noun. Examples include "
+
+### Indefinite Pronoun
+
+### Articles
+
+Articles include "a", "an" and "the".
