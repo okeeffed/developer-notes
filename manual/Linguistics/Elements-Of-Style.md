@@ -112,4 +112,6 @@ An intranstive verb does not take an object:
 - He _complains_ too much.
 - He is _sleeping_.
 
-Ditransitive verbs are both intransitive and transitive.
+Ditransitive verbs is one that takes both a direct object and indirect objects.
+
+- He _gave_ _her_ the _letter_ (letter = direct object, her = indirect object).
