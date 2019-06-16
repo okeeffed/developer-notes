@@ -122,10 +122,12 @@ By their different applications of timing and aspect, past perfect and imperfect
 
 The imperfect tense is used to describe a completed event that occurred over a period of time or an event that occurred within an event. The perfect tense is used to show a brief action completed at a single point in time or to show which of two events occurred before the other.
 
-- Simple past tense -- I swam/we swam
-- Imperfect tense -- I was swimming/we were swimming
-- Perfect past tense --I had swum/ we had swum
-- Past perfect continuous -- I had been swimming/they had been swimming
+| Tense                   | Example                                    |
+| ----------------------- | ------------------------------------------ |
+| Simple past             | I swam/we swam                             |
+| Imperfect tense         | I was swimming/we were swimming            |
+| Perfect past tense      | I had swum/ we had swum                    |
+| Past perfect continuous | I had been swimming/they had been swimming |
 
 ### Compound Subjects
 
