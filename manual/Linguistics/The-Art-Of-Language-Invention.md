@@ -111,3 +111,8 @@ You may never have given it much though, but these two words are two versions of
 ## Morphosyntactic Alignment
 
 A fancy way of referring to how a lnaguages codes who does what to whom.
+
+There are two main ones:
+
+1. Nominative-accusative
+2. Ergative-absolutive
