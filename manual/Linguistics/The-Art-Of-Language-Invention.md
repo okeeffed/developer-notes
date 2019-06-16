@@ -74,3 +74,7 @@ Inflecting words based on a numeral value ie one man vs two men.
 | Distributive | Plural entity that's evenly divided between a group   |
 
 An example for distributive would be inflection that demonstrates something like "our horses (each of us has one horse)" as is the case for that example in Southern Paiute.
+
+## Definitive vs Indefinite Articles
+
+"A" in itself in indefinite and can only accompany a singular noun (although not the case with all languages), "the" is a definite articular referring to a particular instance of a noun.
