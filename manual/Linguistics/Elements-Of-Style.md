@@ -42,3 +42,11 @@ Adding unnecessary words that repeat the same thing.
 
 - Don't: The roof was partially destroyed by the cyclone.
 - Do: The roof was damaged by the cyclone.
+
+## Grammar
+
+### Infinitive
+
+A verb form that almost always begins with the word "to" and ends with a simple verb.
+
+Examples include "to walk", "to run", "to swim".
