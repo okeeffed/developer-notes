@@ -97,4 +97,4 @@ Examples include "Jumping is fun", "He liked skiing", and "He had a unique way o
 
 Verbs ending in `-ing` (present participle) or `-ed`, `-d`, `-t`, `-en`, `-n` (past participle).
 
-Examples include "The dancing parrots entertained the crowd.", "The wrecked sailboat washed up on shore."
+Examples include "The dancing parrots entertained the crowd.", "The wrecked sailboat washed up on shore.".
