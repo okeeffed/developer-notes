@@ -148,3 +148,4 @@ The subject of an intransitive verb and the object of the transitive verb are ma
 - Instrumental: use with a noun that's used to accomplish the action of a sentence.
 - Comitative: Used with noun whom another noun is associated.
 - Benefactive: Used with a noun on behalf of whom the action of the sentence is accomplished.
+- Vocative: Used with direct address, as when calling someone out by name.
