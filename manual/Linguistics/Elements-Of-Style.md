@@ -17,5 +17,5 @@ name: Elements of Style
 
 Should be place next to the word they modify when possible.
 
-Don't: All the teachers were not present.
-Do: Not all the teachers were present.
+- Don't: All the teachers were not present.
+- Do: Not all the teachers were present.
