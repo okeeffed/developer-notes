@@ -59,7 +59,11 @@ Shows relationship between a noun or pronoun and some other word in the sentence
 
 ### Conjunction
 
-Used to link words or parts of a sentence together.
+Used to link words or parts of a sentence together. There are four types: coordinating (for, and, nor, but, or, yet, so), subordinating (after, as, although, once), adverb (furthermore, consequently, moreover) and correlative (both...and).
+
+### Interjection
+
+A word added to sentence to convey emotion and is not grammatically related to any other part of the sentence. Example "Wow!".
 
 ### Adjective
 
