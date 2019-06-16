@@ -90,3 +90,10 @@ Reference either to how active a particular noun is, or how alive it is.
 ## Sematic Systems
 
 Semantic systems are larger than gender or animacy systems and take into account the actual semantics of a laguage. Sometimes there will be crossover. Austrailan language Dyirbal, all nouns are assigned to one of four classes, each taking a different article.
+
+They were broken down into:
+
+- Class I: Men and other animate things
+- Class II: Women and certain stinging things
+- Class III: Edible plants and trees with edible fruit
+- Class IV: Everything else
