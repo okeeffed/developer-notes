@@ -183,6 +183,19 @@ printWhatever(new House());
 ```
 
 ```javascript
+// what you have to do without method overloading
+class Utility {
+  static function addNumbers(a:number, b: number): number {
+    return a + b;
+  }
+
+  static function addStrings(a:string, b: string): string {
+    return a + " " + b;
+  }
+}
+Utility.addNumbers(1,2) // return 2
+Utility.addStrings('Hello','World') // return "Hello World"
+
 // method overloading in other languages
 class Utility {
   static function add(a:number, b: number): number {
