@@ -78,3 +78,7 @@ An example for distributive would be inflection that demonstrates something like
 ## Definitive vs Indefinite Articles
 
 "A" in itself in indefinite and can only accompany a singular noun (although not the case with all languages), "the" is a definite articular referring to a particular instance of a noun. In English, the presence of a definite article has no bearing on the form of a noun in singular or plural form.
+
+## Gender Systems
+
+The idea behind genders systems is to point out the fact that nouns in a given language are "born", in essence, with a specific set of mophological properties.
