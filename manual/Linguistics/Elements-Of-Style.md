@@ -7,7 +7,8 @@ name: Elements of Style
 
 ## nth-person
 
-Perspective | Examples
-First Person | I, we, me, us, our
-Second Person | You, your, yours
-Third Person | He, him, his, she, her
+| Perspective   | Examples               |
+| ------------- | ---------------------- |
+| First Person  | I, we, me, us, our     |
+| Second Person | You, your, yours       |
+| Third Person  | He, him, his, she, her |
