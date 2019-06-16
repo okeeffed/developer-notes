@@ -57,6 +57,10 @@ A word that replaces a noun. Instead of "Sam likes pizza", using "He likes pizza
 
 Descriptively modifies a noun of pronoun. "I am a tall, skinny man" would use two adjectives "tall" and "skinny".
 
+### Adverb
+
+Similar to adjectives, the adverb modifies a verb, an adjective or another adverb. "I walked slowly towards the door" would have "slowly" as the adverb.
+
 ### Verbs
 
 The "doing" words. They show action. They are at heart of compelling writing.
