@@ -116,6 +116,17 @@ Ditransitive verbs is one that takes both a direct object and indirect objects.
 
 - He _gave_ _her_ the _letter_ (letter = direct object, her = indirect object).
 
+### Perfect and Imperfect verbs
+
+By their different applications of timing and aspect, past perfect and imperfect verb phrases are used to show the varying ways that actions occurred in the past.
+
+The imperfect tense is used to describe a completed event that occurred over a period of time or an event that occurred within an event. The perfect tense is used to show a brief action completed at a single point in time or to show which of two events occurred before the other.
+
+- Simple past tense -- I swam/we swam
+- Imperfect tense -- I was swimming/we were swimming
+- Perfect past tense --I had swum/ we had swum
+- Past perfect continuous -- I had been swimming/they had been swimming
+
 ### Compound Subjects
 
 More than one actor.
