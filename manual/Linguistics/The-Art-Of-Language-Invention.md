@@ -156,3 +156,7 @@ The subject of an intransitive verb and the object of the transitive verb are ma
 - Inessive: When the action of the sentence takes place inside a noun.
 - Illative: When the action of the sentence moves into a noun.
 - Elative: When the action of the sentence moves out of or out from a noun.
+
+## Agreement
+
+There are two different types of bevaiour languages display with respect to the nouns referred to. In English you always have to state the subject of the sentence, in other languages, though, the agreement morphology on the verb is sufficient to allow users to drop the subject entirely (pro-drop).
