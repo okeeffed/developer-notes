@@ -29,3 +29,7 @@ Cover term that refers to any type of word-internal process used to effect a cha
 ## Suppletion
 
 When two forms that should be related are not related at all. Example being "good", "better". There is no relationship at all other than that they belong to the same paradigm.
+
+## Reduplication
+
+When part of all of a word is repeated for mophological reasons: "lovey-dovey", "ooey-gooey".
