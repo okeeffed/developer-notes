@@ -107,3 +107,7 @@ Semantic classifications are always up for interpretation and a system based pur
 ## He vs. Him
 
 You may never have given it much though, but these two words are two versions of the same word: they're simply in two different noun cases.
+
+## Morphosyntactic Alignment
+
+A fancy way of referring to how a lnaguages codes who does what to whom.
