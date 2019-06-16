@@ -45,12 +45,6 @@ Adding unnecessary words that repeat the same thing.
 
 ## Grammar
 
-### Infinitive
-
-A verb form that almost always begins with the word "to" and ends with a simple verb.
-
-Examples include "to walk", "to run", "to swim".
-
 ### Nouns
 
 A word to identify any of a class of people, places, things (common) or a particular name of one of these (proper).
@@ -58,6 +52,12 @@ A word to identify any of a class of people, places, things (common) or a partic
 ### Verbs
 
 The "doing" words. They show action. They are at heart of compelling writing.
+
+### Infinitive
+
+A verb form that almost always begins with the word "to" and ends with a simple verb.
+
+Examples include "to walk", "to run", "to swim".
 
 ### Pronoun
 
