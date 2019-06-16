@@ -51,6 +51,14 @@ A verb form that almost always begins with the word "to" and ends with a simple 
 
 Examples include "to walk", "to run", "to swim".
 
+### Nouns
+
+A naming word. Exampes include the names of people, places, things.
+
+### Verbs
+
+The "doing" words. They show action. They are at heart of compelling writing.
+
 ### Pronoun
 
 A word that replaces a noun. Examples include "
