@@ -116,3 +116,7 @@ There are two main ones:
 
 1. Nominative-accusative
 2. Ergative-absolutive
+
+## Nominative-Accusative Alignment
+
+Both the subject of a transitive verb and the subject of an intransitive verb take the same form.
