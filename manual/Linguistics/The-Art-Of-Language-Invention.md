@@ -126,3 +126,7 @@ Examples:
 - I am sleeping.
 - He hugged him.
 - She kicked her.
+
+## Ergative-Absolutive Aligment
+
+These are the mirror images of `nominative-accusative` languages.
