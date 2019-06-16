@@ -19,3 +19,10 @@ Should be place next to the word they modify when possible.
 
 - Don't: All the teachers were not present.
 - Do: Not all the teachers were present.
+
+## Conditions
+
+Place long conditions after the main clause.
+
+- Don't: If you own more than fifty acres and cultivate grapes, you are subject to water rationing.
+- Do: You are subject to water rationing if you own more than 50 acres and cultivate grapes.
