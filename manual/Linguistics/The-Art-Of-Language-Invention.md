@@ -83,7 +83,7 @@ An example for distributive would be inflection that demonstrates something like
 
 The idea behind genders systems is to point out the fact that nouns in a given language are "born", in essence, with a specific set of mophological properties.
 
-## Animacy-based Gender Systems
+## Animacy-Based Systems
 
 Reference either to how active a particular noun is, or how alive it is.
 
