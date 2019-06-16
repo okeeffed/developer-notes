@@ -151,3 +151,8 @@ The subject of an intransitive verb and the object of the transitive verb are ma
 - Vocative: Used with direct address, as when calling someone out by name.
 - Locative: Used when action of verb takes place in some area having to do with a noun.
 - Adsessive: Used when the action of the sentence takes place near or around a noun.
+- Allative: When the action of the sentence moves to or towards a noun.
+- Ablative: When the action of the sentence moves away from a noun.
+- Inessive: When the action of the sentence takes place inside a noun.
+- Illative: When the action of the sentence moves into a noun.
+- Elative: When the action of the sentence moves out of or out from a noun.
