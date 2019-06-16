@@ -187,4 +187,4 @@ The number of arguments is increased from one to two for an intransitive verb an
 
 Takes a nondirect or peripheral argument and promotes it to the direct object position, deleting or demoting the old direct object (if there was one).
 
-Example, "I shot better than him" to "I outshot him".
+Example, "I shot better than him" to "I outshot him". This takes an intrasitive verb with some extra info and turns it into a transitive verb.
