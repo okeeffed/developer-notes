@@ -100,3 +100,5 @@ Verbs ending in `-ing` (present participle) or `-ed`, `-d`, `-t`, `-en`, `-n` (p
 Examples include "The dancing parrots entertained the crowd.", "The wrecked sailboat washed up on shore.".
 
 ### Transitive, Intransitive and Ditransitive verbs
+
+A transitive verb takes a direct object; that is, the verb transmits action to an object.
