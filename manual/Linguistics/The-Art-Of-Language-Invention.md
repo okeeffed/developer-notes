@@ -169,6 +169,12 @@ A verb needs to get paired with a noun to express any meaning. The noun is calle
 
 There are two valency changing operations: valency reducing and valency increasing.
 
+## Agent and Patient
+
+When dealing with valency, we can think of operations involing the agent and patient.
+
+Example, "The coyote (agent) disrespected the onion (patient)".
+
 ## Passivization
 
 Converting a transitive verb to a intransitive verb. This is done by deleting the agent.
