@@ -43,17 +43,19 @@ Adding unnecessary words that repeat the same thing.
 - Don't: The roof was partially destroyed by the cyclone.
 - Do: The roof was damaged by the cyclone.
 
-## Nouns
+## Grammar
+
+### Noun
 
 A word to identify any of a class of people, places, things (common) or a particular name of one of these (proper).
 
 ### Pronoun
 
-A word that replaces a noun. Examples include "
+A word that replaces a noun. Instead of "Sam likes pizza", using "He likes pizza" would have the pronoun "he".
 
 ### Indefinite Pronoun
 
-## Verbs
+### Verbs
 
 The "doing" words. They show action. They are at heart of compelling writing.
 
@@ -63,6 +65,6 @@ A verb form that almost always begins with the word "to" and ends with a simple 
 
 Examples include "to walk", "to run", "to swim".
 
-## Articles
+### Articles
 
 Articles include "a", "an" and "the".
