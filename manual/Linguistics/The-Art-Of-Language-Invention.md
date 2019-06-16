@@ -41,3 +41,7 @@ A set of inflectional forms eg short, shorter, shortest.
 ## Exponence
 
 A cover term to refer to the reification or instantiation of any inflectional or derivational category. In geese, the exponence is the apophony whereby oo becomes ee.
+
+## No Marking in languages
+
+Some languages make no morphological distinction between singular and plural outside of a a couple of instances. Nouns in Mandarin Chinese are netiher singular nor plural; the only place where plural marking exists obligatorily is in the pronoun system.
