@@ -100,4 +100,4 @@ They were broken down into:
 
 ## Language System Notes
 
-Gender systems based at least partially on phonology are much more likely to survive than those based purely on semantics.
+Gender systems based at least partially on phonology are much more likely to survive than those based purely on semantics. Semantic classifications are always up for interpretation and a system based purely on semantics may not always be successfully passd on to a younger generation.
