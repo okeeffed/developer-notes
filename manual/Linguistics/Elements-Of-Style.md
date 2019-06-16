@@ -111,3 +111,5 @@ An intranstive verb does not take an object:
 - She _sleeps_ too much.
 - He _complains_ too much.
 - He is _sleeping_.
+
+Ditransitive verbs are both intransitive and transitive.
