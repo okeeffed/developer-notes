@@ -149,3 +149,4 @@ The subject of an intransitive verb and the object of the transitive verb are ma
 - Comitative: Used with noun whom another noun is associated.
 - Benefactive: Used with a noun on behalf of whom the action of the sentence is accomplished.
 - Vocative: Used with direct address, as when calling someone out by name.
+- Locative: Used when action of verb takes place in some area having to do with a noun.
