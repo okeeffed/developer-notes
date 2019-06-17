@@ -96,11 +96,11 @@ class MeatLoversProduct extends AbstractPizzaProduct {
     }
 }
 
-abstract class PizzaAbstractFactory {
+interface PizzaAbstractFactory {
     // we set these functions to abstract because we want
     // the concrete builders that extend the PizzaAbstractFactory
     // to implement these functions
-    abstract createPizza(): AbstractPizzaProduct;
+    createPizza(): AbstractPizzaProduct;
 }
 
 class HawaiinConcreteFactory extends PizzaAbstractFactory {
