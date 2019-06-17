@@ -59,4 +59,31 @@ class Pizza {
         console.log(`Base: ${this._base}, Topping: ${this._topping}, Sauce: ${this._sauce}.`);
     }
 }
+
+//
+
+interface IPizza {
+    dough: string;
+    sauce: string;
+    top: string;
+    buildDough(): void;
+    buildSauce(): void;
+    buildTop(): void;
+}
+
+abstract class PizzaBuilder {
+    protected _pizza: IPizza;
+
+    constructor(pizzaBuilder: IPizza) {
+        this._pizza = pizzaBuilder;
+    }
+
+    get pizza() {
+        return this._pizza;
+    }
+
+    set pizza(newPizza: IPizza) {
+        this._pizza = newPizza;
+    }
+}
 ```
