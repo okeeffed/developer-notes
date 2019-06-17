@@ -32,7 +32,13 @@ The pattern works by using the following:
 First, let's build our Pizza product:
 
 ```javascript
-class Pizza {
+interface Pizza {
+    base: string;
+    sauce: string;
+    topping: string;
+}
+
+class PizzaProduct implements Pizza {
     private _base: string;
     private _topping: string;
     private _sauce: string;
@@ -55,36 +61,79 @@ class Pizza {
         this._sauce = sauceValue;
     }
 
-    printValues(): void {
+    taste(): void {
         console.log(`Base: ${this._base}, Topping: ${this._topping}, Sauce: ${this._sauce}.`);
     }
 }
 
-//
-
-interface IPizza {
-    dough: string;
-    sauce: string;
-    top: string;
-}
-
 abstract class PizzaBuilder {
-    protected _pizza: IPizza;
+    protected _pizza: PizzaProduct;
 
-    buildDough(): void;
-    buildSauce(): void;
-    buildTop(): void;
+    abstract buildBase(): void;
+    abstract buildSauce(): void;
+    abstract buildTopping(): void;
 
-    constructor(pizzaBuilder: IPizza) {
-        this._pizza = pizzaBuilder;
+    constructor(pizza: PizzaProduct) {
+        this._pizza = pizza;
     }
 
     get pizza() {
         return this._pizza;
     }
 
-    set pizza(newPizza: IPizza) {
+    set pizza(newPizza: PizzaProduct) {
         this._pizza = newPizza;
+    }
+}
+
+class HawaiinConcreteBuilder extends PizzaBuilder {
+    buildBase(): void {
+        this._pizza.base = 'thick crust';
+    }
+
+    buildSauce(): void {
+        this._pizza.sauce = 'tomato';
+    }
+
+    buildTopping(): void {
+        this._pizza.topping = 'ham and pineapple';
+    }
+}
+
+class MeatLoversConcreteBuilder extends PizzaBuilder {
+    buildBase(): void {
+        this._pizza.base = 'thin crust';
+    }
+
+    buildSauce(): void {
+        this._pizza.sauce = 'tomato';
+    }
+
+    buildTopping(): void {
+        this._pizza.topping = 'a lot of meat';
+    }
+}
+
+class ChefDirector {
+    private pizzaBuilder?: PizzaBuilder;
+
+    makePizza(pizzaBuilder: PizzaBuilder): void {
+        this.pizzaBuilder = pizzaBuilder;
+        this.pizzaBuilder.buildBase();
+        this.pizzaBuilder.buildSauce();
+        this.pizzaBuilder.buildTopping();
+    }
+
+    tastePizza(): void {
+        try {
+            if (!this.pizzaBuilder) {
+                throw new Error('No pizza builder property defined');
+            }
+
+            this.pizzaBuilder.pizza.taste();
+        } catch(e) {
+            console.error(e);
+        }
     }
 }
 ```
