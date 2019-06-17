@@ -24,5 +24,5 @@ The pattern works by using the following:
 
 - A `Product` which represents the complex object under construction. In this case, the product is the pizza.
 - `Concrete Builders` where each builder is responsible to instantiate different representations of the product. In this case, the concrete builders will be our classes that construct different types of pizza.
-- A`Builder` that specifies the abstract interface for creating the `Product` parts. In this case, it will be our pizza builder interface.
+- A`Builder` that specifies the abstract interface for creating the `Product` parts. In this case, it will be our abstract class `PizzaBuilder`.
 - A `Director` that constructs the object using the `Builder` interface. In this case, we will have the chef class fulfil this role.
