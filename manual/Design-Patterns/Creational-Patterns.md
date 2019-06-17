@@ -185,3 +185,10 @@ chefDirector.tastePizza();
 chefDirector.makePizza(meatLoversBuilder);
 chefDirector.tastePizza();
 ```
+
+If we now check our console, we can see our results:
+
+```md
+Base: thick crust, Topping: ham and pineapple, Sauce: tomato.
+Base: thin crust, Topping: a lot of meat, Sauce: tomato.
+```
