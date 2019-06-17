@@ -73,8 +73,9 @@ abstract class PizzaBuilder {
     abstract buildSauce(): void;
     abstract buildTopping(): void;
 
-    constructor(pizza: PizzaProduct) {
-        this._pizza = pizza;
+    constructor() {
+        // added for the sake of simplicty instead of a makePizza function
+        this._pizza = new PizzaProduct();
     }
 
     get pizza() {
@@ -136,4 +137,14 @@ class ChefDirector {
         }
     }
 }
+
+const chefDirector = new ChefDirector();
+const hawaiin = new HawaiinConcreteBuilder();
+const meatLovers = new MeatLoversConcreteBuilder();
+
+chefDirector.makePizza(hawaiin);
+chefDirector.tastePizza();
+
+chefDirector.makePizza(meatLovers);
+chefDirector.tastePizza();
 ```
