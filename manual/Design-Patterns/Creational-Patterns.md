@@ -75,7 +75,9 @@ class PizzaProduct implements Pizza {
 }
 ```
 
-Next, we need to define our `PizzaBuilder`. This builder will be an abstract class that defines the required methods and set the base for our concrete builders to extend from:
+Next, we need to define our `PizzaBuilder`. This builder will be an abstract class that defines the required methods and set the base for our concrete builders to extend from.
+
+Note: an abstract class cannot have an instance created. This is incredibly important. The instances created in the program will be done by our concrete builders later.
 
 ```javascript
 abstract class PizzaBuilder {
@@ -105,35 +107,41 @@ abstract class PizzaBuilder {
 
 Now that the abstract builder has been created, we now create the `concrete builders`. Remember, the role of each `concrete builder` is the build out different versions of our `PizzaProduct`.
 
+Note: since we are extended from the abstract class, we do not need to override the constructor method. The base constructor method provided in the super class `PizzaBuilder` will handle our instantiation of the private `_pizza` property as well as the getter, so the code for these concrete builders should be straight forward implementations of the `abstract classes` required.
+
 ```javascript
 class HawaiinConcreteBuilder extends PizzaBuilder {
-    buildBase(): void {
-        this._pizza.base = 'thick crust';
-    }
+  buildBase(): void {
+    this._pizza.base = 'thick crust';
+  }
 
-    buildSauce(): void {
-        this._pizza.sauce = 'tomato';
-    }
+  buildSauce(): void {
+    this._pizza.sauce = 'tomato';
+  }
 
-    buildTopping(): void {
-        this._pizza.topping = 'ham and pineapple';
-    }
+  buildTopping(): void {
+    this._pizza.topping = 'ham and pineapple';
+  }
 }
 
 class MeatLoversConcreteBuilder extends PizzaBuilder {
-    buildBase(): void {
-        this._pizza.base = 'thin crust';
-    }
+  buildBase(): void {
+    this._pizza.base = 'thin crust';
+  }
 
-    buildSauce(): void {
-        this._pizza.sauce = 'tomato';
-    }
+  buildSauce(): void {
+    this._pizza.sauce = 'tomato';
+  }
 
-    buildTopping(): void {
-        this._pizza.topping = 'a lot of meat';
-    }
+  buildTopping(): void {
+    this._pizza.topping = 'a lot of meat';
+  }
 }
+```
 
+Finally, we can build our Chef Director. The role of the director is to take any builder that conforms to our abstract builder class `PizzaBuilder` and make the pizzas and taste the pizzas.
+
+```javascript
 class ChefDirector {
     private pizzaBuilder?: PizzaBuilder;
 
@@ -156,7 +164,11 @@ class ChefDirector {
         }
     }
 }
+```
 
+Now that all our required code has been written, we can happily write a quite script to test that an instance of our `ChefDirector` can make both a "Hawaiin" and "Meat Lovers" pizza!
+
+```javascript
 // the director will be used to create and taste pizzas
 const chefDirector = new ChefDirector();
 
