@@ -29,9 +29,13 @@ The pattern works by using the following:
 
 ### Builder Design Pattern In Action
 
-First, let's build our Pizza product:
+First, let's build our `PizzaProduct`. To do so, we will create an interface to ensure our product will include all the pizza essentials and then implement that to a `PizzaProduct`.
+
+The `PizzaProduct` itself will create the pizza instances, but will ultimately be abstracted away and flexibly built thanks to our `Director` and `Concrete Builders`.
 
 ```javascript
+// each pizza requires a base, sauce and topping property
+// also ensure a taste method is implemented
 interface Pizza {
     base: string;
     sauce: string;
@@ -69,8 +73,14 @@ class PizzaProduct implements Pizza {
         console.log(`Base: ${this._base}, Topping: ${this._topping}, Sauce: ${this._sauce}.`);
     }
 }
+```
 
+Next, we need to define our `PizzaBuilder`. This builder will be an abstract class that defines the required methods and set the base for our concrete builders to extend from:
+
+```javascript
 abstract class PizzaBuilder {
+    // this relation to the PizzaProduct is what abstracts the PizzaProduct
+    // from the code run from the program
     protected _pizza: PizzaProduct;
 
     // we set these functions to abstract because we want
@@ -91,7 +101,11 @@ abstract class PizzaBuilder {
         return this._pizza;
     }
 }
+```
 
+Now that the abstract builder has been created, we now create the `concrete builders`. Remember, the role of each `concrete builder` is the build out different versions of our `PizzaProduct`.
+
+```javascript
 class HawaiinConcreteBuilder extends PizzaBuilder {
     buildBase(): void {
         this._pizza.base = 'thick crust';
@@ -158,5 +172,4 @@ chefDirector.tastePizza();
 // Secondly, let's test our Meat Lovers
 chefDirector.makePizza(meatLoversBuilder);
 chefDirector.tastePizza();
-
 ```
