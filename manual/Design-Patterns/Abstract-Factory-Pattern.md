@@ -5,6 +5,10 @@ name: Abstract Factory Pattern
 
 # Abstract Factory
 
+Here we will cover the `creational` design pattern `Abstract Factory`.
+
+Another creational pattern, the `Factory` design pattern, differs from Abstract Factory in that the factory method is a single method, whereas an abstract factory is an object.
+
 ```javascript
 interface Pizza {
     base: string;
@@ -114,3 +118,7 @@ let meatLoversAbstractFactory = new MeatLoversConcreteFactory();
 let meatLoversAbstractProduct = meatLoversAbstractFactory.createPizza();
 meatLoversAbstractProduct.taste();
 ```
+
+## References
+
+[Difference between factory and abstract factory](https://stackoverflow.com/questions/5739611/what-are-the-differences-between-abstract-factory-and-factory-design-patterns)
