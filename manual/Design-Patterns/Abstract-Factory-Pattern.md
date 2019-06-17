@@ -121,4 +121,4 @@ meatLoversAbstractProduct.taste();
 
 ## References
 
-[Difference between factory and abstract factory](https://stackoverflow.com/questions/5739611/what-are-the-differences-between-abstract-factory-and-factory-design-patterns)
+- [Difference between factory and abstract factory](https://stackoverflow.com/questions/5739611/what-are-the-differences-between-abstract-factory-and-factory-design-patterns)
