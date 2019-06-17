@@ -66,13 +66,14 @@ interface IPizza {
     dough: string;
     sauce: string;
     top: string;
-    buildDough(): void;
-    buildSauce(): void;
-    buildTop(): void;
 }
 
 abstract class PizzaBuilder {
     protected _pizza: IPizza;
+
+    buildDough(): void;
+    buildSauce(): void;
+    buildTop(): void;
 
     constructor(pizzaBuilder: IPizza) {
         this._pizza = pizzaBuilder;
