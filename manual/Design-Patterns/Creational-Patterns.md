@@ -82,15 +82,13 @@ abstract class PizzaBuilder {
 
     constructor() {
         // added for the sake of simplicty instead of a makePizza function
+        // we will just instantiate an "empty" pizza when a builder
+        // instance is initialised
         this._pizza = new PizzaProduct();
     }
 
     get pizza() {
         return this._pizza;
-    }
-
-    set pizza(newPizza: PizzaProduct) {
-        this._pizza = newPizza;
     }
 }
 
