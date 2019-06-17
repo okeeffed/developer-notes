@@ -24,7 +24,7 @@ The pattern works by using the following:
 
 - A `Product` which represents the complex object under construction. In this case, the product is the `Pizza` class which denotes our pizza instances. We wil name this our `PizzaProduct`.
 - A `Builder` that specifies the abstract class for creating the `Product` parts (in our case the `Pizza`). In this case, it will be our abstract class `PizzaBuilder`.
-- `Concrete Builders` where each builder is responsible to instantiate different representations of the product. In this case, the concrete builders will be our classes that construct different types of pizza denoted as `NConcreteBuilder` where the `N` represents the name of the kind of pizza.
+- `Concrete Builders` where each builder is responsible to instantiate different representations of the product. In this case, the concrete builders will be our classes that construct different types of pizza denoted as `NConcreteBuilder` where the `N` represents the name of the kind of pizza. All we will do in this example is create a Hawaiin pizza and a Meat Lovers pizza, so the concrete builders will be called `HawaiinConcreteBuilder` and `MeatLoversConcreteBuilder` in this example.
 - A `Director` that constructs the object using the `Builder` interface. In this case, we will have the `ChefDirector` class fulfil this role.
 
 ### Builder Design Pattern In Action
