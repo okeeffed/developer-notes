@@ -9,6 +9,14 @@ Here we will cover the `creational` design pattern `Abstract Factory`.
 
 Another creational pattern, the `Factory` design pattern, differs from Abstract Factory in that the factory method is a single method, whereas an abstract factory is an object.
 
+> ... the Factory Method pattern uses inheritance and relies on a subclass to handle the desired object instantiation.
+
+This quote assumes the object is calling its own factory method, therefore the only thing that could change the return value would be a subclass.
+
+> ... with the Abstract Factory pattern, a class delegates the responsibility of object instantiation to another object via composition ...
+
+Here there is an object A who wants to make a Foo object. Instead of making the Foo object itself (like in the factory method), it's going to get a different object (the abstract factory) to create the Foo object.
+
 ```javascript
 interface Pizza {
     base: string;
