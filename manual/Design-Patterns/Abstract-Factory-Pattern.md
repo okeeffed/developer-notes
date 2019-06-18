@@ -141,17 +141,23 @@ const cheapFactory = new LowBudgetMachineFactory();
 const expensiveFactory = new HighBudgetMachineFactory();
 
 // ensure to pass the factory in during instantiation
-const cheapShop = new ComputerShop(cheapFactory);
-const cheapMachine = cheapShop.assembleMachine();
-cheapMachine.hdd.storeData();
-cheapMachine.processor.performOperation();
-cheapMachine.monitor.displayPicture();
+// using let to show variability, in code these
+// would likely be functions that take a factory
+// arg and constants for shop/machine
+let shop;
+let machine;
 
-const expensiveShop = new ComputerShop(expensiveFactory);
-const expensiveMachine = expensiveShop.assembleMachine();
-expensiveMachine.hdd.storeData();
-expensiveMachine.processor.performOperation();
-expensiveMachine.monitor.displayPicture();
+shop = new ComputerShop(cheapFactory);
+machine = shop.assembleMachine();
+machine.hdd.storeData();
+machine.processor.performOperation();
+machine.monitor.displayPicture();
+
+shop = new ComputerShop(expensiveFactory);
+machine = shop.assembleMachine();
+machine.hdd.storeData();
+machine.processor.performOperation();
+machine.monitor.displayPicture();
 ```
 
 ## References
