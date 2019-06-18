@@ -70,7 +70,7 @@ class LowResMonitor implements Monitor {
 
 // defining the abstract factory
 interface MachineAbstractFactory {
-    // each factory needs to implement createPizza method
+    // each factory needs to implement these methods
     getProcessor(): Processor;
     getHardDisk(): HardDisk;
     getMonitor(): Monitor;
