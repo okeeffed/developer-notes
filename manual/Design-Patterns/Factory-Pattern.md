@@ -5,7 +5,7 @@ name: Factory Pattern
 
 # Factory Pattern
 
-```
+```javascript
 // Factory Pattern
 // first, create our products
 interface Customer {
