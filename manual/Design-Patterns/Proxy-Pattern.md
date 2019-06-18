@@ -18,7 +18,6 @@ class ResourceProxy implements IResource {
   }
 
   fetch(): void {
-    //
     console.log('invoke resource fetch method')
     this.resource.fetch();
   }
