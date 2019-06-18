@@ -25,3 +25,5 @@ There are two recurring themes with these patterns:
 
 1. They encapsulate all knowledge about which concrete classes the system uses.
 2. They hide how instances of these classes are created and put together.
+
+(TODO: finish notes on other patterns)
