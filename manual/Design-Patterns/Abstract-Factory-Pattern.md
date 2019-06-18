@@ -18,113 +18,140 @@ This quote assumes the object is calling its own factory method, therefore the o
 Here there is an object A who wants to make a Foo object. Instead of making the Foo object itself (like in the factory method), it's going to get a different object (the abstract factory) to create the Foo object.
 
 ```javascript
-interface Pizza {
-    base: string;
-    sauce: string;
-    topping: string;
-    taste(): void;
+// defining our abstract products
+interface Processor {
+    performOperation(): void;
 }
 
-class AbstractPizzaProduct implements Pizza {
-    private _base: string;
-    private _topping: string;
-    private _sauce: string;
+interface HardDisk {
+    storeData(): void;
+}
 
-    constructor() {
-        // initialise all values to empty strings
-        // our direct will use the concrete builders
-        // to set all these values durin
-        this._base = '';
-        this._topping = '';
-        this._sauce = '';
-    }
+interface Monitor {
+    displayPicture(): void;
+}
 
-    set base(baseValue: string) {
-        this._base = baseValue;
-    }
-
-    set topping(toppingValue: string) {
-        this._topping = toppingValue;
-    }
-
-    set sauce(sauceValue: string) {
-        this._sauce = sauceValue;
-    }
-
-    get base() {
-        return this._base;
-    }
-
-    get topping() {
-        return this._topping;
-    }
-
-    get sauce() {
-        return this._sauce;
-    }
-
-    taste(): void {
-        console.log(`Base: ${this._base}, Topping: ${this._topping}, Sauce: ${this._sauce}.`);
+// defining our concrete products
+class ExpensiveProcessor implements Processor {
+    performOperation() {
+        console.log('Operation will perform quickly!');
     }
 }
 
-class HawaiinProduct extends AbstractPizzaProduct {
-    constructor() {
-        super();
-        this.base = 'thick crust';
-        this.sauce = 'tomato';
-        this.topping = 'ham and pineapple';
-    }
-
-    // Print specific detail
-    taste(): void {
-        console.log(`Hawaiin Pizza => Base: ${this.base}, Topping: ${this.topping}, Sauce: ${this.sauce}.`);
+class CheapProcessor implements Processor {
+    performOperation() {
+        console.log('Operation will perform slowly!');
     }
 }
 
-class MeatLoversProduct extends AbstractPizzaProduct {
-    constructor() {
-        super();
-        this.base = 'thin crust';
-        this.sauce = 'tomato';
-        this.topping = 'a lot of meat';
-    }
-
-    // Print specific detail
-    taste(): void {
-        console.log(`Meat Lovers Pizza => Base: ${this.base}, Topping: ${this.topping}, Sauce: ${this.sauce}.`);
+class ExpensiveHDD implements HardDisk {
+    storeData() {
+        console.log('Data will take less time to store');
     }
 }
 
-interface PizzaAbstractFactory {
-    // we set these functions to abstract because we want
-    // the concrete builders that extend the PizzaAbstractFactory
-    // to implement these functions
-    createPizza(): AbstractPizzaProduct;
-}
-
-class HawaiinConcreteFactory extends PizzaAbstractFactory {
-    createPizza(): HawaiinProduct {
-        return new HawaiinProduct();
+class CheapHDD implements HardDisk {
+    storeData() {
+        console.log('Data will take more time to store');
     }
 }
 
-class MeatLoversConcreteFactory extends PizzaAbstractFactory {
-    createPizza(): MeatLoversProduct {
-        return new MeatLoversProduct();
+class HighResMonitor implements Monitor {
+    displayPicture() {
+        console.log('High picture quality');
     }
 }
 
+class LowResMonitor implements Monitor {
+    displayPicture() {
+        console.log('Low picture quality');
+    }
+}
 
-// create Hawaiin pizza factory
-let hawaainAbstractFactory = new HawaiinConcreteFactory();
-let hawaiinAbstractProduct = hawaainAbstractFactory.createPizza();
-hawaiinAbstractProduct.taste();
+// defining the abstract factory
+interface MachineAbstractFactory {
+    // each factory needs to implement createPizza method
+    getProcessor(): Processor;
+    getHardDisk(): HardDisk;
+    getMonitor(): Monitor;
+}
 
-// create MeatLovers pizza factory
-let meatLoversAbstractFactory = new MeatLoversConcreteFactory();
-let meatLoversAbstractProduct = meatLoversAbstractFactory.createPizza();
-meatLoversAbstractProduct.taste();
+// defining our concrete factories
+class HighBudgetMachineFactory implements MachineAbstractFactory {
+    getProcessor(): Processor {
+        return new ExpensiveProcessor();
+    }
+
+    getHardDisk(): HardDisk {
+        return new ExpensiveHDD();
+    }
+
+    getMonitor(): Monitor {
+        return new HighResMonitor();
+    }
+}
+
+class LowBudgetMachineFactory implements MachineAbstractFactory {
+    getProcessor(): Processor {
+        return new CheapProcessor();
+    }
+
+    getHardDisk(): HardDisk {
+        return new CheapHDD();
+    }
+
+    getMonitor(): Monitor {
+        return new LowResMonitor();
+    }
+}
+
+// defining our client and final product
+interface Machine {
+    processor: Processor;
+    hdd: HardDisk;
+    monitor: Monitor;
+}
+
+class ComputerShop {
+    // change access modifiers as suits
+    public category: MachineAbstractFactory;
+
+    // we'll pass a factory as category during instantiation
+    constructor(category: MachineAbstractFactory) {
+        this.category = category;
+    }
+
+    assembleMachine(): Machine {
+        const processor = this.category.getProcessor();
+        const hdd = this.category.getHardDisk();
+        const monitor = this.category.getMonitor();
+
+        // to be explicit
+        const machine: Machine = {
+            processor,
+            hdd,
+            monitor
+        }
+        return machine;
+    }
+}
+
+// running the code in action!
+const cheapFactory = new LowBudgetMachineFactory();
+const expensiveFactory = new HighBudgetMachineFactory();
+
+// ensure to pass the factory in during instantiation
+const cheapShop = new ComputerShop(cheapFactory);
+const cheapMachine = cheapShop.assembleMachine();
+cheapMachine.hdd.storeData();
+cheapMachine.processor.performOperation();
+cheapMachine.monitor.displayPicture();
+
+const expensiveShop = new ComputerShop(expensiveFactory);
+const expensiveMachine = expensiveShop.assembleMachine();
+expensiveMachine.hdd.storeData();
+expensiveMachine.processor.performOperation();
+expensiveMachine.monitor.displayPicture();
 ```
 
 ## References
