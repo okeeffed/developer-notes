@@ -7,7 +7,7 @@ name: Decorator Pattern
 
 The decorator pattern works by creating a decorator class that accepts the base class as an argument to the constructor and then implementing a function that calls to super.
 
-It is used to:
+Intent:
 
 1. Attach additional responsibilities to an object dynamically. Gives an alternative to subclassing.
 2. Client-specified embellishment of a core object by recursively wrapping it.
