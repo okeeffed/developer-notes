@@ -5,6 +5,8 @@ name: Decorator Pattern
 
 # Decorator Pattern
 
+This is another type of structural pattern.
+
 The decorator pattern works by creating a decorator class that accepts the base class as an argument to the constructor and then implementing a function that calls to super.
 
 Intent:
