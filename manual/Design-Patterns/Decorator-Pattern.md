@@ -7,6 +7,12 @@ name: Decorator Pattern
 
 The decorator pattern works by creating a decorator class that accepts the base class as an argument to the constructor and then implementing a function that calls to super.
 
+It is used to:
+
+1. Attach additional responsibilities to an object dynamically. Gives an alternative to subclassing.
+2. Client-specified embellishment of a core object by recursively wrapping it.
+3. Wrapping a gift, putting it in a box, and wrapping the box.
+
 ```javascript
 interface Pizza {
   cost(): Number;
