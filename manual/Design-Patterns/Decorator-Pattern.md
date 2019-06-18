@@ -59,3 +59,5 @@ class ExtraCheeseDecorator extends PizzaExtraDecorator {
   console.log(`Total: $${withExtraCheese.cost()}`);
 })();
 ```
+
+Other alternatives could include creating a christmas tree with actual decorations as a decorator.
