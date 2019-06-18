@@ -5,7 +5,7 @@ name: Factory Pattern
 
 # Factory Pattern
 
-```javascript
+```
 // Factory Pattern
 // first, create our products
 interface Customer {
@@ -50,6 +50,7 @@ class SilverCustomer implements ISilverCustomer {
 }
 
 // build a simple factory
+// ensure we use a generic for typing our createCustomer method correctly
 abstract class CustomerFactory<T extends Customer> {
     getCustomer() {
         const customer = this.createCustomer();
