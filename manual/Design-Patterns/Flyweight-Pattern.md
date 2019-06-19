@@ -79,7 +79,7 @@ class CombatantAcademy {
 
   // efficient create with flyweight
   start = Math.floor(Date.now());
-  for (let i = 0; i < 1000000; i++) {
+  for (let i = 0; i < 1000; i++) {
     CombatantAcademy.getCombatant('normal-set', i); // create 1 Combatant
   }
   end = Math.floor(Date.now());
