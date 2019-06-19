@@ -85,3 +85,17 @@ class ConcreteHandlerC extends Handler {
   reqA.handleRequest(-1); // logs "Handler B process -1"
 })();
 ```
+
+## Pros/Cons
+
+Pros:
+
+- Reduce coupling degree.
+- Flexible, simplified objct that does not need to know the chain structure.
+- Convenient to increase request processing.
+
+Cons:
+
+- No guarantee for request recieved.
+- Performance of system affected, but also code debugging may not be so easy and could by cyclical.
+- Observability of operation characteristcs not so easy.
