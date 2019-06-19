@@ -7,49 +7,60 @@ name: Facade Pattern
 
 The Facade Pattern is a structural pattern that is used to, according the the GOF book, "Provide a unified interface to a set of interfaces in a subsystem. Facade defines a higher-level interface that makes the subsystem easier to use."
 
-In the example below, we will look at basic facade that takes the different operations required to start a running race of the basic phrase "Get ready! Get set! Go!":
+## Example
+
+In the example below, we will look at basic facade that takes the different operations required to start a running race of the basic phrase "Get ready! Get set! Go!" by breaking down each sentence into a phase.
+
+## Participants
+
+- Facade: (RunningRaceFacade)
+  - knows which subsystem classes are responsible for a request.
+  - delegates client requests to appropriate subsystem object.
+- Subsystem classes: (PhaseOneSystem, PhaseTwoSystem, PhaseThreeSystem)
+  - contains functionality for subsystem.
+  - executes work delegated by Facade object.
+  - has no knowledge of facade or reference to it.
 
 ```javascript
-class EngineSystem {
-  activate() {
-    console.log('Activate the engine');
+class PhaseOneSystem {
+  getReady() {
+    console.log('Get ready!');
   }
 }
 
-class MonitorSystem {
-  check() {
-    console.log('Check system situations');
+class PhaseTwoSystem {
+  getSet() {
+    console.log('Get set!');
   }
 }
 
-class OxygenSystem {
-  generate() {
-    console.log('Oxygen will be generated');
+class PhaseThreeSystem {
+  go() {
+    console.log('Go!');
   }
 }
 
-class RocketTestingOperation {
+class RunningRaceFacade {
 
-  private _engineSys: EngineSystem;
-  private _monitorSys: MonitorSystem;
-  private _oxygenSys: OxygenSystem;
+  private _phaseOne: PhaseOneSystem;
+  private _phaseTwo: PhaseTwoSystem;
+  private _phaseThree: PhaseThreeSystem;
 
   constructor() {
-    this._engineSys = new EngineSystem();
-    this._monitorSys = new MonitorSystem();
-    this._oxygenSys = new OxygenSystem();
+    this._phaseOne = new PhaseOneSystem();
+    this._phaseTwo = new PhaseTwoSystem();
+    this._phaseThree = new PhaseThreeSystem();
   }
 
-  operationStart() {
-    this._monitorSys.check();
-    this._oxygenSys.generate();
-    this._engineSys.activate();
-
+  beginRace() {
+    this._phaseOne.getReady();
+    this._phaseTwo.getSet();
+    this._phaseThree.go();
   }
 }
 
 (function main() {
-  const operation = new RocketTestingOperation();
-  operation.operationStart();
+  const race = new RunningRaceFacade();
+  race.beginRace();
 })();
 ```
