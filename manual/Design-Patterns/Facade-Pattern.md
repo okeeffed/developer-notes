@@ -14,8 +14,8 @@ In the example below, we will look at basic facade that takes the different oper
 ## Participants
 
 - Facade: (RunningRaceFacade)
-  - knows which subsystem classes are responsible for a request.
-  - delegates client requests to appropriate subsystem object.
+  - knows which subsystem classes are responsible for what operation.
+  - delegates parts of a client request to the appropriate subsystem objects.
 - Subsystem classes: (PhaseOneSystem, PhaseTwoSystem, PhaseThreeSystem)
   - contains functionality for subsystem.
   - executes work delegated by Facade object.
