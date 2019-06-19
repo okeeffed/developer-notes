@@ -22,14 +22,13 @@ Use when:
 
 Here we will create
 
-```javascript
+```typescript
 interface Action {
   move(location: [number, number]): void;
   hit?(target: string, location: [number, number]): void;
 }
 
 class Soldier implements Action {
-
   private equipmentSet: string;
   number: number;
 
@@ -41,7 +40,7 @@ class Soldier implements Action {
   }
 
   move(location: [number, number]): void {
-    console.log(`move to ${location}`)
+    console.log(`move to ${location}`);
   }
 
   hit?(target: string, location: [number, number]): void {
@@ -50,7 +49,7 @@ class Soldier implements Action {
 }
 
 class SoldierAcademy {
-  private static groups: { [set: string]: Soldier } = {}
+  private static groups: { [set: string]: Soldier } = {};
 
   public static getSoldier(set: string, num: number) {
     let soldier = SoldierAcademy.groups[set];
