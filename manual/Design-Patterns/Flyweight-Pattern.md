@@ -69,21 +69,27 @@ class CombatantAcademy {
 (function main() {
   let start, end;
 
+  // the larger you change the threshold, the bigger the difference
+  const threshold = 50000;
+
   // inefficient creating without flyweight
   start = Math.floor(Date.now());
-  for (let i = 0; i < 1000; i++) {
-    new Combatant('normal-set', i); // creating one thousand real Combatants
+  for (let i = 0; i < threshold; i++) {
+    new Combatant('normal-set', i); // creating fifty thousand real Combatants
   }
   end = Math.floor(Date.now());
-  console.log(end - start);
+  const withoutFlyweight = end - start;
 
   // efficient create with flyweight
   start = Math.floor(Date.now());
-  for (let i = 0; i < 1000; i++) {
+  for (let i = 0; i < threshold; i++) {
     CombatantAcademy.getCombatant('normal-set', i); // create 1 Combatant
   }
   end = Math.floor(Date.now());
-  console.log(end - start);
+  const withFlyweight = end - start;
+
+  console.log('Without Flyweight', withoutFlyweight);
+  console.log('With Flyweight', withFlyweight);
 })();
 ```
 
