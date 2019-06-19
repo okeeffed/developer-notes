@@ -12,6 +12,9 @@ The `Composite Pattern` is a Gang Of Four structural Design Pattern that helps s
 
 The Composite pattern will describe the following:
 
+- A unified `Component` interface for both part (Leaf) objects and whole (Composite) objects.
+- Individual `Leaf` objects implement the `Component` interface directly, and `Composite objects forward requests to their child components.
+
 ## Resources
 
 - [Flyweight Wikipedia](https://en.wikipedia.org/wiki/Composite_pattern)
