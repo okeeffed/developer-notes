@@ -52,17 +52,17 @@ class CombatantAcademy {
   private static groups: { [set: string]: Combatant } = {};
 
   public static getCombatant(set: string, num: number) {
-    let Combatant = CombatantAcademy.groups[set];
+    let combatant = CombatantAcademy.groups[set];
 
-    if (!Combatant) {
-      Combatant = new Combatant(set, num);
-      CombatantAcademy.groups[set] = Combatant;
+    if (!combatant) {
+      combatant = new Combatant(set, num);
+      CombatantAcademy.groups[set] = combatant;
     } else {
-      Combatant.number = num;
-      console.log(`shared Combatant ${Combatant.number}`);
+      combatant.number = num;
+      console.log(`shared Combatant ${combatant.number}`);
     }
 
-    return Combatant;
+    return combatant;
   }
 }
 
