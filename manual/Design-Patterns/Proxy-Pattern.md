@@ -58,9 +58,9 @@ class Driver {
 
 (function main() {
   const carWithIneligibleDriver: ICar = new ProxyCar(new Driver(15));
-  carWithIneligibleDriver.driveCar();
+  carWithIneligibleDriver.driveCar(); // prints 'Driver is too young to drive'
 
   const carWithEligibleDriver: ICar = new ProxyCar(new Driver(25));
-  carWithEligibleDriver.driveCar();
+  carWithEligibleDriver.driveCar(); // prints 'Car has been driven'
 })()
 ```
