@@ -17,4 +17,4 @@ The Composite pattern will describe the following:
 
 ## Resources
 
-- [Flyweight Wikipedia](https://en.wikipedia.org/wiki/Composite_pattern)
+- [Composite Wikipedia](https://en.wikipedia.org/wiki/Composite_pattern)
