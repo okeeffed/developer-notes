@@ -25,6 +25,22 @@ Applicable when:
 - Concrete handlers: Handlers that actually handle the request chained in some sequential order.
 - Client: Originator of request and will access handler to handle it.
 
+## Pros/Cons
+
+Pros:
+
+- Reduce coupling degree.
+- Flexible, simplified objct that does not need to know the chain structure.
+- Convenient to increase request processing.
+
+Cons:
+
+- No guarantee for request recieved.
+- Performance of system affected, but also code debugging may not be so easy and could by cyclical.
+- Observability of operation characteristcs not so easy.
+
+## Example
+
 ```typescript
 class Handler {
   private _successor: Handler;
@@ -86,16 +102,6 @@ class ConcreteHandlerC extends Handler {
 })();
 ```
 
-## Pros/Cons
+## Resources
 
-Pros:
-
-- Reduce coupling degree.
-- Flexible, simplified objct that does not need to know the chain structure.
-- Convenient to increase request processing.
-
-Cons:
-
-- No guarantee for request recieved.
-- Performance of system affected, but also code debugging may not be so easy and could by cyclical.
-- Observability of operation characteristcs not so easy.
+- [C# Implementation](https://www.geeksforgeeks.org/chain-responsibility-design-pattern/)
