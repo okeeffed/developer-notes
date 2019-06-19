@@ -23,21 +23,21 @@ Clients can then work through the `Component` interface to treat `Leaf` and `Com
 
 ```typescript
 interface ArmyObject {
-  seq: String;
+  name: String;
   operate(): void;
 }
 
 class Team implements ArmyObject {
-  seq: String;
+  name: String;
   private _soldiers: ArmyObject[];
 
-  constructor(seq: String) {
-    this.seq = seq;
+  constructor(name: String) {
+    this.name = name;
     this._soldiers = [];
   }
 
   operate(): void {
-    console.log(`Team: ${this.seq} operates`);
+    console.log(`Team: ${this.name} operates`);
     this._soldiers.map((soldier: ArmyObject) => {
       soldier.operate();
     });
@@ -45,10 +45,10 @@ class Team implements ArmyObject {
 
   addSoldier(newSoldier: ArmyObject) {
     const soldiers = this._soldiers.filter((soldier: ArmyObject, index) => {
-      return soldier.seq === newSoldier.seq;
+      return soldier.name === newSoldier.name;
     });
     if (soldiers.length < 1) {
-      console.log(`Soldier: ${newSoldier.seq} comes in ${this.seq}`);
+      console.log(`Soldier: ${newSoldier.name} comes in ${this.name}`);
       this._soldiers.push(newSoldier);
     } else {
       console.log('The soldier is already in the team');
@@ -57,12 +57,12 @@ class Team implements ArmyObject {
 
   soldierGone(deadSoldier: ArmyObject) {
     const deads = this._soldiers.map((soldier: ArmyObject, index) => {
-      if (soldier.seq === deadSoldier.seq) {
+      if (soldier.name === deadSoldier.name) {
         return index;
       }
     });
     if (deads.length > 0) {
-      console.log(`Soldier: ${deadSoldier.seq} died in the fight`);
+      console.log(`Soldier: ${deadSoldier.name} died in the fight`);
       this._soldiers.slice(deads[0], 1);
     } else {
       console.log('No one dies');
@@ -71,14 +71,14 @@ class Team implements ArmyObject {
 }
 
 class Soldier implements ArmyObject {
-  seq: String;
+  name: String;
 
-  constructor(seq: String) {
-    this.seq = seq;
+  constructor(name: String) {
+    this.name = name;
   }
 
   operate() {
-    console.log(`Soldier: ${this.seq} soldier operates`);
+    console.log(`Soldier: ${this.name} soldier operates`);
   }
 }
 
