@@ -71,8 +71,8 @@ class CombatantAcademy {
 
   // inefficient creating without flyweight
   start = Math.floor(Date.now());
-  for (let i = 0; i < 1000000; i++) {
-    new Combatant('normal-set', i); // creating one million real Combatants
+  for (let i = 0; i < 1000; i++) {
+    new Combatant('normal-set', i); // creating one thousand real Combatants
   }
   end = Math.floor(Date.now());
   console.log(end - start);
