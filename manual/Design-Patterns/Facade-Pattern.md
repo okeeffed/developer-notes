@@ -5,7 +5,7 @@ name: Facade Pattern
 
 # Facade Pattern
 
-The Facade Pattern is a `structural` design pattern that is used to, according the the GOF book, "Provide a unified interface to a set of interfaces in a subsystem. Facade defines a higher-level interface that makes the subsystem easier to use."
+The Facade Pattern is a `structural` design pattern that is used to, according the the Gang Of Four book, "Provide a unified interface to a set of interfaces in a subsystem. Facade defines a higher-level interface that makes the subsystem easier to use."
 
 ## Example
 
