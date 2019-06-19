@@ -20,7 +20,7 @@ Use when:
 
 ## Example
 
-Here we will create a
+Here we will create a 1000 combatants that
 
 ```typescript
 interface Action {
@@ -67,12 +67,22 @@ class CombatantAcademy {
 }
 
 (function main() {
-  const start = Math.floor(Date.now());
+  let start, end;
+
+  // inefficient creating without flyweight
+  start = Math.floor(Date.now());
   for (let i = 0; i < 1000000; i++) {
-    // new Combatant('normal-set', i); // create 1m real Combatants
+    new Combatant('normal-set', i); // creating one million real Combatants
+  }
+  end = Math.floor(Date.now());
+  console.log(end - start);
+
+  // efficient create with flyweight
+  start = Math.floor(Date.now());
+  for (let i = 0; i < 1000000; i++) {
     CombatantAcademy.getCombatant('normal-set', i); // create 1 Combatant
   }
-  const end = Math.floor(Date.now());
+  end = Math.floor(Date.now());
   console.log(end - start);
 })();
 ```
