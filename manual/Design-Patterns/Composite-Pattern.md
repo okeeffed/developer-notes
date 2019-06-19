@@ -15,6 +15,10 @@ The Composite pattern will describe the following:
 - A unified `Component` interface for both part (Leaf) objects and whole (Composite) objects.
 - Individual `Leaf` objects implement the `Component` interface directly, and `Composite` objects forward requests to their child components.
 
+Clients can then work through the `Component` interface to treat `Leaf` and `Composite` objects uniformly.
+
+`Leaf` objects perform a request directly, and `Composite` objects forward the request to their child components recursively downwards the tree structure. This makes client classes easier to implement, change, test, and reuse.
+
 ## Resources
 
 - [Composite Wikipedia](https://en.wikipedia.org/wiki/Composite_pattern)
