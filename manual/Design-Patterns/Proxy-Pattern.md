@@ -12,41 +12,11 @@ The Proxy object in the design pattern can:
 
 This enables to work through a Proxy object to perform additional functionality when accessing a subject. For example, to check the access rights of a client accessing a sensitive object.
 
-## Resource Example
-
-```javascript
-interface IResource {
-  fetch(): void;
-}
-
-class ResourceProxy implements IResource {
-  private resource: Resource;
-
-  constructor() {
-    this.resource = new Resource();
-  }
-
-  fetch(): void {
-    console.log('invoke resource fetch method')
-    this.resource.fetch();
-  }
-}
-
-class Resource implements IResource {
-  fetch(): void {
-    console.log('fetch resource')
-  }
-}
-
-(function main() {
-  const proxy = new ResourceProxy();
-  proxy.fetch();
-})()
-```
-
 ## Car Driver Example
 
-An alternative using a proxy to ensure the driver has permission to drive:
+In this example, we will create a class `ProxyCar` that will act as a proxy for the `Car` class by ensure that you of a correct age to drive the car (`driveCar` function).
+
+This simple example can be replicated to help proxy things such as network requests or authentication to certain classes.
 
 ```javascript
 interface ICar {
