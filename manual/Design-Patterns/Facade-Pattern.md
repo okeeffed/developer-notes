@@ -59,9 +59,8 @@ class RunningRaceFacade {
   }
 }
 
-// logs out "Get ready! Get Set! Go! on separate lines
 (function main() {
   const race = new RunningRaceFacade();
-  race.beginRace();
+  race.beginRace(); // logs out "Get ready! Get Set! Go! on separate lines
 })();
 ```
