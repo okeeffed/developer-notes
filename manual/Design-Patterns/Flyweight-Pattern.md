@@ -17,3 +17,8 @@ Use when:
 - you can externalise a majority of each object's state.
 - few shared objects can replace many unshared ones.
 - identity of an object not relevant.
+
+## Resources
+
+- [Flyweight Example](https://circle.visual-paradigm.com/flyweight/)
+- [Flyweight Wikipedia](https://en.wikipedia.org/wiki/Flyweight_pattern)
