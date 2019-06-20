@@ -16,7 +16,7 @@ A behavioural pattern that is used to access the elements of a collection object
 
 In this basic example below, we will create a `ConcreteCollection` and `ConcreteIterator` class to demonstrate how the `Iterator` design pattern works.
 
-Note that after create a collection, we can use the `createIterator` method as many times as we want to create multiple instances of an `iterator` - for demonstration purposes, we will create a second iterator to do just that.
+Note that after create a collection, we can use the `createIterator` method as many times as we want to return seperate instances of an `iterator` - for demonstration purposes, we will create a second iterator to do just that.
 
 ```typescript
 interface Iterator<T> {
