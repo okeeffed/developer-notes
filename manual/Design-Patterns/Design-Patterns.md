@@ -27,3 +27,7 @@ There are two recurring themes with these patterns:
 2. They hide how instances of these classes are created and put together.
 
 (TODO: finish notes on other patterns)
+
+## Resources
+
+- [A good resource for all patterns](https://en.wikipedia.org/wiki/Software_design_pattern#Classification_and_list)
