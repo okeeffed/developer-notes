@@ -14,7 +14,7 @@ The Mediator itself is an object that encapsulates how one or more objects inter
 - Mediator: Defines interface for communication between `Colleague` objects.
 - ConcreteMediator: Implements `Mediator`, has awareness of `colleagues` and facilitates communication between.
 - Colleague: Defines interface for communication with other `Colleagues` through the `Mediator`.
-- ConcreteColleague: Implements the `Colleague` interface an communicates to other colleagues through the `Mediator`.
+- ConcreteColleague: Implements the `Colleague` interface an communicates to other colleagues through its `Mediator`.
 
 ## Example
 
