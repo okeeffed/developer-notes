@@ -20,6 +20,8 @@ Note that after create a collection, we can use the `createIterator` method as m
 
 The last part of `"main"` will demo what happens when you intertwine iterator calls.
 
+Check the logs for results.
+
 ```typescript
 interface Iterator<T> {
   next(): T;
