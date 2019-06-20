@@ -54,7 +54,7 @@ class FirstParticipant extends Participant {
   }
 
   broadcast(msg: String) {
-    console.log('A customized logic');
+    console.log('First participant customized logic');
     super.broadcast(msg);
   }
 }
@@ -65,7 +65,7 @@ class SecondParticipant extends Participant {
   }
 
   broadcast(msg: String) {
-    console.log('B customized logic');
+    console.log('Second participant customized logic');
     super.broadcast(msg);
   }
 }
