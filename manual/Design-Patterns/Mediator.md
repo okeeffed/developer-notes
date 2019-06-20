@@ -17,17 +17,17 @@ interface Mediator {
 }
 
 class ConcreteMediator implements Mediator {
-  public A: Participant;
-  public B: Participant;
+  public firstParticipant: Participant;
+  public secondParticipant: Participant;
 
   broadcast(msg: String, sender: Participant): void {
-    if (sender === this.A) {
-      this.A.receiveMsg(msg);
-      this.B.receiveMsg(msg);
+    if (sender === this.firstParticipant) {
+      this.firstParticipant.receiveMsg(msg);
+      this.secondParticipant.receiveMsg(msg);
     }
 
-    if (sender === this.B) {
-      this.A.receiveMsg(msg);
+    if (sender === this.secondParticipant) {
+      this.firstParticipant.receiveMsg(msg);
     }
   }
 }
@@ -75,10 +75,12 @@ class SecondParticipant extends Participant {
   const a = new FirstParticipant(mediator);
   const b = new SecondParticipant(mediator);
 
-  mediator.A = a;
-  mediator.B = b;
+  mediator.FirstParticipant = a;
+  mediator.SecondParticipant = b;
 
-  a.broadcast('A sends message to A, B');
-  b.broadcast('B sends message to A');
+  a.broadcast(
+    'FirstParticipant sends message to FirstParticipant, SecondParticipant'
+  );
+  b.broadcast('SecondParticipant sends message to FirstParticipant');
 })();
 ```
