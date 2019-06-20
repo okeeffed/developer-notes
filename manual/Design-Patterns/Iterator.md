@@ -9,6 +9,9 @@ A behavioural pattern that is used to access the elements of a collection object
 
 ## Components
 
+- ConcreteIterator: An interface to define how the `next` and `hasNext` methods work.
+- ConcreteCollection: A collection that has knowledge of the iterator and creates the iterator.
+
 ## Example
 
 ```typescript
