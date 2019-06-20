@@ -18,6 +18,8 @@ In this basic example below, we will create a `ConcreteCollection` and `Concrete
 
 Note that after create a collection, we can use the `createIterator` method as many times as we want to return seperate instances of an `iterator` - for demonstration purposes, we will create a second iterator to do just that.
 
+The last part of `"main"` will demo what happens when you intertwine iterators.
+
 ```typescript
 interface Iterator<T> {
   next(): T;
