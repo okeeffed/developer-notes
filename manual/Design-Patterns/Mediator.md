@@ -84,3 +84,7 @@ class SecondParticipant extends Participant {
   b.broadcast('SecondParticipant sends message to FirstParticipant');
 })();
 ```
+
+## Resources
+
+- [Mediator in C#](https://www.infoworld.com/article/3204528/how-to-use-the-mediator-design-pattern-in-c.html)
