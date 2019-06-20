@@ -20,6 +20,8 @@ The Mediator itself is an object that encapsulates how one or more objects inter
 
 In this example, we will have a `ConcreteMediator` that will ensure certain `Participants` receive a message based on the `Participant` sending the `Broadcast`.
 
+We will use the mediator to ensure messages sent from the `FirstParticipant` is broadcasted to both `FirstParticipant` and `SecondParticipant` while messages from the `SecondParticipant` are only reached by the `FirstPartiicpant` and not itself.
+
 The abstract `Participant` class in this example is the `Colleague` and the subclasses are the `ConcreteColleague` classes.
 
 ```typescript
