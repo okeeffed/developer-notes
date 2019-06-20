@@ -5,7 +5,7 @@ name: Iterator
 
 # Iterator
 
-A common pattern that is used to access the elements of a collection object in sequential manner without any need to know its underlyin representation.
+A behavioural pattern that is used to access the elements of a collection object in sequential manner without a required understanding of the underlying representation.
 
 ## Example
 
