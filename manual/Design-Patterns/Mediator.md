@@ -9,6 +9,10 @@ Mediator is a behavioural design pattern which helps when there are many objects
 
 The Mediator itself is an object that encapsulates how one or more objects interact with each other. It controls how these object communication and resticts dependencies required to manage.
 
+## Components
+
+-
+
 ## Example
 
 In this example, we will have a `ConcreteMediator` that will ensure certain `Participants` receive a message based on the `Participant` sending the `Broadcast`.
@@ -34,7 +38,7 @@ class ConcreteMediator implements Mediator {
   }
 }
 
-class Participant {
+abstract class Participant {
   public mediator: Mediator;
 
   constructor(mediator: Mediator) {
@@ -80,10 +84,12 @@ class SecondParticipant extends Participant {
   mediator.firstParticipant = firstParticipant;
   mediator.secondParticipant = secondParticipant;
 
-  a.broadcast(
+  firstParticipant.broadcast(
     'FirstParticipant sends message to FirstParticipant, SecondParticipant'
   );
-  b.broadcast('SecondParticipant sends message to FirstParticipant');
+  secondParticipant.broadcast(
+    'SecondParticipant sends message to FirstParticipant'
+  );
 })();
 ```
 
