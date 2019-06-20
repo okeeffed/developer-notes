@@ -72,11 +72,11 @@ class SecondParticipant extends Participant {
 
 (function main() {
   const mediator = new ConcreteMediator();
-  const a = new FirstParticipant(mediator);
-  const b = new SecondParticipant(mediator);
+  const firstParticipant = new FirstParticipant(mediator);
+  const secondParticipant = new SecondParticipant(mediator);
 
-  mediator.FirstParticipant = a;
-  mediator.SecondParticipant = b;
+  mediator.firstParticipant = firstParticipant;
+  mediator.secondParticipant = secondParticipant;
 
   a.broadcast(
     'FirstParticipant sends message to FirstParticipant, SecondParticipant'
