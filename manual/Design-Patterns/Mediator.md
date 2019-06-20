@@ -7,6 +7,8 @@ name: Mediator
 
 Mediator is a behavioural design pattern which helps when there are many objects communicating with each other.
 
+The Mediator itself is an object that encapsulates how one or more objects interact with each other. It controls how these object communication and resticts dependencies.
+
 ## Example
 
 In this example, we will have a `ConcreteMediator` that will ensure certain `Participants` receive a message based on the `Participant` sending the `Broadcast`.
