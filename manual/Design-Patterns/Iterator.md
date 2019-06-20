@@ -82,6 +82,18 @@ class ConcreteCollection implements Collection {
     const number: Number = secondIterator.next();
     console.log(`Second Iterator Logging: ${number.valueOf()}`);
   }
+
+  // third and fourth iterators
+  const thirdIterator: Iterator<Number> = collection.createIterator();
+  const fourthIterator: Iterator<Number> = collection.createIterator();
+
+  console.log('thirdIterator', thirdIterator.next());
+  console.log('thirdIterator', thirdIterator.next());
+  console.log('thirdIterator', thirdIterator.next());
+  console.log('fourIterator', fourthIterator.next());
+  console.log('fourIterator', fourthIterator.next());
+  console.log('fourIterator', fourthIterator.next());
+  console.log('fourIterator', fourthIterator.next());
 })();
 ```
 
