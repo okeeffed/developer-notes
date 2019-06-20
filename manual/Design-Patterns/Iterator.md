@@ -94,6 +94,7 @@ class ConcreteCollection implements Collection {
   console.log('fourIterator', fourthIterator.next());
   console.log('fourIterator', fourthIterator.next());
   console.log('fourIterator', fourthIterator.next());
+  console.log('thirdIterator', thirdIterator.next());
 })();
 ```
 
