@@ -7,6 +7,8 @@ name: Iterator
 
 A behavioural pattern that is used to access the elements of a collection object in sequential manner without a required understanding of the underlying representation.
 
+## Components
+
 ## Example
 
 ```typescript
