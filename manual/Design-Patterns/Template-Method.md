@@ -5,7 +5,9 @@ name: Template Method
 
 # Template Method
 
-The template method is a class behavioural pattern that ensures a method is used
+The template method is a class behavioural pattern.
+
+## Example
 
 ```typescript
 abstract class BaseClass {
