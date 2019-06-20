@@ -11,11 +11,16 @@ The Mediator itself is an object that encapsulates how one or more objects inter
 
 ## Components
 
--
+- Mediator: Defines interface for communication between `Colleague` objects.
+- ConcreteMediator: Implements `Mediator`, has awareness of `colleagues` and facilitates communication between.
+- Colleague: Defines interface for communication with other `Colleagues` through the `Mediator`.
+- ConcreteColleague: Implements the `Colleague` interface an communicates to other colleagues through the `Mediator`.
 
 ## Example
 
 In this example, we will have a `ConcreteMediator` that will ensure certain `Participants` receive a message based on the `Participant` sending the `Broadcast`.
+
+The abstract `Participant` class in this example is the `Colleague` and the subclasses are the `ConcreteColleague` classes.
 
 ```typescript
 interface Mediator {
