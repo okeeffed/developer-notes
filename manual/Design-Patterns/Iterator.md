@@ -38,6 +38,7 @@ class ConcreteIterator implements Iterator<Number> {
 
   next(): any {
     const result = this._collection[this._index];
+    this.log();
     this._index += 1;
     return result;
   }
@@ -47,7 +48,7 @@ class ConcreteIterator implements Iterator<Number> {
   }
 
   private log(): void {
-    console.log(`Logging ${this._collection[this._index]}`);
+    console.log(`Method called during index: ${this._collection[this._index]}`);
   }
 }
 
