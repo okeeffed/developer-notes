@@ -5,7 +5,7 @@ name: Mediator
 
 # Mediator
 
-Mediator is a behavioural design pattern
+Mediator is a behavioural design pattern which helps when there are many objects communicating with each other.
 
 ## Example
 
