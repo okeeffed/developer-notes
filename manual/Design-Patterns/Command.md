@@ -141,7 +141,7 @@ class Invoker implements Invoke {
 })();
 ```
 
-## Java Example
+## Java Graphic Example
 
 ```java
 import java.util.ArrayList;
