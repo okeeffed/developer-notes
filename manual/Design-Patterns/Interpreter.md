@@ -17,6 +17,8 @@ The idea is to have a class for each symbol. The syntax tree of a sentence in th
 - AbstractExpression (declares interpret method common to all nodes)
 - TerminalExpression (interpret terminal symbols in the grammar)
 - NonTerminalExpression (maintains instance variables of type AbstractExpression for nonterminal symbols in grammar)
+- Context (info global to interpreter)
+- Client (builds abstract syntax tree representing a particular sentence in the language that the grammar defines)
 
 ## Example
 
