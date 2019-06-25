@@ -48,7 +48,7 @@ class Originator implements StateInterface {
   private _state: State;
 
   constructor(state: State) {
-    console.log(state.value);
+    console.log(`"${state.value}"`);
     this._state = state;
   }
 
@@ -62,12 +62,12 @@ class Originator implements StateInterface {
   }
 
   public createMemento() {
-    console.log(`create ${this._state.value} memento`);
+    console.log(`create "${this._state.value}" memento`);
     return new Memento(this._state);
   }
 
   public restoreMemento(memento: Memento) {
-    console.log(`restore ${memento.state.value}`);
+    console.log(`restore "${memento.state.value}"`);
     this._state = memento.state;
   }
 }
