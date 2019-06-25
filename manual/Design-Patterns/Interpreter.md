@@ -68,3 +68,4 @@ class NoneTerminalExpression implements Expression {
 ## Resources
 
 - [AST in action](https://ruslanspivak.com/lsbasi-part7/)
+- [Java Interpreter for SQL](https://www.baeldung.com/java-interpreter-pattern)
