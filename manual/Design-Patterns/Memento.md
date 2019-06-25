@@ -5,6 +5,14 @@ name: Memento
 
 # Memento
 
+Capture and externalise an object's internal state allowing the object to be restored to this state later (without violating encapsulation).
+
+## Participants
+
+- Memento (stores internal state of Originator object - may store as much or little as possible)
+- Originator (creates memento containing snapshot of current state)
+- Caretaker (responsible for memento's safekeeping)
+
 ## Example
 
 ```typescript
