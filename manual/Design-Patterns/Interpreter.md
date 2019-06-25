@@ -22,6 +22,10 @@ class Context {
     this._input = input;
   }
 
+  public get input() {
+    return this._input;
+  }
+
   public set input(value) {
     this._input = value;
   }
@@ -33,23 +37,27 @@ interface Expression {
 
 class TerminalExpression implements Expression {
   interpret(context: Context): void {
-    // process comma
-    console.log('interpret terminal');
+    // process full stop
+    if (context.input.includes('.')) {
+      console.log('context terminal');
+    }
   }
 }
 
-class NoneTerminalExpression implements Expression {
+class NonTerminalExpression implements Expression {
   interpret(context: Context): void {
-    // process variable
-    console.log('interpret nonterminal');
+    // process if no full stop
+    if (!context.input.includes('.')) {
+      console.log('context nonterminal');
+    }
   }
 }
 
 (function main() {
-  const context: Context = new Context('1 bird can fly');
+  const context: Context = new Context('1 bird can fly.');
   const list = [];
   list.push(new TerminalExpression());
-  list.push(new NoneTerminalExpression());
+  list.push(new NonTerminalExpression());
 
   list.map((exp: Expression) => {
     exp.interpret(context);
