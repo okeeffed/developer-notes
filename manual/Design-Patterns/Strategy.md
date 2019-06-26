@@ -13,19 +13,19 @@ interface WorkoutStrategy {
 
 class Running implements WorkoutStrategy {
   public fire(): void {
-    console.log('Running')
+    console.log('Running');
   }
 }
 
 class Basketball implements WorkoutStrategy {
   public fire(): void {
-    console.log('Basketball')
+    console.log('Basketball');
   }
 }
 
 class Swimming implements WorkoutStrategy {
   public fire(): void {
-    console.log('Swimming')
+    console.log('Swimming');
   }
 }
 
@@ -34,17 +34,20 @@ class Person {
   public name: String;
   constructor(name: string, strategy: WorkoutStrategy) {
     this.name = name;
-    this.strategy = strategy
+    this.strategy = strategy;
   }
 
   workout(): void {
-    console.log(`${ this.name } starts:`)
+    console.log(`${this.name} starts:`);
     this.strategy.fire();
-  };
+  }
 }
 
 (function main() {
-  const amanda = new Person('Amanda', new Running())
+  const amanda = new Person('Amanda', new Running());
   amanda.workout();
-)()
+
+  const bill = new Person('Bill', new Swimming());
+  bill.workout();
+})();
 ```
