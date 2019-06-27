@@ -33,3 +33,10 @@ name: Loonshots
 - Fix the middle (reduce perverse incentives for middle managers)
 - Bring a gun to a knife fight (engage a chief incentives officer)
 - Fine-tune the spans (wide for loonshots for groups; narrow for franchise)
+
+### Other standard thoughts
+
+- Mind the `False Fail`
+- Listen to the `Suck with Curiousity` (LSC)
+- Apply system rather than outcome mindset
+- Keep your eyes on SRT: spirit, relationships, time
