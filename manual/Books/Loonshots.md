@@ -5,6 +5,11 @@ name: Loonshots
 
 # Loonshots
 
+## Bush-Vail Cartesian Plane
+
+- y plane: Dynamic Equilibrium
+- x plane: Phase Transition
+
 ## Bush-Vail Rules
 
 ### 1. Separate the phases
