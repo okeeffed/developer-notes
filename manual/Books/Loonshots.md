@@ -54,6 +54,6 @@ name: Loonshots
 
 ### Magic Number Equation
 
-```
+```bash
 M = (E * S^2 * F) / G
 ```
