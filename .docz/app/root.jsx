@@ -1,7 +1,17 @@
 import React from 'react'
-import { hot } from 'react-hot-loader'
+import { Link, Router, Routes } from 'docz'
+
 import Theme from 'docz-theme-default'
 
-const Root = () => <Theme />
+import { imports } from './imports'
+import database from './db.json'
 
-export default hot(module)(Root)
+const Root = () => {
+  return (
+    <Theme linkComponent={Link} db={database}>
+      <Routes imports={imports} />
+    </Theme>
+  )
+}
+
+export default Root

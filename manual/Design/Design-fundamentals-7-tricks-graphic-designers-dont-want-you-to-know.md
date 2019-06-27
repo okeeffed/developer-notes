@@ -1,11 +1,12 @@
 ---
 name: Design Fundamentals 7 Tricks Graphic Designers Dont Want You To Know
-menu: Design 
+menu: Design
 ---
+
 # ✏️ Design fundamentals: 7 tricks graphic designers don’t want you to know
 
 > A poorly planned talk by Scott Blissett – May 8, 2018
-> ![](https://d2mxuefqeaa7sj.cloudfront.net/s_5594818096833C98BE67E017D04B0A135886FB67175E3EC47DE614BB14E75EC7_1525748404437_Slack_-_Present_Company.jpg)
+> ![Design fundamentals](https://d2mxuefqeaa7sj.cloudfront.net/s_5594818096833C98BE67E017D04B0A135886FB67175E3EC47DE614BB14E75EC7_1525748404437_Slack_-_Present_Company.jpg)
 
 The following tricks aren’t really tricks but some of the design fundamentals I learnt at uni. It’s been a while since I reviewed any of this so this talk is a good refresher for me and a good topic to talk about (hopefully).
 
@@ -13,7 +14,7 @@ The following tricks aren’t really tricks but some of the design fundamentals 
 
 # #1 Shapes
 
-![](https://d2mxuefqeaa7sj.cloudfront.net/s_5594818096833C98BE67E017D04B0A135886FB67175E3EC47DE614BB14E75EC7_1525922323251_1.png)
+![Image](https://d2mxuefqeaa7sj.cloudfront.net/s_5594818096833C98BE67E017D04B0A135886FB67175E3EC47DE614BB14E75EC7_1525922323251_1.png)
 
 Lines are great and a used in every type design.
 Lines give us visual indications of where something begins and ends.
@@ -39,7 +40,7 @@ A psychic vertical line is viewed as having hierarchy.
 
 ![Vertical lines represents hierarchy, heavens, universe, ideas, more masculine.](https://images.unsplash.com/photo-1499792914147-5e4c9a4a9684?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=161799cf6c9503ea10fbdb38afd88dca&dpr=1&auto=format&fit=crop&w=1000&q=80&cs=tinysrgb)
 
-##
+## Horizontal Lines
 
 ![Horizontal lines between this copy and the image are seen to represent the “idea realised”, also the horizon, the feminine, and the passive.](https://d2mxuefqeaa7sj.cloudfront.net/s_5594818096833C98BE67E017D04B0A135886FB67175E3EC47DE614BB14E75EC7_1525991824291_Grove.jpg)
 
@@ -49,17 +50,17 @@ A psychic vertical line is viewed as having hierarchy.
 
 ![The dot and circle represent perfect, completeness and freedom from distinction or seperation. Can suggest community, friendship, love, unity.](https://d2mxuefqeaa7sj.cloudfront.net/s_5594818096833C98BE67E017D04B0A135886FB67175E3EC47DE614BB14E75EC7_1525992166876_-.png)
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Olympic_rings_without_rims.svg/2000px-Olympic_rings_without_rims.svg.png)
+![Image](https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Olympic_rings_without_rims.svg/2000px-Olympic_rings_without_rims.svg.png)
 
-![](http://www.siliconbeat.com/wp-content/uploads/2016/02/Uber-new-logo.png)
+![Image](http://www.siliconbeat.com/wp-content/uploads/2016/02/Uber-new-logo.png)
 
-![](http://www.artisticquiltdesign.com/wp-content/uploads/top-15-famous-brands-with-circle-logo-circle-logos.jpg)
+![Image](http://www.artisticquiltdesign.com/wp-content/uploads/top-15-famous-brands-with-circle-logo-circle-logos.jpg)
 
 ---
 
 ![Suggest stability, imply balance. Straight lines and precise shapes represent strength, professionalism and efficiency. Triangles are often associated with power, science, religion and law.](https://d2mxuefqeaa7sj.cloudfront.net/s_5594818096833C98BE67E017D04B0A135886FB67175E3EC47DE614BB14E75EC7_1525992504677_1+copy+6.png)
 
-![](https://upload.wikimedia.org/wikipedia/commons/7/7b/Adobe_Systems_logo_and_wordmark.svg)
+![Image](https://upload.wikimedia.org/wikipedia/commons/7/7b/Adobe_Systems_logo_and_wordmark.svg)
 ![Image result for lego logo](https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/LEGO_logo.svg/2000px-LEGO_logo.svg.png)
 ![Image result for tesla logo](http://www.carlogos.org/logo/Tesla-logo-2003-2500x2500.png)
 
@@ -69,9 +70,9 @@ A psychic vertical line is viewed as having hierarchy.
 
 Negative space what “carries” the subject of an image. The negative space will create a shape itself. A good design’s composition will always consider the balance of positive and negative space. Just as important as that object itself, negative space helps to define the boundaries of positive space and brings balance to a composition.
 
-![](https://digitalsynopsis.com/wp-content/uploads/2017/09/creative-logo-design-negative-space-33.jpg)
-![](https://upload.wikimedia.org/wikipedia/en/thumb/2/24/WWF_logo.svg/1200px-WWF_logo.svg.png)
-![](https://3t827putmhzpysma2wygdaea-wpengine.netdna-ssl.com/sbrc/wp-content/uploads/sites/2/01_fedex.jpg)
+![Image](https://digitalsynopsis.com/wp-content/uploads/2017/09/creative-logo-design-negative-space-33.jpg)
+![Image](https://upload.wikimedia.org/wikipedia/en/thumb/2/24/WWF_logo.svg/1200px-WWF_logo.svg.png)
+![Image](https://3t827putmhzpysma2wygdaea-wpengine.netdna-ssl.com/sbrc/wp-content/uploads/sites/2/01_fedex.jpg)
 
 ![Image result for Shigeo Fukuda](https://www.itsnicethat.com/system/files/072012/50165c375c3e3c4aa100075e/images_slice_large/fukuda_6.jpeg?1438258263)
 
@@ -91,7 +92,7 @@ They both are principles used to help the viewer organise and image and can crea
 If objects are out-of-scale of oddly proportioned, the viewer will view it as a point of emphasis.
 Large scale objects create weight and are associated with more importance than the smaller objects.
 
-![](https://d2mxuefqeaa7sj.cloudfront.net/s_5594818096833C98BE67E017D04B0A135886FB67175E3EC47DE614BB14E75EC7_1525995263873_Screen+Shot+2018-05-11+at+9.34.04+am.png)
+![Image](https://d2mxuefqeaa7sj.cloudfront.net/s_5594818096833C98BE67E017D04B0A135886FB67175E3EC47DE614BB14E75EC7_1525995263873_Screen+Shot+2018-05-11+at+9.34.04+am.png)
 
 ![Jim Stoten](https://www.itsnicethat.com/system/files/032014/53345c945c3e3c037000100a/images_slice_large/1.jpg?1438269231)
 
@@ -111,11 +112,11 @@ There is pure symmetry (mirror image) and approximate symmetry (more appeal, var
 
 ![Influenced the first iPod](https://d2mxuefqeaa7sj.cloudfront.net/s_5594818096833C98BE67E017D04B0A135886FB67175E3EC47DE614BB14E75EC7_1525996562381_dasprogramm_shop__T_3_pocket_radio__HfG_Ulm___Dieter_Rams_1958.jpg)
 
-![](https://images-na.ssl-images-amazon.com/images/I/A1t8xCe9jwL._SY679_.jpg)
+![Image](https://images-na.ssl-images-amazon.com/images/I/A1t8xCe9jwL._SY679_.jpg)
 
 Asymmetrical balance is when both sides of the central axis are not identical, but appear to have equal weight. It’s an implied balance.
 
-![](https://d2mxuefqeaa7sj.cloudfront.net/s_5594818096833C98BE67E017D04B0A135886FB67175E3EC47DE614BB14E75EC7_1525999212363_Disruption___For_Those_Changing_Their_Industries.jpg)
+![Image](https://d2mxuefqeaa7sj.cloudfront.net/s_5594818096833C98BE67E017D04B0A135886FB67175E3EC47DE614BB14E75EC7_1525999212363_Disruption___For_Those_Changing_Their_Industries.jpg)
 
 ---
 
@@ -125,9 +126,9 @@ Basically it mean ranking, or classification of things according to relative imp
 
 When this used in design it demonstrates how a viewer should move through the design. What they should see first second and third and last. It affects how a viewer will understand the information, how easy it is to intake and maintains control.
 
-![](https://d2mxuefqeaa7sj.cloudfront.net/s_5594818096833C98BE67E017D04B0A135886FB67175E3EC47DE614BB14E75EC7_1526000004523_Rugby_Canada.jpg)
+![Image](https://d2mxuefqeaa7sj.cloudfront.net/s_5594818096833C98BE67E017D04B0A135886FB67175E3EC47DE614BB14E75EC7_1526000004523_Rugby_Canada.jpg)
 
-![](https://d2mxuefqeaa7sj.cloudfront.net/s_5594818096833C98BE67E017D04B0A135886FB67175E3EC47DE614BB14E75EC7_1526000130088_Airtable.jpg)
+![Image](https://d2mxuefqeaa7sj.cloudfront.net/s_5594818096833C98BE67E017D04B0A135886FB67175E3EC47DE614BB14E75EC7_1526000130088_Airtable.jpg)
 
 ---
 
@@ -141,11 +142,11 @@ There can be regular (similar intervals), flowing (sense of movement more organi
 
 ![Changing rhythm between elements, but regular.](https://d2mxuefqeaa7sj.cloudfront.net/s_5594818096833C98BE67E017D04B0A135886FB67175E3EC47DE614BB14E75EC7_1526001303426_www.apple.com_ipad_.png)
 
-![](https://d2mxuefqeaa7sj.cloudfront.net/s_5594818096833C98BE67E017D04B0A135886FB67175E3EC47DE614BB14E75EC7_1526002520403_odc2017.com_.png)
+![Image](https://d2mxuefqeaa7sj.cloudfront.net/s_5594818096833C98BE67E017D04B0A135886FB67175E3EC47DE614BB14E75EC7_1526002520403_odc2017.com_.png)
 
 ## Pattern
 
-![](https://d2mxuefqeaa7sj.cloudfront.net/s_5594818096833C98BE67E017D04B0A135886FB67175E3EC47DE614BB14E75EC7_1526002300127_Nacho__Design_Creates_Value.jpg)
+![Image](https://d2mxuefqeaa7sj.cloudfront.net/s_5594818096833C98BE67E017D04B0A135886FB67175E3EC47DE614BB14E75EC7_1526002300127_Nacho__Design_Creates_Value.jpg)
 
 ---
 
@@ -171,36 +172,34 @@ Are better for larger displays.
 
 Start with one, preferably that has lots of weights
 
-![](https://daks2k3a4ib2z.cloudfront.net/571514452b490af542a3138e/59b93cfada0d170001122c1e_Typography%20102b.033.png)
+![Image](https://daks2k3a4ib2z.cloudfront.net/571514452b490af542a3138e/59b93cfada0d170001122c1e_Typography%20102b.033.png)
 
-![](https://daks2k3a4ib2z.cloudfront.net/571514452b490af542a3138e/59b93d1d0c4f270001fb168c_Typography%20102b.035.png)
+![Image](https://daks2k3a4ib2z.cloudfront.net/571514452b490af542a3138e/59b93d1d0c4f270001fb168c_Typography%20102b.035.png)
 
-![](https://daks2k3a4ib2z.cloudfront.net/571514452b490af542a3138e/59b93d6989764b00012d8b36_Typography%20102b.037.png)
+![Image](https://daks2k3a4ib2z.cloudfront.net/571514452b490af542a3138e/59b93d6989764b00012d8b36_Typography%20102b.037.png)
 
 ## Line height
 
 Line height is important for readability. For most text the optimal is between 1.2em and 1.45em. Not too dense not too sparse.
 
-![](https://daks2k3a4ib2z.cloudfront.net/571514452b490af542a3138e/59b9467bc0dd0b00011d2d13_Typography%20102b.041.png)
+![Image](https://daks2k3a4ib2z.cloudfront.net/571514452b490af542a3138e/59b9467bc0dd0b00011d2d13_Typography%20102b.041.png)
 
 ## Line length
 
 The longer the line length the harder it is for your eye to trace back and find the next line. Between 40 and 80 characters per line is ideal. Less is more comfortable.
 Al­ter­na­tively, use the al­pha­bet test to set line length. You should be able to fit be­tween two and three al­pha­bets on your line
 
-![](https://daks2k3a4ib2z.cloudfront.net/571514452b490af542a3138e/59b946dd3d68fd0001391c90_Typography%20102b.045.png)
+![Image](https://daks2k3a4ib2z.cloudfront.net/571514452b490af542a3138e/59b946dd3d68fd0001391c90_Typography%20102b.045.png)
 
 ## Font Size
 
 Make the font size bigger on desktops as you sit further back (most of the time). You can get away with smaller font sizes on mobile as the viewer will often hold it closer to their face.
 
-![](https://daks2k3a4ib2z.cloudfront.net/571514452b490af542a3138e/59b9473a1016420001dfaeda_Typography%20102b.047.png)
+![Image](https://daks2k3a4ib2z.cloudfront.net/571514452b490af542a3138e/59b9473a1016420001dfaeda_Typography%20102b.047.png)
 
 ## Good Summary
 
-![](https://daks2k3a4ib2z.cloudfront.net/571514452b490af542a3138e/59b949ebd5c9fd00013e7174_Typography%20102b.090.png)
-
-##
+![Image](https://daks2k3a4ib2z.cloudfront.net/571514452b490af542a3138e/59b949ebd5c9fd00013e7174_Typography%20102b.090.png)
 
 ---
 
