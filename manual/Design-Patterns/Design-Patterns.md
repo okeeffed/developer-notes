@@ -19,7 +19,7 @@ The base definition for scope:
 
 > Object patterns deal with object relationships, which can be changed at run-time and are more dynamic. Class scope is defined at design time and is built in the structure and relationship of classes where as object scope is defined at runtime and is based on the relationship of objects.
 
-Within all three GOF design pattern `purposes`,
+Within all three GOF design pattern `purposes`, you will see that the scope will help with understanding the objectives of individual patterns.
 
 ## Creational Patterns
 
