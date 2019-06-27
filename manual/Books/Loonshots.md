@@ -54,6 +54,8 @@ name: Loonshots
 
 ### Magic Number Equation
 
+M stands for the number that above which the balance flips from favoring project work to politics.
+
 ```bash
 M = (E * S^2 * F) / G
 ```
