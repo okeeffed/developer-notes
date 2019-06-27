@@ -49,7 +49,7 @@ name: Loonshots
 | ------------------- | ------------------------------------------------------- |
 | Growth Rate (G)     | Salary-Step Up (12% means G is 12%)                     |
 | Management Span (S) | Manager : employee (S = 3)                              |
-| Equity Fraction (E) | Equirt ties your pay directly to quality                |
+| Equity Fraction (E) | Equity ties your pay directly to quality                |
 | Fitness (F)         | Project-Skill Fit + Return-On-Politics (F = 1 is equal) |
 
 ### Magic Number Equation
@@ -74,5 +74,6 @@ const M = (
 ): MagicNumber => (E * (S * S) * F) / G;
 
 // example one
-M(0.5, 36);
+M(0.5, 36, 1, 0.12); // = 150
+M(0.5, 36, 1, 0.12); // = 150
 ```
