@@ -15,6 +15,8 @@ The patterns within the book are separated into `purpose` (creational, structura
 
 ## Class vs Object Scope
 
+The base definition for scope:
+
 > Object patterns deal with object relationships, which can be changed at run-time and are more dynamic. Class scope is defined at design time and is built in the structure and relationship of classes where as object scope is defined at runtime and is based on the relationship of objects.
 
 ## Purposes
