@@ -7,6 +7,10 @@ name: Design Patterns
 
 When it comes to the base GOF Object-Orientated patterns, the design patterns breaks themselves down into three smaller `purposes` (creational, structural, behavioural) and within those purposes can be further broken down into `scope` (class, object).
 
+## Class vs Object Scope
+
+> Object patterns deal with object relationships, which can be changed at run-time and are more dynamic. Class scope is defined at design time and is built in the structure and relationship of classes where as object scope is defined at runtime and is based on the relationship of objects.
+
 ## Design Pattern Breakdown
 
 | Purpose     | Class                        | Object                                                                                            |
