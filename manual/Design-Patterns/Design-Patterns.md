@@ -42,6 +42,8 @@ As you'll see fleshed out in future posts, structural patterns help decouple, sh
 
 > Behavioural design patterns identify common communication patterns among objects and realise these patterns. By doing so, these patterns increase flexibility in carrying out the communication.
 
+As stated, behavioural design patterns are all about flexible communication.
+
 ## Design Pattern Breakdown
 
 | Purpose     | Class                        | Object                                                                                            |
