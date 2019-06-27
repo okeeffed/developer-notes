@@ -701,7 +701,7 @@ const styles = {
 
 **Button.js**
 
-```
+```javascript
 import React from 'react';
 import { Text, TouchableOpacity } from 'react-native';
 
