@@ -17,7 +17,7 @@ When it comes to the base GOF Object-Orientated patterns, the design patterns br
 
 ## Creational Patterns
 
-Creational design patterns abstract the instantiation process. They help make a system independent of how its object are created, composed and represented. A class creational pattern will delegate instantiation to another object.
+> Creational design patterns abstract the instantiation process. They help make a system independent of how its object are created, composed and represented. A class creational pattern will delegate instantiation to another object.
 
 These patterns particularly help when systems, adhering to the principle of prefering composition over inheritance, become more complex.
 
@@ -28,7 +28,11 @@ There are two recurring themes with these patterns:
 
 ## Structural Patterns
 
-Structural design patterns ease the design by identifying a simple way to realise relationships among entities.
+> Structural design patterns ease the design by identifying a simple way to realise relationships among entities.
+
+## Behavioural Patterns
+
+> Behavioural design patterns identify common communication patterns among objects and realise these patterns. By doing so,
 
 ## Resources
 
