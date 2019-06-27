@@ -860,7 +860,7 @@ _LibraryReducer.json_
 
 This provides the data for above.
 
-```
+```javascript
 [
 	{
 		'id': 0,
@@ -873,12 +873,12 @@ This provides the data for above.
 
 _reducers.js_
 
-```
+```javascript
 import { CombineReducers } from 'redux';
 import LibraryReducer from './LibraryReducer';
 
 export default combineReducers({
-	libraries: LibraryReducer
+  libraries: LibraryReducer
 });
 ```
 
@@ -886,7 +886,7 @@ _LibraryList.js_
 
 Rendering the list to the user. mapStateToProps will grab the state from the connect function that is exported in `combineReducers` and any object returned from this `mapStateToProps` function will become available to our props.
 
-```
+```javascript
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 
