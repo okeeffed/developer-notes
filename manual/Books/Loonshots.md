@@ -40,3 +40,12 @@ name: Loonshots
 - Listen to the `Suck with Curiousity` (LSC)
 - Apply system rather than outcome mindset
 - Keep your eyes on SRT: spirit, relationships, time
+
+## Design + Fitness Parameters (G, S, E, F)
+
+| Parameter           | Definition                               |
+| ------------------- | ---------------------------------------- |
+| Growth Rate (G)     | Salary-Step Up (12% means G is 12%)      |
+| Management Span (S) | Manager : employee (S = 3)               |
+| Equity Fraction (E) | Equirt ties your pay directly to quality |
+| Fitness (F)         | Project-Skill Fit + Return-On-Politics   |
