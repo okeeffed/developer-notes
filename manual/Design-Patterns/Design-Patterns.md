@@ -5,7 +5,7 @@ name: GOF Design Patterns
 
 # Design Patterns - Gang Of Four
 
-When it comes to the base Gang Of Four (GOF) Object-Orientated patterns, the design patterns breaks themselves down into three smaller `purposes` (creational, structural, behavioural) and within those purposes can be further broken down into `scope` (class, object).
+When it comes to the base Gang Of Four (GOF) Object-Orientated patterns, the design patterns break themselves down into three smaller `purposes` (creational, structural, behavioural) and within those purposes can be further broken down into `scope` (class, object).
 
 ## Class vs Object Scope
 
