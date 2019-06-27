@@ -7,7 +7,7 @@ name: Design Patterns
 
 When it comes to the base GOF Object-Orientated patterns, the design patterns breaks themselves down into three smaller `purposes` (creational, structural, behavioural) and within those purposes can be further broken down into `scope` (class, object).
 
-## List Breakdown
+## Design Pattern Breakdown
 
 | Purpose     | Class                        | Object                                                                                            |
 | ----------- | ---------------------------- | ------------------------------------------------------------------------------------------------- |
@@ -26,7 +26,9 @@ There are two recurring themes with these patterns:
 1. They encapsulate all knowledge about which concrete classes the system uses.
 2. They hide how instances of these classes are created and put together.
 
-(TODO: finish notes on other patterns)
+## Structural Patterns
+
+Structural Design Patterns ease the design by identifying a simple way to realize relationships among entities.
 
 ## Resources
 
