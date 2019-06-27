@@ -58,6 +58,6 @@ M (150) stands for the number that above which the balance flips from favoring p
 
 Below the threshold, incentives encourage employees to unite around making loonshots successful. Above, career considerations become more important and politics suddently appear.
 
-```bash
-M = (E * S^2 * F) / G
+```javascript
+M = (E * (S * S) * F) / G;
 ```
