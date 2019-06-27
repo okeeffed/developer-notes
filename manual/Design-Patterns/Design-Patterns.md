@@ -32,7 +32,7 @@ There are two recurring themes with these patterns:
 
 ## Behavioural Patterns
 
-> Behavioural design patterns identify common communication patterns among objects and realise these patterns. By doing so,
+> Behavioural design patterns identify common communication patterns among objects and realise these patterns. By doing so, these patterns increase flexibility in carrying out the communication.
 
 ## Resources
 
