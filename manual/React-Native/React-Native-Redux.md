@@ -5,36 +5,7 @@ menu: React Native
 
 # React Native with Redux
 
-<!-- TOC -->
-
-- [React Native with Redux](#React-Native-with-Redux)
-	- [RNREDUX-1: Intro](#RNREDUX-1-Intro)
-	- [RNREDUX-2: React Native 101](#RNREDUX-2-React-Native-101)
-		- [---- RNREDUX-2.1: Project Directory/Screen Content](#RNREDUX-21-Project-DirectoryScreen-Content)
-		- [---- RNREDUX-2.2: React vs React Native](#RNREDUX-22-React-vs-React-Native)
-	- [RNREDUX-4: HTTP Requests with React Native](#RNREDUX-4-HTTP-Requests-with-React-Native)
-		- [---- RNREDUX-4.1: Sourcing Album Data](#RNREDUX-41-Sourcing-Album-Data)
-		- [---- RNREDUX-4.2: Functional Component vs Class Component](#RNREDUX-42-Functional-Component-vs-Class-Component)
-		- [---- RNREDUX-4.3: Fetching Data with Lifecycle Methods](#RNREDUX-43-Fetching-Data-with-Lifecycle-Methods)
-		- [---- RNREDUX-4.4: Rendering a List of Components](#RNREDUX-44-Rendering-a-List-of-Components)
-		- [---- RNREDUX-4.5: Creating Reusable Components](#RNREDUX-45-Creating-Reusable-Components)
-		- [---- RNREDUX-4.5: Turn a Component into Sections](#RNREDUX-45-Turn-a-Component-into-Sections)
-	- [RNREDUX-5: Handling Component Layout](#RNREDUX-5-Handling-Component-Layout)
-		- [---- RNREDUX-5.1: Mastering Layout with Flexbox](#RNREDUX-51-Mastering-Layout-with-Flexbox)
-		- [---- RNREDUX-5.2: Making Content Scrollable and Handling Input](#RNREDUX-52-Making-Content-Scrollable-and-Handling-Input)
-		- [---- RNREDUX-5.3: Responding to User Input](#RNREDUX-53-Responding-to-User-Input)
-	- [RNREDUX-8: Redux inside of React Native](#RNREDUX-8-Redux-inside-of-React-Native)
-		- [---- RNREDUX-8.1: Redux Boilerplate](#RNREDUX-81-Redux-Boilerplate)
-		- [---- RNREDUX-8.2: Reducer and State Design](#RNREDUX-82-Reducer-and-State-Design)
-	- [Redux Thunk](#Redux-Thunk)
-	- [Dealing with Navigation](#Dealing-with-Navigation)
-		- [---- Navigation in the Router](#Navigation-in-the-Router)
-		- [---- Navigating between routes](#Navigating-between-routes)
-		- [---- Grouping Scenes with 'Buckets'](#Grouping-Scenes-with-Buckets)
-		- [---- Actions to navigate between buckets](#Actions-to-navigate-between-buckets)
-		- [---- Form updates at a reducer level / Dynamic Property updates](#Form-updates-at-a-reducer-level--Dynamic-Property-updates)
-
-<!-- /TOC -->
+<!-- TOC -->autoauto- [React Native with Redux](#react-native-with-redux)auto  - [RNREDUX-1: Intro](#rnredux-1-intro)auto  - [RNREDUX-2: React Native 101](#rnredux-2-react-native-101)auto    - [---- RNREDUX-2.1: Project Directory/Screen Content](#-----rnredux-21-project-directoryscreen-content)auto    - [---- RNREDUX-2.2: React vs React Native](#-----rnredux-22-react-vs-react-native)auto  - [RNREDUX-4: HTTP Requests with React Native](#rnredux-4-http-requests-with-react-native)auto    - [---- RNREDUX-4.1: Sourcing Album Data](#-----rnredux-41-sourcing-album-data)auto    - [---- RNREDUX-4.2: Functional Component vs Class Component](#-----rnredux-42-functional-component-vs-class-component)auto    - [---- RNREDUX-4.3: Fetching Data with Lifecycle Methods](#-----rnredux-43-fetching-data-with-lifecycle-methods)auto    - [---- RNREDUX-4.4: Rendering a List of Components](#-----rnredux-44-rendering-a-list-of-components)auto    - [---- RNREDUX-4.5: Creating Reusable Components](#-----rnredux-45-creating-reusable-components)auto    - [---- RNREDUX-4.5: Turn a Component into Sections](#-----rnredux-45-turn-a-component-into-sections)auto  - [RNREDUX-5: Handling Component Layout](#rnredux-5-handling-component-layout)auto    - [---- RNREDUX-5.1: Mastering Layout with Flexbox](#-----rnredux-51-mastering-layout-with-flexbox)auto    - [---- RNREDUX-5.2: Making Content Scrollable and Handling Input](#-----rnredux-52-making-content-scrollable-and-handling-input)auto    - [---- RNREDUX-5.3: Responding to User Input](#-----rnredux-53-responding-to-user-input)auto  - [RNREDUX-8: Redux inside of React Native](#rnredux-8-redux-inside-of-react-native)auto    - [---- RNREDUX-8.1: Redux Boilerplate](#-----rnredux-81-redux-boilerplate)auto    - [---- RNREDUX-8.2: Reducer and State Design](#-----rnredux-82-reducer-and-state-design)auto  - [Redux Thunk](#redux-thunk)auto  - [Dealing with Navigation](#dealing-with-navigation)auto    - [---- Navigation in the Router](#-----navigation-in-the-router)auto    - [---- Navigating between routes](#-----navigating-between-routes)auto    - [---- Grouping Scenes with 'Buckets'](#-----grouping-scenes-with-buckets)auto    - [---- Actions to navigate between buckets](#-----actions-to-navigate-between-buckets)auto    - [---- Form updates at a reducer level / Dynamic Property updates](#-----form-updates-at-a-reducer-level--dynamic-property-updates)autoauto<!-- /TOC -->
 
 ## RNREDUX-1: Intro
 
