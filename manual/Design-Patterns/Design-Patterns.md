@@ -36,6 +36,8 @@ There are two recurring themes with these patterns:
 
 > Structural design patterns ease the design by identifying a simple way to realise relationships among entities.
 
+As you'll see in the coming posts, structural patterns help decouple, shape and add functionality between entities to enable more malleable relationships.
+
 ## Behavioural Patterns
 
 > Behavioural design patterns identify common communication patterns among objects and realise these patterns. By doing so, these patterns increase flexibility in carrying out the communication.
