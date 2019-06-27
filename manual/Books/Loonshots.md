@@ -9,6 +9,10 @@ name: Loonshots
 
 - y plane: Dynamic Equilibrium
 - x plane: Phase Transition
+- Bottom-left quadrant: Stagntion
+- Bottom-right quadrant: Moses trap, PARC trap
+- Top-left quadrant: Chaos
+- Top-right quadrant: Bush-Vail Balance
 
 ## Bush-Vail Rules
 
