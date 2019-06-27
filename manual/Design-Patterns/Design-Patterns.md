@@ -11,7 +11,7 @@ Design patterns provide solutions to common OOP problems. The patterns themselve
 
 The term "Gang Of Four" (GOF) refers to Erich Gamma, Richard Helm, Ralph Johnson and John Vlissides. These four co-authored the software classic, "Design Patterns: Elements of Reusable Object-Oriented Software", a book that describes twenty-three design patterns and their application to software (most notably OOP).
 
-The patterns within the book break down into their `purpose` (creational, structural, behavioural) and their `scope` (class, object).
+The patterns within the book are separated into `purpose` (creational, structural, behavioural) and `scope` (class, object).
 
 ## Class vs Object Scope
 
