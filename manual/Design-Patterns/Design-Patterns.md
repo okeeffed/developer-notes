@@ -28,7 +28,7 @@ There are two recurring themes with these patterns:
 
 ## Structural Patterns
 
-Structural design patterns ease the design by identifying a simple way to realize relationships among entities.
+Structural design patterns ease the design by identifying a simple way to realise relationships among entities.
 
 ## Resources
 
