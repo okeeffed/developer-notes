@@ -5,19 +5,17 @@ name: GOF Design Patterns
 
 # Design Patterns - Gang Of Four
 
-When it comes to the base Gang Of Four (GOF) Object-Orientated patterns, the design patterns break themselves down into three smaller `purposes` (creational, structural, behavioural) and within those purposes can be further broken down into `scope` (class, object).
+If you've written any Object-Orieted Programming (OOP), chances are you have stumbled upon the term "design patterns". Design patterns provide solutions to common OOP problems.
+
+When it comes to the base Gang Of Four (GOF) Object-Orientated patterns, the design patterns break into `purposes` and `scope`.
+
+The three smaller `purposes` (creational, structural, behavioural) and within those purposes can be further broken down into `scope` (class, object).
 
 ## Class vs Object Scope
 
 > Object patterns deal with object relationships, which can be changed at run-time and are more dynamic. Class scope is defined at design time and is built in the structure and relationship of classes where as object scope is defined at runtime and is based on the relationship of objects.
 
-## Design Pattern Breakdown
-
-| Purpose     | Class                        | Object                                                                                            |
-| ----------- | ---------------------------- | ------------------------------------------------------------------------------------------------- |
-| Creational  | Factory Method               | Abstract Factory, Builder, Prototype, Singleton                                                   |
-| Structural  | Adapter (class)              | Adapter (object), Bridge, Composite, Decorator, Facade, Flyweight, Proxy                          |
-| Behavioural | Interpreter, Template Method | Chain of Responsibility, Command, Iterator, Mediator, Memento, Observer, State, Strategy, Visitor |
+## Purposes
 
 ## Creational Patterns
 
@@ -37,6 +35,14 @@ There are two recurring themes with these patterns:
 ## Behavioural Patterns
 
 > Behavioural design patterns identify common communication patterns among objects and realise these patterns. By doing so, these patterns increase flexibility in carrying out the communication.
+
+## Design Pattern Breakdown
+
+| Purpose     | Class                        | Object                                                                                            |
+| ----------- | ---------------------------- | ------------------------------------------------------------------------------------------------- |
+| Creational  | Factory Method               | Abstract Factory, Builder, Prototype, Singleton                                                   |
+| Structural  | Adapter (class)              | Adapter (object), Bridge, Composite, Decorator, Facade, Flyweight, Proxy                          |
+| Behavioural | Interpreter, Template Method | Chain of Responsibility, Command, Iterator, Mediator, Memento, Observer, State, Strategy, Visitor |
 
 ## Resources
 
