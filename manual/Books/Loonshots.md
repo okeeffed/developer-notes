@@ -54,6 +54,6 @@ name: Loonshots
 
 ### Magic Number Equation
 
-```
-M = (E * S^2 * F) / G
+```javascript
+M = ((E * S) ^ (2 * F)) / G;
 ```
