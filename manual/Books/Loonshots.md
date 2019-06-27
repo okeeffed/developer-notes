@@ -17,3 +17,4 @@ name: Loonshots
 
 - Love your artists and soldiers equally
 - Manage the transfer, not the tech: be a gardener, not a Moses
+- Appoint and train project champions to bridge the divide
