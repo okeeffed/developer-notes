@@ -25,7 +25,7 @@ As you'll see in the overview down below, most design patterns are object based 
 
 > Creational design patterns abstract the instantiation process. They help make a system independent of how its object are created, composed and represented. A class creational pattern will delegate instantiation to another object.
 
-These patterns particularly help when systems become more complex. The patterns adhere to the principle of prefering composition over inheritance
+These patterns particularly help when systems become more complex. The patterns adhere to the principle of prefering composition over inheritance.
 
 There are two recurring themes with these patterns:
 
