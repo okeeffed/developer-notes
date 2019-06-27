@@ -54,7 +54,9 @@ name: Loonshots
 
 ### Magic Number Equation
 
-M stands for the number that above which the balance flips from favoring project work to politics.
+M (150) stands for the number that above which the balance flips from favoring project work to politics.
+
+Below the threshold, incentives encourage employees to unite around making loonshots successful. Above, career considerations become more important and politics suddently appear.
 
 ```bash
 M = (E * S^2 * F) / G
