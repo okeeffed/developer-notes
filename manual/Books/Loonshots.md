@@ -41,7 +41,9 @@ name: Loonshots
 - Apply system rather than outcome mindset
 - Keep your eyes on SRT: spirit, relationships, time
 
-## Design + Fitness Parameters (G, S, E, F)
+## The Magic Number 150
+
+### Design + Fitness Parameters (G, S, E, F)
 
 | Parameter           | Definition                               |
 | ------------------- | ---------------------------------------- |
@@ -49,3 +51,9 @@ name: Loonshots
 | Management Span (S) | Manager : employee (S = 3)               |
 | Equity Fraction (E) | Equirt ties your pay directly to quality |
 | Fitness (F)         | Project-Skill Fit + Return-On-Politics   |
+
+### Magic Number Equation
+
+```
+M = (E * S^2 * F) / G
+```
