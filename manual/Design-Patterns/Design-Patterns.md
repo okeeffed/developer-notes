@@ -19,8 +19,6 @@ The base definition for scope:
 
 > Object patterns deal with object relationships, which can be changed at run-time and are more dynamic. Class scope is defined at design time and is built in the structure and relationship of classes where as object scope is defined at runtime and is based on the relationship of objects.
 
-As you'll see in the overview down below, most design patterns are object based and help with dynamic assignment of objects.
-
 ## Creational Patterns
 
 > Creational design patterns abstract the instantiation process. They help make a system independent of how its object are created, composed and represented. A class creational pattern will delegate instantiation to another object.
