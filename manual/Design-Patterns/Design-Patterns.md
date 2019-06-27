@@ -50,4 +50,4 @@ There are two recurring themes with these patterns:
 
 ## Resources
 
-- [A good resource for all patterns](https://en.wikipedia.org/wiki/Software_design_pattern#Classification_and_list)
+- [Good old Wikipedia](https://en.wikipedia.org/wiki/Software_design_pattern#Classification_and_list)
