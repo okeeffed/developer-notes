@@ -46,6 +46,8 @@ As stated, behavioural design patterns are all about flexible communication.
 
 ## Design Pattern Breakdown
 
+The table below breaks down the list of GOF design patterns using purpose and scope. This table can be a reference and overview for all the design patterns that will be covered in the coming posts on design patterns.
+
 | Purpose     | Class                        | Object                                                                                            |
 | ----------- | ---------------------------- | ------------------------------------------------------------------------------------------------- |
 | Creational  | Factory Method               | Abstract Factory, Builder, Prototype, Singleton                                                   |
