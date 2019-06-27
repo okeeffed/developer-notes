@@ -58,6 +58,17 @@ M (150) stands for the number that above which the balance flips from favoring p
 
 Below the threshold, incentives encourage employees to unite around making loonshots successful. Above, career considerations become more important and politics suddently appear.
 
-```javascript
-M = (E * (S * S) * F) / G;
+```typescript
+type Equity = number;
+type GrowthRate = number;
+type ManagementSpan = number;
+type Fitness = number;
+type MagicNumber = number;
+
+const valueM = (
+  E: Equity,
+  S: ManagementSpan,
+  F: Fitness,
+  G: GrowthRate
+): MagicNumber => (E * (S * S) * F) / G;
 ```
