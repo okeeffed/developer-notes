@@ -45,12 +45,12 @@ name: Loonshots
 
 ### Design + Fitness Parameters (G, S, E, F)
 
-| Parameter           | Definition                               |
-| ------------------- | ---------------------------------------- |
-| Growth Rate (G)     | Salary-Step Up (12% means G is 12%)      |
-| Management Span (S) | Manager : employee (S = 3)               |
-| Equity Fraction (E) | Equirt ties your pay directly to quality |
-| Fitness (F)         | Project-Skill Fit + Return-On-Politics   |
+| Parameter           | Definition                                                |
+| ------------------- | --------------------------------------------------------- |
+| Growth Rate (G)     | Salary-Step Up (12% means G is 12%)                       |
+| Management Span (S) | Manager : employee (S = 3)                                |
+| Equity Fraction (E) | Equirt ties your pay directly to quality (F = 1 is equal) |
+| Fitness (F)         | Project-Skill Fit + Return-On-Politics                    |
 
 ### Magic Number Equation
 
@@ -65,10 +65,14 @@ type ManagementSpan = number;
 type Fitness = number;
 type MagicNumber = number;
 
-const valueM = (
+// M = magic number
+const M = (
   E: Equity,
   S: ManagementSpan,
   F: Fitness,
   G: GrowthRate
 ): MagicNumber => (E * (S * S) * F) / G;
+
+// example one
+M(0.5, 36);
 ```
