@@ -39,6 +39,10 @@ All Elm functions are curried.
 To update the model, we need to have the appropriate `update` function and expose the correct `Html.Events`.
 
 ```elm
+import Html exposing (..)
+import Html.Attributes exposing (..)
+import Html.Events exposing (onClick)
+
 update msg model =
     if msg.description == "ClickedPhoto" then
         { model | selectedUrl = msg.data }
@@ -51,3 +55,28 @@ viewThumbnail selectedUrl thumb =
         , onClick { description = "ClickedPhoto", data = thumb.url } ]
         []
 ```
+
+## Implementing the Model-View-Update Loop
+
+```elm
+import Browser
+
+main =
+    Browser.sandbox
+        { init = initialModel
+        , view = view
+        , update = update
+        }
+```
+
+## Multi-Argument Function Annotations
+
+```shell
+> String.padLeft
+<function:padLeft> : Int -> Char -> String -> String
+> String.padLeft 9
+<function> : Char -> String -> String
+> String.padLeft 9 '.' <function> : String -> String
+> String.padLeft 9 '.' "not!" ".....not!" : String
+```
+
