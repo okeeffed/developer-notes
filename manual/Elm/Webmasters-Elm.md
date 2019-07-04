@@ -36,4 +36,170 @@ Compiles to JS.
 elm make Main.elm --output elm.js
 ```
 
+## User Interface Example
 
+Converting this to Elm:
+
+```javascript
+let pluralize = (singular, plural, quantity) => quantity === 1 ? singular : plural;
+```
+
+```elm
+pluralize singular plural quantity =
+    if quantity == 1 then
+        singular
+    else
+        plural
+
+main =
+    text (pluralize "leaf" "leaves" 1) -- parentheses are to disambiguate
+```
+
+## Part 1 - Example
+
+This basic example gives a short look at actually creating a working piece of code.
+
+```elm
+module Main exposing (main)
+
+import Html exposing (..)
+import Html.Attributes exposing (..)
+
+
+banner =
+    div [ class "banner" ]
+        [ div [ class "container" ]
+            [ h1 [] [ text "conduit"]
+            , p [] [ text "A place to share your knowledge."]
+            ]
+        ]
+
+
+feed =
+    div [ class "feed-toggle" ] [ text "(In the future we’ll display a feed of articles here!)" ]
+
+
+main =
+    div [ class "home-page" ]
+        [ banner
+        , div [ class "container page" ]
+            [ div [ class "row" ]
+                [ div [ class "col-md-9" ] [ feed ]
+                , div [ class "col-md-3" ] []
+                ]
+            ]
+        ]
+```
+
+## The Elm Architecture
+
+Update, Model, View.
+
+View is function that takes a `model` as a function.
+
+Note that whatever message you use, you need to be consistent for `Update` and `View`.
+
+```elm
+type alias Msg =
+    { description: String
+    , data: String
+    }
+
+view : Model -> Html Msg
+view model = 
+
+-- 
+update : Msg -> Model -> Model
+update msg model =
+```
+
+## Type Annotations
+
+```elm
+username = "okeeffed"
+
+-- typed example (Elm uses inference either way)
+username : String
+username = "okeeffed"
+
+-- alt example
+String.length : String -> Int
+
+-- name list
+names : List String
+names = ["Sam", "Bob", "Bill"]
+```
+
+## Functions
+
+```elm
+pluralize : String -> String -> Int -> String
+
+-- equivocal to
+pluralize : String -> (String -> (Int -> String))
+```
+
+## Case Expressions
+
+```elm
+case model.tab of
+    "YourFeed" ->
+        -- show feed
+    "GlobalFeed" ->
+        -- show Global Feed
+    _ ->
+        -- show Tag Feed
+```
+
+## Custom Types
+
+```elm
+-- creates completely distinct values
+type Tab =
+    YourFeed 
+    | GlobalFeed 
+    | TagFeed
+
+yours : Tab
+yours =
+    YourFeed
+
+-- Turning types into functions
+
+type Tab =
+    YourFeed 
+    | GlobalFeed 
+    | TagFeed String
+
+-- in the repl
+> TagFeed "Happiness"
+TagFeed "Happiness" : Tab
+> TagFeed 
+<function> : String -> Tab
+```
+
+Using Custom Types with updates:
+
+```elm
+-- allows us to pass different data types
+type Msg
+    = ClickedTag String
+    | ClickedPage Int
+
+update msg model =
+    case msg of
+        ClickedTag selectedTag ->
+            -- use tag here
+        ClickedPage page ->
+            -- use page here
+```
+
+Summing it all up
+
+Type | In Elm
+case-expressions | case msg of
+Enumerations | type Bool = True | False
+Containers | type Msg = ClickedPage Int | ...
+Variant Functions | onClick (ClickedPage pageNumber)
+
+## Maybe Overview
