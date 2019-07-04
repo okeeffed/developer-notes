@@ -18,13 +18,13 @@ name: Webmasters Elm
 
 ## Elm
 
-JS Equivalent | Elm
---- | ---
-UI | view
-State | model
-Async | update
-Utilities | core
-Packages | elm install
+| JS Equivalent | Elm         |
+| ------------- | ----------- |
+| UI            | view        |
+| State         | model       |
+| Async         | update      |
+| Utilities     | core        |
+| Packages      | elm install |
 
 ## Rendering a page
 
@@ -41,7 +41,8 @@ elm make Main.elm --output elm.js
 Converting this to Elm:
 
 ```javascript
-let pluralize = (singular, plural, quantity) => quantity === 1 ? singular : plural;
+let pluralize = (singular, plural, quantity) =>
+  quantity === 1 ? singular : plural;
 ```
 
 ```elm
@@ -106,9 +107,9 @@ type alias Msg =
     }
 
 view : Model -> Html Msg
-view model = 
+view model =
 
--- 
+--
 update : Msg -> Model -> Model
 update msg model =
 ```
@@ -156,8 +157,8 @@ case model.tab of
 ```elm
 -- creates completely distinct values
 type Tab =
-    YourFeed 
-    | GlobalFeed 
+    YourFeed
+    | GlobalFeed
     | TagFeed
 
 yours : Tab
@@ -167,14 +168,14 @@ yours =
 -- Turning types into functions
 
 type Tab =
-    YourFeed 
-    | GlobalFeed 
+    YourFeed
+    | GlobalFeed
     | TagFeed String
 
 -- in the repl
 > TagFeed "Happiness"
 TagFeed "Happiness" : Tab
-> TagFeed 
+> TagFeed
 <function> : String -> Tab
 ```
 
@@ -291,4 +292,24 @@ Decode.succeed Metadata
    |> required "favorited" bool
    |> required "favoritesCound" int
    |> required "createdAt" Timestamp.iso8601Decoder
+```
+
+## Tuples
+
+Serve the same purpose as records but with field `positions` instead of names.
+
+There is a 3 limit max!
+
+```elm
+x = Tuple.first (5, 7)
+(name, x, y) = ("foo", 5, 7)
+
+x = { x = 5, y = 7 }.x
+{ name, x, y } = { name = "foo", x = 5, y = 7 }
+```
+
+## Http and interacting with servers
+
+```elm
+Http
 ```
