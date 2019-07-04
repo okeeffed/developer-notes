@@ -203,3 +203,92 @@ Containers | type Msg = ClickedPage Int | ...
 Variant Functions | onClick (ClickedPage pageNumber)
 
 ## Maybe Overview
+
+```elm
+-- List.head : List elem -> Maybe elem
+first users =
+    List.head users
+
+-- example case
+case first newUsers of
+    Just user ->
+        String.length user
+    Nothing ->
+        0
+```
+
+## Pipelines
+
+```elm
+List.head (List.map (List.reverse (List.filter (\x -> x < 5) [2, 4, 6])) negate)
+
+-- As pipeline
+[2, 4, 6]
+    |> List.filter (\x -> x < 5)
+    |> List.reverse
+    |> List.map negate
+    |> List.head
+```
+
+## Decoding JSON
+
+```elm
+-- Import to understand custom type
+type Result okVal errVal
+    = Ok okVal
+    | Err errVal
+
+-- similar to String.toint()
+case decodeString Json.Decode.int "42" of
+    Ok num ->
+        -- Do something with Int
+    Err error ->
+        -- Do something with the error
+
+type alias User =
+    { id : Int
+    , firstName : String
+    , lastName : String
+    }
+
+user : Decoder User
+user =
+    Json.Decode.succeed User
+        |> required "user_id" int
+        |> required "first_name" string
+        |> required "last_name" string
+
+-- Alternatively
+users : Decoder (List User)
+users =
+    list user
+```
+
+## Optional and Nullable
+
+```elm
+type alias User =
+    { id : Int
+    , name : Maybe String
+    , email : String
+    }
+
+user : Decoder User
+user =
+    Json.Decode.succeed User
+        |> required "user_id" int
+        |> required "name" (nullable string)
+        |> required "email" string
+```
+
+For an example that requires a list:
+
+```elm
+Decode.succeed Metadata
+   |> required "description" string
+   |> required "title" string
+   |> required "tagList" (list string)
+   |> required "favorited" bool
+   |> required "favoritesCound" int
+   |> required "createdAt" Timestamp.iso8601Decoder
+```
