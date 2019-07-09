@@ -8,3 +8,4 @@ storybook.js
 *.log
 nodemon.json
 ./index.js
+gitall
