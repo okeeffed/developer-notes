@@ -51,7 +51,7 @@ We can do this with `Opportunity Solution Trees`.
 
 ### How Opportunities Help Drive The Design Outcomes
 
-> "If the desired opportunity is to increase engagement, then the opportunities are 1) what are preventing customers today, and 2) for my customers engaging today, why are they doing it?"
+> "If the desired outcome is to increase engagement, then the opportunities are 1) what are preventing customers today, and 2) for my customers engaging today, why are they doing it?"
 
 ### Continuous Product Decisions
 
