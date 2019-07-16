@@ -12,6 +12,7 @@ name: Strategize
 - Core: Optimizing existing products for established markets. Draws on skills and assets the company already has in place and makes incremental changes to current products.
 - Adjacent: Leveraging something your company does well into a new space.
 - Disruptive: Solves a customer problem in a better, more convenient, cheaper way than alternatives.
+- Idea validation for Core to Disruptive is `low` to `high`.
 
 ### Customer Segments
 
@@ -60,3 +61,18 @@ name: Strategize
 
 - Unbundling features and introducing product variants can enable you to effectively grow the product, serve a new segment, generate more business benefits, and increase the product's competitiveness.
 - When spinning off features or developments, consider creating standards and assets — including components, services and other archtiectural building blocks.
+- You can also `bundle` your product when individual products are too small and not attractive enough to succeed on their own. Example: combining Internet Explorer and Windows helped Microsoft win the first "browser war".
+
+### Reposition Your Product
+
+- Subbranding is important: there are different associations with Apple, Google, Amazon when compared to the iPhone, Google Maps, Amazon Web Services.
+
+### Uncategorised notes
+
+- Use data to make decisions.
+- Turn failure into opportunity.
+- Get out of the building.
+- Focus on the biggest risk, not necessarily the technical feasibility.
+- Red-dot game: give everyone three dots and ask them to place it beside what they are most concerned about.
+- Problem interviews: structured conversations with target users and customers.
+- Pivoting is only attractive if you pivot early, when the cost of changing direction is comparatively low.
