@@ -20,3 +20,4 @@ All points come from different replies.
 - Now have processes in place for managing discovery activities.
 - They start with multiple ideas, clearly articulate how we believe they will deliver value and what risky assumptions underlie that belief. This provides us a framework to prove or disprove those assumptions and identify means of measuring the relative value these ideas deliver. Our value delivery is no longer tied to the success (or otherwise) of any particular idea.
 - Focusing on de-risking our assumptions has been really useful.
+- We’re interviewing customers almost every week (sometimes it doesn’t come together!), whether that be exploratory interviewing or running more evaluative experiments with specific solutions. Our knowledge of our customers’ wants, needs, pain points, and jobs has increased. You hear customer anecdotes thrown around casually from different members of the team now, which is great.

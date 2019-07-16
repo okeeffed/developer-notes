@@ -9,7 +9,7 @@ Source link: https://medium.com/@steve_mullen/an-introduction-to-lean-canvas-5c1
 
 ## Intro
 
-The `Lean Canvas` helps to quickly formulate possible business models, product launches, campiagns and variations of, and communicate this with stakeholders.
+The `Lean Canvas` helps to quickly formulate possible business models, product launches, campaigns and variations of, and communicate this with stakeholders.
 
 It is an enabler for a effectively "communicating the model/idea".
 
