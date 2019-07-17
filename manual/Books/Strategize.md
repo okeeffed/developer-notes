@@ -7,7 +7,7 @@ name: Strategize
 
 ## Rough Notes
 
-### Core, Adjacent and Disruptive innovations:
+### Core, Adjacent and Disruptive Innovations:
 
 - Core: Optimizing existing products for established markets. Draws on skills and assets the company already has in place and makes incremental changes to current products.
 - Adjacent: Leveraging something your company does well into a new space.
@@ -76,3 +76,35 @@ name: Strategize
 - Red-dot game: give everyone three dots and ask them to place it beside what they are most concerned about.
 - Problem interviews: structured conversations with target users and customers.
 - Pivoting is only attractive if you pivot early, when the cost of changing direction is comparatively low.
+- Timebox: fixed period of time that cannot be extended.
+
+## Product Roadmap
+
+- Roadsmaps translate strategic decisions into actionable plans that provide direction for the dev team and the other stakeholders.
+
+### Roadmap Foundations
+
+- In the simplesrt form, the roadmap indicates how a product is likely to evolve with major releases.
+- Can be feature-based or goal-orientated.
+- Best roadmapping approach for product depends on amout of uncertainty and change present.
+  - Matrix to help has X axis Market vs Y Axis Product.
+  - Product grouped as young/mature.
+  - Market grouped as dynamic/stable.
+  - Feature-based roadmaps only useful for mature/stable, else goal-orientated.
+- Get a relationship between the backlog and product roadmap right.
+
+### Road-Mapping Pitfalls
+
+- No guarantee: roadmaps are a high-level plan.
+- No speculation: Don't create a roadmap if you don't have a valid product strategy available.
+- No epics or user stories. (FYI Epics are longer narratives that contain multiple stories.)
+- Make roadmap SMART (specific, measureable, agreed, realistic, time-bound).
+
+### GO Product Roadmap
+
+- Spreadsheet consisting of:
+  - Dates/time frames
+  - Release names
+  - Reason for new release
+  - High-level features necessary to meet the goals
+  - Metrics to determine if the goals have been met
