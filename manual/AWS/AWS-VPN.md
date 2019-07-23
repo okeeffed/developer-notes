@@ -5,6 +5,34 @@ name: AWS VPN
 
 # AWS VPN
 
+Next in the series is `AWS-Transit-Gateway.md`.
+
+## tl;dr
+
+### For AWS VPN Services
+
+- AWS Client VPN uses OpenVPN client software
+- AWS Client VPN provides secure access to any AWS and on-premises resources from anywhere using OpenVPN client software
+- AWS Client VPN integrates with existing infrastructure services, like AWS Directory Services
+- Software based VPN solutions run on an Amazon EC2 instance and can be used to create a transit VPC solution
+- Transit VPCs can be created using software VPNs between VPCs and on-premises networks
+- Transit VPCs allow transitive routing between on-premises and AWS VPCs
+
+### For Site-to-Site VPN
+
+- Routes can be managed statically or dynamically using BGP
+- The VGW utilizes and AWS provided BGP ASN, but private ASNs are available
+- Two tunnels are created supporting IPSec and IKE, for secure comms
+- CW is a single point of failure, unless redundantly implemented
+- Review route priorities
+- CloudHub creates a spoke-hub architecture that allows multiple S2S VPNs to connect to a single VGW. VPNs can communication with the VPC and other connected VPNs if proper routes exist
+- There is a hard limit of 100 BGP route advertisements per route table. Use route summarization if you have more than 100 prefixes. Static routes are limited to 50 per route table
+- Ensure you advertising no more than 100 routes for a private VIF, and no more than 1000 for a public VIF
+- Routes may be influenced using BGP features like `AS_Path` prepending and Multi-Exit Discriminator (MED)
+- VPN connection is not active until traffic is generated from the customer side of the VPN connection. To keep the tunnel active initiaite regular traffic, i.e. ICMP pinging. The tunnel will close if idle for more than 10 seconds
+- A /30 CIDR block from the 169.254.0.0/16 range for use inside the VPN tunnel
+- For HA, implement redundant CWs and use BGP for routing.
+
 ## Definitions
 
 - IPSec: Also known as Internet Protocol Security, is a security architecture for IP network traffic. IPSec defines the framework for security at the IP layer, and the protocols that provide that security via authentication and encryption of packets. IPSec also defines the algorithms used to encrypt and decrypt packets.
@@ -137,29 +165,3 @@ Connected VPNs may access the VPC via the VGW, and other connected VPNs as well.
 Transit VPCs build upon software VPNs, and make it possible to connect multiple geographically dispersed VPCs and remote networks. This strategy allows for transitive routing between the member VPCs, the Transit VPC, and the on-premises environment.
 
 ![Transit VPC](https://res.cloudinary.com/gitgoodclub/image/upload/v1563921304/developer-notes/Screen_Shot_2019-07-24_at_8.34.40_am.webp)
-
-## Key VPN Facts
-
-### For AWS VPN Services
-
-- AWS Client VPN uses OpenVPN client software
-- AWS Client VPN provides secure access to any AWS and on-premises resources from anywhere using OpenVPN client software
-- AWS Client VPN integrates with existing infrastructure services, like AWS Directory Services
-- Software based VPN solutions run on an Amazon EC2 instance and can be used to create a transit VPC solution
-- Transit VPCs can be created using software VPNs between VPCs and on-premises networks
-- Transit VPCs allow transitive routing between on-premises and AWS VPCs
-
-### For Site-to-Site VPN
-
-- Routes can be managed statically or dynamically using BGP
-- The VGW utilizes and AWS provided BGP ASN, but private ASNs are available
-- Two tunnels are created supporting IPSec and IKE, for secure comms
-- CW is a single point of failure, unless redundantly implemented
-- Review route priorities
-- CloudHub creates a spoke-hub architecture that allows multiple S2S VPNs to connect to a single VGW. VPNs can communication with the VPC and other connected VPNs if proper routes exist
-- There is a hard limit of 100 BGP route advertisements per route table. Use route summarization if you have more than 100 prefixes. Static routes are limited to 50 per route table
-- Ensure you advertising no more than 100 routes for a private VIF, and no more than 1000 for a public VIF
-- Routes may be influenced using BGP features like `AS_Path` prepending and Multi-Exit Discriminator (MED)
-- VPN connection is not active until traffic is generated from the customer side of the VPN connection. To keep the tunnel active initiaite regular traffic, i.e. ICMP pinging. The tunnel will close if idle for more than 10 seconds
-- A /30 CIDR block from the 169.254.0.0/16 range for use inside the VPN tunnel
-- For HA, implement redundant CWs and use BGP for routing.
