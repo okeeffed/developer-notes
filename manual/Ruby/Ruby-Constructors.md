@@ -7,6 +7,72 @@ menu: Ruby
 
 The important constructor method is the `initialize` method.
 
+## tl;dr
+
+```ruby
+class Employee
+
+  # change scope to public
+  public
+
+  # static class variable
+  @@count = 0
+
+  # constructor
+  def initialize(name, designation, salary)
+    @name = name
+    @designation = designation
+    @salary = salary
+    @@count += 1
+  end
+
+  # class method
+  def self.count
+    @@count
+  end
+
+  # getters/setters for name, designation, and salary
+  def name
+    @name
+  end
+
+  def name=(name)
+    @name = name
+  end
+
+  def designation
+    @designation
+  end
+
+  def designation=(designation)
+    @designation = designation
+  end
+
+  def salary
+    @salary
+  end
+
+  def salary=(salary)
+    @salary = salary
+  end
+
+  # change scope to private
+  private
+
+  def organization
+    "Hackers de Anonymous"
+  end
+
+  # change scope to protected
+  protected
+
+  def owner
+    "We never mention his name!"
+  end
+
+end
+```
+
 ## Simple Example
 
 ```ruby
