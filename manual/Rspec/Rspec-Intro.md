@@ -7,6 +7,8 @@ name: Intro to RSpec
 
 ## tl;dr
 
+Helpful link for `rails` testing [here](https://medium.com/@lcriswell/rails-api-request-specs-with-rspec-effeac468c4e).
+
 Ensure `rspec` gem installed.
 
 ```ruby
