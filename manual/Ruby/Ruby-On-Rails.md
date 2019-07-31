@@ -7,16 +7,19 @@ name: Ruby On Rails
 
 ## tl;dr
 
-### Decent Exposure
+### Installation
 
-A popular Rails gem helper for creating declarative interfaces in controllers. [Link here](https://github.com/hashrocket/decent_exposure).
+`sudo gem install rails (-v 2.3.8)`
 
-```ruby
-class ThingsController < ApplicationController
-  # all the follpowing do the same way
-  expose :thing, fetch: ->{ get_thing_some_way_or_another }
-  expose(:thing){ get_thing_some_way_or_another }
-  expose :thing, ->{ get_thing_some_way_or_another }
-  expose :thing, :get_thing_some_way_or_another
-end
+Or use `rvm` or `asdf`. Follow those instructions from their respective sites.
+
+### Up and Running
+
+```shell
+rails new [project-name]
+cd [project-name]
+bundle install # may need to `bundle update`
+rails server # start the server
 ```
+
+## Hello World
