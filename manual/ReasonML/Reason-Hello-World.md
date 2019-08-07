@@ -38,7 +38,7 @@ node src/Demo.bs.js
 
 | JavaScript                                            | Reason                                         |
 | ----------------------------------------------------- | ---------------------------------------------- |
-| `true`, `false`                                       | Same                                |
+| `true`, `false`                                       | Same                                           |
 | `!true`                                               | Same                                           |
 | <code>&#124;&#124;</code>, `&&`, `<=`, `>=`, `<`, `>` | Same                                           |
 | `a === b`, `a !== b`                                  | Same                                           |
@@ -99,32 +99,25 @@ node src/Demo.bs.js
 
 ### Blocks
 
-<table>
-  <thead>
-    <tr>
-      <th>JavaScript</th>
-      <th>Reason</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>
-  <pre><code>const myFun = (x, y) => {
+JavaScript:
+
+```javascript
+const myFun = (x, y) => {
   const doubleX = x + x;
   const doubleY = y + y;
-  return doubleX + doubleY
-};</code></pre>
-      </td>
-      <td>
-  <pre><code>let myFun = (x, y) => {
+  return doubleX + doubleY;
+};
+```
+
+Reason:
+
+```reason
+let myFun = (x, y) => {
   let doubleX = x + x;
   let doubleY = y + y;
   doubleX + doubleY
-};</code></pre>
-      </td>
-    </tr>
-  </tbody>
-</table>
+};
+```
 
 ### Currying
 
@@ -136,10 +129,10 @@ Both JavaScript and Reason support currying, but Reason currying is **built-in a
 
 ## If-else
 
-| JavaScript            | Reason                                                          |
-| --------------------- | --------------------------------------------------------------- |
-| `if (a) {b} else {c}` | Same \*                                                         |
-| `a ? b : c`           | Same                                                            |
+| JavaScript            | Reason                                             |
+| --------------------- | -------------------------------------------------- |
+| `if (a) {b} else {c}` | Same \*                                            |
+| `a ? b : c`           | Same                                               |
 | `switch`              | `switch` but [super-powered!](pattern-matching.md) |
 
 \* Reason conditionals are always expressions!
@@ -175,9 +168,9 @@ Both JavaScript and Reason support currying, but Reason currying is **built-in a
 
 ## Exception
 
-| JavaScript                                      | Reason                                     |
-| ----------------------------------------------- | ------------------------------------------ |
-| `throw new SomeError(...)`                      | `raise(SomeError(...))`                    |
+| JavaScript                                | Reason                                       |
+| ----------------------------------------- | -------------------------------------------- |
+| `throw new SomeError(...)`                | `raise(SomeError(...))`                      |
 | `try {a} catch (Err) {...} finally {...}` | <code>try (a) { &#124; Err => ...}</code> \* |
 
 \* No finally.
@@ -186,32 +179,25 @@ Both JavaScript and Reason support currying, but Reason currying is **built-in a
 
 In Reason, "sequence expressions" are created with `{}` and evaluate to their last statement. In JavaScript, this can be simulated via an immediately-invoked function expression (since function bodies have their own local scope).
 
-<table>
-  <thead>
-    <tr>
-      <th>JavaScript</th>
-      <th>Reason</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>
-  <pre><code>let res = (function() {
-  const x = 23;
-  const y = 34;
-  return x + y;
-})();</code></pre>
-      </td>
-      <td>
-  <pre><code>let res = {
-  let x = 23;
-  let y = 34;
-  x + y
-};</code></pre>
-      </td>
-    </tr>
-  </tbody>
-</table>
+JavaScript:
+
+```javascript
+const myFun = (x, y) => {
+  const doubleX = x + x;
+  const doubleY = y + y;
+  return doubleX + doubleY;
+};
+```
+
+Reason:
+
+```reason
+let myFun = (x, y) => {
+  let doubleX = x + x;
+  let doubleY = y + y;
+  doubleX + doubleY
+};
+```
 
 ## Comments
 

@@ -11,6 +11,8 @@ name: psql tips
 
 ## tl;dr
 
+Connect with `psql --user=postgres --host=0.0.0.0 --port=5432`.
+
 | Command            | Action                          |
 | ------------------ | ------------------------------- |
 | \c dbname username | Change to database              |
