@@ -86,3 +86,71 @@ iex> name = "Sean"
 iex> "Hello " <> name
 "Hello Sean"
 ```
+
+## Pattern Matching
+
+### Match Operator
+
+```shell
+# Assignment
+iex> x = 1
+1
+# Pattern matching
+iex> 1 = x
+1
+iex> 2 = x
+** (MatchError) no match of right hand side value: 1
+
+# Lists
+iex> list = [1, 2, 3]
+iex> [1, 2, 3] = list
+[1, 2, 3]
+iex> [] = list
+** (MatchError) no match of right hand side value: [1, 2, 3]
+
+iex> [1 | tail] = list
+[1, 2, 3]
+iex> tail
+[2, 3]
+iex> [2 | _] = list
+** (MatchError) no match of right hand side value: [1, 2, 3]
+
+# Tuples
+iex> {:ok, value} = {:ok, "Successful!"}
+{:ok, "Successful!"}
+iex> value
+"Successful!"
+iex> {:ok, value} = {:error}
+** (MatchError) no match of right hand side value: {:error}
+```
+
+### Pin Operator
+
+```shell
+iex> x = 1
+1
+iex> ^x = 2
+** (MatchError) no match of right hand side value: 2
+iex> {x, ^x} = {2, 1}
+{2, 1}
+iex> x
+2
+```
+
+An example of pinning in a function clause:
+
+```shell
+iex> greeting = "Hello"
+"Hello"
+iex> greet = fn
+...>   (^greeting, name) -> "Hi #{name}"
+...>   (greeting, name) -> "#{greeting}, #{name}"
+...> end
+#Function<12.54118792/2 in :erl_eval.expr/5>
+iex> greet.("Hello", "Sean")
+"Hi Sean"
+iex> greet.("Mornin'", "Sean")
+"Mornin', Sean"
+iex> greeting
+"Hello"
+```
