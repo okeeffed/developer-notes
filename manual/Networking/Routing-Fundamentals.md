@@ -59,3 +59,12 @@ For these addresses:
 
 - (IPv4) 0.0.0.0
 - (IPv6) ::
+
+## Global Networks and Routing
+
+Types of networks:
+
+- Personal Area Network (PAN): Smallest and simplest network type. Generally consists of one or more people connected through a single device.
+- Local Area Network (LAN): One of the most common network types. Local Area Networks consists of multiple computers and devices that are connected at a single site. These networks facilitate communication between devices and shared resources such as storage.
+- Metropolitan Area Network (MAN): This type of network is spread across a small area or region, such as a city or college campus. A MAN is a much more complex network and can be used to connect multiple LANs. The administration of a MAN may be handled by individuals or a company (ie ISP).
+- Wide Area Network (WAN): A WAN is a network that spans a large geographical area. WANs are used to connect multiple LANs over huge distances - the greatest example is the internet. LANs connect to a WAN via a router, which permits the use of private IP addresses on the LAN and a public-facing address (or addresses) on the WAN. This is all made possible by Network Address Translation (NAT).
