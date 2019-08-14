@@ -82,3 +82,30 @@ TCP 'rides' on top of Internet Protocol (IP) in the protocol stack, which is why
 - Checksum: 16-bit checmsum field that is used to check for errors in the entire TCP segment (header, payload, etc)
 - Urgent Pointer: A 16-bit field that flags data that needs to reach the destination as early as possible. This field is only valid if the URG control flag is set.
 - Options and Padding: A 32-bit field that allows you to configure additional options for the TCP segment (eg maximum segment size). Padding (made up of zeroes) may be required to ensure that the header ends and the data begins on a 32-bit boundary
+
+## User Datagram Protocol (UDP)
+
+Simple, high-speed communication protocol that does not conduct error checks or retransmit data segments that fail to arrive at their destination.
+
+UDP is a message-orientated protocol, meaning it breaks data up into distinct chunks or groups (unlike stream-orientated protocols, which transmit data in a continuous flow, byte by byte). UDP preserves the boundaries of the messages that it receives from applications; it does not break down data before sending it (unlike TCP).
+
+Messages are simply given a UDP header and then passed on. Another difference between UDP and TCP is that UDP is a connectionless protocol. UDP does not create a connection with the receiving device; it simply transmits the data to the end point.
+
+This lack of connection, combined with thelack of error checking/control, makes UDP an unreliable means of transmission. Although it is less reliable than TCP, UDP is much faster at transmitting data, due to the lack of overhead. This faster transmission speed is preferred in applications that can tolerate some data loss (eg VoIP, online gaming, etc).
+
+## UDP Functions and Services
+
+- Connectionless protocol
+- Message-oriented protocol
+- Preserves message boundaries
+- Does not require acknowledgement that data is received (fire and forget)
+- Applications can provide reliability
+- Low bandwidth overhead and latency
+- Used for simple transactions (eg DNS and NTP)
+
+## UDP Header Format
+
+- Source port number: specifies sender port (optional in IPv4 and IPv6)
+- Destination port number: receiver port
+- Length: Specifies length of header and data
+- Checksum: Used to perform error checking on the header and data (optional with IPv4, required in IPv6)
