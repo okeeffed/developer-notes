@@ -109,3 +109,7 @@ This lack of connection, combined with thelack of error checking/control, makes 
 - Destination port number: receiver port
 - Length: Specifies length of header and data
 - Checksum: Used to perform error checking on the header and data (optional with IPv4, required in IPv6)
+
+## The Internet Protocol (IP)
+
+Provides addressing and routing that allows data to be sent across one or more networks.
