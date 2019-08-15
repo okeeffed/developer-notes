@@ -124,3 +124,88 @@ Routing: Besides addressing, routing is one of the main functions of the IP. Rou
 - Routing protocols (eg OSPF, BGP, etc)
 - Routing algorithms (IP forwarding algorithm)
 - Next hop
+
+## Simple Network Management Protocol (SNMP)
+
+Used for monitoring and managing a wide array of devices on a network.
+
+An SNMP-managed network consists of the Network Management System (NMS) which runs on the manager, agents, which run on network devices, and the network devices themselves (known as "managed devices").
+
+Most network devices support SNMP, but the protocol and the agent that runs on a managed device must be enabled. Agents collect information about the device and then pass it to the manager.
+
+Some Network Management Systems let you change device configurations, which is helpful when managing a large-scale network that includes many devices. In short, SNMP provides a common language and set of standards that enables network devices - regardless of type and manufacturer - to relay management information.
+
+## Components of an SNMP-Managed Network
+
+- Managed devices or resources
+- SNMP agent
+- SNMP manager (Network Management System)
+- Management Information Base (MIB)
+  - Object Identifier (OID): Unique ID for objects stored in the MIB.
+  - Structure of Management Information (SMI): Establishes naming conventions, definitions, and ecnoding methods for objects in the MIB.
+  - Scalar Object: Defines a single object instance
+  - Tabular Object: Defines multiple related obkects that are grouped into an MIB table
+  - MIB Browser: Helps with locating non-standard, specific objects in the MIB
+
+## SNMP PDU Types
+
+- GetRequest
+- SetRequest
+- GetNextRequest
+- GetBulkRequest (added in v2)
+- Response
+- Trap
+- InformRequest (added in v2)
+
+## Domain Name System (DNS)
+
+DNS maps domain names to their corresponding IP addresses. The system consists of a server or group of servers that stores information witin a database (typically "zone file" - structured text file).
+
+Clients query these servers with requests to access specific domains or addresses, and their requests are directed to the intended destination.
+
+The DNS hierarchy starts with root name servers, which contain information about top-level domains (TLDs) like ".com", and continues down to the authoritative name servers for a particular domain.
+
+Information is distributed across these hierarchy levels in order to reduce the load on the root name servers and adapt to the ever-changing internet landscape.
+
+## Resource Record (RR)
+
+Resource record is an entry in a DNS database that provides information about a particular resource. Groups of resource records of the same type are called an "RRset".
+
+Resource records follow a common format that provides information about each record:
+
+- NAME: The name of the associated node for the record.
+- TYPE: The type of record (indicated by a number).
+- CLASS: Defines the protocol family that is used for the record.
+- TTL (time to live): Specifies how long a resource record will be cached.
+- RDLENGTH: Specifies the length of the RDATA field.
+- RDATA: Contains any type-specific data defined in the TYPE and CLASS fields.
+
+## DNS Record Types
+
+- SOA (Statement of Authority): Gives info about DNS zone and other DNS records.
+- A/AAAA (Address): Maps a domain or subdomain name to an IP address (or IPv6 address, in the case of the AAAA record).
+- MX (Mail Exchanger): Directs email to a particular mail server.
+- NS (Name Server): Usually set with a registrar, delegates a domain or subdomain to a set of DNS servers.
+- PTR (Pointer): Performs a reverse lookup, which maps an IP address to a hostname or domain name.
+- CNAME (Canonical Name): Redirects one domain to another and allows multiple names to map to a single A record.
+- CERT (Certificate): Stores certificates in DNS, which provides authenticity for domain names.
+- TXT (Text): Contains information about a domain or subdomain.
+- SRV (Service): Provides ability to define a port and hostname for a service.
+
+## Dynamic Host Configuration Protocol (DHCP)
+
+The Dynamic Host Configuration Protocol (DHCP) automatically and dynamically assigns IP addresses and other network configurations to devices on an IP network.
+
+DHCP operates on a client-server model, which allows network devices (clients) to reach out to a DHCP server to obtain their IP config.
+
+These requests are made in conjuction with the connectionless User Datagram Protocol (UDP), which provides fast and efficient communication.
+
+With a growing number of devices connected to the internet (each one requiring a unique IP address), it's becoming increasingly difficult to manage the assignment of IP addresses. It's one of the reasons that DHCP is so important.
+
+It automates the process of assigning IP addresses, eliminating the need to manually assign individual IP addresses to each device.
+
+### DHCP Allocation
+
+- Dynamic: IP addresses are assigned to DHCP clients for a specific time period and can be repurposed after the time period runs out.
+- Automatic: IP addresses are permanently assigned to DHCP clients and cannot be repurposed.
+- Manual (or Static): IP addresses are issued based on a client ID (such as a MAC address) that has been predefined by the administrator.
