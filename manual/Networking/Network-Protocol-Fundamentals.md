@@ -367,3 +367,72 @@ Port 22 on both SSH clients.
 - Payload: The actual data sent by the user
 - Random padding: The random bytes added to ensure that the message is a multiple of the block size used by the encryption algorithm (will be at least four)
 - Message Authentication Code (MAC): This field is present if the Mesage Authentication Code has been negotiated for a the session (strongly recommended but not required)
+
+### Telnet (Terminal Network)
+
+Allows users to access a remote host via a text-based interface (eg the command line). Telnet provides two-way communication through a virtual terminal. Although it is still in use today, Telnet has largely been replaced by more secure forms of remote login and communication (eg SSH).
+
+### PuTTY
+
+Open-source application that supports multiple network protocols (eg SSH, SCP, Telnet) and was originally developed for Windows. This application provides Windows-based computers an SSH client that allows them to copy files and perform remote logins from Linux hosts.
+
+### Remote Desktop Protocol (RDP)
+
+Provides a graphical interface and input capabilities for accessing remote hosts over a network. Although it was originally developed by Microsoft, there are now clients for most other operating systems.
+
+## Email Protocols
+
+Establishes the set of rules and standards that allow email to be transferred between two hosts. These include protocols that are used for sending emails (eg SMTP) and protocols that are responsible for accessing or downloading emails (IMAP and POP3).
+
+The request to send an email goes to the sender's mail server, which is responsible for transmitting the email to the recipient's mail server.
+
+Depending on the protocol that is being implemented, the email will either be downloaded to the recipient's local machine or stored on the mail server.
+
+### Simple Mail Transfer Protocol (SMTP)
+
+The Simple Mail Transfer Protocol (SMTP) is the standard protocol for sending emails via the internet. SMTP is a simple, text-based protocol, meaning that its content is in a human-readable format (unlike binary protocols). Although SMTP is the standard protocol for sending emails, it cannot be used to receive messages.
+
+### Basic SMTP Commands
+
+- HELO: Identifies the client and begins the SMTP conversation
+- MAIL FROM: Specifies the sender's email address
+- RCTP TO: Specifies the recipient's email address
+- QUIT: Requests that the connection be closed
+- DATA: Signals the beginning of the message text and includes the message content (header and body)
+
+### Post Office Protocol v3 (POP3)
+
+A standard mail protocol that is used to fetch emails from a remote server to a local email client. POP3 protocol enables the client to download emails from the mail server to a local computer.
+
+- USER: Specifies the client's username
+- PASS: Specifies the client's password
+- STAT: Requests the number and size of messages
+- LIST: Displays a summary of the messages
+- RETR: Retrieves the specified messages
+- DELE: Deletes the specified messages
+- QUIT: Closes the connection
+
+### Internet Message Access Protocol (IMAP)
+
+IMAP is used to access emails stored on a remote mail server from a local client. Unlike POP3, IMAP allows the user to interact with emails directly on the mail server in addition to downloading them locally. This allows multiple clients to access the same message stores.
+
+### Basic IMAP Commands
+
+- LOGIN: Log in with the client username and password
+- LIST: List mailboxes and folders
+- CREATE: Create a mailbox
+- DELETE: Delete a mailbox
+- RENAME: Rename a folder or mailbox
+- FETCH: Retrieve message content
+- SEARCH: Search the mailboxes for messages that meet the search criteria
+- LOGOUT: Close the connection with the mail server
+
+### IMAP Features
+
+- Supports concurrent client access
+- Supports multiple mailboxes
+- Supports shared mailboxes
+- Provides mailbox management
+- Provides sort and search capabilities
+- Allows messages to be downloaded on demand
+- Provides message state information
