@@ -216,3 +216,154 @@ It automates the process of assigning IP addresses, eliminating the need to manu
 2. DHCPOFFER (server to client)
 3. DHCPREQUEST (client to server)
 4. DHCPACK (server to client)
+
+## File Transfer Protocol (FTP)
+
+Used to transport files between a client and server over a network via TCP. In addition to file transfers, FTP also enables clients to run command on the files and directories hosted by a server.
+
+```shell
+    random port 1 == control connection ==> port 21
+FTP CLIENT                                      FTP SERVER
+    random port 2 <== data connection == (active) Port 20
+```
+
+### Communication Channels
+
+- Control Connection: handles control information
+- Data Connection: Handles the tranfer of the actual file
+
+### Transfer Modes
+
+- Active: The client opens a command/control connection to the server from a random port to port 21 on the server. The server opens a data connection from port 20 to a random port on the client.
+- Passive: The client opens a command/control connection to the server from a random port to port 21 on the server. Client opens a data connection from a random port on the client to a random port on the server (port chosen by server).
+
+### FTP Command Examples
+
+- RETR: Retrieves a copy of a file
+- PASS: Sends the user's password to the server
+- MKD: Creates a directory
+- LIST: Lists the files of a directory
+- QUIT: Closes the connection
+
+### FTP Reply Examples
+
+- 200: Command okay
+- 530: Not logged in
+- 503: Bad sequence of commands
+- 430: Invalid username or password
+- 213: File status
+
+### Anonymous FTP
+
+- Files are available for public access
+- Access is limited
+- Username and password are not required
+
+### File Transfer Protocol Secure (FTPS)
+
+Adds a layer of security to the FTP connection by applying the Transport Layer Security (TLS) protocol. This security can be applied to both the command and data connections, or jsut to the data connection. TLS can be applied by requiring a user ID and password, a valid certificate, or both.
+
+### SSH File Transfer Protocol (SFTP)
+
+Unlike FTPS, SFTP is a completely different protocol that is based on the SSH protocol. SFTP uses a single connection instead of the two connections - command and data - that are implemented by FTP/FTPS. SFTP improves security by using encrypted credentials (username and password) and can be further secured by requiring SSH keys.
+
+### Secure Copy Protocol (SCP)
+
+SCP is another network protocol used for transferring files and, like SFTP, is based on the SSH protocol. SCP is also a program that can be used to securely copy files with the Secure Copy Protocol. The SCP process functions in one of the two modes:
+
+1. Source Mode: Client copies file from a remote host.
+2. Sink Mode: Client sends a copy of a file to a remote host.
+
+## Network File System (NFS)
+
+Implements a client-server model that allows multiple hosts (clients) to attach to shared file systems and storage provided by the NFS server.
+
+## Internet Small Computer Systems Interface (iSCSI)
+
+Network storage protocol that provides access to bloc-level storage devices between a client and a server by enabling SCSI command to be sent over a network.
+
+### iSCSI Naming and Addressing
+
+IQN (iSCSI Qualified Name): The IQN is a unique name that identifies an iSCSI node.
+
+The IQN takes the following format: iqn.yyyy-mm.naming_authority:unique_name.
+
+- "iqn"
+- yyyy-mm: The month and year that the naming authority was established
+- naming_authority: The domain name of the naming authority (typically in reverse syntax)
+- unique_name: A unique name chosen by the admin
+
+## Server Message Block (SMB)
+
+Used primarily by Windows-based computers and allows files, printers and serial ports to be shared over a network. SMB is a request-response protocol, meaning a client sends an SMB request to a server and then the server sends an SMB response to the client.
+
+### SMB Message Structure
+
+- Header (fixed length)
+- Parameter block (variable length)
+- Data block (variable length)
+
+### Common Internet File System (CIFS)
+
+- File-sharing protocol
+- Implementation of SMB
+- Has been made obsolete by newer versions of SMB
+
+### Samba
+
+- Collection of software based on the SMB protocol
+- Follows a client-server model
+- Provides several network-related services:
+  - File and print sharing
+  - Authentication and authorization
+  - Name resolution
+  - Service announcement (browsing)
+- Allows Linux/Unix servers to integrate into a Windows environment
+
+## Secure Shell Protocol
+
+SSH is a cryptographic protocol that establishes a secure connection between a client and a server that enables users to perform various network-related tasks (eg remote login, remote command execution).
+
+### Session Steps
+
+Port 22 on both SSH clients.
+
+1. Establish secure connection
+2. Authenticate server
+3. Authenticate client
+4. Encrypted session
+
+### Service and Functions
+
+- Remote login
+- Remote command execution
+- Forwards TCP ports
+- Tunneling
+- Provides graphical interfaces through X11
+- Transfer files through SFTP or SCP
+
+### SSH Architecture Layers
+
+- Transport layer
+  - Key exchange
+  - Encryption
+  - Message Authentication Code (MAC)
+  - Compression
+- User authentication layer
+  - Username/password
+  - Public keys
+- Connection layer
+
+### SSH Encryption
+
+- Symmetrical
+- Asymmetrical
+- Hashing
+
+### SSH Message Format
+
+- Length: The length of the message in bytes
+- Padding length: The number of random bytes added to the end of the message
+- Payload: The actual data sent by the user
+- Random padding: The random bytes added to ensure that the message is a multiple of the block size used by the encryption algorithm (will be at least four)
+- Message Authentication Code (MAC): This field is present if the Mesage Authentication Code has been negotiated for a the session (strongly recommended but not required)
