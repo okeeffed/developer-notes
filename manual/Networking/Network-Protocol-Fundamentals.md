@@ -209,3 +209,10 @@ It automates the process of assigning IP addresses, eliminating the need to manu
 - Dynamic: IP addresses are assigned to DHCP clients for a specific time period and can be repurposed after the time period runs out.
 - Automatic: IP addresses are permanently assigned to DHCP clients and cannot be repurposed.
 - Manual (or Static): IP addresses are issued based on a client ID (such as a MAC address) that has been predefined by the administrator.
+
+### DHCP Operation
+
+1. DHCPDISCOVER (client to server)
+2. DHCPOFFER (server to client)
+3. DHCPREQUEST (client to server)
+4. DHCPACK (server to client)
