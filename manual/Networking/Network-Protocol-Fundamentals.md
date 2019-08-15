@@ -436,3 +436,22 @@ IMAP is used to access emails stored on a remote mail server from a local client
 - Provides sort and search capabilities
 - Allows messages to be downloaded on demand
 - Provides message state information
+
+## Hypertext Transfer Protocol (HTTP)
+
+Foundational protocol for accessing and transferring data on the World Wide Web. HTTP allows users to retrieve HTML (Hypertext Markup Language) filesm which contain hyperlinks to other hypertext documents. Hyperlinks are clickable resources that link users to resources located on different websites, which are identified by their URL (Uniform Resource Locator).
+
+### HTTP Function and Features
+
+- Connectionless
+- Stateless
+- Human-readable
+- Media independent
+- Client-server model
+- Request-response model
+
+### Components
+
+- Web Client: Application that enables user to send HTTP requests to an HTTP server. Most common type of web (or HTTP) client is a web browser
+- Web Server: The term "web server" can refer to either the physical (or virtual) machine that hosts the web server software, or to the software itself. The web server software - an HTTP server - handles HTTP requests and delivers web pages to clients. These resources are requested when the client supplies a URL, which contains a path to the specified resource. The HTTP server is configured to map specific paths to specific resources.
+- Web Proxy: Intermediary between a client and the open internet. Proxy server receives HTTP requests and then makes those requests on behalf of the client. In addition to serving as a proxy for client requests to the open internet, the proxy server can also be used to intercept requests before they reach a web server (reverse proxy).
