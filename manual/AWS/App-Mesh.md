@@ -135,3 +135,38 @@ Also the benefits of IAM.
   - Cookie-based (coming)
   - Host-based (coming)
   - Protocols support (HTTP, TCP, gRPC (coming))
+
+## Load Balancer vs App Mesh
+
+Ingress & egress traffic between your microservices inside your security-controlled boundary (via App Mesh).
+
+## App Mesh concepts
+
+Create and manage these in App Mesh API, CLI, SDK, CDK or AWS Management Console.
+
+| Term                      | Definition                                                                                            |
+| ------------------------- | ----------------------------------------------------------------------------------------------------- |
+| Mesh                      | Entire communication boundary of your app                                                             |
+| Virtual node              | Represent versions of a service that can interact                                                     |
+| Virtual router and routes | Model communication required between services                                                         |
+| Virtual service           | Represents the actual service - provided by a virtual node or indirectly by means of a virtual router |
+
+For Proxies, Services and Service Discovery: Configure and run proxies and services on Amazon ECS, Fagate, Amazon EKS, Amazon EC2.
+
+Service discovery happens with AWS Cloud Map (resource discovery service).
+
+## Virtual Node
+
+There are three parts to the virtual node:
+
+1. Listeners: Policies to handle incoming traffic.
+2. Service Discovery: Describes how its callers can locate this node (DNS hostname or AWS Cloud Map namespace, serviced and selectors, registers the node) - tells proxy how to reach microservice.
+3. Backends: Set of destinations that this node will communicate with (hostnames). By default, no egress traffic is not allowed from one node to any other node.
+
+## Virtual Router
+
+Map to a set of services names or nodes.
+
+Traffic is routed based on a weighting and a path.
+
+The `Service Name` is the name that clients will use to connect to the service.
