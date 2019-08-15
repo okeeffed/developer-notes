@@ -113,3 +113,14 @@ This lack of connection, combined with thelack of error checking/control, makes 
 ## The Internet Protocol (IP)
 
 Provides addressing and routing that allows data to be sent across one or more networks.
+
+Data broken up into smaller units called "packets". Each packet is supplied with header information that contains the addresses of both source and destination.
+
+Several network devices help facilitate the flow of traffic (NICs, switches, routers, etc) but would be useful without the agreed-upon standards set by the IP. This protocol provides a common foundation that lets computers and other network devices communicate over local networks and the open internet.
+
+Routing: Besides addressing, routing is one of the main functions of the IP. Routing is used to forward IP packets across multiple networks between a source and a destination. When an IP packet needs to be sent, a router uses a routing algorithm and the information in its routing table to determine where to send the packet next. Each router that the packet travels through is called a "hop".
+
+- Routing table
+- Routing protocols (eg OSPF, BGP, etc)
+- Routing algorithms (IP forwarding algorithm)
+- Next hop
