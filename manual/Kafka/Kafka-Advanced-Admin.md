@@ -91,3 +91,21 @@ One of the brokers in the Kafka cluster is established as a consumer group coord
 This broker is also responsible for making the appropriate adjustments when a consumer fails or a new consumer joins the group.
 
 Example could be that the first consumer reads messages on brokers 1 & 3 while another consumer reads from broker 2. Broker 3 coordinates all of this.
+
+## Advanced Topics
+
+Topics for Kakfa Advanced Topics:
+
+## Topic Design
+
+For an example topic of `helloworld` that has 3 partitions and 3 brokers listening to each partition respectively in the Kafka Cluster, there are some design considerations:
+
+1. Data accuracy
+2. Popularity of events
+3. Amount of data to process
+
+There are also topic options that come in the form of command line argument flags.
+
+## Topic Alterations
+
+`Log Segment` vs `Compacted Topic`.
