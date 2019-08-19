@@ -15,9 +15,8 @@ const main = async () => {
     mdArray.splice(6, 0, `\nLast updated: ${stats.mtime.toString()}\n`);
     const updatedMd = mdArray.join('\n');
 
-    fs.unlinkSync(file);
-    const formattedFile = prettier.format(file, { parser: 'mdx' });
-    fs.writeFileSync(formattedFile, updatedMd, 'utf-8');
+    const formattedFile = prettier.format(file, { parser: 'markdown' });
+    fs.writeFileSync(formattedFile, updatedMd);
   }
 };
 
