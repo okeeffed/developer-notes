@@ -14,9 +14,8 @@ const main = async () => {
     const mdArray = content.split('\n');
     mdArray.splice(6, 0, `\nLast updated: ${stats.mtime.toString()}\n`);
     const updatedMd = mdArray.join('\n');
-
-    const formattedFile = prettier.format(file, { parser: 'markdown' });
-    fs.writeFileSync(formattedFile, updatedMd);
+    fs.writeFileSync(file, updatedMd);
+    prettier.format(file, { parser: 'markdown' });
   }
 };
 
