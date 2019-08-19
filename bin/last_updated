@@ -5,6 +5,7 @@ var cwd = process.cwd();
 
 const main = async () => {
   const files = await recursive(cwd + '/manual', ['!*.md']);
+  console.log(files.length);
 
   for (const file of files) {
     const content = fs.readFileSync(file, 'utf-8');
