@@ -36,6 +36,7 @@ Illusion of choice. Choose useful, well thoughout choices that you can backtrack
 - Mobile-first
 - Changelog
 - Git pre-commit hooks + linters
+- JSX levelling for components should go `Page > Component` levelling with max levelling being 3 deep
 
 ## Design Systems
 
