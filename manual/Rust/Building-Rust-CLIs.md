@@ -7,6 +7,17 @@ name: Building Rust Command Line Tools
 
 Initial findings based off a useful article [found here](https://mattgathu.github.io/writing-cli-app-rust/).
 
+We're using the [Clap](https://github.com/clap-rs/clap) crate to help bootstrap CLIs.
+
+## Useful tools to consider
+
+- https://github.com/rust-cli/human-panic
+- https://github.com/hniksic/rust-subprocess
+- https://github.com/oconnor663/duct.rs
+- https://github.com/kkawakam/rustyline
+- https://github.com/mitsuhiko/indicatif
+- 
+
 ## tl;dr 
 
 Initialise an app using `cargo new app_name_you_want --bin`.
@@ -36,7 +47,7 @@ fn main() {
 
     // Vary the output based on how many times the user used the "verbose" flag
     // (i.e. 'myprog -v -v -v' or 'myprog -vvv' vs 'myprog -v'
-    match matches.occurrences_of("v") {
+    match matches.occurrences_of("verbose") {
         0 => println!("No verbose info"),
         1 => println!("Some verbose info"),
         2 => println!("Tons of verbose info"),
