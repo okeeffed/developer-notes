@@ -1,0 +1,22 @@
+#!/usr/bin/env node
+const recursive = require('recursive-readdir');
+const fs = require('fs');
+const prettier = require('prettier');
+var cwd = process.cwd();
+
+const main = async () => {
+  const files = await recursive(cwd + '/manual', ['!*.md']);
+  console.log(files.length);
+
+  for (const file of files) {
+    const content = fs.readFileSync(file, 'utf-8');
+    const stats = fs.statSync(file);
+    const mdArray = content.split('\n');
+    mdArray.splice(6, 0, `\nLast updated: ${stats.mtime.toString()}\n`);
+    const updatedMd = mdArray.join('\n');
+    fs.writeFileSync(file, updatedMd);
+    prettier.format(file, { parser: 'markdown' });
+  }
+};
+
+main();

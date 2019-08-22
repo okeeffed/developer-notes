@@ -6866,7 +6866,7 @@ prelude-ls@~1.1.2:
   resolved "https://registry.npmjs.org/prelude-ls/-/prelude-ls-1.1.2.tgz#21932a549f5e52ffd9a827f570e04be62a97da54"
   integrity sha1-IZMqVJ9eUv/ZqCf1cOBL5iqX2lQ=
 
-prettier@^1.17.0:
+prettier@^1.17.0, prettier@^1.18.2:
   version "1.18.2"
   resolved "https://registry.npmjs.org/prettier/-/prettier-1.18.2.tgz#6823e7c5900017b4bd3acf46fe9ac4b4d7bda9ea"
   integrity sha512-OeHeMc0JhFE9idD4ZdtNibzY0+TPHSpSSb9h8FqtP+YnoZZ1sl8Vc9b1sasjfymH3SonAF4QcA2+mzHPhMvIiw==
@@ -7288,7 +7288,7 @@ recast@^0.17.3, recast@^0.17.6:
     private "^0.1.8"
     source-map "~0.6.1"
 
-recursive-readdir@2.2.2:
+recursive-readdir@2.2.2, recursive-readdir@^2.2.2:
   version "2.2.2"
   resolved "https://registry.npmjs.org/recursive-readdir/-/recursive-readdir-2.2.2.tgz#9946fb3274e1628de6e36b2f6714953b4845094f"
   integrity sha512-nRCcW9Sj7NuZwa2XvH9co8NPeXUBhZP7CRKJtU+cS6PW9FpCIFoI5ib0NT1ZrbNuPoRy0ylyCaUL8Gih4LSyFg==
