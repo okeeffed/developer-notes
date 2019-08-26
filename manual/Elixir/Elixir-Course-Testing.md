@@ -1,9 +1,45 @@
 ---
 menu: Elixir
-name: Elixir Course Testing
+name: Elixir Course Testing/Documentation
 ---
 
-# Elixir Course Testing
+# Elixir Course Testing And Documentation
+
+## Documentation
+
+Two types:
+
+1. Module documentation: purpose of module
+2. Function documentation: purpose of individual functions
+
+Using `ex_doc` as the required module, add `{:ex_doc, "~> 0.21.1"},` to you deps (or the latest version) and after fetching deps, run `mix docs` to generate the documentation.
+
+Documentation can then be found at `doc/index.html`.
+
+Examples:
+
+```elixir
+defmodule ModuleName.Queries do
+  @moduledoc """
+  Provides Ecto queries for querying important Action Framework requirement.
+  """
+
+  import Ecto.Query
+
+  @doc """
+  Does a thing
+
+  ## Examples
+
+      iex> query = "Hello, World!"
+      iex> query
+      "Hello, World!"
+  """
+  def hello_world() do
+    "Hello, World!"
+  end
+end
+```
 
 ## Elixir Testing
 
