@@ -219,8 +219,37 @@ package c
 var B = "b"
 ```
 
-- How does logging work?
-- Find some articles that give you best tips and tricks for the language and the above questions
+## How does logging work?
+
+Some examples [on Golang printing](http://xahlee.info/golang/golang_print.html)
+
+```go
+package logexample
+
+import "fmt"
+
+func main() {
+  fmt.Println("Hello, world!")
+  fmt.Printf("there are %v apples\n", 3)
+  fmt.Printf("Name is %v, Age is %v \n", "john", 36)
+}
+```
+
+Useful placeholders:
+
+| Placeholder | Value                                     |
+| ----------- | ----------------------------------------- |
+| %v          | any value printed in human readable form  |
+| %#v         | print in Golang syntax                    |
+| %+v         | if value is struct, also show field names |
+| %T          | type of the value                         |
+| %%          | a literaly percent sign                   |
+
+Note: `%T` is useful when learning Golang.
+
+## Useful links/articles for tips and tricks
+
+- [Golang tutorial](http://xahlee.info/golang/golang_index.html)
 
 ## Understanding Through Programs
 
