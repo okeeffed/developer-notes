@@ -247,9 +247,249 @@ Useful placeholders:
 
 Note: `%T` is useful when learning Golang.
 
-## Useful links/articles for tips and tricks
+## Useful links/articles
 
 - [Golang tutorial](http://xahlee.info/golang/golang_index.html)
+- [The Beauty of Go](https://hackernoon.com/the-beauty-of-go-98057e3f0a7d)
+
+## Useful tips and tricks
+
+Below are useful things to know when using the language.
+
+## Read File
+
+Read whole file:
+
+```golang
+package main
+
+import "fmt"
+import "io/ioutil"
+
+func main() {
+
+	// read whole file
+	myText, myErr := ioutil.ReadFile("/Users/x/filepath")
+
+	if myErr != nil {
+		panic(myErr)
+		// panic means abort
+	}
+
+	// print it. String converts it to string
+	fmt.Print(string(myText))
+
+}
+```
+
+Read first X bytes:
+
+```golang
+package main
+
+import "fmt"
+import "os"
+
+// open file. read first 200 bytes. print it.
+
+var filePath = "/Users/xah/web/xahlee_info/golang/golang_read_file.html"
+
+func getHeadBytes(path string, n int) []byte {
+
+	file, err := os.Open(path) // For read access.
+	if err != nil {
+		panic(err)
+	}
+
+	defer file.Close()
+
+	headBytes := make([]byte, n)
+	m, err := file.Read(headBytes)
+	if err != nil {
+		panic(err)
+	}
+
+	return headBytes[:m]
+}
+
+func main() {
+
+	fmt.Printf("%q\n", getHeadBytes(filePath, 200))
+
+}
+```
+
+## Write File
+
+First way:
+
+```go
+package main
+
+import "io/ioutil"
+
+func main() {
+
+	mytext := []byte(`mountain and river`)
+
+	outpath := "xx69447.txt"
+
+	err := ioutil.WriteFile(outpath, mytext, 0644)
+
+	if err != nil {
+		panic(err)
+	}
+}
+```
+
+Second way:
+
+```go
+package main
+
+import "fmt"
+import "os"
+
+var path = "xxtest.txt"
+
+var contentX = "something"
+
+func main() {
+
+	var fll, err = os.Create(path)
+	if err != nil {
+		panic(err)
+	}
+	defer fll.Close()
+
+	var bytesWritten, errW = fll.WriteString(contentX)
+	if errW != nil {
+		panic(errW)
+	}
+
+	fmt.Printf("bytes written: %v\n", bytesWritten)
+
+}
+```
+
+## Walk through directory
+
+Use `filepath.Walk(dir_path, process_func)` from package `path/filepath`
+
+```go
+package main
+
+import (
+	"fmt"
+	"os"
+	"path/filepath"
+)
+
+var myDir = "/Users/x/web/"
+
+// go thru a dir and print all file name and extension
+
+func main() {
+	// the function that handles each file or dir
+	var ff = func(pathX string, infoX os.FileInfo, errX error) error {
+
+		// first thing to do, check error. and decide what to do about it
+		if errX != nil {
+			fmt.Printf("error 「%v」 at a path 「%q」\n", errX, pathX)
+			return errX
+		}
+
+		fmt.Printf("pathX: %v\n", pathX)
+
+		// find out if it's a dir or file, if file, print info
+		if infoX.IsDir() {
+			fmt.Printf("is dir.\n")
+		} else {
+			fmt.Printf("  dir: 「%v」\n", filepath.Dir(pathX))
+			fmt.Printf("  file name 「%v」\n", infoX.Name())
+			fmt.Printf("  extenion: 「%v」\n", filepath.Ext(pathX))
+		}
+
+		return nil
+	}
+
+	err := filepath.Walk(myDir, ff)
+
+	if err != nil {
+		fmt.Printf("error walking the path %q: %v\n", myDir, err)
+	}
+}
+```
+
+## Check file exists
+
+```go
+package main
+
+import "fmt"
+import "os"
+
+// fileExist. check if a file exist
+func fileExist(path string) bool {
+	_, err := os.Stat(path)
+	if err == nil {
+		return true
+	}
+	return false
+}
+
+func main() {
+	fmt.Printf("%v\n", fileExist("/Users/x/xyz.txt"))
+}
+```
+
+## System calls
+
+To make a system call, use `import "os/exec"` and use `var cmd = exec.Command(cmdName, arg1, arg2)`.
+
+You then have several choices how you want to run it. The main choices are:
+
+| Command        | Use                                                 |
+| -------------- | --------------------------------------------------- |
+| `cmd.Output()` | run it, wait, get output                            |
+| `cmd.Run()`    | run it, wait for it to finish                       |
+| `cmd.Start()`  | run it, don't wait `err = cmd.Wait()` to get result |
+
+If you need to change dir before running the command, use `os.Chdir(path)`:
+
+```go
+package main
+
+// example of calling shell command
+
+// cd to a given dir
+// call ls -al
+// print its output
+
+import "fmt"
+import "os"
+import "os/exec"
+
+func main() {
+
+	var dirToRun = "/Users/xah/web/"
+	var err = os.Chdir(dirToRun)
+	if err != nil {
+		panic(err)
+	}
+
+	var cmdName = "ls"
+
+	var cmd = exec.Command(cmdName, "-a", "-l")
+
+	output, err := cmd.Output()
+	if err != nil {
+		panic(err)
+	}
+
+	fmt.Printf("%v\n", string(output))
+}
+```
 
 ## Understanding Through Programs
 
