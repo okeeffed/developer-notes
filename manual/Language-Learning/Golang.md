@@ -491,7 +491,75 @@ func main() {
 }
 ```
 
+## Defer
+
+[Defer](http://xahlee.info/golang/golang_defer.html) statement is a new flow control, not in other popular languages. `defer function_name(args)`.
+
+When this is run, the args are evaluated, but the function call is not. The function is called right before the outer function exits.
+
+```go
+package main
+
+import "fmt"
+
+func ff(x int) int {
+	fmt.Printf("ff called. arg is %v\n", x)
+	return x
+}
+
+func main() {
+
+	var x = 3
+
+	fmt.Printf("main. x is %v\n", x)
+
+	defer ff(x)
+
+	x = 4
+
+	fmt.Printf("main. x is %v\n", x)
+
+}
+
+// main. x is 3
+// main. x is 4
+// ff called. arg is 3
+```
+
+Defer is used similar to “finally” in other languages, to do some clean up.
+
+Usually, it's used right after the file opening call, to close a file.
+
+```go
+package main
+
+import "fmt"
+
+func CopyFile(dstName, srcName string) (written int64, err error) {
+	src, err := os.Open(srcName)
+	if err != nil {
+		return
+	}
+	defer src.Close()
+
+	dst, err := os.Create(dstName)
+	if err != nil {
+		return
+	}
+	defer dst.Close()
+
+	return io.Copy(dst, src)
+}
+
+// 2018-08-26 code from
+// https://blog.golang.org/defer-panic-and-recover
+
+func main() {}
+```
+
 ## Understanding Through Programs
+
+[TODO]
 
 Not all need to be done (pending what the language is useful for), but here are some useful ideas to get familiar with packages and testing for real world uses:
 
