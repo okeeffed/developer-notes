@@ -1,9 +1,9 @@
 ---
 menu: Nodejs
-name: Advanced Concepts
+name: Nodejs Internals
 ---
 
-# Nodejs Advanced Concepts
+# Nodejs Internals
 
 Course by Stephen Grider found [here](https://www.udemy.com/advanced-node-for-developers/).
 
