@@ -150,3 +150,116 @@ while(shouldContinue()) {
 - Node `Event Loop` = single threaded
 - Some of Node `Framework/Std Lib` = NOT single threaded
 
+The `Event Loop` itself is truly single threaded. This is commonly seen as a bad thing, as the event loop can only run on one CPU core.
+
+However, some of the functions included in the standard library of Node are not single threaded - they run outside of the event loop.
+
+Example:
+
+```javascript
+// thread.js
+const crypto = require('crypto');
+
+const start = Date.now();
+
+// note both following calls will be invoked at the same time
+crypto.pbkdf2('a', 'b', 100000, 512, 'sha512', () => {
+  console.log('1:', Date.now() - start);
+});
+
+crypto.pbkdf2('a', 'b', 100000, 512, 'sha512', () => {
+  console.log('2:', Date.now() - start);
+});
+```
+
+You'll notice that you'll get two benchmarks that are very similar in time.
+
+If it were single threaded, we would have expected the times to not be so similar.
+
+This indicates that we are breaking out of a single threaded function with Nodejs.
+
+This is thanks to the `libuv` thread pool.
+
+## The Libuv Thread Pool
+
+All the work from the `crypto.pbkdf2` function is delegated to Node's C++ side.
+
+The `libuv` module has a responsibility for some expensive standard library functions to be handled outside of the event loop.
+
+These functions make use of the thread pool. It's a series of four threads that can be used for computationally expensive tasks. These are in addition to the event loop.
+
+Many of the standard library functions make use of this thread pool.
+
+In order to test when the thread loop is full:
+
+```javascript
+// thread.js
+const crypto = require('crypto');
+
+const start = Date.now();
+
+// note both following calls will be invoked at the same time
+crypto.pbkdf2('a', 'b', 100000, 512, 'sha512', () => {
+  console.log('1:', Date.now() - start);
+});
+
+crypto.pbkdf2('a', 'b', 100000, 512, 'sha512', () => {
+  console.log('2:', Date.now() - start);
+});
+
+crypto.pbkdf2('a', 'b', 100000, 512, 'sha512', () => {
+  console.log('3:', Date.now() - start);
+});
+
+crypto.pbkdf2('a', 'b', 100000, 512, 'sha512', () => {
+  console.log('4:', Date.now() - start);
+});
+
+crypto.pbkdf2('a', 'b', 100000, 512, 'sha512', () => {
+  console.log('5:', Date.now() - start);
+});
+```
+
+Note that the result we get is that some logs happen almost simultaneously (but with double the amount of time), where there is a pause before other results come through. This is the thread pool itself in action.
+
+## Changing Threadpool Size
+
+```javascript
+// thread.js
+process.env.UV_THREADPOOL_SIZE = 2; // tells libuv to only create two threads in the thread pool
+
+const crypto = require('crypto');
+
+const start = Date.now();
+
+// note both following calls will be invoked at the same time
+crypto.pbkdf2('a', 'b', 100000, 512, 'sha512', () => {
+  console.log('1:', Date.now() - start);
+});
+
+crypto.pbkdf2('a', 'b', 100000, 512, 'sha512', () => {
+  console.log('2:', Date.now() - start);
+});
+
+crypto.pbkdf2('a', 'b', 100000, 512, 'sha512', () => {
+  console.log('3:', Date.now() - start);
+});
+
+crypto.pbkdf2('a', 'b', 100000, 512, 'sha512', () => {
+  console.log('4:', Date.now() - start);
+});
+
+crypto.pbkdf2('a', 'b', 100000, 512, 'sha512', () => {
+  console.log('5:', Date.now() - start);
+});
+```
+
+You'll notice that the timing now happens even quicker for the first two calls. Customising the thread pool here has worked in our favour.
+
+If we did this using the value of `5`, we notice that all 5 calls complete at a similar time but with a longer timeframe for all to return from completion.
+
+## Common Threadpool Questions
+
+1. Can we use the threadpool for JS code or can it only be used with certain NodeJS functions? We can write custom JS code that uses the thread pool.
+2. What functions in `node std lib` make use of the threadpool? All FS module function, some crypto stuff. Depends on OS (Windows vs Unix based).
+3. How does this threadpool stuff fit into the event loop? Tasks running in the threadpool are the `pendingOperations` in the pseudocode example.
