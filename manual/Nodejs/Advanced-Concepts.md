@@ -128,7 +128,7 @@ function shouldContinue() {
 
 // pseudo mocking the event loop "tick" for each iteration - executes entire body in one "tick"
 while(shouldContinue()) {
-  // 1) Node looks at pendingTimers and sees if any functions are ready to be called
+  // 1) Node looks at pendingTimers and sees if any functions are ready to be called (setTimeout, setInterval)
 
   // 2) Node looks at pendingOSTasks and pendingOperations and calls relevant callbacks
 
@@ -136,8 +136,17 @@ while(shouldContinue()) {
   // - a new pendingOSTask is done
   // - a new pendingOperation is done
   // - a timer is about to complete
+
+  // 4) Node again looks at pendingTimers. (does not care about setTimeout, setInterval - only setImmediate). Call any setImmediate.
+
+  // 5) Handle any 'close' events eg readStream.on('close', callback)
 }
 
 // exit back to terminal
 ```
+
+## Is Node Single Threaded?
+
+- Node `Event Loop` = single threaded
+- Some of Node `Framework/Std Lib` = NOT single threaded
 
