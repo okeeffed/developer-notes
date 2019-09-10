@@ -85,8 +85,59 @@ The `OS Scheduler` makes sure no important threads don't wait too long.
 
 There are strategies to help with the process that these `threads` get processed.
 
-One approach is the include more CPU Cores. Technically one core can process more than one thread at a time through a process known as `multithreading` (sometimes called `hyperthreading`).
+One approach is the include more CPU Cores. With more cores, we can process multiple threads in parallel.
 
-## The Event Loop
+Note: Technically one core can process more than one thread at a time through a process known as `multithreading` (sometimes called `hyperthreading`).
+
+While one thread is processing and waiting for an asynchronous reply, the OS scheduler can schedule another thread for work. This is important for the Nodejs event loop.
+
+## The Nodejs Event Loop
 
 The event loop is used by Node to handle asynchronous code written in our applications.
+
+When we start up a Node program, Node automatically creates one thread and executes all code on that one thread.
+
+The `event loop` itself is like a control structure that tells the one thread what it should be doing at any given time.
+
+Every program that we run has exactly one `event loop`. This is extremely important to know in order to understand how the program behaves which in turn will help us with performance issues.
+
+Understanding it is not easy - but it is notoriously difficult to wrap your head around.
+
+Instead of looking at complicated diagrams, we will write some pseudocode to emulate the event loop.
+
+```javascript
+// node myFile.js
+const pendingTimers = [];
+const pendingOSTasks = [];
+const pendingOperations = [];
+
+// New timers, tasks, operations are recorded from myFile running
+myFile.runContents();
+
+function shouldContinue() {
+  // Node does three checks
+
+  // Check 1: Are there any functions registers with setTimeout, setInterval or setImmediate?
+
+  // Check 2: Check if there are any pending OS tasks eg http server listening to requests on some port
+
+  // Check 3: Are there any pending long running operations still being executed eg function call inside the fs module
+
+  return pendingTimers.length || pendingOSTasks.length || pendingOperations.length;
+}
+
+// pseudo mocking the event loop "tick" for each iteration - executes entire body in one "tick"
+while(shouldContinue()) {
+  // 1) Node looks at pendingTimers and sees if any functions are ready to be called
+
+  // 2) Node looks at pendingOSTasks and pendingOperations and calls relevant callbacks
+
+  // 3) Node pauses execution temporarily and sits around waiting for new events to occur. Continue when ...
+  // - a new pendingOSTask is done
+  // - a new pendingOperation is done
+  // - a timer is about to complete
+}
+
+// exit back to terminal
+```
+
