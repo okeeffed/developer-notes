@@ -263,3 +263,93 @@ If we did this using the value of `5`, we notice that all 5 calls complete at a 
 1. Can we use the threadpool for JS code or can it only be used with certain NodeJS functions? We can write custom JS code that uses the thread pool.
 2. What functions in `node std lib` make use of the threadpool? All FS module function, some crypto stuff. Depends on OS (Windows vs Unix based).
 3. How does this threadpool stuff fit into the event loop? Tasks running in the threadpool are the `pendingOperations` in the pseudocode example.
+
+## Explaining OS Operations + Libuv OS Delegation
+
+What are the `pendingOSTasks` that we talk about in the pseudocode?
+
+We will explain this by using another benchmark.
+
+```javascript
+// async.js
+const https = require('https');
+
+const start = Date.now();
+
+function doRequest() {
+  https.request('https://www.google.com', res => {
+     res.on('data', () => {});
+     res.on('end', () => {
+       console.log(Date.now() - start);
+     });
+   }).end();
+}
+
+doRequest();
+doRequest();
+doRequest();
+doRequest();
+doRequest();
+doRequest();
+```
+
+It appears as if all the `doRequest` calls are completed at near the same time - distinctly different behaviour to the thread pool given we ran the request six times.
+
+What we're seeing here is more evidence of `libuv` in play, but it is not the thread pool. It also have some function that make use of the underlying operating system.
+
+Neither `libuv` nor `node` has the operations to handle the request making. It is actually the real operating system making the http request. Because the work is delegating to the operating system, the OS decides on whether to make a new thread or not. We're not touching the thread pool at all in this case.
+
+## Commmon OS/Async Questions
+
+1. What functions in `node std lib` use the OS's async features? Almost everything around networking for all OS's. Some other stuff is OS specific.
+2. How does this OS Async stuff fit into the event loop? Tasks using the underlying OS are reflected in our `pendingOSTasks` array.
+
+## Crazy Node Behaviour
+
+```javascript
+// multitask.js
+const https = require('https');
+const crypto = require('crypto');
+const fs = require('fs');
+
+const start = Date.now();
+
+function doRequest() {
+  https.request('https://www.google.com', res => {
+     res.on('data', () => {});
+     res.on('end', () => {
+       console.log('HTTPS:', Date.now() - start);
+     });
+   }).end();
+}
+
+function doHash() {
+  crypto.pbkdf2('a', 'b', 100000, 512, 'sha512', () => {
+    console.log('Hash:', Date.now() - start);
+  });
+}
+
+doRequest();
+
+fs.readFile('multitask.js', 'utf8', () => {
+  console.log('FS:' Date.now() - start);
+});
+
+// specifically called 4 times
+doHash();
+doHash();
+doHash();
+doHash();
+```
+
+Note that the `fs` call exhibits some really interesting behaviour. Given the `libuv` threadpool of 4, the OS scheduler and core threading.
+
+The answers deals with the pausing times required for the `fs.readFile` function.
+
+Given the size of the thread pool, the `fs` call would be assigned to thread #1, while the next three `doHash` calls were assigned to the other threads. 
+
+Thread #1 then loads up the last `doHash` call while thread #1 offloads the `fs.readFile` to the hard drive until the callback completes.
+
+Once thread #2 finishes the work, it checks if any info has come back from the `hard drive` (which it has), so the `fs.readFile` function the completes. Note: it does have a second pause callback, but given the worker thread was free, it was able to handle the second response straight away.
+
+Note that setting `process.env.UV_THREADPOOL_SIZE = 5;` would allow `fs` to have a spare thread to complete quickly with the other four `doHash` calls finishing at a similar timeframe, whereas `process.env.UV_THREADPOOL_SIZE = 1;` would block the `fs` call from finishing until right at the end. 
