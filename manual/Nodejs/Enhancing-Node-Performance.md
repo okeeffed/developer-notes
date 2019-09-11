@@ -109,6 +109,8 @@ For benchmarking, we will use a program called `ab`. (Available for MacOS)
 
 Usage: `ab -c 50 -n 500 localhost:3000/fast` where `-c` is 50 concurrent requests and `-n` indicates 500 requests.
 
+In the bottom code, we're going show how you can get diminishing returns by adding more children. It is important that we keep a threadpool size of `1` for this example.
+
 ```javascript
 // app.js
 process.env.UV_THREADPOOL_SIZE = 1; // just for benchmarking purposes
@@ -132,3 +134,104 @@ if (cluster.isMaster) {
   app.listen(3000);
 };
 ```
+
+If we run `ab -c 1 -n 1 localhost:3000/` we will see that we get a `Time taken for tests` to be ~1000ms.
+
+We can see the timing of this is similar to the example for `crypto` we had in `Nodejs/Node Interals` when demoing the `crypto` module.
+
+If we run `ab -c 2 -n 2 localhost:3000/`, we see that one requests took 1s, while the other took 2s. This is similar to what we saw in `Node Internals`. Given the one thread, we see that the second request needs to wait for the first request to be released from the threadpool.
+
+If we update our code to add another child process using `cluster.fork();`, we will notice that both the requests now get processed in the two child processes (STILL USING ONE THREAD) and have come back with the expected time ~1000ms.
+
+### What happens with too many children?
+
+If we forked six processes and ran `ab -c 6 -n 6 localhost:3000/` we will see that for some reason, we are now taking 3.5 seconds for each of the 6 requests across the board.
+
+Why is this? It depends on the kind of computer that you have. Note that for the example above, it was run on a dual-core CPU. That's because the CPU is now trying to do a little bit of work on all 6 threads. So although we could now process the children in parallel, we have overallocated our resources.
+
+If we now reduced the forked processes to 2 and still ran `ab -c 6 -n 6 localhost:3000/`, we will notice that the slowest request is still around 3.4s, while our fastest request is now ~1s. This is because at a cluster with two children, we know that we can at most handle two requests at the same time. 
+
+Essentially, the first two requests are processed in the first second, the next two in the second, the last two in the third - this makes perfect sense. This means that we have ended with a far better performance profile.
+
+## PM2 Configuration
+
+PM2 can supercharge our clustering setup. PM2 makes cluster management super easy for Nodejs. It can be installed through `npm` globally using `npm i -g pm2`.
+
+To run the script in `pm2`, we need to update our app once again.
+
+```javascript
+// app.js
+
+// Child - operate as normal server
+const crypto = require('crypto');
+const express = require('express');
+const app = express();
+
+app.get('/', (req, res) => {
+ crypto.pbkdf2('a', 'b', 100000, 512, 'sha512', () => {
+   res.send('Hello');
+ })
+});
+
+app.listen(3000);
+```
+
+`pm2 start index.js -i 0` will tell pm2 to auto-configure how many instances to setup based on the amount of logical cores (physical * virtual cores) are available.
+
+| Call                    | Definition                                    |
+| ----------------------- | --------------------------------------------- |
+| pm2 monit               | Show pm2 monitor                              |
+| pm2 list                | List all pm2 processes                        |
+| pm2 start index.js -i 0 | Start index.js with auto-configured instances |
+| pm2 delete index        | Delete all index children                     |
+
+`pm2` is generally used in production environments only.
+
+## Web Worker Threads
+
+At the time of writing - these were in experimental phase.
+
+In this example, we are using the module `webworker-threads`.
+
+```shell
+Our App
+└── Worker Interface (communicates with Worker)
+    └── postMessage <===> onmessage (Worker)
+    └── onmessage <===> postMessage (Worker)
+```
+
+The `Worker` itself is working on its own thread. Remember: a lot of the Nodejs standard lib functions ALREADY work on their own thread. You only really want to use it for your own heavy-duty business logic.
+
+Note: any function passed to the worker cannot access the parent scoped variables. It is also important to use the function keyword on purpose.
+
+```javascript
+// app.js
+const Worker = require('webworker-threads').Worker;
+const express = require('express');
+const app = express();
+
+app.get('/', (req, res) => {
+  const worker = new Worker(function() {
+    this.onmessage = function() {
+      // emulate heavy work
+      let counter = 0;
+      whilte (counter < 1e9) {
+        counter++;
+      }
+
+      postMessage(counter);
+    }
+  });
+
+  worker.onmessage = function(counter) {
+    console.log(counter);
+    res.send('' + message.data); // casting as send requires string
+  }
+
+  worker.postMessage();
+});
+
+app.listen(3000);
+```
+
+For benchmarking these workers, we can again use `ab`. `ab -c 1 -n 1 localhost:3000/` and `ab -c 2 -n 2 localhost:3000/` should run with similar results on a dual-core Mac. 
