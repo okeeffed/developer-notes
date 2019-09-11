@@ -128,13 +128,17 @@ Once the conflicts are resolved, you need to now commit the file. Git will gener
 
 ## Stashing
 
-| Command         | Definition                                         |
-| --------------- | -------------------------------------------------- |
-| git stash       | Stash current changes                              |
-| git stash apply | Apply stash to working directory                   |
-| git stash list  | List all stashes                                   |
-| git stash drop  | Drop the last stash                                |
-| git stash -u    | Include untracked files in stash (not Git ignored) |
-| git stash pop   | Essentially runs git stash apply && git stash drop |
+| Command                     | Definition                                                                        |
+| --------------------------- | --------------------------------------------------------------------------------- |
+| git stash                   | Stash current changes                                                             |
+| git stash apply             | Apply stash to working directory                                                  |
+| git stash list              | List all stashes                                                                  |
+| git stash drop              | Drop the last stash                                                               |
+| git stash -u                | Include untracked files in stash (not Git ignored)                                |
+| git stash pop               | Essentially runs git stash apply && git stash drop                                |
+| git stash show stash@{1}    | Show reflog of what is included in the stash                                      |
+| git stash apply stash@{ref} | Apply specific stash                                                              |
+| git stash drop stash@{ref}  | Drop specific stash reference                                                     |
+| git stash branch newchanges | Creates newchanges branch, switches to branch, applies stash and then drops stash |
 
 By default, `git stash` will only stash tracked files.
