@@ -11,15 +11,16 @@ General setup for Git can be found at ~/.gitconfig.
 
 ## Basic Commands
 
-| Command    | What it does                    |
-| ---------- | ------------------------------- |
-| git init   | Initialise a git project        |
-| git clone  | Clone a git project             |
-| git add    | Add a file to git               |
-| git commit | Commit the current file list    |
-| git pull   | Pull from a Git repository      |
-| git push   | Push to a remote Git repository |
-| git status | See current status for Git repo |
+| Command                     | What it does                    |
+| --------------------------- | ------------------------------- |
+| git init                    | Initialise a git project        |
+| git clone                   | Clone a git project             |
+| git add                     | Add a file to git               |
+| git commit                  | Commit the current file list    |
+| git pull                    | Pull from a Git repository      |
+| git push                    | Push to a remote Git repository |
+| git status                  | See current status for Git repo |
+| git commit --amend [commit] | Amend a commit                  |
 
 ## Tracked Files
 
@@ -124,7 +125,7 @@ Once the conflicts are resolved, you need to now commit the file. Git will gener
 
 | Command                    | Definition                               |
 | -------------------------- | ---------------------------------------- |
-| git rebase <source-branch> | Rebase source branch into current branch |
+| git rebase [source-branch] | Rebase source branch into current branch |
 
 ## Stashing
 
@@ -142,3 +143,29 @@ Once the conflicts are resolved, you need to now commit the file. Git will gener
 | git stash branch newchanges | Creates newchanges branch, switches to branch, applies stash and then drops stash |
 
 By default, `git stash` will only stash tracked files.
+
+## Tagging
+
+Tags are nothing more than labels. `git tag myTag` will create a tag - it's known as a lightweight tag.
+
+| Command                           | Definition                                                                    |
+| --------------------------------- | ----------------------------------------------------------------------------- |
+| git tags myTag                    | Create tag                                                                    |
+| git tag --list                    | Show tag                                                                      |
+| git tag --delete myTag            | Delete tag "myTag"                                                            |
+| git tag -a v-1.0                  | -a Createds an annotated tag - this will allow you to write release notes etc |
+| git show v-1.0                    | This will show tag, tagger, date and tag message with commit ID etc           |
+| git diff v-tag1 v-tag2            | Diff between two different tags                                               |
+| git tag -a [tag-name][commit]     | Annotate a specific commit                                                    |
+| git tag -a [tag-name] -f [commit] | Edit a tag annotation                                                         |
+
+## Reset and Reflog
+
+`git reflog` shows a log of everything that we have done. It's the reference log of the previous 60 days.
+
+We can then run `git reset <ref>` to actually go back and forward through history. We can also reset back to the top if required post-reset.
+
+`git reset --hard`
+
+Hard | Removes all changes from staging and working directory
+Soft | Points header back to new location
