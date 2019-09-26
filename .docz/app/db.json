@@ -58,19 +58,6 @@
       }
     },
     {
-      "key": "manual/AWS/AWS-Certified-Solutions-Architect.md",
-      "value": {
-        "name": "AWS Certified Solutions Architect",
-        "menu": "AWS",
-        "id": "5c1bd483fc16357271d13fd2baba166a",
-        "filepath": "manual/AWS/AWS-Certified-Solutions-Architect.md",
-        "link": "",
-        "slug": "manual-aws-aws-certified-solutions-architect",
-        "route": "/manual-aws-aws-certified-solutions-architect",
-        "headings": []
-      }
-    },
-    {
       "key": "manual/AWS/AWS-Certified-Big-Data.md",
       "value": {
         "menu": "AWS",
@@ -448,6 +435,19 @@
       }
     },
     {
+      "key": "manual/AWS/AWS-Certified-Solutions-Architect.md",
+      "value": {
+        "name": "AWS Certified Solutions Architect",
+        "menu": "AWS",
+        "id": "5c1bd483fc16357271d13fd2baba166a",
+        "filepath": "manual/AWS/AWS-Certified-Solutions-Architect.md",
+        "link": "",
+        "slug": "manual-aws-aws-certified-solutions-architect",
+        "route": "/manual-aws-aws-certified-solutions-architect",
+        "headings": []
+      }
+    },
+    {
       "key": "manual/AWS/AWS-Fargate-With-ECS.md",
       "value": {
         "menu": "AWS",
@@ -506,6 +506,25 @@
       }
     },
     {
+      "key": "manual/AWS/AWS-Lex.md",
+      "value": {
+        "name": "AWS Lex",
+        "menu": "AWS",
+        "id": "31cfca55e211f2b5d69a61e25c7b82d6",
+        "filepath": "manual/AWS/AWS-Lex.md",
+        "link": "",
+        "slug": "manual-aws-aws-lex",
+        "route": "/manual-aws-aws-lex",
+        "headings": [
+          {
+            "slug": "aws-lex",
+            "depth": 1,
+            "value": "AWS Lex"
+          }
+        ]
+      }
+    },
+    {
       "key": "manual/AWS/AWS-IoT.md",
       "value": {
         "name": "AWS IoT",
@@ -535,25 +554,6 @@
             "slug": "thing-groups",
             "depth": 2,
             "value": "Thing Groups"
-          }
-        ]
-      }
-    },
-    {
-      "key": "manual/AWS/AWS-Lex.md",
-      "value": {
-        "name": "AWS Lex",
-        "menu": "AWS",
-        "id": "31cfca55e211f2b5d69a61e25c7b82d6",
-        "filepath": "manual/AWS/AWS-Lex.md",
-        "link": "",
-        "slug": "manual-aws-aws-lex",
-        "route": "/manual-aws-aws-lex",
-        "headings": [
-          {
-            "slug": "aws-lex",
-            "depth": 1,
-            "value": "AWS Lex"
           }
         ]
       }
@@ -612,6 +612,60 @@
             "slug": "transit-gateway-benefits",
             "depth": 2,
             "value": "Transit Gateway Benefits"
+          }
+        ]
+      }
+    },
+    {
+      "key": "manual/AWS/AWS-Wordpress-Blog.md",
+      "value": {
+        "name": "AWS Wordpress Blog",
+        "menu": "AWS",
+        "id": "de05d32a400a0451a218c9be13fcd2cf",
+        "filepath": "manual/AWS/AWS-Wordpress-Blog.md",
+        "link": "",
+        "slug": "manual-aws-aws-wordpress-blog",
+        "route": "/manual-aws-aws-wordpress-blog",
+        "headings": [
+          {
+            "slug": "aws-hosting-a-wordpress-blog-with-amazon-linux",
+            "depth": 1,
+            "value": "AWS Hosting a WordPress Blog with Amazon Linux"
+          },
+          {
+            "slug": "awswp-1-install-wordpress",
+            "depth": 2,
+            "value": "AWSWP-1: Install WordPress"
+          },
+          {
+            "slug": "awswp-2-download-and-unzip-the-wordpress-installation-package",
+            "depth": 2,
+            "value": "AWSWP-2: Download and unzip the WordPress installation package"
+          },
+          {
+            "slug": "aws-3-create-a-mysql-user-and-database-for-your-wordpress-installation",
+            "depth": 2,
+            "value": "AWS-3: Create a MySQL user and database for your WordPress installation"
+          },
+          {
+            "slug": "aws-4-to-create-and-edit-the-wp-configphp-file",
+            "depth": 2,
+            "value": "AWS-4: To create and edit the wp-config.php file"
+          },
+          {
+            "slug": "aws-5-to-move-your-wordpress-installation-to-the-apache-document-root",
+            "depth": 2,
+            "value": "AWS-5: To move your WordPress installation to the Apache document root"
+          },
+          {
+            "slug": "aws-6-to-allow-wordpress-to-use-permalinks",
+            "depth": 2,
+            "value": "AWS-6: To allow WordPress to use permalinks"
+          },
+          {
+            "slug": "aws-7-to-fix-file-persmissions-for-the-apache-web-server",
+            "depth": 2,
+            "value": "AWS-7: To fix file persmissions for the Apache web server"
           }
         ]
       }
@@ -721,60 +775,6 @@
       }
     },
     {
-      "key": "manual/AWS/AWS-Wordpress-Blog.md",
-      "value": {
-        "name": "AWS Wordpress Blog",
-        "menu": "AWS",
-        "id": "de05d32a400a0451a218c9be13fcd2cf",
-        "filepath": "manual/AWS/AWS-Wordpress-Blog.md",
-        "link": "",
-        "slug": "manual-aws-aws-wordpress-blog",
-        "route": "/manual-aws-aws-wordpress-blog",
-        "headings": [
-          {
-            "slug": "aws-hosting-a-wordpress-blog-with-amazon-linux",
-            "depth": 1,
-            "value": "AWS Hosting a WordPress Blog with Amazon Linux"
-          },
-          {
-            "slug": "awswp-1-install-wordpress",
-            "depth": 2,
-            "value": "AWSWP-1: Install WordPress"
-          },
-          {
-            "slug": "awswp-2-download-and-unzip-the-wordpress-installation-package",
-            "depth": 2,
-            "value": "AWSWP-2: Download and unzip the WordPress installation package"
-          },
-          {
-            "slug": "aws-3-create-a-mysql-user-and-database-for-your-wordpress-installation",
-            "depth": 2,
-            "value": "AWS-3: Create a MySQL user and database for your WordPress installation"
-          },
-          {
-            "slug": "aws-4-to-create-and-edit-the-wp-configphp-file",
-            "depth": 2,
-            "value": "AWS-4: To create and edit the wp-config.php file"
-          },
-          {
-            "slug": "aws-5-to-move-your-wordpress-installation-to-the-apache-document-root",
-            "depth": 2,
-            "value": "AWS-5: To move your WordPress installation to the Apache document root"
-          },
-          {
-            "slug": "aws-6-to-allow-wordpress-to-use-permalinks",
-            "depth": 2,
-            "value": "AWS-6: To allow WordPress to use permalinks"
-          },
-          {
-            "slug": "aws-7-to-fix-file-persmissions-for-the-apache-web-server",
-            "depth": 2,
-            "value": "AWS-7: To fix file persmissions for the Apache web server"
-          }
-        ]
-      }
-    },
-    {
       "key": "manual/AWS/Advanced-Networking.md",
       "value": {
         "name": "Advanced Networking",
@@ -879,25 +879,6 @@
       }
     },
     {
-      "key": "manual/AWS/Cloudfront-S3-Lets-Encrypt.md",
-      "value": {
-        "name": "Cloudfront S 3 Lets Encrypt",
-        "menu": "AWS",
-        "id": "c76ab271882257c4eaddd57276800e5b",
-        "filepath": "manual/AWS/Cloudfront-S3-Lets-Encrypt.md",
-        "link": "",
-        "slug": "manual-aws-cloudfront-s3-lets-encrypt",
-        "route": "/manual-aws-cloudfront-s3-lets-encrypt",
-        "headings": [
-          {
-            "slug": "lets-encrypt-with-cloudfront-and-s3",
-            "depth": 1,
-            "value": "Let's encrypt with CloudFront and S3"
-          }
-        ]
-      }
-    },
-    {
       "key": "manual/AWS/App-Mesh.md",
       "value": {
         "menu": "AWS",
@@ -987,6 +968,25 @@
             "slug": "virtual-router",
             "depth": 2,
             "value": "Virtual Router"
+          }
+        ]
+      }
+    },
+    {
+      "key": "manual/AWS/Cloudfront-S3-Lets-Encrypt.md",
+      "value": {
+        "name": "Cloudfront S 3 Lets Encrypt",
+        "menu": "AWS",
+        "id": "c76ab271882257c4eaddd57276800e5b",
+        "filepath": "manual/AWS/Cloudfront-S3-Lets-Encrypt.md",
+        "link": "",
+        "slug": "manual-aws-cloudfront-s3-lets-encrypt",
+        "route": "/manual-aws-cloudfront-s3-lets-encrypt",
+        "headings": [
+          {
+            "slug": "lets-encrypt-with-cloudfront-and-s3",
+            "depth": 1,
+            "value": "Let's encrypt with CloudFront and S3"
           }
         ]
       }
@@ -1101,6 +1101,30 @@
       }
     },
     {
+      "key": "manual/AWS/Namecheap-Route-53.md",
+      "value": {
+        "name": "Namecheap Route 53",
+        "menu": "AWS",
+        "id": "232c5ffe4863a998c406ce5da6e96b7b",
+        "filepath": "manual/AWS/Namecheap-Route-53.md",
+        "link": "",
+        "slug": "manual-aws-namecheap-route-53",
+        "route": "/manual-aws-namecheap-route-53",
+        "headings": [
+          {
+            "slug": "namecheap-to-route-53",
+            "depth": 1,
+            "value": "Namecheap to Route 53"
+          },
+          {
+            "slug": "validating-google-mail",
+            "depth": 2,
+            "value": "Validating Google Mail"
+          }
+        ]
+      }
+    },
+    {
       "key": "manual/AWS/Javascript-AWS.md",
       "value": {
         "name": "Javascript AWS",
@@ -1139,30 +1163,6 @@
             "slug": "create-a-bucket-and-deploy-create-react-app-to-bucket",
             "depth": 2,
             "value": "Create a bucket and deploy create-react-app to bucket"
-          }
-        ]
-      }
-    },
-    {
-      "key": "manual/AWS/Namecheap-Route-53.md",
-      "value": {
-        "name": "Namecheap Route 53",
-        "menu": "AWS",
-        "id": "232c5ffe4863a998c406ce5da6e96b7b",
-        "filepath": "manual/AWS/Namecheap-Route-53.md",
-        "link": "",
-        "slug": "manual-aws-namecheap-route-53",
-        "route": "/manual-aws-namecheap-route-53",
-        "headings": [
-          {
-            "slug": "namecheap-to-route-53",
-            "depth": 1,
-            "value": "Namecheap to Route 53"
-          },
-          {
-            "slug": "validating-google-mail",
-            "depth": 2,
-            "value": "Validating Google Mail"
           }
         ]
       }
@@ -1232,25 +1232,6 @@
             "slug": "4-set-a-baseurl-in-appjson",
             "depth": 3,
             "value": "4. Set a baseUrl in app.json"
-          }
-        ]
-      }
-    },
-    {
-      "key": "manual/AWS/VPC-Setup.md",
-      "value": {
-        "name": "VPC Setup",
-        "menu": "AWS",
-        "id": "e5e490d702f0af9695d057db6af6b5d0",
-        "filepath": "manual/AWS/VPC-Setup.md",
-        "link": "",
-        "slug": "manual-aws-vpc-setup",
-        "route": "/manual-aws-vpc-setup",
-        "headings": [
-          {
-            "slug": "vpc-setup",
-            "depth": 1,
-            "value": "VPC Setup"
           }
         ]
       }
@@ -1340,6 +1321,25 @@
             "slug": "definitions",
             "depth": 2,
             "value": "Definitions"
+          }
+        ]
+      }
+    },
+    {
+      "key": "manual/AWS/VPC-Setup.md",
+      "value": {
+        "name": "VPC Setup",
+        "menu": "AWS",
+        "id": "e5e490d702f0af9695d057db6af6b5d0",
+        "filepath": "manual/AWS/VPC-Setup.md",
+        "link": "",
+        "slug": "manual-aws-vpc-setup",
+        "route": "/manual-aws-vpc-setup",
+        "headings": [
+          {
+            "slug": "vpc-setup",
+            "depth": 1,
+            "value": "VPC Setup"
           }
         ]
       }
@@ -1496,25 +1496,6 @@
             "slug": "1-many-many-to-many-relationship-schemas",
             "depth": 2,
             "value": "1-many, many-to-many relationship schemas"
-          }
-        ]
-      }
-    },
-    {
-      "key": "manual/Android/Lists-And-Adapters.md",
-      "value": {
-        "name": "Lists And Adapters",
-        "menu": "Android",
-        "id": "ab8ddf80b132a4bb703edba7b15ea264",
-        "filepath": "manual/Android/Lists-And-Adapters.md",
-        "link": "",
-        "slug": "manual-android-lists-and-adapters",
-        "route": "/manual-android-lists-and-adapters",
-        "headings": [
-          {
-            "slug": "lists-and-adapters-in-android",
-            "depth": 1,
-            "value": "Lists and Adapters in Android"
           }
         ]
       }
@@ -1728,45 +1709,20 @@
       }
     },
     {
-      "key": "manual/Art/Drawing.md",
+      "key": "manual/Android/Lists-And-Adapters.md",
       "value": {
-        "name": "Drawing",
-        "menu": "Art",
-        "id": "78e8b1c599237c157d6fdc9caf01e49b",
-        "filepath": "manual/Art/Drawing.md",
+        "name": "Lists And Adapters",
+        "menu": "Android",
+        "id": "ab8ddf80b132a4bb703edba7b15ea264",
+        "filepath": "manual/Android/Lists-And-Adapters.md",
         "link": "",
-        "slug": "manual-art-drawing",
-        "route": "/manual-art-drawing",
+        "slug": "manual-android-lists-and-adapters",
+        "route": "/manual-android-lists-and-adapters",
         "headings": [
           {
-            "slug": "drawing-course",
+            "slug": "lists-and-adapters-in-android",
             "depth": 1,
-            "value": "Drawing Course"
-          },
-          {
-            "slug": "basics",
-            "depth": 2,
-            "value": "Basics"
-          },
-          {
-            "slug": "tools",
-            "depth": 3,
-            "value": "Tools"
-          },
-          {
-            "slug": "why-is-drawing-so-important",
-            "depth": 2,
-            "value": "Why is drawing so important?"
-          },
-          {
-            "slug": "testing-metric",
-            "depth": 3,
-            "value": "Testing metric"
-          },
-          {
-            "slug": "basics-of-line-drawing",
-            "depth": 2,
-            "value": "Basics of line drawing"
+            "value": "Lists and Adapters in Android"
           }
         ]
       }
@@ -1806,124 +1762,45 @@
       }
     },
     {
-      "key": "manual/Big-Data/Big-Data-Essentials.md",
+      "key": "manual/Art/Drawing.md",
       "value": {
-        "menu": "Big Data",
-        "name": "Big Data Essentials",
-        "id": "af0c4d20a10b1080f15a54189f88e017",
-        "filepath": "manual/Big-Data/Big-Data-Essentials.md",
+        "name": "Drawing",
+        "menu": "Art",
+        "id": "78e8b1c599237c157d6fdc9caf01e49b",
+        "filepath": "manual/Art/Drawing.md",
         "link": "",
-        "slug": "manual-big-data-big-data-essentials",
-        "route": "/manual-big-data-big-data-essentials",
+        "slug": "manual-art-drawing",
+        "route": "/manual-art-drawing",
         "headings": [
           {
-            "slug": "big-data-essentials",
+            "slug": "drawing-course",
             "depth": 1,
-            "value": "Big Data Essentials"
+            "value": "Drawing Course"
           },
           {
-            "slug": "the-big-four-vs",
+            "slug": "basics",
             "depth": 2,
-            "value": "The Big Four Vs"
+            "value": "Basics"
           },
           {
-            "slug": "why-is-it-important",
-            "depth": 2,
-            "value": "Why is it important?"
-          },
-          {
-            "slug": "big-data-sources",
-            "depth": 2,
-            "value": "Big Data Sources"
-          },
-          {
-            "slug": "formats",
-            "depth": 2,
-            "value": "Formats"
-          },
-          {
-            "slug": "analytics-in-big-data",
-            "depth": 2,
-            "value": "Analytics in Big Data"
-          }
-        ]
-      }
-    },
-    {
-      "key": "manual/Big-Data/Tools-And-Technologies.md",
-      "value": {
-        "name": "Tools and Technologies",
-        "menu": "Big Data",
-        "id": "eb17e404766818896313d5a51b632158",
-        "filepath": "manual/Big-Data/Tools-And-Technologies.md",
-        "link": "",
-        "slug": "manual-big-data-tools-and-technologies",
-        "route": "/manual-big-data-tools-and-technologies",
-        "headings": [
-          {
-            "slug": "big-data-tools-and-technologies",
-            "depth": 1,
-            "value": "Big Data Tools and Technologies"
-          },
-          {
-            "slug": "apache-hadoop",
-            "depth": 2,
-            "value": "Apache Hadoop"
-          },
-          {
-            "slug": "hdfs",
-            "depth": 2,
-            "value": "HDFS"
-          },
-          {
-            "slug": "architecture",
+            "slug": "tools",
             "depth": 3,
-            "value": "Architecture"
+            "value": "Tools"
           },
           {
-            "slug": "hadoop-mapreduce",
+            "slug": "why-is-drawing-so-important",
             "depth": 2,
-            "value": "Hadoop MapReduce"
+            "value": "Why is drawing so important?"
           },
           {
-            "slug": "mapreduce-jobs",
+            "slug": "testing-metric",
             "depth": 3,
-            "value": "MapReduce jobs"
+            "value": "Testing metric"
           },
           {
-            "slug": "inputs-and-outputs-of-a-mapreduce-job",
-            "depth": 3,
-            "value": "Inputs and Outputs of a MapReduce Job"
-          },
-          {
-            "slug": "example-applications-of-mapreduce",
-            "depth": 3,
-            "value": "Example Applications of MapReduce"
-          },
-          {
-            "slug": "writing-and-running-hadoop-mapreduce-jobs",
-            "depth": 3,
-            "value": "Writing and Running Hadoop MapReduce Jobs"
-          },
-          {
-            "slug": "hadoop-job-configurations",
-            "depth": 3,
-            "value": "Hadoop Job configurations"
-          },
-          {
-            "slug": "yet-another-resource-negotiator-yarn",
+            "slug": "basics-of-line-drawing",
             "depth": 2,
-            "value": "Yet Another Resource Negotiator (YARN)"
-          },
-          {
-            "slug": "container",
-            "depth": 3,
-            "value": "Container"
-          },
-          {
-            "slug": "hadoop-ecosystem",
-            "depth": 2,
-            "value": "Hadoop Ecosystem"
+            "value": "Basics of line drawing"
           }
         ]
       }
@@ -2097,6 +1974,75 @@
       }
     },
     {
+      "key": "manual/Books/Loonshots.md",
+      "value": {
+        "menu": "Books",
+        "name": "Loonshots",
+        "id": "e96821a5f56a0fdbf46c64efe39cf771",
+        "filepath": "manual/Books/Loonshots.md",
+        "link": "",
+        "slug": "manual-books-loonshots",
+        "route": "/manual-books-loonshots",
+        "headings": [
+          {
+            "slug": "loonshots",
+            "depth": 1,
+            "value": "Loonshots"
+          },
+          {
+            "slug": "bush-vail-cartesian-plane",
+            "depth": 2,
+            "value": "Bush-Vail Cartesian Plane"
+          },
+          {
+            "slug": "bush-vail-rules",
+            "depth": 2,
+            "value": "Bush-Vail Rules"
+          },
+          {
+            "slug": "1-separate-the-phases",
+            "depth": 3,
+            "value": "1. Separate the phases"
+          },
+          {
+            "slug": "2-create-dynamic-equilibrium",
+            "depth": 3,
+            "value": "2. Create dynamic equilibrium"
+          },
+          {
+            "slug": "3-spread-a-system-mindset",
+            "depth": 3,
+            "value": "3. Spread a system mindset"
+          },
+          {
+            "slug": "4-raise-the-magic-number",
+            "depth": 3,
+            "value": "4. Raise the magic number"
+          },
+          {
+            "slug": "other-standard-thoughts",
+            "depth": 3,
+            "value": "Other standard thoughts"
+          },
+          {
+            "slug": "the-magic-number-150",
+            "depth": 2,
+            "value": "The Magic Number 150"
+          },
+          {
+            "slug": "design--fitness-parameters-g-s-e-f",
+            "depth": 3,
+            "value": "Design + Fitness Parameters (G, S, E, F)"
+          },
+          {
+            "slug": "magic-number-equation",
+            "depth": 3,
+            "value": "Magic Number Equation"
+          }
+        ]
+      }
+    },
+    {
       "key": "manual/Books/Intercom-On-Product-Management.md",
       "value": {
         "menu": "Books",
@@ -2206,75 +2152,6 @@
             "slug": "increase-user-engagement",
             "depth": 2,
             "value": "Increase User Engagement"
-          }
-        ]
-      }
-    },
-    {
-      "key": "manual/Books/Loonshots.md",
-      "value": {
-        "menu": "Books",
-        "name": "Loonshots",
-        "id": "e96821a5f56a0fdbf46c64efe39cf771",
-        "filepath": "manual/Books/Loonshots.md",
-        "link": "",
-        "slug": "manual-books-loonshots",
-        "route": "/manual-books-loonshots",
-        "headings": [
-          {
-            "slug": "loonshots",
-            "depth": 1,
-            "value": "Loonshots"
-          },
-          {
-            "slug": "bush-vail-cartesian-plane",
-            "depth": 2,
-            "value": "Bush-Vail Cartesian Plane"
-          },
-          {
-            "slug": "bush-vail-rules",
-            "depth": 2,
-            "value": "Bush-Vail Rules"
-          },
-          {
-            "slug": "1-separate-the-phases",
-            "depth": 3,
-            "value": "1. Separate the phases"
-          },
-          {
-            "slug": "2-create-dynamic-equilibrium",
-            "depth": 3,
-            "value": "2. Create dynamic equilibrium"
-          },
-          {
-            "slug": "3-spread-a-system-mindset",
-            "depth": 3,
-            "value": "3. Spread a system mindset"
-          },
-          {
-            "slug": "4-raise-the-magic-number",
-            "depth": 3,
-            "value": "4. Raise the magic number"
-          },
-          {
-            "slug": "other-standard-thoughts",
-            "depth": 3,
-            "value": "Other standard thoughts"
-          },
-          {
-            "slug": "the-magic-number-150",
-            "depth": 2,
-            "value": "The Magic Number 150"
-          },
-          {
-            "slug": "design--fitness-parameters-g-s-e-f",
-            "depth": 3,
-            "value": "Design + Fitness Parameters (G, S, E, F)"
-          },
-          {
-            "slug": "magic-number-equation",
-            "depth": 3,
-            "value": "Magic Number Equation"
           }
         ]
       }
@@ -2407,6 +2284,100 @@
             "slug": "find-the-black-swan",
             "depth": 3,
             "value": "Find the Black Swan"
+          }
+        ]
+      }
+    },
+    {
+      "key": "manual/Books/Strategize.md",
+      "value": {
+        "menu": "Books",
+        "name": "Strategize",
+        "id": "34774f038464aedb002952c89effe2c7",
+        "filepath": "manual/Books/Strategize.md",
+        "link": "",
+        "slug": "manual-books-strategize",
+        "route": "/manual-books-strategize",
+        "headings": [
+          {
+            "slug": "strategize",
+            "depth": 1,
+            "value": "Strategize"
+          },
+          {
+            "slug": "rough-notes",
+            "depth": 2,
+            "value": "Rough Notes"
+          },
+          {
+            "slug": "core-adjacent-and-disruptive-innovations",
+            "depth": 3,
+            "value": "Core, Adjacent and Disruptive Innovations:"
+          },
+          {
+            "slug": "customer-segments",
+            "depth": 3,
+            "value": "Customer Segments"
+          },
+          {
+            "slug": "personas",
+            "depth": 3,
+            "value": "Personas"
+          },
+          {
+            "slug": "find-an-itch-that-worth-scratching",
+            "depth": 3,
+            "value": "Find an itch that worth scratching"
+          },
+          {
+            "slug": "strategy-canvas",
+            "depth": 3,
+            "value": "Strategy Canvas"
+          },
+          {
+            "slug": "kano-model",
+            "depth": 3,
+            "value": "Kano Model"
+          },
+          {
+            "slug": "eliminate-raise-reduce-create-grid",
+            "depth": 3,
+            "value": "Eliminate-Raise-Reduce-Create grid"
+          },
+          {
+            "slug": "build-variants-and-unbundle-your-product",
+            "depth": 3,
+            "value": "Build Variants and Unbundle Your Product"
+          },
+          {
+            "slug": "reposition-your-product",
+            "depth": 3,
+            "value": "Reposition Your Product"
+          },
+          {
+            "slug": "uncategorised-notes",
+            "depth": 3,
+            "value": "Uncategorised notes"
+          },
+          {
+            "slug": "product-roadmap",
+            "depth": 2,
+            "value": "Product Roadmap"
+          },
+          {
+            "slug": "roadmap-foundations",
+            "depth": 3,
+            "value": "Roadmap Foundations"
+          },
+          {
+            "slug": "road-mapping-pitfalls",
+            "depth": 3,
+            "value": "Road-Mapping Pitfalls"
+          },
+          {
+            "slug": "go-product-roadmap",
+            "depth": 3,
+            "value": "GO Product Roadmap"
           }
         ]
       }
@@ -2671,100 +2642,6 @@
       }
     },
     {
-      "key": "manual/Books/Strategize.md",
-      "value": {
-        "menu": "Books",
-        "name": "Strategize",
-        "id": "34774f038464aedb002952c89effe2c7",
-        "filepath": "manual/Books/Strategize.md",
-        "link": "",
-        "slug": "manual-books-strategize",
-        "route": "/manual-books-strategize",
-        "headings": [
-          {
-            "slug": "strategize",
-            "depth": 1,
-            "value": "Strategize"
-          },
-          {
-            "slug": "rough-notes",
-            "depth": 2,
-            "value": "Rough Notes"
-          },
-          {
-            "slug": "core-adjacent-and-disruptive-innovations",
-            "depth": 3,
-            "value": "Core, Adjacent and Disruptive Innovations:"
-          },
-          {
-            "slug": "customer-segments",
-            "depth": 3,
-            "value": "Customer Segments"
-          },
-          {
-            "slug": "personas",
-            "depth": 3,
-            "value": "Personas"
-          },
-          {
-            "slug": "find-an-itch-that-worth-scratching",
-            "depth": 3,
-            "value": "Find an itch that worth scratching"
-          },
-          {
-            "slug": "strategy-canvas",
-            "depth": 3,
-            "value": "Strategy Canvas"
-          },
-          {
-            "slug": "kano-model",
-            "depth": 3,
-            "value": "Kano Model"
-          },
-          {
-            "slug": "eliminate-raise-reduce-create-grid",
-            "depth": 3,
-            "value": "Eliminate-Raise-Reduce-Create grid"
-          },
-          {
-            "slug": "build-variants-and-unbundle-your-product",
-            "depth": 3,
-            "value": "Build Variants and Unbundle Your Product"
-          },
-          {
-            "slug": "reposition-your-product",
-            "depth": 3,
-            "value": "Reposition Your Product"
-          },
-          {
-            "slug": "uncategorised-notes",
-            "depth": 3,
-            "value": "Uncategorised notes"
-          },
-          {
-            "slug": "product-roadmap",
-            "depth": 2,
-            "value": "Product Roadmap"
-          },
-          {
-            "slug": "roadmap-foundations",
-            "depth": 3,
-            "value": "Roadmap Foundations"
-          },
-          {
-            "slug": "road-mapping-pitfalls",
-            "depth": 3,
-            "value": "Road-Mapping Pitfalls"
-          },
-          {
-            "slug": "go-product-roadmap",
-            "depth": 3,
-            "value": "GO Product Roadmap"
-          }
-        ]
-      }
-    },
-    {
       "key": "manual/Books/The-Subtle-Art.md",
       "value": {
         "name": "The Subtle Art",
@@ -2964,6 +2841,129 @@
       }
     },
     {
+      "key": "manual/Big-Data/Big-Data-Essentials.md",
+      "value": {
+        "menu": "Big Data",
+        "name": "Big Data Essentials",
+        "id": "af0c4d20a10b1080f15a54189f88e017",
+        "filepath": "manual/Big-Data/Big-Data-Essentials.md",
+        "link": "",
+        "slug": "manual-big-data-big-data-essentials",
+        "route": "/manual-big-data-big-data-essentials",
+        "headings": [
+          {
+            "slug": "big-data-essentials",
+            "depth": 1,
+            "value": "Big Data Essentials"
+          },
+          {
+            "slug": "the-big-four-vs",
+            "depth": 2,
+            "value": "The Big Four Vs"
+          },
+          {
+            "slug": "why-is-it-important",
+            "depth": 2,
+            "value": "Why is it important?"
+          },
+          {
+            "slug": "big-data-sources",
+            "depth": 2,
+            "value": "Big Data Sources"
+          },
+          {
+            "slug": "formats",
+            "depth": 2,
+            "value": "Formats"
+          },
+          {
+            "slug": "analytics-in-big-data",
+            "depth": 2,
+            "value": "Analytics in Big Data"
+          }
+        ]
+      }
+    },
+    {
+      "key": "manual/Big-Data/Tools-And-Technologies.md",
+      "value": {
+        "name": "Tools and Technologies",
+        "menu": "Big Data",
+        "id": "eb17e404766818896313d5a51b632158",
+        "filepath": "manual/Big-Data/Tools-And-Technologies.md",
+        "link": "",
+        "slug": "manual-big-data-tools-and-technologies",
+        "route": "/manual-big-data-tools-and-technologies",
+        "headings": [
+          {
+            "slug": "big-data-tools-and-technologies",
+            "depth": 1,
+            "value": "Big Data Tools and Technologies"
+          },
+          {
+            "slug": "apache-hadoop",
+            "depth": 2,
+            "value": "Apache Hadoop"
+          },
+          {
+            "slug": "hdfs",
+            "depth": 2,
+            "value": "HDFS"
+          },
+          {
+            "slug": "architecture",
+            "depth": 3,
+            "value": "Architecture"
+          },
+          {
+            "slug": "hadoop-mapreduce",
+            "depth": 2,
+            "value": "Hadoop MapReduce"
+          },
+          {
+            "slug": "mapreduce-jobs",
+            "depth": 3,
+            "value": "MapReduce jobs"
+          },
+          {
+            "slug": "inputs-and-outputs-of-a-mapreduce-job",
+            "depth": 3,
+            "value": "Inputs and Outputs of a MapReduce Job"
+          },
+          {
+            "slug": "example-applications-of-mapreduce",
+            "depth": 3,
+            "value": "Example Applications of MapReduce"
+          },
+          {
+            "slug": "writing-and-running-hadoop-mapreduce-jobs",
+            "depth": 3,
+            "value": "Writing and Running Hadoop MapReduce Jobs"
+          },
+          {
+            "slug": "hadoop-job-configurations",
+            "depth": 3,
+            "value": "Hadoop Job configurations"
+          },
+          {
+            "slug": "yet-another-resource-negotiator-yarn",
+            "depth": 2,
+            "value": "Yet Another Resource Negotiator (YARN)"
+          },
+          {
+            "slug": "container",
+            "depth": 3,
+            "value": "Container"
+          },
+          {
+            "slug": "hadoop-ecosystem",
+            "depth": 2,
+            "value": "Hadoop Ecosystem"
+          }
+        ]
+      }
+    },
+    {
       "key": "manual/Bots/API-AI-Bot.md",
       "value": {
         "name": "API AI Bot",
@@ -2978,6 +2978,55 @@
             "slug": "apiai-bots",
             "depth": 1,
             "value": "API.ai Bots"
+          }
+        ]
+      }
+    },
+    {
+      "key": "manual/Business/Personal-MBA.md",
+      "value": {
+        "name": "Personal MBA",
+        "menu": "Business",
+        "id": "99b19726f014e4b3507442e126d2f87b",
+        "filepath": "manual/Business/Personal-MBA.md",
+        "link": "",
+        "slug": "manual-business-personal-mba",
+        "route": "/manual-business-personal-mba",
+        "headings": [
+          {
+            "slug": "5-parts-of-every-business",
+            "depth": 2,
+            "value": "5 Parts of every business"
+          },
+          {
+            "slug": "5-interdependent-core-parts",
+            "depth": 2,
+            "value": "5 Interdependent core parts"
+          },
+          {
+            "slug": "5-core-human-drives",
+            "depth": 2,
+            "value": "5 Core Human Drives"
+          },
+          {
+            "slug": "10-ways-to-evaluate-the-market",
+            "depth": 2,
+            "value": "10 Ways to Evaluate the Market"
+          },
+          {
+            "slug": "12-standard-forms-of-value",
+            "depth": 2,
+            "value": "12 Standard forms of value"
+          },
+          {
+            "slug": "percieved-value",
+            "depth": 2,
+            "value": "Percieved value"
+          },
+          {
+            "slug": "the-iteration-cycle",
+            "depth": 2,
+            "value": "The Iteration Cycle"
           }
         ]
       }
@@ -3067,55 +3116,6 @@
             "slug": "next-steps",
             "depth": 2,
             "value": "Next steps"
-          }
-        ]
-      }
-    },
-    {
-      "key": "manual/Business/Personal-MBA.md",
-      "value": {
-        "name": "Personal MBA",
-        "menu": "Business",
-        "id": "99b19726f014e4b3507442e126d2f87b",
-        "filepath": "manual/Business/Personal-MBA.md",
-        "link": "",
-        "slug": "manual-business-personal-mba",
-        "route": "/manual-business-personal-mba",
-        "headings": [
-          {
-            "slug": "5-parts-of-every-business",
-            "depth": 2,
-            "value": "5 Parts of every business"
-          },
-          {
-            "slug": "5-interdependent-core-parts",
-            "depth": 2,
-            "value": "5 Interdependent core parts"
-          },
-          {
-            "slug": "5-core-human-drives",
-            "depth": 2,
-            "value": "5 Core Human Drives"
-          },
-          {
-            "slug": "10-ways-to-evaluate-the-market",
-            "depth": 2,
-            "value": "10 Ways to Evaluate the Market"
-          },
-          {
-            "slug": "12-standard-forms-of-value",
-            "depth": 2,
-            "value": "12 Standard forms of value"
-          },
-          {
-            "slug": "percieved-value",
-            "depth": 2,
-            "value": "Percieved value"
-          },
-          {
-            "slug": "the-iteration-cycle",
-            "depth": 2,
-            "value": "The Iteration Cycle"
           }
         ]
       }
@@ -3980,73 +3980,6 @@
       }
     },
     {
-      "key": "manual/Computer-Science/Communicating-Sequential-Processess.md",
-      "value": {
-        "menu": "Computer Science",
-        "name": "Communicating Sequential Processess",
-        "id": "57a20ae3fc1bf139d3c1fbbf5b144670",
-        "filepath": "manual/Computer-Science/Communicating-Sequential-Processess.md",
-        "link": "",
-        "slug": "manual-computer-science-communicating-sequential-processess",
-        "route": "/manual-computer-science-communicating-sequential-processess",
-        "headings": [
-          {
-            "slug": "communicating-sequential-processess",
-            "depth": 1,
-            "value": "Communicating Sequential Processess"
-          },
-          {
-            "slug": "links",
-            "depth": 2,
-            "value": "Links"
-          }
-        ]
-      }
-    },
-    {
-      "key": "manual/Computer-Science/Composition.md",
-      "value": {
-        "menu": "Computer Science",
-        "name": "Composition & Aggregation",
-        "id": "86877c6c7dc7429515bcc366cf5fc762",
-        "filepath": "manual/Computer-Science/Composition.md",
-        "link": "",
-        "slug": "manual-computer-science-composition",
-        "route": "/manual-computer-science-composition",
-        "headings": [
-          {
-            "slug": "composition--aggregation",
-            "depth": 1,
-            "value": "Composition & Aggregation"
-          }
-        ]
-      }
-    },
-    {
-      "key": "manual/Computer-Science/Type-Theory.md",
-      "value": {
-        "menu": "Computer Science",
-        "name": "Type Theory",
-        "id": "54d3b22daec60fc517b7d9d357fad091",
-        "filepath": "manual/Computer-Science/Type-Theory.md",
-        "link": "",
-        "slug": "manual-computer-science-type-theory",
-        "route": "/manual-computer-science-type-theory",
-        "headings": [
-          {
-            "slug": "type-theory",
-            "depth": 1,
-            "value": "Type Theory"
-          },
-          {
-            "slug": "links",
-            "depth": 2,
-            "value": "Links"
-          }
-        ]
-      }
-    },
-    {
       "key": "manual/Chef/Chef-General.md",
       "value": {
         "name": "Chef General",
@@ -4274,6 +4207,30 @@
       }
     },
     {
+      "key": "manual/Computer-Science/Communicating-Sequential-Processess.md",
+      "value": {
+        "menu": "Computer Science",
+        "name": "Communicating Sequential Processess",
+        "id": "57a20ae3fc1bf139d3c1fbbf5b144670",
+        "filepath": "manual/Computer-Science/Communicating-Sequential-Processess.md",
+        "link": "",
+        "slug": "manual-computer-science-communicating-sequential-processess",
+        "route": "/manual-computer-science-communicating-sequential-processess",
+        "headings": [
+          {
+            "slug": "communicating-sequential-processess",
+            "depth": 1,
+            "value": "Communicating Sequential Processess"
+          },
+          {
+            "slug": "links",
+            "depth": 2,
+            "value": "Links"
+          }
+        ]
+      }
+    },
+    {
       "key": "manual/Chef/chef-cheat-sheet.md",
       "value": {
         "name": "Chef Cheat Sheet",
@@ -4378,6 +4335,49 @@
             "slug": "future-wrapper-cookbooks",
             "depth": 2,
             "value": "(Future) Wrapper Cookbooks"
+          }
+        ]
+      }
+    },
+    {
+      "key": "manual/Computer-Science/Type-Theory.md",
+      "value": {
+        "menu": "Computer Science",
+        "name": "Type Theory",
+        "id": "54d3b22daec60fc517b7d9d357fad091",
+        "filepath": "manual/Computer-Science/Type-Theory.md",
+        "link": "",
+        "slug": "manual-computer-science-type-theory",
+        "route": "/manual-computer-science-type-theory",
+        "headings": [
+          {
+            "slug": "type-theory",
+            "depth": 1,
+            "value": "Type Theory"
+          },
+          {
+            "slug": "links",
+            "depth": 2,
+            "value": "Links"
+          }
+        ]
+      }
+    },
+    {
+      "key": "manual/Computer-Science/Composition.md",
+      "value": {
+        "menu": "Computer Science",
+        "name": "Composition & Aggregation",
+        "id": "86877c6c7dc7429515bcc366cf5fc762",
+        "filepath": "manual/Computer-Science/Composition.md",
+        "link": "",
+        "slug": "manual-computer-science-composition",
+        "route": "/manual-computer-science-composition",
+        "headings": [
+          {
+            "slug": "composition--aggregation",
+            "depth": 1,
+            "value": "Composition & Aggregation"
           }
         ]
       }
@@ -5132,30 +5132,6 @@
       }
     },
     {
-      "key": "manual/Design-Patterns/Adapter-Pattern.md",
-      "value": {
-        "menu": "Design Patterns",
-        "name": "Adapter Pattern",
-        "id": "43af583ad2c878d39ba63d2d77b8967e",
-        "filepath": "manual/Design-Patterns/Adapter-Pattern.md",
-        "link": "",
-        "slug": "manual-design-patterns-adapter-pattern",
-        "route": "/manual-design-patterns-adapter-pattern",
-        "headings": [
-          {
-            "slug": "adapter-pattern",
-            "depth": 1,
-            "value": "Adapter Pattern"
-          },
-          {
-            "slug": "lightning-to-microusb-adapter-example",
-            "depth": 2,
-            "value": "Lightning To MicroUSB Adapter Example"
-          }
-        ]
-      }
-    },
-    {
       "key": "manual/Design-Patterns/Bridge-Pattern.md",
       "value": {
         "menu": "Design Patterns",
@@ -5224,6 +5200,30 @@
             "slug": "putting-it-all-together",
             "depth": 2,
             "value": "Putting It All Together"
+          }
+        ]
+      }
+    },
+    {
+      "key": "manual/Design-Patterns/Adapter-Pattern.md",
+      "value": {
+        "menu": "Design Patterns",
+        "name": "Adapter Pattern",
+        "id": "43af583ad2c878d39ba63d2d77b8967e",
+        "filepath": "manual/Design-Patterns/Adapter-Pattern.md",
+        "link": "",
+        "slug": "manual-design-patterns-adapter-pattern",
+        "route": "/manual-design-patterns-adapter-pattern",
+        "headings": [
+          {
+            "slug": "adapter-pattern",
+            "depth": 1,
+            "value": "Adapter Pattern"
+          },
+          {
+            "slug": "lightning-to-microusb-adapter-example",
+            "depth": 2,
+            "value": "Lightning To MicroUSB Adapter Example"
           }
         ]
       }
@@ -5389,6 +5389,35 @@
       }
     },
     {
+      "key": "manual/Design-Patterns/Facade-Pattern.md",
+      "value": {
+        "menu": "Design Patterns",
+        "name": "Facade Pattern",
+        "id": "038a071c9f39cb2bb9ddfb8c4f96456c",
+        "filepath": "manual/Design-Patterns/Facade-Pattern.md",
+        "link": "",
+        "slug": "manual-design-patterns-facade-pattern",
+        "route": "/manual-design-patterns-facade-pattern",
+        "headings": [
+          {
+            "slug": "facade-pattern",
+            "depth": 1,
+            "value": "Facade Pattern"
+          },
+          {
+            "slug": "example",
+            "depth": 2,
+            "value": "Example"
+          },
+          {
+            "slug": "participants",
+            "depth": 2,
+            "value": "Participants"
+          }
+        ]
+      }
+    },
+    {
       "key": "manual/Design-Patterns/Design-Patterns.md",
       "value": {
         "menu": "Design Patterns",
@@ -5433,35 +5462,6 @@
             "slug": "resources",
             "depth": 2,
             "value": "Resources"
-          }
-        ]
-      }
-    },
-    {
-      "key": "manual/Design-Patterns/Facade-Pattern.md",
-      "value": {
-        "menu": "Design Patterns",
-        "name": "Facade Pattern",
-        "id": "038a071c9f39cb2bb9ddfb8c4f96456c",
-        "filepath": "manual/Design-Patterns/Facade-Pattern.md",
-        "link": "",
-        "slug": "manual-design-patterns-facade-pattern",
-        "route": "/manual-design-patterns-facade-pattern",
-        "headings": [
-          {
-            "slug": "facade-pattern",
-            "depth": 1,
-            "value": "Facade Pattern"
-          },
-          {
-            "slug": "example",
-            "depth": 2,
-            "value": "Example"
-          },
-          {
-            "slug": "participants",
-            "depth": 2,
-            "value": "Participants"
           }
         ]
       }
@@ -5838,78 +5838,6 @@
       }
     },
     {
-      "key": "manual/DevOps/Dev-Ops.md",
-      "value": {
-        "name": "Dev Ops",
-        "menu": "Dev Ops",
-        "id": "03d613d3f56793623c53ae42b79126ae",
-        "filepath": "manual/DevOps/Dev-Ops.md",
-        "link": "",
-        "slug": "manual-dev-ops-dev-ops",
-        "route": "/manual-dev-ops-dev-ops",
-        "headings": []
-      }
-    },
-    {
-      "key": "manual/DevOps/DevOps-Essentials.md",
-      "value": {
-        "name": "Dev Ops Essentials",
-        "menu": "Dev Ops",
-        "id": "8a051da7d35e08a0e8fc9c95663449e3",
-        "filepath": "manual/DevOps/DevOps-Essentials.md",
-        "link": "",
-        "slug": "manual-dev-ops-dev-ops-essentials",
-        "route": "/manual-dev-ops-dev-ops-essentials",
-        "headings": [
-          {
-            "slug": "devops-essentials",
-            "depth": 1,
-            "value": "DevOps-Essentials"
-          },
-          {
-            "slug": "10-traditional-responsibility-silos",
-            "depth": 2,
-            "value": "1.0 Traditional Responsibility Silos"
-          },
-          {
-            "slug": "terminology",
-            "depth": 1,
-            "value": "Terminology"
-          },
-          {
-            "slug": "20-iaas---infrastructure-as-a-service",
-            "depth": 2,
-            "value": "2.0: IaaS - Infrastructure as a Service"
-          },
-          {
-            "slug": "21-paas---platform-as-a-service",
-            "depth": 2,
-            "value": "2.1: PaaS - Platform as a Service"
-          },
-          {
-            "slug": "22-saas---software-as-a-service",
-            "depth": 2,
-            "value": "2.2: SaaS - Software as a Service"
-          },
-          {
-            "slug": "30-build-automation",
-            "depth": 2,
-            "value": "3.0: Build Automation"
-          },
-          {
-            "slug": "31-ci-and-cd",
-            "depth": 2,
-            "value": "3.1: CI and CD"
-          },
-          {
-            "slug": "40-jenkins",
-            "depth": 2,
-            "value": "4.0: Jenkins"
-          }
-        ]
-      }
-    },
-    {
       "key": "manual/Digital-Marketing/Digital-Marketing-Course.md",
       "value": {
         "name": "Digital Marketing Course",
@@ -6059,6 +5987,78 @@
             "slug": "8-twitter-marketing",
             "depth": 2,
             "value": "8. Twitter Marketing"
+          }
+        ]
+      }
+    },
+    {
+      "key": "manual/DevOps/Dev-Ops.md",
+      "value": {
+        "name": "Dev Ops",
+        "menu": "Dev Ops",
+        "id": "03d613d3f56793623c53ae42b79126ae",
+        "filepath": "manual/DevOps/Dev-Ops.md",
+        "link": "",
+        "slug": "manual-dev-ops-dev-ops",
+        "route": "/manual-dev-ops-dev-ops",
+        "headings": []
+      }
+    },
+    {
+      "key": "manual/DevOps/DevOps-Essentials.md",
+      "value": {
+        "name": "Dev Ops Essentials",
+        "menu": "Dev Ops",
+        "id": "8a051da7d35e08a0e8fc9c95663449e3",
+        "filepath": "manual/DevOps/DevOps-Essentials.md",
+        "link": "",
+        "slug": "manual-dev-ops-dev-ops-essentials",
+        "route": "/manual-dev-ops-dev-ops-essentials",
+        "headings": [
+          {
+            "slug": "devops-essentials",
+            "depth": 1,
+            "value": "DevOps-Essentials"
+          },
+          {
+            "slug": "10-traditional-responsibility-silos",
+            "depth": 2,
+            "value": "1.0 Traditional Responsibility Silos"
+          },
+          {
+            "slug": "terminology",
+            "depth": 1,
+            "value": "Terminology"
+          },
+          {
+            "slug": "20-iaas---infrastructure-as-a-service",
+            "depth": 2,
+            "value": "2.0: IaaS - Infrastructure as a Service"
+          },
+          {
+            "slug": "21-paas---platform-as-a-service",
+            "depth": 2,
+            "value": "2.1: PaaS - Platform as a Service"
+          },
+          {
+            "slug": "22-saas---software-as-a-service",
+            "depth": 2,
+            "value": "2.2: SaaS - Software as a Service"
+          },
+          {
+            "slug": "30-build-automation",
+            "depth": 2,
+            "value": "3.0: Build Automation"
+          },
+          {
+            "slug": "31-ci-and-cd",
+            "depth": 2,
+            "value": "3.1: CI and CD"
+          },
+          {
+            "slug": "40-jenkins",
+            "depth": 2,
+            "value": "4.0: Jenkins"
           }
         ]
       }
@@ -15450,328 +15450,6 @@
       }
     },
     {
-      "key": "manual/Product-Discovery/Best-Continous-Discovery-Mindsets.md",
-      "value": {
-        "menu": "Product Discovery",
-        "name": "Best Continuous Discovery Mindsets",
-        "id": "2871e325706b4d06aa3fcdb9cee692f5",
-        "filepath": "manual/Product-Discovery/Best-Continous-Discovery-Mindsets.md",
-        "link": "",
-        "slug": "manual-product-discovery-best-continous-discovery-mindsets",
-        "route": "/manual-product-discovery-best-continous-discovery-mindsets",
-        "headings": [
-          {
-            "slug": "best-continuous-discovery-mindsets",
-            "depth": 1,
-            "value": "Best Continuous Discovery Mindsets"
-          },
-          {
-            "slug": "the-mindsets",
-            "depth": 2,
-            "value": "The Mindsets"
-          },
-          {
-            "slug": "more-on-continuous-mindset",
-            "depth": 2,
-            "value": "More On Continuous Mindset"
-          },
-          {
-            "slug": "more-on-experimental-mindset",
-            "depth": 2,
-            "value": "More On Experimental Mindset"
-          }
-        ]
-      }
-    },
-    {
-      "key": "manual/Product-Discovery/Intro-To-Modern-Product-Discovery.md",
-      "value": {
-        "menu": "Product Discovery",
-        "name": "Intro To Modern Product Discovery",
-        "id": "7fc943957218a1392a8567a130186f38",
-        "filepath": "manual/Product-Discovery/Intro-To-Modern-Product-Discovery.md",
-        "link": "",
-        "slug": "manual-product-discovery-intro-to-modern-product-discovery",
-        "route": "/manual-product-discovery-intro-to-modern-product-discovery",
-        "headings": [
-          {
-            "slug": "intro-to-modern-product-discovery",
-            "depth": 1,
-            "value": "Intro To Modern Product Discovery"
-          },
-          {
-            "slug": "discovery-vs-delivery",
-            "depth": 2,
-            "value": "Discovery vs Delivery"
-          },
-          {
-            "slug": "history",
-            "depth": 2,
-            "value": "History"
-          },
-          {
-            "slug": "opportunity-solution-trees",
-            "depth": 2,
-            "value": "Opportunity Solution Trees"
-          },
-          {
-            "slug": "how-opportunities-help-drive-the-design-outcomes",
-            "depth": 3,
-            "value": "How Opportunities Help Drive The Design Outcomes"
-          },
-          {
-            "slug": "continuous-product-decisions",
-            "depth": 3,
-            "value": "Continuous Product Decisions"
-          }
-        ]
-      }
-    },
-    {
-      "key": "manual/Product-Discovery/Keystone-Habit.md",
-      "value": {
-        "name": "Keystone Habit",
-        "menu": "Product Discovery",
-        "id": "30d4847cf5993a0c82853a9c63dc6852",
-        "filepath": "manual/Product-Discovery/Keystone-Habit.md",
-        "link": "",
-        "slug": "manual-product-discovery-keystone-habit",
-        "route": "/manual-product-discovery-keystone-habit",
-        "headings": [
-          {
-            "slug": "keystone-habit",
-            "depth": 1,
-            "value": "Keystone Habit"
-          },
-          {
-            "slug": "deliberate-practice",
-            "depth": 2,
-            "value": "Deliberate Practice"
-          },
-          {
-            "slug": "required-knowledge-for-effective-application",
-            "depth": 2,
-            "value": "Required Knowledge For Effective Application"
-          }
-        ]
-      }
-    },
-    {
-      "key": "manual/Product-Discovery/Lean-Canvas.md",
-      "value": {
-        "name": "Lean Canvas",
-        "menu": "Product Discovery",
-        "id": "8279fade032e2e4519331cba87b3c49e",
-        "filepath": "manual/Product-Discovery/Lean-Canvas.md",
-        "link": "",
-        "slug": "manual-product-discovery-lean-canvas",
-        "route": "/manual-product-discovery-lean-canvas",
-        "headings": [
-          {
-            "slug": "lean-canvas",
-            "depth": 1,
-            "value": "Lean Canvas"
-          },
-          {
-            "slug": "intro",
-            "depth": 2,
-            "value": "Intro"
-          },
-          {
-            "slug": "blank-lean-canvas",
-            "depth": 2,
-            "value": "Blank Lean Canvas"
-          }
-        ]
-      }
-    },
-    {
-      "key": "manual/Product-Discovery/Opportunity-Solution-Tree.md",
-      "value": {
-        "menu": "Product Discovery",
-        "name": "Opportunity Solution Tree",
-        "id": "63e51518d46323eb8e48fcb1f3976d39",
-        "filepath": "manual/Product-Discovery/Opportunity-Solution-Tree.md",
-        "link": "",
-        "slug": "manual-product-discovery-opportunity-solution-tree",
-        "route": "/manual-product-discovery-opportunity-solution-tree",
-        "headings": [
-          {
-            "slug": "opportunity-solution-tree",
-            "depth": 1,
-            "value": "Opportunity Solution Tree"
-          },
-          {
-            "slug": "the-power-of-mental-representations",
-            "depth": 2,
-            "value": "The Power Of Mental Representations"
-          },
-          {
-            "slug": "widen-the-lens",
-            "depth": 2,
-            "value": "Widen The Lens"
-          },
-          {
-            "slug": "beginning-with-the-end-in-mind",
-            "depth": 2,
-            "value": "Beginning With The End In Mind"
-          },
-          {
-            "slug": "multitracking",
-            "depth": 2,
-            "value": "Multitracking"
-          },
-          {
-            "slug": "4-common-gaps-in-our-thinking",
-            "depth": 2,
-            "value": "4 Common Gaps In Our Thinking"
-          },
-          {
-            "slug": "1-we-dont-examine-our-ideas-before-investing-in-them",
-            "depth": 3,
-            "value": "1. We don't examine our ideas before investing in them"
-          },
-          {
-            "slug": "2-we-dont-consider-enough-ideas",
-            "depth": 3,
-            "value": "2. We don't consider enough ideas"
-          },
-          {
-            "slug": "3-we-dont-multitrack-in-a-systematic-way",
-            "depth": 3,
-            "value": "3. We don't multitrack in a systematic way"
-          },
-          {
-            "slug": "4-our-solutions-dont-connect-to-an-opportunity-or-our-desired-outcome-at-all",
-            "depth": 3,
-            "value": "4. Our solutions don't connect to an opportunity or our desired outcome at all"
-          },
-          {
-            "slug": "the-opportunity-solution-tree-in-action",
-            "depth": 2,
-            "value": "The Opportunity Solution Tree In Action"
-          },
-          {
-            "slug": "building-the-four-sections-of-the-ost",
-            "depth": 2,
-            "value": "Building The Four Sections Of The OST"
-          },
-          {
-            "slug": "using-your-ost-to-guide-product-discovery",
-            "depth": 2,
-            "value": "Using Your OST To Guide Product Discovery"
-          },
-          {
-            "slug": "a-framework-for-continuous-product-discovery",
-            "depth": 2,
-            "value": "A Framework For Continuous Product Discovery"
-          }
-        ]
-      }
-    },
-    {
-      "key": "manual/Product-Discovery/Product-Discovery-Case-Study.md",
-      "value": {
-        "menu": "Product Discovery",
-        "name": "SEEK Case Study",
-        "id": "0a80ee6e69e1f52553a3ac01cbbf16a6",
-        "filepath": "manual/Product-Discovery/Product-Discovery-Case-Study.md",
-        "link": "",
-        "slug": "manual-product-discovery-product-discovery-case-study",
-        "route": "/manual-product-discovery-product-discovery-case-study",
-        "headings": [
-          {
-            "slug": "seek-case-study",
-            "depth": 1,
-            "value": "SEEK Case Study"
-          },
-          {
-            "slug": "aha-moments",
-            "depth": 2,
-            "value": "AHA moments"
-          },
-          {
-            "slug": "differences-in-work-approach",
-            "depth": 2,
-            "value": "Differences In Work Approach"
-          }
-        ]
-      }
-    },
-    {
-      "key": "manual/Product-Discovery/Product-Discovery-Principles.md",
-      "value": {
-        "name": "Product Discovery Best Practices",
-        "menu": "Product Discovery",
-        "id": "791d646f5b0c219db1c89d78e662ce20",
-        "filepath": "manual/Product-Discovery/Product-Discovery-Principles.md",
-        "link": "",
-        "slug": "manual-product-discovery-product-discovery-principles",
-        "route": "/manual-product-discovery-product-discovery-principles",
-        "headings": [
-          {
-            "slug": "product-discovery-best-practices",
-            "depth": 1,
-            "value": "Product Discovery Best Practices"
-          },
-          {
-            "slug": "empathy-for-your-audience",
-            "depth": 2,
-            "value": "Empathy For Your Audience"
-          },
-          {
-            "slug": "explore-the-problem-space-indefinitely",
-            "depth": 2,
-            "value": "Explore The Problem Space Indefinitely"
-          },
-          {
-            "slug": "map-your-way-to-clarity",
-            "depth": 2,
-            "value": "Map Your Way To Clarity"
-          },
-          {
-            "slug": "use-theory-as-inspiration-draw-from-first-principles",
-            "depth": 2,
-            "value": "Use Theory As Inspiration (Draw From First Principles)"
-          },
-          {
-            "slug": "co-create-solutions-that-meet-the-unique-needs-of-your-audience",
-            "depth": 2,
-            "value": "Co-Create Solutions That Meet The Unique Needs Of Your Audience"
-          },
-          {
-            "slug": "get-out-of-the-building",
-            "depth": 2,
-            "value": "Get Out Of The Building"
-          }
-        ]
-      }
-    },
-    {
-      "key": "manual/Product-Discovery/Story-Mapping.md",
-      "value": {
-        "menu": "Product Discovery",
-        "name": "Story Mapping",
-        "id": "540f0a2f2232278c586e652514270027",
-        "filepath": "manual/Product-Discovery/Story-Mapping.md",
-        "link": "",
-        "slug": "manual-product-discovery-story-mapping",
-        "route": "/manual-product-discovery-story-mapping",
-        "headings": [
-          {
-            "slug": "story-mapping",
-            "depth": 1,
-            "value": "Story Mapping"
-          },
-          {
-            "slug": "notes",
-            "depth": 2,
-            "value": "Notes"
-          }
-        ]
-      }
-    },
-    {
       "key": "manual/Principles/COPY_EXAMPLES_DOCS.md",
       "value": {
         "name": "COPY EXAMPLES DOCS",
@@ -16581,6 +16259,328 @@
       }
     },
     {
+      "key": "manual/Product-Discovery/Best-Continous-Discovery-Mindsets.md",
+      "value": {
+        "menu": "Product Discovery",
+        "name": "Best Continuous Discovery Mindsets",
+        "id": "2871e325706b4d06aa3fcdb9cee692f5",
+        "filepath": "manual/Product-Discovery/Best-Continous-Discovery-Mindsets.md",
+        "link": "",
+        "slug": "manual-product-discovery-best-continous-discovery-mindsets",
+        "route": "/manual-product-discovery-best-continous-discovery-mindsets",
+        "headings": [
+          {
+            "slug": "best-continuous-discovery-mindsets",
+            "depth": 1,
+            "value": "Best Continuous Discovery Mindsets"
+          },
+          {
+            "slug": "the-mindsets",
+            "depth": 2,
+            "value": "The Mindsets"
+          },
+          {
+            "slug": "more-on-continuous-mindset",
+            "depth": 2,
+            "value": "More On Continuous Mindset"
+          },
+          {
+            "slug": "more-on-experimental-mindset",
+            "depth": 2,
+            "value": "More On Experimental Mindset"
+          }
+        ]
+      }
+    },
+    {
+      "key": "manual/Product-Discovery/Intro-To-Modern-Product-Discovery.md",
+      "value": {
+        "menu": "Product Discovery",
+        "name": "Intro To Modern Product Discovery",
+        "id": "7fc943957218a1392a8567a130186f38",
+        "filepath": "manual/Product-Discovery/Intro-To-Modern-Product-Discovery.md",
+        "link": "",
+        "slug": "manual-product-discovery-intro-to-modern-product-discovery",
+        "route": "/manual-product-discovery-intro-to-modern-product-discovery",
+        "headings": [
+          {
+            "slug": "intro-to-modern-product-discovery",
+            "depth": 1,
+            "value": "Intro To Modern Product Discovery"
+          },
+          {
+            "slug": "discovery-vs-delivery",
+            "depth": 2,
+            "value": "Discovery vs Delivery"
+          },
+          {
+            "slug": "history",
+            "depth": 2,
+            "value": "History"
+          },
+          {
+            "slug": "opportunity-solution-trees",
+            "depth": 2,
+            "value": "Opportunity Solution Trees"
+          },
+          {
+            "slug": "how-opportunities-help-drive-the-design-outcomes",
+            "depth": 3,
+            "value": "How Opportunities Help Drive The Design Outcomes"
+          },
+          {
+            "slug": "continuous-product-decisions",
+            "depth": 3,
+            "value": "Continuous Product Decisions"
+          }
+        ]
+      }
+    },
+    {
+      "key": "manual/Product-Discovery/Keystone-Habit.md",
+      "value": {
+        "name": "Keystone Habit",
+        "menu": "Product Discovery",
+        "id": "30d4847cf5993a0c82853a9c63dc6852",
+        "filepath": "manual/Product-Discovery/Keystone-Habit.md",
+        "link": "",
+        "slug": "manual-product-discovery-keystone-habit",
+        "route": "/manual-product-discovery-keystone-habit",
+        "headings": [
+          {
+            "slug": "keystone-habit",
+            "depth": 1,
+            "value": "Keystone Habit"
+          },
+          {
+            "slug": "deliberate-practice",
+            "depth": 2,
+            "value": "Deliberate Practice"
+          },
+          {
+            "slug": "required-knowledge-for-effective-application",
+            "depth": 2,
+            "value": "Required Knowledge For Effective Application"
+          }
+        ]
+      }
+    },
+    {
+      "key": "manual/Product-Discovery/Lean-Canvas.md",
+      "value": {
+        "name": "Lean Canvas",
+        "menu": "Product Discovery",
+        "id": "8279fade032e2e4519331cba87b3c49e",
+        "filepath": "manual/Product-Discovery/Lean-Canvas.md",
+        "link": "",
+        "slug": "manual-product-discovery-lean-canvas",
+        "route": "/manual-product-discovery-lean-canvas",
+        "headings": [
+          {
+            "slug": "lean-canvas",
+            "depth": 1,
+            "value": "Lean Canvas"
+          },
+          {
+            "slug": "intro",
+            "depth": 2,
+            "value": "Intro"
+          },
+          {
+            "slug": "blank-lean-canvas",
+            "depth": 2,
+            "value": "Blank Lean Canvas"
+          }
+        ]
+      }
+    },
+    {
+      "key": "manual/Product-Discovery/Opportunity-Solution-Tree.md",
+      "value": {
+        "menu": "Product Discovery",
+        "name": "Opportunity Solution Tree",
+        "id": "63e51518d46323eb8e48fcb1f3976d39",
+        "filepath": "manual/Product-Discovery/Opportunity-Solution-Tree.md",
+        "link": "",
+        "slug": "manual-product-discovery-opportunity-solution-tree",
+        "route": "/manual-product-discovery-opportunity-solution-tree",
+        "headings": [
+          {
+            "slug": "opportunity-solution-tree",
+            "depth": 1,
+            "value": "Opportunity Solution Tree"
+          },
+          {
+            "slug": "the-power-of-mental-representations",
+            "depth": 2,
+            "value": "The Power Of Mental Representations"
+          },
+          {
+            "slug": "widen-the-lens",
+            "depth": 2,
+            "value": "Widen The Lens"
+          },
+          {
+            "slug": "beginning-with-the-end-in-mind",
+            "depth": 2,
+            "value": "Beginning With The End In Mind"
+          },
+          {
+            "slug": "multitracking",
+            "depth": 2,
+            "value": "Multitracking"
+          },
+          {
+            "slug": "4-common-gaps-in-our-thinking",
+            "depth": 2,
+            "value": "4 Common Gaps In Our Thinking"
+          },
+          {
+            "slug": "1-we-dont-examine-our-ideas-before-investing-in-them",
+            "depth": 3,
+            "value": "1. We don't examine our ideas before investing in them"
+          },
+          {
+            "slug": "2-we-dont-consider-enough-ideas",
+            "depth": 3,
+            "value": "2. We don't consider enough ideas"
+          },
+          {
+            "slug": "3-we-dont-multitrack-in-a-systematic-way",
+            "depth": 3,
+            "value": "3. We don't multitrack in a systematic way"
+          },
+          {
+            "slug": "4-our-solutions-dont-connect-to-an-opportunity-or-our-desired-outcome-at-all",
+            "depth": 3,
+            "value": "4. Our solutions don't connect to an opportunity or our desired outcome at all"
+          },
+          {
+            "slug": "the-opportunity-solution-tree-in-action",
+            "depth": 2,
+            "value": "The Opportunity Solution Tree In Action"
+          },
+          {
+            "slug": "building-the-four-sections-of-the-ost",
+            "depth": 2,
+            "value": "Building The Four Sections Of The OST"
+          },
+          {
+            "slug": "using-your-ost-to-guide-product-discovery",
+            "depth": 2,
+            "value": "Using Your OST To Guide Product Discovery"
+          },
+          {
+            "slug": "a-framework-for-continuous-product-discovery",
+            "depth": 2,
+            "value": "A Framework For Continuous Product Discovery"
+          }
+        ]
+      }
+    },
+    {
+      "key": "manual/Product-Discovery/Product-Discovery-Case-Study.md",
+      "value": {
+        "menu": "Product Discovery",
+        "name": "SEEK Case Study",
+        "id": "0a80ee6e69e1f52553a3ac01cbbf16a6",
+        "filepath": "manual/Product-Discovery/Product-Discovery-Case-Study.md",
+        "link": "",
+        "slug": "manual-product-discovery-product-discovery-case-study",
+        "route": "/manual-product-discovery-product-discovery-case-study",
+        "headings": [
+          {
+            "slug": "seek-case-study",
+            "depth": 1,
+            "value": "SEEK Case Study"
+          },
+          {
+            "slug": "aha-moments",
+            "depth": 2,
+            "value": "AHA moments"
+          },
+          {
+            "slug": "differences-in-work-approach",
+            "depth": 2,
+            "value": "Differences In Work Approach"
+          }
+        ]
+      }
+    },
+    {
+      "key": "manual/Product-Discovery/Product-Discovery-Principles.md",
+      "value": {
+        "name": "Product Discovery Best Practices",
+        "menu": "Product Discovery",
+        "id": "791d646f5b0c219db1c89d78e662ce20",
+        "filepath": "manual/Product-Discovery/Product-Discovery-Principles.md",
+        "link": "",
+        "slug": "manual-product-discovery-product-discovery-principles",
+        "route": "/manual-product-discovery-product-discovery-principles",
+        "headings": [
+          {
+            "slug": "product-discovery-best-practices",
+            "depth": 1,
+            "value": "Product Discovery Best Practices"
+          },
+          {
+            "slug": "empathy-for-your-audience",
+            "depth": 2,
+            "value": "Empathy For Your Audience"
+          },
+          {
+            "slug": "explore-the-problem-space-indefinitely",
+            "depth": 2,
+            "value": "Explore The Problem Space Indefinitely"
+          },
+          {
+            "slug": "map-your-way-to-clarity",
+            "depth": 2,
+            "value": "Map Your Way To Clarity"
+          },
+          {
+            "slug": "use-theory-as-inspiration-draw-from-first-principles",
+            "depth": 2,
+            "value": "Use Theory As Inspiration (Draw From First Principles)"
+          },
+          {
+            "slug": "co-create-solutions-that-meet-the-unique-needs-of-your-audience",
+            "depth": 2,
+            "value": "Co-Create Solutions That Meet The Unique Needs Of Your Audience"
+          },
+          {
+            "slug": "get-out-of-the-building",
+            "depth": 2,
+            "value": "Get Out Of The Building"
+          }
+        ]
+      }
+    },
+    {
+      "key": "manual/Product-Discovery/Story-Mapping.md",
+      "value": {
+        "menu": "Product Discovery",
+        "name": "Story Mapping",
+        "id": "540f0a2f2232278c586e652514270027",
+        "filepath": "manual/Product-Discovery/Story-Mapping.md",
+        "link": "",
+        "slug": "manual-product-discovery-story-mapping",
+        "route": "/manual-product-discovery-story-mapping",
+        "headings": [
+          {
+            "slug": "story-mapping",
+            "depth": 1,
+            "value": "Story Mapping"
+          },
+          {
+            "slug": "notes",
+            "depth": 2,
+            "value": "Notes"
+          }
+        ]
+      }
+    },
+    {
       "key": "manual/Productivity/Productivity.md",
       "value": {
         "name": "Productivity",
@@ -16660,6 +16660,64 @@
             "slug": "bo-books",
             "depth": 2,
             "value": "BO: Books"
+          }
+        ]
+      }
+    },
+    {
+      "key": "manual/Puppeteer/Dev-Tool-Assertions.md",
+      "value": {
+        "menu": "Puppeteer",
+        "name": "Dev Tool Assertions",
+        "id": "363b26466fa1c719e5fa7bee8af07360",
+        "filepath": "manual/Puppeteer/Dev-Tool-Assertions.md",
+        "link": "",
+        "slug": "manual-puppeteer-dev-tool-assertions",
+        "route": "/manual-puppeteer-dev-tool-assertions",
+        "headings": [
+          {
+            "slug": "dev-tool-assertions",
+            "depth": 1,
+            "value": "Dev Tool Assertions"
+          },
+          {
+            "slug": "useful-links",
+            "depth": 2,
+            "value": "Useful links"
+          }
+        ]
+      }
+    },
+    {
+      "key": "manual/Puppeteer/Recorder.md",
+      "value": {
+        "name": "Recorder",
+        "menu": "Puppeteer",
+        "id": "e77f8f206f62475298ccc8126c70d3c1",
+        "filepath": "manual/Puppeteer/Recorder.md",
+        "link": "",
+        "slug": "manual-puppeteer-recorder",
+        "route": "/manual-puppeteer-recorder",
+        "headings": [
+          {
+            "slug": "puppeteer-recorder",
+            "depth": 1,
+            "value": "Puppeteer Recorder"
+          },
+          {
+            "slug": "install",
+            "depth": 2,
+            "value": "Install"
+          },
+          {
+            "slug": "usage",
+            "depth": 2,
+            "value": "Usage"
+          },
+          {
+            "slug": "generating-the-tests",
+            "depth": 2,
+            "value": "Generating the tests"
           }
         ]
       }
@@ -16798,64 +16856,6 @@
             "slug": "simple-mail-transfer-protocol",
             "depth": 1,
             "value": "Simple Mail Transfer Protocol"
-          }
-        ]
-      }
-    },
-    {
-      "key": "manual/Puppeteer/Dev-Tool-Assertions.md",
-      "value": {
-        "menu": "Puppeteer",
-        "name": "Dev Tool Assertions",
-        "id": "363b26466fa1c719e5fa7bee8af07360",
-        "filepath": "manual/Puppeteer/Dev-Tool-Assertions.md",
-        "link": "",
-        "slug": "manual-puppeteer-dev-tool-assertions",
-        "route": "/manual-puppeteer-dev-tool-assertions",
-        "headings": [
-          {
-            "slug": "dev-tool-assertions",
-            "depth": 1,
-            "value": "Dev Tool Assertions"
-          },
-          {
-            "slug": "useful-links",
-            "depth": 2,
-            "value": "Useful links"
-          }
-        ]
-      }
-    },
-    {
-      "key": "manual/Puppeteer/Recorder.md",
-      "value": {
-        "name": "Recorder",
-        "menu": "Puppeteer",
-        "id": "e77f8f206f62475298ccc8126c70d3c1",
-        "filepath": "manual/Puppeteer/Recorder.md",
-        "link": "",
-        "slug": "manual-puppeteer-recorder",
-        "route": "/manual-puppeteer-recorder",
-        "headings": [
-          {
-            "slug": "puppeteer-recorder",
-            "depth": 1,
-            "value": "Puppeteer Recorder"
-          },
-          {
-            "slug": "install",
-            "depth": 2,
-            "value": "Install"
-          },
-          {
-            "slug": "usage",
-            "depth": 2,
-            "value": "Usage"
-          },
-          {
-            "slug": "generating-the-tests",
-            "depth": 2,
-            "value": "Generating the tests"
           }
         ]
       }
@@ -18210,6 +18210,115 @@
       }
     },
     {
+      "key": "manual/ReasonML/Reason-Hello-World.md",
+      "value": {
+        "menu": "ReasonML",
+        "name": "ReasonML Hello World",
+        "id": "064c49c85f0e33b8596386e19ea0a698",
+        "filepath": "manual/ReasonML/Reason-Hello-World.md",
+        "link": "",
+        "slug": "manual-reason-ml-reason-hello-world",
+        "route": "/manual-reason-ml-reason-hello-world",
+        "headings": [
+          {
+            "slug": "reasonml-hello-world",
+            "depth": 1,
+            "value": "ReasonML Hello World"
+          },
+          {
+            "slug": "tldr",
+            "depth": 2,
+            "value": "tl;dr"
+          },
+          {
+            "slug": "let-binding",
+            "depth": 2,
+            "value": "Let Binding"
+          },
+          {
+            "slug": "string--char",
+            "depth": 2,
+            "value": "String & Char"
+          },
+          {
+            "slug": "boolean",
+            "depth": 2,
+            "value": "Boolean"
+          },
+          {
+            "slug": "number",
+            "depth": 2,
+            "value": "Number"
+          },
+          {
+            "slug": "objectrecord",
+            "depth": 2,
+            "value": "Object/Record"
+          },
+          {
+            "slug": "array",
+            "depth": 2,
+            "value": "Array"
+          },
+          {
+            "slug": "null",
+            "depth": 2,
+            "value": "Null"
+          },
+          {
+            "slug": "function",
+            "depth": 2,
+            "value": "Function"
+          },
+          {
+            "slug": "blocks",
+            "depth": 3,
+            "value": "Blocks"
+          },
+          {
+            "slug": "currying",
+            "depth": 3,
+            "value": "Currying"
+          },
+          {
+            "slug": "if-else",
+            "depth": 2,
+            "value": "If-else"
+          },
+          {
+            "slug": "destructuring",
+            "depth": 2,
+            "value": "Destructuring"
+          },
+          {
+            "slug": "loop",
+            "depth": 2,
+            "value": "Loop"
+          },
+          {
+            "slug": "jsx",
+            "depth": 2,
+            "value": "JSX"
+          },
+          {
+            "slug": "exception",
+            "depth": 2,
+            "value": "Exception"
+          },
+          {
+            "slug": "blocks-1",
+            "depth": 2,
+            "value": "Blocks"
+          },
+          {
+            "slug": "comments",
+            "depth": 2,
+            "value": "Comments"
+          }
+        ]
+      }
+    },
+    {
       "key": "manual/React-Notes/Advanced-React-Redux.md",
       "value": {
         "name": "Advanced React Redux",
@@ -18968,115 +19077,6 @@
             "slug": "formatting-attributes",
             "depth": 2,
             "value": "Formatting Attributes"
-          }
-        ]
-      }
-    },
-    {
-      "key": "manual/ReasonML/Reason-Hello-World.md",
-      "value": {
-        "menu": "ReasonML",
-        "name": "ReasonML Hello World",
-        "id": "064c49c85f0e33b8596386e19ea0a698",
-        "filepath": "manual/ReasonML/Reason-Hello-World.md",
-        "link": "",
-        "slug": "manual-reason-ml-reason-hello-world",
-        "route": "/manual-reason-ml-reason-hello-world",
-        "headings": [
-          {
-            "slug": "reasonml-hello-world",
-            "depth": 1,
-            "value": "ReasonML Hello World"
-          },
-          {
-            "slug": "tldr",
-            "depth": 2,
-            "value": "tl;dr"
-          },
-          {
-            "slug": "let-binding",
-            "depth": 2,
-            "value": "Let Binding"
-          },
-          {
-            "slug": "string--char",
-            "depth": 2,
-            "value": "String & Char"
-          },
-          {
-            "slug": "boolean",
-            "depth": 2,
-            "value": "Boolean"
-          },
-          {
-            "slug": "number",
-            "depth": 2,
-            "value": "Number"
-          },
-          {
-            "slug": "objectrecord",
-            "depth": 2,
-            "value": "Object/Record"
-          },
-          {
-            "slug": "array",
-            "depth": 2,
-            "value": "Array"
-          },
-          {
-            "slug": "null",
-            "depth": 2,
-            "value": "Null"
-          },
-          {
-            "slug": "function",
-            "depth": 2,
-            "value": "Function"
-          },
-          {
-            "slug": "blocks",
-            "depth": 3,
-            "value": "Blocks"
-          },
-          {
-            "slug": "currying",
-            "depth": 3,
-            "value": "Currying"
-          },
-          {
-            "slug": "if-else",
-            "depth": 2,
-            "value": "If-else"
-          },
-          {
-            "slug": "destructuring",
-            "depth": 2,
-            "value": "Destructuring"
-          },
-          {
-            "slug": "loop",
-            "depth": 2,
-            "value": "Loop"
-          },
-          {
-            "slug": "jsx",
-            "depth": 2,
-            "value": "JSX"
-          },
-          {
-            "slug": "exception",
-            "depth": 2,
-            "value": "Exception"
-          },
-          {
-            "slug": "blocks-1",
-            "depth": 2,
-            "value": "Blocks"
-          },
-          {
-            "slug": "comments",
-            "depth": 2,
-            "value": "Comments"
           }
         ]
       }
@@ -20009,25 +20009,6 @@
       }
     },
     {
-      "key": "manual/SQL/SQL-Window-Functions.md",
-      "value": {
-        "name": "SQL Window Functions",
-        "menu": "SQL",
-        "id": "16fd29611314a26be7dd5f4b2721539a",
-        "filepath": "manual/SQL/SQL-Window-Functions.md",
-        "link": "",
-        "slug": "manual-sql-sql-window-functions",
-        "route": "/manual-sql-sql-window-functions",
-        "headings": [
-          {
-            "slug": "sql-window-functions",
-            "depth": 1,
-            "value": "SQL-Window-Functions"
-          }
-        ]
-      }
-    },
-    {
       "key": "manual/SEO/SEO-For-Beginners.md",
       "value": {
         "name": "SEO For Beginners",
@@ -20062,6 +20043,25 @@
       }
     },
     {
+      "key": "manual/SQL/SQL-Window-Functions.md",
+      "value": {
+        "name": "SQL Window Functions",
+        "menu": "SQL",
+        "id": "16fd29611314a26be7dd5f4b2721539a",
+        "filepath": "manual/SQL/SQL-Window-Functions.md",
+        "link": "",
+        "slug": "manual-sql-sql-window-functions",
+        "route": "/manual-sql-sql-window-functions",
+        "headings": [
+          {
+            "slug": "sql-window-functions",
+            "depth": 1,
+            "value": "SQL-Window-Functions"
+          }
+        ]
+      }
+    },
+    {
       "key": "manual/Scala/Intro-To-Scala.md",
       "value": {
         "name": "Intro To Scala",
@@ -20081,6 +20081,35 @@
             "slug": "function-declarations",
             "depth": 2,
             "value": "Function Declarations"
+          }
+        ]
+      }
+    },
+    {
+      "key": "manual/Scala/Scala-Values-Variables-Types.md",
+      "value": {
+        "name": "Values, Variables and Types",
+        "menu": "Scala",
+        "id": "4b9c94acdad989f2828bdc29b0ab2f43",
+        "filepath": "manual/Scala/Scala-Values-Variables-Types.md",
+        "link": "",
+        "slug": "manual-scala-scala-values-variables-types",
+        "route": "/manual-scala-scala-values-variables-types",
+        "headings": [
+          {
+            "slug": "scala-values-variables-and-types",
+            "depth": 1,
+            "value": "Scala Values, Variables and Types"
+          },
+          {
+            "slug": "declaring-variables",
+            "depth": 2,
+            "value": "Declaring Variables"
+          },
+          {
+            "slug": "declaring-various-types",
+            "depth": 2,
+            "value": "Declaring various types"
           }
         ]
       }
@@ -20120,35 +20149,6 @@
             "slug": "functions",
             "depth": 2,
             "value": "Functions"
-          }
-        ]
-      }
-    },
-    {
-      "key": "manual/Scala/Scala-Values-Variables-Types.md",
-      "value": {
-        "name": "Values, Variables and Types",
-        "menu": "Scala",
-        "id": "4b9c94acdad989f2828bdc29b0ab2f43",
-        "filepath": "manual/Scala/Scala-Values-Variables-Types.md",
-        "link": "",
-        "slug": "manual-scala-scala-values-variables-types",
-        "route": "/manual-scala-scala-values-variables-types",
-        "headings": [
-          {
-            "slug": "scala-values-variables-and-types",
-            "depth": 1,
-            "value": "Scala Values, Variables and Types"
-          },
-          {
-            "slug": "declaring-variables",
-            "depth": 2,
-            "value": "Declaring Variables"
-          },
-          {
-            "slug": "declaring-various-types",
-            "depth": 2,
-            "value": "Declaring various types"
           }
         ]
       }
@@ -20579,35 +20579,6 @@
       }
     },
     {
-      "key": "manual/Stripe/Stripe-Node.md",
-      "value": {
-        "name": "Stripe Node",
-        "menu": "Stripe",
-        "id": "8611c0c5aaecbcf62555104173af1f15",
-        "filepath": "manual/Stripe/Stripe-Node.md",
-        "link": "",
-        "slug": "manual-stripe-stripe-node",
-        "route": "/manual-stripe-stripe-node",
-        "headings": [
-          {
-            "slug": "using-stripe-with-node",
-            "depth": 1,
-            "value": "Using Stripe with Node"
-          },
-          {
-            "slug": "prereqs",
-            "depth": 2,
-            "value": "Prereqs"
-          },
-          {
-            "slug": "testing-with-express",
-            "depth": 2,
-            "value": "Testing with Express"
-          }
-        ]
-      }
-    },
-    {
       "key": "manual/Style/base-animations.md",
       "value": {
         "name": "Base Animations",
@@ -20711,25 +20682,30 @@
       }
     },
     {
-      "key": "manual/Style/base.md",
+      "key": "manual/Stripe/Stripe-Node.md",
       "value": {
-        "name": "Base",
-        "menu": "Style",
-        "id": "d3b3d5d0ce273763453c5dd911f6abae",
-        "filepath": "manual/Style/base.md",
+        "name": "Stripe Node",
+        "menu": "Stripe",
+        "id": "8611c0c5aaecbcf62555104173af1f15",
+        "filepath": "manual/Stripe/Stripe-Node.md",
         "link": "",
-        "slug": "manual-style-base",
-        "route": "/manual-style-base",
+        "slug": "manual-stripe-stripe-node",
+        "route": "/manual-stripe-stripe-node",
         "headings": [
           {
-            "slug": "base-folder",
+            "slug": "using-stripe-with-node",
             "depth": 1,
-            "value": "Base folder"
+            "value": "Using Stripe with Node"
           },
           {
-            "slug": "structure",
+            "slug": "prereqs",
             "depth": 2,
-            "value": "Structure"
+            "value": "Prereqs"
+          },
+          {
+            "slug": "testing-with-express",
+            "depth": 2,
+            "value": "Testing with Express"
           }
         ]
       }
@@ -20774,6 +20750,30 @@
             "slug": "typography",
             "depth": 2,
             "value": "Typography"
+          }
+        ]
+      }
+    },
+    {
+      "key": "manual/Style/base.md",
+      "value": {
+        "name": "Base",
+        "menu": "Style",
+        "id": "d3b3d5d0ce273763453c5dd911f6abae",
+        "filepath": "manual/Style/base.md",
+        "link": "",
+        "slug": "manual-style-base",
+        "route": "/manual-style-base",
+        "headings": [
+          {
+            "slug": "base-folder",
+            "depth": 1,
+            "value": "Base folder"
+          },
+          {
+            "slug": "structure",
+            "depth": 2,
+            "value": "Structure"
           }
         ]
       }
@@ -22178,6 +22178,75 @@
       }
     },
     {
+      "key": "manual/TypeScript/Developers-Guide.md",
+      "value": {
+        "menu": "TypeScript",
+        "name": "Developer's Guide",
+        "id": "3d2c2fa945329886a1c1939c3fec409d",
+        "filepath": "manual/TypeScript/Developers-Guide.md",
+        "link": "",
+        "slug": "manual-type-script-developers-guide",
+        "route": "/manual-type-script-developers-guide",
+        "headings": [
+          {
+            "slug": "developers-guide-to-typescript",
+            "depth": 1,
+            "value": "Developer's Guide to TypeScript"
+          },
+          {
+            "slug": "types",
+            "depth": 2,
+            "value": "Types"
+          },
+          {
+            "slug": "declaring-types-examples",
+            "depth": 2,
+            "value": "Declaring types examples"
+          },
+          {
+            "slug": "the-any-type",
+            "depth": 2,
+            "value": "The 'any' type"
+          },
+          {
+            "slug": "the-void-and-never-return-types",
+            "depth": 2,
+            "value": "The 'void' and 'never' return types"
+          },
+          {
+            "slug": "interfaces",
+            "depth": 2,
+            "value": "Interfaces"
+          },
+          {
+            "slug": "abstract-classes",
+            "depth": 2,
+            "value": "Abstract Classes"
+          },
+          {
+            "slug": "abstract-classes-vs-interfaces",
+            "depth": 2,
+            "value": "Abstract classes vs Interfaces"
+          },
+          {
+            "slug": "enums",
+            "depth": 2,
+            "value": "Enums"
+          },
+          {
+            "slug": "generics",
+            "depth": 2,
+            "value": "Generics"
+          },
+          {
+            "slug": "constraints-with-generics",
+            "depth": 3,
+            "value": "Constraints with Generics"
+          }
+        ]
+      }
+    },
+    {
       "key": "manual/Unity/How-To-Make-A-Video-Game.md",
       "value": {
         "name": "How To Make A Video Game",
@@ -22376,70 +22445,59 @@
       }
     },
     {
-      "key": "manual/TypeScript/Developers-Guide.md",
+      "key": "manual/Vagrant/Vagrant-Overview.md",
       "value": {
-        "menu": "TypeScript",
-        "name": "Developer's Guide",
-        "id": "3d2c2fa945329886a1c1939c3fec409d",
-        "filepath": "manual/TypeScript/Developers-Guide.md",
+        "name": "Vagrant Overview",
+        "menu": "Vagrant",
+        "id": "3e145686f064bfb38b34777ae8ddd85e",
+        "filepath": "manual/Vagrant/Vagrant-Overview.md",
         "link": "",
-        "slug": "manual-type-script-developers-guide",
-        "route": "/manual-type-script-developers-guide",
+        "slug": "manual-vagrant-vagrant-overview",
+        "route": "/manual-vagrant-vagrant-overview",
         "headings": [
           {
-            "slug": "developers-guide-to-typescript",
+            "slug": "vagrant-overview",
             "depth": 1,
-            "value": "Developer's Guide to TypeScript"
+            "value": "Vagrant Overview"
           },
           {
-            "slug": "types",
+            "slug": "vagrant-port-forwarding",
             "depth": 2,
-            "value": "Types"
+            "value": "Vagrant Port Forwarding"
+          }
+        ]
+      }
+    },
+    {
+      "key": "manual/Vim/Neovim.md",
+      "value": {
+        "menu": "Vim",
+        "name": "Neovim",
+        "id": "5a7894b02d561f475cca8370210c1e6b",
+        "filepath": "manual/Vim/Neovim.md",
+        "link": "",
+        "slug": "manual-vim-neovim",
+        "route": "/manual-vim-neovim",
+        "headings": [
+          {
+            "slug": "neovim",
+            "depth": 1,
+            "value": "Neovim"
           },
           {
-            "slug": "declaring-types-examples",
+            "slug": "installation",
             "depth": 2,
-            "value": "Declaring types examples"
+            "value": "Installation"
           },
           {
-            "slug": "the-any-type",
+            "slug": "settings",
             "depth": 2,
-            "value": "The 'any' type"
+            "value": "Settings"
           },
           {
-            "slug": "the-void-and-never-return-types",
+            "slug": "text-objects",
             "depth": 2,
-            "value": "The 'void' and 'never' return types"
-          },
-          {
-            "slug": "interfaces",
-            "depth": 2,
-            "value": "Interfaces"
-          },
-          {
-            "slug": "abstract-classes",
-            "depth": 2,
-            "value": "Abstract Classes"
-          },
-          {
-            "slug": "abstract-classes-vs-interfaces",
-            "depth": 2,
-            "value": "Abstract classes vs Interfaces"
-          },
-          {
-            "slug": "enums",
-            "depth": 2,
-            "value": "Enums"
-          },
-          {
-            "slug": "generics",
-            "depth": 2,
-            "value": "Generics"
-          },
-          {
-            "slug": "constraints-with-generics",
-            "depth": 3,
-            "value": "Constraints with Generics"
+            "value": "Text Objects"
           }
         ]
       }
@@ -22504,25 +22562,75 @@
       }
     },
     {
-      "key": "manual/Vagrant/Vagrant-Overview.md",
+      "key": "manual/Web/Accessibility-Course.md",
       "value": {
-        "name": "Vagrant Overview",
-        "menu": "Vagrant",
-        "id": "3e145686f064bfb38b34777ae8ddd85e",
-        "filepath": "manual/Vagrant/Vagrant-Overview.md",
+        "menu": "Web",
+        "name": "Accessibility Course",
+        "id": "b256606440da43ad54918dbc898cd86f",
+        "filepath": "manual/Web/Accessibility-Course.md",
         "link": "",
-        "slug": "manual-vagrant-vagrant-overview",
-        "route": "/manual-vagrant-vagrant-overview",
+        "slug": "manual-web-accessibility-course",
+        "route": "/manual-web-accessibility-course",
         "headings": [
           {
-            "slug": "vagrant-overview",
+            "slug": "accessibility-course",
             "depth": 1,
-            "value": "Vagrant Overview"
+            "value": "Accessibility Course"
           },
           {
-            "slug": "vagrant-port-forwarding",
+            "slug": "introduction",
             "depth": 2,
-            "value": "Vagrant Port Forwarding"
+            "value": "Introduction"
+          },
+          {
+            "slug": "course-coverage",
+            "depth": 2,
+            "value": "Course Coverage"
+          },
+          {
+            "slug": "course-materials",
+            "depth": 2,
+            "value": "Course Materials"
+          },
+          {
+            "slug": "debugging",
+            "depth": 2,
+            "value": "Debugging"
+          },
+          {
+            "slug": "app-testing-in-the-wild",
+            "depth": 2,
+            "value": "App Testing In The Wild"
+          },
+          {
+            "slug": "hidden-vs-visible-css",
+            "depth": 2,
+            "value": "Hidden vs Visible CSS"
+          },
+          {
+            "slug": "a11y-tree",
+            "depth": 2,
+            "value": "A11y Tree"
+          },
+          {
+            "slug": "exercises",
+            "depth": 2,
+            "value": "Exercises"
+          },
+          {
+            "slug": "screen-readers",
+            "depth": 2,
+            "value": "Screen Readers"
+          },
+          {
+            "slug": "useful-combos",
+            "depth": 3,
+            "value": "Useful combos"
+          },
+          {
+            "slug": "magnification",
+            "depth": 2,
+            "value": "Magnification"
           }
         ]
       }

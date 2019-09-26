@@ -141,6 +141,7 @@ Once the conflicts are resolved, you need to now commit the file. Git will gener
 | git stash apply stash@{ref} | Apply specific stash                                                              |
 | git stash drop stash@{ref}  | Drop specific stash reference                                                     |
 | git stash branch newchanges | Creates newchanges branch, switches to branch, applies stash and then drops stash |
+| git stash push -m "Message" | Create stash associated with a message | 
 
 By default, `git stash` will only stash tracked files.
 

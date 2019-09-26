@@ -3,10 +3,6 @@ export const imports = {
     import(
       /* webpackPrefetch: true, webpackChunkName: "home-index" */ 'home/index.md'
     ),
-  'manual/AWS/AWS-Certified-Solutions-Architect.md': () =>
-    import(
-      /* webpackPrefetch: true, webpackChunkName: "manual-aws-aws-certified-solutions-architect" */ 'manual/AWS/AWS-Certified-Solutions-Architect.md'
-    ),
   'manual/AWS/AWS-Certified-Big-Data.md': () =>
     import(
       /* webpackPrefetch: true, webpackChunkName: "manual-aws-aws-certified-big-data" */ 'manual/AWS/AWS-Certified-Big-Data.md'
@@ -19,6 +15,10 @@ export const imports = {
     import(
       /* webpackPrefetch: true, webpackChunkName: "manual-aws-aws-cloud-formation-master-class" */ 'manual/AWS/AWS-CloudFormation-MasterClass.md'
     ),
+  'manual/AWS/AWS-Certified-Solutions-Architect.md': () =>
+    import(
+      /* webpackPrefetch: true, webpackChunkName: "manual-aws-aws-certified-solutions-architect" */ 'manual/AWS/AWS-Certified-Solutions-Architect.md'
+    ),
   'manual/AWS/AWS-Fargate-With-ECS.md': () =>
     import(
       /* webpackPrefetch: true, webpackChunkName: "manual-aws-aws-fargate-with-ecs" */ 'manual/AWS/AWS-Fargate-With-ECS.md'
@@ -27,13 +27,13 @@ export const imports = {
     import(
       /* webpackPrefetch: true, webpackChunkName: "manual-aws-aws-guide" */ 'manual/AWS/AWS-Guide.md'
     ),
-  'manual/AWS/AWS-IoT.md': () =>
-    import(
-      /* webpackPrefetch: true, webpackChunkName: "manual-aws-aws-io-t" */ 'manual/AWS/AWS-IoT.md'
-    ),
   'manual/AWS/AWS-Lex.md': () =>
     import(
       /* webpackPrefetch: true, webpackChunkName: "manual-aws-aws-lex" */ 'manual/AWS/AWS-Lex.md'
+    ),
+  'manual/AWS/AWS-IoT.md': () =>
+    import(
+      /* webpackPrefetch: true, webpackChunkName: "manual-aws-aws-io-t" */ 'manual/AWS/AWS-IoT.md'
     ),
   'manual/AWS/AWS-NodeSDK.md': () =>
     import(
@@ -43,29 +43,33 @@ export const imports = {
     import(
       /* webpackPrefetch: true, webpackChunkName: "manual-aws-aws-transit-gateway" */ 'manual/AWS/AWS-Transit-Gateway.md'
     ),
-  'manual/AWS/AWS-VPN.md': () =>
-    import(
-      /* webpackPrefetch: true, webpackChunkName: "manual-aws-aws-vpn" */ 'manual/AWS/AWS-VPN.md'
-    ),
   'manual/AWS/AWS-Wordpress-Blog.md': () =>
     import(
       /* webpackPrefetch: true, webpackChunkName: "manual-aws-aws-wordpress-blog" */ 'manual/AWS/AWS-Wordpress-Blog.md'
+    ),
+  'manual/AWS/AWS-VPN.md': () =>
+    import(
+      /* webpackPrefetch: true, webpackChunkName: "manual-aws-aws-vpn" */ 'manual/AWS/AWS-VPN.md'
     ),
   'manual/AWS/Advanced-Networking.md': () =>
     import(
       /* webpackPrefetch: true, webpackChunkName: "manual-aws-advanced-networking" */ 'manual/AWS/Advanced-Networking.md'
     ),
-  'manual/AWS/Cloudfront-S3-Lets-Encrypt.md': () =>
-    import(
-      /* webpackPrefetch: true, webpackChunkName: "manual-aws-cloudfront-s3-lets-encrypt" */ 'manual/AWS/Cloudfront-S3-Lets-Encrypt.md'
-    ),
   'manual/AWS/App-Mesh.md': () =>
     import(
       /* webpackPrefetch: true, webpackChunkName: "manual-aws-app-mesh" */ 'manual/AWS/App-Mesh.md'
     ),
+  'manual/AWS/Cloudfront-S3-Lets-Encrypt.md': () =>
+    import(
+      /* webpackPrefetch: true, webpackChunkName: "manual-aws-cloudfront-s3-lets-encrypt" */ 'manual/AWS/Cloudfront-S3-Lets-Encrypt.md'
+    ),
   'manual/AWS/EC2-Container-Service.md': () =>
     import(
       /* webpackPrefetch: true, webpackChunkName: "manual-aws-e-c2-container-service" */ 'manual/AWS/EC2-Container-Service.md'
+    ),
+  'manual/AWS/Namecheap-Route-53.md': () =>
+    import(
+      /* webpackPrefetch: true, webpackChunkName: "manual-aws-namecheap-route-53" */ 'manual/AWS/Namecheap-Route-53.md'
     ),
   'manual/AWS/Javascript-AWS.md': () =>
     import(
@@ -75,21 +79,17 @@ export const imports = {
     import(
       /* webpackPrefetch: true, webpackChunkName: "manual-aws-s3-buckets" */ 'manual/AWS/S3-Buckets.md'
     ),
-  'manual/AWS/Namecheap-Route-53.md': () =>
-    import(
-      /* webpackPrefetch: true, webpackChunkName: "manual-aws-namecheap-route-53" */ 'manual/AWS/Namecheap-Route-53.md'
-    ),
   'manual/AWS/S3-Lambda-Subdirectories.md': () =>
     import(
       /* webpackPrefetch: true, webpackChunkName: "manual-aws-s3-lambda-subdirectories" */ 'manual/AWS/S3-Lambda-Subdirectories.md'
     ),
-  'manual/AWS/VPC-Setup.md': () =>
-    import(
-      /* webpackPrefetch: true, webpackChunkName: "manual-aws-vpc-setup" */ 'manual/AWS/VPC-Setup.md'
-    ),
   'manual/AWS/SysOps-Solutions-Architect.md': () =>
     import(
       /* webpackPrefetch: true, webpackChunkName: "manual-aws-sys-ops-solutions-architect" */ 'manual/AWS/SysOps-Solutions-Architect.md'
+    ),
+  'manual/AWS/VPC-Setup.md': () =>
+    import(
+      /* webpackPrefetch: true, webpackChunkName: "manual-aws-vpc-setup" */ 'manual/AWS/VPC-Setup.md'
     ),
   'manual/Airtable/Controller.md': () =>
     import(
@@ -107,10 +107,6 @@ export const imports = {
     import(
       /* webpackPrefetch: true, webpackChunkName: "manual-amplify-graphql-setup" */ 'manual/Amplify/Graphql-Setup.md'
     ),
-  'manual/Android/Lists-And-Adapters.md': () =>
-    import(
-      /* webpackPrefetch: true, webpackChunkName: "manual-android-lists-and-adapters" */ 'manual/Android/Lists-And-Adapters.md'
-    ),
   'manual/Angular/Angular-Basics.md': () =>
     import(
       /* webpackPrefetch: true, webpackChunkName: "manual-angular-angular-basics" */ 'manual/Angular/Angular-Basics.md'
@@ -119,21 +115,17 @@ export const imports = {
     import(
       /* webpackPrefetch: true, webpackChunkName: "manual-angular-angular2-basics" */ 'manual/Angular/Angular2-Basics.md'
     ),
-  'manual/Art/Drawing.md': () =>
+  'manual/Android/Lists-And-Adapters.md': () =>
     import(
-      /* webpackPrefetch: true, webpackChunkName: "manual-art-drawing" */ 'manual/Art/Drawing.md'
+      /* webpackPrefetch: true, webpackChunkName: "manual-android-lists-and-adapters" */ 'manual/Android/Lists-And-Adapters.md'
     ),
   'manual/Auth/React-Auth.md': () =>
     import(
       /* webpackPrefetch: true, webpackChunkName: "manual-auth-react-auth" */ 'manual/Auth/React-Auth.md'
     ),
-  'manual/Big-Data/Big-Data-Essentials.md': () =>
+  'manual/Art/Drawing.md': () =>
     import(
-      /* webpackPrefetch: true, webpackChunkName: "manual-big-data-big-data-essentials" */ 'manual/Big-Data/Big-Data-Essentials.md'
-    ),
-  'manual/Big-Data/Tools-And-Technologies.md': () =>
-    import(
-      /* webpackPrefetch: true, webpackChunkName: "manual-big-data-tools-and-technologies" */ 'manual/Big-Data/Tools-And-Technologies.md'
+      /* webpackPrefetch: true, webpackChunkName: "manual-art-drawing" */ 'manual/Art/Drawing.md'
     ),
   'manual/Books/Conversation-Casanova.md': () =>
     import(
@@ -143,13 +135,13 @@ export const imports = {
     import(
       /* webpackPrefetch: true, webpackChunkName: "manual-books-high-performance-habits" */ 'manual/Books/High-Performance-Habits.md'
     ),
-  'manual/Books/Intercom-On-Product-Management.md': () =>
-    import(
-      /* webpackPrefetch: true, webpackChunkName: "manual-books-intercom-on-product-management" */ 'manual/Books/Intercom-On-Product-Management.md'
-    ),
   'manual/Books/Loonshots.md': () =>
     import(
       /* webpackPrefetch: true, webpackChunkName: "manual-books-loonshots" */ 'manual/Books/Loonshots.md'
+    ),
+  'manual/Books/Intercom-On-Product-Management.md': () =>
+    import(
+      /* webpackPrefetch: true, webpackChunkName: "manual-books-intercom-on-product-management" */ 'manual/Books/Intercom-On-Product-Management.md'
     ),
   'manual/Books/Mans-Search-For-Meaning.md': () =>
     import(
@@ -163,29 +155,37 @@ export const imports = {
     import(
       /* webpackPrefetch: true, webpackChunkName: "manual-books-never-split-the-difference" */ 'manual/Books/Never-Split-The-Difference.md'
     ),
-  'manual/Books/The-48-Laws-Of-Power.md': () =>
-    import(
-      /* webpackPrefetch: true, webpackChunkName: "manual-books-the-48-laws-of-power" */ 'manual/Books/The-48-Laws-Of-Power.md'
-    ),
   'manual/Books/Strategize.md': () =>
     import(
       /* webpackPrefetch: true, webpackChunkName: "manual-books-strategize" */ 'manual/Books/Strategize.md'
+    ),
+  'manual/Books/The-48-Laws-Of-Power.md': () =>
+    import(
+      /* webpackPrefetch: true, webpackChunkName: "manual-books-the-48-laws-of-power" */ 'manual/Books/The-48-Laws-Of-Power.md'
     ),
   'manual/Books/The-Subtle-Art.md': () =>
     import(
       /* webpackPrefetch: true, webpackChunkName: "manual-books-the-subtle-art" */ 'manual/Books/The-Subtle-Art.md'
     ),
+  'manual/Big-Data/Big-Data-Essentials.md': () =>
+    import(
+      /* webpackPrefetch: true, webpackChunkName: "manual-big-data-big-data-essentials" */ 'manual/Big-Data/Big-Data-Essentials.md'
+    ),
+  'manual/Big-Data/Tools-And-Technologies.md': () =>
+    import(
+      /* webpackPrefetch: true, webpackChunkName: "manual-big-data-tools-and-technologies" */ 'manual/Big-Data/Tools-And-Technologies.md'
+    ),
   'manual/Bots/API-AI-Bot.md': () =>
     import(
       /* webpackPrefetch: true, webpackChunkName: "manual-bots-api-ai-bot" */ 'manual/Bots/API-AI-Bot.md'
     ),
-  'manual/Braintree/Sandbox.md': () =>
-    import(
-      /* webpackPrefetch: true, webpackChunkName: "manual-braintree-sandbox" */ 'manual/Braintree/Sandbox.md'
-    ),
   'manual/Business/Personal-MBA.md': () =>
     import(
       /* webpackPrefetch: true, webpackChunkName: "manual-business-personal-mba" */ 'manual/Business/Personal-MBA.md'
+    ),
+  'manual/Braintree/Sandbox.md': () =>
+    import(
+      /* webpackPrefetch: true, webpackChunkName: "manual-braintree-sandbox" */ 'manual/Braintree/Sandbox.md'
     ),
   'manual/COMP3306-AI/2-Problem-Solving-And-Search.md': () =>
     import(
@@ -231,18 +231,6 @@ export const imports = {
     import(
       /* webpackPrefetch: true, webpackChunkName: "manual-css-css-transitions-transforms-cheat-sheet" */ 'manual/CSS/css-transitions-transforms-cheat-sheet.md'
     ),
-  'manual/Computer-Science/Communicating-Sequential-Processess.md': () =>
-    import(
-      /* webpackPrefetch: true, webpackChunkName: "manual-computer-science-communicating-sequential-processess" */ 'manual/Computer-Science/Communicating-Sequential-Processess.md'
-    ),
-  'manual/Computer-Science/Composition.md': () =>
-    import(
-      /* webpackPrefetch: true, webpackChunkName: "manual-computer-science-composition" */ 'manual/Computer-Science/Composition.md'
-    ),
-  'manual/Computer-Science/Type-Theory.md': () =>
-    import(
-      /* webpackPrefetch: true, webpackChunkName: "manual-computer-science-type-theory" */ 'manual/Computer-Science/Type-Theory.md'
-    ),
   'manual/Chef/Chef-General.md': () =>
     import(
       /* webpackPrefetch: true, webpackChunkName: "manual-chef-chef-general" */ 'manual/Chef/Chef-General.md'
@@ -255,9 +243,21 @@ export const imports = {
     import(
       /* webpackPrefetch: true, webpackChunkName: "manual-chef-chef-udemy" */ 'manual/Chef/Chef-Udemy.md'
     ),
+  'manual/Computer-Science/Communicating-Sequential-Processess.md': () =>
+    import(
+      /* webpackPrefetch: true, webpackChunkName: "manual-computer-science-communicating-sequential-processess" */ 'manual/Computer-Science/Communicating-Sequential-Processess.md'
+    ),
   'manual/Chef/chef-cheat-sheet.md': () =>
     import(
       /* webpackPrefetch: true, webpackChunkName: "manual-chef-chef-cheat-sheet" */ 'manual/Chef/chef-cheat-sheet.md'
+    ),
+  'manual/Computer-Science/Type-Theory.md': () =>
+    import(
+      /* webpackPrefetch: true, webpackChunkName: "manual-computer-science-type-theory" */ 'manual/Computer-Science/Type-Theory.md'
+    ),
+  'manual/Computer-Science/Composition.md': () =>
+    import(
+      /* webpackPrefetch: true, webpackChunkName: "manual-computer-science-composition" */ 'manual/Computer-Science/Composition.md'
     ),
   'manual/Conda/Troubleshooting.mdx': () =>
     import(
@@ -303,10 +303,6 @@ export const imports = {
     import(
       /* webpackPrefetch: true, webpackChunkName: "manual-design-patterns-abstract-factory-pattern" */ 'manual/Design-Patterns/Abstract-Factory-Pattern.md'
     ),
-  'manual/Design-Patterns/Adapter-Pattern.md': () =>
-    import(
-      /* webpackPrefetch: true, webpackChunkName: "manual-design-patterns-adapter-pattern" */ 'manual/Design-Patterns/Adapter-Pattern.md'
-    ),
   'manual/Design-Patterns/Bridge-Pattern.md': () =>
     import(
       /* webpackPrefetch: true, webpackChunkName: "manual-design-patterns-bridge-pattern" */ 'manual/Design-Patterns/Bridge-Pattern.md'
@@ -314,6 +310,10 @@ export const imports = {
   'manual/Design-Patterns/Builder-Pattern.md': () =>
     import(
       /* webpackPrefetch: true, webpackChunkName: "manual-design-patterns-builder-pattern" */ 'manual/Design-Patterns/Builder-Pattern.md'
+    ),
+  'manual/Design-Patterns/Adapter-Pattern.md': () =>
+    import(
+      /* webpackPrefetch: true, webpackChunkName: "manual-design-patterns-adapter-pattern" */ 'manual/Design-Patterns/Adapter-Pattern.md'
     ),
   'manual/Design-Patterns/Chain-Of-Responsibility.md': () =>
     import(
@@ -335,13 +335,13 @@ export const imports = {
     import(
       /* webpackPrefetch: true, webpackChunkName: "manual-design-patterns-delegation" */ 'manual/Design-Patterns/Delegation.md'
     ),
-  'manual/Design-Patterns/Design-Patterns.md': () =>
-    import(
-      /* webpackPrefetch: true, webpackChunkName: "manual-design-patterns-design-patterns" */ 'manual/Design-Patterns/Design-Patterns.md'
-    ),
   'manual/Design-Patterns/Facade-Pattern.md': () =>
     import(
       /* webpackPrefetch: true, webpackChunkName: "manual-design-patterns-facade-pattern" */ 'manual/Design-Patterns/Facade-Pattern.md'
+    ),
+  'manual/Design-Patterns/Design-Patterns.md': () =>
+    import(
+      /* webpackPrefetch: true, webpackChunkName: "manual-design-patterns-design-patterns" */ 'manual/Design-Patterns/Design-Patterns.md'
     ),
   'manual/Design-Patterns/Factory-Pattern.md': () =>
     import(
@@ -399,6 +399,10 @@ export const imports = {
     import(
       /* webpackPrefetch: true, webpackChunkName: "manual-design-patterns-visitor" */ 'manual/Design-Patterns/Visitor.md'
     ),
+  'manual/Digital-Marketing/Digital-Marketing-Course.md': () =>
+    import(
+      /* webpackPrefetch: true, webpackChunkName: "manual-digital-marketing-digital-marketing-course" */ 'manual/Digital-Marketing/Digital-Marketing-Course.md'
+    ),
   'manual/DevOps/Dev-Ops.md': () =>
     import(
       /* webpackPrefetch: true, webpackChunkName: "manual-dev-ops-dev-ops" */ 'manual/DevOps/Dev-Ops.md'
@@ -406,10 +410,6 @@ export const imports = {
   'manual/DevOps/DevOps-Essentials.md': () =>
     import(
       /* webpackPrefetch: true, webpackChunkName: "manual-dev-ops-dev-ops-essentials" */ 'manual/DevOps/DevOps-Essentials.md'
-    ),
-  'manual/Digital-Marketing/Digital-Marketing-Course.md': () =>
-    import(
-      /* webpackPrefetch: true, webpackChunkName: "manual-digital-marketing-digital-marketing-course" */ 'manual/Digital-Marketing/Digital-Marketing-Course.md'
     ),
   'manual/Docker/Docker-And-Elastic-Beanstalk.md': () =>
     import(
@@ -1023,38 +1023,6 @@ export const imports = {
     import(
       /* webpackPrefetch: true, webpackChunkName: "manual-postgres-sql-psql-tips" */ 'manual/PostgresSQL/PSQL-Tips.md'
     ),
-  'manual/Product-Discovery/Best-Continous-Discovery-Mindsets.md': () =>
-    import(
-      /* webpackPrefetch: true, webpackChunkName: "manual-product-discovery-best-continous-discovery-mindsets" */ 'manual/Product-Discovery/Best-Continous-Discovery-Mindsets.md'
-    ),
-  'manual/Product-Discovery/Intro-To-Modern-Product-Discovery.md': () =>
-    import(
-      /* webpackPrefetch: true, webpackChunkName: "manual-product-discovery-intro-to-modern-product-discovery" */ 'manual/Product-Discovery/Intro-To-Modern-Product-Discovery.md'
-    ),
-  'manual/Product-Discovery/Keystone-Habit.md': () =>
-    import(
-      /* webpackPrefetch: true, webpackChunkName: "manual-product-discovery-keystone-habit" */ 'manual/Product-Discovery/Keystone-Habit.md'
-    ),
-  'manual/Product-Discovery/Lean-Canvas.md': () =>
-    import(
-      /* webpackPrefetch: true, webpackChunkName: "manual-product-discovery-lean-canvas" */ 'manual/Product-Discovery/Lean-Canvas.md'
-    ),
-  'manual/Product-Discovery/Opportunity-Solution-Tree.md': () =>
-    import(
-      /* webpackPrefetch: true, webpackChunkName: "manual-product-discovery-opportunity-solution-tree" */ 'manual/Product-Discovery/Opportunity-Solution-Tree.md'
-    ),
-  'manual/Product-Discovery/Product-Discovery-Case-Study.md': () =>
-    import(
-      /* webpackPrefetch: true, webpackChunkName: "manual-product-discovery-product-discovery-case-study" */ 'manual/Product-Discovery/Product-Discovery-Case-Study.md'
-    ),
-  'manual/Product-Discovery/Product-Discovery-Principles.md': () =>
-    import(
-      /* webpackPrefetch: true, webpackChunkName: "manual-product-discovery-product-discovery-principles" */ 'manual/Product-Discovery/Product-Discovery-Principles.md'
-    ),
-  'manual/Product-Discovery/Story-Mapping.md': () =>
-    import(
-      /* webpackPrefetch: true, webpackChunkName: "manual-product-discovery-story-mapping" */ 'manual/Product-Discovery/Story-Mapping.md'
-    ),
   'manual/Principles/COPY_EXAMPLES_DOCS.md': () =>
     import(
       /* webpackPrefetch: true, webpackChunkName: "manual-principles-copy-examples-docs" */ 'manual/Principles/COPY_EXAMPLES_DOCS.md'
@@ -1119,9 +1087,49 @@ export const imports = {
     import(
       /* webpackPrefetch: true, webpackChunkName: "manual-principles-web-checklist" */ 'manual/Principles/Web-Checklist.md'
     ),
+  'manual/Product-Discovery/Best-Continous-Discovery-Mindsets.md': () =>
+    import(
+      /* webpackPrefetch: true, webpackChunkName: "manual-product-discovery-best-continous-discovery-mindsets" */ 'manual/Product-Discovery/Best-Continous-Discovery-Mindsets.md'
+    ),
+  'manual/Product-Discovery/Intro-To-Modern-Product-Discovery.md': () =>
+    import(
+      /* webpackPrefetch: true, webpackChunkName: "manual-product-discovery-intro-to-modern-product-discovery" */ 'manual/Product-Discovery/Intro-To-Modern-Product-Discovery.md'
+    ),
+  'manual/Product-Discovery/Keystone-Habit.md': () =>
+    import(
+      /* webpackPrefetch: true, webpackChunkName: "manual-product-discovery-keystone-habit" */ 'manual/Product-Discovery/Keystone-Habit.md'
+    ),
+  'manual/Product-Discovery/Lean-Canvas.md': () =>
+    import(
+      /* webpackPrefetch: true, webpackChunkName: "manual-product-discovery-lean-canvas" */ 'manual/Product-Discovery/Lean-Canvas.md'
+    ),
+  'manual/Product-Discovery/Opportunity-Solution-Tree.md': () =>
+    import(
+      /* webpackPrefetch: true, webpackChunkName: "manual-product-discovery-opportunity-solution-tree" */ 'manual/Product-Discovery/Opportunity-Solution-Tree.md'
+    ),
+  'manual/Product-Discovery/Product-Discovery-Case-Study.md': () =>
+    import(
+      /* webpackPrefetch: true, webpackChunkName: "manual-product-discovery-product-discovery-case-study" */ 'manual/Product-Discovery/Product-Discovery-Case-Study.md'
+    ),
+  'manual/Product-Discovery/Product-Discovery-Principles.md': () =>
+    import(
+      /* webpackPrefetch: true, webpackChunkName: "manual-product-discovery-product-discovery-principles" */ 'manual/Product-Discovery/Product-Discovery-Principles.md'
+    ),
+  'manual/Product-Discovery/Story-Mapping.md': () =>
+    import(
+      /* webpackPrefetch: true, webpackChunkName: "manual-product-discovery-story-mapping" */ 'manual/Product-Discovery/Story-Mapping.md'
+    ),
   'manual/Productivity/Productivity.md': () =>
     import(
       /* webpackPrefetch: true, webpackChunkName: "manual-productivity-productivity" */ 'manual/Productivity/Productivity.md'
+    ),
+  'manual/Puppeteer/Dev-Tool-Assertions.md': () =>
+    import(
+      /* webpackPrefetch: true, webpackChunkName: "manual-puppeteer-dev-tool-assertions" */ 'manual/Puppeteer/Dev-Tool-Assertions.md'
+    ),
+  'manual/Puppeteer/Recorder.md': () =>
+    import(
+      /* webpackPrefetch: true, webpackChunkName: "manual-puppeteer-recorder" */ 'manual/Puppeteer/Recorder.md'
     ),
   'manual/Protocols/Address-Resolution-Protocol.md': () =>
     import(
@@ -1150,14 +1158,6 @@ export const imports = {
   'manual/Protocols/Simple-Mail-Transfer-Protocol.md': () =>
     import(
       /* webpackPrefetch: true, webpackChunkName: "manual-protocols-simple-mail-transfer-protocol" */ 'manual/Protocols/Simple-Mail-Transfer-Protocol.md'
-    ),
-  'manual/Puppeteer/Dev-Tool-Assertions.md': () =>
-    import(
-      /* webpackPrefetch: true, webpackChunkName: "manual-puppeteer-dev-tool-assertions" */ 'manual/Puppeteer/Dev-Tool-Assertions.md'
-    ),
-  'manual/Puppeteer/Recorder.md': () =>
-    import(
-      /* webpackPrefetch: true, webpackChunkName: "manual-puppeteer-recorder" */ 'manual/Puppeteer/Recorder.md'
     ),
   'manual/Python/Python-Collections.md': () =>
     import(
@@ -1243,6 +1243,10 @@ export const imports = {
     import(
       /* webpackPrefetch: true, webpackChunkName: "manual-react-native-setting-up-expo-redux-saga" */ 'manual/React-Native/Setting-Up-Expo-Redux-Saga.md'
     ),
+  'manual/ReasonML/Reason-Hello-World.md': () =>
+    import(
+      /* webpackPrefetch: true, webpackChunkName: "manual-reason-ml-reason-hello-world" */ 'manual/ReasonML/Reason-Hello-World.md'
+    ),
   'manual/React-Notes/Advanced-React-Redux.md': () =>
     import(
       /* webpackPrefetch: true, webpackChunkName: "manual-react-notes-advanced-react-redux" */ 'manual/React-Notes/Advanced-React-Redux.md'
@@ -1290,10 +1294,6 @@ export const imports = {
   'manual/React-Notes/react-style-guide.md': () =>
     import(
       /* webpackPrefetch: true, webpackChunkName: "manual-react-notes-react-style-guide" */ 'manual/React-Notes/react-style-guide.md'
-    ),
-  'manual/ReasonML/Reason-Hello-World.md': () =>
-    import(
-      /* webpackPrefetch: true, webpackChunkName: "manual-reason-ml-reason-hello-world" */ 'manual/ReasonML/Reason-Hello-World.md'
     ),
   'manual/Redis/Redis-Kue-Nodejs.md': () =>
     import(
@@ -1387,25 +1387,25 @@ export const imports = {
     import(
       /* webpackPrefetch: true, webpackChunkName: "manual-rust-rust-useful-tidbits" */ 'manual/Rust/Rust-Useful-Tidbits.md'
     ),
-  'manual/SQL/SQL-Window-Functions.md': () =>
-    import(
-      /* webpackPrefetch: true, webpackChunkName: "manual-sql-sql-window-functions" */ 'manual/SQL/SQL-Window-Functions.md'
-    ),
   'manual/SEO/SEO-For-Beginners.md': () =>
     import(
       /* webpackPrefetch: true, webpackChunkName: "manual-seo-seo-for-beginners" */ 'manual/SEO/SEO-For-Beginners.md'
+    ),
+  'manual/SQL/SQL-Window-Functions.md': () =>
+    import(
+      /* webpackPrefetch: true, webpackChunkName: "manual-sql-sql-window-functions" */ 'manual/SQL/SQL-Window-Functions.md'
     ),
   'manual/Scala/Intro-To-Scala.md': () =>
     import(
       /* webpackPrefetch: true, webpackChunkName: "manual-scala-intro-to-scala" */ 'manual/Scala/Intro-To-Scala.md'
     ),
-  'manual/Scala/Scala-Expressions.md': () =>
-    import(
-      /* webpackPrefetch: true, webpackChunkName: "manual-scala-scala-expressions" */ 'manual/Scala/Scala-Expressions.md'
-    ),
   'manual/Scala/Scala-Values-Variables-Types.md': () =>
     import(
       /* webpackPrefetch: true, webpackChunkName: "manual-scala-scala-values-variables-types" */ 'manual/Scala/Scala-Values-Variables-Types.md'
+    ),
+  'manual/Scala/Scala-Expressions.md': () =>
+    import(
+      /* webpackPrefetch: true, webpackChunkName: "manual-scala-scala-expressions" */ 'manual/Scala/Scala-Expressions.md'
     ),
   'manual/Segment/Intro.md': () =>
     import(
@@ -1463,10 +1463,6 @@ export const imports = {
     import(
       /* webpackPrefetch: true, webpackChunkName: "manual-stripe-react-stripe-elements" */ 'manual/Stripe/React-Stripe-Elements.md'
     ),
-  'manual/Stripe/Stripe-Node.md': () =>
-    import(
-      /* webpackPrefetch: true, webpackChunkName: "manual-stripe-stripe-node" */ 'manual/Stripe/Stripe-Node.md'
-    ),
   'manual/Style/base-animations.md': () =>
     import(
       /* webpackPrefetch: true, webpackChunkName: "manual-style-base-animations" */ 'manual/Style/base-animations.md'
@@ -1475,13 +1471,17 @@ export const imports = {
     import(
       /* webpackPrefetch: true, webpackChunkName: "manual-style-base-mixins" */ 'manual/Style/base-mixins.md'
     ),
-  'manual/Style/base.md': () =>
+  'manual/Stripe/Stripe-Node.md': () =>
     import(
-      /* webpackPrefetch: true, webpackChunkName: "manual-style-base" */ 'manual/Style/base.md'
+      /* webpackPrefetch: true, webpackChunkName: "manual-stripe-stripe-node" */ 'manual/Stripe/Stripe-Node.md'
     ),
   'manual/Style/style.md': () =>
     import(
       /* webpackPrefetch: true, webpackChunkName: "manual-style-style" */ 'manual/Style/style.md'
+    ),
+  'manual/Style/base.md': () =>
+    import(
+      /* webpackPrefetch: true, webpackChunkName: "manual-style-base" */ 'manual/Style/base.md'
     ),
   'manual/Swift/Swift-3-API-Design-Guidelines.md': () =>
     import(
@@ -1567,6 +1567,10 @@ export const imports = {
     import(
       /* webpackPrefetch: true, webpackChunkName: "manual-twig-twig-cheat-sheet" */ 'manual/Twig/Twig-Cheat-Sheet.md'
     ),
+  'manual/TypeScript/Developers-Guide.md': () =>
+    import(
+      /* webpackPrefetch: true, webpackChunkName: "manual-type-script-developers-guide" */ 'manual/TypeScript/Developers-Guide.md'
+    ),
   'manual/Unity/How-To-Make-A-Video-Game.md': () =>
     import(
       /* webpackPrefetch: true, webpackChunkName: "manual-unity-how-to-make-a-video-game" */ 'manual/Unity/How-To-Make-A-Video-Game.md'
@@ -1575,17 +1579,21 @@ export const imports = {
     import(
       /* webpackPrefetch: true, webpackChunkName: "manual-unity-unity-basics" */ 'manual/Unity/Unity-Basics.md'
     ),
-  'manual/TypeScript/Developers-Guide.md': () =>
+  'manual/Vagrant/Vagrant-Overview.md': () =>
     import(
-      /* webpackPrefetch: true, webpackChunkName: "manual-type-script-developers-guide" */ 'manual/TypeScript/Developers-Guide.md'
+      /* webpackPrefetch: true, webpackChunkName: "manual-vagrant-vagrant-overview" */ 'manual/Vagrant/Vagrant-Overview.md'
+    ),
+  'manual/Vim/Neovim.md': () =>
+    import(
+      /* webpackPrefetch: true, webpackChunkName: "manual-vim-neovim" */ 'manual/Vim/Neovim.md'
     ),
   'manual/Vim/Vim.md': () =>
     import(
       /* webpackPrefetch: true, webpackChunkName: "manual-vim-vim" */ 'manual/Vim/Vim.md'
     ),
-  'manual/Vagrant/Vagrant-Overview.md': () =>
+  'manual/Web/Accessibility-Course.md': () =>
     import(
-      /* webpackPrefetch: true, webpackChunkName: "manual-vagrant-vagrant-overview" */ 'manual/Vagrant/Vagrant-Overview.md'
+      /* webpackPrefetch: true, webpackChunkName: "manual-web-accessibility-course" */ 'manual/Web/Accessibility-Course.md'
     ),
   'manual/Web/Aria-Tags.md': () =>
     import(
