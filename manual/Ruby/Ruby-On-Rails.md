@@ -12,6 +12,7 @@ rails new [app] # scaffold new app
 rails server # serve on 3000
 bundle install --without production # install dev deps
 rails generate scaffold User name:string email:string # generate basic User schema
+rails generate controller Welcome index # generate new Welcome page
 rails destroy model User # rollback created User
 rails db:migrate # migrate database
 rails db:rollback # undo previous db command
