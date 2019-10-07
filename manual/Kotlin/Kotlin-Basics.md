@@ -1,9 +1,9 @@
 ---
 menu: Kotlin
-name: Kotlin Apprentice
+name: Kotlin Basics
 ---
 
-# Kotlin Apprentice
+# Kotlin Basics
 
 This highlight just covers scenarios not entirely standardised to most programming languages eg it will not cover while loops etc.
 
