@@ -149,3 +149,116 @@ fun sumOfElements(list: List<Int>): Int {
   }
 return sum }
 ```
+
+## Nullable Lists
+
+You can have nullable lists, a list of nullables or both.
+
+```kotlin
+var nullableList = List<Int>? = listOf(1,2,3,4) // list can be nullable
+var listOfNullables = List<Int?> = listOf(1,2,null,4) // elements can be null
+```
+
+## Maps and Sets
+
+A map is an unordered collection of pairs, where each pair is compised of a a key and value.
+
+## Creating Maps
+
+```kotlin
+ var yearOfBirth = mapOf("Anna" to 1990, "Brian" to 1991, "Craig" to 1992,
+"Donna" to 1993)
+var namesAndScores = mutableMapOf("Anna" to 2, "Brian" to 2, "Craig" to
+8, "Donna" to 6)
+println(namesAndScores) // > {Anna=2, Brian=2, Craig=8, Donna=6}
+namesAndScores = mutableMapOf()
+var pairs = HashMap<String, Int>()
+pairs = HashMap<String, Int>(20)
+```
+
+## Mutating Mutable Maps
+
+```kotlin
+val bobData = mutableMapOf(
+  "name" to "Bob",
+  "profession" to "CardPlayer",
+  "country" to "USA")
+bobData.put("state", "CA")
+bobData["city"] = "San Francisco"
+```
+
+### Updating Map Values
+
+```kotlin
+bobData.put("name", "Bobby") // Bob
+bobData["profession"] = "Mailman"
+val pair = "nickname" to "Bobby D"
+bobData += pair
+println(bobData)
+// > {name=Bobby, profession=Mailman, country=USA, state=CA, city=San
+Francisco, nickname=Bobby D}
+```
+
+### Removing Pairs
+
+```kotlin
+bobData.remove("city")
+bobData.remove("state", "CA")
+```
+
+### Iterating through maps
+
+```kotlin
+for ((player, score) in namesAndScores) {
+  println ("$player - $score")
+}
+// > Anna - 2
+// > Brian - 2
+// > Craig - 8
+// > Donna - 6
+
+for (player in namesAndScores.keys) {
+  print("$player, ") // no newline
+}
+println() // print a newline
+// > Anna, Brian, Craig, Donna,
+```
+
+Note: For performance-critical code, `HashMap<K, V>` should be used via `hashMapOf()` instead of `mapOf()`.
+
+## Sets
+
+A set is an unordered collection of unique values of the same type. This can be useful for uniqueness.
+
+```kotlin
+val names = setOf("Anna", "Brian", "Craig", "Anna")
+println(names)
+// > [Anna, Brian, Craig]
+
+// for an empty set
+val hashSet = HashSet<Int>()
+```
+
+## Sets from Arrays
+
+```kotlin
+val someArray = arrayOf(1, 2, 3, 1)
+var someSet = mutableSetOf(*someArray)
+println(someSet) // > [1, 2, 3]
+
+println(someSet.contains(1))
+// > true
+
+println(4 in someSet)
+// > false
+```
+
+## Adding Or Removing Elements
+
+```kotlin
+someSet.add(5)
+val removedOne = someSet.remove(1)
+println(removedOne) // > true
+println(someSet)
+// > [2, 3, 5]
+```
