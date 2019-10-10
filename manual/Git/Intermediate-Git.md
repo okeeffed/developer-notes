@@ -1,0 +1,10 @@
+---
+menu: Git
+name: Intermediate Git
+---
+
+# Intermediate Git
+
+| Command      | Action                                           |
+| ------------ | ------------------------------------------------ |
+| git shortlog | Show a log of each contributor and their commits |
