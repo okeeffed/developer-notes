@@ -35,6 +35,57 @@ name: Kotlin Study Group
 
 Robot on infinite plane.
 
+```kotlin
+import kotlin.math.absoluteValue
+fun main() {
+    val instructions = "R3L2R7L4"
+    val distance = robotDistance(instructions)
+    println("hello world $distance")
+}
+enum class Direction {
+    NORTH {
+        override fun right() = EAST
+        override fun left() = WEST
+    },
+    SOUTH {
+        override fun right() = WEST
+        override fun left() = EAST
+    },
+    EAST {
+        override fun right() = SOUTH
+        override fun left() = NORTH
+    },
+    WEST {
+        override fun right() = NORTH
+        override fun left() = SOUTH
+    };
+    abstract fun right(): Direction
+    abstract fun left(): Direction
+}
+data class RobotState(val x: Int = 0, val y: Int = 0, val direction: Direction = Direction.NORTH) {
+    fun right(): RobotState = this.copy(direction = direction.right())
+    fun left(): RobotState = this.copy(direction = direction.left())
+    fun move(distance: Int) = when(direction) {
+        Direction.NORTH -> copy(y = y + distance)
+        Direction.EAST -> copy(x = x + distance)
+        Direction.SOUTH -> copy(y = y - distance)
+        Direction.WEST -> copy(x = x - distance)
+    }
+}
+fun robotDistance(instructions: String): Int {
+    val regex = Regex("(R|L|\\d+)")
+    val tokens = regex.findAll(instructions).map { it.groupValues[1] }
+    val finalState = tokens.fold(RobotState()) { acc: RobotState, token: String ->
+        when (token) {
+            "R" -> acc.right()
+            "L" -> acc.left()
+            else -> acc.move(token.toInt())
+        }
+    }
+    return finalState.x.absoluteValue + finalState.y.absoluteValue
+}
+```
+
 ## Preferences
 
 - Can update to show definition on hover
