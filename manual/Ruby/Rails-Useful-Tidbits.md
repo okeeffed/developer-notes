@@ -7,6 +7,15 @@ name: Rails Useful Tidbits
 
 ## tl;dr
 
+### Rails Console
+
+| Command          | Action             |
+| ---------------- | ------------------ |
+| app.get "/route" | Test a get route   |
+| Model.all        | Get array of model |
+| Modal.first      | Get first of model |
+| Model.find(:id)  | Find model by ID   |
+
 ### Decent Exposure
 
 A popular Rails gem helper for creating declarative interfaces in controllers. [Link here](https://github.com/hashrocket/decent_exposure).
