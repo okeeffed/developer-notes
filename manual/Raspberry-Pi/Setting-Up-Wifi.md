@@ -51,3 +51,7 @@ ssh pi@raspberrypi.local
 ## Debian Distros
 
 The Raspbian distros can be downloaded from https://www.raspberrypi.org/downloads/raspbian
+
+## Troubleshooting
+
+Check out this post https://desertbot.io/blog/ssh-into-pi-zero-over-usb/
