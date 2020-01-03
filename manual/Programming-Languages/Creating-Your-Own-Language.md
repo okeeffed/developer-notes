@@ -67,3 +67,22 @@ const isWhitespace = character => /\s/.test(character);
 const isNumber = character => /[0-9]/.test(character);
 const isOperator = character => /[\+\-\*\/]/.test(character);
 ```
+
+### Turning strings to tokens
+
+Note that based on our syntax, we may need to collect multiple characters into a single token ie `22 + 23` (which tokenizes as `['2','2','+','2','3']`)
+
+```javascript
+const tokenize = input => {
+  let cursor = 0;
+  const tokens = [];
+
+  while (cursor < input.length) {
+    // Logic here
+    // Example for number helper
+    if (isNumber(character))
+  }
+
+  return tokens;
+};
+```
