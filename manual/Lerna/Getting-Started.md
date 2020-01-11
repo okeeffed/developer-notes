@@ -10,6 +10,9 @@ name: Getting Started With Lerna
 1. [Github Tutorial](https://github.com/reggi/lerna-tutorial)
 2. [Moving from multiple repos to Lerna](https://hackernoon.com/moving-from-multiple-repositories-to-a-lerna-js-mono-repo-d0fff3538c7e)
 3. [DEV.to article on TS + Lerna](https://dev.to/shnydercom/monorepos-lerna-typescript-cra-and-storybook-combined-4hli)
+4. [Lerna with TSC compiler](https://medium.com/@NiGhTTraX/how-to-set-up-a-typescript-monorepo-with-lerna-c6acda7d4559)
+5. [Lerna is the perfect match for Yarn](https://doppelmutzi.github.io/monorepo-lerna-yarn-workspaces/)
+6. [Lerna + Yarn Workspaces](https://medium.com/@jsilvax/a-workflow-guide-for-lerna-with-yarn-workspaces-60f97481149d)
 
 ## tl;dr
 
@@ -17,10 +20,9 @@ name: Getting Started With Lerna
 mkdir hello-lerna
 cd hello-lerna
 yarn init -y
-yarn add --global lerna
 
 # init lerna with cli tool
-lerna init
+npx lerna init
 
 # make a packages directory with each of your packages
 mkdir packages
