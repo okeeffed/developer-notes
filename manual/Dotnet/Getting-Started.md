@@ -12,6 +12,7 @@ name: Getting Started with Dotnet
 3. [Dotnet install](https://dotnet.microsoft.com/download)
 4. [Symlinking Dotnet to /usr/local/bin post-installation](https://stackoverflow.com/questions/53030531/dotnet-command-not-found-in-mac)
 5. [First web application](https://dotnet.microsoft.com/learn/aspnet/hello-world-tutorial/intro)
+6. [Building a web API](https://docs.microsoft.com/en-us/aspnet/core/tutorials/first-web-api?view=aspnetcore-3.1&tabs=visual-studio)
 
 ## Getting started
 
