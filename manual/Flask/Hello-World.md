@@ -5,6 +5,12 @@ name: Hello World!
 
 # Flask Hello World
 
+## Resources
+
+1. [Parsing JSON data w/ Flask](https://techtutorialsx.com/2017/01/07/flask-parsing-json-data/)
+2. [Status codes in Flask](https://stackoverflow.com/questions/45412228/flask-sending-data-and-status-code-through-a-response-object/45412576)
+3. [Python Try/Except](https://www.w3schools.com/python/python_try_except.asp)
+
 ## Prereqs
 
 ```shell
