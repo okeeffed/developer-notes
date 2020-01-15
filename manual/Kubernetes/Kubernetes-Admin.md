@@ -5,9 +5,15 @@ menu: Kubernetes
 
 # 4. Kubernetes Administration
 
+## Resources
+
+1. [Why etcd is etcd?](https://github.com/etcd-io/etcd/issues/2512)
+
+## Administration
+
 ![Kubernetes Master Overview](https://res.cloudinary.com/gitgoodclub/image/upload/v1540175278/Screen_Shot_2018-10-22_at_1.26.57_pm.png)
 
-- When you deploy a new Pod, the information is stored in `etcd`.
+- When you deploy a new Pod, the information is stored in `etcd`. (etcd = `/etc` config folder and `d` = distributed)
 - Schedular talks to REST api.
 - REST api is used to handle tasks.
   - Interfaces with Kubelets on the nodes.
@@ -86,16 +92,16 @@ $ kubectl config set-context $CONTEXT --namespace=myspace
 apiVersion: 1
 kind: ResourceQuota
 metadata:
-	name: objects-counts
-	namespace: myspace
+  name: objects-counts
+namespace: myspace
 spec:
-	hard:
-		configmaps: "10"
-		persistentvolumesclaim: "4"
-		replicationcontrollers: "20"
-		secrets: "10"
-		services: "10"
-		services.loadbalancers: "2"
+  hard:
+    configmaps: '10'
+persistentvolumesclaim: '4'
+replicationcontrollers: '20'
+secrets: '10'
+services: '10'
+services.loadbalancers: '2'
 ```
 
 ### Demo ResourceQuotas
@@ -114,9 +120,9 @@ metadata:
   namespace: myspace
 spec:
   hard:
-    requests.cpu: "1"
+    requests.cpu: '1'
     requests.memory: 1Gi
-    limits.cpu: "2"
+    limits.cpu: '2'
     limits.memory: 2Gi
 ---
 apiVersion: v1
@@ -126,12 +132,12 @@ metadata:
   namespace: myspace
 spec:
   hard:
-    configmaps: "10"
-    persistentvolumeclaims: "4"
-    replicationcontrollers: "20"
-    secrets: "10"
-    services: "10"
-    services.loadbalancers: "2"
+    configmaps: '10'
+    persistentvolumeclaims: '4'
+    replicationcontrollers: '20'
+    secrets: '10'
+    services: '10'
+    services.loadbalancers: '2'
 ```
 
 ```yaml
@@ -149,18 +155,18 @@ spec:
         app: helloworld
     spec:
       containers:
-      - name: k8s-demo
-        image: wardviaene/k8s-demo
-        ports:
-        - name: nodejs-port
-          containerPort: 3000
-        resources:
-          requests:
-            cpu: 200m
-            memory: 0.5Gi
-          limits:
-            cpu: 400m
-            memory: 1Gi
+        - name: k8s-demo
+          image: wardviaene/k8s-demo
+          ports:
+            - name: nodejs-port
+              containerPort: 3000
+          resources:
+            requests:
+              cpu: 200m
+              memory: 0.5Gi
+            limits:
+              cpu: 400m
+              memory: 1Gi
 ```
 
 ```yaml
@@ -178,11 +184,11 @@ spec:
         app: helloworld
     spec:
       containers:
-      - name: k8s-demo
-        image: wardviaene/k8s-demo
-        ports:
-        - name: nodejs-port
-          containerPort: 3000
+        - name: k8s-demo
+          image: wardviaene/k8s-demo
+          ports:
+            - name: nodejs-port
+              containerPort: 3000
 ```
 
 ```yaml
@@ -194,13 +200,13 @@ metadata:
   namespace: myspace
 spec:
   limits:
-  - default:
-      cpu: 200m
-      memory: 512Mi
-    defaultRequest:
-      cpu: 100m
-      memory: 256Mi
-    type: Container
+    - default:
+        cpu: 200m
+        memory: 512Mi
+      defaultRequest:
+        cpu: 100m
+        memory: 256Mi
+      type: Container
 ```
 
 The following commands can be used to get check resources:
@@ -224,7 +230,7 @@ There are two user types:
 Auth strategies include:
 
 - Client certificates
-- Bearer Tokens 
+- Bearer Tokens
 - Authentication Proxy
 - HTTP Basic Authentication
 - OpenID
@@ -386,22 +392,22 @@ kind: Service
 metadata:
   name: helloworld-service
   annotations:
-    service.beta.kubernetes.io/aws-load-balancer-ssl-cert: "arn:aws:acm:region:accountid:certificate/..." #replace this value
-    service.beta.kubernetes.io/aws-load-balancer-backend-protocol: "http"
-    service.beta.kubernetes.io/aws-load-balancer-ssl-ports: "443"
-    service.beta.kubernetes.io/aws-load-balancer-connection-draining-enabled: "true"
-    service.beta.kubernetes.io/aws-load-balancer-connection-draining-timeout: "60"
-    service.beta.kubernetes.io/aws-load-balancer-additional-resource-tags: "environment=dev,app=helloworld"
+    service.beta.kubernetes.io/aws-load-balancer-ssl-cert: 'arn:aws:acm:region:accountid:certificate/...' #replace this value
+    service.beta.kubernetes.io/aws-load-balancer-backend-protocol: 'http'
+    service.beta.kubernetes.io/aws-load-balancer-ssl-ports: '443'
+    service.beta.kubernetes.io/aws-load-balancer-connection-draining-enabled: 'true'
+    service.beta.kubernetes.io/aws-load-balancer-connection-draining-timeout: '60'
+    service.beta.kubernetes.io/aws-load-balancer-additional-resource-tags: 'environment=dev,app=helloworld'
 spec:
   ports:
-  - name: http
-    port: 80
-    targetPort: nodejs-port
-    protocol: TCP
-  - name: https
-    port: 443
-    targetPort: nodejs-port
-    protocol: TCP
+    - name: http
+      port: 80
+      targetPort: nodejs-port
+      protocol: TCP
+    - name: https
+      port: 443
+      targetPort: nodejs-port
+      protocol: TCP
   selector:
     app: helloworld
   type: LoadBalancer
