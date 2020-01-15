@@ -5,15 +5,40 @@ menu: Linux
 
 # Linux Essentials
 
-<!-- TOC -->autoauto- [Linux Essentials](#linux-essentials)auto  - [LINUX-2: Finding Your Way on a Linux Systems](#linux-2-finding-your-way-on-a-linux-systems)auto  - [LINUX-2.1: Command Line Basics](#linux-21-command-line-basics)auto      - [++++ ---- uname](#------uname)auto      - [++++ ---- History and completion](#------history-and-completion)auto      - [++++ ---- cd and pwd](#------cd-and-pwd)auto      - [++++ ---- Shell config files](#------shell-config-files)auto      - [++++ ---- Variables: Env/Sys Variables](#------variables-envsys-variables)auto      - [++++ ---- Variables: User Defined vars](#------variables-user-defined-vars)auto      - [++++ ---- Globbing](#------globbing)auto      - [++++ ---- Quoting](#------quoting)auto      - [++++ ---- Formatting Commands](#------formatting-commands)auto      - [++++ ---- Working with Options](#------working-with-options)auto  - [LINUX-2.2: Using the Command Line to Get Help](#linux-22-using-the-command-line-to-get-help)auto      - [++++ ---- Man](#------man)auto  - [LINUX-2.3: Using Directories and Listing Files](#linux-23-using-directories-and-listing-files)auto      - [++++ ---- The Linux File System](#------the-linux-file-system)auto  - [LINUX-2.4: Creating, Moving and Deleting Files](#linux-24-creating-moving-and-deleting-files)auto      - [++++ ---- Files and Directories](#------files-and-directories)auto  - [LINUX-3: The Power of the Command Line](#linux-3-the-power-of-the-command-line)auto  - [LINUX-3.1: Archiving Files on the Command Line](#linux-31-archiving-files-on-the-command-line)auto    - [++++ ---- Files, Directories](#------files-directories)auto  - [LINUX-5: The Linux Operating System](#linux-5-the-linux-operating-system)auto  - [LINUX-5.3: Where Data is Stored](#linux-53-where-data-is-stored)auto      - [++++ ---- LINUX-5.3.1: Kernel](#------linux-531-kernel)auto      - [++++ ---- LINUX-5.3.2: Processes](#------linux-532-processes)auto      - [++++ ---- LINUX-5.3.3: syslog, klog, dmesg](#------linux-533-syslog-klog-dmesg)auto      - [++++ ---- LINUX-5.3.4: /lib, /usr/lib, /etc, /var/log](#------linux-534-lib-usrlib-etc-varlog)auto    - [LINUX-5.4: Your Computer on the Network](#linux-54-your-computer-on-the-network)auto      - [++++ ---- LINUX-5.3.1: Internet, Network, Routers](#------linux-531-internet-network-routers)autoauto<!-- /TOC -->
-
-<div id="2"></div>
+- [Linux Essentials](#linux-essentials)
+  - [LINUX-2: Finding Your Way on a Linux Systems](#linux-2-finding-your-way-on-a-linux-systems)
+  - [LINUX-2.1: Command Line Basics](#linux-21-command-line-basics)
+    - [uname](#uname)
+    - [History and completion](#history-and-completion)
+    - [cd and pwd](#cd-and-pwd)
+    - [Shell config files](#shell-config-files)
+    - [Variables: Env/Sys Variables](#variables-envsys-variables)
+    - [Variables: User Defined vars](#variables-user-defined-vars)
+    - [Globbing](#globbing)
+    - [Quoting](#quoting)
+    - [Formatting Commands](#formatting-commands)
+    - [Working with Options](#working-with-options)
+  - [LINUX-2.2: Using the Command Line to Get Help](#linux-22-using-the-command-line-to-get-help)
+    - [Man](#man)
+  - [LINUX-2.3: Using Directories and Listing Files](#linux-23-using-directories-and-listing-files)
+    - [The Linux File System](#the-linux-file-system)
+  - [LINUX-2.4: Creating, Moving and Deleting Files](#linux-24-creating-moving-and-deleting-files)
+    - [Files and Directories](#files-and-directories)
+  - [LINUX-3: The Power of the Command Line](#linux-3-the-power-of-the-command-line)
+  - [LINUX-3.1: Archiving Files on the Command Line](#linux-31-archiving-files-on-the-command-line)
+    - [Files, Directories](#files-directories)
+  - [LINUX-5: The Linux Operating System](#linux-5-the-linux-operating-system)
+  - [LINUX-5.3: Where Data is Stored](#linux-53-where-data-is-stored)
+    - [LINUX-5.3.1: Kernel](#linux-531-kernel)
+    - [LINUX-5.3.2: Processes](#linux-532-processes)
+    - [LINUX-5.3.3: syslog, klog, dmesg](#linux-533-syslog-klog-dmesg)
+    - [LINUX-5.3.4: /lib, /usr/lib, /etc, /var/log](#linux-534-lib-usrlib-etc-varlog)
+    - [LINUX-5.4: Your Computer on the Network](#linux-54-your-computer-on-the-network)
+    - [LINUX-5.3.1: Internet, Network, Routers](#linux-531-internet-network-routers)
 
 ---
 
 ## LINUX-2: Finding Your Way on a Linux Systems
-
-<div id="newSection"></div>
 
 ## LINUX-2.1: Command Line Basics
 
@@ -171,11 +196,9 @@ The commands parameters can be roughly divided in parameters starting with a das
 
 ## LINUX-3: The Power of the Command Line
 
-<div id="3"></div>
-
 ## LINUX-3.1: Archiving Files on the Command Line
 
-### ++++ ---- Files, Directories
+### Files, Directories
 
 We can archive multiple files into a single file and then compress them.
 

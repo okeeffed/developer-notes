@@ -5,14 +5,40 @@ menu: R
 
 # Title
 
-<!-- TOC -->autoauto- [Title](#title)auto    - [Table of Contents](#table-of-contents)auto    - [Relational Operators](#relational-operators)auto        - [---- Greater than or less than](#-----greater-than-or-less-than)auto        - [---- Compare Vectors](#-----compare-vectors)auto        - [---- Compare Matrices](#-----compare-matrices)auto        - [---- Logical Operators](#-----logical-operators)auto        - [---- Conditional Statements](#-----conditional-statements)auto    - [Loops](#loops)auto        - [---- For Loop](#-----for-loop)auto        - [---- Looping Over a List](#-----looping-over-a-list)auto    - [Functions](#functions)auto        - [++++ ---- mean()](#------mean)auto        - [++++ ---- mean() continued, sd() and rm.na](#------mean-continued-sd-and-rmna)auto        - [---- Writing Functions](#-----writing-functions)auto        - [---- Packages](#-----packages)auto    - [The Apply Family](#the-apply-family)auto        - [---- Anonymous Functions](#-----anonymous-functions)auto        - [---- sapply](#-----sapply)auto        - [---- vapply()](#-----vapply)auto    - [Useful Functions](#useful-functions)auto        - [---- Data Utilities](#-----data-utilities)auto        - [---- Beat Gauss using R](#-----beat-gauss-using-r)auto        - [---- Regex](#-----regex)auto        - [---- sub & gsub](#-----sub--gsub)auto    - [Times & Dates](#times--dates)autoauto<!-- /TOC -->
+- [Title](#title)
+
+  - [Table of Contents](#table-of-contents)
+  - [Relational Operators](#relational-operators)
+    - [Greater than or less than](#greater-than-or-less-than)
+    - [Compare Vectors](#compare-vectors)
+    - [Compare Matrices](#compare-matrices)
+    - [Logical Operators](#logical-operators)
+    - [Conditional Statements](#conditional-statements)
+  - [Loops](#loops)
+    - [For Loop](#for-loop)
+    - [Looping Over a List](#looping-over-a-list)
+  - [Functions](#functions)
+    - [ mean()](#mean)
+    - [ mean() continued, sd() and rm.na](#mean-continued-sd-and-rmna)
+    - [Writing Functions](#writing-functions)
+    - [Packages](#packages)
+  - [The Apply Family](#the-apply-family)
+    - [Anonymous Functions](#anonymous-functions)
+    - [sapply](#sapply)
+    - [vapply()](#vapply)
+  - [Useful Functions](#useful-functions)
+    - [Data Utilities](#data-utilities)
+    - [Beat Gauss using R](#beat-gauss-using-r)
+    - [Regex](#regex)
+    - [sub &amp; gsub](#sub-amp-gsub)
+  - [Times &amp; Dates](#times-amp-dates)
 
 ## Table of Contents
 
 <a href="#section">title</a>
 ---- <a href="#subsection">title</a>
 
-<div id="reloperators"></div>
+
 
 ---
 
@@ -56,9 +82,9 @@ Alphabetical order with relate to alphabet and T/F will go 1/0
 [1] TRUE
 ```
 
-<div id="2"></div>
 
-## Greater than or less than
+
+### Greater than or less than
 
 ```
 # Comparison of numerics
@@ -74,9 +100,9 @@ Alphabetical order with relate to alphabet and T/F will go 1/0
 [1] TRUE
 ```
 
-<div id="3"></div>
 
-## Compare Vectors
+
+### Compare Vectors
 
 ```
 > linkedin <- c(16, 9, 13, 5, 2, 17, 14)
@@ -95,9 +121,9 @@ Alphabetical order with relate to alphabet and T/F will go 1/0
 [1] FALSE  TRUE  TRUE FALSE FALSE  TRUE FALSE
 ```
 
-<div id="4"></div>
 
-## Compare Matrices
+
+### Compare Matrices
 
 ```
 > linkedin <- c(16, 9, 13, 5, 2, 17, 14)
@@ -117,7 +143,7 @@ Alphabetical order with relate to alphabet and T/F will go 1/0
 [2,] FALSE TRUE TRUE FALSE TRUE  TRUE TRUE
 ```
 
-## Logical Operators
+### Logical Operators
 
 ```
 x <- 12
@@ -178,9 +204,9 @@ x > 5 & x < 15	# evaluates to TRUE
 [1] 16
 ```
 
-<div id="5"></div>
 
-## Conditional Statements
+
+### Conditional Statements
 
 ```
 if (condition) {
@@ -231,7 +257,7 @@ if (x < 0) {
 [1] 24
 ```
 
-<div id="loops"></div>
+
 
 ---
 
@@ -345,9 +371,9 @@ Make sure that the condition for a while loop because false at some stage.
 [1] 24
 ```
 
-<div id="loop2"></div>
 
-## For Loop
+
+### For Loop
 
 ```
 # The linkedin vector has already been defined for you
@@ -379,9 +405,9 @@ Make sure that the condition for a while loop because false at some stage.
 [1] 14
 ```
 
-<div id="loops3"></div>
 
-## Looping Over a List
+
+### Looping Over a List
 
 ```
 primes_list <- list(2, 3, 5, 7, 11, 13)
@@ -545,7 +571,7 @@ The `strsplit()` function splits the chars into a vector with individual letters
 [1] 5
 ```
 
-<div id="functions"></div>
+
 
 ---
 
@@ -574,9 +600,9 @@ args()
 [1] 11.42857
 ```
 
-<div id="mean"></div>
 
-### ++++ ---- mean()
+
+### mean()
 
 ```
 # The linkedin and facebook vectors have already been created for you
@@ -596,9 +622,9 @@ args()
 [1] 22.6
 ```
 
-<div id="sd"></div>
 
-### ++++ ---- mean() continued, sd() and rm.na
+
+### mean() continued, sd() and rm.na
 
 ```
 # The linkedin and facebook vectors have already been created for you
@@ -626,9 +652,9 @@ Note that you can use function calls within functions calls.
 [1] 4.8
 ```
 
-<div id="writingfunctions"></div>
 
-## Writing Functions
+
+### Writing Functions
 
 ```
 # Create a function pow_two()
@@ -754,9 +780,9 @@ Note that you can use function calls within functions calls.
 [1] 33
 ```
 
-<div id="packages"></div>
 
-## Packages
+
+### Packages
 
 To install... `install.packages(<install package>)`
 
@@ -787,7 +813,7 @@ Error: could not find function "qplot"
 [10] "package:methods"     "Autoloads"           "package:base"
 ```
 
-<div id="apply"></div>
+
 
 ---
 
@@ -846,9 +872,9 @@ How about using `lapply` with your own functions?
 > years <- lapply(split_low, select_second)
 ```
 
-<div id="anon"></div>
 
-## Anonymous Functions
+
+### Anonymous Functions
 
 ```
 > pioneers <- c("GAUSS:1777", "BAYES:1702", "PASCAL:1623", "PEARSON:1857")
@@ -882,11 +908,11 @@ How about using `lapply` with your own functions?
 > years <- lapply(split_low, select_el, index=2)
 ```
 
-<div id="sapply"></div>
+
 
 ---
 
-## sapply
+### sapply
 
 Whereas lapply() returns a list, sapply() - instead of unlist() function on that returned list, we can used sapply() for "simplified apply" and it will result in a named vector. We can also have matrices retured too!
 
@@ -1102,11 +1128,11 @@ The average temperature is 4.6
 [1] TRUE
 ```
 
-<div id="vapply"></div>
+
 
 ---
 
-## vapply()
+### vapply()
 
 ```
 lapply() : apply function over list or vector
@@ -1143,7 +1169,7 @@ max   9.0   13  8.0  7.0  9.0  9.0  9.0
 [1] FALSE  TRUE FALSE FALSE  TRUE FALSE FALSE
 ```
 
-<div id="usefulfunc"></div>
+
 
 ---
 
@@ -1188,7 +1214,7 @@ rev()
 [1] 4.48
 ```
 
-## Data Utilities
+### Data Utilities
 
 R features a bunch of functions to juggle around with data structures::
 
@@ -1228,9 +1254,9 @@ Remember the social media profile view data? Your LinkedIn and Facebook view cou
  [1] 1 3 5 7 1 3 5 7 1 3 5 7 1 3 5 7 1 3 5 7 1 3 5 7 1 3 5 7
 ```
 
-<div id="gauss"></div>
 
-## Beat Gauss using R
+
+### Beat Gauss using R
 
 There is a popular story about young Gauss. As a pupil, he had a lazy teacher who wanted to keep the classroom busy by having them add up the numbers 1 to 100. Gauss came up with an answer almost instantaneously, 5050. On the spot, he had developed a formula for calculating the sum of an arithmetic series. There are more general formulas for calculating the sum of an arithmetic series with different starting values and increments. Instead of deriving such a formula, why not use R to calculate the sum of a sequence?
 
@@ -1246,9 +1272,9 @@ There is a popular story about young Gauss. As a pupil, he had a lazy teacher wh
 [1] 87029
 ```
 
-<div id="regex"></div>
 
-## Regex
+
+### Regex
 
 ```
 grepl(patter = <regex>, x = <string>)
@@ -1292,9 +1318,9 @@ sub(pattern = <regex>, replacement = <str>, x = <str>)
 >
 ```
 
-<div id="sub"></div>
 
-## sub & gsub
+
+### sub & gsub
 
 While grep() and grepl() were used to simply check whether a regular expression could be matched with a character vector, sub() and gsub() take it one step further: you can specify a replacement argument. If inside the character vector x, the regular expression pattern is found, the matching element(s) will be replaced with replacement.sub() only replaces the first match, whereas gsub() replaces all matches.
 
@@ -1310,7 +1336,7 @@ While grep() and grepl() were used to simply check whether a regular expression 
 [5] "quant@datacamp.edu"       "cookie.monster@sesame.tv"
 ```
 
-<div id="timesanddates"></div>
+
 
 ---
 

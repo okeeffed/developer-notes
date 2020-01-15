@@ -9,7 +9,7 @@ menu: Java Script
 <a href="#section">title</a>
 ---- <a href="#subsection">title</a>
 
-<div id="section"></div>
+
 
 ***
 
@@ -23,7 +23,7 @@ After install the dev dependency of mocha and chai, you can write a test.js file
 
 To start making these tests, we __NEED__ to make a `test` file in the same directory as `package.json`
 
-<div id="testSuite"></div>
+
 
 ## Building a test suite
 

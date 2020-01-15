@@ -33,7 +33,7 @@ menu: Python
 <a href="#intro">title</a>
 ---- <a href="#subsection">title</a>
 
-<div id="intro"></div>
+
 
 ---
 
@@ -59,7 +59,7 @@ our_list = list(range(10))
 
 For splitting strings themselves we can use `str.split(str="", num=string.count(str))`
 
-<div id="collections"></div>
+
 
 ## Extending Collections
 
@@ -87,7 +87,7 @@ How do add new items inside the list?
 ['a', 'b', 'c', 'd', 'e', 'f']
 ```
 
-<div id="shoppinglist"></div>
+
 
 ## Shopping List
 
@@ -120,7 +120,7 @@ while True:
 		...
 ```
 
-<div id="3"></div>
+
 
 ## Removing Items from a List
 
@@ -142,7 +142,7 @@ my_list
 # [2,3,1]
 ```
 
-<div id="4"></div>
+
 
 ## Removing vowels from a list of words and capitalising them
 
@@ -165,7 +165,7 @@ for name in names:
 print(output)
 ```
 
-<div id="5"></div>
+
 
 ## Pop an item from the list
 
@@ -188,7 +188,7 @@ the_list = ["a", 2, 3, 1, False, [1, 2, 3]]
 the_list.insert(0, the_list.pop(3))
 ```
 
-<div id="slices"></div>
+
 
 ---
 
@@ -214,7 +214,7 @@ my_new_list.sort()
 my_new_list
 ```
 
-<div id="6"></div>
+
 
 ## Slicing with a Step
 
@@ -241,7 +241,7 @@ def first_4(iter):
     return iter[:4]
 ```
 
-<div id="7"></div>
+
 
 ## Deleting or Replacing Slices
 
@@ -261,7 +261,7 @@ def sillycase(c):
     return c[:round(len(c) / 2)].lower() + c[round(len(c) / 2):].upper()
 ```
 
-<div id="dict1"></div>
+
 
 ---
 
@@ -298,7 +298,7 @@ def members(dict, keys):
     return counter
 ```
 
-<div id="dict2"></div>
+
 
 ## Managing Keys
 
@@ -336,7 +336,7 @@ def word_count(sentence):
     return new_dict
 ```
 
-<div id="dict3"></div>
+
 
 ## Unpacking Dictionaries
 
@@ -385,7 +385,7 @@ def string_factory(list_of_dict, str):
     return new_list
 ```
 
-<div id="dict4"></div>
+
 
 ## Dictionary Iteration
 
@@ -455,7 +455,7 @@ def courses(teachers):
     return single_courses
 ```
 
-<div id="tuples"></div>
+
 
 ---
 
@@ -479,7 +479,7 @@ Tuples do not support item assignment.
 ['__add__', '__class__', '__contains__', '__delattr__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__getitem__', '__getnewargs__', '__getslice__', '__gt__', '__hash__', '__init__', '__iter__', '__le__', '__len__', '__lt__', '__mul__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__rmul__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', 'count', 'index']
 ```
 
-<div id="tuples2"></div>
+
 
 ## Tuple Packing and Unpacking
 
@@ -544,7 +544,7 @@ def stringcases(str):
     return uppercased, lowercased, titlecased, reverse
 ```
 
-<div id="tuples3"></div>
+
 
 ## Tuples with functions
 

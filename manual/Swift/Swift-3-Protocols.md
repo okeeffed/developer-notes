@@ -48,7 +48,7 @@ var ncc1701 = Starship(name: "Enterprise", prefix: "USS")
 // ncc1701.fullName is "USS Enterprise"
 ```
 
-<div id="functions"></div>
+
 
 ## Protocol functions
 
@@ -77,7 +77,7 @@ lightSwitch.toggle()
 // lightSwitch is now equal to .on
 ```
 
-<div id="init"></div>
+
 
 ## Initialiser Requirements
 
@@ -114,7 +114,7 @@ class SomeSubClass: SomeSuperClass, SomeProtocol {
 }
 ```
 
-<div id="delegates"></div>
+
 
 ## Protocol Delegation
 
@@ -192,7 +192,7 @@ game.play()
 // The game lasted for 4 turns
 ```
 
-<div id="conforming"></div>
+
 
 ## Protocol Conformance
 
@@ -242,7 +242,7 @@ for thing in things {
 // A hamster named Simon
 ```
 
-<div id="inheritance"></div>
+
 
 ## Protocol Inheritance
 
@@ -258,7 +258,7 @@ protocol PrettyTextRepresentable: TextRepresentable {
 }
 ```
 
-<div id="composition"></div>
+
 
 ## Protocol Composition
 
@@ -281,7 +281,7 @@ wishHappyBirthday(to: birthdayPerson)
 // Prints "Happy birthday, Malcolm, you're 21!"
 ```
 
-<div id="conformance"></div>
+
 
 ## Protocol Conformance
 

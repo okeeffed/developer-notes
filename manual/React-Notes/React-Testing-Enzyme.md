@@ -9,12 +9,12 @@ menu: React Notes
 <a href="#section">title</a>
 ---- <a href="#subsection">title</a>
 
-<div id="section"></div>
+
 
 ***
 
 ## newSection
 
-<div id="subsection"></div>
+
 
 ## newSubSection

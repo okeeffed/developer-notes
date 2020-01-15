@@ -5,8 +5,6 @@ menu: AWS
 
 # AWS Guide
 
-<!-- TOC -->
-
 - [AWS Guide](#aws-guide)
   - [AWS-1: Connecting to your instance](#aws-1-connecting-to-your-instance)
   - [AWS-2: Transferring Files to Linux Instances from Linux Using SCP](#aws-2-transferring-files-to-linux-instances-from-linux-using-scp)
@@ -15,8 +13,6 @@ menu: AWS
   - [AWS-5: To change the system hostname without a public DNS name](#aws-5-to-change-the-system-hostname-without-a-public-dns-name)
   - [AWS-6: Changing the Shell Prompt without affecting the Hostname](#aws-6-changing-the-shell-prompt-without-affecting-the-hostname)
   - [AWS-7: How do I assign a static hostname to a private Amazon EC2 instance running Ubuntu Linux?](#aws-7-how-do-i-assign-a-static-hostname-to-a-private-amazon-ec2-instance-running-ubuntu-linux)
-
-<!-- /TOC -->
 
 **Sources**
 
@@ -64,7 +60,6 @@ Refer to SSH-Intro.md SSH-7 in order to understand how to copy your computer's a
 
 ---
 
-<div id="AWS-2"></div>
 ## AWS-2: Transferring Files to Linux Instances from Linux Using SCP
 
 In order to use a GUI, I recommend using a SFTP Client like FileZilla or Cyberduck. I'll add links these guides another time... Just Google it!
@@ -89,7 +84,6 @@ scp -i /path/my-key-pair.pem /path/SampleFile.txt ec2-user@ec2-198-51-100-1.comp
 
 ---
 
-<div id="AWS-3"></div>
 ## AWS-3: Changing the Hostname of Your Linux System
 
 When you launch an instance, it is assigned a hostname that is a form of the private, internal IP address.
@@ -107,7 +101,6 @@ If you have a public DNS name registered for the IP address of your instance (su
 
 ---
 
-<div id="AWS-4"></div>
 ## AWS-4: To change the system hostname to a public DNS name
 
 Follow this procedure if you already have a public DNS name registered.
@@ -133,7 +126,6 @@ webserver.mydomain.com
 
 ---
 
-<div id="AWS-5"></div>
 ## AWS-5: To change the system hostname without a public DNS name
 
 1.  Open the /etc/sysconfig/network configuration file in your favorite text editor and change the HOSTNAME entry to reflect the desired system hostname (such as webserver).

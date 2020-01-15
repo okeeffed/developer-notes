@@ -42,7 +42,7 @@ menu: R
 
 <a href="#1">How it Works</a>
 
-<div id="1"></div>
+
 
 ---
 
@@ -54,7 +54,7 @@ R makes use of the # sign to add comments, so that you and others can understand
 
 You can also execute R commands straight in the console. This is a good way to experiment with R code, as your submission is not checked for correctness.
 
-<div id="2"></div>
+
 
 ## Arithmetic with R
 
@@ -69,7 +69,7 @@ Modulo: %%
 
 The last two might need some explaining: - The ^ operator raises the number to its left to the power of the number to its right: for example 3^2 is 9. - The modulo returns the remainder of the division of the number to the left by the number on its right, for example 5 modulo 3 or 5 %% 3 is 2.
 
-<div id="3"></div>
+
 
 ## Variable Assignment
 
@@ -99,7 +99,7 @@ my_apples + my_oranges
 my_fruit <- my_apples + my_oranges
 ```
 
-<div id="4"></div>
+
 
 ## Basic data types in R
 
@@ -138,7 +138,7 @@ class(my_character)
 class(my_logical)
 ```
 
-<div id="vectors"></div>
+
 
 ---
 
@@ -158,7 +158,7 @@ character_vector <- c("a", "b", "c")
 boolean_vector <- c(TRUE, FALSE, TRUE)
 ```
 
-<div id="vectors2"></div>
+
 
 ## Naming a Vector
 
@@ -313,7 +313,7 @@ poker_vector[c("Monday","Tuesday")]
 [1] 36.66667
 ```
 
-<div id="vectors3"></div>
+
 
 ## Selection by Comparison
 
@@ -378,7 +378,7 @@ R knows what to do when you pass a logical vector in square brackets: it will on
       140        20       240
 ```
 
-<div id="matrix"></div>
+
 
 ---
 
@@ -435,7 +435,7 @@ function (data = NA, nrow = 1, ncol = 1, byrow = FALSE, dimnames = NULL)
 [3,] 309.306 165.8
 ```
 
-<div id="matrix2"></div>
+
 
 ## Naming a matrix
 
@@ -505,7 +505,7 @@ big_matrix <- cbind(matrix1, matrix2, vector1 ...)
 > all_wars_matrix <- cbind(star_wars_matrix, worldwide_vector)
 ```
 
-<div id="addrow"></div>
+
 
 ## Adding a Row
 
@@ -536,7 +536,7 @@ Attack of the Clones    310.7  338.7
 Revenge of the Sith     380.3  468.5
 ```
 
-<div id="newSection"></div>
+
 
 ## All functions for combining
 
@@ -566,7 +566,7 @@ Revenge of the Sith     380.3  468.5
 2226.3 2087.8
 ```
 
-<div id="matrixElements"></div>
+
 
 ## Selection of Matrix Elements
 
@@ -604,7 +604,7 @@ Revenge of the Sith     380.3  468.5
 [1] 281.15
 ```
 
-<div id="matrixArithmetic"></div>
+
 
 ## Matrix Arithmetic
 
@@ -671,7 +671,7 @@ Those who are familiar with matrices should note that this is not the standard m
 [1,] 11372.72
 ```
 
-<div id="factors"></div>
+
 
 ---
 
@@ -751,7 +751,7 @@ Watch out: the order with which you assign the levels is important. R would assi
 Levels: Female Male
 ```
 
-<div id="factorSummary"></div>
+
 
 ## Summarizing a factor
 
@@ -796,7 +796,7 @@ Warning message: '>' not meaningful for factors
 [1] NA
 ```
 
-<div id="orderedFactors"></div>
+
 
 ## Ordered Factors
 
@@ -840,7 +840,7 @@ Then as an example of comparing Ordered Factors
 [1] FALSE
 ```
 
-<div id="dataFrames"></div>
+
 
 ---
 
@@ -909,7 +909,7 @@ Applying the str() function will often be the first thing that you do when recei
  $ rings   : logi  FALSE FALSE FALSE FALSE TRUE TRUE ...
 ```
 
-<div id="selectionFrameElements"></div>
+
 
 ## Selection of data frame elements
 
@@ -960,7 +960,7 @@ Sometimes you want to select all elements of a row or column. For example, my_df
 8 Neptune Gas giant    3.883     0.67  TRUE
 ```
 
-<div id="subsets"></div>
+
 
 ## Subsets
 
@@ -989,7 +989,7 @@ subset(planets_df, subset = rings)
 8 Neptune Gas giant    3.883     0.67  TRUE
 ```
 
-<div id="sorting"></div>
+
 
 ## Sorting
 
@@ -1063,7 +1063,7 @@ This means we can use the output of order(a) to reshuffle a:
 8 Neptune          Gas giant    3.883     0.67  TRUE
 ```
 
-<div id="lists"></div>
+
 
 ---
 
@@ -1190,7 +1190,7 @@ $reviews
 3    5.0   IMDb3                 A masterpiece of psychological horror
 ```
 
-<div id="listelements"></div>
+
 
 ## Selecting Elements from a List
 
@@ -1222,7 +1222,7 @@ Besides selecting components, you often need to select specific elements out of 
 [1] "Shelley Duvall"
 ```
 
-<div id="addingelems"></div>
+
 
 ## Adding more components to a list
 

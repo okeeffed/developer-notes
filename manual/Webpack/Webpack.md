@@ -16,7 +16,7 @@ Because the way Webpack current stands and how it is designed, think of using it
 <a href="#web1">WEB-1</a>
 <a href="#web2">title</a>
 
-<div id="web1"></div>
+
 
 ---
 
@@ -36,7 +36,7 @@ Combining several files into one for loading performance. Minimal HTTP reqs.
 
 Compressing/extraction unnecessary lines and characters.
 
-<div id="web2"></div>
+
 
 ## WEB-2: Webpack Config
 
@@ -82,7 +82,7 @@ var webpackConfig = {
 
 `module` many properties that are used to config webpack. Loaders will be used for using installed loaders.
 
-<div id="web3"></div>
+
 
 ---
 
@@ -103,7 +103,7 @@ We're going to define a npm script for webpack.
 ...
 ```
 
-<div id="web4"></div>
+
 
 ---
 
@@ -111,7 +111,7 @@ We're going to define a npm script for webpack.
 
 `webpack-dev-server` is an npm file you can use for serving, however you can just flag `webpack --watch` and run from MAMP if you want.
 
-<div id="web5"></div>
+
 
 ---
 
@@ -119,7 +119,7 @@ We're going to define a npm script for webpack.
 
 Loaders are extensions that enable more webpack config options.
 
-<div id="web6"></div>
+
 
 ---
 

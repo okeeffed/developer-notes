@@ -10,7 +10,7 @@ menu: CSS
 <a href="#structure">Structure</a>
 
 
-<div id="ordering"></div>
+
 
 ***
 
@@ -49,13 +49,13 @@ menu: CSS
 }
 ```
 
-<div id="structure"></div>
+
 
 ***
 
 ## CSS Structure 
 
-<div id="newSection"></div>
+
 
 ## One Component per file
 
@@ -74,7 +74,7 @@ For each component, place them in their own file.
 }
 ```
 
-<div id="newSection"></div>
+
 
 ## Nesting
 

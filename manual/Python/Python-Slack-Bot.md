@@ -11,7 +11,7 @@ menu: Python
 <a href="#section">title</a>
 ---- <a href="#subsection">title</a>
 
-<div id="section"></div>
+
 
 ***
 
@@ -23,7 +23,7 @@ Then, head to slack.com for your personal account, click `build` from the apps p
 
 Grab the API token and copy it into a `rtmbot.conf` file at the root of your directory.
 
-<div id="subsection"></div>
+
 
 ## Creating plugins
 
@@ -33,7 +33,7 @@ From here, you can define processes as so: `def process_namehere(data):`.
 
 The data argument is the data recieved by the bot.
 
-<div id="banana"></div>
+
 
 ## Banana Plugin
 

@@ -47,7 +47,7 @@ Login.username
 Login.password
 ```
 
-<div id="newSection"></div>
+
 
 ---
 
@@ -146,7 +146,7 @@ let test = RGBColor(red: 16.0, green: 5.0, blue: 4.3, alpha: 3.0)
 test.description
 ```
 
-<div id="classes"></div>
+
 
 ---
 
@@ -185,7 +185,7 @@ class Business {
 let someBusiness = Business(name: "Quiry", location: Location(latitude: 341, longitude: 82))
 ```
 
-<div id="inheritance"></div>
+
 
 ---
 
@@ -255,7 +255,7 @@ class Doctor: Person {
 let someDoctor = Doctor(firstName: "Sam", lastName: "Smith")
 ```
 
-<div id="final"></div>
+
 
 ---
 
@@ -276,7 +276,6 @@ struct User {
 }
 
 var someUser = User(fullName: "Denis O'Keeffe", email: "test@test", age: 24)
-
 var anotherUser = someUser
 
 someUser.email = "newemail@email"
@@ -306,7 +305,7 @@ somePerson.email = "newemail@email"
 anotherPerson.email
 ```
 
-<div id="valuevsref"></div>
+
 
 ## Value type vs Reference type
 

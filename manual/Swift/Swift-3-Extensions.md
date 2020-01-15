@@ -38,7 +38,7 @@ extension SomeType: SomeProtocol, AnotherProtocol {
 }
 ```
 
-<div id="computed"></div>
+
 
 ## Computed Properties
 
@@ -89,7 +89,7 @@ extension Int {
 // Hello!
 ```
 
-<div id="mutating"></div>
+
 
 ## Mutating Instance Methods
 

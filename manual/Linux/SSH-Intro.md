@@ -1,38 +1,39 @@
 ---
 name: SSH Intro
-menu: Linux 
+menu: Linux
 ---
+
 # SSH Overview
 
 <!-- TOC -->
 
-*   [SSH Overview](#ssh-overview)
-    *   [SSH-1: How SSH Works](#ssh-1-how-ssh-works)
-    *   [SSH-2: How SSH Authenticates Users](#ssh-2-how-ssh-authenticates-users)
-    *   [SSH-3: Generating and Working with SSH Keys](#ssh-3-generating-and-working-with-ssh-keys)
-        *   [SSH-4: Generate an SSH Key Pair with a Larger Number of Bits](#ssh-4-generate-an-ssh-key-pair-with-a-larger-number-of-bits)
-        *   [SSH-5: Displaying the SSH Key Fingerprint](#ssh-5-displaying-the-ssh-key-fingerprint)
-        *   [SSH-6: Copying your Public SSH Key to a Server with SSH-Copy-ID](#ssh-6-copying-your-public-ssh-key-to-a-server-with-ssh-copy-id)
-        *   [SSH-7: Copying your Public SSH Key to a Server Without SSH-Copy-ID](#ssh-7-copying-your-public-ssh-key-to-a-server-without-ssh-copy-id)
-        *   [SSH-8: Manually copy your Public SSH Key to a Server](#ssh-8-manually-copy-your-public-ssh-key-to-a-server)
-    *   [SSH-9: Basic Connection Instructions](#ssh-9-basic-connection-instructions)
-        *   [SSH-10: Running a Single Command on a Remote Server](#ssh-10-running-a-single-command-on-a-remote-server)
-        *   [SSH-11: Logging into a Server with a Different Port](#ssh-11-logging-into-a-server-with-a-different-port)
-        *   [SSH-12: Adding your SSH Keys to an SSH Agent to Avoid Typing the Passphrase](#ssh-12-adding-your-ssh-keys-to-an-ssh-agent-to-avoid-typing-the-passphrase)
-    *   [SSH-13: Forwarding your SSH Credentials to Use on a Server](#ssh-13-forwarding-your-ssh-credentials-to-use-on-a-server)
-    *   [SSH-14: Server-Side Configuration Options](#ssh-14-server-side-configuration-options)
-        *   [SSH-15: Disabling Password Authentication](#ssh-15-disabling-password-authentication)
-        *   [SSH-16: Changing the Port that the SSH Daemon Runs On](#ssh-16-changing-the-port-that-the-ssh-daemon-runs-on)
-    *   [SSH-17: Limiting the Users who can connect through SSH](#ssh-17-limiting-the-users-who-can-connect-through-ssh)
-    *   [SSH-18: Disabling Root Login](#ssh-18-disabling-root-login)
-    *   [SSH-19: Allowing Root Access for Specific Commands](#ssh-19-allowing-root-access-for-specific-commands)
-    *   [SSH-20: Forwarding X Application Displays to the Client](#ssh-20-forwarding-x-application-displays-to-the-client)
-    *   [SSH-21: Client Side Configuration Options](#ssh-21-client-side-configuration-options)
-        *   [SSH-22: Keep Connections Alive to Avoid Timeout](#ssh-22-keep-connections-alive-to-avoid-timeout)
-    *   [SSH-23: Disabling Host Checking](#ssh-23-disabling-host-checking)
-        *   [SSH-24: Multiplexing SSH Over a Single TCP Connection](#ssh-24-multiplexing-ssh-over-a-single-tcp-connection)
-    *   [SSH-25: Setting Up SSH Tunnels](#ssh-25-setting-up-ssh-tunnels)
-    *   [UBU-1: Installing Ubuntu onto VirtualBox](#ubu-1-installing-ubuntu-onto-virtualbox)
+- [SSH Overview](#ssh-overview)
+  - [SSH-1: How SSH Works](#ssh-1-how-ssh-works)
+  - [SSH-2: How SSH Authenticates Users](#ssh-2-how-ssh-authenticates-users)
+  - [SSH-3: Generating and Working with SSH Keys](#ssh-3-generating-and-working-with-ssh-keys)
+    - [SSH-4: Generate an SSH Key Pair with a Larger Number of Bits](#ssh-4-generate-an-ssh-key-pair-with-a-larger-number-of-bits)
+    - [SSH-5: Displaying the SSH Key Fingerprint](#ssh-5-displaying-the-ssh-key-fingerprint)
+    - [SSH-6: Copying your Public SSH Key to a Server with SSH-Copy-ID](#ssh-6-copying-your-public-ssh-key-to-a-server-with-ssh-copy-id)
+    - [SSH-7: Copying your Public SSH Key to a Server Without SSH-Copy-ID](#ssh-7-copying-your-public-ssh-key-to-a-server-without-ssh-copy-id)
+    - [SSH-8: Manually copy your Public SSH Key to a Server](#ssh-8-manually-copy-your-public-ssh-key-to-a-server)
+  - [SSH-9: Basic Connection Instructions](#ssh-9-basic-connection-instructions)
+    - [SSH-10: Running a Single Command on a Remote Server](#ssh-10-running-a-single-command-on-a-remote-server)
+    - [SSH-11: Logging into a Server with a Different Port](#ssh-11-logging-into-a-server-with-a-different-port)
+    - [SSH-12: Adding your SSH Keys to an SSH Agent to Avoid Typing the Passphrase](#ssh-12-adding-your-ssh-keys-to-an-ssh-agent-to-avoid-typing-the-passphrase)
+  - [SSH-13: Forwarding your SSH Credentials to Use on a Server](#ssh-13-forwarding-your-ssh-credentials-to-use-on-a-server)
+  - [SSH-14: Server-Side Configuration Options](#ssh-14-server-side-configuration-options)
+    - [SSH-15: Disabling Password Authentication](#ssh-15-disabling-password-authentication)
+    - [SSH-16: Changing the Port that the SSH Daemon Runs On](#ssh-16-changing-the-port-that-the-ssh-daemon-runs-on)
+  - [SSH-17: Limiting the Users who can connect through SSH](#ssh-17-limiting-the-users-who-can-connect-through-ssh)
+  - [SSH-18: Disabling Root Login](#ssh-18-disabling-root-login)
+  - [SSH-19: Allowing Root Access for Specific Commands](#ssh-19-allowing-root-access-for-specific-commands)
+  - [SSH-20: Forwarding X Application Displays to the Client](#ssh-20-forwarding-x-application-displays-to-the-client)
+  - [SSH-21: Client Side Configuration Options](#ssh-21-client-side-configuration-options)
+    - [SSH-22: Keep Connections Alive to Avoid Timeout](#ssh-22-keep-connections-alive-to-avoid-timeout)
+  - [SSH-23: Disabling Host Checking](#ssh-23-disabling-host-checking)
+    - [SSH-24: Multiplexing SSH Over a Single TCP Connection](#ssh-24-multiplexing-ssh-over-a-single-tcp-connection)
+  - [SSH-25: Setting Up SSH Tunnels](#ssh-25-setting-up-ssh-tunnels)
+  - [UBU-1: Installing Ubuntu onto VirtualBox](#ubu-1-installing-ubuntu-onto-virtualbox)
 
 <!-- /TOC -->
 
@@ -50,11 +51,11 @@ Setting up [Ubuntu on Virtual Box](http://www.simplehelp.net/2015/06/09/how-to-i
 
 **Major Section Index**
 
-*   <a href="#SSH-1"><p>SSH-1: How SSH Works</p></a>
+- <a href="#SSH-1"><p>SSH-1: How SSH Works</p></a>
 
 **Pre-requisites**
 
-*   <a href="#UBU-1"><p>UBU-1: Installing Ubuntu Onto Virtual Box</p></a>
+- <a href="#UBU-1"><p>UBU-1: Installing Ubuntu Onto Virtual Box</p></a>
 
 ---
 
@@ -66,7 +67,7 @@ The most common way of connecting to a remote Linux server is through SSH. SSH s
 
 ---
 
-<div id="SSH-1"></div>
+
 ## SSH-1: How SSH Works
 
 When you connect through SSH, you will be dropped into a shell session, which is a text-based interface where you can interact with your server. For the duration of your SSH session, any commands that you type into your local terminal are sent through an encrypted SSH tunnel and executed on your server.
@@ -152,8 +153,8 @@ The key's randomart image is:
 
 This procedure has generated an RSA SSH key pair, located in the .ssh hidden directory within your user's home directory. These files are:
 
-*   ~/.ssh/id_rsa: The private key. **DO NOT SHARE THIS FILE!**
-*   ~/.ssh/id_rsa.pub: The associated public key. This can be shared freely without consequence.
+- ~/.ssh/id_rsa: The private key. **DO NOT SHARE THIS FILE!**
+- ~/.ssh/id_rsa.pub: The associated public key. This can be shared freely without consequence.
 
 ---
 
@@ -538,7 +539,7 @@ Save and close the file. Restart the SSH daemon to implement your changes. `sudo
 
 ---
 
-<div id="SSH-20"></div>
+
 ## SSH-20: Forwarding X Application Displays to the Client
 
 The SSH daemon can be configured to automatically forward the display of X applications on the server to the client machine. For this to function correctly, the client must have an X windows system configured and enabled.
@@ -565,7 +566,7 @@ Graphical applications started on the server through this session should be disp
 
 ---
 
-<div id="SSH-21"></div>
+
 ## SSH-21: Client Side Configuration Options
 
 **Defining Server-Specific Connection Info**
@@ -616,7 +617,7 @@ Save and close the file when you are done.
 
 ---
 
-<div id="SSH-22"></div>
+
 ### SSH-22: Keep Connections Alive to Avoid Timeout
 
 If you find yourself being disconnected from SSH sessions before you are ready, it is possible that your connection is timing out.
@@ -636,7 +637,7 @@ Save and close.
 
 ---
 
-<div id="SSH-23"></div>
+
 ## SSH-23: Disabling Host Checking
 
 By default, whenever you connect to a new server, you will be shown the remote SSH daemon's host key fingerprint.
@@ -678,7 +679,7 @@ Host testhost
 
 ---
 
-<div id="SSH-24"></div>
+
 ### SSH-24: Multiplexing SSH Over a Single TCP Connection
 
 ---
@@ -730,14 +731,14 @@ ssh -S none username@remote_host
 
 ---
 
-<div id="SSH-25"></div>
+
 ## SSH-25: Setting Up SSH Tunnels
 
 // todo
 
 ---
 
-<div id="UBU-1"></div>
+
 ## UBU-1: Installing Ubuntu onto VirtualBox
 
 // todo

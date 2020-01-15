@@ -12777,52 +12777,52 @@
           {
             "slug": "------uname",
             "depth": 4,
-            "value": "++++ ---- uname"
+            "value": " uname"
           },
           {
             "slug": "------history-and-completion",
             "depth": 4,
-            "value": "++++ ---- History and completion"
+            "value": " History and completion"
           },
           {
             "slug": "------cd-and-pwd",
             "depth": 4,
-            "value": "++++ ---- cd and pwd"
+            "value": " cd and pwd"
           },
           {
             "slug": "------shell-config-files",
             "depth": 4,
-            "value": "++++ ---- Shell config files"
+            "value": " Shell config files"
           },
           {
             "slug": "------variables-envsys-variables",
             "depth": 4,
-            "value": "++++ ---- Variables: Env/Sys Variables"
+            "value": " Variables: Env/Sys Variables"
           },
           {
             "slug": "------variables-user-defined-vars",
             "depth": 4,
-            "value": "++++ ---- Variables: User Defined vars"
+            "value": " Variables: User Defined vars"
           },
           {
             "slug": "------globbing",
             "depth": 4,
-            "value": "++++ ---- Globbing"
+            "value": " Globbing"
           },
           {
             "slug": "------quoting",
             "depth": 4,
-            "value": "++++ ---- Quoting"
+            "value": " Quoting"
           },
           {
             "slug": "------formatting-commands",
             "depth": 4,
-            "value": "++++ ---- Formatting Commands"
+            "value": " Formatting Commands"
           },
           {
             "slug": "------working-with-options",
             "depth": 4,
-            "value": "++++ ---- Working with Options"
+            "value": " Working with Options"
           },
           {
             "slug": "-----linux-22-using-the-command-line-to-get-help",
@@ -12832,7 +12832,7 @@
           {
             "slug": "------man",
             "depth": 4,
-            "value": "++++ ---- Man"
+            "value": " Man"
           },
           {
             "slug": "-----linux-23-using-directories-and-listing-files",
@@ -12842,7 +12842,7 @@
           {
             "slug": "------the-linux-file-system",
             "depth": 4,
-            "value": "++++ ---- The Linux File System"
+            "value": " The Linux File System"
           },
           {
             "slug": "-----linux-24-creating-moving-and-deleting-files",
@@ -12852,7 +12852,7 @@
           {
             "slug": "------files-and-directories",
             "depth": 4,
-            "value": "++++ ---- Files and Directories"
+            "value": " Files and Directories"
           },
           {
             "slug": "linux-3-the-power-of-the-command-line",
@@ -12867,7 +12867,7 @@
           {
             "slug": "------files-directories",
             "depth": 3,
-            "value": "++++ ---- Files, Directories"
+            "value": " Files, Directories"
           },
           {
             "slug": "linux-5-the-linux-operating-system",
@@ -12882,22 +12882,22 @@
           {
             "slug": "------linux-531-kernel",
             "depth": 4,
-            "value": "++++ ---- LINUX-5.3.1: Kernel"
+            "value": " LINUX-5.3.1: Kernel"
           },
           {
             "slug": "------linux-532-processes",
             "depth": 4,
-            "value": "++++ ---- LINUX-5.3.2: Processes"
+            "value": " LINUX-5.3.2: Processes"
           },
           {
             "slug": "------linux-533-syslog-klog-dmesg",
             "depth": 4,
-            "value": "++++ ---- LINUX-5.3.3: syslog, klog, dmesg"
+            "value": " LINUX-5.3.3: syslog, klog, dmesg"
           },
           {
             "slug": "------linux-534-lib-usrlib-etc-varlog",
             "depth": 4,
-            "value": "++++ ---- LINUX-5.3.4: /lib, /usr/lib, /etc, /var/log"
+            "value": " LINUX-5.3.4: /lib, /usr/lib, /etc, /var/log"
           },
           {
             "slug": "-----linux-54-your-computer-on-the-network",
@@ -12907,7 +12907,7 @@
           {
             "slug": "------linux-531-internet-network-routers",
             "depth": 4,
-            "value": "++++ ---- LINUX-5.3.1: Internet, Network, Routers"
+            "value": " LINUX-5.3.1: Internet, Network, Routers"
           }
         ]
       }
@@ -17452,12 +17452,12 @@
           {
             "slug": "------mean",
             "depth": 3,
-            "value": "++++ ---- mean()"
+            "value": " mean()"
           },
           {
             "slug": "------mean-continued-sd-and-rmna",
             "depth": 3,
-            "value": "++++ ---- mean() continued, sd() and rm.na"
+            "value": " mean() continued, sd() and rm.na"
           },
           {
             "slug": "-----writing-functions",

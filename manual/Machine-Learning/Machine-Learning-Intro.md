@@ -118,7 +118,7 @@ Input -> _Estimated Function_ -> Output
  virginica :50  
 ```
 
-<div id="subsection"></div>
+
 
 ## Basic Model Prediction
 
@@ -156,7 +156,7 @@ With this linear model lm_wage, which is built with data that contain informatio
 124.1413
 ```
 
-<div id="newSection"></div>
+
 
 ---
 
@@ -198,7 +198,7 @@ There `no labels, no right or wrong, and plenty of possible clusterings`
 
 Another example is k-Means can do things like cluster in similar groups.
 
-<div id="spam"></div>
+
 
 ## Classification Example: Filtering Spam
 
@@ -233,7 +233,7 @@ Your job is to inspect the emails dataset, apply spamClassifier to it, and compa
  [1] TRUE TRUE TRUE TRUE TRUE TRUE TRUE TRUE TRUE TRUE TRUE TRUE TRUE
 ```
 
-<div id="linkedinviews"></div>
+
 
 ## Regression Example: LinkedIn Views
 
@@ -259,7 +259,7 @@ The instructions will help you predict the number of profile views for the next 
 > points(22:24, linkedin_pred, col = "green")
 ```
 
-<div id="clusteriris"></div>
+
 
 ## Clustering Example: Separating the Iris Species
 
@@ -294,7 +294,7 @@ species       1  2  3
 > plot(Petal.Length ~ Petal.Width, data = my_iris, col = kmeans_iris$cluster)
 ```
 
-<div id="super"></div>
+
 
 ## Supervised vs. Unsupervised
 
@@ -310,7 +310,7 @@ If we can `find` function f which can be used to assign a class or value to unse
 *   Unsupervised Learning - No real labels to compare - Techniques will be explained later down the track - Things aren't always black and white
 *   Semi-Supervised Learning - Mixed of unlabeled and labeled observationed - Eg clustering information and classes of labeled observations to assign a class to unlabeled observations - More labeled observations for `supervised learning`
 
-<div id="superPrac"></div>
+
 
 ## Getting practical with supervised learning
 
@@ -366,7 +366,7 @@ Simply print out the result of this prediction step.
 Levels: setosa versicolor virginica
 ```
 
-<div id="unsuperPrac"></div>
+
 
 ## Getting practical with unsupervised learning
 
@@ -484,7 +484,7 @@ In this exercise you'll summarize your results in a comprehensive figure. The da
 > points(km_cars$centers, pch = 22, bg = c(1, 2), cex = 2)
 ```
 
-<div id="performance"></div>
+
 
 ---
 
@@ -549,7 +549,7 @@ Between clusters:
 
 A popular index for comparing is the Dunn's index: `minimal intercluster distance/maximal diameter`
 
-<div id="perf2"></div>
+
 
 ## Confusion Matrix
 
@@ -723,7 +723,7 @@ There are two initial steps you could take:
 
 The within sum of squares is far lower than the between sum of squares. Indicating the clusters are well seperated and overall compact. This is further strengthened by the plot you made, where the clusters you made were visually distinct for these two variables. It's likely that these three clusters represent the three seed types well, even if there's no way to truly verify this.
 
-<div id="sets"></div>
+
 
 ## Training Set and Test Set
 
@@ -759,7 +759,7 @@ _Effect of smapling_ - sampling can affect performance measures. Add `robustness
 
 _Cross-validation_ - Eg. 4-folds validation. This means the splitting the data set and doing this for 4-folds. - n-fold validation means doing this n times with each test set being 1/n large.
 
-<div id="split"></div>
+
 
 ## Split the Sets
 
@@ -842,7 +842,7 @@ On the right, the code that splits titanic up in train and test has already been
   0  23 102
 ```
 
-<div id="xvalid"></div>
+
 
 ## Using Cross Validation
 
@@ -889,7 +889,7 @@ Note: Other performance measures, such as recall or precision, could also be use
 
 This estimate will be a more robust measure of your accuracy. It will be less susceptible to the randomness of splitting the dataset.
 
-<div id="bias"></div>
+
 
 ## Bias and Variance
 
@@ -946,7 +946,7 @@ Our trust set has yes to both of the above data sets are spam and not if no.
 
 An `underfit` model may mark spam if more than 10 capital letters. This is `too general`.
 
-<div id="overfit"></div>
+
 
 ## Overfitting the Spam
 
@@ -1016,7 +1016,7 @@ Your job is to simplify the rules of spamClassifier and calculate the accuracy f
 
 The model no longer fits the small dataset perfectly but it fits the big dataset better. You increased the bias on the model and caused it to generalize better over the complete dataset. While the first classifier overfits the data, an accuracy of 73% is far from satisfying for a spam filter.
 
-<div id="classification"></div>
+
 
 ---
 
@@ -1092,7 +1092,7 @@ Choose the test with the best information gain.
 *   number of nodes influences the chance of overfit.
 *   restrict size - higher bias - decreases the chance of an overfit
 
-<div id="classification1"></div>
+
 
 ## Learn a Decision Tree
 
@@ -1123,7 +1123,7 @@ Finally, a fancy plot can help you interpret the tree. You will need the rattle,
 
 Remember how Vincent told you that a tree is learned by separating the training set step-by-step? In an ideal world, the separations lead to subsets that all have the same class. In reality, however, each division will contain both positive and negative training observations. In this node, 76% of the training instances are positive and 24% are negative. The majority class thus is positive, or 1, which is signaled by the number 1 on top. The 36% bit tells you which percentage of the entire training set passes through this particular node. On each tree level, these percentages thus sum up to 100%. Finally, the Pclass = 1,2 bit specifies the feature test on which this node will be separated next. If the test comes out positive, the left branch is taken; if it's negative, the right branch is taken.
 
-<div id="classification2"></div>
+
 
 ## Classify with the Decision Tree
 
@@ -1152,7 +1152,7 @@ Now you are going to classify the instances that are in the test set. As before,
 
 Looking good! What does the accuracy tell you? Around 80 percent of all test instances have been classified correctly. That's not bad!
 
-<div id="classification3"></div>
+
 
 ## Pruning the Tree
 

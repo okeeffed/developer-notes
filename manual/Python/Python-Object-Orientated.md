@@ -25,13 +25,13 @@ menu: Python
 <a href="#section">title</a>
 ---- <a href="#subsection">title</a>
 
-<div id="section"></div>
+
 
 ---
 
 ## Objects
 
-<div id="objects1"></div>
+
 
 ## Creating Instances
 
@@ -60,7 +60,7 @@ menu: Python
 5
 ```
 
-<div id="objects2"></div>
+
 
 ## Class Methods
 
@@ -87,7 +87,7 @@ class Store:
         return "We're open from {} to {}".format(self.open, self.close)
 ```
 
-<div id="objects3"></div>
+
 
 ## \_ _ init _ \_
 
@@ -104,7 +104,7 @@ class Monster:
 monster = Monster(hit_points=22, color="green")
 ```
 
-<div id="inheritance"></div>
+
 
 ---
 
@@ -145,7 +145,7 @@ fresh.adjective
 # manxsome
 ```
 
-<div id="inheritance2"></div>
+
 
 ## Python Subclassing
 
@@ -182,7 +182,7 @@ class Dragon(Monster):
     size = 12
 ```
 
-<div id="inheritance3"></div>
+
 
 ## \_ _ str _ \_
 
@@ -217,7 +217,7 @@ class GameScore(Game):
         return "Player 1: {}; Player 2: {}".format(*self.score)
 ```
 
-<div id="inheritance4"></div>
+
 
 ## Instance Methods
 
@@ -260,7 +260,7 @@ class Game:
         return
 ```
 
-<div id="inheritance5"></div>
+
 
 ## Overriding Inheritance
 

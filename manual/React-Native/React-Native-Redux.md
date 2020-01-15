@@ -906,7 +906,7 @@ const mapStateToProps = state => {
 export default connect(mapStateToProps)(LibraryList);
 ```
 
-<div id="thunk"></div>
+
 
 ---
 
@@ -965,7 +965,7 @@ export const selectAction = ({ email, password }) => {
 };
 ```
 
-<div id="nav"></div>
+
 
 ---
 
@@ -996,7 +996,7 @@ We essentially define a `Scene` for each distinct screens. For example.
 />
 ```
 
-<div id="nav2"></div>
+
 
 ## Navigation in the Router
 
@@ -1042,7 +1042,7 @@ export default App;
 
 So how do we move between these scenes?
 
-<div id="nav3"></div>
+
 
 ## Navigating between routes
 
@@ -1063,7 +1063,7 @@ export const loginUserSuccess = (dispatch, user) => {
 };
 ```
 
-<div id="nav4"></div>
+
 
 ## Grouping Scenes with 'Buckets'
 
@@ -1117,7 +1117,7 @@ const loginUserSuccess = (dispatch, user) => {
 }
 ```
 
-<div id="nav5"></div>
+
 
 ## Form updates at a reducer level / Dynamic Property updates
 
