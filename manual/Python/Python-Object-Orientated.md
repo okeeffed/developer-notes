@@ -33,7 +33,7 @@ menu: Python
 
 <div id="objects1"></div>
 
-### ---- Creating Instances
+## Creating Instances
 
 ```
 >>> class Monster:
@@ -62,7 +62,7 @@ menu: Python
 
 <div id="objects2"></div>
 
-### ---- Class Methods
+## Class Methods
 
 ```
 >>> class Methods:
@@ -89,7 +89,7 @@ class Store:
 
 <div id="objects3"></div>
 
-### ---- \_ _ init _ \_
+## \_ _ init _ \_
 
 Dealing with the dunder init!
 
@@ -147,7 +147,7 @@ fresh.adjective
 
 <div id="inheritance2"></div>
 
-### ---- Python Subclassing
+## Python Subclassing
 
 ```
 # building on from monster
@@ -184,7 +184,7 @@ class Dragon(Monster):
 
 <div id="inheritance3"></div>
 
-### ---- \_ _ str _ \_
+## \_ _ str _ \_
 
 This helps us when we print(object)
 
@@ -219,7 +219,7 @@ class GameScore(Game):
 
 <div id="inheritance4"></div>
 
-### ---- Instance Methods
+## Instance Methods
 
 ```
 class Character:
@@ -262,7 +262,7 @@ class Game:
 
 <div id="inheritance5"></div>
 
-### ---- Overriding Inheritance
+## Overriding Inheritance
 
 ```
 class Character(Combat):

@@ -7,7 +7,7 @@ menu: iOS
 
 ## IOSGAME-1: Ziggity Gag using SpriteKit
 
-### ---- IOSGAME-1.1: Creating the Scene
+## IOSGAME-1.1: Creating the Scene
 
 As a new Xcode Project, let's select Game, name, next and create!
 
@@ -88,7 +88,7 @@ From this, you can head to position after adding a camera and chang the `Positio
 
 After changing this, you can select `camera` from the bottom just to see how it looks.
 
-### ---- IOSGAME-1.2: Adding Colors and a Person
+## IOSGAME-1.2: Adding Colors and a Person
 
 Create a global node: `var person = SCNNode()`
 
@@ -218,7 +218,7 @@ class GameViewController: UIViewController {
 }
 ```
 
-### ---- IOSGAME-1.3: Creating a Path
+## IOSGAME-1.3: Creating a Path
 
 Creating the function createBox(), we can use a new SCNNode dynamically generated along with a switch on `arc4random` in order to create new boxes.
 
@@ -391,4 +391,4 @@ class GameViewController: UIViewController, SCNSceneRendererDelegate {
 }
 ```
 
-### ---- IOSGAME-1.4: Keeping a person on the path
+## IOSGAME-1.4: Keeping a person on the path

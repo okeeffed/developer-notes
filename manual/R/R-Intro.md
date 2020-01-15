@@ -1,38 +1,40 @@
 ---
 name: R Intro
-menu: R 
+menu: R
 ---
+
 # Introduction to R
 
 <!-- TOC -->
 
-*   [Introduction to R](#introduction-to-r)
-    *   [Table of Contents](#table-of-contents)
-    *   [R-1: How it Works](#r-1-how-it-works)
-        *   [---- Arithmetic with R](#-----arithmetic-with-r)
-        *   [---- Variable Assignment](#-----variable-assignment)
-        *   [---- Basic data types in R](#-----basic-data-types-in-r)
-    *   [R-2: Vectors](#r-2-vectors)
-        *   [---- Naming a Vector](#-----naming-a-vector)
-        *   [---- Vector Selection](#-----vector-selection)
-*   [Poker and roulette winnings from Monday to Friday:](#poker-and-roulette-winnings-from-monday-to-friday)
-*   [Define a new variable based on a selection](#define-a-new-variable-based-on-a-selection) - [---- Selection by Comparison](#-----selection-by-comparison)
-    *   [R-3: Matrices](#r-3-matrices)
-        *   [---- Naming a matrix](#-----naming-a-matrix)
-        *   [---- Adding a Row](#-----adding-a-row)
-        *   [---- All functions for combining](#-----all-functions-for-combining)
-        *   [---- Selection of Matrix Elements](#-----selection-of-matrix-elements)
-        *   [---- Matrix Arithmetic](#-----matrix-arithmetic)
-    *   [Factors in R](#factors-in-r)
-        *   [---- Summarizing a factor](#-----summarizing-a-factor)
-        *   [---- Ordered Factors](#-----ordered-factors)
-    *   [Data Frames](#data-frames)
-        *   [---- Selection of data frame elements](#-----selection-of-data-frame-elements)
-        *   [---- Subsets](#-----subsets)
-        *   [---- Sorting](#-----sorting)
-    *   [Lists](#lists)
-        *   [---- Selecting Elements from a List](#-----selecting-elements-from-a-list)
-        *   [---- Adding more components to a list](#-----adding-more-components-to-a-list)
+- [Introduction to R](#introduction-to-r)
+  - [Table of Contents](#table-of-contents)
+  - [R-1: How it Works](#r-1-how-it-works)
+  - [Arithmetic with R](#arithmetic-with-r)
+  - [Variable Assignment](#variable-assignment)
+  - [Basic data types in R](#basic-data-types-in-r)
+  - [R-2: Vectors](#r-2-vectors)
+  - [Naming a Vector](#naming-a-vector)
+  - [Vector Selection](#vector-selection)
+- [Poker and roulette winnings from Monday to Friday:](#poker-and-roulette-winnings-from-monday-to-friday)
+- [Define a new variable based on a selection](#define-a-new-variable-based-on-a-selection)
+  - [Selection by Comparison](#selection-by-comparison)
+  - [R-3: Matrices](#r-3-matrices)
+  - [Naming a matrix](#naming-a-matrix)
+  - [Adding a Row](#adding-a-row)
+  - [All functions for combining](#all-functions-for-combining)
+  - [Selection of Matrix Elements](#selection-of-matrix-elements)
+  - [Matrix Arithmetic](#matrix-arithmetic)
+  - [Factors in R](#factors-in-r)
+  - [Summarizing a factor](#summarizing-a-factor)
+  - [Ordered Factors](#ordered-factors)
+  - [Data Frames](#data-frames)
+  - [Selection of data frame elements](#selection-of-data-frame-elements)
+  - [Subsets](#subsets)
+  - [Sorting](#sorting)
+  - [Lists](#lists)
+  - [Selecting Elements from a List](#selecting-elements-from-a-list)
+  - [Adding more components to a list](#adding-more-components-to-a-list)
 
 <!-- /TOC -->
 
@@ -54,7 +56,7 @@ You can also execute R commands straight in the console. This is a good way to e
 
 <div id="2"></div>
 
-### ---- Arithmetic with R
+## Arithmetic with R
 
 In its most basic form, R can be used as a simple calculator. Consider the following arithmetic operators:
 
@@ -69,7 +71,7 @@ The last two might need some explaining: - The ^ operator raises the number to i
 
 <div id="3"></div>
 
-### ---- Variable Assignment
+## Variable Assignment
 
 A basic concept in (statistical) programming is called a variable.
 
@@ -99,7 +101,7 @@ my_fruit <- my_apples + my_oranges
 
 <div id="4"></div>
 
-### ---- Basic data types in R
+## Basic data types in R
 
 R works with numerous data types. Some of the most basic types to get started are:
 
@@ -158,7 +160,7 @@ boolean_vector <- c(TRUE, FALSE, TRUE)
 
 <div id="vectors2"></div>
 
-### ---- Naming a Vector
+## Naming a Vector
 
 You can give a name to the elements of a vector with the names() function. Have a look at this example:
 
@@ -247,7 +249,7 @@ total_poker > total_roulette
 
 **Vector Selection**
 
-### ---- Vector Selection
+## Vector Selection
 
 # Poker and roulette winnings from Monday to Friday:
 
@@ -313,7 +315,7 @@ poker_vector[c("Monday","Tuesday")]
 
 <div id="vectors3"></div>
 
-### ---- Selection by Comparison
+## Selection by Comparison
 
 By making use of comparison operators, we can approach the previous question in a more proactive way.
 
@@ -435,7 +437,7 @@ function (data = NA, nrow = 1, ncol = 1, byrow = FALSE, dimnames = NULL)
 
 <div id="matrix2"></div>
 
-### ---- Naming a matrix
+## Naming a matrix
 
 Similar to vectors, you can add names for the rows and the columns of a matrix
 
@@ -505,13 +507,13 @@ big_matrix <- cbind(matrix1, matrix2, vector1 ...)
 
 <div id="addrow"></div>
 
-### ---- Adding a Row
+## Adding a Row
 
 Just like every action has a reaction, every cbind() has an rbind(). (We admit, we are pretty bad with metaphors.)
 
 ```
 # star_wars_matrix and star_wars_matrix2 are available in your workspace
-> star_wars_matrix  
+> star_wars_matrix
                            US non-US
 A New Hope              461.0  314.4
 The Empire Strikes Back 290.5  247.9
@@ -536,7 +538,7 @@ Revenge of the Sith     380.3  468.5
 
 <div id="newSection"></div>
 
-### ---- All functions for combining
+## All functions for combining
 
 ```
 cbind()
@@ -566,7 +568,7 @@ Revenge of the Sith     380.3  468.5
 
 <div id="matrixElements"></div>
 
-### ---- Selection of Matrix Elements
+## Selection of Matrix Elements
 
 Similar to vectors, you can use the square brackets [ ] to select one or multiple elements from a matrix. Whereas vectors have one dimension, matrices have two dimensions. You should therefore use a comma to separate that what to select from the rows from that what you want to select from the columns. For example:
 
@@ -604,7 +606,7 @@ Revenge of the Sith     380.3  468.5
 
 <div id="matrixArithmetic"></div>
 
-### ---- Matrix Arithmetic
+## Matrix Arithmetic
 
 Basic arithmetic also works
 
@@ -704,7 +706,7 @@ factor_gender_vector <- factor(gender_vector)
 >
 # Print out factor_gender_vector
 > factor_gender_vector
-[1] Male   Female Female Male   Male  
+[1] Male   Female Female Male   Male
 Levels: Female Male
 > gender_vector
 [1] "Male"   "Female" "Female" "Male"   "Male"
@@ -745,13 +747,13 @@ Watch out: the order with which you assign the levels is important. R would assi
 > levels(factor_survey_vector) <- c("Female", "Male")
 >
 > factor_survey_vector
-[1] Male   Female Female Male   Male  
+[1] Male   Female Female Male   Male
 Levels: Female Male
 ```
 
 <div id="factorSummary"></div>
 
-### ---- Summarizing a factor
+## Summarizing a factor
 
 `summary(my_var)`
 
@@ -760,7 +762,7 @@ Levels: Female Male
 > factor_survey_vector <- factor(survey_vector)
 > levels(factor_survey_vector) <- c("Female", "Male")
 > factor_survey_vector
-[1] Male   Female Female Male   Male  
+[1] Male   Female Female Male   Male
 Levels: Female Male
 >
 # Generate summary for survey_vector
@@ -796,7 +798,7 @@ Warning message: '>' not meaningful for factors
 
 <div id="orderedFactors"></div>
 
-### ---- Ordered Factors
+## Ordered Factors
 
 Since "Male" and "Female" are unordered (or nominal) factor levels, R returns a warning message, telling you that the greater than operator is not meaningful. As seen before, R attaches an equal value to the levels for such factors.
 
@@ -873,11 +875,11 @@ Valiant           18.1   6  225 105 2.76 3.460 20.22  1  0    3    1
 
 Another method that is often used to get a rapid overview of your data is the function str(). The function str() shows you the structure of your data set. For a data frame it tells you:
 
-*   The total number of observations (e.g. 32 car types)
-*   The total number of variables (e.g. 11 car features)
-*   A full list of the variables names (e.g. mpg, cyl ... )
-*   The data type of each variable (e.g. num)
-*   The first observations
+- The total number of observations (e.g. 32 car types)
+- The total number of variables (e.g. 11 car features)
+- A full list of the variables names (e.g. mpg, cyl ... )
+- The data type of each variable (e.g. num)
+- The first observations
 
 Applying the str() function will often be the first thing that you do when receiving a new data set or data frame. It is a great way to get more insight in your data set before diving into the real analysis.
 
@@ -909,7 +911,7 @@ Applying the str() function will often be the first thing that you do when recei
 
 <div id="selectionFrameElements"></div>
 
-### ---- Selection of data frame elements
+## Selection of data frame elements
 
 Similar to vectors and matrices, you select elements from a data frame with the help of square brackets [ ]. By using a comma, you can indicate what to select from the rows and the columns respectively. For example:
 
@@ -960,7 +962,7 @@ Sometimes you want to select all elements of a row or column. For example, my_df
 
 <div id="subsets"></div>
 
-### ---- Subsets
+## Subsets
 
 You should see the subset() function as a short-cut to do exactly the same as what you did in the previous exercises.
 
@@ -989,7 +991,7 @@ subset(planets_df, subset = rings)
 
 <div id="sorting"></div>
 
-### ---- Sorting
+## Sorting
 
 In data analysis you can sort your data according to a certain variable in the data set. In R, this is done with the help of the function order().
 
@@ -1069,11 +1071,11 @@ This means we can use the output of order(a) to reshuffle a:
 
 **Recap so far**
 
-*   Vectors (one dimensional array): can hold numeric, character or logical values. The elements in a vector all have the same data type.
+- Vectors (one dimensional array): can hold numeric, character or logical values. The elements in a vector all have the same data type.
 
-*   Matrices (two dimensional array): can hold numeric, character or logical values. The elements in a matrix all have the same data type.
+- Matrices (two dimensional array): can hold numeric, character or logical values. The elements in a matrix all have the same data type.
 
-*   Data frames (two-dimensional objects): can hold numeric, character or logical values. Within a column all elements have the same data type, but different columns can be of different data type.
+- Data frames (two-dimensional objects): can hold numeric, character or logical values. Within a column all elements have the same data type, but different columns can be of different data type.
 
 **Lists**
 
@@ -1190,7 +1192,7 @@ $reviews
 
 <div id="listelements"></div>
 
-### ---- Selecting Elements from a List
+## Selecting Elements from a List
 
 Your list will often be built out of numerous elements and components. Therefore, getting a single element, multiple elements, or a component out of it is not always straightforward.
 
@@ -1200,7 +1202,7 @@ One way to select a component is using the numbered position of that component. 
 
 A quick way to check this out is typing it in the console. Important to remember: to select elements from vectors, you use single square brackets: [ ]. Don't mix them up!
 
-You can also refer to the names of the components, with [[ ]] or with the $ sign. Both will select the data frame representing the reviews:
+You can also refer to the names of the components, with [[ ]] or with the \$ sign. Both will select the data frame representing the reviews:
 
 ```
 shining_list[["reviews"]]
@@ -1222,7 +1224,7 @@ Besides selecting components, you often need to select specific elements out of 
 
 <div id="addingelems"></div>
 
-### ---- Adding more components to a list
+## Adding more components to a list
 
 To conveniently add elements to lists you can use the c() function, that you also used to build vectors:
 

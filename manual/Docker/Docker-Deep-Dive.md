@@ -41,7 +41,7 @@ menu: Docker
 
 ## Docker Basics
 
-### ---- Working with Multiple Images
+## Working with Multiple Images
 
 ```
 # i: interactive, t: tty, d: daemon mode
@@ -53,7 +53,7 @@ docker attach container_name
 
 ---
 
-### ---- Packaging A Customized Container
+## Packaging A Customized Container
 
 Once you are attached to a container, anytime you create files, it is now part of that container!
 
@@ -84,7 +84,7 @@ For building:
 docker build -t="dok/ubusshdonly:v2" .
 ```
 
-### ---- Container Commands
+## Container Commands
 
 ```
 top # shows the processes
@@ -94,7 +94,7 @@ docker exec container name /bin/cat /etc/profile
 docker run container name /bin/bash -c "while true; do echo HELLO; sleep 1; done"
 ```
 
-### ---- Exposing ports
+## Exposing ports
 
 ```
 docker run -d -p 80:80 nginx:latest
@@ -102,7 +102,7 @@ docker run -d -p 80:80 nginx:latest
 
 ## The Dockerfile, Builds and Network Configuration
 
-### ---- USER and RUN
+## USER and RUN
 
 ```
 # Dockerfile based on the latest CentOS 7 image - non-priviledged user entry
@@ -135,7 +135,7 @@ USER user
 RUN echo 'EXPORT 129.168.0.0/24' >> /etc/exports.list # making up exports.list
 ```
 
-### ---- ENV
+## ENV
 
 Example, let's install Java through the Dockerfile!
 
@@ -164,7 +164,7 @@ RUN cd ~ && echo "export JAVA_HOME=/usr/java/jdk1.8.0/jre" >> /home/user/.bashrc
 ENV JAVA_BIN /usr/java/jdk1.8.0/jre/bin
 ```
 
-### ---- CMD vs RUN
+## CMD vs RUN
 
 Command generally sets the default command to run when there is nothing specified when container starts up.
 
@@ -180,7 +180,7 @@ CMD 'echo' 'This is a custom container message'
 USER user
 ```
 
-### ---- ENTRYPOINT
+## ENTRYPOINT
 
 The entrypoint itself will ALWAYS be the concrete default application everytime that the container is created.
 
@@ -197,7 +197,7 @@ ENTRYPOINT echo "This command will display this message on EVERY container that 
 USER user
 ```
 
-### ---- EXPOSE
+## EXPOSE
 
 EXPOSE will allow us to expose our ports.
 
@@ -233,7 +233,7 @@ EXPOSE 80
 ENTRYPOINT apachectl "-DFOREGROUND"
 ```
 
-### ---- Container Volume Management
+## Container Volume Management
 
 How do we work with mounts and file systems?
 
@@ -257,7 +257,7 @@ Once we have things that are mounted, we can access them from the container and 
 
 We can't do this from the Dockerfile, because the base image is designed to be portable.
 
-### ---- Docker Network: List and Inspect
+## Docker Network: List and Inspect
 
 Thanks to Docker Swarm and Kubernetes, it has become easier to manage the Docker Network.
 
@@ -288,7 +288,7 @@ docker network ls
 docker network rm mybridge01
 ```
 
-### ---- Docker Network: Assign to Containers
+## Docker Network: Assign to Containers
 
 ```
 # subnet itself can be 10.1.[1-254].[1-254] while ip-range is 10.1.4.[1-254]
@@ -310,7 +310,7 @@ docker run -it --name nettest1 --net bridge04 --ip 10.1.4.100 centos:latest /bin
 
 ## Docker commands and structures
 
-### ---- Inspect Container Processes
+## Inspect Container Processes
 
 From the outside, we can run `docker exec` to get some more details about the container itself.
 
@@ -336,7 +336,7 @@ We can use `docker stats` to see a live set of information for that container.
 
 This will keep a view that is constantly updated to see what is going on.
 
-### ---- Previous Container Management
+## Previous Container Management
 
 Just to see the previous containers not running with just their ids, we can run `docker ps -a -q`
 
@@ -344,7 +344,7 @@ Of course, for removing older containers, we can `docker rm` previous containers
 
 We can also remove containers from the `/var/lib/docker` folder as the super user. If you do it this way, you want to ensure that you have `systemctl stop/restart docker` to ensure that there aren't any issues with Docker.
 
-### ---- Controlling Port Exposure on Containers
+## Controlling Port Exposure on Containers
 
 In this example, start up a nginx container in daemon mode without remapping the ports.
 
@@ -358,13 +358,13 @@ If we want to define a certain interface eg. localhost...
 
 `docker run -itd -p 127.0.01:8081:80 nginx:latest` would ONLY allow localhost to access this site.
 
-### ---- Naming Containers
+## Naming Containers
 
 To rename containers, we can run `docker rename currentname newname` - you can even rename container IDs, although there is likely no point.
 
 You can also rename running containers!
 
-### ---- Docker Events
+## Docker Events
 
 How can we monitor certain events?
 
@@ -386,11 +386,11 @@ We may not care about every event though. What happens if we just care about an 
 
 We can also filter for multiple events with multiple `--filter event=<event>`
 
-### ---- Managing and Removing Base Images
+## Managing and Removing Base Images
 
 If you remove an image by name, then if there is a double up of the same ID, it will just remove the named image - however an ID removal will warn you if they share the ID. They only way to remove all of them is to use the force `-f` flag.
 
-### ---- Saving and Loading Docker Images
+## Saving and Loading Docker Images
 
 **Saving**
 
@@ -416,7 +416,7 @@ If you `ls` the tar file, it will give you details about the image/container.
 
 If we have `gzip` a tar file, we can also load it directly from the `.tar.gz` file.
 
-### ---- Image History
+## Image History
 
 How can we get the history of the base image?
 
@@ -424,7 +424,7 @@ How can we get the history of the base image?
 
 This will give us a list of commands etc.
 
-### ---- Take Control of Our Tags
+## Take Control of Our Tags
 
 Changes in the container is what is kept in storage layering.
 
@@ -432,7 +432,7 @@ Changes in the container is what is kept in storage layering.
 
 `docker tag mine/centos:v1.0 dok.example.com/centos:v1.0b` will do the same.
 
-### ---- Pushing to Docker Hub
+## Pushing to Docker Hub
 
 `docker login --username=name` throw in the password and you'll be authenticated.
 
@@ -444,7 +444,7 @@ Of course, to bring it back down, you will hit `docker pull name`
 
 ## Integration and Use Cases
 
-### ---- Building a Web Farm for Development and Testing
+## Building a Web Farm for Development and Testing
 
 _Prerequisites_
 

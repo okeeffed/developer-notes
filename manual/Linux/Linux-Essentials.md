@@ -1,43 +1,11 @@
 ---
 name: Linux Essentials
-menu: Linux 
+menu: Linux
 ---
+
 # Linux Essentials
 
-<!-- TOC -->
-
-*   [Linux Essentials](#linux-essentials)
-    *   [LINUX-2: Finding Your Way on a Linux Systems](#linux-2-finding-your-way-on-a-linux-systems)
-        *   [---- LINUX-2.1: Command Line Basics](#-----linux-21-command-line-basics)
-            *   [++++ ---- uname](#------uname)
-            *   [++++ ---- History and completion](#------history-and-completion)
-            *   [++++ ---- cd and pwd](#------cd-and-pwd)
-            *   [++++ ---- Shell config files](#------shell-config-files)
-            *   [++++ ---- Variables: Env/Sys Variables](#------variables-envsys-variables)
-            *   [++++ ---- Variables: User Defined vars](#------variables-user-defined-vars)
-            *   [++++ ---- Globbing](#------globbing)
-            *   [++++ ---- Quoting](#------quoting)
-            *   [++++ ---- Formatting Commands](#------formatting-commands)
-            *   [++++ ---- Working with Options](#------working-with-options)
-        *   [---- LINUX-2.2: Using the Command Line to Get Help](#-----linux-22-using-the-command-line-to-get-help)
-            *   [++++ ---- Man](#------man)
-        *   [---- LINUX-2.3: Using Directories and Listing Files](#-----linux-23-using-directories-and-listing-files)
-            *   [++++ ---- The Linux File System](#------the-linux-file-system)
-        *   [---- LINUX-2.4: Creating, Moving and Deleting Files](#-----linux-24-creating-moving-and-deleting-files)
-            *   [++++ ---- Files and Directories](#------files-and-directories)
-    *   [LINUX-3: The Power of the Command Line](#linux-3-the-power-of-the-command-line)
-        *   [---- LINUX-3.1: Archiving Files on the Command Line](#-----linux-31-archiving-files-on-the-command-line)
-        *   [++++ ---- Files, Directories](#------files-directories)
-    *   [LINUX-5: The Linux Operating System](#linux-5-the-linux-operating-system)
-        *   [---- LINUX-5.3: Where Data is Stored](#-----linux-53-where-data-is-stored)
-            *   [++++ ---- LINUX-5.3.1: Kernel](#------linux-531-kernel)
-            *   [++++ ---- LINUX-5.3.2: Processes](#------linux-532-processes)
-            *   [++++ ---- LINUX-5.3.3: syslog, klog, dmesg](#------linux-533-syslog-klog-dmesg)
-            *   [++++ ---- LINUX-5.3.4: /lib, /usr/lib, /etc, /var/log](#------linux-534-lib-usrlib-etc-varlog)
-            *   [---- LINUX-5.4: Your Computer on the Network](#-----linux-54-your-computer-on-the-network)
-            *   [++++ ---- LINUX-5.3.1: Internet, Network, Routers](#------linux-531-internet-network-routers)
-
-<!-- /TOC -->
+<!-- TOC -->autoauto- [Linux Essentials](#linux-essentials)auto  - [LINUX-2: Finding Your Way on a Linux Systems](#linux-2-finding-your-way-on-a-linux-systems)auto  - [LINUX-2.1: Command Line Basics](#linux-21-command-line-basics)auto      - [++++ ---- uname](#------uname)auto      - [++++ ---- History and completion](#------history-and-completion)auto      - [++++ ---- cd and pwd](#------cd-and-pwd)auto      - [++++ ---- Shell config files](#------shell-config-files)auto      - [++++ ---- Variables: Env/Sys Variables](#------variables-envsys-variables)auto      - [++++ ---- Variables: User Defined vars](#------variables-user-defined-vars)auto      - [++++ ---- Globbing](#------globbing)auto      - [++++ ---- Quoting](#------quoting)auto      - [++++ ---- Formatting Commands](#------formatting-commands)auto      - [++++ ---- Working with Options](#------working-with-options)auto  - [LINUX-2.2: Using the Command Line to Get Help](#linux-22-using-the-command-line-to-get-help)auto      - [++++ ---- Man](#------man)auto  - [LINUX-2.3: Using Directories and Listing Files](#linux-23-using-directories-and-listing-files)auto      - [++++ ---- The Linux File System](#------the-linux-file-system)auto  - [LINUX-2.4: Creating, Moving and Deleting Files](#linux-24-creating-moving-and-deleting-files)auto      - [++++ ---- Files and Directories](#------files-and-directories)auto  - [LINUX-3: The Power of the Command Line](#linux-3-the-power-of-the-command-line)auto  - [LINUX-3.1: Archiving Files on the Command Line](#linux-31-archiving-files-on-the-command-line)auto    - [++++ ---- Files, Directories](#------files-directories)auto  - [LINUX-5: The Linux Operating System](#linux-5-the-linux-operating-system)auto  - [LINUX-5.3: Where Data is Stored](#linux-53-where-data-is-stored)auto      - [++++ ---- LINUX-5.3.1: Kernel](#------linux-531-kernel)auto      - [++++ ---- LINUX-5.3.2: Processes](#------linux-532-processes)auto      - [++++ ---- LINUX-5.3.3: syslog, klog, dmesg](#------linux-533-syslog-klog-dmesg)auto      - [++++ ---- LINUX-5.3.4: /lib, /usr/lib, /etc, /var/log](#------linux-534-lib-usrlib-etc-varlog)auto    - [LINUX-5.4: Your Computer on the Network](#linux-54-your-computer-on-the-network)auto      - [++++ ---- LINUX-5.3.1: Internet, Network, Routers](#------linux-531-internet-network-routers)autoauto<!-- /TOC -->
 
 <div id="2"></div>
 
@@ -47,15 +15,15 @@ menu: Linux
 
 <div id="newSection"></div>
 
-### ---- LINUX-2.1: Command Line Basics
+## LINUX-2.1: Command Line Basics
 
-#### ++++ ---- uname
+### uname
 
 ```
 okeeffe_d@dok ~$ uname
 Darwin
 
-okeeffe_d@dok ~$ uname -n  
+okeeffe_d@dok ~$ uname -n
 dok.gateway
 
 okeeffe_d@dok ~$ uname -r
@@ -71,7 +39,7 @@ okeeffe_d@dok ~$ uname -a                                    1 ↵
 Darwin dok.gateway 15.6.0 Darwin Kernel Version 15.6.0: Thu Jun 23 18:25:34 PDT 2016; root:xnu-3248.60.10~1/RELEASE_X86_64 x86_64
 ```
 
-#### ++++ ---- History and completion
+### History and completion
 
 All commands are kept in the history file eg. `.bash_history`
 
@@ -81,12 +49,12 @@ ENV variables can allow us to control history. We can also change the history fi
 
 We can also `tab` to autocomplete things.
 
-#### ++++ ---- cd and pwd
+### cd and pwd
 
 cd - change directory
 pwd - print working directory
 
-#### ++++ ---- Shell config files
+### Shell config files
 
 This will vary depending on what kind of shell we are using eg. login or not login.
 
@@ -108,7 +76,7 @@ There is also a certain order to how these files are called upon. Call order is 
 
 Every file is also user specific. If you can change `/etc/profile` you can change the settings for every single user.
 
-#### ++++ ---- Variables: Env/Sys Variables
+### Variables: Env/Sys Variables
 
 There are user defined and system defined variables. It is stored in the systems RAM that is reserved for this sort of operation.
 
@@ -130,7 +98,7 @@ To keep it automatically when we start our system, we will need to edit our `.ba
 
 Note: Interactive shells are ones that you can interact with.
 
-#### ++++ ---- Variables: User Defined vars
+### Variables: User Defined vars
 
 `var=value`
 
@@ -145,7 +113,7 @@ To use this in other shells, again, we need to export the variable.
 
 Variable names can container letters and numbers but cannot start with numbers.
 
-#### ++++ ---- Globbing
+### Globbing
 
 Globbing is the process of expanding a non-specific file name using a wildcard variable.
 
@@ -173,31 +141,31 @@ ls [F]*.txt
 ls f[igh][lfz]*
 ```
 
-#### ++++ ---- Quoting
+### Quoting
 
-*   Double quotes allow us to still use the value of variables and commands
-*   Single quotes preserve the literaly meaning of each character of a given string
-*   Backslash is an escape character
+- Double quotes allow us to still use the value of variables and commands
+- Single quotes preserve the literaly meaning of each character of a given string
+- Backslash is an escape character
 
-#### ++++ ---- Formatting Commands
+### Formatting Commands
 
 We can use the backslash so that we can continue writing the command on the new line.
 
-#### ++++ ---- Working with Options
+### Working with Options
 
 The commands parameters can be roughly divided in parameters starting with a dash (_options_) and no dashes (_arguments_)
 
-### ---- LINUX-2.2: Using the Command Line to Get Help
+## LINUX-2.2: Using the Command Line to Get Help
 
-#### ++++ ---- Man
+### Man
 
-### ---- LINUX-2.3: Using Directories and Listing Files
+## LINUX-2.3: Using Directories and Listing Files
 
-#### ++++ ---- The Linux File System
+### The Linux File System
 
-### ---- LINUX-2.4: Creating, Moving and Deleting Files
+## LINUX-2.4: Creating, Moving and Deleting Files
 
-#### ++++ ---- Files and Directories
+### Files and Directories
 
 ---
 
@@ -205,7 +173,7 @@ The commands parameters can be roughly divided in parameters starting with a das
 
 <div id="3"></div>
 
-### ---- LINUX-3.1: Archiving Files on the Command Line
+## LINUX-3.1: Archiving Files on the Command Line
 
 ### ++++ ---- Files, Directories
 
@@ -246,9 +214,9 @@ tar -xf files.tar
 
 ## LINUX-5: The Linux Operating System
 
-### ---- LINUX-5.3: Where Data is Stored
+## LINUX-5.3: Where Data is Stored
 
-#### ++++ ---- LINUX-5.3.1: Kernel
+### LINUX-5.3.1: Kernel
 
 The Linux Kernel is a Unix-like OS.
 
@@ -256,9 +224,9 @@ The Linux is the core of any Linux installation.
 
 The Linux kernel is responsible for managing every other piece of software on a running Linux computer.
 
-*   It is responsibile for all of the interfacing of all the applications down to hardware between the interprocess communication system.
-*   Provides critical low level tasks.
-*   Loaded very early on in the boot process.
+- It is responsibile for all of the interfacing of all the applications down to hardware between the interprocess communication system.
+- Provides critical low level tasks.
+- Loaded very early on in the boot process.
 
 We could change the program that runs as the first process by adding it to the boot loader option command line.
 
@@ -275,7 +243,7 @@ There could be dozens to hundreds of processes. The kernel is at the top. We can
 
 ---
 
-#### ++++ ---- LINUX-5.3.2: Processes
+### LINUX-5.3.2: Processes
 
 All processes have a PID.
 
@@ -305,7 +273,7 @@ Swap space is used for when the system runs out of RAM. It is generally low. If 
 
 ---
 
-#### ++++ ---- LINUX-5.3.3: syslog, klog, dmesg
+### LINUX-5.3.3: syslog, klog, dmesg
 
 Most background programs (daemon) write log files for being to show info about Linux Administration.
 
@@ -315,9 +283,9 @@ Linux normally stores it in the `/var/log` directory.
 
 We can see some interesting programs here.
 
-*   `cron` is a linux scheduling service.
-*   `syslog` (mailbox) is the general purpose log files.
-*   `secure` log is here when something requires root privilege.
+- `cron` is a linux scheduling service.
+- `syslog` (mailbox) is the general purpose log files.
+- `secure` log is here when something requires root privilege.
 
 Most of the log files are easy to reading using things is `tail` and `less`.
 
@@ -335,25 +303,25 @@ If we jump to `/etc/rc.d/rc.local` file, we can set up dmesg > /var/log/dmesg, w
 
 ---
 
-#### ++++ ---- LINUX-5.3.4: /lib, /usr/lib, /etc, /var/log
+### LINUX-5.3.4: /lib, /usr/lib, /etc, /var/log
 
 **Data Locations**
 
-*   `/lib` : Linked library files used by binaries in /bin and /usr/bin - Dynamic libraries and files used for the boot process. - Kernel modules also live here.
-*   `/usr/lib` : Linked library files used by binaries in /bin and /usr/bin - Dynamic libraries and support static files for executables. - You can create your own helper files by creating more subdirectories here for things such as plugins and extensions.
+- `/lib` : Linked library files used by binaries in /bin and /usr/bin - Dynamic libraries and files used for the boot process. - Kernel modules also live here.
+- `/usr/lib` : Linked library files used by binaries in /bin and /usr/bin - Dynamic libraries and support static files for executables. - You can create your own helper files by creating more subdirectories here for things such as plugins and extensions.
 
 These two folders are similar to Windows .dll - the binaries or executables on the Mac are store in the above folders.
 
-*   `/etc` : Configuration files for our Linux OS
+- `/etc` : Configuration files for our Linux OS
 
 This stores things for our Configuration. Things like mySql, Apache etc are stored here. For different daemons on the program, they will have a subdirectory in the etc folder directory.
 
-*   `/var/log` : Log files for our Linux OS
+- `/var/log` : Log files for our Linux OS
 
 This is used for the log files from the different daemons which we can use for trouble shooting down the track.
 
 ---
 
-#### ---- LINUX-5.4: Your Computer on the Network
+### LINUX-5.4: Your Computer on the Network
 
-#### ++++ ---- LINUX-5.3.1: Internet, Network, Routers
+### LINUX-5.3.1: Internet, Network, Routers

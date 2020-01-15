@@ -25,7 +25,7 @@ To start making these tests, we __NEED__ to make a `test` file in the same direc
 
 <div id="testSuite"></div>
 
-### ---- Building a test suite
+## Building a test suite
 
 Write a test that will run the test using the npm task `test` and just reply an assertion to be true.
 

@@ -120,7 +120,7 @@ Input -> _Estimated Function_ -> Output
 
 <div id="subsection"></div>
 
-### ---- Basic Model Prediction
+## Basic Model Prediction
 
 You'll be working with the Wage dataset. It contains the wage and some general information for workers in the mid-Atlantic region of the US.
 
@@ -200,7 +200,7 @@ Another example is k-Means can do things like cluster in similar groups.
 
 <div id="spam"></div>
 
-### ---- Classification Example: Filtering Spam
+## Classification Example: Filtering Spam
 
 In the following exercise you'll work with the dataset emails, which is loaded in your workspace (Source: UCI Machine Learning Repository). Here, several emails have been labeled by humans as spam (1) or not spam (0) and the results are found in the column spam. The considered feature in emails to predict whether it was spam or not is avgCapitalSeq. It is the average amount of sequential capital letters found in each email.
 
@@ -235,7 +235,7 @@ Your job is to inspect the emails dataset, apply spamClassifier to it, and compa
 
 <div id="linkedinviews"></div>
 
-### ---- Regression Example: LinkedIn Views
+## Regression Example: LinkedIn Views
 
 It's time for you to make another prediction with regression! More precisely, you'll analyze the number of views of your LinkedIn profile. With your growing network and your data science skills improving daily, you wonder if you can predict how often your profile will be visited in the future based on the number of days it's been since you created your LinkedIn account.
 
@@ -261,7 +261,7 @@ The instructions will help you predict the number of profile views for the next 
 
 <div id="clusteriris"></div>
 
-### ---- Clustering Example: Separating the Iris Species
+## Clustering Example: Separating the Iris Species
 
 Last but not least, there's clustering. This technique tries to group your objects. It does this without any prior knowledge of what these groups could or should look like. For clustering, the concepts of prior knowledge and unseen observations are less meaningful than for classification and regression.
 
@@ -296,7 +296,7 @@ species       1  2  3
 
 <div id="super"></div>
 
-### ---- Supervised vs. Unsupervised
+## Supervised vs. Unsupervised
 
 Classification and Regression have similar traits.
 
@@ -312,7 +312,7 @@ If we can `find` function f which can be used to assign a class or value to unse
 
 <div id="superPrac"></div>
 
-### ---- Getting practical with supervised learning
+## Getting practical with supervised learning
 
 In this exercise, you will use the same dataset. But instead of dropping the Species labels, you will use them do some supervised learning using recursive partitioning! Don't worry if you don't know what that is yet. Recursive partitioning (a.k.a. decision trees) will be explained in Chapter 3.
 
@@ -368,7 +368,7 @@ Levels: setosa versicolor virginica
 
 <div id="unsuperPrac"></div>
 
-### ---- Getting practical with unsupervised learning
+## Getting practical with unsupervised learning
 
 ```
 > head(cars)
@@ -551,7 +551,7 @@ A popular index for comparing is the Dunn's index: `minimal intercluster distanc
 
 <div id="perf2"></div>
 
-### ---- Confusion Matrix
+## Confusion Matrix
 
 In this exercise, a decision tree is learned on this dataset. The tree aims to predict whether a person would have survived the accident based on the variables Age, Sex and Pclass (travel class). The decision the tree makes can be deemed correct or incorrect if we know what the person's true outcome was. That is, if it's a supervised learning problem.
 
@@ -626,7 +626,7 @@ The deceased who were correctly predicted to have perished: true negatives (TN)
 [1] 0.7310345
 ```
 
-### ---- Calculating the RMSE of air data
+## Calculating the RMSE of air data
 
 ```
 # The air dataset is already loaded into your workspace
@@ -681,7 +681,7 @@ Using the `rmse` result for comparison with another result
 
 Adding complexity seems to have caused the RMSE to decrease, from 5.216 to 4.799. But there's more going on here; perhaps adding more variables to a regression always leads to a decrease of your RMSE? There will be more on this later.
 
-### ---- Clustering dataset example
+## Clustering dataset example
 
 In the dataset seeds you can find various metrics such as area, perimeter and compactness for 210 seeds. (Source: UCIMLR). However, the seeds' labels were lost. Hence, we don't know which metrics belong to which type of seed. What we do know, is that there were three types of seeds.
 
@@ -725,7 +725,7 @@ The within sum of squares is far lower than the between sum of squares. Indicati
 
 <div id="sets"></div>
 
-### ---- Training Set and Test Set
+## Training Set and Test Set
 
 Looking at the different between supervised learning, Machine learning and other data models.
 
@@ -761,7 +761,7 @@ _Cross-validation_ - Eg. 4-folds validation. This means the splitting the data s
 
 <div id="split"></div>
 
-### ---- Split the Sets
+## Split the Sets
 
 In exercises 2 and 3 you calculated a confusion matrix to assess the tree's performance. However, the tree was built using the entire set of observations. Therefore, the confusion matrix doesn't assess the predictive power of the tree. The training set and the test set were one and the same thing: this can be improved!
 
@@ -844,7 +844,7 @@ On the right, the code that splits titanic up in train and test has already been
 
 <div id="xvalid"></div>
 
-### ---- Using Cross Validation
+## Using Cross Validation
 
 In this exercise, you will fold the dataset 6 times and calculate the accuracy for each fold. The mean of these accuracies forms a more robust estimation of the model's true accuracy of predicting unseen data, because it is less dependent on the choice of training and test sets.
 
@@ -891,7 +891,7 @@ This estimate will be a more robust measure of your accuracy. It will be less su
 
 <div id="bias"></div>
 
-### ---- Bias and Variance
+## Bias and Variance
 
 How does splitting affect the accuracy?
 
@@ -948,7 +948,7 @@ An `underfit` model may mark spam if more than 10 capital letters. This is `too 
 
 <div id="overfit"></div>
 
-### ---- Overfitting the Spam
+## Overfitting the Spam
 
 ```
 # The spam filter that has been 'learned' for you
@@ -1094,7 +1094,7 @@ Choose the test with the best information gain.
 
 <div id="classification1"></div>
 
-### ---- Learn a Decision Tree
+## Learn a Decision Tree
 
 To test your classification skills, you can build a decision tree that uses a person's age, gender, and travel class to predict whether or not they survived the Titanic. The titanic data frame has already been divided into training and test sets (named train and test).
 
@@ -1125,7 +1125,7 @@ Remember how Vincent told you that a tree is learned by separating the training 
 
 <div id="classification2"></div>
 
-### ---- Classify with the Decision Tree
+## Classify with the Decision Tree
 
 The previous learning step involved proposing different tests on which to split nodes and then to select the best tests using an appropriate splitting criterion. You were spared from all the implementation hassles that come with that: the rpart() function did all of that for you.
 
@@ -1154,7 +1154,7 @@ Looking good! What does the accuracy tell you? Around 80 percent of all test ins
 
 <div id="classification3"></div>
 
-### ---- Pruning the Tree
+## Pruning the Tree
 
 ```
 # Calculation of a complex tree
@@ -1173,7 +1173,7 @@ Looking good! What does the accuracy tell you? Around 80 percent of all test ins
 
 Another way to check if you overfit your model is by comparing the accuracy on the training set with the accuracy on the test set. You'd see that the difference between those two is smaller for the simpler tree. You can also set the `cp` argument while learning the tree with `rpart()` using `rpart.control`.
 
-### ---- Gini Criterion
+## Gini Criterion
 
 `rpart` by default uses the `Gini Criterion` for making decision trees.
 
@@ -1205,7 +1205,7 @@ Another way to check if you overfit your model is by comparing the accuracy on t
 [1] 0.8905797
 ```
 
-### ---- k-Nearest Neighbors
+## k-Nearest Neighbors
 
 Getting acquinted with instance based learning.
 
@@ -1235,7 +1235,7 @@ Distance metric is important. We can use the standard Euclidian Distance. We can
 Euclidian Distance: `sqr(sum((a[i]-b[i])**2))`
 Manhattan Distance: `sum(abs(a[i] - b[i]))`
 
-### ---- Scaling Example
+## Scaling Example
 
 *   Dataset with
     *   2 features: weight and height
@@ -1332,7 +1332,7 @@ test_labels   1   0
 [1] 73
 ```
 
-### ---- Interpreting a Voronoi Diagram
+## Interpreting a Voronoi Diagram
 
 A cool way to visualize how 1-Nearest Neighbor works with two-dimensional features is the Voronoi Diagram. It's basically a plot of all the training instances, together with a set of tiles around the points. This tile represents the region of influence of each point. When you want to classify a new observation, it will receive the class of the tile in which the coordinates fall. Pretty cool, right?
 

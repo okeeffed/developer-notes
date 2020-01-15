@@ -6,7 +6,7 @@ menu: Angular
 
 ## JSANG-1: Getting Started with Angular
 
-#### ---- JSANG-1.1: Intro to Angular
+### JSANG-1.1: Intro to Angular
 
 Angular is known for rapid dev cycles and one page apps that are responsive.
 
@@ -30,7 +30,7 @@ App can even send data back to the server.
 
 Other examples: Backbone, Ember.
 
-#### ---- JSANG-1.2: Nuts and Bolts of Angular
+### JSANG-1.2: Nuts and Bolts of Angular
 
 _Four main concepts:_
 1. Templates/Views
@@ -57,7 +57,7 @@ QUESTIONS
 
 A: False
 
-#### ---- JSANG-1.3: Setting up your first Angular App
+### JSANG-1.3: Setting up your first Angular App
 
 CDN for Angular: <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.min.js"></script>
 
@@ -73,7 +73,7 @@ angular.module("todoListApp", []); //array defines the dependencies
 <body ng-app="todoListApp"> //tells angular where to bootstrap
 ```
 
-#### ---- JSANG-1.4: Your first custom directive
+### JSANG-1.4: Your first custom directive
 
 in the Angular set up so far...
 
@@ -122,7 +122,7 @@ angular.module('todoListApp') //no second param, since no new module. It will th
 
 ## JSANG-2: Controllers and Scope
 
-#### ---- JSANG-2.1: Creating a Controller
+### JSANG-2.1: Creating a Controller
 
 The glue that hold the apps together
 
@@ -149,14 +149,14 @@ angular.module("todoListApp", [])
 
 "Injecting a controller": Use the controller here.
 
-#### ---- JSANG-2.2: Tools to make you an Angular Pro
+### JSANG-2.2: Tools to make you an Angular Pro
 
 2 Angular Chrome Plugins
 
 ng-inspector
 AngularJS Batarang
 
-#### ---- JSANG-2.3: Understanding Scope
+### JSANG-2.3: Understanding Scope
 
 Scope works with prototypical inheritance
 - best practise not to use $rootScope
@@ -171,7 +171,7 @@ Sibling controllers do not have access to other scopes.
 
 ## JSANG-3: Using Angular's Built In Directives
 
-#### ---- JSANG-3.1: Adding Data to Your App Using ng-model
+### JSANG-3.1: Adding Data to Your App Using ng-model
 
 Helps a lot out of the box.
 
@@ -204,7 +204,7 @@ Inside label...
 - todo.name = $scope.todo.name
 - ng-model used on <input>
 
-#### ---- JSANG-3.2: Using ng-click
+### JSANG-3.2: Using ng-click
 
 ng-click="editing = !editing" //can be used with any elements as an attribute
 
@@ -242,7 +242,7 @@ ng-show="editing"
 </html>
 ```
 
-#### ---- JSANG-3.3: Using ng-repeat to inject HTML for every data element
+### JSANG-3.3: Using ng-repeat to inject HTML for every data element
 
 Paste array and check if within scope.
 
@@ -255,7 +255,7 @@ Paste array and check if within scope.
 Each item makes each unique item from repeat.
 The directives and controller data also repeats with new scopes.
 
-#### ---- JSANG-3.4: Using ng-blur and ng-class
+### JSANG-3.4: Using ng-blur and ng-class
 
 NG-BLUR
 - ng-blur is fired during click actions.
@@ -273,7 +273,7 @@ NG-CLASS
 ng-class="{'editing-item': editing}" //class is editing-item
 ```
 
-#### ---- JSANG-3.5: NG-change to set Data State
+### JSANG-3.5: NG-change to set Data State
 
 //fires any time the value of the input changes
 
@@ -327,7 +327,7 @@ __CHALLENGE__
 
 ## JSANG-4: Services in Angular
 
-#### ---- JSANG-4.1: What are services?
+### JSANG-4.1: What are services?
 
 Services used for dependency injection.
 
@@ -358,7 +358,7 @@ Useful for many things eg. REST API etc
 });
 ```
 
-#### ---- JSANG-4.2: Using Services to get data
+### JSANG-4.2: Using Services to get data
 
 Request fake data from a server.
 - put a todo list in another file: mock/todos.json
@@ -392,7 +392,7 @@ Request fake data from a server.
 });
 ```
 
-#### ---- JSANG-4.3: Using Services to save and delete data
+### JSANG-4.3: Using Services to save and delete data
 
 ```javascript
 //in app.js
@@ -445,7 +445,7 @@ Request fake data from a server.
 });
 ```
 
-#### ---- JSANG-4.4: Creating new data in the UI and Saving with a Service
+### JSANG-4.4: Creating new data in the UI and Saving with a Service
 
 ```xml
 //in index/html
@@ -526,7 +526,7 @@ angular.module('foobar', [])
 
 ## JSANG-5: Improving Our Todo App
 
-#### ---- JSANG-5.1: Scaffolding our App
+### JSANG-5.1: Scaffolding our App
 
 - small application so far
 - more controllers and services
@@ -558,7 +558,7 @@ angular.module("todoListApp")
 App.js may appear empty
 - other things can be configured and set up here
 
-#### ---- JSANG-5.2: Using Filters for ng-repeats
+### JSANG-5.2: Using Filters for ng-repeats
 
 ng-repeat saves a ton of time, but we need complete UI states etc.
 
@@ -576,7 +576,7 @@ ng-init="todo.completed = false" //only used with ng-repeat
 
 Need to also make sure that in the controller, we have unshift instead of push for the array.
 
-#### ---- JSANG-5.3: Custom directive for todos
+### JSANG-5.3: Custom directive for todos
 
 Remove todos and create custom directive <todos></todos>
 - name file the same as directive
@@ -598,7 +598,7 @@ angular.module("todoListApp")
 
 To get rid of directive tags, use the replace key.
 
-#### ---- JSANG-5.4: Finalising the App
+### JSANG-5.4: Finalising the App
 
 - adding a save all function
 - ng-click and start editing

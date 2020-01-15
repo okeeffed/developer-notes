@@ -21,7 +21,7 @@ We will use things like a line chart for the temp etc.
 
 In general, the components won't make AJAX calls... we want Redux to that for us.
 
-#### ---- REDMID-1.1: Component Set up
+### REDMID-1.1: Component Set up
 
 1.  SearchBar
 2.  App
@@ -68,7 +68,7 @@ export default class App extends Component {
 }
 ```
 
-#### ---- REDMID-1.2: Controlled Components and Binding Text
+### REDMID-1.2: Controlled Components and Binding Text
 
 To create the component level state. (not redux)
 

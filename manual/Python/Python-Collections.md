@@ -61,7 +61,7 @@ For splitting strings themselves we can use `str.split(str="", num=string.count(
 
 <div id="collections"></div>
 
-### ---- Extending Collections
+## Extending Collections
 
 Normally cleaner for larger lists than the `+` symbol.
 
@@ -89,7 +89,7 @@ How do add new items inside the list?
 
 <div id="shoppinglist"></div>
 
-### ---- Shopping List
+## Shopping List
 
 ```
 # note - you should use enumerate once you get there
@@ -122,7 +122,7 @@ while True:
 
 <div id="3"></div>
 
-### ---- Removing Items from a List
+## Removing Items from a List
 
 ```
 a_list=list('abzde')
@@ -144,7 +144,7 @@ my_list
 
 <div id="4"></div>
 
-### ---- Removing vowels from a list of words and capitalising them
+## Removing vowels from a list of words and capitalising them
 
 ```
 names = ["Dennis", "Billy", "Trojan", "Horse"]
@@ -167,7 +167,7 @@ print(output)
 
 <div id="5"></div>
 
-### ---- Pop an item from the list
+## Pop an item from the list
 
 pop() removes an item by index but gives us the item.
 
@@ -216,7 +216,7 @@ my_new_list
 
 <div id="6"></div>
 
-### ---- Slicing with a Step
+## Slicing with a Step
 
 How can we slice that move backward or that skip items?
 
@@ -243,7 +243,7 @@ def first_4(iter):
 
 <div id="7"></div>
 
-### ---- Deleting or Replacing Slices
+## Deleting or Replacing Slices
 
 We can delete and replace with lists.
 
@@ -300,7 +300,7 @@ def members(dict, keys):
 
 <div id="dict2"></div>
 
-### ---- Managing Keys
+## Managing Keys
 
 We can `del` keys etc similar to the way we do it for keys.
 
@@ -338,7 +338,7 @@ def word_count(sentence):
 
 <div id="dict3"></div>
 
-### ---- Unpacking Dictionaries
+## Unpacking Dictionaries
 
 You can give placeholders a name and use dictionaries to make it a little easier.
 
@@ -387,7 +387,7 @@ def string_factory(list_of_dict, str):
 
 <div id="dict4"></div>
 
-### ---- Dictionary Iteration
+## Dictionary Iteration
 
 Again, Dictionaries in Python do not have a set order, but we can still iterate over them.
 
@@ -481,7 +481,7 @@ Tuples do not support item assignment.
 
 <div id="tuples2"></div>
 
-### ---- Tuple Packing and Unpacking
+## Tuple Packing and Unpacking
 
 Here we create a tuple that has valued assigned by another tuple. It's referred to as `simulatneous assignment`.
 
@@ -546,7 +546,7 @@ def stringcases(str):
 
 <div id="tuples3"></div>
 
-### ---- Tuples with functions
+## Tuples with functions
 
 We can use enumerate for some packing etc.
 

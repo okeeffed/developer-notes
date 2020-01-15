@@ -156,7 +156,7 @@ print(np_height[100:111])
     [73 74 72 73 69 72 73 75 75 73 72]
 ```
 
-### ---- 2D Numpy Arrays
+## 2D Numpy Arrays
 
 ```
 >>> array_2d = np.array([[1,2,3,4,5],[6,7,8,9,10]])

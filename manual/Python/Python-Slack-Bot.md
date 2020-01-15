@@ -25,7 +25,7 @@ Grab the API token and copy it into a `rtmbot.conf` file at the root of your dir
 
 <div id="subsection"></div>
 
-### ---- Creating plugins
+## Creating plugins
 
 In the `plugins` folder, create a folder with the name of the plugin and then within the `plugin.py` itself. Inside, you want to ensure you have a `outputs = []` and `crontable = []` list ready to go.
 
@@ -35,7 +35,7 @@ The data argument is the data recieved by the bot.
 
 <div id="banana"></div>
 
-### ---- Banana Plugin
+## Banana Plugin
 
 In the `plugins` directory, create `banana.py`
 

@@ -18,7 +18,7 @@ menu: AWS
 
 ## AWSSYS-1: Monitoring, Metrics and Analysis
 
-### ---- AWSSYS-1.1: CloudWatch Intro
+## AWSSYS-1.1: CloudWatch Intro
 
 It's a monitoring service to monitor the resources and what you run on AWS.
 
@@ -54,7 +54,7 @@ You can use this to monitor any metric. You can even use it for something like b
 
 You can also set the appropriate action and thresholds.
 
-### ---- AWSSYS-1.2: EC2 Status Troubleshooting
+## AWSSYS-1.2: EC2 Status Troubleshooting
 
 On the console, you can see the status check from the EC2 panel.
 
@@ -91,7 +91,7 @@ It will come up as an error if you have:
 
 ## AWSSYS-5: Opsworks
 
-### ---- AWSSYS-5.1: Opsworks Overview
+## AWSSYS-5.1: Opsworks Overview
 
 All these groups of related resources are known as a stack.
 
@@ -116,7 +116,7 @@ A stack is a container (or group) of resources. A layer exists within a stack. W
 *   Which chef layers run are determined by the layer the instance belongs to
 *   Preconfigured Layers include: - Applications - Databases - Load Balancers - Caching
 
-### ---- AWSSYS-5.2: Setting up Opsworks
+## AWSSYS-5.2: Setting up Opsworks
 
 From the AWS dashboard, we're going to create a stack and bring up a webpage without having to SSH.
 

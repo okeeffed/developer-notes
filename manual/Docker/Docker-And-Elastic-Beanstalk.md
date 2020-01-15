@@ -25,7 +25,7 @@ menu: Docker
 
 ## DOCKED-1: Introduction
 
-### ---- DOCKED-1.1: Syllabus
+## DOCKED-1.1: Syllabus
 
 *   What is Elastic Beanstalk?
 *   What is a container?
@@ -54,7 +54,7 @@ We'll also...
 *   The Local Development Environment
 *   Deploying with Docker
 
-### ---- DOCKED-1.2: Container Discussion
+## DOCKED-1.2: Container Discussion
 
 **What is a container?**
 
@@ -70,7 +70,7 @@ Containers are far more light weight. They used shared OS and the container only
 
 While differences may seem suttle, you'll see the many differences between them throughout this article.
 
-### ---- DOCKED-1.3: Container Architecture
+## DOCKED-1.3: Container Architecture
 
 How does Container Architecture relate to Docker? Docker and container are used synonymously, however they have been around far longer. Remember, Docker is a wrapper to how we use containers.
 
@@ -122,7 +122,7 @@ Well, for VMs, do we need the guest OS? Depends on the architecture you are tryi
 
 The architecture of Docker and the containers that it relies on are not new concepts, having been around since the early part of this century. However, hardware virtualization performance has now become almost indistinguishable from bare metal so that further virtualization on the technology stack can be realized.
 
-### ---- DOCKED-1.4: Introduction to Docker
+## DOCKED-1.4: Introduction to Docker
 
 Now that we know what containers are, let's focus more on Docker.
 
@@ -151,7 +151,7 @@ Build management therefore becomes easy.
 
 Isolate applications, standardize the build and deployment process.
 
-### ---- DOCKED-1.5: Introduction to Elastic Beanstalk
+## DOCKED-1.5: Introduction to Elastic Beanstalk
 
 What is it? It's a service that allows the quick deployment and easy deployment of applications without getting bogged down with the infrastructure details.
 
@@ -180,7 +180,7 @@ Amazon has put a lot of emphasis on containers - especially with the wide adopti
 
 ## DOCKED-2: Setup and Config
 
-### ---- DOCKED-2.1: Install and Configure
+## DOCKED-2.1: Install and Configure
 
 Installing onto Ubuntu
 
@@ -210,7 +210,7 @@ docker images
 
 This will be all we need on the Ubuntu system installation for this course's purposes. Alternatively, check the `Docker Deep Dive` for more info.
 
-### ---- DOCKED-2.2: Docker Command Line Basics
+## DOCKED-2.2: Docker Command Line Basics
 
 Docker is getting ready for Docker 2.0, however we are running 1.12.0 at the time of writing.
 
@@ -273,7 +273,7 @@ If this image is required by others, it won't allow you to delete.
 
 Once the dependent containers are gone, you can remove the images.
 
-### ---- DOCKED-2.3: Installing AWS CLI and EB CLI Tools
+## DOCKED-2.3: Installing AWS CLI and EB CLI Tools
 
 Before we can start deploying, we need to set up the command line interfaces for AWS and EB.
 
@@ -287,7 +287,7 @@ You need pip (Python package service) in order to have AWS CLI run.
 
 For Mac, `brew install`.
 
-### ---- DOCKED-2.4: Elastic Beanstalk Accounts and Groups
+## DOCKED-2.4: Elastic Beanstalk Accounts and Groups
 
 We need to now create a security group associated with beanstalk. We can do this from the AWS console using IAM.
 
@@ -297,7 +297,7 @@ From an enterprise perspective, ensure that you aren't installing using root. En
 
 ## DOCKED-3: Components and Usage
 
-### ---- DOCKED-3.1: The First App Using the EB Wizard
+## DOCKED-3.1: The First App Using the EB Wizard
 
 It will launch EC2, ELBs etc and can take up to 5-10 minutes to launch a full environment.
 

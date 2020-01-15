@@ -40,7 +40,7 @@ extension SomeType: SomeProtocol, AnotherProtocol {
 
 <div id="computed"></div>
 
-### ---- Computed Properties
+## Computed Properties
 
 ```
 struct Size {
@@ -91,7 +91,7 @@ extension Int {
 
 <div id="mutating"></div>
 
-### ---- Mutating Instance Methods
+## Mutating Instance Methods
 
 ```
 extension Int {
@@ -104,7 +104,7 @@ someInt.square()
 // someInt is now 9
 ```
 
-### ---- Subscripts
+## Subscripts
 
 Extensions can add new subscripts to an existing type. This example adds an integer subscript to Swift’s built-in Int type. This subscript [n] returns the decimal digit n places in from the right of the number:
 
@@ -137,7 +137,7 @@ extension Int {
 0746381295[9]
 ```
 
-### ---- Nested Types
+## Nested Types
 
 Extensions can add new nested types to existing classes, structures, and enumerations:
 

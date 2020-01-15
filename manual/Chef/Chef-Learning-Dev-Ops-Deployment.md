@@ -1,21 +1,27 @@
 ---
 name: Chef Learning Dev Ops Deployment
-menu: Chef 
+menu: Chef
 ---
+
 # Learning Chef DevOps Deployment
 
 <!-- TOC -->
 
-*   [Learning Chef DevOps Deployment](#learning-chef-devops-deployment)
-    *   [CHEFOPS-1: Introduction to Chef](#chefops-1-introduction-to-chef) - [---- CHEFOPS-1.1: Chef Head first! Build and Deploy a MOTD Recipe.](#-----chefops-11-chef-head-first-build-and-deploy-a-motd-recipe) - [---- CHEFOPS-1.2: What is DevOps and it's relation to Chef?](#-----chefops-12-what-is-devops-and-its-relation-to-chef) - [---- CHEFOPS-1.3: What is Chef?](#-----chefops-13-what-is-chef) - [---- CHEFOPS-1.4: Common Chef Terminology](#-----chefops-14-common-chef-terminology) - [---- CHEFOPS-1.5: Chef Server](#-----chefops-15-chef-server)
-    *   [CHEFOPS-2: Building the Webserver Cookbook](#chefops-2-building-the-webserver-cookbook)
-    *   [CHEFOPS-3: Node Object and Search](#chefops-3-node-object-and-search)
-    *   [CHEFOPS-4: Data-Bags](#chefops-4-data-bags)
-    *   [CHEFOPS-5: Chef Environments](#chefops-5-chef-environments)
-    *   [CHEFOPS-6: Roles](#chefops-6-roles)
-    *   [CHEFOPS-7: Extending Chef](#chefops-7-extending-chef)
-    *   [CHEFOPS-8: Deploying Nodes in Production](#chefops-8-deploying-nodes-in-production)
-    *   [CHEFOPS-9: Using OpenSource Chef Server](#chefops-9-using-opensource-chef-server)
+- [Learning Chef DevOps Deployment](#learning-chef-devops-deployment)
+  - [CHEFOPS-1: Introduction to Chef](#chefops-1-introduction-to-chef)
+    - [CHEFOPS-1.1: Chef Head first! Build and Deploy a MOTD Recipe.](#chefops-11-chef-head-first-build-and-deploy-a-motd-recipe)
+    - [CHEFOPS-1.2: What is DevOps and it's relation to Chef?](#chefops-12-what-is-devops-and-its-relation-to-chef)
+    - [CHEFOPS-1.3: What is Chef?](#chefops-13-what-is-chef)
+    - [CHEFOPS-1.4: Common Chef Terminology](#chefops-14-common-chef-terminology)
+    - [CHEFOPS-1.5: Chef Server](#chefops-15-chef-server)
+  - [CHEFOPS-2: Building the Webserver Cookbook](#chefops-2-building-the-webserver-cookbook)
+  - [CHEFOPS-3: Node Object and Search](#chefops-3-node-object-and-search)
+  - [CHEFOPS-4: Data-Bags](#chefops-4-data-bags)
+  - [CHEFOPS-5: Chef Environments](#chefops-5-chef-environments)
+  - [CHEFOPS-6: Roles](#chefops-6-roles)
+  - [CHEFOPS-7: Extending Chef](#chefops-7-extending-chef)
+  - [CHEFOPS-8: Deploying Nodes in Production](#chefops-8-deploying-nodes-in-production)
+  - [CHEFOPS-9: Using OpenSource Chef Server](#chefops-9-using-opensource-chef-server)
 
 <!-- /TOC -->
 
@@ -38,7 +44,7 @@ Have at least one "node" to touch base with.
 
 You will know how to deploy out other applications and be able to use it in your own deployment environments.
 
-#### ---- CHEFOPS-1.1: Chef Head first! Build and Deploy a MOTD Recipe.
+### CHEFOPS-1.1: Chef Head first! Build and Deploy a MOTD Recipe.
 
 Have a lab server set up that will be a workstation. The workstation will be where the DevOp uses this to write the scripts and send this up to Chef.
 
@@ -166,7 +172,7 @@ We can now run `chef-client` to run a convergence. Afterwards, we can change to 
 
 If we head to `/var/chef`, we can find a backup file and we can find the backup file. It even creates a back up of the backup just in case we need to back it up.
 
-#### ---- CHEFOPS-1.2: What is DevOps and it's relation to Chef?
+### CHEFOPS-1.2: What is DevOps and it's relation to Chef?
 
 DevOps is how well people work together and how streamlined our projects actually are.
 
@@ -188,7 +194,7 @@ As SysAdmins it's about being able to deploy and manage infrastructures using co
 
 DevOps is one of the biggest requests right now.
 
-#### ---- CHEFOPS-1.3: What is Chef?
+### CHEFOPS-1.3: What is Chef?
 
 Chef turns Infrastructure into code.
 
@@ -223,7 +229,7 @@ Chef Server
 
 We can have chef jump into these servers and update certain things.
 
-#### ---- CHEFOPS-1.4: Common Chef Terminology
+### CHEFOPS-1.4: Common Chef Terminology
 
 If you understand this, it will click quicker.
 
@@ -333,14 +339,14 @@ Means a recipe can run multiple times on the same system and the results will al
 
 If we continue to run a recipe over and over again, it will give the same results based on our policy.
 
-#### ---- CHEFOPS-1.5: Chef Server
+### CHEFOPS-1.5: Chef Server
 
 **Two Types of Chef Server**
 
 1.  OpenSource Chef-server
 
-*   Free version of Chef
-*   Each instance of the server must be configured and managed locally (includes all aspects of managing the server, updates, migrations, scalability etc.)
+- Free version of Chef
+- Each instance of the server must be configured and managed locally (includes all aspects of managing the server, updates, migrations, scalability etc.)
 
 The limitations with this is that it is not inherently scalable by default. Organisations also cannot communicate with each other.
 
@@ -348,36 +354,36 @@ Enterprise, however, is scalable by design.
 
 2.  Chef-server Enterprise (hosted)
 
-*   Scalable by design
-*   Available organisations
-*   Always available
-*   Resource-based access control
+- Scalable by design
+- Available organisations
+- Always available
+- Resource-based access control
 
 This is always available. It is inherently another back up of our set up.
 
 3.  Chef-server enterprise (on-premise)
 
-*   Scalable by design
-*   Available organisations
-*   Hosted on-premise behind your firewall
-*   Managed yourself
+- Scalable by design
+- Available organisations
+- Hosted on-premise behind your firewall
+- Managed yourself
 
 Onus is on the user to deal with organisations and policies.
 
 **Chef Enterprise**
 
-*   Allows the creation of organisations - Organisations separate the infrastructure, policies and cookbooks - Nodes are registered in organisations - Nothing shared between organisations - Enterprise chef server can contain many different organisations - OpenSource chef the local individual server acts as an organisation and does not allow creation of organisations. - Organisations can represent different companies, department, infrastructures, applications and so forth.
-*   For each organisation in order to start bootstrapping nodes you need to download the starter kit.
-*   Starter kit provides security credentials (validation.pem keys) to authenticate each node to the chef server.
-*   Chef enterprise scales by design to handle thousands of nodes and different organisations.
+- Allows the creation of organisations - Organisations separate the infrastructure, policies and cookbooks - Nodes are registered in organisations - Nothing shared between organisations - Enterprise chef server can contain many different organisations - OpenSource chef the local individual server acts as an organisation and does not allow creation of organisations. - Organisations can represent different companies, department, infrastructures, applications and so forth.
+- For each organisation in order to start bootstrapping nodes you need to download the starter kit.
+- Starter kit provides security credentials (validation.pem keys) to authenticate each node to the chef server.
+- Chef enterprise scales by design to handle thousands of nodes and different organisations.
 
 **Role of the server**
 
-*   Stores system config information (policies for nodes)
-*   Authenticates workstations and nodes
-*   Delivers configurations to nodes
-*   Chef server holds the config and the node check-ins to receive instructions on its desired state
-*   The node downloads config instructions from the server and does all of the work
+- Stores system config information (policies for nodes)
+- Authenticates workstations and nodes
+- Delivers configurations to nodes
+- Chef server holds the config and the node check-ins to receive instructions on its desired state
+- The node downloads config instructions from the server and does all of the work
 
 In the Chef Server website, we can see the policies of what's required and see things like content to see what files are there and what it requires.
 

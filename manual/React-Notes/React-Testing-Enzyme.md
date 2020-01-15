@@ -17,4 +17,4 @@ menu: React Notes
 
 <div id="subsection"></div>
 
-### ---- newSubSection
+## newSubSection

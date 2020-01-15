@@ -39,7 +39,7 @@ Google uses it to run billions of containers a day on Google Cloud.
 *   Control Page
 *   API
 
-### ---- Kubernetes Architecture
+## Kubernetes Architecture
 
 We will end up with one `Master/Controller` which can have _n_ Minions, which can have _n_ pods which themselves can container _n_ containers.
 
@@ -87,7 +87,7 @@ Kubernetes can then provide service discovery and handle routing with the static
 
 By default, although a service is only exposed inside a cluster, it can also be exposed outside a cluster as needed.
 
-### ---- Introduction to YAML
+## Introduction to YAML
 
 `Yet Another Markup Language`, although it moved to `YAML Ain't Markup Language`
 
@@ -129,7 +129,7 @@ Now to ensure that we can share and communicate values, we will install `etcd` a
 
 `yum install -y --enablerepo=virt7-docker-common-release kubernetes docker`
 
-### ---- Install and Configure the Master Controller
+## Install and Configure the Master Controller
 
 For the master, we want to edit the Kubernetes config file.
 
@@ -180,7 +180,7 @@ systemctl start etcd kube-apiserver kube-controller-manager kube-scheduler
 systemctl status etcd kube-apiserver kube-controller-manager kube-scheduler | grep"(running)" | wc -l
 
 ```
-### ---- Install and Configure the Minions
+## Install and Configure the Minions
 
 At this stage, we should be able to see the master controller from the minions.
 
@@ -217,7 +217,7 @@ systemctl start kube-proxy kubelet docker
 systemctl status kube-proxy kubelet docker | grep "(running)" | wc-l
 
 ```
-### ---- Exploring the Environment
+## Exploring the Environment
 
 We will use `kubectl` from the command line to control the cluster manager.
 
@@ -241,7 +241,7 @@ kubectl get nodes -o jsonpath='{.items[*].status.addresses[?(@.type=="ExternalIP
 
 ## Pods, Tags and Services
 
-### ---- Create and Deploy Pod Definitions
+## Create and Deploy Pod Definitions
 
 Let's start running containers in pods in our cluster.
 
@@ -313,7 +313,7 @@ kubectl port-forward nginx :80 &
 wget -q0- http://localhost:34853
 
 ```
-### ---- Tags, Labels and Selectors
+## Tags, Labels and Selectors
 
 Create `nginx-pod-label.yaml`
 ```
@@ -342,7 +342,7 @@ If we copy that .yaml file and rename `nginx` to `nginx2`, we can get info just 
 
 If we also do `kubectl decribe pod -l app=nginx2`, we'd just get the info for that name.
 
-### ---- Deployment State
+## Deployment State
 
 Create `nginx-deployment-prod.yaml`
 
@@ -384,7 +384,7 @@ If we create `nginx-deployment-dev-update.yaml` and just change a few things. If
 
 If we run `kubectl describe deployments ...`, we can get the details with things like the `StrategyType` etc.
 
-### ---- Multi-Pod (Container) Replication Controller
+## Multi-Pod (Container) Replication Controller
 
 Until now, we have been creating one or more pods either directly or using a file. However, there has only been one container in each of the pods that we've been working with.
 
@@ -441,7 +441,7 @@ If we delete a pod, we will still end up having a service! When we create a defi
 
 If there is an app error etc. the service will ensure that it gets back to the expected state.
 
-### ---- Create and Deploy Service Definitions
+## Create and Deploy Service Definitions
 
 Starting to put things together.
 
@@ -513,4 +513,4 @@ Now this idea is referring to a cluster of this IP. So now we've tied everything
 
 ## Logs, Scaling and Recovery
 
-### ---- Creating Temporary Pods at the Command Line
+## Creating Temporary Pods at the Command Line

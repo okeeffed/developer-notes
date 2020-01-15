@@ -31,11 +31,11 @@ A list of useful apps, extensions and more.
 
 A set of the apps available through the Chrome Store
 
-### ---- CA-Productivity
+## CA-Productivity
 
 1.  [Dewey Bookmarks](https://chrome.google.com/webstore/detail/dewey-bookmarks/aahpfefkmihhdabllidnlipghcjgpkdm) - Dewey adds custom tags, screenshots, and smarter search to your Chrome bookmarks.
 
-### ---- CA-Developer
+## CA-Developer
 
 1.  [Postman](https://chrome.google.com/webstore/detail/postman/fhbjgbiflinjbdggehcddcbncdddomop) - Build, test, and document your APIs faster
 
@@ -47,7 +47,7 @@ A set of the apps available through the Chrome Store
 
 Tips: Go into your Chrome Settings > Extensions and set up short cut keys for better productivity
 
-### ---- CE-Productivity
+## CE-Productivity
 
 1.  [1Password](https://chrome.google.com/webstore/detail/1password-password-manage/aomjjhallfgjeglblehebfpbcfeobpgk)
 
@@ -65,7 +65,7 @@ Tips: Go into your Chrome Settings > Extensions and set up short cut keys for be
 
 8.  [Evernote](https://chrome.google.com/webstore/detail/evernote-web-clipper/pioclpoplcdbaefihamjohnefbikjilc)
 
-### ---- CE-Developer
+## CE-Developer
 
 1.  [Chrome Sniffer Plus](https://chrome.google.com/webstore/detail/chrome-sniffer-plus/fhhdlnnepfjhlhilgmeepgkhjmhhhjkh) - Sniff web framework and javascript libraries run on browsing website.
 
@@ -114,7 +114,7 @@ Tips: Go into your Chrome Settings > Extensions and set up short cut keys for be
 
 ## PB: Podcasts and Blogs
 
-### ---- PB: Web Dev and Design
+## PB: Web Dev and Design
 
 *   [HackerNews](https://news.ycombinator.com/)
 *   [Smashing Magazine](https://www.smashingmagazine.com/)
@@ -128,7 +128,7 @@ Tips: Go into your Chrome Settings > Extensions and set up short cut keys for be
 *   [JavaScript Jabber](https://devchat.tv/js-jabber)
 *   [NodeUp](http://nodeup.com/)
 
-### ---- PB: iOS
+## PB: iOS
 
 *   [Swift Blog](https://developer.apple.com/swift/blog/)
 *   [Ray Wenderlich](http://www.raywenderlich.com/)
@@ -141,7 +141,7 @@ Tips: Go into your Chrome Settings > Extensions and set up short cut keys for be
 *   [More Than Just Code](http://mtjc.fm/)
 *   [iOhYes](http://5by5.tv/iohyes)
 
-### ---- PB: DevOps, SysOps
+## PB: DevOps, SysOps
 
 *   [DevOps.com](https://devops.com/)
 *   [Docker Blog](https://blog.docker.com/)
@@ -150,7 +150,7 @@ Tips: Go into your Chrome Settings > Extensions and set up short cut keys for be
 *   [Google Cloud Platform Blog](https://cloudplatform.googleblog.com/)
 *   [4SysOps](https://4sysops.com/)
 
-### ---- PB: Software Engineering
+## PB: Software Engineering
 
 *   [Code Simplicity](http://www.codesimplicity.com/)
 *   [Scott Berkin](http://scottberkun.com/blog/)

@@ -229,7 +229,7 @@ Controller Views
 
 `npm start` from the ReduxSimpleStarter
 
-#### ---- REDUX-2.1: What is a Reducer?
+### REDUX-2.1: What is a Reducer?
 
 A function that returns the state.
 
@@ -293,7 +293,7 @@ const rootReducer = combineReducers({
 export default rootReducer;
 ```
 
-#### ---- REDUX-2.2: Containers - Connecting Redux to React
+### REDUX-2.2: Containers - Connecting Redux to React
 
 **In components/book-list.js**
 
@@ -353,7 +353,7 @@ The app component should be a "dumb component".
 
 **Remember: Only the most parent component should become the container**
 
-#### ---- REDUX-2.3: Implementation of a container class
+### REDUX-2.3: Implementation of a container class
 
 **in app.js**
 
@@ -498,7 +498,7 @@ switch (action.type) {
 
 5.  All reducers processed the action and returned new state. New state has been assembled. Notify containers of the changes to state. On notification, containers will re-render with new props.
 
-#### ---- REDUX-3.1: Binding Action Creators
+### REDUX-3.1: Binding Action Creators
 
 **In actions/index.js**
 
@@ -564,7 +564,7 @@ function mapDispatchToProps(dispatch) {
 export default connect(mapStateToProps, mapDispatchToProps)(BookList);
 ```
 
-#### ---- REDUX-3.2: Creating an Action
+### REDUX-3.2: Creating an Action
 
 **In containers/book-list.js**
 
@@ -642,7 +642,7 @@ export function selectBook(book) {
 }
 ```
 
-#### ---- REDUX-3.3: Consuming Actions in Reducers
+### REDUX-3.3: Consuming Actions in Reducers
 
 The result of the action container is automatically being sent to our reducers because of the dispatch.
 
@@ -747,7 +747,7 @@ function mapStateToProps(state) {
 export default connect(mapStateToProps)(BookDetail);
 ```
 
-#### ---- REDUX-3.4: Conditional Rendering
+### REDUX-3.4: Conditional Rendering
 
 **in containers/book-detail.js**
 
@@ -787,7 +787,7 @@ What we will do, is add an initial check in the BookDetail class. We can run a c
 
 The idea is that the application is now malleable enough to start adding things like extra book details etc.
 
-#### ---- REDUX-3.5: Redux intro review
+### REDUX-3.5: Redux intro review
 
 Things to take away:
 

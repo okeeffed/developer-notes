@@ -38,7 +38,7 @@ Ensure you select the Java version you want to use as well - demo was 1.8.
 
 One you are in the files have been downloaded by Gradle, open up the project structure and it'll end up creating a build script called `build.gradle`.
 
-### ---- GR-1.1: build.gradle
+## GR-1.1: build.gradle
 
 This is the main file that is defining things like the structure etc.
 
@@ -63,7 +63,7 @@ dependencies {
 
 The `apply` is for things like folder structure etc. - you may notice that this is also the `Groovy` language.
 
-### ---- GR-1.2: gradlew and gradlew.bat
+## GR-1.2: gradlew and gradlew.bat
 
 These files are the Gradle wrappers that makes sure that everyone can build and test the project the same way.
 

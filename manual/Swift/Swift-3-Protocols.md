@@ -50,7 +50,7 @@ var ncc1701 = Starship(name: "Enterprise", prefix: "USS")
 
 <div id="functions"></div>
 
-### ---- Protocol functions
+## Protocol functions
 
 ```
 protocol RandomNumberGenerator {
@@ -79,7 +79,7 @@ lightSwitch.toggle()
 
 <div id="init"></div>
 
-### ---- Initialiser Requirements
+## Initialiser Requirements
 
 ```
 protocol SomeProtocol {
@@ -116,7 +116,7 @@ class SomeSubClass: SomeSuperClass, SomeProtocol {
 
 <div id="delegates"></div>
 
-### ---- Protocol Delegation
+## Protocol Delegation
 
 ```
 protocol DiceGame {
@@ -194,7 +194,7 @@ game.play()
 
 <div id="conforming"></div>
 
-### ---- Protocol Conformance
+## Protocol Conformance
 
 ```
 protocol TextRepresentable {
@@ -244,7 +244,7 @@ for thing in things {
 
 <div id="inheritance"></div>
 
-### ---- Protocol Inheritance
+## Protocol Inheritance
 
 A protocol can inherit one or more other protocols and can add further requirements on top of the requirements it inherits. The syntax for protocol inheritance is similar to the syntax for class inheritance, but with the option to list multiple inherited protocols, separated by commas:
 
@@ -260,7 +260,7 @@ protocol PrettyTextRepresentable: TextRepresentable {
 
 <div id="composition"></div>
 
-### ---- Protocol Composition
+## Protocol Composition
 
 ```
 protocol Named {
@@ -283,7 +283,7 @@ wishHappyBirthday(to: birthdayPerson)
 
 <div id="conformance"></div>
 
-### ---- Protocol Conformance
+## Protocol Conformance
 
 How to check if a class conforms?
 

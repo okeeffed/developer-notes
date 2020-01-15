@@ -57,7 +57,7 @@ menu: CSS
 
 <div id="newSection"></div>
 
-### ---- One Component per file
+## One Component per file
 
 For each component, place them in their own file.
 
@@ -76,7 +76,7 @@ For each component, place them in their own file.
 
 <div id="newSection"></div>
 
-### ---- Nesting
+## Nesting
 
 Use no more than 1 level of nesting. It's easy to get lost with too much nesting.
 

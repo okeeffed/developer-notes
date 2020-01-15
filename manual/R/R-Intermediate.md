@@ -58,7 +58,7 @@ Alphabetical order with relate to alphabet and T/F will go 1/0
 
 <div id="2"></div>
 
-### ---- Greater than or less than
+## Greater than or less than
 
 ```
 # Comparison of numerics
@@ -76,7 +76,7 @@ Alphabetical order with relate to alphabet and T/F will go 1/0
 
 <div id="3"></div>
 
-### ---- Compare Vectors
+## Compare Vectors
 
 ```
 > linkedin <- c(16, 9, 13, 5, 2, 17, 14)
@@ -97,7 +97,7 @@ Alphabetical order with relate to alphabet and T/F will go 1/0
 
 <div id="4"></div>
 
-### ---- Compare Matrices
+## Compare Matrices
 
 ```
 > linkedin <- c(16, 9, 13, 5, 2, 17, 14)
@@ -117,7 +117,7 @@ Alphabetical order with relate to alphabet and T/F will go 1/0
 [2,] FALSE TRUE TRUE FALSE TRUE  TRUE TRUE
 ```
 
-### ---- Logical Operators
+## Logical Operators
 
 ```
 x <- 12
@@ -180,7 +180,7 @@ x > 5 & x < 15	# evaluates to TRUE
 
 <div id="5"></div>
 
-### ---- Conditional Statements
+## Conditional Statements
 
 ```
 if (condition) {
@@ -347,7 +347,7 @@ Make sure that the condition for a while loop because false at some stage.
 
 <div id="loop2"></div>
 
-### ---- For Loop
+## For Loop
 
 ```
 # The linkedin vector has already been defined for you
@@ -381,7 +381,7 @@ Make sure that the condition for a while loop because false at some stage.
 
 <div id="loops3"></div>
 
-### ---- Looping Over a List
+## Looping Over a List
 
 ```
 primes_list <- list(2, 3, 5, 7, 11, 13)
@@ -628,7 +628,7 @@ Note that you can use function calls within functions calls.
 
 <div id="writingfunctions"></div>
 
-### ---- Writing Functions
+## Writing Functions
 
 ```
 # Create a function pow_two()
@@ -756,7 +756,7 @@ Note that you can use function calls within functions calls.
 
 <div id="packages"></div>
 
-### ---- Packages
+## Packages
 
 To install... `install.packages(<install package>)`
 
@@ -848,7 +848,7 @@ How about using `lapply` with your own functions?
 
 <div id="anon"></div>
 
-### ---- Anonymous Functions
+## Anonymous Functions
 
 ```
 > pioneers <- c("GAUSS:1777", "BAYES:1702", "PASCAL:1623", "PEARSON:1857")
@@ -886,7 +886,7 @@ How about using `lapply` with your own functions?
 
 ---
 
-### ---- sapply
+## sapply
 
 Whereas lapply() returns a list, sapply() - instead of unlist() function on that returned list, we can used sapply() for "simplified apply" and it will result in a named vector. We can also have matrices retured too!
 
@@ -1106,7 +1106,7 @@ The average temperature is 4.6
 
 ---
 
-### ---- vapply()
+## vapply()
 
 ```
 lapply() : apply function over list or vector
@@ -1188,7 +1188,7 @@ rev()
 [1] 4.48
 ```
 
-### ---- Data Utilities
+## Data Utilities
 
 R features a bunch of functions to juggle around with data structures::
 
@@ -1230,7 +1230,7 @@ Remember the social media profile view data? Your LinkedIn and Facebook view cou
 
 <div id="gauss"></div>
 
-### ---- Beat Gauss using R
+## Beat Gauss using R
 
 There is a popular story about young Gauss. As a pupil, he had a lazy teacher who wanted to keep the classroom busy by having them add up the numbers 1 to 100. Gauss came up with an answer almost instantaneously, 5050. On the spot, he had developed a formula for calculating the sum of an arithmetic series. There are more general formulas for calculating the sum of an arithmetic series with different starting values and increments. Instead of deriving such a formula, why not use R to calculate the sum of a sequence?
 
@@ -1248,7 +1248,7 @@ There is a popular story about young Gauss. As a pupil, he had a lazy teacher wh
 
 <div id="regex"></div>
 
-### ---- Regex
+## Regex
 
 ```
 grepl(patter = <regex>, x = <string>)
@@ -1294,7 +1294,7 @@ sub(pattern = <regex>, replacement = <str>, x = <str>)
 
 <div id="sub"></div>
 
-### ---- sub & gsub
+## sub & gsub
 
 While grep() and grepl() were used to simply check whether a regular expression could be matched with a character vector, sub() and gsub() take it one step further: you can specify a replacement argument. If inside the character vector x, the regular expression pattern is found, the matching element(s) will be replaced with replacement.sub() only replaces the first match, whereas gsub() replaces all matches.
 

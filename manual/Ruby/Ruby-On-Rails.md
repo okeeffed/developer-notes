@@ -5,6 +5,12 @@ name: Ruby On Rails
 
 # Ruby On Rails
 
+## Resources
+
+1. [Getting Start with Rails](https://guides.rubyonrails.org/getting_started.html)
+2. [HTTP Requests in Rails Apps](https://thoughtbot.com/blog/back-to-basics-http-requests)
+3. [Action Controlller Overview](https://guides.rubyonrails.org/v5.2/action_controller_overview.html)
+
 ## tl;dr
 
 ```shell

@@ -42,7 +42,7 @@ Setting up RN for iOS and Android.
 
 ## RNREDUX-2: React Native 101
 
-### ---- RNREDUX-2.1: Project Directory/Screen Content
+## RNREDUX-2.1: Project Directory/Screen Content
 
 **ios and android**
 
@@ -84,7 +84,7 @@ const App => () => (
 AppRegistry.registerComponent('albums', () => App);
 ```
 
-### ---- RNREDUX-2.2: React vs React Native
+## RNREDUX-2.2: React vs React Native
 
 Both are distinct libraries. RN is essentially the handle to getting things onto a device!
 
@@ -102,7 +102,7 @@ Both are distinct libraries. RN is essentially the handle to getting things onto
 
 ## RNREDUX-4: HTTP Requests with React Native
 
-### ---- RNREDUX-4.1: Sourcing Album Data
+## RNREDUX-4.1: Sourcing Album Data
 
 For the idea of creating is a label is to create two components.
 
@@ -127,7 +127,7 @@ const AlbumView = () => {
 export default AlbumList;
 ```
 
-### ---- RNREDUX-4.2: Functional Component vs Class Component
+## RNREDUX-4.2: Functional Component vs Class Component
 
 **Functional Component**
 
@@ -177,7 +177,7 @@ class AlbumView extends Component {
 export default AlbumList;
 ```
 
-### ---- RNREDUX-4.3: Fetching Data with Lifecycle Methods
+## RNREDUX-4.3: Fetching Data with Lifecycle Methods
 
 Class based components themselves KNOW when they're about to rendered.
 
@@ -256,7 +256,7 @@ class AlbumView extends Component {
 export default AlbumList;
 ```
 
-### ---- RNREDUX-4.4: Rendering a List of Components
+## RNREDUX-4.4: Rendering a List of Components
 
 Only use state with class level components (not functional components)
 
@@ -369,7 +369,7 @@ class AlbumView extends Component {
 export default AlbumList;
 ```
 
-### ---- RNREDUX-4.5: Creating Reusable Components
+## RNREDUX-4.5: Creating Reusable Components
 
 For styling, it is sometimes useful to make components within components for layout purposes!
 
@@ -431,7 +431,7 @@ const AlbumDetail = (props) => {
 export default AlbumDetail;
 ```
 
-### ---- RNREDUX-4.5: Turn a Component into Sections
+## RNREDUX-4.5: Turn a Component into Sections
 
 **CardSection.js**
 
@@ -483,7 +483,7 @@ export default AlbumDetail;
 
 ## RNREDUX-5: Handling Component Layout
 
-### ---- RNREDUX-5.1: Mastering Layout with Flexbox
+## RNREDUX-5.1: Mastering Layout with Flexbox
 
 Designing for web from personal experience is generally easier than React Native.
 
@@ -584,7 +584,7 @@ const styles = {
 };
 ```
 
-### ---- RNREDUX-5.2: Making Content Scrollable and Handling Input
+## RNREDUX-5.2: Making Content Scrollable and Handling Input
 
 **ScrollView**
 
@@ -658,7 +658,7 @@ const styles = {
 export default Button;
 ```
 
-### ---- RNREDUX-5.3: Responding to User Input
+## RNREDUX-5.3: Responding to User Input
 
 **Card.js**
 
@@ -767,7 +767,7 @@ export default Button;
 
 ## RNREDUX-8: Redux inside of React Native
 
-### ---- RNREDUX-8.1: Redux Boilerplate
+## RNREDUX-8.1: Redux Boilerplate
 
 The <Provider> tag works together with the Store. The Store is what holds the Application State.
 
@@ -812,7 +812,7 @@ export default combineReducers({
 });
 ```
 
-### ---- RNREDUX-8.2: Reducer and State Design
+## RNREDUX-8.2: Reducer and State Design
 
 How can we tap on something and move to show more detail?
 
@@ -998,7 +998,7 @@ We essentially define a `Scene` for each distinct screens. For example.
 
 <div id="nav2"></div>
 
-### ---- Navigation in the Router
+## Navigation in the Router
 
 ```
 // Create a router.js
@@ -1044,7 +1044,7 @@ So how do we move between these scenes?
 
 <div id="nav3"></div>
 
-### ---- Navigating between routes
+## Navigating between routes
 
 Navigation will happen from an action.
 
@@ -1065,7 +1065,7 @@ export const loginUserSuccess = (dispatch, user) => {
 
 <div id="nav4"></div>
 
-### ---- Grouping Scenes with 'Buckets'
+## Grouping Scenes with 'Buckets'
 
 Making decisions on how the header should render.
 
@@ -1099,7 +1099,7 @@ const RouterComponent = () => {
 
 We can use the `initial` prop within these `buckets` to let which component within a bucket to have an initial prop
 
-### ---- Actions to navigate between buckets
+## Actions to navigate between buckets
 
 These actions can be added using
 
@@ -1119,7 +1119,7 @@ const loginUserSuccess = (dispatch, user) => {
 
 <div id="nav5"></div>
 
-### ---- Form updates at a reducer level / Dynamic Property updates
+## Form updates at a reducer level / Dynamic Property updates
 
 Example reducer function with ES6 dynamic change.
 

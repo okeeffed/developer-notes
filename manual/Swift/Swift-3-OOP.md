@@ -1,22 +1,11 @@
 ---
 name: Swift 3 OOP
-menu: Swift 
+menu: Swift
 ---
+
 # Swift 3 OOP
 
-<!-- TOC -->
-
-*   [Swift 3 OOP](#swift-3-oop)
-    *   [Structs](#structs)
-    *   [Instances of Objects](#instances-of-objects)
-    *   [Methods](#methods)
-    *   [Initialisers and Self](#initialisers-and-self)
-    *   [Class](#class)
-    *   [Inheritance](#inheritance)
-    *   [Structs vs Classes](#structs-vs-classes)
-        *   [---- Value type vs Reference type](#-----value-type-vs-reference-type)
-
-<!-- /TOC -->
+<!-- TOC -->autoauto- [Swift 3 OOP](#swift-3-oop)auto  - [Structs](#structs)auto  - [Instances of Objects](#instances-of-objects)auto  - [Methods](#methods)auto  - [Initialisers and Self](#initialisers-and-self)auto  - [Class](#class)auto  - [Inheritance](#inheritance)auto  - [Structs vs Classes](#structs-vs-classes)auto  - [Value type vs Reference type](#value-type-vs-reference-type)autoauto<!-- /TOC -->
 
 ---
 
@@ -64,8 +53,8 @@ Login.password
 
 ## Methods
 
-*   Declaring empty arrays that infer a type `var results: [Point] = []`
-*   Declaring it the preferred way `var results = [Point]()`
+- Declaring empty arrays that infer a type `var results: [Point] = []`
+- Declaring it the preferred way `var results = [Point]()`
 
 ```
 struct PointTwo {
@@ -319,6 +308,6 @@ anotherPerson.email
 
 <div id="valuevsref"></div>
 
-### ---- Value type vs Reference type
+## Value type vs Reference type
 
 Values are copied across, references are not. All `structs` are value types.

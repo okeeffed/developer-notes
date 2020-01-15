@@ -9,7 +9,7 @@ menu: Python
 
 ## PYINT-1: Matplotlib
 
-### ---- PYINT-1.1: Basic plots
+## PYINT-1.1: Basic plots
 
 Using `pyplot`
 
