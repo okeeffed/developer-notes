@@ -20,30 +20,50 @@ This sections covers some of the concepts behind databases and the ins + outs.
 7. [NewSQL Databases](https://en.wikipedia.org/wiki/NewSQL)
 8. [Top NewSQL DBs](https://en.wikipedia.org/wiki/NewSQL)
 9. [Column-Oriented DBMS](https://en.wikipedia.org/wiki/Column-oriented_DBMS)
+10. [DB Rankings](https://db-engines.com/en/ranking)
+11. [Express Response Times Example](https://github.com/node-influx/node-influx/tree/master/examples/express_response_times)
 
 ### Books
 
 - [Designing Data-Intensive Applications](https://www.goodreads.com/book/show/23463279-designing-data-intensive-applications)
 - [Database Internals](https://www.goodreads.com/book/show/44647144-database-internals)
 
-## Different Databases
+## Key-Value databases
 
-## In-memory cache databases
+Note: MemSQL and VoltDB also falls under this category but is denoted under `NewSQL`.
 
-- [Redis](https://redis.io/): Redis is an open source (BSD licensed), in-memory data structure store, used as a database, cache and message broker. It supports data structures such as strings, hashes, lists, sets, sorted sets with range queries, bitmaps, hyperloglogs, geospatial indexes with radius queries and streams. Redis has built-in replication, Lua scripting, LRU eviction, transactions and different levels of on-disk persistence, and provides high availability via Redis Sentinel and automatic partitioning with Redis Cluster.
+- [Redis](https://redis.io/): Redis is an open source (BSD licensed), in-memory data structure store, used as a database, cache and message broker. It supports data structures such as strings, hashes, lists, sets, sorted sets with range queries, bitmaps, hyperloglogs, geospatial indexes with radius queries and streams. Redis has built-in replication, Lua scripting, LRU eviction, transactions and different levels of on-disk persistence, and provides high availability via Redis Sentinel and automatic partitioning with Redis Cluster. The name Redis means REmote DIctionary Server.
+- [etcd](https://github.com/etcd-io/etcd): etcd is a distributed reliable key-value store for the most critical data of a distributed system, with a focus on being simple, secure, fast and reliable.
+
+## Graph databases
+
+- [Neo4j](https://github.com/neo4j/neo4j): Neo4j is the world’s leading Graph Database. It is a high performance graph store with all the features expected of a mature and robust database, like a friendly query language and ACID transactions. The programmer works with a flexible network structure of nodes and relationships rather than static tables — yet enjoys all the benefits of enterprise-quality database. For many applications, Neo4j offers orders of magnitude performance benefits compared to relational DBs.
+
+## Time-Series databases
+
+- [InfluxDB](https://en.wikipedia.org/wiki/InfluxDB): InfluxDB is an open-source time series database (TSDB) developed by InfluxData. It is written in Go and optimized for fast, high-availability storage and retrieval of time series data in fields such as operations monitoring, application metrics, Internet of Things sensor data, and real-time analytics. It also has support for processing data from Graphite.
+
+## Search Engine databases
+
+- [Splunk](https://en.wikipedia.org/wiki/Splunk): Splunk (the product) captures, indexes, and correlates real-time data in a searchable repository from which it can generate graphs, reports, alerts, dashboards, and visualizations.
+- [ElasticSearch](https://en.wikipedia.org/wiki/Elasticsearch): Elasticsearch can be used to search all kinds of documents. It provides scalable search, has near real-time search, and supports multitenancy. "Elasticsearch is distributed, which means that indices can be divided into shards and each shard can have zero or more replicas. Each node hosts one or more shards, and acts as a coordinator to delegate operations to the correct shard(s). Rebalancing and routing are done automatically". Related data is often stored in the same index, which consists of one or more primary shards, and zero or more replica shards. Once an index has been created, the number of primary shards cannot be changed. Elasticsearch is developed alongside a data collection and log-parsing engine called Logstash, an analytics and visualisation platform called Kibana, and Beats, a collection of lightweight data shippers. The four products are designed for use as an integrated solution, referred to as the "Elastic Stack" (formerly the "ELK stack").
+
+## Document databases
+
+- [DynamoDB](https://en.wikipedia.org/wiki/Amazon_DynamoDB): Amazon DynamoDB is a fully managed proprietary NoSQL database service that supports key-value and document data structures and is offered by Amazon.com as part of the Amazon Web Services portfolio. DynamoDB exposes a similar data model to and derives its name from Dynamo, but has a different underlying implementation. Dynamo had a multi-master design requiring the client to resolve version conflicts and DynamoDB uses synchronous replication across multiple data centers for high durability and availability.
+- [Couchbase](https://en.wikipedia.org/wiki/Couchbase_Server): Couchbase Server, originally known as Membase, is an open-source, distributed (shared-nothing architecture) multi-model NoSQL document-oriented database software package that is optimized for interactive applications. These applications may serve many concurrent users by creating, storing, retrieving, aggregating, manipulating and presenting data. In support of these kinds of application needs, Couchbase Server is designed to provide easy-to-scale key-value or JSON document access with low latency and high sustained throughput. It is designed to be clustered from a single machine to very large-scale deployments spanning many machines.
+
+## Wide column store databases
+
+- [Cassandra](https://cassandra.apache.org/): Apache Cassandra is a highly scalable, high-performance distributed database designed to handle large amounts of data across many commodity servers, providing high availability with no single point of failure. A top level Apache project born at Facebook and built on Amazon’s Dynamo and Google’s BigTable, is a distributed database for managing large amounts of structured data across many commodity servers, while providing highly available service and no single point of failure. Apache Cassandra offers capabilities that relational databases and other NoSQL databases simply cannot match such as: continuous availability, linear scale performance, operational simplicity and easy data distribution across multiple data centers and cloud availability zones.
 
 ## Relational databases
 
 - [Postgres](https://github.com/postgres/postgres): PostgreSQL is an advanced object-relational database management system that supports an extended subset of the SQL standard, including transactions, foreign keys, subqueries, triggers, user-defined types and functions. This distribution also contains C language bindings.
-- [MySQL]:
+- [MySQL](https://en.wikipedia.org/wiki/MySQL):
 - [MariaDB](https://en.wikipedia.org/wiki/MariaDB): MariaDB is a community-developed, commercially supported fork of the MySQL relational database management system (RDBMS), intended to remain free and open-source software under the GNU General Public License. Development is led by some of the original developers of MySQL, who forked it due to concerns over its acquisition by Oracle Corporation in 2009. MariaDB intended to maintain high compatibility with MySQL, ensuring a drop-in replacement capability with library binary parity and exact matching with MySQL APIs and commands. However, new features diverge more. It includes new storage engines like Aria, ColumnStore, and MyRocks.
 - [Amazon Redshift](https://en.wikipedia.org/wiki/Amazon_Redshift): Amazon Redshift is a data warehouse product which forms part of the larger cloud-computing platform Amazon Web Services. Redshift differs from Amazon's other hosted database offering, Amazon RDS, in its ability to handle analytic workloads on big data data sets stored by a column-oriented DBMS principle.
 - [Amazon RDS](https://en.wikipedia.org/wiki/Amazon_Relational_Database_Service): Amazon Relational Database Service (or Amazon RDS) is a distributed relational database service by Amazon Web Services (AWS). It is a web service running "in the cloud" designed to simplify the setup, operation, and scaling of a relational database for use in applications. Administration processes like patching the database software, backing up databases and enabling point-in-time recovery are managed automatically. Scaling storage and compute resources can be performed by a single API call as AWS does not offer an ssh connection to RDS instances.
-
-## Non-relational wide column store databases
-
-- [Cassandra](https://cassandra.apache.org/): Apache Cassandra is a highly scalable, high-performance distributed database designed to handle large amounts of data across many commodity servers, providing high availability with no single point of failure. A top level Apache project born at Facebook and built on Amazon’s Dynamo and Google’s BigTable, is a distributed database for managing large amounts of structured data across many commodity servers, while providing highly available service and no single point of failure. Apache Cassandra offers capabilities that relational databases and other NoSQL databases simply cannot match such as: continuous availability, linear scale performance, operational simplicity and easy data distribution across multiple data centers and cloud availability zones.
-- [DynamoDB](https://en.wikipedia.org/wiki/Amazon_DynamoDB): Amazon DynamoDB is a fully managed proprietary NoSQL database service that supports key-value and document data structures and is offered by Amazon.com as part of the Amazon Web Services portfolio. DynamoDB exposes a similar data model to and derives its name from Dynamo, but has a different underlying implementation. Dynamo had a multi-master design requiring the client to resolve version conflicts and DynamoDB uses synchronous replication across multiple data centers for high durability and availability.
 
 ## NewSQL databases
 
@@ -51,6 +71,7 @@ NewSQL is a class of relational database management systems that seek to provide
 
 - [MemSQL](https://www.memsql.com/): A modern relational database for cloud and on-premises that delivers immediate insights for modern applications and analytical systems. MemSQL also comes with tiered storage. Most NoSQL databases are disk-first, with some support for in-memory operations. MemSQL includes both and allows you to flexibly manage memory vs. disk usage.
 - [CockroachDB](https://github.com/cockroachdb/cockroach): CockroachDB is a distributed SQL database built on a transactional and strongly-consistent key-value store. It scales horizontally; survives disk, machine, rack, and even datacenter failures with minimal latency disruption and no manual intervention; supports strongly-consistent ACID transactions; and provides a familiar SQL API for structuring, manipulating, and querying data.
+- [VoltDB](https://www.voltdb.com/): VoltDB is an in-memory database designed by Michael Stonebraker (who earlier designed Ingres and PostgreSQL), Sam Madden, and Daniel Abadi. It is an ACID-compliant RDBMS that uses a shared nothing architecture. VoltDB is a NewSQL relational database that supports SQL access from within pre-compiled Java stored procedures. The unit of transaction is the stored procedure, written in Java interspersed with SQL. VoltDB relies on horizontal partitioning down to the individual hardware thread to scale, k-safety (synchronous replication) to provide high availability, and a combination of continuous snapshots and command logging for durability (crash recovery).
 
 ## CAP Theorem
 

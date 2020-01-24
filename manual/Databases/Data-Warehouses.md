@@ -11,6 +11,10 @@ name: Data Warehouses
 - [Building a data warehouse](https://chartio.com/learn/data-warehouses/basics-building-data-warehouse/)
 - [Data warehousing tutorial](https://www.tutorialspoint.com/dwh/index.htm)
 
+### Books
+
+- [The data warehouse toolkit](https://www.amazon.com/Data-Warehouse-Toolkit-Definitive-Dimensional/dp/1118530802/)
+
 ## What are data warehouses?
 
 A data warehouse (or enterprise data warehouse) stores large amounts of data that has been collected and integrated from multiple sources. Because organizations depend on this data for analytics or reporting purposes, the data needs to be consistently formatted and easily accessible – two qualities that define data warehousing and makes it essential to today’s businesses.
