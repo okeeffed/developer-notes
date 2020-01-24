@@ -30,12 +30,24 @@ This sections covers some of the concepts behind databases and the ins + outs.
 
 ## Key-Value databases
 
+Key-value stores are probably the simplest form of database management systems. They can only store pairs of keys and values, as well as retrieve values when a key is known.
+
+These simple systems are normally not adequate for complex applications. On the other hand, it is exactly this simplicity, that makes such systems attractive in certain circumstances. For example resource-efficient key-value stores are often applied in embedded systems or as high performance in-process databases.
+
+An extended form of key-value stores is able to sort the keys, and thus enables range queries as well as an ordered processing of keys.
+
+Many systems provide further extensions so that we see a fairly seamless transition to document stores and wide column stores.
+
 Note: MemSQL and VoltDB also falls under this category but is denoted under `NewSQL`.
 
 - [Redis](https://redis.io/): Redis is an open source (BSD licensed), in-memory data structure store, used as a database, cache and message broker. It supports data structures such as strings, hashes, lists, sets, sorted sets with range queries, bitmaps, hyperloglogs, geospatial indexes with radius queries and streams. Redis has built-in replication, Lua scripting, LRU eviction, transactions and different levels of on-disk persistence, and provides high availability via Redis Sentinel and automatic partitioning with Redis Cluster. The name Redis means REmote DIctionary Server.
 - [etcd](https://github.com/etcd-io/etcd): etcd is a distributed reliable key-value store for the most critical data of a distributed system, with a focus on being simple, secure, fast and reliable.
 
 ## Graph databases
+
+Graph DBMS, also called graph-oriented DBMS or graph database, represent data in graph structures as nodes and edges, which are relationships between nodes. They allow easy processing of data in that form, and simple calculation of specific properties of the graph, such as the number of steps needed to get from one node to another node.
+
+Graph DBMSs usually don't provide indexes on all nodes, direct access to nodes based on attribute values is not possible in these cases.
 
 - [Neo4j](https://github.com/neo4j/neo4j): Neo4j is the world’s leading Graph Database. It is a high performance graph store with all the features expected of a mature and robust database, like a friendly query language and ACID transactions. The programmer works with a flexible network structure of nodes and relationships rather than static tables — yet enjoys all the benefits of enterprise-quality database. For many applications, Neo4j offers orders of magnitude performance benefits compared to relational DBs.
 
