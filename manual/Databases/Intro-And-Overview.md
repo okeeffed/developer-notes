@@ -45,20 +45,33 @@ Note: MemSQL and VoltDB also falls under this category but is denoted under `New
 
 ## Graph databases
 
-Graph DBMS, also called graph-oriented DBMS or graph database, represent data in graph structures as nodes and edges, which are relationships between nodes. They allow easy processing of data in that form, and simple calculation of specific properties of the graph, such as the number of steps needed to get from one node to another node.
+Graph DBMS also called graph-oriented DBMS or graph database represent data in graph structures as nodes and edges, which are relationships between nodes. They allow easy processing of data in that form and simple calculation of specific properties of the graph - such as the number of steps needed to get from one node to another node.
 
 Graph DBMSs usually don't provide indexes on all nodes, direct access to nodes based on attribute values is not possible in these cases.
 
 - [Neo4j](https://github.com/neo4j/neo4j): Neo4j is the world’s leading Graph Database. It is a high performance graph store with all the features expected of a mature and robust database, like a friendly query language and ACID transactions. The programmer works with a flexible network structure of nodes and relationships rather than static tables — yet enjoys all the benefits of enterprise-quality database. For many applications, Neo4j offers orders of magnitude performance benefits compared to relational DBs.
+- OrientDB
 
 ## Time-Series databases
 
+A Time Series DBMS is a database management system that is optimized for handling time series data: each entry is associated with a timestamp.
+
+For example, time series data may be produced by sensors, smart meters or RFIDs in the so-called Internet of Things, or may depict the stock tickers of a high frequency stock trading system.
+
+Time Series DBMS are designed to efficiently collect, store and query various time series with high transaction volumes. Although time series data can be managed with other categories of DBMS (from key-value stores to relational systems), the specific challenges often require specialized systems.
+
+E.g. a query like 'SELECT SENSOR1_CPU_FREQUENCY / SENSOR2_HEAT' joins two time series based on the overlapping areas of time for each and outputs a single composite time series.
+
 - [InfluxDB](https://en.wikipedia.org/wiki/InfluxDB): InfluxDB is an open-source time series database (TSDB) developed by InfluxData. It is written in Go and optimized for fast, high-availability storage and retrieval of time series data in fields such as operations monitoring, application metrics, Internet of Things sensor data, and real-time analytics. It also has support for processing data from Graphite.
+- [Prometheus](https://github.com/prometheus/prometheus): Prometheus, a Cloud Native Computing Foundation project, is a systems and service monitoring system. It collects metrics from configured targets at given intervals, evaluates rule expressions, displays the results, and can trigger alerts if some condition is observed to be true.
 
 ## Search Engine databases
 
+Search engines are NoSQL database management systems dedicated to the search for data content.
+
 - [Splunk](https://en.wikipedia.org/wiki/Splunk): Splunk (the product) captures, indexes, and correlates real-time data in a searchable repository from which it can generate graphs, reports, alerts, dashboards, and visualizations.
 - [ElasticSearch](https://en.wikipedia.org/wiki/Elasticsearch): Elasticsearch can be used to search all kinds of documents. It provides scalable search, has near real-time search, and supports multitenancy. "Elasticsearch is distributed, which means that indices can be divided into shards and each shard can have zero or more replicas. Each node hosts one or more shards, and acts as a coordinator to delegate operations to the correct shard(s). Rebalancing and routing are done automatically". Related data is often stored in the same index, which consists of one or more primary shards, and zero or more replica shards. Once an index has been created, the number of primary shards cannot be changed. Elasticsearch is developed alongside a data collection and log-parsing engine called Logstash, an analytics and visualisation platform called Kibana, and Beats, a collection of lightweight data shippers. The four products are designed for use as an integrated solution, referred to as the "Elastic Stack" (formerly the "ELK stack").
+- Solr
 
 ## Document databases
 
@@ -67,7 +80,10 @@ Graph DBMSs usually don't provide indexes on all nodes, direct access to nodes b
 
 ## Wide column store databases
 
+Wide column stores, also called extensible record stores, store data in records with an ability to hold very large numbers of dynamic columns. Since the column names as well as the record keys are not fixed, and since a record can have billions of columns, wide column stores can be seen as two-dimensional key-value stores.
+
 - [Cassandra](https://cassandra.apache.org/): Apache Cassandra is a highly scalable, high-performance distributed database designed to handle large amounts of data across many commodity servers, providing high availability with no single point of failure. A top level Apache project born at Facebook and built on Amazon’s Dynamo and Google’s BigTable, is a distributed database for managing large amounts of structured data across many commodity servers, while providing highly available service and no single point of failure. Apache Cassandra offers capabilities that relational databases and other NoSQL databases simply cannot match such as: continuous availability, linear scale performance, operational simplicity and easy data distribution across multiple data centers and cloud availability zones.
+- HBase
 
 ## Relational databases
 
