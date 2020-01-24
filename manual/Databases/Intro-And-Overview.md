@@ -17,6 +17,8 @@ This sections covers some of the concepts behind databases and the ins + outs.
 4. [CAP theorem](https://en.wikipedia.org/wiki/CAP_theorem)
 5. [ACID properties](https://en.wikipedia.org/wiki/ACID)
 6. [BASE: Eventual consistency](https://en.wikipedia.org/wiki/Eventual_consistency)
+7. [NewSQL Databases](https://en.wikipedia.org/wiki/NewSQL)
+8. [Top NewSQL DBs](https://en.wikipedia.org/wiki/NewSQL)
 
 ### Books
 
@@ -36,6 +38,13 @@ This sections covers some of the concepts behind databases and the ins + outs.
 ## Non-relational wide column store databases
 
 - [Cassandra](https://cassandra.apache.org/): Apache Cassandra is a highly scalable, high-performance distributed database designed to handle large amounts of data across many commodity servers, providing high availability with no single point of failure. A top level Apache project born at Facebook and built on Amazon’s Dynamo and Google’s BigTable, is a distributed database for managing large amounts of structured data across many commodity servers, while providing highly available service and no single point of failure. Apache Cassandra offers capabilities that relational databases and other NoSQL databases simply cannot match such as: continuous availability, linear scale performance, operational simplicity and easy data distribution across multiple data centers and cloud availability zones.
+
+## NewSQL databases
+
+NewSQL is a class of relational database management systems that seek to provide the scalability of NoSQL systems for online transaction processing (OLTP) workloads while maintaining the ACID guarantees of a traditional database system.
+
+- [MemSQL](https://www.memsql.com/): A modern relational database for cloud and on-premises that delivers immediate insights for modern applications and analytical systems. MemSQL also comes with tiered storage. Most NoSQL databases are disk-first, with some support for in-memory operations. MemSQL includes both and allows you to flexibly manage memory vs. disk usage.
+- [CockroachDB](https://github.com/cockroachdb/cockroach): CockroachDB is a distributed SQL database built on a transactional and strongly-consistent key-value store. It scales horizontally; survives disk, machine, rack, and even datacenter failures with minimal latency disruption and no manual intervention; supports strongly-consistent ACID transactions; and provides a familiar SQL API for structuring, manipulating, and querying data.
 
 ## CAP Theorem
 
