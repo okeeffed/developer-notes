@@ -19,6 +19,7 @@ This sections covers some of the concepts behind databases and the ins + outs.
 6. [BASE: Eventual consistency](https://en.wikipedia.org/wiki/Eventual_consistency)
 7. [NewSQL Databases](https://en.wikipedia.org/wiki/NewSQL)
 8. [Top NewSQL DBs](https://en.wikipedia.org/wiki/NewSQL)
+9. [Column-Oriented DBMS](https://en.wikipedia.org/wiki/Column-oriented_DBMS)
 
 ### Books
 
@@ -34,10 +35,15 @@ This sections covers some of the concepts behind databases and the ins + outs.
 ## Relational databases
 
 - [Postgres](https://github.com/postgres/postgres): PostgreSQL is an advanced object-relational database management system that supports an extended subset of the SQL standard, including transactions, foreign keys, subqueries, triggers, user-defined types and functions. This distribution also contains C language bindings.
+- [MySQL]:
+- [MariaDB](https://en.wikipedia.org/wiki/MariaDB): MariaDB is a community-developed, commercially supported fork of the MySQL relational database management system (RDBMS), intended to remain free and open-source software under the GNU General Public License. Development is led by some of the original developers of MySQL, who forked it due to concerns over its acquisition by Oracle Corporation in 2009. MariaDB intended to maintain high compatibility with MySQL, ensuring a drop-in replacement capability with library binary parity and exact matching with MySQL APIs and commands. However, new features diverge more. It includes new storage engines like Aria, ColumnStore, and MyRocks.
+- [Amazon Redshift](https://en.wikipedia.org/wiki/Amazon_Redshift): Amazon Redshift is a data warehouse product which forms part of the larger cloud-computing platform Amazon Web Services. Redshift differs from Amazon's other hosted database offering, Amazon RDS, in its ability to handle analytic workloads on big data data sets stored by a column-oriented DBMS principle.
+- [Amazon RDS](https://en.wikipedia.org/wiki/Amazon_Relational_Database_Service): Amazon Relational Database Service (or Amazon RDS) is a distributed relational database service by Amazon Web Services (AWS). It is a web service running "in the cloud" designed to simplify the setup, operation, and scaling of a relational database for use in applications. Administration processes like patching the database software, backing up databases and enabling point-in-time recovery are managed automatically. Scaling storage and compute resources can be performed by a single API call as AWS does not offer an ssh connection to RDS instances.
 
 ## Non-relational wide column store databases
 
 - [Cassandra](https://cassandra.apache.org/): Apache Cassandra is a highly scalable, high-performance distributed database designed to handle large amounts of data across many commodity servers, providing high availability with no single point of failure. A top level Apache project born at Facebook and built on Amazon’s Dynamo and Google’s BigTable, is a distributed database for managing large amounts of structured data across many commodity servers, while providing highly available service and no single point of failure. Apache Cassandra offers capabilities that relational databases and other NoSQL databases simply cannot match such as: continuous availability, linear scale performance, operational simplicity and easy data distribution across multiple data centers and cloud availability zones.
+- [DynamoDB](https://en.wikipedia.org/wiki/Amazon_DynamoDB): Amazon DynamoDB is a fully managed proprietary NoSQL database service that supports key-value and document data structures and is offered by Amazon.com as part of the Amazon Web Services portfolio. DynamoDB exposes a similar data model to and derives its name from Dynamo, but has a different underlying implementation. Dynamo had a multi-master design requiring the client to resolve version conflicts and DynamoDB uses synchronous replication across multiple data centers for high durability and availability.
 
 ## NewSQL databases
 
@@ -100,3 +106,9 @@ Eventually-consistent services are often classified as providing BASE (Basically
 - (E)ventually consistent: If the system is functioning and we wait long enough after any given set of inputs, we will eventually be able to know what the state of the database is, and so any further reads will be consistent with our expectations.
 
 Eventual consistency is sometimes criticized as increasing the complexity of distributed software applications. This is partly because eventual consistency is purely a liveness guarantee (reads eventually return the same value) and does not make safety guarantees: **an eventually consistent system can return any value before it converges.**
+
+## Column-oriented DBMS
+
+A column-oriented DBMS (or columnar database management system) is a database management system (DBMS) that stores data tables by column rather than by row. Practical use of a column store versus a row store differs little in the relational DBMS world. Both columnar and row databases can use traditional database query languages like SQL to load data and perform queries.
+
+Both row and columnar databases can become the backbone in a system to serve data for common extract, transform, load (ETL) and data visualization tools. However, by storing data in columns rather than rows, the database can more precisely access the data it needs to answer a query rather than scanning and discarding unwanted data in rows. Query performance is increased for certain workloads.

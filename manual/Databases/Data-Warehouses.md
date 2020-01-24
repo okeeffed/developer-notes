@@ -19,8 +19,8 @@ A data warehouse (or enterprise data warehouse) stores large amounts of data tha
 
 Data is essential to organizations making informed decisions, so it stands to reason that data warehouses are just as important because they store all that data. Data warehouses can:
 
-Store large amounts of data in a central database – and in a standard format.
-Integrate data from many different sources and standardize it, so it’s ready for analytics or reporting.
-Maintain historical records, since it can store months or even years of data.
-Keep data secure by storing it in a single location. Access can be granted only to those who need specific data.
-Provide quick, easy access to data to enable faster business decisions.
+1. Store large amounts of data in a central database – and in a standard format.
+2. Integrate data from many different sources and standardize it, so it’s ready for analytics or reporting.
+3. Maintain historical records, since it can store months or even years of data.
+4. Keep data secure by storing it in a single location. Access can be granted only to those who need specific data.
+5. Provide quick, easy access to data to enable faster business decisions.
