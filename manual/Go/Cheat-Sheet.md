@@ -5,9 +5,10 @@ menu: Go
 
 # Go Cheat Sheet
 
-Good refs:
+## References
 
-https://github.com/a8m/go-lang-cheat-sheet
+1. [Golang Cheat Sheet](https://github.com/a8m/go-lang-cheat-sheet)
+2. [Go by example](https://hackernoon.com/time-to-go-learning-golang-through-examples-480a90c5e7f9)
 
 ## In a nutshell
 
