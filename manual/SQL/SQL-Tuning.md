@@ -341,7 +341,9 @@ Up until now, all the algorithms you have seen is the Seq Scan (Sequential Scan)
 
 ## Other Scan Algorithms
 
-There will also be `index scan, hash join,
+There will also be index scan, hash join, merge join.
+
+NOTE: Even though the following examples say that `Hash Join` happens without an index and `Merge Join` with, my tests on DB Fiddle say the opposite happens. It makes more sense to me if a hash join is used for an index given how hash maps would work.
 
 ```sql
 EXPLAIN ANALYZE
