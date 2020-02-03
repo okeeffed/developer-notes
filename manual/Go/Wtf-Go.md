@@ -181,3 +181,36 @@ func main() {
 ## Unexpected Values in Slice and Array "range" Clauses
 
 [Continue](http://devs.cloudimmunity.com/gotchas-and-common-mistakes-in-go-golang/)
+
+## Strings Are Immutable
+
+Fails:
+
+```golang
+package main
+
+import "fmt"
+
+func main() {
+    x := "text"
+    x[0] = 'T'
+
+    fmt.Println(x)
+}
+```
+
+> /tmp/sandbox305565531/main.go:7: cannot assign to x[0]
+
+```golang
+package main
+
+import "fmt"
+
+func main() {
+    x := "text"
+    xbytes := []byte(x)
+    xbytes[0] = 'T'
+
+    fmt.Println(string(xbytes)) //prints Text
+}
+```

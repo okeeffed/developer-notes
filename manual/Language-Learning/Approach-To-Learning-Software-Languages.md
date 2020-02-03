@@ -36,3 +36,5 @@ Not all need to be done (pending what the language is useful for), but here are 
 - Webserver that takes and returns JSON
 - CLI tool that parses the markdown for this file and can be used as a helper
 - A file reader/writer that parses common file types
+- Learning the "wtf" scenarios and gotchas with the languages
+- Finding out the best environments for each language (IDE etc)
