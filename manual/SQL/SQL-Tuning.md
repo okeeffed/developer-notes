@@ -14,7 +14,7 @@ name: SQL Tuning
   - [Limit Your Results](#limit-your-results)
   - [Data type conversions](#data-type-conversions)
   - [Keep queries as simple as possible](#keep-queries-as-simple-as-possible)
-    - [When you use the `OR` operator in your query, it’s likely that you’re not using an index.](#when-you-use-the-or-operator-in-your-query-its-likely-that-youre-not-using-an-index)
+    - [When you use the `OR` operator in your query, it’s likely that you’re not using an index](#when-you-use-the-or-operator-in-your-query-its-likely-that-youre-not-using-an-index)
     - [Alternatives to NOT](#alternatives-to-not)
     - [Alternatives to AND](#alternatives-to-and)
     - [Alternatives top ANY and ALL Operators](#alternatives-top-any-and-all-operators)
@@ -57,15 +57,15 @@ Further, DBAs often drop their SQL indexes before performing batch inserts of mi
 
 ## Writing SQL queries
 
-An ideal starting point is to think of “spots” within your queries where issues might sneak in. And, in general, there are four clauses and keywords where newbies can expect performance issues to occur:
+An ideal starting point is to think of "spots" within your queries where issues might sneak in. And, in general, there are four clauses and keywords where newbies can expect performance issues to occur:
 
 1. The `WHERE` clause
-2. Any `INNER JOIN` of `LEFT JOIN` keywords
+2. Any `INNER JOIN` or `LEFT JOIN` keywords
 3. The `HAVING` clause
 
 ## Only Retrieve The Data You Need
 
-> The mindset of “the more data, the better” isn’t one that you should necessarily live by when you’re writing SQL queries: not only do you risk obscuring your insights by getting more than what you actually need, but also your performance might suffer from the fact that your query pulls up too much data.
+> The mindset of "the more data, the better" isn’t one that you should necessarily live by when you’re writing SQL queries: not only do you risk obscuring your insights by getting more than what you actually need, but also your performance might suffer from the fact that your query pulls up too much data.
 
 Watch for the SELECT statement, the DISTINCT clause and the LIKE operator.
 
@@ -137,7 +137,7 @@ An alternative is to avoid data type conversion as much as possible. Note also h
 
 ## Keep queries as simple as possible
 
-### When you use the `OR` operator in your query, it’s likely that you’re not using an index.
+### When you use the `OR` operator in your query, it’s likely that you’re not using an index
 
 Remember that an index is a data structure that improves the speed of the data retrieval in your database table, but it comes at a cost: there will be additional writes, and additional storage space is needed to maintain the index data structure. Indexes are used to quickly locate or look up data without having to search every row in a database every time the database table is accessed. Indexes can be created by using one or more columns in a database table.
 
@@ -258,7 +258,7 @@ The first query uses the WHERE clause to restrict the number of rows that need t
 
 You see that this is not about limiting the result set, but instead about limiting the intermediate number of records within a query.
 
-Note that the difference between these two clauses lies in the fact that the WHERE clause introduces a condition on individual rows, while the HAVING clause introduces a condition on aggregations or results of a selection where a single result, such as MIN, MAX, SUM,… has been produced from multiple rows.
+Note that the difference between these two clauses lies in the fact that the WHERE clause introduces a condition on individual rows, while the HAVING clause introduces a condition on aggregations or results of a selection where a single result, such as MIN, MAX, SUM... has been produced from multiple rows.
 
 ## Set-based versus Procedural Approaches to Querying
 
@@ -390,7 +390,7 @@ Total runtime: 3833.310 ms
 
 By creating the index, the query optimizer has now decided to go for a `Merge join` where `Index Scans` are happening.
 
-Note the difference between the index scan and the full table scan or sequential scan: the former, which is also called “table scan”, scans the data or index pages to find the appropriate records, while the latter scans each row of the table.
+Note the difference between the index scan and the full table scan or sequential scan: the former, which is also called "table scan", scans the data or index pages to find the appropriate records, while the latter scans each row of the table.
 
 ## Time Complexities
 
