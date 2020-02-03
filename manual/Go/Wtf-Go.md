@@ -8,6 +8,7 @@ name: Wtf Go
 ## Resources
 
 1. [Gotchas and common mistakes in Go](http://devs.cloudimmunity.com/gotchas-and-common-mistakes-in-go-golang/)
+2. [Common Mistakes - Golang GitHub](https://github.com/golang/go/wiki/CommonMistakes)
 
 ## Can't Use "nil" to Initialize a Variable Without an Explicit Type
 
