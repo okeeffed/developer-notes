@@ -5,6 +5,34 @@ name: SQL Tuning
 
 # SQL Tuning
 
+- [SQL Tuning](#sql-tuning)
+  - [Resources](#resources)
+  - [Quick Understandings](#quick-understandings)
+  - [Basic Guide to indexing](#basic-guide-to-indexing)
+  - [Writing SQL queries](#writing-sql-queries)
+  - [Only Retrieve The Data You Need](#only-retrieve-the-data-you-need)
+  - [Limit Your Results](#limit-your-results)
+  - [Data type conversions](#data-type-conversions)
+  - [Keep queries as simple as possible](#keep-queries-as-simple-as-possible)
+    - [When you use the `OR` operator in your query, it’s likely that you’re not using an index.](#when-you-use-the-or-operator-in-your-query-its-likely-that-youre-not-using-an-index)
+    - [Alternatives to NOT](#alternatives-to-not)
+    - [Alternatives to AND](#alternatives-to-and)
+    - [Alternatives top ANY and ALL Operators](#alternatives-top-any-and-all-operators)
+    - [Isolate Columns in Conditions](#isolate-columns-in-conditions)
+  - [JOINS](#joins)
+  - [HAVING](#having)
+  - [Set-based versus Procedural Approaches to Querying](#set-based-versus-procedural-approaches-to-querying)
+  - [EXISTS() vs COUNT()](#exists-vs-count)
+  - [Query Optimisation](#query-optimisation)
+  - [EXPLAIN](#explain)
+  - [Other Scan Algorithms](#other-scan-algorithms)
+  - [Time Complexities](#time-complexities)
+    - [O(1): Constant Time](#o1-constant-time)
+    - [Linear Time: O(n)](#linear-time-on)
+    - [Logarithmic Time: O(log (n))](#logarithmic-time-olog-n)
+    - [Quadratic Time: O(n^2)](#quadratic-time-on2)
+  - [SQL Tuning Summary](#sql-tuning-summary)
+
 ## Resources
 
 1. [SQL DB Tuning for developers](https://www.toptal.com/sql-server/sql-database-tuning-for-developers)
