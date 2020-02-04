@@ -8,6 +8,8 @@ name: Regular Verb Conjugations
 ## Resources
 
 1. [Imperfect Conjugations - Wikipedia](https://en.wikipedia.org/wiki/Imperfect)
+2. [Common Regular Verbs](https://takelessons.com/live/french/common-regular-french-verbs-z04)
+3. [Website for Vouloir Conjugations](https://conjugator.reverso.net/conjugation-french-verb-vouloir.html)
 
 ## Note on Imperfect Conjugation
 
@@ -17,7 +19,9 @@ English has no general imperfective and expresses it in different ways. The term
 
 ## Penser Conjugations
 
-| Pronoun | Present | Future    | Imperfect |
+Examples for I think, I will think, I was thinking etc:
+
+| Pronoun | Présent | Futur     | Imparfait |
 | ------- | ------- | --------- | --------- |
 | je      | pense   | penserai  | pensais   |
 | tu      | penses  | penseras  | pensais   |
@@ -25,3 +29,18 @@ English has no general imperfective and expresses it in different ways. The term
 | nous    | pensons | penserons | pensions  |
 | vous    | pensez  | penserez  | pensiez   |
 | ils     | pensent | penseront | pensaient |
+
+## Vouloir Conjugations
+
+Examples for I like, I will like, I had liked etc:
+
+| Pronoun | Présent | Futur    | Imparfait |
+| ------- | ------- | -------- | --------- |
+| je      | veux    | voudrai  | voulais   |
+| tu      | veux    | voudras  | voulais   |
+| il      | veut    | voudra   | voulait   |
+| elle    | veut    | voudra   | voulait   |
+| nous    | voulons | voudrons | voulions  |
+| vous    | voulez  | voudrez  | vouliez   |
+| ils     | veulent | voudront | voulaient |
+| elles   | veulent | voudront | voulaient |

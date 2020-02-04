@@ -175,7 +175,7 @@ FROM Drivers
 WHERE NOT (year > 1980);
 ```
 
-The above will definitely run slower than you would maybe expect, mainly because it’s formulated a lot more complex than it could be: in cases like this one, it’s best to look for an alternative. Consider replacing NOT by comparison operators, such as >, <> or !>; The example above might indeed be rewritten and become something like this:
+The above will definitely run slower than you would maybe expect, mainly because it’s formulated a lot more complex than it could be: in cases like this one, it’s best to look for an alternative. Consider replacing NOT by comparison operators, such as `>`, `<>` or `!>`; The example above might indeed be rewritten and become something like this:
 
 ```sql
 SELECT driverslicensenr, name
