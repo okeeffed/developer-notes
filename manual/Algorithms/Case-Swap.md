@@ -27,6 +27,25 @@ Output: sUP dude!!?
 
 ## Answer
 
+In JavaScript:
+
+```javascript
+function SwapCase(str) {
+  let retStr = '';
+  for (let i = 0; i < str.length; i++) {
+    if (/[a-z]/.test(str[i])) {
+      retStr += str[i].toUpperCase();
+    } else if (/[A-Z]/.test(str[i])) {
+      retStr += str[i].toLowerCase();
+    } else {
+      retStr += str[i];
+    }
+  }
+  // code goes here
+  return retStr;
+}
+```
+
 In Kotlin:
 
 ```kotlin
