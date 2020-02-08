@@ -39,12 +39,20 @@ This is a chance to note and reflect on personal examples.
 2. Indigenous tutoring
 3. Multiple intelligence theory and my strong points and weaknesses
 4. Introduction of collaboration tools
+5. Verbal presentations for new frontier expeditions
 
 ## Cunning Examples
 
 1. Graph shaped tiering relations
 2. Agnostic package manager
 3. Linting and validation tools for designers
+4. Sketch-to-React-Native application
+5. Alexa invoice generator
+6. Self-healing Python data fetch tool
+7. Dynamic scaffolder
+8. Ship -> dynamically compile and move files to the PATH
+9. AST work
+10. Tixel scraper
 
 ## Questions To Consider Asking
 
