@@ -5,6 +5,10 @@ name: First Principles
 
 # Software & Goal Settings First Principles
 
+## Resources
+
+1. [Sales terms glossary](https://blog.hubspot.com/marketing/sales-terms-glossary)
+
 ## Nodular First Principles
 
 - 9-5 Exit Strategy
@@ -35,7 +39,7 @@ name: First Principles
 6. What Are The User Stories? - Find the "why" behind a user journey.
 7. Vision - Start, Define, Learn, Experiment
 8. Steer - Leap, Test, Measure, Pivot
-9. Accellerate - Batch, Grow, Adapt, Innovate
+9. Accelerate - Batch, Grow, Adapt, Innovate
 
 ## System Design
 
@@ -136,3 +140,23 @@ Note - 22 is overkill, these rules are here to reference for when constructing U
 20. Exercise. take the building blocks of a movie you dislike. How d'you rearrange them into what you DO like?
 21. You gotta identify with your situation/characters, can't just write 'cool'. What would make YOU act that way?
 22. What's the essence of your story? Most economical telling of it? If you know that, you can build out from there.
+
+## Communication
+
+1. Acknowledge, align, assure
+2. Early and often
+3. Seek to understand
+
+## Sales
+
+1. AIDA: Attention, Interest, Desire, Action
+2. BANT: Budget, Authority, Need, Timeline
+3. Value proposition: A benefit of a product or company intended to make it more attractive to potential buyers and differentiates it from competitors
+
+## Shape Up
+
+These are moreso the steps and not the principles, but the concepts behind them are useful for unfurling long term thinking.
+
+1. Shaping
+2. Betting
+3. Building (know your circuit breakers)
