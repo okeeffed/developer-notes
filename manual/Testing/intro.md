@@ -48,6 +48,6 @@ Each section on testing will delve into examples.
 | Install Testing       | Installation and Uninstallation Testing is done on full, partial, or upgrade install/uninstall processes on different operating systems under different hardware or software environment. |
 | Recovery Testing      | It is a type of testing which validates how well the application or system recovers from crashes or disasters.                                                                            |
 | Reliability Testing   | Checks whether the software can perform a failure-free operation for a specified period of time in a particular environment.                                                              |
-| Usability Testing     | User-friendliness check is done. The application flow is tested to know if a new user can understand the application easily or not,                                                       |
-| Compliance Testing    | (Also know as Conformance testing) is a nonfunctional testing technique which is done to validate, whether the system developed meets the organization’s prescribed standards or not.     |
+| Usability Testing     | User-friendliness check is done. The application flow is tested to know if a new user can understand the application easily or not.                                                       |
+| Compliance Testing    | (Also known as Conformance testing) is a nonfunctional testing technique which is done to validate, whether the system developed meets the organization’s prescribed standards or not.    |
 | Localization Testing  | The product is checked to assure that it behaves according to the local culture or settings                                                                                               |
