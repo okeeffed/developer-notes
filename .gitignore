@@ -9,3 +9,6 @@ storybook.js
 nodemon.json
 ./index.js
 gitall
+
+# Specific markdown to ignore
+manual/Algorithms/ANZ-Algo.md
