@@ -9,53 +9,40 @@ Use the Parameter Testing feature in the box below to test your code with differ
 ## Answer
 
 ```javascript
-function ArrayAdditionI(arr) {
-  let max = 0;
-  let maxIndex = 0;
-
-  // simple iteration to illustrate finding the max value + index
-  for (let i = 0; i < arr.length; i++) {
-    if (arr[i] > max) {
-      max = arr[i];
-      maxIndex = i;
+function ArrayAddition(arr) {
+  let maxValue = 0;
+  for (let el of arr) {
+    if (el > maxValue) {
+      maxValue = el;
     }
   }
 
-  // destructure the max value and remove that value from arr
-  const [maxValue] = arr.splice(maxIndex, 1);
-  let combos = [];
-  let size = arr.length;
-
-  // create an array of possible combinations using 1s and 0s
-  for (let i = 0, max = Math.pow(2, size); i < max; i++) {
-    // convert number to binary
-    let num = i.toString(2);
-    // pad the rest of the string with 0s if less than arr.length
-    while (num.length < size) {
-      num = '0' + num;
+  const [maxElement] = arr.splice(arr.indexOf(maxValue), 1);
+  const combos = [];
+  // use a binary string representation to set the permutations
+  for (let i = 0, max = Math.pow(2, arr.length); i < max; i++) {
+    let binaryRepresentation = i.toString(2);
+    // pad the number
+    while (binaryRepresentation.length < arr.length) {
+      binaryRepresentation = '0' + binaryRepresentation;
     }
-    // finally, push the permutation
-    combos.push(num);
+    combos.push(binaryRepresentation);
   }
 
-  // iterate over all permutations
-  for (let i = 0; i < combos.length; i++) {
+  for (let permutation of combos) {
     let sum = 0;
-    for (let j = 0; j < combos[i].length; j++) {
-      // if '1', add to sum for current permutation
-      if (combos[i][j] === '1') {
-        sum += arr[j];
+    for (let i = 0; i < permutation.length; i++) {
+      if (permutation[i] === '1') {
+        sum += arr[i];
       }
     }
 
-    // finally - what we want to do, see if any combination
-    // has summed to the max value of that array
-    if (sum === maxValue) {
+    if (sum === maxElement) {
       return true;
     }
   }
 
-  // if none have done so, return false
+  // code goes here
   return false;
 }
 ```
