@@ -5,7 +5,8 @@
   "license": "MIT",
   "scripts": {
     "start": "docz dev",
-    "build": "docz build"
+    "build": "",
+    "prepublish": "docz build"
   },
   "devDependencies": {
     "@babel/core": "^7.8.4",
