@@ -36,20 +36,20 @@ node src/Demo.bs.js
 
 ## Boolean
 
-| JavaScript                                            | Reason                                         |
-| ----------------------------------------------------- | ---------------------------------------------- |
-| `true`, `false`                                       | Same                                           |
-| `!true`                                               | Same                                           |
-| <code>&#124;&#124;</code>, `&&`, `<=`, `>=`, `<`, `>` | Same                                           |
-| `a === b`, `a !== b`                                  | Same                                           |
-| No deep equality (recursive compare)                  | `a == b`, `a != b`                             |
-| `a == b`                                              | No equality with implicit casting (thankfully) |
+| JavaScript                           | Reason                                         |
+| ------------------------------------ | ---------------------------------------------- |
+| `true`, `false`                      | Same                                           |
+| `!true`                              | Same                                           |
+| `||`, `&&`, `<=`, `>=`, `<`, `>`     | Same                                           |
+| `a === b`, `a !== b`                 | Same                                           |
+| No deep equality (recursive compare) | `a == b`, `a != b`                             |
+| `a == b`                             | No equality with implicit casting (thankfully) |
 
 ## Number
 
 | JavaScript  | Reason       |
 | ----------- | ------------ |
-| `3`         | Same \*      |
+| `3`         | Same         |
 | `3.1415`    | Same         |
 | `3 + 4`     | Same         |
 | `3.0 + 4.5` | `3.0 +. 4.5` |
@@ -62,7 +62,7 @@ node src/Demo.bs.js
 | JavaScript          | Reason                                  |
 | ------------------- | --------------------------------------- |
 | no static types     | `type point = {x: int, mutable y: int}` |
-| `{x: 30, y: 20}`    | Same \*                                 |
+| `{x: 30, y: 20}`    | Same                                    |
 | `point.x`           | Same                                    |
 | `point.y = 30;`     | Same                                    |
 | `{...point, x: 30}` | Same                                    |
@@ -71,12 +71,12 @@ node src/Demo.bs.js
 
 ## Array
 
-| JavaScript            | Reason                             |
-| --------------------- | ---------------------------------- |
-| `[1, 2, 3]`           | <code>[&#124;1, 2, 3&#124;]</code> |
-| `myArray[1] = 10`     | Same                               |
-| `[1, "Bob", true]` \* | `(1, "Bob", true)`                 |
-| No immutable list     | `[1, 2, 3]`                        |
+| JavaScript            | Reason             |
+| --------------------- | ------------------ |
+| `[1, 2, 3]`           | `[|1, 2, 3|]`      |
+| `myArray[1] = 10`     | Same               |
+| `[1, "Bob", true]` \* | `(1, "Bob", true)` |
+| No immutable list     | `[1, 2, 3]`        |
 
 \* We can simulate tuples in JavaScript with arrays, because JavaScript arrays can contain multiple types of elements.
 
@@ -139,11 +139,11 @@ Both JavaScript and Reason support currying, but Reason currying is **built-in a
 
 ## Destructuring
 
-| JavaScript                    | Reason                                        |
-| ----------------------------- | --------------------------------------------- |
-| `const {a, b} = data`         | `let {a, b} = data`                           |
-| `const [a, b] = data`         | <code>let [&#124;a, b&#124;] = data</code> \* |
-| `const {a: aa, b: bb} = data` | `let {a: aa, b: bb} = data`                   |
+| JavaScript                    | Reason                      |
+| ----------------------------- | --------------------------- |
+| `const {a, b} = data`         | `let {a, b} = data`         |
+| `const [a, b] = data`         | `let [|a, b|] = data`       |
+| `const {a: aa, b: bb} = data` | `let {a: aa, b: bb} = data` |
 
 \* Gives good compiler warning that `data` might not be of length 2. Switch to pattern-matching instead.
 
@@ -168,10 +168,10 @@ Both JavaScript and Reason support currying, but Reason currying is **built-in a
 
 ## Exception
 
-| JavaScript                                | Reason                                       |
-| ----------------------------------------- | -------------------------------------------- |
-| `throw new SomeError(...)`                | `raise(SomeError(...))`                      |
-| `try {a} catch (Err) {...} finally {...}` | <code>try (a) { &#124; Err => ...}</code> \* |
+| JavaScript                                | Reason                    |
+| ----------------------------------------- | ------------------------- |
+| `throw new SomeError(...)`                | `raise(SomeError(...))`   |
+| `try {a} catch (Err) {...} finally {...}` | `try (a) { | Err => ...}` |
 
 \* No finally.
 

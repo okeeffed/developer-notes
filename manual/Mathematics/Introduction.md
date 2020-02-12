@@ -28,7 +28,7 @@ import { BlockMath } from 'react-katex';
 <BlockMath math="\int_0^\infty x^2 dx" />;
 ```
 
-## Examples of React Katex
+## Exampl
 
 Basic integral: `\int_0^\infty x^2 dx`:
 
