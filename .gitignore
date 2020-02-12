@@ -1,6 +1,6 @@
 node_modules/
 .env
-build/
+# build/ - build now since CI fails on timeout
 cli/
 kratos.json
 stories/
