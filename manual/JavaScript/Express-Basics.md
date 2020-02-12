@@ -42,6 +42,7 @@ app.listen(3000);
 
 Quick enhancements
 
+```javascript
 'use strict'; //throws error if you make one
 
 var express = require('express'); //now can access all methods and properties of express through this.
@@ -52,40 +53,42 @@ var app = express();
 
 //set up dev server
 
-app.get('/', function(req, res) { //req and res are convention
-res.send("<h1>I Love Treehouse!<h1>");
+app.get('/', function(req, res) {
+  //req and res are convention
+  res.send('<h1>I Love Treehouse!<h1>');
 });
 
-app.listen(3000, function(){
-console.log("The frontend server is running on port 3000!");
+app.listen(3000, function() {
+  console.log('The frontend server is running on port 3000!');
 });
-
-/
+```
 
 PART 2: DEVELOPING EXPRESS APPS LIKE A BOSS
 
-4.  Adding Routes to the
-    App
+4.  Adding Routes to the App
 
 Routes are an important part of Express.
 
 We make can make some dummy json data for testing...
 
+```json
 {
-"I like to run!": {
-"title": "I like to run!",
-"description": "Fanny pack vinyl put a bird on it, small"
-},
-"Crossfit is cool!": {
-"title": "Crossfit is cool!",
-"description": "Fanny pack vinyl put a bird on it, small"
-},
-"Swimming is great for the joints": {
-"title": "Swimming is great for the joints",
-"description": "Fanny pack vinyl put a bird on it, small"
+  "I like to run!": {
+    "title": "I like to run!",
+    "description": "Fanny pack vinyl put a bird on it, small"
+  },
+  "Crossfit is cool!": {
+    "title": "Crossfit is cool!",
+    "description": "Fanny pack vinyl put a bird on it, small"
+  },
+  "Swimming is great for the joints": {
+    "title": "Swimming is great for the joints",
+    "description": "Fanny pack vinyl put a bird on it, small"
+  }
 }
-}
+```
 
+```javascript
 //app.js
 
 'use strict'; //throws error if you make one
@@ -99,17 +102,19 @@ var app = express();
 
 //set up dev server
 
-app.get('/', function(req, res) { //req and res are convention
-res.send("<h1>I Love Treehouse!<h1>");
+app.get('/', function(req, res) {
+  //req and res are convention
+  res.send('<h1>I Love Treehouse!<h1>');
 });
 
 app.get('/blog', function(req, res) {
-res.send(post);
+  res.send(post);
 });
 
-app.listen(3000, function(){
-console.log("The frontend server is running on port 3000!");
+app.listen(3000, function() {
+  console.log('The frontend server is running on port 3000!');
 });
+```
 
 QUESTIONS
 
@@ -119,26 +124,28 @@ Create a get method for a /blog html extension.
 
 Use the send method on the response object to return the posts object when the /blog route is requested.
 
+```javascript
 'use strict';
 
 var express = require('express');
-var posts = require("./mock/posts.json");
+var posts = require('./mock/posts.json');
 
 var app = express();
 
-app.get('/', function(req, res){
-res.send("<h1>I Love Treehouse!</h1>");
+app.get('/', function(req, res) {
+  res.send('<h1>I Love Treehouse!</h1>');
 });
 
-app.get('/blog', function (req, res) {
-res.send(posts);
+app.get('/blog', function(req, res) {
+  res.send(posts);
 });
 
-app.listen(3000, function(){
-console.log("The frontend server is running on port 3000!")
+app.listen(3000, function() {
+  console.log('The frontend server is running on port 3000!');
 });
+```
 
-4.  Easily Debug Express
+1.  Easily Debug Express
 
 - Programming it iterative.
 
@@ -218,9 +225,12 @@ In the debug mode:
 req.param in debug currently empty. Can run the paramter through our routes!
 
 eg.
+
+```javascript
 app.get('/blog/:id', function(req, res) {
-res.send(post);
+  res.send(post);
 });
+```
 
 Visiting .../blog/1 will set the id param to "1" etc
 
@@ -263,15 +273,18 @@ res //a lot going on
 
 Add a question mark makes the route param optional.
 
-app.get('/blog/:title?', function(req, res) { //now we can access the blog page when it is empty
-var title = req.params.title;
-if (title === undefined) {
-res.send("This page is under construction");
-} else {
-var post = posts[title];
-res.send(post);
-}
+```javascript
+app.get('/blog/:title?', function(req, res) {
+  //now we can access the blog page when it is empty
+  var title = req.params.title;
+  if (title === undefined) {
+    res.send('This page is under construction');
+  } else {
+    var post = posts[title];
+    res.send(post);
+  }
 });
+```
 
 res.get
 

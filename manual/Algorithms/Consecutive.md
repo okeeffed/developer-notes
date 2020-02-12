@@ -9,6 +9,10 @@ name: Consecutive
 
 1. [CoderByte](https://www.coderbyte.com/information/Consecutive)
 
+## Question
+
+For all elements
+
 ## Answer
 
 ```javascript

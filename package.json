@@ -8,12 +8,20 @@
     "build": "docz build"
   },
   "devDependencies": {
-    "@babel/core": "^7.2.2",
+    "@babel/core": "^7.8.4",
     "@babel/preset-env": "^7.3.1",
     "babel-preset-env": "^1.7.0",
-    "docz": "^1.2.0",
+    "docz": "^2.2.0",
     "docz-theme-default": "^1.2.0",
     "prettier": "^1.18.2",
     "recursive-readdir": "^2.2.2"
+  },
+  "dependencies": {
+    "gatsby-plugin-sass": "^2.1.28",
+    "node-sass": "^4.13.1",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-katex": "^2.0.2",
+    "react-latex": "^1.5.0"
   }
 }

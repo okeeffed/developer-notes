@@ -1,7 +1,8 @@
 ---
 name: Angular Basics
-menu: Angular 
+menu: Angular
 ---
+
 # ANGULAR BASICS
 
 ## JSANG-1: Getting Started with Angular
@@ -33,20 +34,29 @@ Other examples: Backbone, Ember.
 ### JSANG-1.2: Nuts and Bolts of Angular
 
 _Four main concepts:_
+
 1. Templates/Views
+
 - hold most of the html and what structure the application.
+
 2. Directives
-- <directives> manipulate data (can create custom)
+
+- `<directives>` manipulate data (can create custom)
+
 3. Controllers
+
 - controls interaction and data
+
 4. Scope
+
 - scope allows us to manipulate data and make changes
 - multiple scopes
 - each of the other elements can have their own scope.
 
 eg.
 myApplicationTemplate.html
-<my-awesome-directive></my-awesome-directive>
+`<my-awesome-directive></my-awesome-directive>`
+
 - directive will change once the page loads depending on what we've told the directive.
 - directive has an associated controller -> can add CSS etc.
 - directive and controller can share a scope
@@ -59,7 +69,7 @@ A: False
 
 ### JSANG-1.3: Setting up your first Angular App
 
-CDN for Angular: <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.min.js"></script>
+CDN for Angular: `<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.min.js"></script>`
 
 Otherwise, download from Angular website.
 
@@ -67,10 +77,10 @@ First thing to do is use angular module method.
 
 ```javascript
 // in app.js
-angular.module("todoListApp", []); //array defines the dependencies
+angular.module('todoListApp', []); //array defines the dependencies
 
 // in index.html
-<body ng-app="todoListApp"> //tells angular where to bootstrap
+`<body ng-app="todoListApp">`; //tells angular where to bootstrap
 ```
 
 ### JSANG-1.4: Your first custom directive
@@ -79,14 +89,10 @@ in the Angular set up so far...
 
 (from top level)
 index.html
-scripts (directory)
-	- scripts/app.js
-styles
-	- styles/main.css
-	- styles/hello-world.js
+scripts (directory) - scripts/app.js
+styles - styles/main.css - styles/hello-world.js
 
-vendor
-	- vendor/angular.js
+vendor - vendor/angular.js
 
 ```javscript
 // in vendor/hello-world.js
@@ -118,7 +124,7 @@ angular.module('todoListApp') //no second param, since no new module. It will th
 });
 ```
 
-***
+---
 
 ## JSANG-2: Controllers and Scope
 
@@ -131,20 +137,22 @@ To create the controller, we use the controller method in app.js
 //scripts/app.js
 
 ```javascript
-angular.module("todoListApp", [])
-.controller("mainCtrl", function($scope) {
-	//to us controller, you need to inject with ng-controller in html
-	$scope.helloWorld = function() {
-		console.log("Hello there! This is the Hello World Controller function in the mainCtrl!");
-	};
+angular.module('todoListApp', []).controller('mainCtrl', function($scope) {
+  //to us controller, you need to inject with ng-controller in html
+  $scope.helloWorld = function() {
+    console.log(
+      'Hello there! This is the Hello World Controller function in the mainCtrl!',
+    );
+  };
 });
 
 //in index.html
 <div ng-controller="mainCtrl" class="list">
-	... //all within the scope
-	<a href="" ng-click="helloWorld()">Save</a> //fires the ctrl function
-	...
-</div>
+  ... //all within the scope
+  <a href="" ng-click="helloWorld()">
+    Save
+  </a> //fires the ctrl function ...
+</div>;
 ```
 
 "Injecting a controller": Use the controller here.
@@ -159,7 +167,8 @@ AngularJS Batarang
 ### JSANG-2.3: Understanding Scope
 
 Scope works with prototypical inheritance
-- best practise not to use $rootScope
+
+- best practise not to use \$rootScope
 
 After creating hello world in both hello world ctrl and coolctrl...
 helloWorld() now is defined by the closest scope! Ctrl only inherits if it is not defined within itself.
@@ -167,7 +176,7 @@ helloWorld() now is defined by the closest scope! Ctrl only inherits if it is no
 Only flows from parent to child.
 Sibling controllers do not have access to other scopes.
 
-***
+---
 
 ## JSANG-3: Using Angular's Built In Directives
 
@@ -178,6 +187,7 @@ Helps a lot out of the box.
 Data-binding is the key concept of this video.
 
 Data-binding is where applications data and variables come together.
+
 - The data is continually updated in the scope.
 - 2-way Data Binding
 
@@ -185,24 +195,26 @@ Example: The data field.
 
 Using the ng-model directive.
 
-//in index.html
-<input ng-model="todo" ... >
+```html
+//in index.html <input ng-model="todo" ... />
+```
 
 Once we start typing, the todo variable is initialised. Changes dynamically.
 
 This is the two-way data binding at work.
 
-<input ng-model="todo.name" ... >
+```html
+<input ng-model="todo.name" ... />
 
-Checkbox...
-<input ng-model="todo.completed" ... > //becomes true when checked/unchecked
+<!-- Checkbox... -->
+<input ng-model="todo.completed" ... /> //becomes true when checked/unchecked
 
-Inside label...
-
+<!-- Inside label... -->
 <label ...>{{todo.name}}</label>
+```
 
-- todo.name = $scope.todo.name
-- ng-model used on <input>
+- todo.name = \$scope.todo.name
+- ng-model used on `<input>`
 
 ### JSANG-3.2: Using ng-click
 
@@ -210,7 +222,6 @@ ng-click="editing = !editing" //can be used with any elements as an attribute
 
 ng-hide="editing" //in the appropriate element
 ng-show="editing"
-
 
 //index.html
 
@@ -258,6 +269,7 @@ The directives and controller data also repeats with new scopes.
 ### JSANG-3.4: Using ng-blur and ng-class
 
 NG-BLUR
+
 - ng-blur is fired during click actions.
 
 in the input...
@@ -267,6 +279,7 @@ in the input...
 ```
 
 NG-CLASS
+
 - this is for the CSS to apply when scope it in editing mode
 
 ```javascript
@@ -289,9 +302,9 @@ $scope.learningNgChange = function() {
 ng-change="todo.edited = true"
 ```
 
-***
+---
 
-__CHALLENGE__
+**CHALLENGE**
 
 ```xml
 <!doctype html>
@@ -323,7 +336,7 @@ __CHALLENGE__
 </html>
 ```
 
-***
+---
 
 ## JSANG-4: Services in Angular
 
@@ -361,6 +374,7 @@ Useful for many things eg. REST API etc
 ### JSANG-4.2: Using Services to get data
 
 Request fake data from a server.
+
 - put a todo list in another file: mock/todos.json
 
 ```javascript
@@ -522,7 +536,7 @@ angular.module('foobar', [])
 });
 ```
 
-***
+---
 
 ## JSANG-5: Improving Our Todo App
 
@@ -532,6 +546,7 @@ angular.module('foobar', [])
 - more controllers and services
 
 For managing, we scaffold:
+
 - for small apps, all controllers, directories and services in different folders
 
 ```javascript
@@ -556,6 +571,7 @@ angular.module("todoListApp")
 ```
 
 App.js may appear empty
+
 - other things can be configured and set up here
 
 ### JSANG-5.2: Using Filters for ng-repeats
@@ -579,6 +595,7 @@ Need to also make sure that in the controller, we have unshift instead of push f
 ### JSANG-5.3: Custom directive for todos
 
 Remove todos and create custom directive <todos></todos>
+
 - name file the same as directive
 
 Create templates/todos.html
@@ -624,18 +641,18 @@ for the save in main.js...
 
 QUESTIONS
 
-1. In the object a directive returns, _________ loads an html file as a directive template.
+1. In the object a directive returns, \***\*\_\*\*** loads an html file as a directive template.
 
 A: 'templateUrl'
 
-2. The Array's _________ method returns a subset of the array based on logic in the callback. For example, `['foo', 'bar', 'yes', 'no'].someMethod(callback)`.
+2. The Array's \***\*\_\*\*** method returns a subset of the array based on logic in the callback. For example, `['foo', 'bar', 'yes', 'no'].someMethod(callback)`.
 
 A: filter
 
-3. In the object that a directive returns, the _________ key defines a controller to be used.
+3. In the object that a directive returns, the \***\*\_\*\*** key defines a controller to be used.
 
 A: 'controller'
 
-4. The first parameter of angular's `directive` method is __________.
+4. The first parameter of angular's `directive` method is \***\*\_\_\*\***.
 
 A: The name of the directive

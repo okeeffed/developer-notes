@@ -5,32 +5,32 @@ menu: React Native
 
 # React Native with Redux
 
-- [React Native with Redux](#React-Native-with-Redux)
-	- [RNREDUX-1: Intro](#RNREDUX-1-Intro)
-	- [RNREDUX-2: React Native 101](#RNREDUX-2-React-Native-101)
-		- [---- RNREDUX-2.1: Project Directory/Screen Content](#RNREDUX-21-Project-DirectoryScreen-Content)
-		- [---- RNREDUX-2.2: React vs React Native](#RNREDUX-22-React-vs-React-Native)
-	- [RNREDUX-4: HTTP Requests with React Native](#RNREDUX-4-HTTP-Requests-with-React-Native)
-		- [---- RNREDUX-4.1: Sourcing Album Data](#RNREDUX-41-Sourcing-Album-Data)
-		- [---- RNREDUX-4.2: Functional Component vs Class Component](#RNREDUX-42-Functional-Component-vs-Class-Component)
-		- [---- RNREDUX-4.3: Fetching Data with Lifecycle Methods](#RNREDUX-43-Fetching-Data-with-Lifecycle-Methods)
-		- [---- RNREDUX-4.4: Rendering a List of Components](#RNREDUX-44-Rendering-a-List-of-Components)
-		- [---- RNREDUX-4.5: Creating Reusable Components](#RNREDUX-45-Creating-Reusable-Components)
-		- [---- RNREDUX-4.5: Turn a Component into Sections](#RNREDUX-45-Turn-a-Component-into-Sections)
-	- [RNREDUX-5: Handling Component Layout](#RNREDUX-5-Handling-Component-Layout)
-		- [---- RNREDUX-5.1: Mastering Layout with Flexbox](#RNREDUX-51-Mastering-Layout-with-Flexbox)
-		- [---- RNREDUX-5.2: Making Content Scrollable and Handling Input](#RNREDUX-52-Making-Content-Scrollable-and-Handling-Input)
-		- [---- RNREDUX-5.3: Responding to User Input](#RNREDUX-53-Responding-to-User-Input)
-	- [RNREDUX-8: Redux inside of React Native](#RNREDUX-8-Redux-inside-of-React-Native)
-		- [---- RNREDUX-8.1: Redux Boilerplate](#RNREDUX-81-Redux-Boilerplate)
-		- [---- RNREDUX-8.2: Reducer and State Design](#RNREDUX-82-Reducer-and-State-Design)
-	- [Redux Thunk](#Redux-Thunk)
-	- [Dealing with Navigation](#Dealing-with-Navigation)
-		- [---- Navigation in the Router](#Navigation-in-the-Router)
-		- [---- Navigating between routes](#Navigating-between-routes)
-		- [---- Grouping Scenes with 'Buckets'](#Grouping-Scenes-with-Buckets)
-		- [---- Actions to navigate between buckets](#Actions-to-navigate-between-buckets)
-		- [---- Form updates at a reducer level / Dynamic Property updates](#Form-updates-at-a-reducer-level--Dynamic-Property-updates)
+- [React Native with Redux](#react-native-with-redux)
+	- [RNREDUX-1: Intro](#rnredux-1-intro)
+	- [RNREDUX-2: React Native 101](#rnredux-2-react-native-101)
+	- [RNREDUX-2.1: Project Directory/Screen Content](#rnredux-21-project-directoryscreen-content)
+	- [RNREDUX-2.2: React vs React Native](#rnredux-22-react-vs-react-native)
+	- [RNREDUX-4: HTTP Requests with React Native](#rnredux-4-http-requests-with-react-native)
+	- [RNREDUX-4.1: Sourcing Album Data](#rnredux-41-sourcing-album-data)
+	- [RNREDUX-4.2: Functional Component vs Class Component](#rnredux-42-functional-component-vs-class-component)
+	- [RNREDUX-4.3: Fetching Data with Lifecycle Methods](#rnredux-43-fetching-data-with-lifecycle-methods)
+	- [RNREDUX-4.4: Rendering a List of Components](#rnredux-44-rendering-a-list-of-components)
+	- [RNREDUX-4.5: Creating Reusable Components](#rnredux-45-creating-reusable-components)
+	- [RNREDUX-4.5: Turn a Component into Sections](#rnredux-45-turn-a-component-into-sections)
+	- [RNREDUX-5: Handling Component Layout](#rnredux-5-handling-component-layout)
+	- [RNREDUX-5.1: Mastering Layout with Flexbox](#rnredux-51-mastering-layout-with-flexbox)
+	- [RNREDUX-5.2: Making Content Scrollable and Handling Input](#rnredux-52-making-content-scrollable-and-handling-input)
+	- [RNREDUX-5.3: Responding to User Input](#rnredux-53-responding-to-user-input)
+	- [RNREDUX-8: Redux inside of React Native](#rnredux-8-redux-inside-of-react-native)
+	- [RNREDUX-8.1: Redux Boilerplate](#rnredux-81-redux-boilerplate)
+	- [RNREDUX-8.2: Reducer and State Design](#rnredux-82-reducer-and-state-design)
+	- [Redux Thunk](#redux-thunk)
+	- [Dealing with Navigation](#dealing-with-navigation)
+	- [Navigation in the Router](#navigation-in-the-router)
+	- [Navigating between routes](#navigating-between-routes)
+	- [Grouping Scenes with 'Buckets'](#grouping-scenes-with-buckets)
+	- [Actions to navigate between buckets](#actions-to-navigate-between-buckets)
+	- [Form updates at a reducer level / Dynamic Property updates](#form-updates-at-a-reducer-level--dynamic-property-updates)
 
 ## RNREDUX-1: Intro
 
@@ -54,7 +54,7 @@ Entry points for our applications. When Android or iOS run, these two files are 
 
 **Steps for components**
 
-```
+```javascript
 // Import a library to help create a component
 
 import React from 'react';
@@ -111,7 +111,7 @@ b) The AlbumDetail
 
 **AlbumList Component**
 
-Note: If you are embedding more than one component, wrap around in <View>.
+Note: If you are embedding more than one component, wrap around in `<View>`.
 
 ```
 // after importing from React, ReactNative
@@ -439,7 +439,7 @@ export default AlbumDetail;
 import React from 'react';
 import { View } from 'react-native';
 
-const CardSection = (props) => {
+const CardSection = props => {
   render(<View style={styles.containerStyle}>{props.children}</View>);
 };
 
@@ -451,8 +451,8 @@ const styles = {
     justifyContent: 'flex-start',
     flexDirection: 'row',
     borderColor: '#ddd',
-    position: 'relative'
-  }
+    position: 'relative',
+  },
 };
 
 export default CardSection;
@@ -491,19 +491,19 @@ How about layout challenges? Keeping things on the left, and on the right? We us
 
 Imaging a layout like the following.
 
-```
+```javascript
 <Card>
-	<CardSection>
-		<Image />
-		<Text />
-		<Text />
-	</CardSection>
+  <CardSection>
+    <Image />
+    <Text />
+    <Text />
+  </CardSection>
 </Card>
 ```
 
 **Positioning of elements**
 
-How do we want to apply flexbox to our particular layout? What we can do is use <View> to wrap the images - this is similar to using things like <div>.
+How do we want to apply flexbox to our particular layout? What we can do is use `<View>` to wrap the images - this is similar to using things like `<div>`.
 
 We can then use flex direction to style our views for column and what is within for rows.
 
@@ -521,66 +521,65 @@ Destructure album objects if there is more than one.
 
 If you wanted to, you can also dereference styles!
 
-```
+```javascript
 const { thumbnailStyle, headerContentStyle } = styles;
 ```
 
-```
+```javascript
 // the album and const is for destructuring
 
 const Card = ({ album }) => {
-	const { title, artist, thumbnail_image } = album;
+  const { title, artist, thumbnail_image } = album;
 
-	return (
-		<Card>
-			<CardSection>
-				<View style={styles.thumbnailContainerStyle}>
-					// <Image source={{ uri: props.album.thumbnail_image }}/>
-					//destructured
-					<Image
-						style={styles.thumbnailStyle}
-						source={{ uri: thumbnail_image }}/>
-				</View>
-				<View style={styles.headerContentStyle}>
-					//<Text>{props.album.title}</Text>
-					//<Text>{props.album.artist}</Text>
-					// Destructured
-					<Text style={styles.headerTextStyle}>{title}</Text>
-					<Text>{artist}</Text>
-				</View>
-			</CardSection>
-			<CardSection>
-				<Image
-					style={style.imageStyle}
-					source={{ uri: image }} />
-			</CardSection>
-		</Card>
-	);
-}
+  return (
+    <Card>
+      <CardSection>
+        <View style={styles.thumbnailContainerStyle}>
+          // <Image source={{ uri: props.album.thumbnail_image }} />
+          //destructured
+          <Image
+            style={styles.thumbnailStyle}
+            source={{ uri: thumbnail_image }}
+          />
+        </View>
+        <View style={styles.headerContentStyle}>
+          //<Text>{props.album.title}</Text>
+          //<Text>{props.album.artist}</Text>
+          // Destructured
+          <Text style={styles.headerTextStyle}>{title}</Text>
+          <Text>{artist}</Text>
+        </View>
+      </CardSection>
+      <CardSection>
+        <Image style={style.imageStyle} source={{ uri: image }} />
+      </CardSection>
+    </Card>
+  );
+};
 
 const styles = {
-	headerContentStyle: {
-		flexDirection: 'column',
-		justifyContent: 'space-around'
-	},
-	headerTextStyle: {
-		fontSize: 18
-	},
-	thumbnailStyle: {
-		height: 50,
-		width: 50
-	},
-	thumbnailContainerStyle: {
-		justifyContent: 'center',
-		alignItems: 'center',
-		marginLeft: 10,
-		marginRight: 10
-	},
-	imageStyle: {
-		height: 300,
-		flex: 1,
-		width: null
-	},
+  headerContentStyle: {
+    flexDirection: 'column',
+    justifyContent: 'space-around',
+  },
+  headerTextStyle: {
+    fontSize: 18,
+  },
+  thumbnailStyle: {
+    height: 50,
+    width: 50,
+  },
+  thumbnailContainerStyle: {
+    justifyContent: 'center',
+    alignItems: 'center',
+    marginLeft: 10,
+    marginRight: 10,
+  },
+  imageStyle: {
+    height: 300,
+    flex: 1,
+    width: null,
+  },
 };
 ```
 
@@ -701,26 +700,26 @@ const Card = ({ album }) => {
 const styles = {
   headerContentStyle: {
     flexDirection: 'column',
-    justifyContent: 'space-around'
+    justifyContent: 'space-around',
   },
   headerTextStyle: {
-    fontSize: 18
+    fontSize: 18,
   },
   thumbnailStyle: {
     height: 50,
-    width: 50
+    width: 50,
   },
   thumbnailContainerStyle: {
     justifyContent: 'center',
     alignItems: 'center',
     marginLeft: 10,
-    marginRight: 10
+    marginRight: 10,
   },
   imageStyle: {
     height: 300,
     flex: 1,
-    width: null
-  }
+    width: null,
+  },
 };
 ```
 
@@ -769,14 +768,14 @@ export default Button;
 
 ## RNREDUX-8.1: Redux Boilerplate
 
-The <Provider> tag works together with the Store. The Store is what holds the Application State.
+The `<Provider>` tag works together with the Store. The Store is what holds the Application State.
 
 The Provider is the communication with React. `react-redux` is the glue for React and Redux.
 
 **Steps**
 
 1.  `import { Provider } from 'react-redux'` + `import { createStore } from 'redux'`.
-2.  Wrap app view in <Provider store={createStore(reducers)}
+2.  Wrap app view in `<Provider store={createStore(reducers)} />`
 3.  Create reducers/index.js
 4.  Import {combineReducers } from 'redux' in this new file and export default combineReducers with the reducers inside.
 
@@ -874,7 +873,7 @@ import { CombineReducers } from 'redux';
 import LibraryReducer from './LibraryReducer';
 
 export default combineReducers({
-  libraries: LibraryReducer
+  libraries: LibraryReducer,
 });
 ```
 
@@ -905,8 +904,6 @@ const mapStateToProps = state => {
 
 export default connect(mapStateToProps)(LibraryList);
 ```
-
-
 
 ---
 
@@ -965,8 +962,6 @@ export const selectAction = ({ email, password }) => {
 };
 ```
 
-
-
 ---
 
 ## Dealing with Navigation
@@ -995,8 +990,6 @@ We essentially define a `Scene` for each distinct screens. For example.
 	initial 					// define the first screen to show
 />
 ```
-
-
 
 ## Navigation in the Router
 
@@ -1042,8 +1035,6 @@ export default App;
 
 So how do we move between these scenes?
 
-
-
 ## Navigating between routes
 
 Navigation will happen from an action.
@@ -1062,8 +1053,6 @@ export const loginUserSuccess = (dispatch, user) => {
 	Actions.employeeList(); // this method comes from the key property
 };
 ```
-
-
 
 ## Grouping Scenes with 'Buckets'
 
@@ -1116,8 +1105,6 @@ const loginUserSuccess = (dispatch, user) => {
 	Actions.employeeList();
 }
 ```
-
-
 
 ## Form updates at a reducer level / Dynamic Property updates
 
