@@ -1,4 +1,5 @@
 [Settings]
+# Note - I believe these are overriden in the UI
 ID = "docs.dennisokeeffe.com"
 
 [build]
