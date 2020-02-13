@@ -53,7 +53,7 @@ menu: Data Structures
 ```javascript
 const str = 'test';
 
-const reverseOne = (str) => {
+const reverseOne = str => {
   let reversed = '';
   for (let i = str.length - 1; i >= 0; i--) {
     reversed = reversed + str[i];
@@ -62,14 +62,14 @@ const reverseOne = (str) => {
   return reversed;
 };
 
-const reverseTwo = (str) => {
+const reverseTwo = str => {
   return str
     .split('')
     .reverse()
     .join('');
 };
 
-const reverseThree = (str) => {
+const reverseThree = str => {
   let reversed = '';
   for (let char of str) {
     reversed = char + reversed;
@@ -78,7 +78,7 @@ const reverseThree = (str) => {
   return reversed;
 };
 
-const reverseFour = (str) => {
+const reverseFour = str => {
   let arr = str.split('').reduce((reversed, char) => {
     return char + reversed;
   }, '');
@@ -92,7 +92,7 @@ const reverseFour = (str) => {
 Sometimes that we to pause during execution to do some debugging.
 
 ```javascript
-const reverse = (str) => {
+const reverse = str => {
   debugger;
   let reversed = '';
   for (let char of str) {
@@ -116,7 +116,7 @@ repl # kicks you into a js repl
 ## Palindromes
 
 ```javascript
-const palindrome = (str) => {
+const palindrome = str => {
   if (typeof str === String) {
     return str === reverse(str);
   } else {
@@ -127,7 +127,7 @@ const palindrome = (str) => {
 palindrome('noon'); // true
 palindrome('asdf'); // false
 
-const palindromeTwo = (str) => {
+const palindromeTwo = str => {
   str.split('').every((char, index) => {
     if (i <= Math.ceil(str.length / 2)) {
       return char === str[str.length - 1 - index];
@@ -139,7 +139,7 @@ const palindromeTwo = (str) => {
 ## Reverse Integer
 
 ```javascript
-const reverseInt = (n) => {
+const reverseInt = n => {
   // Check if negative
   const isPos = Math.sign(n);
   // 1. cast to string
@@ -217,7 +217,7 @@ const maxCharThree = str => {
 ## Fizz Buzz
 
 ```javascript
-let fizzBuzz = (i) => {
+let fizzBuzz = i => {
   switch (true) {
     case i % 3 === 0 && i % 5 === 0:
       return 'fizzbuzz';
@@ -383,7 +383,7 @@ Solution two (basic refactor):
 
 ```javascript
 const anagram = (strA, strB) => {
-  const filterStr = (str) => str.replace(/[^\w]/g, '').toLowerCase();
+  const filterStr = str => str.replace(/[^\w]/g, '').toLowerCase();
 
   // use regexp to remove spaces and grammar
   const cmpA = filterStr(str);
@@ -449,7 +449,7 @@ const anagrams = (strA, strB) => {
   return true;
 };
 
-const buildCharMap = (str) => {
+const buildCharMap = str => {
   const charMap = {};
   for (let char of str.replace(/[^\w]/g, '').toLowerCase()) {
     charMap[char] = charMap[char] + 1 || 1;
@@ -464,7 +464,7 @@ Solution four:
 ```javascript
 const anagrams = (strA, strB) => cleanStr(strA) === cleanStr(strB);
 
-const cleanStr = (str) =>
+const cleanStr = str =>
   str
     .replace(/[^\w]/g, '')
     .toLowerCase()
@@ -478,7 +478,7 @@ const cleanStr = (str) =>
 Easy solution for first of sentence:
 
 ```javascript
-const capitaliseStr = (str) => str[0].toUpperCase() + str.slice(1);
+const capitaliseStr = str => str[0].toUpperCase() + str.slice(1);
 ```
 
 If you actually need to capitalise all sentences...
@@ -486,11 +486,11 @@ If you actually need to capitalise all sentences...
 First solution:
 
 ```javascript
-const capitaliseStr = (str) => {
+const capitaliseStr = str => {
   const arr = str.split(' ');
 
   return arr
-    .map((str) => {
+    .map(str => {
       return str[0].toUpperCase() + str.slice(1);
     })
     .join(' ');
@@ -500,7 +500,7 @@ const capitaliseStr = (str) => {
 Second solution:
 
 ```javascript
-const capitaliseStr = (str) => {
+const capitaliseStr = str => {
   let res = str[0].toUpperCase();
   for (let i = 1; i < str.length; i++) {
     if (str[i - 1] === ' ') {
@@ -518,7 +518,7 @@ const capitaliseStr = (str) => {
 Without a space:
 
 ```javascript
-const step = (stepper) => {
+const step = stepper => {
   let res = '';
   for (let i = 0; i < stepper; i++) {
     let count = 0;
@@ -537,14 +537,14 @@ const step = (stepper) => {
 };
 
 module.exports = {
-  step
+  step,
 };
 ```
 
 With a space:
 
 ```javascript
-const step = (stepper) => {
+const step = stepper => {
   let res = '';
   for (let i = 0; i < stepper; i++) {
     let count = 0;
@@ -568,7 +568,7 @@ const step = (stepper) => {
 };
 
 module.exports = {
-  step
+  step,
 };
 ```
 
@@ -603,7 +603,7 @@ const step = (n, row = 0, stair = '') => {
 Solution One:
 
 ```javascript
-const pyramid = (n) => {
+const pyramid = n => {
   const midpoint = Math.floor((2 * n - 1) / 2);
   let level = '';
   for (let row = 0; row < n; row++) {
@@ -657,7 +657,7 @@ const pyramid = (n, row = 0, level = '') => {
 Solution One:
 
 ```javascript
-let vowels = (str) => {
+let vowels = str => {
   let count = 0;
   // could also just use vowels = 'aeiou'
   const vowels = ['a', 'e', 'i', 'o', 'u'];
@@ -674,7 +674,7 @@ let vowels = (str) => {
 Solution Two:
 
 ```javascript
-let vowels = (str) => {
+let vowels = str => {
   const matches = str.match(/[aeiou]/gi);
   return matches ? matches.length : 0;
 };
@@ -685,7 +685,7 @@ let vowels = (str) => {
 Solution One:
 
 ```javascript
-let matrix = (n) => {
+let matrix = n => {
   let mat = [];
   let count = 1;
   for (let i = 0; i < n; i++) {
@@ -708,7 +708,7 @@ let matrix = (n) => {
 Solution One:
 
 ```javascript
-let matrix = (n) => {
+let matrix = n => {
   let results = [];
 
   // init all 2d arrays
@@ -762,7 +762,7 @@ let matrix = (n) => {
 Linear runtime (N):
 
 ```javascript
-const capitaliseStr = (str) => {
+const capitaliseStr = str => {
   let res = str[0].toUpperCase();
   for (let i = 1; i < str.length; i++) {
     if (str[i - 1] === ' ') {
@@ -805,14 +805,14 @@ const step = (n, row = 0, stair = '') => {
 
 How can we determine complexity?
 
-| Time        | Value      | Definition                                                                                                                                              |
-| ----------- | ---------- | ------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Constant    | 1          | No mantter how many elements we're working with, the algorithm/operation/whatever will always take the same amount of time                              |
-| Logarithmic | log(n)     | You have this if doubling the number of elements you are iterating over doesn't double the amount of work. Always assume search algorithms to be log(n) |
-| Linear      | n          | Iterating through all elements in a colection of data (think arrays)                                                                                    |
-| Quasilinear | n * log(n) | You have this if doubling the number of elements you are iterating over doesn't double the amount of work. Always assume sort algorithms to be n*log(n) |
-| Quadratic   | n^2        | Every el in a collection has to be compared to every other elements (handshake problem)                                                                 |
-| Exponential | 2^n        | If you add a "single" element to a collection, the processing power required doubles                                                                    |
+| Time        | Value       | Definition                                                                                                                                               |
+| ----------- | ----------- | -------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Constant    | 1           | No mantter how many elements we're working with, the algorithm/operation/whatever will always take the same amount of time                               |
+| Logarithmic | log(n)      | You have this if doubling the number of elements you are iterating over doesn't double the amount of work. Always assume search algorithms to be log(n)  |
+| Linear      | n           | Iterating through all elements in a colection of data (think arrays)                                                                                     |
+| Quasilinear | n \* log(n) | You have this if doubling the number of elements you are iterating over doesn't double the amount of work. Always assume sort algorithms to be n\*log(n) |
+| Quadratic   | n^2         | Every el in a collection has to be compared to every other elements (handshake problem)                                                                  |
+| Exponential | 2^n         | If you add a "single" element to a collection, the processing power required doubles                                                                     |
 
 ### Big 'O' Notation
 
@@ -830,11 +830,11 @@ How can we determine complexity?
 | Iterating through half a collection?                              | Still O(n). There are no constants in runtime. |
 | Iterating through 2 different collections with separate for loops | O(n + m)                                       |
 | Two nested for loops iterating over the same collection?          | O(n^2)                                         |
-| Two nested for loops iterating over different collections?        | O(n*m)                                         |
-| Sorting                                                           | O(n*log(n))                                    |
+| Two nested for loops iterating over different collections?        | O(n\*m)                                        |
+| Sorting                                                           | O(n\*log(n))                                   |
 | Two nested for loops                                              | O(n^2)                                         |
-| Two nested for loops on different collections                     | O(n*m)                                         |
-| Sorting?                                                          | O(n*log(n))                                    |
+| Two nested for loops on different collections                     | O(n\*m)                                        |
+| Sorting?                                                          | O(n\*log(n))                                   |
 | Searching a sorted array?                                         | O(log(n))                                      |
 
 ### Space Complexity
@@ -847,36 +847,36 @@ First solution:
 
 ```javascript
 const fib = n => {
-  const result = [0,1];
+  const result = [0, 1];
 
   for (let i = 2; i <= n; i++) {
-    const a = result[result.length -1];
-    const b = result[result.length -2];
+    const a = result[result.length - 1];
+    const b = result[result.length - 2];
 
     result.push(a + b);
   }
 
   return result[n];
-}
+};
 ```
 
 Recursive solution one:
 
 ```javascript
 const fibonacci = (n, iter = 0, value = 1, prev = 0) => {
-    // 0, 1, 1, 2, 3, 5 ... handle base cases
-    if (n === 0) {
-        return 1;
-    } else if (n === 1) {
-        return 2;
-    }
+  // 0, 1, 1, 2, 3, 5 ... handle base cases
+  if (n === 0) {
+    return 1;
+  } else if (n === 1) {
+    return 2;
+  }
 
-    if (iter < n - 1) {
-        const newValue = value + prev;
-        return fibonacci(n, iter + 1, newValue, value);
-    }
+  if (iter < n - 1) {
+    const newValue = value + prev;
+    return fibonacci(n, iter + 1, newValue, value);
+  }
 
-    return value;
+  return value;
 };
 ```
 
@@ -889,7 +889,7 @@ const fibonacci = n => {
   }
 
   return fib(n - 1) + fib(n - 2);
-}
+};
 ```
 
 To get the complexity of the Fibonacci sequence, we need to think about how all the totals come together for the return calls.
@@ -906,17 +906,17 @@ The time complexity is O(2^n).
 
 ## Memoization
 
-Here are some of the performance characteristics of recursion vs quadratic. 
+Here are some of the performance characteristics of recursion vs quadratic.
 
 For the recusive function, if we saw the tree that represents all the calls, you will see quickly that each iteration requires two more calls until we reach `fib(1)` and `fib(0)`.
 
 Given the number of operations increases exponentially, we then know that it becomes `O(2^n)`. This is a massive no no.
 
-With the first iterative solutin, we will get linear runtime. 
+With the first iterative solutin, we will get linear runtime.
 
 What the interviewer wants to hear for the recursive answer is that we are wasting resources by recalling the same functions over and over (think of how often `fib(3)` might be called lower in the recursion tree when running `fib(6)`).
 
-What they want to here is `memoization` - store the arguments of each function call along with the result. If the function is called again with the same arguments, return the precomputed results, rather than running the function again. 
+What they want to here is `memoization` - store the arguments of each function call along with the result. If the function is called again with the same arguments, return the precomputed results, rather than running the function again.
 
 Using this will dramatically improve runtime.
 
@@ -932,7 +932,7 @@ const memoize(fn) {
       return cache[args];
     }
 
-    // NOTE: apply is integral - check MDN if you don't know how it works 
+    // NOTE: apply is integral - check MDN if you don't know how it works
     // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/apply
     const result = fn.apply(this, args);
     cache[args] = result;
@@ -960,7 +960,7 @@ Data structures are all about runtime complexity:
 - Ways of organizing information with optimal 'runtime complexity' for adding or removing records.
 - Javascript natively implements several data structures. You will still be asked about 'inferior' data structures.
 
-## Queueing 
+## Queueing
 
 Enqueing: push to back, dequeueing: pop from top.
 
@@ -988,11 +988,11 @@ export default class Queue {
   }
 }
 
-// another file 
+// another file
 import Queue from 'path/to/file';
 const q = new Queue();
 
-q.add({foo: 'bar'});
+q.add({ foo: 'bar' });
 const nextInQ = q.remove();
 ```
 
@@ -1035,20 +1035,20 @@ Assuming we have that queue class, one implementation is:
 
 ```javascript
 const runWeave = (qOne, qTwo) => {
-    const weave = new Queue();
+  const weave = new Queue();
 
-    while (qOne.peek() || qTwo.peek()) {
-        if (qOne.peek()) {
-            weave.add(qOne.remove());
-        }
-
-        if (qTwo.peek()) {
-            weave.add(qTwo.remove());
-        }
+  while (qOne.peek() || qTwo.peek()) {
+    if (qOne.peek()) {
+      weave.add(qOne.remove());
     }
 
-    return weave;
-}
+    if (qTwo.peek()) {
+      weave.add(qTwo.remove());
+    }
+  }
+
+  return weave;
+};
 ```
 
 ## Stacks
@@ -1157,12 +1157,12 @@ A node generally contains data and a reference to the next node and the linked l
 
 ```javascript
 const nodeOne = {
-  data: 123
-}
+  data: 123,
+};
 
 const nodeTwo = {
-  data: 456
-}
+  data: 456,
+};
 
 nodeOne.next = nodeTwo;
 ```
@@ -1171,219 +1171,219 @@ We can build a `Node` and `LinkedList` class to help us out here:
 
 ```javascript
 class Node {
-    constructor(data, next = null) {
-        this.data = data;
-        this.next = next;
-    }
+  constructor(data, next = null) {
+    this.data = data;
+    this.next = next;
+  }
 }
 
 class LinkedList {
-    constructor(head = null) {
-        this.head = head;
+  constructor(head = null) {
+    this.head = head;
+  }
+
+  insertFirst(data) {
+    const node = new Node(data, this.head);
+    this.head = node;
+  }
+
+  /**
+   * Return size of LinkedList
+   *
+   * @returns {Number} Size of list
+   * @memberof LinkedList
+   */
+  size() {
+    if (this.head) {
+      // traverse the head
+      let node = this.head;
+      let size = 1;
+      while (node.next) {
+        node = node.next;
+        size++;
+      }
+
+      return size;
     }
 
-    insertFirst(data) {
-        const node = new Node(data, this.head);
-        this.head = node;
+    return 0;
+  }
+
+  getFirst() {
+    return this.head;
+  }
+
+  getLast() {
+    let node = this.head;
+    while (node.next) {
+      node = node.next;
     }
 
-    /**
-     * Return size of LinkedList
-     *
-     * @returns {Number} Size of list
-     * @memberof LinkedList
-     */
-    size() {
-        if (this.head) {
-            // traverse the head
-            let node = this.head;
-            let size = 1;
-            while (node.next) {
-                node = node.next;
-                size++;
-            }
+    return node;
+  }
 
-            return size;
-        }
-
-        return 0;
+  /**
+   * Note, we might not have to iterate through all the null values.
+   *
+   * @memberof LinkedList
+   */
+  clear() {
+    if (this.head.next) {
+      let node = this.head.next;
+      while (node.next) {
+        let temp = node.next;
+        node = null;
+        node = temp;
+      }
     }
 
-    getFirst() {
-        return this.head;
+    this.head = null;
+  }
+
+  removeFirst() {
+    if (!this.head) {
+      return;
     }
 
-    getLast() {
-        let node = this.head;
-        while (node.next) {
-            node = node.next;
-        }
+    this.head = this.head.next;
+  }
 
-        return node;
+  removeLast() {
+    if (!this.head) {
+      return;
     }
 
-    /**
-     * Note, we might not have to iterate through all the null values.
-     *
-     * @memberof LinkedList
-     */
-    clear() {
-        if (this.head.next) {
-            let node = this.head.next;
-            while (node.next) {
-                let temp = node.next;
-                node = null;
-                node = temp;
-            }
-        }
-
-        this.head = null;
+    if (!this.head.next) {
+      this.head = null;
+      return;
     }
 
-    removeFirst() {
-        if (!this.head) {
-            return;
-        }
+    let node = this.head.next;
+    let prev = this.head;
 
-        this.head = this.head.next;
+    while (node.next) {
+      prev = node;
+      node = node.next;
     }
 
-    removeLast() {
-        if (!this.head) {
-            return;
-        }
+    prev.next = null;
+  }
 
-        if (!this.head.next) {
-            this.head = null
-            return;
-        }
+  insertLast(data) {
+    // this could also be done using this.getLast()
+    const n = new Node(data);
 
-        let node = this.head.next;
-        let prev = this.head;
-
-        while (node.next) {
-            prev = node;
-            node = node.next;
-        }
-
-        prev.next = null;
+    if (!this.head) {
+      this.head = n;
+      return;
     }
 
-    insertLast(data) {
-        // this could also be done using this.getLast()
-        const n = new Node(data);
-
-        if (!this.head) {
-            this.head = n;
-            return;
-        }
-
-        if (!this.head.next) {
-            this.head.next = n;
-            return;
-        }
-
-        let node = this.head.next;
-
-        while (node.next) {
-            node = node.next;
-        }
-
-        node.next = n;
+    if (!this.head.next) {
+      this.head.next = n;
+      return;
     }
 
-    /**
-     * Get node at a particular index with head equating to 0.
-     *
-     * @param {*} index Index to fetch at.
-     * @memberof LinkedList
-     */
-    getAt(index) {
-        if (!this.head) {
-            return null;
-        }
+    let node = this.head.next;
 
-        let count = 0;
-        let node = this.head;
-        while (count < index) {
-            if (!node.next) {
-                return null;
-            }
-
-            count++;
-            node = node.next;
-        }
-
-        return node;
+    while (node.next) {
+      node = node.next;
     }
 
-    /**
-     * Remove at a particular index.
-     *
-     * @param {*} index index to remove.
-     * @memberof LinkedList
-     */
-    removeAt(index) {
-        if (!this.head) {
-            return;
-        } else if (index === 0 && this.head.next) {
-            let node = this.head.next;
-            this.head = node;
-        }
+    node.next = n;
+  }
 
-        let prev = this.head;
-        let node = this.head.next;
-        let counter = 0;
-
-        while (counter < index) {
-            if (!node.next) {
-                return;
-            }
-
-            prev = node;
-            node = node.next;
-        }
-
-        prev.next = node.next;
+  /**
+   * Get node at a particular index with head equating to 0.
+   *
+   * @param {*} index Index to fetch at.
+   * @memberof LinkedList
+   */
+  getAt(index) {
+    if (!this.head) {
+      return null;
     }
 
-    /**
-     * Insert node at a particular index. Ensure it can handle cases where there is a next or no next.
-     * Insert at end if index is out of bounds.
-     *
-     * @param {*} index Index to insert the object at.
-     * @memberof LinkedList
-     */
-    insertAt(data, index) {
-        if (!this.head) {
-            this.head = new Node(data);
-        }
+    let count = 0;
+    let node = this.head;
+    while (count < index) {
+      if (!node.next) {
+        return null;
+      }
 
-        if (index === 0) {
-            this.head = new Node(data, this.head);
-        }
-
-        let counter = 0;
-        let prev = this.head;
-        let node = this.head.next;
-        while (counter < index) {
-            if (!node.next) {
-                node.next = new Node(data);
-            }
-
-            prev = node;
-            node = node.next;
-        }
-
-        prev.next = new Node(data, node);
+      count++;
+      node = node.next;
     }
+
+    return node;
+  }
+
+  /**
+   * Remove at a particular index.
+   *
+   * @param {*} index index to remove.
+   * @memberof LinkedList
+   */
+  removeAt(index) {
+    if (!this.head) {
+      return;
+    } else if (index === 0 && this.head.next) {
+      let node = this.head.next;
+      this.head = node;
+    }
+
+    let prev = this.head;
+    let node = this.head.next;
+    let counter = 0;
+
+    while (counter < index) {
+      if (!node.next) {
+        return;
+      }
+
+      prev = node;
+      node = node.next;
+    }
+
+    prev.next = node.next;
+  }
+
+  /**
+   * Insert node at a particular index. Ensure it can handle cases where there is a next or no next.
+   * Insert at end if index is out of bounds.
+   *
+   * @param {*} index Index to insert the object at.
+   * @memberof LinkedList
+   */
+  insertAt(data, index) {
+    if (!this.head) {
+      this.head = new Node(data);
+    }
+
+    if (index === 0) {
+      this.head = new Node(data, this.head);
+    }
+
+    let counter = 0;
+    let prev = this.head;
+    let node = this.head.next;
+    while (counter < index) {
+      if (!node.next) {
+        node.next = new Node(data);
+      }
+
+      prev = node;
+      node = node.next;
+    }
+
+    prev.next = new Node(data, node);
+  }
 }
 ```
 
 ## Basic notes on generators
 
 ```javascript
-function *numbers() {
+function* numbers() {
   yield 1;
   yield 2;
   yield* moreNumbers(); // I will pass another generator, next should continue to receive yields from this function
@@ -1391,7 +1391,7 @@ function *numbers() {
   yield 7;
 }
 
-function *moreNumbers() {
+function* moreNumbers() {
   yield 3;
   yield 4;
   yield 5;
@@ -1424,10 +1424,7 @@ class Tree {
   }
 }
 
-const tree = new Tree(1, [
-  new Tree(2, [new Tree(4)]),
-  new Tree(3)
-]);
+const tree = new Tree(1, [new Tree(2, [new Tree(4)]), new Tree(3)]);
 
 // Go in a Depth First Search way to print out the tree
 const values = [];
@@ -1442,24 +1439,25 @@ In practise with linked lists:
 
 ```javascript
 class LinkedList {
-    constructor(head = null) {
-        this.head = head;
-    }
+  constructor(head = null) {
+    this.head = head;
+  }
 
-    // ... other methods
+  // ... other methods
 
-    /**
-     * This will allow us to use a for/of loop with our linked list.
-     *
-     * @memberof LinkedList
-     */ 
-    * [Symbol.iterator]() {
-        let node = this.head;
-        while (node) {
-            yield node;
-            node = node.next;
-        }
+  /**
+   * This will allow us to use a for/of loop with our linked list.
+   *
+   * @memberof LinkedList
+   */
+
+  *[Symbol.iterator]() {
+    let node = this.head;
+    while (node) {
+      yield node;
+      node = node.next;
     }
+  }
 }
 
 // in use assuming we have a LinkedList object list
@@ -1483,7 +1481,7 @@ const midpoint = list => {
   }
 
   return slow;
-}
+};
 ```
 
 ## Detecting Linked List Loops
@@ -1505,7 +1503,7 @@ const circular = list => {
   }
 
   return false;
-}
+};
 ```
 
 ## Linked List distance n from last
@@ -1526,7 +1524,7 @@ const fromLast = (list, n) => {
     slow = slow.next;
     fast = fast.next;
   }
-}
+};
 ```
 
 ## Trees Overview
@@ -1562,9 +1560,9 @@ For the tree class, we want a constructor with root set to null.
 
 We then want a `traverseBFS` and `traverseDFS` method.
 
-Note: Practical reasoning for BFS vs DFS. 
+Note: Practical reasoning for BFS vs DFS.
 
-BFS example includes a tree of the position hierarchy of a company and wanting to print a tree of positions given importance. 
+BFS example includes a tree of the position hierarchy of a company and wanting to print a tree of positions given importance.
 
 DFS example.
 
@@ -1573,14 +1571,14 @@ class Tree {
   constructor() {
     this.root = null;
   }
-  
+
   /**
    * (node) => // do something with node
    */
   traverseBFS(fn) {
     // start at root
     // check if children
-    // if children, iterate through and recall function 
+    // if children, iterate through and recall function
     const arr = [this.root];
     while (arr.length) {
       const node = arr.shift();
@@ -1612,7 +1610,7 @@ What we need to do is use a "stopper" variable to help us define when we hit the
 ![Approach to level width](https://res.cloudinary.com/gitgoodclub/image/upload/v1550103801/developer-notes/Screen_Shot_2019-02-14_at_11.22.10_am.png)
 
 ```javascript
-// given a node 
+// given a node
 let node = new Node(); // assume initiated with a bunch of children
 
 const levelWidth = node => {
@@ -1627,10 +1625,10 @@ const levelWidth = node => {
       counters[counters.length - 1]++;
       arr.push(...node.children);
     }
-  } 
+  }
 
   return counters;
-}
+};
 
 levelWidth(node.root);
 ```
@@ -1697,7 +1695,7 @@ const validation = (node, min = null, max = null) => {
   }
 
   return true;
-} 
+};
 
 validation(rootNode);
 ```
@@ -1730,7 +1728,7 @@ class Events {
     delete this.events[eventName];
   }
 }
-``` 
+```
 
 ## Sort Algos and Complexities
 
@@ -1738,50 +1736,50 @@ class Events {
 | ------------- | ------------------ | ---------- |
 | BubbleSort    | n^2                | easiest    |
 | SelectionSort | n^2                | easier     |
-| MergeSort     | n*log(n)           | medium     |
+| MergeSort     | n\*log(n)          | medium     |
 
 ### Bubble sort
 
 Take example `[10,-30,97,0,5]`.
 
 ```javascript
-const arr = [10,-30,97,0,5];
+const arr = [10, -30, 97, 0, 5];
 
 const bubbleSort = arr => {
-  for (let i=0; i < arr.length; i++) {
-    for (let j=0; j < arr.length - i - 1; j++) {
-      if (arr[j] > arr[j+1]) {
-        let temp = arr[j+1];
-        arr[j+1] = arr[j];
+  for (let i = 0; i < arr.length; i++) {
+    for (let j = 0; j < arr.length - i - 1; j++) {
+      if (arr[j] > arr[j + 1]) {
+        let temp = arr[j + 1];
+        arr[j + 1] = arr[j];
         arr[j] = temp;
       }
     }
   }
   return arr;
-}
+};
 const bubbleSorted = bubbleSort(arr);
 ```
 
 ### Selection Sort
 
 ```javascript
-const selectionSort = arr => { 
-  for (let i=0; i < arr.length; i++) {
+const selectionSort = arr => {
+  for (let i = 0; i < arr.length; i++) {
     let indexOfMin = i;
-    for (let j=i+1; j < arr.length; j++) {
+    for (let j = i + 1; j < arr.length; j++) {
       if (arr[j] > arr[indexOfMin]) {
         indexOfMin = j;
       }
     }
 
     if (indexOfMin !== i) {
-        let temp = arr[j];
-        arr[j] = arr[indexOfMin];
-        arr[indexOfMin] = temp;
+      let temp = arr[j];
+      arr[j] = arr[indexOfMin];
+      arr[indexOfMin] = temp;
     }
   }
   return arr;
-}
+};
 
 const selectionSorted = selectionSort(arr);
 ```
@@ -1807,11 +1805,11 @@ const mergeSort = arr => {
 
 // Used to build the array back together
 const merge = (left, right) => {
-  // create results array 
+  // create results array
   let results = [];
   // while elements in BOTH arrays
   while (left.length && right.length) {
-    // compare first left < first right 
+    // compare first left < first right
     if (left[0] < right[0]) {
       // shift el into res arr
       results.push(left.shift());
