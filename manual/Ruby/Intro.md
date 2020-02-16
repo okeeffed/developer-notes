@@ -14,6 +14,7 @@ name: Ruby Intro
 5. [Awesome Rails](https://github.com/gramantin/awesome-rails)
 6. [Awesome Ruby](https://github.com/markets/awesome-ruby)
 7. [Ruby Symbols vs Strings](https://medium.com/@lcriswell/ruby-symbols-vs-strings-248842529fd9)
+8. [Rails Performance](https://levelup.gitconnected.com/ultimate-guide-to-blazing-fast-performance-in-rails-1-77e281a1df52)
 
 ## Bang (!) Methods
 
