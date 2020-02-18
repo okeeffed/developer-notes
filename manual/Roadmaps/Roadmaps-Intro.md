@@ -36,7 +36,7 @@ Reference the [Developer Roadmap](https://github.com/kamranahmedse/developer-roa
 
 1. Containisation vs Virtualisation ✅
 2. Mitigaton Strategies
-3. Instrumentation vs Monitoring vs Telemetry
+3. Instrumentation vs Monitoring vs Telemetry ✅
 4. Web security (CSP, CORS, SSL/TLS, OWASP, Hashing options - reasons to not use MDA5)
 5. POSIX basics: stdin, stdout, stderr, pipes
 6. Process Management
@@ -45,8 +45,9 @@ Reference the [Developer Roadmap](https://github.com/kamranahmedse/developer-roa
 9. Linux vs UNIX
 10. Firewalls
 11. Service Meshes
-12. Config Management vs Infra Provisioning
-13. Monads vs Functors
+12. Config Management vs Infra Provisioning ✅
+13. Monads vs Functors ✅
+14. Caching
 
 ### Data Science
 

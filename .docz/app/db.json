@@ -1487,6 +1487,11 @@
             "slug": "4-shortcuts",
             "depth": 2,
             "value": "4 Shortcuts"
+          },
+          {
+            "slug": "difference-of-squares",
+            "depth": 2,
+            "value": "Difference of Squares"
           }
         ]
       }
@@ -4447,6 +4452,56 @@
       }
     },
     {
+      "key": "manual/Business/Personal-MBA.md",
+      "value": {
+        "name": "Personal MBA",
+        "menu": "Business",
+        "id": "99b19726f014e4b3507442e126d2f87b",
+        "filepath": "manual/Business/Personal-MBA.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Business/Personal-MBA.md",
+        "link": "",
+        "slug": "manual-business-personal-mba",
+        "route": "/manual-business-personal-mba",
+        "headings": [
+          {
+            "slug": "5-parts-of-every-business",
+            "depth": 2,
+            "value": "5 Parts of every business"
+          },
+          {
+            "slug": "5-interdependent-core-parts",
+            "depth": 2,
+            "value": "5 Interdependent core parts"
+          },
+          {
+            "slug": "5-core-human-drives",
+            "depth": 2,
+            "value": "5 Core Human Drives"
+          },
+          {
+            "slug": "10-ways-to-evaluate-the-market",
+            "depth": 2,
+            "value": "10 Ways to Evaluate the Market"
+          },
+          {
+            "slug": "12-standard-forms-of-value",
+            "depth": 2,
+            "value": "12 Standard forms of value"
+          },
+          {
+            "slug": "percieved-value",
+            "depth": 2,
+            "value": "Percieved value"
+          },
+          {
+            "slug": "the-iteration-cycle",
+            "depth": 2,
+            "value": "The Iteration Cycle"
+          }
+        ]
+      }
+    },
+    {
       "key": "manual/Braintree/Sandbox.md",
       "value": {
         "name": "Sandbox",
@@ -4532,56 +4587,6 @@
             "slug": "next-steps",
             "depth": 2,
             "value": "Next steps"
-          }
-        ]
-      }
-    },
-    {
-      "key": "manual/Business/Personal-MBA.md",
-      "value": {
-        "name": "Personal MBA",
-        "menu": "Business",
-        "id": "99b19726f014e4b3507442e126d2f87b",
-        "filepath": "manual/Business/Personal-MBA.md",
-        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Business/Personal-MBA.md",
-        "link": "",
-        "slug": "manual-business-personal-mba",
-        "route": "/manual-business-personal-mba",
-        "headings": [
-          {
-            "slug": "5-parts-of-every-business",
-            "depth": 2,
-            "value": "5 Parts of every business"
-          },
-          {
-            "slug": "5-interdependent-core-parts",
-            "depth": 2,
-            "value": "5 Interdependent core parts"
-          },
-          {
-            "slug": "5-core-human-drives",
-            "depth": 2,
-            "value": "5 Core Human Drives"
-          },
-          {
-            "slug": "10-ways-to-evaluate-the-market",
-            "depth": 2,
-            "value": "10 Ways to Evaluate the Market"
-          },
-          {
-            "slug": "12-standard-forms-of-value",
-            "depth": 2,
-            "value": "12 Standard forms of value"
-          },
-          {
-            "slug": "percieved-value",
-            "depth": 2,
-            "value": "Percieved value"
-          },
-          {
-            "slug": "the-iteration-cycle",
-            "depth": 2,
-            "value": "The Iteration Cycle"
           }
         ]
       }
@@ -6082,6 +6087,46 @@
       }
     },
     {
+      "key": "manual/Containers/Containers-vs-VMs.md",
+      "value": {
+        "menu": "Containers",
+        "name": "Containers vs VMs",
+        "id": "5f67511f9f85926fc90e3ea2cb61dddb",
+        "filepath": "manual/Containers/Containers-vs-VMs.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Containers/Containers-vs-VMs.md",
+        "link": "",
+        "slug": "manual-containers-containers-vs-v-ms",
+        "route": "/manual-containers-containers-vs-v-ms",
+        "headings": [
+          {
+            "slug": "containers-vs-vms",
+            "depth": 1,
+            "value": "Containers vs VMs"
+          },
+          {
+            "slug": "resources",
+            "depth": 2,
+            "value": "Resources"
+          },
+          {
+            "slug": "what-are-virtual-machines",
+            "depth": 2,
+            "value": "What are Virtual Machines"
+          },
+          {
+            "slug": "what-are-containers",
+            "depth": 2,
+            "value": "What are Containers"
+          },
+          {
+            "slug": "whats-the-difference",
+            "depth": 2,
+            "value": "What's the difference"
+          }
+        ]
+      }
+    },
+    {
       "key": "manual/Contentful/Contentful-JS-API.md",
       "value": {
         "menu": "Contentful",
@@ -6232,6 +6277,196 @@
             "slug": "intermediate-python-data-science",
             "depth": 1,
             "value": "Intermediate Python Data Science"
+          }
+        ]
+      }
+    },
+    {
+      "key": "manual/Databases/Data-Warehouses.md",
+      "value": {
+        "menu": "Databases",
+        "name": "Data Warehouses",
+        "id": "a6925cee45b5c3c0ccd7ca3a4bc7f31c",
+        "filepath": "manual/Databases/Data-Warehouses.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Databases/Data-Warehouses.md",
+        "link": "",
+        "slug": "manual-databases-data-warehouses",
+        "route": "/manual-databases-data-warehouses",
+        "headings": [
+          {
+            "slug": "data-warehouses",
+            "depth": 1,
+            "value": "Data Warehouses"
+          },
+          {
+            "slug": "resources",
+            "depth": 2,
+            "value": "Resources"
+          },
+          {
+            "slug": "books",
+            "depth": 3,
+            "value": "Books"
+          },
+          {
+            "slug": "what-are-data-warehouses",
+            "depth": 2,
+            "value": "What are data warehouses?"
+          },
+          {
+            "slug": "why-are-data-warehouses-important",
+            "depth": 2,
+            "value": "Why are data warehouses important?"
+          }
+        ]
+      }
+    },
+    {
+      "key": "manual/Databases/ETL.md",
+      "value": {
+        "menu": "Databases",
+        "name": "Extract Transform Load",
+        "id": "9949df098aafee0c8310a6c41495f3a3",
+        "filepath": "manual/Databases/ETL.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Databases/ETL.md",
+        "link": "",
+        "slug": "manual-databases-etl",
+        "route": "/manual-databases-etl",
+        "headings": [
+          {
+            "slug": "extract-transform-load",
+            "depth": 1,
+            "value": "Extract Transform Load"
+          },
+          {
+            "slug": "resources",
+            "depth": 2,
+            "value": "Resources"
+          },
+          {
+            "slug": "what-is-etl",
+            "depth": 2,
+            "value": "What is ETL"
+          },
+          {
+            "slug": "why-is-it-important",
+            "depth": 2,
+            "value": "Why is it important?"
+          }
+        ]
+      }
+    },
+    {
+      "key": "manual/Databases/Intro-And-Overview.md",
+      "value": {
+        "menu": "Databases",
+        "name": "Intro and Overview",
+        "id": "5c4a8f47c5dffdfe2ec49f90cbdf0e67",
+        "filepath": "manual/Databases/Intro-And-Overview.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Databases/Intro-And-Overview.md",
+        "link": "",
+        "slug": "manual-databases-intro-and-overview",
+        "route": "/manual-databases-intro-and-overview",
+        "headings": [
+          {
+            "slug": "intro-and-overview",
+            "depth": 1,
+            "value": "Intro and Overview"
+          },
+          {
+            "slug": "resources",
+            "depth": 2,
+            "value": "Resources"
+          },
+          {
+            "slug": "websites",
+            "depth": 3,
+            "value": "Websites"
+          },
+          {
+            "slug": "books",
+            "depth": 3,
+            "value": "Books"
+          },
+          {
+            "slug": "key-value-databases",
+            "depth": 2,
+            "value": "Key-Value databases"
+          },
+          {
+            "slug": "graph-databases",
+            "depth": 2,
+            "value": "Graph databases"
+          },
+          {
+            "slug": "time-series-databases",
+            "depth": 2,
+            "value": "Time-Series databases"
+          },
+          {
+            "slug": "search-engine-databases",
+            "depth": 2,
+            "value": "Search Engine databases"
+          },
+          {
+            "slug": "document-databases",
+            "depth": 2,
+            "value": "Document databases"
+          },
+          {
+            "slug": "wide-column-store-databases",
+            "depth": 2,
+            "value": "Wide column store databases"
+          },
+          {
+            "slug": "relational-databases",
+            "depth": 2,
+            "value": "Relational databases"
+          },
+          {
+            "slug": "newsql-databases",
+            "depth": 2,
+            "value": "NewSQL databases"
+          },
+          {
+            "slug": "cap-theorem",
+            "depth": 2,
+            "value": "CAP Theorem"
+          },
+          {
+            "slug": "acid-properties",
+            "depth": 2,
+            "value": "ACID Properties"
+          },
+          {
+            "slug": "atomicity",
+            "depth": 3,
+            "value": "Atomicity"
+          },
+          {
+            "slug": "consistency",
+            "depth": 3,
+            "value": "Consistency"
+          },
+          {
+            "slug": "isolation",
+            "depth": 3,
+            "value": "Isolation"
+          },
+          {
+            "slug": "durability",
+            "depth": 3,
+            "value": "Durability"
+          },
+          {
+            "slug": "base-eventual-consistency",
+            "depth": 2,
+            "value": "BASE: Eventual Consistency"
+          },
+          {
+            "slug": "column-oriented-dbms",
+            "depth": 2,
+            "value": "Column-oriented DBMS"
           }
         ]
       }
@@ -6762,196 +6997,6 @@
       }
     },
     {
-      "key": "manual/Databases/Data-Warehouses.md",
-      "value": {
-        "menu": "Databases",
-        "name": "Data Warehouses",
-        "id": "a6925cee45b5c3c0ccd7ca3a4bc7f31c",
-        "filepath": "manual/Databases/Data-Warehouses.md",
-        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Databases/Data-Warehouses.md",
-        "link": "",
-        "slug": "manual-databases-data-warehouses",
-        "route": "/manual-databases-data-warehouses",
-        "headings": [
-          {
-            "slug": "data-warehouses",
-            "depth": 1,
-            "value": "Data Warehouses"
-          },
-          {
-            "slug": "resources",
-            "depth": 2,
-            "value": "Resources"
-          },
-          {
-            "slug": "books",
-            "depth": 3,
-            "value": "Books"
-          },
-          {
-            "slug": "what-are-data-warehouses",
-            "depth": 2,
-            "value": "What are data warehouses?"
-          },
-          {
-            "slug": "why-are-data-warehouses-important",
-            "depth": 2,
-            "value": "Why are data warehouses important?"
-          }
-        ]
-      }
-    },
-    {
-      "key": "manual/Databases/ETL.md",
-      "value": {
-        "menu": "Databases",
-        "name": "Extract Transform Load",
-        "id": "9949df098aafee0c8310a6c41495f3a3",
-        "filepath": "manual/Databases/ETL.md",
-        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Databases/ETL.md",
-        "link": "",
-        "slug": "manual-databases-etl",
-        "route": "/manual-databases-etl",
-        "headings": [
-          {
-            "slug": "extract-transform-load",
-            "depth": 1,
-            "value": "Extract Transform Load"
-          },
-          {
-            "slug": "resources",
-            "depth": 2,
-            "value": "Resources"
-          },
-          {
-            "slug": "what-is-etl",
-            "depth": 2,
-            "value": "What is ETL"
-          },
-          {
-            "slug": "why-is-it-important",
-            "depth": 2,
-            "value": "Why is it important?"
-          }
-        ]
-      }
-    },
-    {
-      "key": "manual/Databases/Intro-And-Overview.md",
-      "value": {
-        "menu": "Databases",
-        "name": "Intro and Overview",
-        "id": "5c4a8f47c5dffdfe2ec49f90cbdf0e67",
-        "filepath": "manual/Databases/Intro-And-Overview.md",
-        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Databases/Intro-And-Overview.md",
-        "link": "",
-        "slug": "manual-databases-intro-and-overview",
-        "route": "/manual-databases-intro-and-overview",
-        "headings": [
-          {
-            "slug": "intro-and-overview",
-            "depth": 1,
-            "value": "Intro and Overview"
-          },
-          {
-            "slug": "resources",
-            "depth": 2,
-            "value": "Resources"
-          },
-          {
-            "slug": "websites",
-            "depth": 3,
-            "value": "Websites"
-          },
-          {
-            "slug": "books",
-            "depth": 3,
-            "value": "Books"
-          },
-          {
-            "slug": "key-value-databases",
-            "depth": 2,
-            "value": "Key-Value databases"
-          },
-          {
-            "slug": "graph-databases",
-            "depth": 2,
-            "value": "Graph databases"
-          },
-          {
-            "slug": "time-series-databases",
-            "depth": 2,
-            "value": "Time-Series databases"
-          },
-          {
-            "slug": "search-engine-databases",
-            "depth": 2,
-            "value": "Search Engine databases"
-          },
-          {
-            "slug": "document-databases",
-            "depth": 2,
-            "value": "Document databases"
-          },
-          {
-            "slug": "wide-column-store-databases",
-            "depth": 2,
-            "value": "Wide column store databases"
-          },
-          {
-            "slug": "relational-databases",
-            "depth": 2,
-            "value": "Relational databases"
-          },
-          {
-            "slug": "newsql-databases",
-            "depth": 2,
-            "value": "NewSQL databases"
-          },
-          {
-            "slug": "cap-theorem",
-            "depth": 2,
-            "value": "CAP Theorem"
-          },
-          {
-            "slug": "acid-properties",
-            "depth": 2,
-            "value": "ACID Properties"
-          },
-          {
-            "slug": "atomicity",
-            "depth": 3,
-            "value": "Atomicity"
-          },
-          {
-            "slug": "consistency",
-            "depth": 3,
-            "value": "Consistency"
-          },
-          {
-            "slug": "isolation",
-            "depth": 3,
-            "value": "Isolation"
-          },
-          {
-            "slug": "durability",
-            "depth": 3,
-            "value": "Durability"
-          },
-          {
-            "slug": "base-eventual-consistency",
-            "depth": 2,
-            "value": "BASE: Eventual Consistency"
-          },
-          {
-            "slug": "column-oriented-dbms",
-            "depth": 2,
-            "value": "Column-oriented DBMS"
-          }
-        ]
-      }
-    },
-    {
       "key": "manual/Debugging/Resources.md",
       "value": {
         "menu": "Debugging",
@@ -7107,6 +7152,216 @@
             "slug": "thanks-thats-it",
             "depth": 1,
             "value": "Thanks that’s it."
+          }
+        ]
+      }
+    },
+    {
+      "key": "manual/Design-Systems/Comparing-Design-Systems.md",
+      "value": {
+        "menu": "Design Systems",
+        "name": "Comparing Design System Components",
+        "id": "c6291a74c7824a6dd407c3f383f607c8",
+        "filepath": "manual/Design-Systems/Comparing-Design-Systems.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Design-Systems/Comparing-Design-Systems.md",
+        "link": "",
+        "slug": "manual-design-systems-comparing-design-systems",
+        "route": "/manual-design-systems-comparing-design-systems",
+        "headings": [
+          {
+            "slug": "comparing-design-system-components",
+            "depth": 1,
+            "value": "Comparing Design System Components"
+          },
+          {
+            "slug": "table-of-contents",
+            "depth": 2,
+            "value": "Table of Contents"
+          },
+          {
+            "slug": "button",
+            "depth": 2,
+            "value": "Button"
+          }
+        ]
+      }
+    },
+    {
+      "key": "manual/Design-Systems/Design-Systems.md",
+      "value": {
+        "name": "Design Systems",
+        "menu": "Design Systems",
+        "id": "c8e1f9241ac8e7cdc46c75aa9e8ccbe0",
+        "filepath": "manual/Design-Systems/Design-Systems.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Design-Systems/Design-Systems.md",
+        "link": "",
+        "slug": "manual-design-systems-design-systems",
+        "route": "/manual-design-systems-design-systems",
+        "headings": [
+          {
+            "slug": "design-systems",
+            "depth": 1,
+            "value": "Design Systems"
+          },
+          {
+            "slug": "from-the-podcast",
+            "depth": 2,
+            "value": "From the podcast"
+          },
+          {
+            "slug": "design-system-links",
+            "depth": 2,
+            "value": "Design System Links"
+          },
+          {
+            "slug": "carbon-design-system",
+            "depth": 2,
+            "value": "Carbon Design System"
+          },
+          {
+            "slug": "guidelines",
+            "depth": 3,
+            "value": "Guidelines"
+          },
+          {
+            "slug": "accessibility",
+            "depth": 4,
+            "value": "Accessibility"
+          },
+          {
+            "slug": "content",
+            "depth": 4,
+            "value": "Content"
+          },
+          {
+            "slug": "principles",
+            "depth": 4,
+            "value": "Principles"
+          },
+          {
+            "slug": "style",
+            "depth": 3,
+            "value": "Style"
+          },
+          {
+            "slug": "components",
+            "depth": 3,
+            "value": "Components"
+          },
+          {
+            "slug": "a11y-style-guide",
+            "depth": 2,
+            "value": "A11y Style Guide"
+          },
+          {
+            "slug": "material-design",
+            "depth": 2,
+            "value": "Material Design"
+          },
+          {
+            "slug": "colour",
+            "depth": 3,
+            "value": "Colour"
+          },
+          {
+            "slug": "patterns",
+            "depth": 3,
+            "value": "Patterns"
+          },
+          {
+            "slug": "growth--communications",
+            "depth": 3,
+            "value": "Growth & communications"
+          },
+          {
+            "slug": "platforms",
+            "depth": 3,
+            "value": "Platforms"
+          },
+          {
+            "slug": "viljamisdesigncom",
+            "depth": 2,
+            "value": "viljamisdesign.com"
+          },
+          {
+            "slug": "atlassian-design",
+            "depth": 2,
+            "value": "Atlassian design"
+          },
+          {
+            "slug": "dropbox-branding",
+            "depth": 2,
+            "value": "Dropbox Branding"
+          },
+          {
+            "slug": "government-guidelines",
+            "depth": 2,
+            "value": "Government Guidelines"
+          },
+          {
+            "slug": "microservices",
+            "depth": 2,
+            "value": "Microservices"
+          },
+          {
+            "slug": "logging",
+            "depth": 3,
+            "value": "Logging"
+          },
+          {
+            "slug": "coding",
+            "depth": 2,
+            "value": "Coding"
+          },
+          {
+            "slug": "concerning-factors",
+            "depth": 3,
+            "value": "Concerning factors"
+          },
+          {
+            "slug": "workplace-best-practises",
+            "depth": 2,
+            "value": "Workplace Best Practises"
+          },
+          {
+            "slug": "mathemetic-concepts",
+            "depth": 2,
+            "value": "Mathemetic Concepts"
+          },
+          {
+            "slug": "inspiration",
+            "depth": 2,
+            "value": "Inspiration"
+          }
+        ]
+      }
+    },
+    {
+      "key": "manual/Design-Systems/Design-Tokens.md",
+      "value": {
+        "menu": "Design Systems",
+        "name": "Design Tokens",
+        "id": "db7a9be0b777f43fc1f041be9703913a",
+        "filepath": "manual/Design-Systems/Design-Tokens.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Design-Systems/Design-Tokens.md",
+        "link": "",
+        "slug": "manual-design-systems-design-tokens",
+        "route": "/manual-design-systems-design-tokens",
+        "headings": [
+          {
+            "slug": "design-tokens",
+            "depth": 1,
+            "value": "Design Tokens"
+          },
+          {
+            "slug": "useful-links",
+            "depth": 2,
+            "value": "Useful links"
+          },
+          {
+            "slug": "elements-to-think-about",
+            "depth": 2,
+            "value": "Elements to think about"
           }
         ]
       }
@@ -7867,6 +8122,56 @@
       }
     },
     {
+      "key": "manual/DevOps/Caching.md",
+      "value": {
+        "menu": "DevOps",
+        "name": "HTTP Caching",
+        "id": "b4ffddfd267746de3a5e7ea8ce9955bd",
+        "filepath": "manual/DevOps/Caching.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/DevOps/Caching.md",
+        "link": "",
+        "slug": "manual-dev-ops-caching",
+        "route": "/manual-dev-ops-caching",
+        "headings": [
+          {
+            "slug": "caching",
+            "depth": 1,
+            "value": "Caching"
+          },
+          {
+            "slug": "resources",
+            "depth": 2,
+            "value": "Resources"
+          },
+          {
+            "slug": "terms",
+            "depth": 2,
+            "value": "Terms"
+          },
+          {
+            "slug": "caching-locations",
+            "depth": 2,
+            "value": "Caching locations"
+          },
+          {
+            "slug": "caching-headers",
+            "depth": 2,
+            "value": "Caching Headers"
+          },
+          {
+            "slug": "content-delivery-networks-vs-caches",
+            "depth": 2,
+            "value": "Content Delivery Networks vs Caches"
+          },
+          {
+            "slug": "caching-recommendations",
+            "depth": 2,
+            "value": "Caching Recommendations"
+          }
+        ]
+      }
+    },
+    {
       "key": "manual/DevOps/Dev-Ops.md",
       "value": {
         "name": "Dev Ops",
@@ -7941,211 +8246,61 @@
       }
     },
     {
-      "key": "manual/Design-Systems/Comparing-Design-Systems.md",
+      "key": "manual/DevOps/Observability-Definitions.md",
       "value": {
-        "menu": "Design Systems",
-        "name": "Comparing Design System Components",
-        "id": "c6291a74c7824a6dd407c3f383f607c8",
-        "filepath": "manual/Design-Systems/Comparing-Design-Systems.md",
-        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Design-Systems/Comparing-Design-Systems.md",
+        "menu": "DevOps",
+        "name": "Observability Definitions",
+        "id": "653b41acc6c5c1a11bfb0b1860caf393",
+        "filepath": "manual/DevOps/Observability-Definitions.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/DevOps/Observability-Definitions.md",
         "link": "",
-        "slug": "manual-design-systems-comparing-design-systems",
-        "route": "/manual-design-systems-comparing-design-systems",
+        "slug": "manual-dev-ops-observability-definitions",
+        "route": "/manual-dev-ops-observability-definitions",
         "headings": [
           {
-            "slug": "comparing-design-system-components",
+            "slug": "observability-definitions",
             "depth": 1,
-            "value": "Comparing Design System Components"
+            "value": "Observability Definitions"
           },
           {
-            "slug": "table-of-contents",
+            "slug": "resources",
             "depth": 2,
-            "value": "Table of Contents"
+            "value": "Resources"
           },
           {
-            "slug": "button",
+            "slug": "terminology",
             "depth": 2,
-            "value": "Button"
+            "value": "Terminology"
           }
         ]
       }
     },
     {
-      "key": "manual/Design-Systems/Design-Systems.md",
+      "key": "manual/DevOps/Proxies.md",
       "value": {
-        "name": "Design Systems",
-        "menu": "Design Systems",
-        "id": "c8e1f9241ac8e7cdc46c75aa9e8ccbe0",
-        "filepath": "manual/Design-Systems/Design-Systems.md",
-        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Design-Systems/Design-Systems.md",
+        "menu": "DevOps",
+        "name": "Proxies",
+        "id": "6a2c635d79e46855fc9a934c065884ea",
+        "filepath": "manual/DevOps/Proxies.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/DevOps/Proxies.md",
         "link": "",
-        "slug": "manual-design-systems-design-systems",
-        "route": "/manual-design-systems-design-systems",
+        "slug": "manual-dev-ops-proxies",
+        "route": "/manual-dev-ops-proxies",
         "headings": [
           {
-            "slug": "design-systems",
+            "slug": "proxies",
             "depth": 1,
-            "value": "Design Systems"
+            "value": "Proxies"
           },
           {
-            "slug": "from-the-podcast",
+            "slug": "resources",
             "depth": 2,
-            "value": "From the podcast"
+            "value": "Resources"
           },
           {
-            "slug": "design-system-links",
+            "slug": "whats-the-difference",
             "depth": 2,
-            "value": "Design System Links"
-          },
-          {
-            "slug": "carbon-design-system",
-            "depth": 2,
-            "value": "Carbon Design System"
-          },
-          {
-            "slug": "guidelines",
-            "depth": 3,
-            "value": "Guidelines"
-          },
-          {
-            "slug": "accessibility",
-            "depth": 4,
-            "value": "Accessibility"
-          },
-          {
-            "slug": "content",
-            "depth": 4,
-            "value": "Content"
-          },
-          {
-            "slug": "principles",
-            "depth": 4,
-            "value": "Principles"
-          },
-          {
-            "slug": "style",
-            "depth": 3,
-            "value": "Style"
-          },
-          {
-            "slug": "components",
-            "depth": 3,
-            "value": "Components"
-          },
-          {
-            "slug": "a11y-style-guide",
-            "depth": 2,
-            "value": "A11y Style Guide"
-          },
-          {
-            "slug": "material-design",
-            "depth": 2,
-            "value": "Material Design"
-          },
-          {
-            "slug": "colour",
-            "depth": 3,
-            "value": "Colour"
-          },
-          {
-            "slug": "patterns",
-            "depth": 3,
-            "value": "Patterns"
-          },
-          {
-            "slug": "growth--communications",
-            "depth": 3,
-            "value": "Growth & communications"
-          },
-          {
-            "slug": "platforms",
-            "depth": 3,
-            "value": "Platforms"
-          },
-          {
-            "slug": "viljamisdesigncom",
-            "depth": 2,
-            "value": "viljamisdesign.com"
-          },
-          {
-            "slug": "atlassian-design",
-            "depth": 2,
-            "value": "Atlassian design"
-          },
-          {
-            "slug": "dropbox-branding",
-            "depth": 2,
-            "value": "Dropbox Branding"
-          },
-          {
-            "slug": "government-guidelines",
-            "depth": 2,
-            "value": "Government Guidelines"
-          },
-          {
-            "slug": "microservices",
-            "depth": 2,
-            "value": "Microservices"
-          },
-          {
-            "slug": "logging",
-            "depth": 3,
-            "value": "Logging"
-          },
-          {
-            "slug": "coding",
-            "depth": 2,
-            "value": "Coding"
-          },
-          {
-            "slug": "concerning-factors",
-            "depth": 3,
-            "value": "Concerning factors"
-          },
-          {
-            "slug": "workplace-best-practises",
-            "depth": 2,
-            "value": "Workplace Best Practises"
-          },
-          {
-            "slug": "mathemetic-concepts",
-            "depth": 2,
-            "value": "Mathemetic Concepts"
-          },
-          {
-            "slug": "inspiration",
-            "depth": 2,
-            "value": "Inspiration"
-          }
-        ]
-      }
-    },
-    {
-      "key": "manual/Design-Systems/Design-Tokens.md",
-      "value": {
-        "menu": "Design Systems",
-        "name": "Design Tokens",
-        "id": "db7a9be0b777f43fc1f041be9703913a",
-        "filepath": "manual/Design-Systems/Design-Tokens.md",
-        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Design-Systems/Design-Tokens.md",
-        "link": "",
-        "slug": "manual-design-systems-design-tokens",
-        "route": "/manual-design-systems-design-tokens",
-        "headings": [
-          {
-            "slug": "design-tokens",
-            "depth": 1,
-            "value": "Design Tokens"
-          },
-          {
-            "slug": "useful-links",
-            "depth": 2,
-            "value": "Useful links"
-          },
-          {
-            "slug": "elements-to-think-about",
-            "depth": 2,
-            "value": "Elements to think about"
+            "value": "What's the difference?"
           }
         ]
       }
@@ -9666,36 +9821,6 @@
       }
     },
     {
-      "key": "manual/Emitter/README.md",
-      "value": {
-        "name": "README",
-        "menu": "Emitter",
-        "id": "fbc333c74b4fcbc882b00fc5870bf9dc",
-        "filepath": "manual/Emitter/README.md",
-        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Emitter/README.md",
-        "link": "",
-        "slug": "manual-emitter-readme",
-        "route": "/manual-emitter-readme",
-        "headings": [
-          {
-            "slug": "emitter",
-            "depth": 1,
-            "value": "Emitter"
-          },
-          {
-            "slug": "levels",
-            "depth": 2,
-            "value": "Levels"
-          },
-          {
-            "slug": "resources",
-            "depth": 2,
-            "value": "Resources"
-          }
-        ]
-      }
-    },
-    {
       "key": "manual/Elm/Advanced-Elm.md",
       "value": {
         "menu": "Elm",
@@ -10121,6 +10246,36 @@
             "slug": "http-and-interacting-with-servers",
             "depth": 2,
             "value": "Http and interacting with servers"
+          }
+        ]
+      }
+    },
+    {
+      "key": "manual/Emitter/README.md",
+      "value": {
+        "name": "README",
+        "menu": "Emitter",
+        "id": "fbc333c74b4fcbc882b00fc5870bf9dc",
+        "filepath": "manual/Emitter/README.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Emitter/README.md",
+        "link": "",
+        "slug": "manual-emitter-readme",
+        "route": "/manual-emitter-readme",
+        "headings": [
+          {
+            "slug": "emitter",
+            "depth": 1,
+            "value": "Emitter"
+          },
+          {
+            "slug": "levels",
+            "depth": 2,
+            "value": "Levels"
+          },
+          {
+            "slug": "resources",
+            "depth": 2,
+            "value": "Resources"
           }
         ]
       }
@@ -10636,6 +10791,36 @@
       }
     },
     {
+      "key": "manual/Functional-Programming/Functors-And-Monads.md",
+      "value": {
+        "menu": "Functional Programming",
+        "name": "Functors and Monads",
+        "id": "f65d0de9c29bf6acd237884d1f43b8ba",
+        "filepath": "manual/Functional-Programming/Functors-And-Monads.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Functional-Programming/Functors-And-Monads.md",
+        "link": "",
+        "slug": "manual-functional-programming-functors-and-monads",
+        "route": "/manual-functional-programming-functors-and-monads",
+        "headings": [
+          {
+            "slug": "functors-and-monads",
+            "depth": 1,
+            "value": "Functors and Monads"
+          },
+          {
+            "slug": "resources",
+            "depth": 2,
+            "value": "Resources"
+          },
+          {
+            "slug": "tldr",
+            "depth": 2,
+            "value": "tl;dr"
+          }
+        ]
+      }
+    },
+    {
       "key": "manual/Git/Git-Complete.md",
       "value": {
         "menu": "Git",
@@ -10651,6 +10836,11 @@
             "slug": "git-complete",
             "depth": 1,
             "value": "Git Complete"
+          },
+          {
+            "slug": "resources",
+            "depth": 2,
+            "value": "Resources"
           },
           {
             "slug": "git-config",
@@ -10801,41 +10991,6 @@
             "slug": "squashing-commits",
             "depth": 1,
             "value": "Squashing Commits"
-          }
-        ]
-      }
-    },
-    {
-      "key": "manual/Google-Cloud-Platform/Cloud-Vision-Nodejs.md",
-      "value": {
-        "menu": "Google Cloud Platform",
-        "name": "Cloud Vision",
-        "id": "91360548497553cb802000e14606d121",
-        "filepath": "manual/Google-Cloud-Platform/Cloud-Vision-Nodejs.md",
-        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Google-Cloud-Platform/Cloud-Vision-Nodejs.md",
-        "link": "",
-        "slug": "manual-google-cloud-platform-cloud-vision-nodejs",
-        "route": "/manual-google-cloud-platform-cloud-vision-nodejs",
-        "headings": [
-          {
-            "slug": "cloud-vision-w-nodejs",
-            "depth": 1,
-            "value": "Cloud Vision w/ Nodejs"
-          },
-          {
-            "slug": "references",
-            "depth": 2,
-            "value": "References"
-          },
-          {
-            "slug": "prerequisites",
-            "depth": 2,
-            "value": "Prerequisites"
-          },
-          {
-            "slug": "typescript-example",
-            "depth": 2,
-            "value": "TypeScript Example"
           }
         ]
       }
@@ -11446,6 +11601,31 @@
       }
     },
     {
+      "key": "manual/Go/Go-Style-Guide.md",
+      "value": {
+        "menu": "Go",
+        "name": "Go Style Guide",
+        "id": "fd195bf886241de1ac765c9851585c26",
+        "filepath": "manual/Go/Go-Style-Guide.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Go/Go-Style-Guide.md",
+        "link": "",
+        "slug": "manual-go-go-style-guide",
+        "route": "/manual-go-go-style-guide",
+        "headings": [
+          {
+            "slug": "go-style-guide",
+            "depth": 1,
+            "value": "Go Style Guide"
+          },
+          {
+            "slug": "resources",
+            "depth": 2,
+            "value": "Resources"
+          }
+        ]
+      }
+    },
+    {
       "key": "manual/Go/Go-Tour-Channels.md",
       "value": {
         "menu": "Go",
@@ -11631,6 +11811,41 @@
       }
     },
     {
+      "key": "manual/Google-Cloud-Platform/Cloud-Vision-Nodejs.md",
+      "value": {
+        "menu": "Google Cloud Platform",
+        "name": "Cloud Vision",
+        "id": "91360548497553cb802000e14606d121",
+        "filepath": "manual/Google-Cloud-Platform/Cloud-Vision-Nodejs.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Google-Cloud-Platform/Cloud-Vision-Nodejs.md",
+        "link": "",
+        "slug": "manual-google-cloud-platform-cloud-vision-nodejs",
+        "route": "/manual-google-cloud-platform-cloud-vision-nodejs",
+        "headings": [
+          {
+            "slug": "cloud-vision-w-nodejs",
+            "depth": 1,
+            "value": "Cloud Vision w/ Nodejs"
+          },
+          {
+            "slug": "references",
+            "depth": 2,
+            "value": "References"
+          },
+          {
+            "slug": "prerequisites",
+            "depth": 2,
+            "value": "Prerequisites"
+          },
+          {
+            "slug": "typescript-example",
+            "depth": 2,
+            "value": "TypeScript Example"
+          }
+        ]
+      }
+    },
+    {
       "key": "manual/Google-Play/Google-Play.md",
       "value": {
         "name": "Google Play",
@@ -11666,41 +11881,6 @@
             "slug": "debugging",
             "depth": 2,
             "value": "Debugging"
-          }
-        ]
-      }
-    },
-    {
-      "key": "manual/Hygen/intro.md",
-      "value": {
-        "name": "Intro",
-        "menu": "Hygen",
-        "id": "1ad4379725a54a19d03d3f4c7a4b24e6",
-        "filepath": "manual/Hygen/intro.md",
-        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Hygen/intro.md",
-        "link": "",
-        "slug": "manual-hygen-intro",
-        "route": "/manual-hygen-intro",
-        "headings": [
-          {
-            "slug": "intro-to-hygen",
-            "depth": 1,
-            "value": "Intro to Hygen"
-          },
-          {
-            "slug": "links",
-            "depth": 2,
-            "value": "Links"
-          },
-          {
-            "slug": "setup",
-            "depth": 2,
-            "value": "Setup"
-          },
-          {
-            "slug": "-hygen-react-component",
-            "depth": 2,
-            "value": "> hygen react component"
           }
         ]
       }
@@ -11951,6 +12131,41 @@
             "slug": "handling-errors-around-signup",
             "depth": 3,
             "value": "Handling Errors Around Signup"
+          }
+        ]
+      }
+    },
+    {
+      "key": "manual/Hygen/intro.md",
+      "value": {
+        "name": "Intro",
+        "menu": "Hygen",
+        "id": "1ad4379725a54a19d03d3f4c7a4b24e6",
+        "filepath": "manual/Hygen/intro.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Hygen/intro.md",
+        "link": "",
+        "slug": "manual-hygen-intro",
+        "route": "/manual-hygen-intro",
+        "headings": [
+          {
+            "slug": "intro-to-hygen",
+            "depth": 1,
+            "value": "Intro to Hygen"
+          },
+          {
+            "slug": "links",
+            "depth": 2,
+            "value": "Links"
+          },
+          {
+            "slug": "setup",
+            "depth": 2,
+            "value": "Setup"
+          },
+          {
+            "slug": "-hygen-react-component",
+            "depth": 2,
+            "value": "> hygen react component"
           }
         ]
       }
@@ -16305,6 +16520,61 @@
       }
     },
     {
+      "key": "manual/Lean-Product/Design-System-Considerations.md",
+      "value": {
+        "menu": "Lean Product Planning",
+        "name": "Design System Considerations",
+        "id": "551596226de8397fbf0f6c654d2bf440",
+        "filepath": "manual/Lean-Product/Design-System-Considerations.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Lean-Product/Design-System-Considerations.md",
+        "link": "",
+        "slug": "manual-lean-product-design-system-considerations",
+        "route": "/manual-lean-product-design-system-considerations",
+        "headings": [
+          {
+            "slug": "design-system-considerations",
+            "depth": 1,
+            "value": "Design System Considerations"
+          }
+        ]
+      }
+    },
+    {
+      "key": "manual/Lean-Product/Product-Considerations.md",
+      "value": {
+        "menu": "Lean Product Planning",
+        "name": "Product Considerations",
+        "id": "045a297284a2db14e7504baa60e1bb97",
+        "filepath": "manual/Lean-Product/Product-Considerations.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Lean-Product/Product-Considerations.md",
+        "link": "",
+        "slug": "manual-lean-product-product-considerations",
+        "route": "/manual-lean-product-product-considerations",
+        "headings": [
+          {
+            "slug": "product-considerations",
+            "depth": 1,
+            "value": "Product Considerations"
+          },
+          {
+            "slug": "product",
+            "depth": 2,
+            "value": "Product"
+          },
+          {
+            "slug": "design-systems",
+            "depth": 2,
+            "value": "Design Systems"
+          },
+          {
+            "slug": "product-discovery",
+            "depth": 2,
+            "value": "Product Discovery"
+          }
+        ]
+      }
+    },
+    {
       "key": "manual/Laravel/Laravel-5.4.md",
       "value": {
         "name": "Laravel 5 4",
@@ -16440,61 +16710,6 @@
             "slug": "relating-data",
             "depth": 2,
             "value": "Relating Data"
-          }
-        ]
-      }
-    },
-    {
-      "key": "manual/Lean-Product/Design-System-Considerations.md",
-      "value": {
-        "menu": "Lean Product Planning",
-        "name": "Design System Considerations",
-        "id": "551596226de8397fbf0f6c654d2bf440",
-        "filepath": "manual/Lean-Product/Design-System-Considerations.md",
-        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Lean-Product/Design-System-Considerations.md",
-        "link": "",
-        "slug": "manual-lean-product-design-system-considerations",
-        "route": "/manual-lean-product-design-system-considerations",
-        "headings": [
-          {
-            "slug": "design-system-considerations",
-            "depth": 1,
-            "value": "Design System Considerations"
-          }
-        ]
-      }
-    },
-    {
-      "key": "manual/Lean-Product/Product-Considerations.md",
-      "value": {
-        "menu": "Lean Product Planning",
-        "name": "Product Considerations",
-        "id": "045a297284a2db14e7504baa60e1bb97",
-        "filepath": "manual/Lean-Product/Product-Considerations.md",
-        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Lean-Product/Product-Considerations.md",
-        "link": "",
-        "slug": "manual-lean-product-product-considerations",
-        "route": "/manual-lean-product-product-considerations",
-        "headings": [
-          {
-            "slug": "product-considerations",
-            "depth": 1,
-            "value": "Product Considerations"
-          },
-          {
-            "slug": "product",
-            "depth": 2,
-            "value": "Product"
-          },
-          {
-            "slug": "design-systems",
-            "depth": 2,
-            "value": "Design Systems"
-          },
-          {
-            "slug": "product-discovery",
-            "depth": 2,
-            "value": "Product Discovery"
           }
         ]
       }
@@ -17315,6 +17530,26 @@
             "slug": "mu-4-terminal-tips",
             "depth": 2,
             "value": "MU-4: Terminal Tips"
+          }
+        ]
+      }
+    },
+    {
+      "key": "manual/Machine-Learning-Algos/K-Nearest-Neighbours.md",
+      "value": {
+        "name": "K-Nearest Neighbours",
+        "menu": "Machine Learning Algos",
+        "id": "15ad57c7d2bdee4df66448a27d9d4ad1",
+        "filepath": "manual/Machine-Learning-Algos/K-Nearest-Neighbours.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Machine-Learning-Algos/K-Nearest-Neighbours.md",
+        "link": "",
+        "slug": "manual-machine-learning-algos-k-nearest-neighbours",
+        "route": "/manual-machine-learning-algos-k-nearest-neighbours",
+        "headings": [
+          {
+            "slug": "k-nearest-neighbours",
+            "depth": 1,
+            "value": "K-Nearest Neighbours"
           }
         ]
       }
@@ -18395,26 +18630,6 @@
             "slug": "machine-learning---week-1",
             "depth": 1,
             "value": "Machine Learning - Week 1"
-          }
-        ]
-      }
-    },
-    {
-      "key": "manual/Machine-Learning-Algos/K-Nearest-Neighbours.md",
-      "value": {
-        "name": "K-Nearest Neighbours",
-        "menu": "Machine Learning Algos",
-        "id": "15ad57c7d2bdee4df66448a27d9d4ad1",
-        "filepath": "manual/Machine-Learning-Algos/K-Nearest-Neighbours.md",
-        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Machine-Learning-Algos/K-Nearest-Neighbours.md",
-        "link": "",
-        "slug": "manual-machine-learning-algos-k-nearest-neighbours",
-        "route": "/manual-machine-learning-algos-k-nearest-neighbours",
-        "headings": [
-          {
-            "slug": "k-nearest-neighbours",
-            "depth": 1,
-            "value": "K-Nearest Neighbours"
           }
         ]
       }
@@ -20720,91 +20935,6 @@
       }
     },
     {
-      "key": "manual/Productivity/Productivity.md",
-      "value": {
-        "name": "Productivity",
-        "menu": "Productivity",
-        "id": "89688af379769e48a45b7f6127e684c7",
-        "filepath": "manual/Productivity/Productivity.md",
-        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Productivity/Productivity.md",
-        "link": "",
-        "slug": "manual-productivity-productivity",
-        "route": "/manual-productivity-productivity",
-        "headings": [
-          {
-            "slug": "workflow-productivity-apps-podcasts-and-extensions",
-            "depth": 1,
-            "value": "Workflow, Productivity, Apps, Podcasts and Extensions"
-          },
-          {
-            "slug": "ca-chrome-apps",
-            "depth": 2,
-            "value": "CA: Chrome Apps"
-          },
-          {
-            "slug": "ca-productivity",
-            "depth": 2,
-            "value": "CA-Productivity"
-          },
-          {
-            "slug": "ca-developer",
-            "depth": 2,
-            "value": "CA-Developer"
-          },
-          {
-            "slug": "ce-chrome-extensions",
-            "depth": 2,
-            "value": "CE: Chrome Extensions"
-          },
-          {
-            "slug": "ce-productivity",
-            "depth": 2,
-            "value": "CE-Productivity"
-          },
-          {
-            "slug": "ce-developer",
-            "depth": 2,
-            "value": "CE-Developer"
-          },
-          {
-            "slug": "aw-alfred-workflows",
-            "depth": 2,
-            "value": "AW: Alfred Workflows"
-          },
-          {
-            "slug": "pb-podcasts-and-blogs",
-            "depth": 2,
-            "value": "PB: Podcasts and Blogs"
-          },
-          {
-            "slug": "pb-web-dev-and-design",
-            "depth": 2,
-            "value": "PB: Web Dev and Design"
-          },
-          {
-            "slug": "pb-ios",
-            "depth": 2,
-            "value": "PB: iOS"
-          },
-          {
-            "slug": "pb-devops-sysops",
-            "depth": 2,
-            "value": "PB: DevOps, SysOps"
-          },
-          {
-            "slug": "pb-software-engineering",
-            "depth": 2,
-            "value": "PB: Software Engineering"
-          },
-          {
-            "slug": "bo-books",
-            "depth": 2,
-            "value": "BO: Books"
-          }
-        ]
-      }
-    },
-    {
       "key": "manual/Product-Discovery/Best-Continous-Discovery-Mindsets.md",
       "value": {
         "menu": "Product Discovery",
@@ -21130,6 +21260,91 @@
             "slug": "notes",
             "depth": 2,
             "value": "Notes"
+          }
+        ]
+      }
+    },
+    {
+      "key": "manual/Productivity/Productivity.md",
+      "value": {
+        "name": "Productivity",
+        "menu": "Productivity",
+        "id": "89688af379769e48a45b7f6127e684c7",
+        "filepath": "manual/Productivity/Productivity.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Productivity/Productivity.md",
+        "link": "",
+        "slug": "manual-productivity-productivity",
+        "route": "/manual-productivity-productivity",
+        "headings": [
+          {
+            "slug": "workflow-productivity-apps-podcasts-and-extensions",
+            "depth": 1,
+            "value": "Workflow, Productivity, Apps, Podcasts and Extensions"
+          },
+          {
+            "slug": "ca-chrome-apps",
+            "depth": 2,
+            "value": "CA: Chrome Apps"
+          },
+          {
+            "slug": "ca-productivity",
+            "depth": 2,
+            "value": "CA-Productivity"
+          },
+          {
+            "slug": "ca-developer",
+            "depth": 2,
+            "value": "CA-Developer"
+          },
+          {
+            "slug": "ce-chrome-extensions",
+            "depth": 2,
+            "value": "CE: Chrome Extensions"
+          },
+          {
+            "slug": "ce-productivity",
+            "depth": 2,
+            "value": "CE-Productivity"
+          },
+          {
+            "slug": "ce-developer",
+            "depth": 2,
+            "value": "CE-Developer"
+          },
+          {
+            "slug": "aw-alfred-workflows",
+            "depth": 2,
+            "value": "AW: Alfred Workflows"
+          },
+          {
+            "slug": "pb-podcasts-and-blogs",
+            "depth": 2,
+            "value": "PB: Podcasts and Blogs"
+          },
+          {
+            "slug": "pb-web-dev-and-design",
+            "depth": 2,
+            "value": "PB: Web Dev and Design"
+          },
+          {
+            "slug": "pb-ios",
+            "depth": 2,
+            "value": "PB: iOS"
+          },
+          {
+            "slug": "pb-devops-sysops",
+            "depth": 2,
+            "value": "PB: DevOps, SysOps"
+          },
+          {
+            "slug": "pb-software-engineering",
+            "depth": 2,
+            "value": "PB: Software Engineering"
+          },
+          {
+            "slug": "bo-books",
+            "depth": 2,
+            "value": "BO: Books"
           }
         ]
       }
@@ -22455,6 +22670,31 @@
       }
     },
     {
+      "key": "manual/React/Intro.md",
+      "value": {
+        "name": "Intro",
+        "menu": "React",
+        "id": "b0e10641fd46c67b049c238c7b26fa7d",
+        "filepath": "manual/React/Intro.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/React/Intro.md",
+        "link": "",
+        "slug": "manual-react-intro",
+        "route": "/manual-react-intro",
+        "headings": [
+          {
+            "slug": "react-intro",
+            "depth": 1,
+            "value": "React Intro"
+          },
+          {
+            "slug": "resources",
+            "depth": 2,
+            "value": "Resources"
+          }
+        ]
+      }
+    },
+    {
       "key": "manual/React/Lead-Debouncing-With-Hooks.md",
       "value": {
         "name": "Lead Debouncing with Hooks",
@@ -22550,31 +22790,6 @@
             "slug": "1-when-to-use-redux-and-connect-a-function",
             "depth": 2,
             "value": "1. When to use Redux and connect a function?"
-          }
-        ]
-      }
-    },
-    {
-      "key": "manual/React/intro.md",
-      "value": {
-        "name": "Intro",
-        "menu": "React",
-        "id": "2b94641f35fb865c551d8d94aca25c0a",
-        "filepath": "manual/React/intro.md",
-        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/React/intro.md",
-        "link": "",
-        "slug": "manual-react-intro",
-        "route": "/manual-react-intro",
-        "headings": [
-          {
-            "slug": "section-react",
-            "depth": 2,
-            "value": "Section: React"
-          },
-          {
-            "slug": "react-intro",
-            "depth": 1,
-            "value": "React Intro"
           }
         ]
       }
@@ -24090,6 +24305,56 @@
       }
     },
     {
+      "key": "manual/Roadmaps/Roadmaps-Intro.md",
+      "value": {
+        "menu": "Roadmaps",
+        "name": "Intro to Roadmaps",
+        "id": "a0da1a9ccca466c73b66295322969566",
+        "filepath": "manual/Roadmaps/Roadmaps-Intro.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Roadmaps/Roadmaps-Intro.md",
+        "link": "",
+        "slug": "manual-roadmaps-roadmaps-intro",
+        "route": "/manual-roadmaps-roadmaps-intro",
+        "headings": [
+          {
+            "slug": "intro-to-roadmaps",
+            "depth": 1,
+            "value": "Intro to Roadmaps"
+          },
+          {
+            "slug": "resources",
+            "depth": 2,
+            "value": "Resources"
+          },
+          {
+            "slug": "roadmap-to-roadmaps",
+            "depth": 2,
+            "value": "Roadmap to... roadmaps"
+          },
+          {
+            "slug": "software--architecture-design",
+            "depth": 3,
+            "value": "Software + Architecture Design"
+          },
+          {
+            "slug": "developer-roadmap",
+            "depth": 3,
+            "value": "Developer Roadmap"
+          },
+          {
+            "slug": "data-science",
+            "depth": 3,
+            "value": "Data Science"
+          },
+          {
+            "slug": "golang-roadmap",
+            "depth": 3,
+            "value": "GoLang Roadmap"
+          }
+        ]
+      }
+    },
+    {
       "key": "manual/Ruby/CocoaPods-Workshop.md",
       "value": {
         "name": "Cocoa Pods Workshop",
@@ -24115,6 +24380,36 @@
             "slug": "pods-2-updating",
             "depth": 2,
             "value": "PODS-2: Updating"
+          }
+        ]
+      }
+    },
+    {
+      "key": "manual/Ruby/Intro.md",
+      "value": {
+        "menu": "Ruby",
+        "name": "Ruby Intro",
+        "id": "bd185f4b66526cc6ff2efab0e39c852a",
+        "filepath": "manual/Ruby/Intro.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Ruby/Intro.md",
+        "link": "",
+        "slug": "manual-ruby-intro",
+        "route": "/manual-ruby-intro",
+        "headings": [
+          {
+            "slug": "ruby-intro",
+            "depth": 1,
+            "value": "Ruby Intro"
+          },
+          {
+            "slug": "resources",
+            "depth": 2,
+            "value": "Resources"
+          },
+          {
+            "slug": "bang--methods",
+            "depth": 2,
+            "value": "Bang (!) Methods"
           }
         ]
       }
@@ -24915,6 +25210,101 @@
       }
     },
     {
+      "key": "manual/Scala/Intro-To-Scala.md",
+      "value": {
+        "name": "Intro To Scala",
+        "menu": "Scala",
+        "id": "ae4bd7f1d81566847c2562eefe377ca2",
+        "filepath": "manual/Scala/Intro-To-Scala.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Scala/Intro-To-Scala.md",
+        "link": "",
+        "slug": "manual-scala-intro-to-scala",
+        "route": "/manual-scala-intro-to-scala",
+        "headings": [
+          {
+            "slug": "intro-to-scala",
+            "depth": 1,
+            "value": "Intro to Scala"
+          },
+          {
+            "slug": "function-declarations",
+            "depth": 2,
+            "value": "Function Declarations"
+          }
+        ]
+      }
+    },
+    {
+      "key": "manual/Scala/Scala-Expressions.md",
+      "value": {
+        "name": "Scala Expressions and Functions",
+        "menu": "Scala",
+        "id": "80ebb28b4ef3068d8af5fe3adf826065",
+        "filepath": "manual/Scala/Scala-Expressions.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Scala/Scala-Expressions.md",
+        "link": "",
+        "slug": "manual-scala-scala-expressions",
+        "route": "/manual-scala-scala-expressions",
+        "headings": [
+          {
+            "slug": "scala-expressions-and-functions",
+            "depth": 1,
+            "value": "Scala Expressions and Functions"
+          },
+          {
+            "slug": "for-loops",
+            "depth": 2,
+            "value": "For Loops"
+          },
+          {
+            "slug": "code-blocks",
+            "depth": 2,
+            "value": "Code Blocks"
+          },
+          {
+            "slug": "examples-of-expressions-and-side-effects",
+            "depth": 2,
+            "value": "Examples of Expressions and Side Effects"
+          },
+          {
+            "slug": "functions",
+            "depth": 2,
+            "value": "Functions"
+          }
+        ]
+      }
+    },
+    {
+      "key": "manual/Scala/Scala-Values-Variables-Types.md",
+      "value": {
+        "name": "Values, Variables and Types",
+        "menu": "Scala",
+        "id": "4b9c94acdad989f2828bdc29b0ab2f43",
+        "filepath": "manual/Scala/Scala-Values-Variables-Types.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Scala/Scala-Values-Variables-Types.md",
+        "link": "",
+        "slug": "manual-scala-scala-values-variables-types",
+        "route": "/manual-scala-scala-values-variables-types",
+        "headings": [
+          {
+            "slug": "scala-values-variables-and-types",
+            "depth": 1,
+            "value": "Scala Values, Variables and Types"
+          },
+          {
+            "slug": "declaring-variables",
+            "depth": 2,
+            "value": "Declaring Variables"
+          },
+          {
+            "slug": "declaring-various-types",
+            "depth": 2,
+            "value": "Declaring various types"
+          }
+        ]
+      }
+    },
+    {
       "key": "manual/SQL/Indexing-Example.md",
       "value": {
         "menu": "SQL",
@@ -25115,101 +25505,6 @@
             "slug": "sql-window-functions",
             "depth": 1,
             "value": "SQL-Window-Functions"
-          }
-        ]
-      }
-    },
-    {
-      "key": "manual/Scala/Intro-To-Scala.md",
-      "value": {
-        "name": "Intro To Scala",
-        "menu": "Scala",
-        "id": "ae4bd7f1d81566847c2562eefe377ca2",
-        "filepath": "manual/Scala/Intro-To-Scala.md",
-        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Scala/Intro-To-Scala.md",
-        "link": "",
-        "slug": "manual-scala-intro-to-scala",
-        "route": "/manual-scala-intro-to-scala",
-        "headings": [
-          {
-            "slug": "intro-to-scala",
-            "depth": 1,
-            "value": "Intro to Scala"
-          },
-          {
-            "slug": "function-declarations",
-            "depth": 2,
-            "value": "Function Declarations"
-          }
-        ]
-      }
-    },
-    {
-      "key": "manual/Scala/Scala-Expressions.md",
-      "value": {
-        "name": "Scala Expressions and Functions",
-        "menu": "Scala",
-        "id": "80ebb28b4ef3068d8af5fe3adf826065",
-        "filepath": "manual/Scala/Scala-Expressions.md",
-        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Scala/Scala-Expressions.md",
-        "link": "",
-        "slug": "manual-scala-scala-expressions",
-        "route": "/manual-scala-scala-expressions",
-        "headings": [
-          {
-            "slug": "scala-expressions-and-functions",
-            "depth": 1,
-            "value": "Scala Expressions and Functions"
-          },
-          {
-            "slug": "for-loops",
-            "depth": 2,
-            "value": "For Loops"
-          },
-          {
-            "slug": "code-blocks",
-            "depth": 2,
-            "value": "Code Blocks"
-          },
-          {
-            "slug": "examples-of-expressions-and-side-effects",
-            "depth": 2,
-            "value": "Examples of Expressions and Side Effects"
-          },
-          {
-            "slug": "functions",
-            "depth": 2,
-            "value": "Functions"
-          }
-        ]
-      }
-    },
-    {
-      "key": "manual/Scala/Scala-Values-Variables-Types.md",
-      "value": {
-        "name": "Values, Variables and Types",
-        "menu": "Scala",
-        "id": "4b9c94acdad989f2828bdc29b0ab2f43",
-        "filepath": "manual/Scala/Scala-Values-Variables-Types.md",
-        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Scala/Scala-Values-Variables-Types.md",
-        "link": "",
-        "slug": "manual-scala-scala-values-variables-types",
-        "route": "/manual-scala-scala-values-variables-types",
-        "headings": [
-          {
-            "slug": "scala-values-variables-and-types",
-            "depth": 1,
-            "value": "Scala Values, Variables and Types"
-          },
-          {
-            "slug": "declaring-variables",
-            "depth": 2,
-            "value": "Declaring Variables"
-          },
-          {
-            "slug": "declaring-various-types",
-            "depth": 2,
-            "value": "Declaring various types"
           }
         ]
       }
@@ -25610,6 +25905,181 @@
             "slug": "step-three",
             "depth": 3,
             "value": "Step Three"
+          }
+        ]
+      }
+    },
+    {
+      "key": "manual/Style/base-animations.md",
+      "value": {
+        "name": "Base Animations",
+        "menu": "Style",
+        "id": "e8f945689a7bb192a0311acf4e1467e5",
+        "filepath": "manual/Style/base-animations.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Style/base-animations.md",
+        "link": "",
+        "slug": "manual-style-base-animations",
+        "route": "/manual-style-base-animations",
+        "headings": [
+          {
+            "slug": "base-animations",
+            "depth": 1,
+            "value": "Base Animations"
+          }
+        ]
+      }
+    },
+    {
+      "key": "manual/Style/base-mixins.md",
+      "value": {
+        "name": "Base Mixins",
+        "menu": "Style",
+        "id": "657d14b6dba7113c21fcfea9415094b1",
+        "filepath": "manual/Style/base-mixins.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Style/base-mixins.md",
+        "link": "",
+        "slug": "manual-style-base-mixins",
+        "route": "/manual-style-base-mixins",
+        "headings": [
+          {
+            "slug": "styles--base--mixins",
+            "depth": 1,
+            "value": "Styles > Base > Mixins"
+          },
+          {
+            "slug": "inline-block-list",
+            "depth": 2,
+            "value": "inline-block-list"
+          },
+          {
+            "slug": "omega-reset",
+            "depth": 2,
+            "value": "omega-reset"
+          },
+          {
+            "slug": "font-size",
+            "depth": 2,
+            "value": "font-size"
+          },
+          {
+            "slug": "inline-block",
+            "depth": 2,
+            "value": "inline-block"
+          },
+          {
+            "slug": "reset-box-model",
+            "depth": 2,
+            "value": "reset-box-model"
+          },
+          {
+            "slug": "absolute-fill",
+            "depth": 2,
+            "value": "absolute-fill"
+          },
+          {
+            "slug": "headings",
+            "depth": 2,
+            "value": "headings"
+          },
+          {
+            "slug": "background-image",
+            "depth": 2,
+            "value": "background-image"
+          },
+          {
+            "slug": "reset-ul",
+            "depth": 2,
+            "value": "reset-ul"
+          },
+          {
+            "slug": "hide-text",
+            "depth": 2,
+            "value": "hide-text"
+          },
+          {
+            "slug": "_neat-parse-media",
+            "depth": 2,
+            "value": "_ neat-parse-media"
+          },
+          {
+            "slug": "background-color",
+            "depth": 2,
+            "value": "background-color"
+          },
+          {
+            "slug": "color",
+            "depth": 2,
+            "value": "color"
+          }
+        ]
+      }
+    },
+    {
+      "key": "manual/Style/base.md",
+      "value": {
+        "name": "Base",
+        "menu": "Style",
+        "id": "d3b3d5d0ce273763453c5dd911f6abae",
+        "filepath": "manual/Style/base.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Style/base.md",
+        "link": "",
+        "slug": "manual-style-base",
+        "route": "/manual-style-base",
+        "headings": [
+          {
+            "slug": "base-folder",
+            "depth": 1,
+            "value": "Base folder"
+          },
+          {
+            "slug": "structure",
+            "depth": 2,
+            "value": "Structure"
+          }
+        ]
+      }
+    },
+    {
+      "key": "manual/Style/style.md",
+      "value": {
+        "name": "Style",
+        "menu": "Style",
+        "id": "9313fd24ff69f2c6818a8c15fb2cef24",
+        "filepath": "manual/Style/style.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Style/style.md",
+        "link": "",
+        "slug": "manual-style-style",
+        "route": "/manual-style-style",
+        "headings": [
+          {
+            "slug": "style",
+            "depth": 1,
+            "value": "Style"
+          },
+          {
+            "slug": "colours",
+            "depth": 2,
+            "value": "Colours"
+          },
+          {
+            "slug": "grids",
+            "depth": 2,
+            "value": "Grids"
+          },
+          {
+            "slug": "iconography",
+            "depth": 2,
+            "value": "Iconography"
+          },
+          {
+            "slug": "layer",
+            "depth": 2,
+            "value": "Layer"
+          },
+          {
+            "slug": "typography",
+            "depth": 2,
+            "value": "Typography"
           }
         ]
       }
@@ -26249,181 +26719,6 @@
             "slug": "stripe-cli-example-usage",
             "depth": 2,
             "value": "Stripe CLI example usage"
-          }
-        ]
-      }
-    },
-    {
-      "key": "manual/Style/base-animations.md",
-      "value": {
-        "name": "Base Animations",
-        "menu": "Style",
-        "id": "e8f945689a7bb192a0311acf4e1467e5",
-        "filepath": "manual/Style/base-animations.md",
-        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Style/base-animations.md",
-        "link": "",
-        "slug": "manual-style-base-animations",
-        "route": "/manual-style-base-animations",
-        "headings": [
-          {
-            "slug": "base-animations",
-            "depth": 1,
-            "value": "Base Animations"
-          }
-        ]
-      }
-    },
-    {
-      "key": "manual/Style/base-mixins.md",
-      "value": {
-        "name": "Base Mixins",
-        "menu": "Style",
-        "id": "657d14b6dba7113c21fcfea9415094b1",
-        "filepath": "manual/Style/base-mixins.md",
-        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Style/base-mixins.md",
-        "link": "",
-        "slug": "manual-style-base-mixins",
-        "route": "/manual-style-base-mixins",
-        "headings": [
-          {
-            "slug": "styles--base--mixins",
-            "depth": 1,
-            "value": "Styles > Base > Mixins"
-          },
-          {
-            "slug": "inline-block-list",
-            "depth": 2,
-            "value": "inline-block-list"
-          },
-          {
-            "slug": "omega-reset",
-            "depth": 2,
-            "value": "omega-reset"
-          },
-          {
-            "slug": "font-size",
-            "depth": 2,
-            "value": "font-size"
-          },
-          {
-            "slug": "inline-block",
-            "depth": 2,
-            "value": "inline-block"
-          },
-          {
-            "slug": "reset-box-model",
-            "depth": 2,
-            "value": "reset-box-model"
-          },
-          {
-            "slug": "absolute-fill",
-            "depth": 2,
-            "value": "absolute-fill"
-          },
-          {
-            "slug": "headings",
-            "depth": 2,
-            "value": "headings"
-          },
-          {
-            "slug": "background-image",
-            "depth": 2,
-            "value": "background-image"
-          },
-          {
-            "slug": "reset-ul",
-            "depth": 2,
-            "value": "reset-ul"
-          },
-          {
-            "slug": "hide-text",
-            "depth": 2,
-            "value": "hide-text"
-          },
-          {
-            "slug": "_neat-parse-media",
-            "depth": 2,
-            "value": "_ neat-parse-media"
-          },
-          {
-            "slug": "background-color",
-            "depth": 2,
-            "value": "background-color"
-          },
-          {
-            "slug": "color",
-            "depth": 2,
-            "value": "color"
-          }
-        ]
-      }
-    },
-    {
-      "key": "manual/Style/base.md",
-      "value": {
-        "name": "Base",
-        "menu": "Style",
-        "id": "d3b3d5d0ce273763453c5dd911f6abae",
-        "filepath": "manual/Style/base.md",
-        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Style/base.md",
-        "link": "",
-        "slug": "manual-style-base",
-        "route": "/manual-style-base",
-        "headings": [
-          {
-            "slug": "base-folder",
-            "depth": 1,
-            "value": "Base folder"
-          },
-          {
-            "slug": "structure",
-            "depth": 2,
-            "value": "Structure"
-          }
-        ]
-      }
-    },
-    {
-      "key": "manual/Style/style.md",
-      "value": {
-        "name": "Style",
-        "menu": "Style",
-        "id": "9313fd24ff69f2c6818a8c15fb2cef24",
-        "filepath": "manual/Style/style.md",
-        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Style/style.md",
-        "link": "",
-        "slug": "manual-style-style",
-        "route": "/manual-style-style",
-        "headings": [
-          {
-            "slug": "style",
-            "depth": 1,
-            "value": "Style"
-          },
-          {
-            "slug": "colours",
-            "depth": 2,
-            "value": "Colours"
-          },
-          {
-            "slug": "grids",
-            "depth": 2,
-            "value": "Grids"
-          },
-          {
-            "slug": "iconography",
-            "depth": 2,
-            "value": "Iconography"
-          },
-          {
-            "slug": "layer",
-            "depth": 2,
-            "value": "Layer"
-          },
-          {
-            "slug": "typography",
-            "depth": 2,
-            "value": "Typography"
           }
         ]
       }
@@ -28039,6 +28334,101 @@
       }
     },
     {
+      "key": "manual/TypeScript/Developers-Guide.md",
+      "value": {
+        "menu": "TypeScript",
+        "name": "Developer's Guide",
+        "id": "3d2c2fa945329886a1c1939c3fec409d",
+        "filepath": "manual/TypeScript/Developers-Guide.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/TypeScript/Developers-Guide.md",
+        "link": "",
+        "slug": "manual-type-script-developers-guide",
+        "route": "/manual-type-script-developers-guide",
+        "headings": [
+          {
+            "slug": "developers-guide-to-typescript",
+            "depth": 1,
+            "value": "Developer's Guide to TypeScript"
+          },
+          {
+            "slug": "types",
+            "depth": 2,
+            "value": "Types"
+          },
+          {
+            "slug": "declaring-types-examples",
+            "depth": 2,
+            "value": "Declaring types examples"
+          },
+          {
+            "slug": "the-any-type",
+            "depth": 2,
+            "value": "The 'any' type"
+          },
+          {
+            "slug": "the-void-and-never-return-types",
+            "depth": 2,
+            "value": "The 'void' and 'never' return types"
+          },
+          {
+            "slug": "interfaces",
+            "depth": 2,
+            "value": "Interfaces"
+          },
+          {
+            "slug": "abstract-classes",
+            "depth": 2,
+            "value": "Abstract Classes"
+          },
+          {
+            "slug": "abstract-classes-vs-interfaces",
+            "depth": 2,
+            "value": "Abstract classes vs Interfaces"
+          },
+          {
+            "slug": "enums",
+            "depth": 2,
+            "value": "Enums"
+          },
+          {
+            "slug": "generics",
+            "depth": 2,
+            "value": "Generics"
+          },
+          {
+            "slug": "constraints-with-generics",
+            "depth": 3,
+            "value": "Constraints with Generics"
+          }
+        ]
+      }
+    },
+    {
+      "key": "manual/TypeScript/Getting-Started.md",
+      "value": {
+        "menu": "TypeScript",
+        "name": "Getting Started With Typescript",
+        "id": "1cd9397a7257ade44925a899639c28c1",
+        "filepath": "manual/TypeScript/Getting-Started.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/TypeScript/Getting-Started.md",
+        "link": "",
+        "slug": "manual-type-script-getting-started",
+        "route": "/manual-type-script-getting-started",
+        "headings": [
+          {
+            "slug": "getting-starte-with-typescript",
+            "depth": 1,
+            "value": "Getting Starte With Typescript"
+          },
+          {
+            "slug": "resources",
+            "depth": 2,
+            "value": "Resources"
+          }
+        ]
+      }
+    },
+    {
       "key": "manual/Unity/How-To-Make-A-Video-Game.md",
       "value": {
         "name": "How To Make A Video Game",
@@ -28234,101 +28624,6 @@
             "slug": "the-toolbar",
             "depth": 3,
             "value": "The Toolbar"
-          }
-        ]
-      }
-    },
-    {
-      "key": "manual/TypeScript/Developers-Guide.md",
-      "value": {
-        "menu": "TypeScript",
-        "name": "Developer's Guide",
-        "id": "3d2c2fa945329886a1c1939c3fec409d",
-        "filepath": "manual/TypeScript/Developers-Guide.md",
-        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/TypeScript/Developers-Guide.md",
-        "link": "",
-        "slug": "manual-type-script-developers-guide",
-        "route": "/manual-type-script-developers-guide",
-        "headings": [
-          {
-            "slug": "developers-guide-to-typescript",
-            "depth": 1,
-            "value": "Developer's Guide to TypeScript"
-          },
-          {
-            "slug": "types",
-            "depth": 2,
-            "value": "Types"
-          },
-          {
-            "slug": "declaring-types-examples",
-            "depth": 2,
-            "value": "Declaring types examples"
-          },
-          {
-            "slug": "the-any-type",
-            "depth": 2,
-            "value": "The 'any' type"
-          },
-          {
-            "slug": "the-void-and-never-return-types",
-            "depth": 2,
-            "value": "The 'void' and 'never' return types"
-          },
-          {
-            "slug": "interfaces",
-            "depth": 2,
-            "value": "Interfaces"
-          },
-          {
-            "slug": "abstract-classes",
-            "depth": 2,
-            "value": "Abstract Classes"
-          },
-          {
-            "slug": "abstract-classes-vs-interfaces",
-            "depth": 2,
-            "value": "Abstract classes vs Interfaces"
-          },
-          {
-            "slug": "enums",
-            "depth": 2,
-            "value": "Enums"
-          },
-          {
-            "slug": "generics",
-            "depth": 2,
-            "value": "Generics"
-          },
-          {
-            "slug": "constraints-with-generics",
-            "depth": 3,
-            "value": "Constraints with Generics"
-          }
-        ]
-      }
-    },
-    {
-      "key": "manual/TypeScript/Getting-Started.md",
-      "value": {
-        "menu": "TypeScript",
-        "name": "Getting Started With Typescript",
-        "id": "1cd9397a7257ade44925a899639c28c1",
-        "filepath": "manual/TypeScript/Getting-Started.md",
-        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/TypeScript/Getting-Started.md",
-        "link": "",
-        "slug": "manual-type-script-getting-started",
-        "route": "/manual-type-script-getting-started",
-        "headings": [
-          {
-            "slug": "getting-starte-with-typescript",
-            "depth": 1,
-            "value": "Getting Starte With Typescript"
-          },
-          {
-            "slug": "resources",
-            "depth": 2,
-            "value": "Resources"
           }
         ]
       }
