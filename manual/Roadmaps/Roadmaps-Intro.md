@@ -34,7 +34,7 @@ Reference the [Software Design + Architecture Roadmaps](https://github.com/stemm
 
 Reference the [Developer Roadmap](https://github.com/kamranahmedse/developer-roadmap) for more info.
 
-1. Containisation vs Virtualisation
+1. Containisation vs Virtualisation ✅
 2. Mitigaton Strategies
 3. Instrumentation vs Monitoring vs Telemetry
 4. Web security (CSP, CORS, SSL/TLS, OWASP, Hashing options - reasons to not use MDA5)
