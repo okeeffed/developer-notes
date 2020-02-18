@@ -15,6 +15,10 @@ name: Ruby Intro
 6. [Awesome Ruby](https://github.com/markets/awesome-ruby)
 7. [Ruby Symbols vs Strings](https://medium.com/@lcriswell/ruby-symbols-vs-strings-248842529fd9)
 8. [Rails Performance](https://levelup.gitconnected.com/ultimate-guide-to-blazing-fast-performance-in-rails-1-77e281a1df52)
+9. [Culture Amp Guide - Requires Auth](https://cultureamp.atlassian.net/wiki/spaces/CP/pages/1067976141/Developer+guide)
+10. [Culture Amp Testing Guide (Performance) - Requires Auth](https://cultureamp.atlassian.net/wiki/spaces/CP/pages/1072759314/Testing+Guidelines)
+11. [Standard - RuboCop Subset](https://github.com/testdouble/standard)
+12. [Factory Bot Tutorial](https://semaphoreci.com/community/tutorials/working-effectively-with-data-factories-using-factorygirl)
 
 ## Bang (!) Methods
 
