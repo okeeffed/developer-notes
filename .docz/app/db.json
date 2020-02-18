@@ -879,9 +879,39 @@
             "value": "Advanced Networking"
           },
           {
+            "slug": "resources",
+            "depth": 2,
+            "value": "Resources"
+          },
+          {
             "slug": "ipv4-and-subnetting",
             "depth": 2,
             "value": "IPv4 and Subnetting"
+          },
+          {
+            "slug": "mpls-multi-protocol-label-switching",
+            "depth": 3,
+            "value": "MPLS (Multi-Protocol Label Switching)"
+          },
+          {
+            "slug": "addresses-in-1000016-vpc-reserved-for-aws",
+            "depth": 3,
+            "value": "Addresses in 10.0.0.0/16 VPC reserved for AWS"
+          },
+          {
+            "slug": "fec-forward-equivalency-class",
+            "depth": 3,
+            "value": "FEC (Forward Equivalency Class)"
+          },
+          {
+            "slug": "border-gateway-protocol-bgp",
+            "depth": 3,
+            "value": "Border Gateway Protocol (BGP)"
+          },
+          {
+            "slug": "public-key-cryptography",
+            "depth": 3,
+            "value": "Public-Key Cryptography"
           },
           {
             "slug": "vpn-fundamentals",
@@ -894,9 +924,9 @@
             "value": "Keys"
           },
           {
-            "slug": "auth-key-exchange",
+            "slug": "key-exchange-encryption-keys",
             "depth": 3,
-            "value": "Auth Key Exchange"
+            "value": "Key Exchange Encryption Keys"
           },
           {
             "slug": "message-intergrity",
@@ -904,9 +934,9 @@
             "value": "Message intergrity"
           },
           {
-            "slug": "confidentiality",
+            "slug": "confidentiality-using-symmetric-key-block-ciphers",
             "depth": 3,
-            "value": "Confidentiality"
+            "value": "Confidentiality using Symmetric Key Block Ciphers"
           },
           {
             "slug": "vpn-protocols",
@@ -919,14 +949,14 @@
             "value": "IPsec Process"
           },
           {
-            "slug": "ike-key-exchange",
+            "slug": "internet-key-exchange-ike",
             "depth": 3,
-            "value": "IKE Key Exchange"
+            "value": "Internet Key Exchange (IKE)"
           },
           {
-            "slug": "intro-the-bgp",
+            "slug": "intro-the-border-gateway-protocol-bgp",
             "depth": 2,
-            "value": "Intro the BGP"
+            "value": "Intro the Border Gateway Protocol (BGP)"
           },
           {
             "slug": "terms",
@@ -962,6 +992,21 @@
             "slug": "bgp---as_path-prepending",
             "depth": 3,
             "value": "BGP - AS_Path Prepending"
+          },
+          {
+            "slug": "password-hashing",
+            "depth": 2,
+            "value": "Password Hashing"
+          },
+          {
+            "slug": "duplex-vs-multiplex",
+            "depth": 2,
+            "value": "Duplex vs Multiplex"
+          },
+          {
+            "slug": "pre-shared-key",
+            "depth": 2,
+            "value": "Pre-Shared Key"
           }
         ]
       }
@@ -1622,6 +1667,26 @@
             "slug": "1-many-many-to-many-relationship-schemas",
             "depth": 2,
             "value": "1-many, many-to-many relationship schemas"
+          }
+        ]
+      }
+    },
+    {
+      "key": "manual/Android/Lists-And-Adapters.md",
+      "value": {
+        "name": "Lists And Adapters",
+        "menu": "Android",
+        "id": "ab8ddf80b132a4bb703edba7b15ea264",
+        "filepath": "manual/Android/Lists-And-Adapters.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Android/Lists-And-Adapters.md",
+        "link": "",
+        "slug": "manual-android-lists-and-adapters",
+        "route": "/manual-android-lists-and-adapters",
+        "headings": [
+          {
+            "slug": "lists-and-adapters-in-android",
+            "depth": 1,
+            "value": "Lists and Adapters in Android"
           }
         ]
       }
@@ -2952,21 +3017,46 @@
       }
     },
     {
-      "key": "manual/Android/Lists-And-Adapters.md",
+      "key": "manual/Art/Drawing.md",
       "value": {
-        "name": "Lists And Adapters",
-        "menu": "Android",
-        "id": "ab8ddf80b132a4bb703edba7b15ea264",
-        "filepath": "manual/Android/Lists-And-Adapters.md",
-        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Android/Lists-And-Adapters.md",
+        "name": "Drawing",
+        "menu": "Art",
+        "id": "78e8b1c599237c157d6fdc9caf01e49b",
+        "filepath": "manual/Art/Drawing.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Art/Drawing.md",
         "link": "",
-        "slug": "manual-android-lists-and-adapters",
-        "route": "/manual-android-lists-and-adapters",
+        "slug": "manual-art-drawing",
+        "route": "/manual-art-drawing",
         "headings": [
           {
-            "slug": "lists-and-adapters-in-android",
+            "slug": "drawing-course",
             "depth": 1,
-            "value": "Lists and Adapters in Android"
+            "value": "Drawing Course"
+          },
+          {
+            "slug": "basics",
+            "depth": 2,
+            "value": "Basics"
+          },
+          {
+            "slug": "tools",
+            "depth": 3,
+            "value": "Tools"
+          },
+          {
+            "slug": "why-is-drawing-so-important",
+            "depth": 2,
+            "value": "Why is drawing so important?"
+          },
+          {
+            "slug": "testing-metric",
+            "depth": 3,
+            "value": "Testing metric"
+          },
+          {
+            "slug": "basics-of-line-drawing",
+            "depth": 2,
+            "value": "Basics of line drawing"
           }
         ]
       }
@@ -3177,51 +3267,6 @@
             "slug": "structural-directives",
             "depth": 2,
             "value": "Structural Directives"
-          }
-        ]
-      }
-    },
-    {
-      "key": "manual/Art/Drawing.md",
-      "value": {
-        "name": "Drawing",
-        "menu": "Art",
-        "id": "78e8b1c599237c157d6fdc9caf01e49b",
-        "filepath": "manual/Art/Drawing.md",
-        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Art/Drawing.md",
-        "link": "",
-        "slug": "manual-art-drawing",
-        "route": "/manual-art-drawing",
-        "headings": [
-          {
-            "slug": "drawing-course",
-            "depth": 1,
-            "value": "Drawing Course"
-          },
-          {
-            "slug": "basics",
-            "depth": 2,
-            "value": "Basics"
-          },
-          {
-            "slug": "tools",
-            "depth": 3,
-            "value": "Tools"
-          },
-          {
-            "slug": "why-is-drawing-so-important",
-            "depth": 2,
-            "value": "Why is drawing so important?"
-          },
-          {
-            "slug": "testing-metric",
-            "depth": 3,
-            "value": "Testing metric"
-          },
-          {
-            "slug": "basics-of-line-drawing",
-            "depth": 2,
-            "value": "Basics of line drawing"
           }
         ]
       }
@@ -4452,56 +4497,6 @@
       }
     },
     {
-      "key": "manual/Business/Personal-MBA.md",
-      "value": {
-        "name": "Personal MBA",
-        "menu": "Business",
-        "id": "99b19726f014e4b3507442e126d2f87b",
-        "filepath": "manual/Business/Personal-MBA.md",
-        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Business/Personal-MBA.md",
-        "link": "",
-        "slug": "manual-business-personal-mba",
-        "route": "/manual-business-personal-mba",
-        "headings": [
-          {
-            "slug": "5-parts-of-every-business",
-            "depth": 2,
-            "value": "5 Parts of every business"
-          },
-          {
-            "slug": "5-interdependent-core-parts",
-            "depth": 2,
-            "value": "5 Interdependent core parts"
-          },
-          {
-            "slug": "5-core-human-drives",
-            "depth": 2,
-            "value": "5 Core Human Drives"
-          },
-          {
-            "slug": "10-ways-to-evaluate-the-market",
-            "depth": 2,
-            "value": "10 Ways to Evaluate the Market"
-          },
-          {
-            "slug": "12-standard-forms-of-value",
-            "depth": 2,
-            "value": "12 Standard forms of value"
-          },
-          {
-            "slug": "percieved-value",
-            "depth": 2,
-            "value": "Percieved value"
-          },
-          {
-            "slug": "the-iteration-cycle",
-            "depth": 2,
-            "value": "The Iteration Cycle"
-          }
-        ]
-      }
-    },
-    {
       "key": "manual/Braintree/Sandbox.md",
       "value": {
         "name": "Sandbox",
@@ -4587,6 +4582,56 @@
             "slug": "next-steps",
             "depth": 2,
             "value": "Next steps"
+          }
+        ]
+      }
+    },
+    {
+      "key": "manual/Business/Personal-MBA.md",
+      "value": {
+        "name": "Personal MBA",
+        "menu": "Business",
+        "id": "99b19726f014e4b3507442e126d2f87b",
+        "filepath": "manual/Business/Personal-MBA.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Business/Personal-MBA.md",
+        "link": "",
+        "slug": "manual-business-personal-mba",
+        "route": "/manual-business-personal-mba",
+        "headings": [
+          {
+            "slug": "5-parts-of-every-business",
+            "depth": 2,
+            "value": "5 Parts of every business"
+          },
+          {
+            "slug": "5-interdependent-core-parts",
+            "depth": 2,
+            "value": "5 Interdependent core parts"
+          },
+          {
+            "slug": "5-core-human-drives",
+            "depth": 2,
+            "value": "5 Core Human Drives"
+          },
+          {
+            "slug": "10-ways-to-evaluate-the-market",
+            "depth": 2,
+            "value": "10 Ways to Evaluate the Market"
+          },
+          {
+            "slug": "12-standard-forms-of-value",
+            "depth": 2,
+            "value": "12 Standard forms of value"
+          },
+          {
+            "slug": "percieved-value",
+            "depth": 2,
+            "value": "Percieved value"
+          },
+          {
+            "slug": "the-iteration-cycle",
+            "depth": 2,
+            "value": "The Iteration Cycle"
           }
         ]
       }
@@ -6282,196 +6327,6 @@
       }
     },
     {
-      "key": "manual/Databases/Data-Warehouses.md",
-      "value": {
-        "menu": "Databases",
-        "name": "Data Warehouses",
-        "id": "a6925cee45b5c3c0ccd7ca3a4bc7f31c",
-        "filepath": "manual/Databases/Data-Warehouses.md",
-        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Databases/Data-Warehouses.md",
-        "link": "",
-        "slug": "manual-databases-data-warehouses",
-        "route": "/manual-databases-data-warehouses",
-        "headings": [
-          {
-            "slug": "data-warehouses",
-            "depth": 1,
-            "value": "Data Warehouses"
-          },
-          {
-            "slug": "resources",
-            "depth": 2,
-            "value": "Resources"
-          },
-          {
-            "slug": "books",
-            "depth": 3,
-            "value": "Books"
-          },
-          {
-            "slug": "what-are-data-warehouses",
-            "depth": 2,
-            "value": "What are data warehouses?"
-          },
-          {
-            "slug": "why-are-data-warehouses-important",
-            "depth": 2,
-            "value": "Why are data warehouses important?"
-          }
-        ]
-      }
-    },
-    {
-      "key": "manual/Databases/ETL.md",
-      "value": {
-        "menu": "Databases",
-        "name": "Extract Transform Load",
-        "id": "9949df098aafee0c8310a6c41495f3a3",
-        "filepath": "manual/Databases/ETL.md",
-        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Databases/ETL.md",
-        "link": "",
-        "slug": "manual-databases-etl",
-        "route": "/manual-databases-etl",
-        "headings": [
-          {
-            "slug": "extract-transform-load",
-            "depth": 1,
-            "value": "Extract Transform Load"
-          },
-          {
-            "slug": "resources",
-            "depth": 2,
-            "value": "Resources"
-          },
-          {
-            "slug": "what-is-etl",
-            "depth": 2,
-            "value": "What is ETL"
-          },
-          {
-            "slug": "why-is-it-important",
-            "depth": 2,
-            "value": "Why is it important?"
-          }
-        ]
-      }
-    },
-    {
-      "key": "manual/Databases/Intro-And-Overview.md",
-      "value": {
-        "menu": "Databases",
-        "name": "Intro and Overview",
-        "id": "5c4a8f47c5dffdfe2ec49f90cbdf0e67",
-        "filepath": "manual/Databases/Intro-And-Overview.md",
-        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Databases/Intro-And-Overview.md",
-        "link": "",
-        "slug": "manual-databases-intro-and-overview",
-        "route": "/manual-databases-intro-and-overview",
-        "headings": [
-          {
-            "slug": "intro-and-overview",
-            "depth": 1,
-            "value": "Intro and Overview"
-          },
-          {
-            "slug": "resources",
-            "depth": 2,
-            "value": "Resources"
-          },
-          {
-            "slug": "websites",
-            "depth": 3,
-            "value": "Websites"
-          },
-          {
-            "slug": "books",
-            "depth": 3,
-            "value": "Books"
-          },
-          {
-            "slug": "key-value-databases",
-            "depth": 2,
-            "value": "Key-Value databases"
-          },
-          {
-            "slug": "graph-databases",
-            "depth": 2,
-            "value": "Graph databases"
-          },
-          {
-            "slug": "time-series-databases",
-            "depth": 2,
-            "value": "Time-Series databases"
-          },
-          {
-            "slug": "search-engine-databases",
-            "depth": 2,
-            "value": "Search Engine databases"
-          },
-          {
-            "slug": "document-databases",
-            "depth": 2,
-            "value": "Document databases"
-          },
-          {
-            "slug": "wide-column-store-databases",
-            "depth": 2,
-            "value": "Wide column store databases"
-          },
-          {
-            "slug": "relational-databases",
-            "depth": 2,
-            "value": "Relational databases"
-          },
-          {
-            "slug": "newsql-databases",
-            "depth": 2,
-            "value": "NewSQL databases"
-          },
-          {
-            "slug": "cap-theorem",
-            "depth": 2,
-            "value": "CAP Theorem"
-          },
-          {
-            "slug": "acid-properties",
-            "depth": 2,
-            "value": "ACID Properties"
-          },
-          {
-            "slug": "atomicity",
-            "depth": 3,
-            "value": "Atomicity"
-          },
-          {
-            "slug": "consistency",
-            "depth": 3,
-            "value": "Consistency"
-          },
-          {
-            "slug": "isolation",
-            "depth": 3,
-            "value": "Isolation"
-          },
-          {
-            "slug": "durability",
-            "depth": 3,
-            "value": "Durability"
-          },
-          {
-            "slug": "base-eventual-consistency",
-            "depth": 2,
-            "value": "BASE: Eventual Consistency"
-          },
-          {
-            "slug": "column-oriented-dbms",
-            "depth": 2,
-            "value": "Column-oriented DBMS"
-          }
-        ]
-      }
-    },
-    {
       "key": "manual/Data-Structures/Count-Vowels.md",
       "value": {
         "name": "Count Vowels",
@@ -6992,6 +6847,261 @@
             "slug": "heap-sort-implementation",
             "depth": 2,
             "value": "Heap Sort Implementation"
+          }
+        ]
+      }
+    },
+    {
+      "key": "manual/Databases/Data-Warehouses.md",
+      "value": {
+        "menu": "Databases",
+        "name": "Data Warehouses",
+        "id": "a6925cee45b5c3c0ccd7ca3a4bc7f31c",
+        "filepath": "manual/Databases/Data-Warehouses.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Databases/Data-Warehouses.md",
+        "link": "",
+        "slug": "manual-databases-data-warehouses",
+        "route": "/manual-databases-data-warehouses",
+        "headings": [
+          {
+            "slug": "data-warehouses",
+            "depth": 1,
+            "value": "Data Warehouses"
+          },
+          {
+            "slug": "resources",
+            "depth": 2,
+            "value": "Resources"
+          },
+          {
+            "slug": "books",
+            "depth": 3,
+            "value": "Books"
+          },
+          {
+            "slug": "what-are-data-warehouses",
+            "depth": 2,
+            "value": "What are data warehouses?"
+          },
+          {
+            "slug": "why-are-data-warehouses-important",
+            "depth": 2,
+            "value": "Why are data warehouses important?"
+          }
+        ]
+      }
+    },
+    {
+      "key": "manual/Databases/ETL.md",
+      "value": {
+        "menu": "Databases",
+        "name": "Extract Transform Load",
+        "id": "9949df098aafee0c8310a6c41495f3a3",
+        "filepath": "manual/Databases/ETL.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Databases/ETL.md",
+        "link": "",
+        "slug": "manual-databases-etl",
+        "route": "/manual-databases-etl",
+        "headings": [
+          {
+            "slug": "extract-transform-load",
+            "depth": 1,
+            "value": "Extract Transform Load"
+          },
+          {
+            "slug": "resources",
+            "depth": 2,
+            "value": "Resources"
+          },
+          {
+            "slug": "what-is-etl",
+            "depth": 2,
+            "value": "What is ETL"
+          },
+          {
+            "slug": "why-is-it-important",
+            "depth": 2,
+            "value": "Why is it important?"
+          }
+        ]
+      }
+    },
+    {
+      "key": "manual/Databases/Intro-And-Overview.md",
+      "value": {
+        "menu": "Databases",
+        "name": "Intro and Overview",
+        "id": "5c4a8f47c5dffdfe2ec49f90cbdf0e67",
+        "filepath": "manual/Databases/Intro-And-Overview.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Databases/Intro-And-Overview.md",
+        "link": "",
+        "slug": "manual-databases-intro-and-overview",
+        "route": "/manual-databases-intro-and-overview",
+        "headings": [
+          {
+            "slug": "intro-and-overview",
+            "depth": 1,
+            "value": "Intro and Overview"
+          },
+          {
+            "slug": "resources",
+            "depth": 2,
+            "value": "Resources"
+          },
+          {
+            "slug": "websites",
+            "depth": 3,
+            "value": "Websites"
+          },
+          {
+            "slug": "books",
+            "depth": 3,
+            "value": "Books"
+          },
+          {
+            "slug": "key-value-databases",
+            "depth": 2,
+            "value": "Key-Value databases"
+          },
+          {
+            "slug": "graph-databases",
+            "depth": 2,
+            "value": "Graph databases"
+          },
+          {
+            "slug": "time-series-databases",
+            "depth": 2,
+            "value": "Time-Series databases"
+          },
+          {
+            "slug": "search-engine-databases",
+            "depth": 2,
+            "value": "Search Engine databases"
+          },
+          {
+            "slug": "document-databases",
+            "depth": 2,
+            "value": "Document databases"
+          },
+          {
+            "slug": "wide-column-store-databases",
+            "depth": 2,
+            "value": "Wide column store databases"
+          },
+          {
+            "slug": "relational-databases",
+            "depth": 2,
+            "value": "Relational databases"
+          },
+          {
+            "slug": "newsql-databases",
+            "depth": 2,
+            "value": "NewSQL databases"
+          },
+          {
+            "slug": "cap-theorem",
+            "depth": 2,
+            "value": "CAP Theorem"
+          },
+          {
+            "slug": "acid-properties",
+            "depth": 2,
+            "value": "ACID Properties"
+          },
+          {
+            "slug": "atomicity",
+            "depth": 3,
+            "value": "Atomicity"
+          },
+          {
+            "slug": "consistency",
+            "depth": 3,
+            "value": "Consistency"
+          },
+          {
+            "slug": "isolation",
+            "depth": 3,
+            "value": "Isolation"
+          },
+          {
+            "slug": "durability",
+            "depth": 3,
+            "value": "Durability"
+          },
+          {
+            "slug": "base-eventual-consistency",
+            "depth": 2,
+            "value": "BASE: Eventual Consistency"
+          },
+          {
+            "slug": "column-oriented-dbms",
+            "depth": 2,
+            "value": "Column-oriented DBMS"
+          }
+        ]
+      }
+    },
+    {
+      "key": "manual/Databases/Normalisation.md",
+      "value": {
+        "menu": "Databases",
+        "name": "Database Normalisation",
+        "id": "ac2ca71396c6a83ad08bbf62859157de",
+        "filepath": "manual/Databases/Normalisation.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Databases/Normalisation.md",
+        "link": "",
+        "slug": "manual-databases-normalisation",
+        "route": "/manual-databases-normalisation",
+        "headings": [
+          {
+            "slug": "database-normalisaton",
+            "depth": 1,
+            "value": "Database Normalisaton"
+          },
+          {
+            "slug": "resources",
+            "depth": 2,
+            "value": "Resources"
+          },
+          {
+            "slug": "what-is-it",
+            "depth": 2,
+            "value": "What is it?"
+          },
+          {
+            "slug": "denormalisation-objectives",
+            "depth": 2,
+            "value": "Denormalisation Objectives"
+          },
+          {
+            "slug": "undesireable-side-effects",
+            "depth": 2,
+            "value": "Undesireable Side-Effects"
+          },
+          {
+            "slug": "terms",
+            "depth": 2,
+            "value": "Terms"
+          },
+          {
+            "slug": "candidate-key",
+            "depth": 3,
+            "value": "Candidate Key"
+          },
+          {
+            "slug": "candidate-vs-composite",
+            "depth": 3,
+            "value": "Candidate vs Composite"
+          },
+          {
+            "slug": "compound-key",
+            "depth": 3,
+            "value": "Compound Key"
+          },
+          {
+            "slug": "super-key",
+            "depth": 3,
+            "value": "Super Key"
           }
         ]
       }
@@ -8172,6 +8282,36 @@
       }
     },
     {
+      "key": "manual/DevOps/Config-Management-vs-Provisioning.md",
+      "value": {
+        "menu": "DevOps",
+        "name": "Configuration Management vs Infrastructure Provisioning",
+        "id": "d5dc604b5189c90d1981111d9ce61bdc",
+        "filepath": "manual/DevOps/Config-Management-vs-Provisioning.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/DevOps/Config-Management-vs-Provisioning.md",
+        "link": "",
+        "slug": "manual-dev-ops-config-management-vs-provisioning",
+        "route": "/manual-dev-ops-config-management-vs-provisioning",
+        "headings": [
+          {
+            "slug": "configuration-management-vs-infrastructure-provisioning",
+            "depth": 1,
+            "value": "Configuration Management vs Infrastructure Provisioning"
+          },
+          {
+            "slug": "resources",
+            "depth": 2,
+            "value": "Resources"
+          },
+          {
+            "slug": "what-to-know",
+            "depth": 2,
+            "value": "What to know"
+          }
+        ]
+      }
+    },
+    {
       "key": "manual/DevOps/Dev-Ops.md",
       "value": {
         "name": "Dev Ops",
@@ -8268,9 +8408,29 @@
             "value": "Resources"
           },
           {
-            "slug": "terminology",
+            "slug": "observability",
             "depth": 2,
-            "value": "Terminology"
+            "value": "Observability"
+          },
+          {
+            "slug": "monitoring",
+            "depth": 2,
+            "value": "Monitoring"
+          },
+          {
+            "slug": "instrumentation",
+            "depth": 2,
+            "value": "Instrumentation"
+          },
+          {
+            "slug": "telemetry",
+            "depth": 2,
+            "value": "Telemetry"
+          },
+          {
+            "slug": "different-types-of-monitoring",
+            "depth": 2,
+            "value": "Different Types of Monitoring"
           }
         ]
       }
@@ -14735,6 +14895,176 @@
       }
     },
     {
+      "key": "manual/Language-Learning/Approach-To-Learning-Software-Languages.md",
+      "value": {
+        "menu": "Language Learning",
+        "name": "Approach To Learning Software Languages",
+        "id": "9d2cc3e153cea4adb81211de57b01632",
+        "filepath": "manual/Language-Learning/Approach-To-Learning-Software-Languages.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Language-Learning/Approach-To-Learning-Software-Languages.md",
+        "link": "",
+        "slug": "manual-language-learning-approach-to-learning-software-languages",
+        "route": "/manual-language-learning-approach-to-learning-software-languages",
+        "headings": [
+          {
+            "slug": "approach-to-learning-software-languages",
+            "depth": 1,
+            "value": "Approach To Learning Software Languages"
+          },
+          {
+            "slug": "first-steps",
+            "depth": 2,
+            "value": "First Steps"
+          },
+          {
+            "slug": "understanding-through-programs",
+            "depth": 2,
+            "value": "Understanding Through Programs"
+          }
+        ]
+      }
+    },
+    {
+      "key": "manual/Language-Learning/Golang.md",
+      "value": {
+        "menu": "Language Learning",
+        "name": "Golang",
+        "id": "a17c0111d159f171e5bb3949f7750ebc",
+        "filepath": "manual/Language-Learning/Golang.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Language-Learning/Golang.md",
+        "link": "",
+        "slug": "manual-language-learning-golang",
+        "route": "/manual-language-learning-golang",
+        "headings": [
+          {
+            "slug": "golang",
+            "depth": 1,
+            "value": "Golang"
+          },
+          {
+            "slug": "the-why-behind-the-language",
+            "depth": 2,
+            "value": "The \"why\" behind the language?"
+          },
+          {
+            "slug": "quora-top-answer",
+            "depth": 3,
+            "value": "Quora Top Answer"
+          },
+          {
+            "slug": "from-rob-pike-one-of-gos-creators",
+            "depth": 3,
+            "value": "From Rob Pike, one of Go's Creators"
+          },
+          {
+            "slug": "pros-and-cons-of-the-language",
+            "depth": 2,
+            "value": "Pros and cons of the language?"
+          },
+          {
+            "slug": "pros",
+            "depth": 3,
+            "value": "Pros"
+          },
+          {
+            "slug": "cons",
+            "depth": 3,
+            "value": "Cons"
+          },
+          {
+            "slug": "what-are-the-use-cases",
+            "depth": 2,
+            "value": "What are the use cases?"
+          },
+          {
+            "slug": "testing--benchmarking",
+            "depth": 2,
+            "value": "Testing / Benchmarking"
+          },
+          {
+            "slug": "popular-web-servers-for-the-language",
+            "depth": 2,
+            "value": "Popular web servers for the language?"
+          },
+          {
+            "slug": "hello-world",
+            "depth": 2,
+            "value": "Hello, World!"
+          },
+          {
+            "slug": "documentation",
+            "depth": 2,
+            "value": "Documentation"
+          },
+          {
+            "slug": "what-are-the-nuances-of-the-language",
+            "depth": 2,
+            "value": "What are the nuances of the language?"
+          },
+          {
+            "slug": "how-does-package-management-work",
+            "depth": 2,
+            "value": "How does package management work?"
+          },
+          {
+            "slug": "how-does-importing-work",
+            "depth": 2,
+            "value": "How does importing work?"
+          },
+          {
+            "slug": "how-does-logging-work",
+            "depth": 2,
+            "value": "How does logging work?"
+          },
+          {
+            "slug": "useful-linksarticles",
+            "depth": 2,
+            "value": "Useful links/articles"
+          },
+          {
+            "slug": "useful-tips-and-tricks",
+            "depth": 2,
+            "value": "Useful tips and tricks"
+          },
+          {
+            "slug": "read-file",
+            "depth": 2,
+            "value": "Read File"
+          },
+          {
+            "slug": "write-file",
+            "depth": 2,
+            "value": "Write File"
+          },
+          {
+            "slug": "walk-through-directory",
+            "depth": 2,
+            "value": "Walk through directory"
+          },
+          {
+            "slug": "check-file-exists",
+            "depth": 2,
+            "value": "Check file exists"
+          },
+          {
+            "slug": "system-calls",
+            "depth": 2,
+            "value": "System calls"
+          },
+          {
+            "slug": "defer",
+            "depth": 2,
+            "value": "Defer"
+          },
+          {
+            "slug": "understanding-through-programs",
+            "depth": 2,
+            "value": "Understanding Through Programs"
+          }
+        ]
+      }
+    },
+    {
       "key": "manual/Kubernetes/AWS-EKS-Starter.md",
       "value": {
         "name": "AWS EKS Starter",
@@ -16350,231 +16680,6 @@
       }
     },
     {
-      "key": "manual/Language-Learning/Approach-To-Learning-Software-Languages.md",
-      "value": {
-        "menu": "Language Learning",
-        "name": "Approach To Learning Software Languages",
-        "id": "9d2cc3e153cea4adb81211de57b01632",
-        "filepath": "manual/Language-Learning/Approach-To-Learning-Software-Languages.md",
-        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Language-Learning/Approach-To-Learning-Software-Languages.md",
-        "link": "",
-        "slug": "manual-language-learning-approach-to-learning-software-languages",
-        "route": "/manual-language-learning-approach-to-learning-software-languages",
-        "headings": [
-          {
-            "slug": "approach-to-learning-software-languages",
-            "depth": 1,
-            "value": "Approach To Learning Software Languages"
-          },
-          {
-            "slug": "first-steps",
-            "depth": 2,
-            "value": "First Steps"
-          },
-          {
-            "slug": "understanding-through-programs",
-            "depth": 2,
-            "value": "Understanding Through Programs"
-          }
-        ]
-      }
-    },
-    {
-      "key": "manual/Language-Learning/Golang.md",
-      "value": {
-        "menu": "Language Learning",
-        "name": "Golang",
-        "id": "a17c0111d159f171e5bb3949f7750ebc",
-        "filepath": "manual/Language-Learning/Golang.md",
-        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Language-Learning/Golang.md",
-        "link": "",
-        "slug": "manual-language-learning-golang",
-        "route": "/manual-language-learning-golang",
-        "headings": [
-          {
-            "slug": "golang",
-            "depth": 1,
-            "value": "Golang"
-          },
-          {
-            "slug": "the-why-behind-the-language",
-            "depth": 2,
-            "value": "The \"why\" behind the language?"
-          },
-          {
-            "slug": "quora-top-answer",
-            "depth": 3,
-            "value": "Quora Top Answer"
-          },
-          {
-            "slug": "from-rob-pike-one-of-gos-creators",
-            "depth": 3,
-            "value": "From Rob Pike, one of Go's Creators"
-          },
-          {
-            "slug": "pros-and-cons-of-the-language",
-            "depth": 2,
-            "value": "Pros and cons of the language?"
-          },
-          {
-            "slug": "pros",
-            "depth": 3,
-            "value": "Pros"
-          },
-          {
-            "slug": "cons",
-            "depth": 3,
-            "value": "Cons"
-          },
-          {
-            "slug": "what-are-the-use-cases",
-            "depth": 2,
-            "value": "What are the use cases?"
-          },
-          {
-            "slug": "testing--benchmarking",
-            "depth": 2,
-            "value": "Testing / Benchmarking"
-          },
-          {
-            "slug": "popular-web-servers-for-the-language",
-            "depth": 2,
-            "value": "Popular web servers for the language?"
-          },
-          {
-            "slug": "hello-world",
-            "depth": 2,
-            "value": "Hello, World!"
-          },
-          {
-            "slug": "documentation",
-            "depth": 2,
-            "value": "Documentation"
-          },
-          {
-            "slug": "what-are-the-nuances-of-the-language",
-            "depth": 2,
-            "value": "What are the nuances of the language?"
-          },
-          {
-            "slug": "how-does-package-management-work",
-            "depth": 2,
-            "value": "How does package management work?"
-          },
-          {
-            "slug": "how-does-importing-work",
-            "depth": 2,
-            "value": "How does importing work?"
-          },
-          {
-            "slug": "how-does-logging-work",
-            "depth": 2,
-            "value": "How does logging work?"
-          },
-          {
-            "slug": "useful-linksarticles",
-            "depth": 2,
-            "value": "Useful links/articles"
-          },
-          {
-            "slug": "useful-tips-and-tricks",
-            "depth": 2,
-            "value": "Useful tips and tricks"
-          },
-          {
-            "slug": "read-file",
-            "depth": 2,
-            "value": "Read File"
-          },
-          {
-            "slug": "write-file",
-            "depth": 2,
-            "value": "Write File"
-          },
-          {
-            "slug": "walk-through-directory",
-            "depth": 2,
-            "value": "Walk through directory"
-          },
-          {
-            "slug": "check-file-exists",
-            "depth": 2,
-            "value": "Check file exists"
-          },
-          {
-            "slug": "system-calls",
-            "depth": 2,
-            "value": "System calls"
-          },
-          {
-            "slug": "defer",
-            "depth": 2,
-            "value": "Defer"
-          },
-          {
-            "slug": "understanding-through-programs",
-            "depth": 2,
-            "value": "Understanding Through Programs"
-          }
-        ]
-      }
-    },
-    {
-      "key": "manual/Lean-Product/Design-System-Considerations.md",
-      "value": {
-        "menu": "Lean Product Planning",
-        "name": "Design System Considerations",
-        "id": "551596226de8397fbf0f6c654d2bf440",
-        "filepath": "manual/Lean-Product/Design-System-Considerations.md",
-        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Lean-Product/Design-System-Considerations.md",
-        "link": "",
-        "slug": "manual-lean-product-design-system-considerations",
-        "route": "/manual-lean-product-design-system-considerations",
-        "headings": [
-          {
-            "slug": "design-system-considerations",
-            "depth": 1,
-            "value": "Design System Considerations"
-          }
-        ]
-      }
-    },
-    {
-      "key": "manual/Lean-Product/Product-Considerations.md",
-      "value": {
-        "menu": "Lean Product Planning",
-        "name": "Product Considerations",
-        "id": "045a297284a2db14e7504baa60e1bb97",
-        "filepath": "manual/Lean-Product/Product-Considerations.md",
-        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Lean-Product/Product-Considerations.md",
-        "link": "",
-        "slug": "manual-lean-product-product-considerations",
-        "route": "/manual-lean-product-product-considerations",
-        "headings": [
-          {
-            "slug": "product-considerations",
-            "depth": 1,
-            "value": "Product Considerations"
-          },
-          {
-            "slug": "product",
-            "depth": 2,
-            "value": "Product"
-          },
-          {
-            "slug": "design-systems",
-            "depth": 2,
-            "value": "Design Systems"
-          },
-          {
-            "slug": "product-discovery",
-            "depth": 2,
-            "value": "Product Discovery"
-          }
-        ]
-      }
-    },
-    {
       "key": "manual/Laravel/Laravel-5.4.md",
       "value": {
         "name": "Laravel 5 4",
@@ -16710,6 +16815,61 @@
             "slug": "relating-data",
             "depth": 2,
             "value": "Relating Data"
+          }
+        ]
+      }
+    },
+    {
+      "key": "manual/Lean-Product/Design-System-Considerations.md",
+      "value": {
+        "menu": "Lean Product Planning",
+        "name": "Design System Considerations",
+        "id": "551596226de8397fbf0f6c654d2bf440",
+        "filepath": "manual/Lean-Product/Design-System-Considerations.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Lean-Product/Design-System-Considerations.md",
+        "link": "",
+        "slug": "manual-lean-product-design-system-considerations",
+        "route": "/manual-lean-product-design-system-considerations",
+        "headings": [
+          {
+            "slug": "design-system-considerations",
+            "depth": 1,
+            "value": "Design System Considerations"
+          }
+        ]
+      }
+    },
+    {
+      "key": "manual/Lean-Product/Product-Considerations.md",
+      "value": {
+        "menu": "Lean Product Planning",
+        "name": "Product Considerations",
+        "id": "045a297284a2db14e7504baa60e1bb97",
+        "filepath": "manual/Lean-Product/Product-Considerations.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Lean-Product/Product-Considerations.md",
+        "link": "",
+        "slug": "manual-lean-product-product-considerations",
+        "route": "/manual-lean-product-product-considerations",
+        "headings": [
+          {
+            "slug": "product-considerations",
+            "depth": 1,
+            "value": "Product Considerations"
+          },
+          {
+            "slug": "product",
+            "depth": 2,
+            "value": "Product"
+          },
+          {
+            "slug": "design-systems",
+            "depth": 2,
+            "value": "Design Systems"
+          },
+          {
+            "slug": "product-discovery",
+            "depth": 2,
+            "value": "Product Discovery"
           }
         ]
       }
@@ -17337,6 +17497,11 @@
             "value": "SSH Overview"
           },
           {
+            "slug": "resources",
+            "depth": 2,
+            "value": "Resources"
+          },
+          {
             "slug": "ssh-1-how-ssh-works",
             "depth": 2,
             "value": "SSH-1: How SSH Works"
@@ -17530,26 +17695,6 @@
             "slug": "mu-4-terminal-tips",
             "depth": 2,
             "value": "MU-4: Terminal Tips"
-          }
-        ]
-      }
-    },
-    {
-      "key": "manual/Machine-Learning-Algos/K-Nearest-Neighbours.md",
-      "value": {
-        "name": "K-Nearest Neighbours",
-        "menu": "Machine Learning Algos",
-        "id": "15ad57c7d2bdee4df66448a27d9d4ad1",
-        "filepath": "manual/Machine-Learning-Algos/K-Nearest-Neighbours.md",
-        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Machine-Learning-Algos/K-Nearest-Neighbours.md",
-        "link": "",
-        "slug": "manual-machine-learning-algos-k-nearest-neighbours",
-        "route": "/manual-machine-learning-algos-k-nearest-neighbours",
-        "headings": [
-          {
-            "slug": "k-nearest-neighbours",
-            "depth": 1,
-            "value": "K-Nearest Neighbours"
           }
         ]
       }
@@ -18630,6 +18775,26 @@
             "slug": "machine-learning---week-1",
             "depth": 1,
             "value": "Machine Learning - Week 1"
+          }
+        ]
+      }
+    },
+    {
+      "key": "manual/Machine-Learning-Algos/K-Nearest-Neighbours.md",
+      "value": {
+        "name": "K-Nearest Neighbours",
+        "menu": "Machine Learning Algos",
+        "id": "15ad57c7d2bdee4df66448a27d9d4ad1",
+        "filepath": "manual/Machine-Learning-Algos/K-Nearest-Neighbours.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Machine-Learning-Algos/K-Nearest-Neighbours.md",
+        "link": "",
+        "slug": "manual-machine-learning-algos-k-nearest-neighbours",
+        "route": "/manual-machine-learning-algos-k-nearest-neighbours",
+        "headings": [
+          {
+            "slug": "k-nearest-neighbours",
+            "depth": 1,
+            "value": "K-Nearest Neighbours"
           }
         ]
       }
@@ -20040,6 +20205,36 @@
       }
     },
     {
+      "key": "manual/POSIX/POSIX-Intro.md",
+      "value": {
+        "menu": "POSIX",
+        "name": "POSIX Intro",
+        "id": "d8712fed0c47ef61b4dc156c17c03ed4",
+        "filepath": "manual/POSIX/POSIX-Intro.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/POSIX/POSIX-Intro.md",
+        "link": "",
+        "slug": "manual-posix-posix-intro",
+        "route": "/manual-posix-posix-intro",
+        "headings": [
+          {
+            "slug": "posix-intro",
+            "depth": 1,
+            "value": "POSIX Intro"
+          },
+          {
+            "slug": "resources",
+            "depth": 2,
+            "value": "Resources"
+          },
+          {
+            "slug": "posix-api",
+            "depth": 2,
+            "value": "POSIX API"
+          }
+        ]
+      }
+    },
+    {
       "key": "manual/Personal/Job-Preparation-Examples.md",
       "value": {
         "menu": "Personal",
@@ -20120,6 +20315,336 @@
             "slug": "tldr",
             "depth": 2,
             "value": "tl;dr"
+          }
+        ]
+      }
+    },
+    {
+      "key": "manual/Product-Discovery/Best-Continous-Discovery-Mindsets.md",
+      "value": {
+        "menu": "Product Discovery",
+        "name": "Best Continuous Discovery Mindsets",
+        "id": "2871e325706b4d06aa3fcdb9cee692f5",
+        "filepath": "manual/Product-Discovery/Best-Continous-Discovery-Mindsets.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Product-Discovery/Best-Continous-Discovery-Mindsets.md",
+        "link": "",
+        "slug": "manual-product-discovery-best-continous-discovery-mindsets",
+        "route": "/manual-product-discovery-best-continous-discovery-mindsets",
+        "headings": [
+          {
+            "slug": "best-continuous-discovery-mindsets",
+            "depth": 1,
+            "value": "Best Continuous Discovery Mindsets"
+          },
+          {
+            "slug": "the-mindsets",
+            "depth": 2,
+            "value": "The Mindsets"
+          },
+          {
+            "slug": "more-on-continuous-mindset",
+            "depth": 2,
+            "value": "More On Continuous Mindset"
+          },
+          {
+            "slug": "more-on-experimental-mindset",
+            "depth": 2,
+            "value": "More On Experimental Mindset"
+          }
+        ]
+      }
+    },
+    {
+      "key": "manual/Product-Discovery/Intro-To-Modern-Product-Discovery.md",
+      "value": {
+        "menu": "Product Discovery",
+        "name": "Intro To Modern Product Discovery",
+        "id": "7fc943957218a1392a8567a130186f38",
+        "filepath": "manual/Product-Discovery/Intro-To-Modern-Product-Discovery.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Product-Discovery/Intro-To-Modern-Product-Discovery.md",
+        "link": "",
+        "slug": "manual-product-discovery-intro-to-modern-product-discovery",
+        "route": "/manual-product-discovery-intro-to-modern-product-discovery",
+        "headings": [
+          {
+            "slug": "intro-to-modern-product-discovery",
+            "depth": 1,
+            "value": "Intro To Modern Product Discovery"
+          },
+          {
+            "slug": "discovery-vs-delivery",
+            "depth": 2,
+            "value": "Discovery vs Delivery"
+          },
+          {
+            "slug": "history",
+            "depth": 2,
+            "value": "History"
+          },
+          {
+            "slug": "opportunity-solution-trees",
+            "depth": 2,
+            "value": "Opportunity Solution Trees"
+          },
+          {
+            "slug": "how-opportunities-help-drive-the-design-outcomes",
+            "depth": 3,
+            "value": "How Opportunities Help Drive The Design Outcomes"
+          },
+          {
+            "slug": "continuous-product-decisions",
+            "depth": 3,
+            "value": "Continuous Product Decisions"
+          }
+        ]
+      }
+    },
+    {
+      "key": "manual/Product-Discovery/Keystone-Habit.md",
+      "value": {
+        "name": "Keystone Habit",
+        "menu": "Product Discovery",
+        "id": "30d4847cf5993a0c82853a9c63dc6852",
+        "filepath": "manual/Product-Discovery/Keystone-Habit.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Product-Discovery/Keystone-Habit.md",
+        "link": "",
+        "slug": "manual-product-discovery-keystone-habit",
+        "route": "/manual-product-discovery-keystone-habit",
+        "headings": [
+          {
+            "slug": "keystone-habit",
+            "depth": 1,
+            "value": "Keystone Habit"
+          },
+          {
+            "slug": "deliberate-practice",
+            "depth": 2,
+            "value": "Deliberate Practice"
+          },
+          {
+            "slug": "required-knowledge-for-effective-application",
+            "depth": 2,
+            "value": "Required Knowledge For Effective Application"
+          }
+        ]
+      }
+    },
+    {
+      "key": "manual/Product-Discovery/Lean-Canvas.md",
+      "value": {
+        "name": "Lean Canvas",
+        "menu": "Product Discovery",
+        "id": "8279fade032e2e4519331cba87b3c49e",
+        "filepath": "manual/Product-Discovery/Lean-Canvas.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Product-Discovery/Lean-Canvas.md",
+        "link": "",
+        "slug": "manual-product-discovery-lean-canvas",
+        "route": "/manual-product-discovery-lean-canvas",
+        "headings": [
+          {
+            "slug": "lean-canvas",
+            "depth": 1,
+            "value": "Lean Canvas"
+          },
+          {
+            "slug": "intro",
+            "depth": 2,
+            "value": "Intro"
+          },
+          {
+            "slug": "blank-lean-canvas",
+            "depth": 2,
+            "value": "Blank Lean Canvas"
+          }
+        ]
+      }
+    },
+    {
+      "key": "manual/Product-Discovery/Opportunity-Solution-Tree.md",
+      "value": {
+        "menu": "Product Discovery",
+        "name": "Opportunity Solution Tree",
+        "id": "63e51518d46323eb8e48fcb1f3976d39",
+        "filepath": "manual/Product-Discovery/Opportunity-Solution-Tree.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Product-Discovery/Opportunity-Solution-Tree.md",
+        "link": "",
+        "slug": "manual-product-discovery-opportunity-solution-tree",
+        "route": "/manual-product-discovery-opportunity-solution-tree",
+        "headings": [
+          {
+            "slug": "opportunity-solution-tree",
+            "depth": 1,
+            "value": "Opportunity Solution Tree"
+          },
+          {
+            "slug": "the-power-of-mental-representations",
+            "depth": 2,
+            "value": "The Power Of Mental Representations"
+          },
+          {
+            "slug": "widen-the-lens",
+            "depth": 2,
+            "value": "Widen The Lens"
+          },
+          {
+            "slug": "beginning-with-the-end-in-mind",
+            "depth": 2,
+            "value": "Beginning With The End In Mind"
+          },
+          {
+            "slug": "multitracking",
+            "depth": 2,
+            "value": "Multitracking"
+          },
+          {
+            "slug": "4-common-gaps-in-our-thinking",
+            "depth": 2,
+            "value": "4 Common Gaps In Our Thinking"
+          },
+          {
+            "slug": "1-we-dont-examine-our-ideas-before-investing-in-them",
+            "depth": 3,
+            "value": "1. We don't examine our ideas before investing in them"
+          },
+          {
+            "slug": "2-we-dont-consider-enough-ideas",
+            "depth": 3,
+            "value": "2. We don't consider enough ideas"
+          },
+          {
+            "slug": "3-we-dont-multitrack-in-a-systematic-way",
+            "depth": 3,
+            "value": "3. We don't multitrack in a systematic way"
+          },
+          {
+            "slug": "4-our-solutions-dont-connect-to-an-opportunity-or-our-desired-outcome-at-all",
+            "depth": 3,
+            "value": "4. Our solutions don't connect to an opportunity or our desired outcome at all"
+          },
+          {
+            "slug": "the-opportunity-solution-tree-in-action",
+            "depth": 2,
+            "value": "The Opportunity Solution Tree In Action"
+          },
+          {
+            "slug": "building-the-four-sections-of-the-ost",
+            "depth": 2,
+            "value": "Building The Four Sections Of The OST"
+          },
+          {
+            "slug": "using-your-ost-to-guide-product-discovery",
+            "depth": 2,
+            "value": "Using Your OST To Guide Product Discovery"
+          },
+          {
+            "slug": "a-framework-for-continuous-product-discovery",
+            "depth": 2,
+            "value": "A Framework For Continuous Product Discovery"
+          }
+        ]
+      }
+    },
+    {
+      "key": "manual/Product-Discovery/Product-Discovery-Case-Study.md",
+      "value": {
+        "menu": "Product Discovery",
+        "name": "SEEK Case Study",
+        "id": "0a80ee6e69e1f52553a3ac01cbbf16a6",
+        "filepath": "manual/Product-Discovery/Product-Discovery-Case-Study.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Product-Discovery/Product-Discovery-Case-Study.md",
+        "link": "",
+        "slug": "manual-product-discovery-product-discovery-case-study",
+        "route": "/manual-product-discovery-product-discovery-case-study",
+        "headings": [
+          {
+            "slug": "seek-case-study",
+            "depth": 1,
+            "value": "SEEK Case Study"
+          },
+          {
+            "slug": "aha-moments",
+            "depth": 2,
+            "value": "AHA moments"
+          },
+          {
+            "slug": "differences-in-work-approach",
+            "depth": 2,
+            "value": "Differences In Work Approach"
+          }
+        ]
+      }
+    },
+    {
+      "key": "manual/Product-Discovery/Product-Discovery-Principles.md",
+      "value": {
+        "name": "Product Discovery Best Practices",
+        "menu": "Product Discovery",
+        "id": "791d646f5b0c219db1c89d78e662ce20",
+        "filepath": "manual/Product-Discovery/Product-Discovery-Principles.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Product-Discovery/Product-Discovery-Principles.md",
+        "link": "",
+        "slug": "manual-product-discovery-product-discovery-principles",
+        "route": "/manual-product-discovery-product-discovery-principles",
+        "headings": [
+          {
+            "slug": "product-discovery-best-practices",
+            "depth": 1,
+            "value": "Product Discovery Best Practices"
+          },
+          {
+            "slug": "empathy-for-your-audience",
+            "depth": 2,
+            "value": "Empathy For Your Audience"
+          },
+          {
+            "slug": "explore-the-problem-space-indefinitely",
+            "depth": 2,
+            "value": "Explore The Problem Space Indefinitely"
+          },
+          {
+            "slug": "map-your-way-to-clarity",
+            "depth": 2,
+            "value": "Map Your Way To Clarity"
+          },
+          {
+            "slug": "use-theory-as-inspiration-draw-from-first-principles",
+            "depth": 2,
+            "value": "Use Theory As Inspiration (Draw From First Principles)"
+          },
+          {
+            "slug": "co-create-solutions-that-meet-the-unique-needs-of-your-audience",
+            "depth": 2,
+            "value": "Co-Create Solutions That Meet The Unique Needs Of Your Audience"
+          },
+          {
+            "slug": "get-out-of-the-building",
+            "depth": 2,
+            "value": "Get Out Of The Building"
+          }
+        ]
+      }
+    },
+    {
+      "key": "manual/Product-Discovery/Story-Mapping.md",
+      "value": {
+        "menu": "Product Discovery",
+        "name": "Story Mapping",
+        "id": "540f0a2f2232278c586e652514270027",
+        "filepath": "manual/Product-Discovery/Story-Mapping.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Product-Discovery/Story-Mapping.md",
+        "link": "",
+        "slug": "manual-product-discovery-story-mapping",
+        "route": "/manual-product-discovery-story-mapping",
+        "headings": [
+          {
+            "slug": "story-mapping",
+            "depth": 1,
+            "value": "Story Mapping"
+          },
+          {
+            "slug": "notes",
+            "depth": 2,
+            "value": "Notes"
           }
         ]
       }
@@ -20935,336 +21460,6 @@
       }
     },
     {
-      "key": "manual/Product-Discovery/Best-Continous-Discovery-Mindsets.md",
-      "value": {
-        "menu": "Product Discovery",
-        "name": "Best Continuous Discovery Mindsets",
-        "id": "2871e325706b4d06aa3fcdb9cee692f5",
-        "filepath": "manual/Product-Discovery/Best-Continous-Discovery-Mindsets.md",
-        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Product-Discovery/Best-Continous-Discovery-Mindsets.md",
-        "link": "",
-        "slug": "manual-product-discovery-best-continous-discovery-mindsets",
-        "route": "/manual-product-discovery-best-continous-discovery-mindsets",
-        "headings": [
-          {
-            "slug": "best-continuous-discovery-mindsets",
-            "depth": 1,
-            "value": "Best Continuous Discovery Mindsets"
-          },
-          {
-            "slug": "the-mindsets",
-            "depth": 2,
-            "value": "The Mindsets"
-          },
-          {
-            "slug": "more-on-continuous-mindset",
-            "depth": 2,
-            "value": "More On Continuous Mindset"
-          },
-          {
-            "slug": "more-on-experimental-mindset",
-            "depth": 2,
-            "value": "More On Experimental Mindset"
-          }
-        ]
-      }
-    },
-    {
-      "key": "manual/Product-Discovery/Intro-To-Modern-Product-Discovery.md",
-      "value": {
-        "menu": "Product Discovery",
-        "name": "Intro To Modern Product Discovery",
-        "id": "7fc943957218a1392a8567a130186f38",
-        "filepath": "manual/Product-Discovery/Intro-To-Modern-Product-Discovery.md",
-        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Product-Discovery/Intro-To-Modern-Product-Discovery.md",
-        "link": "",
-        "slug": "manual-product-discovery-intro-to-modern-product-discovery",
-        "route": "/manual-product-discovery-intro-to-modern-product-discovery",
-        "headings": [
-          {
-            "slug": "intro-to-modern-product-discovery",
-            "depth": 1,
-            "value": "Intro To Modern Product Discovery"
-          },
-          {
-            "slug": "discovery-vs-delivery",
-            "depth": 2,
-            "value": "Discovery vs Delivery"
-          },
-          {
-            "slug": "history",
-            "depth": 2,
-            "value": "History"
-          },
-          {
-            "slug": "opportunity-solution-trees",
-            "depth": 2,
-            "value": "Opportunity Solution Trees"
-          },
-          {
-            "slug": "how-opportunities-help-drive-the-design-outcomes",
-            "depth": 3,
-            "value": "How Opportunities Help Drive The Design Outcomes"
-          },
-          {
-            "slug": "continuous-product-decisions",
-            "depth": 3,
-            "value": "Continuous Product Decisions"
-          }
-        ]
-      }
-    },
-    {
-      "key": "manual/Product-Discovery/Keystone-Habit.md",
-      "value": {
-        "name": "Keystone Habit",
-        "menu": "Product Discovery",
-        "id": "30d4847cf5993a0c82853a9c63dc6852",
-        "filepath": "manual/Product-Discovery/Keystone-Habit.md",
-        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Product-Discovery/Keystone-Habit.md",
-        "link": "",
-        "slug": "manual-product-discovery-keystone-habit",
-        "route": "/manual-product-discovery-keystone-habit",
-        "headings": [
-          {
-            "slug": "keystone-habit",
-            "depth": 1,
-            "value": "Keystone Habit"
-          },
-          {
-            "slug": "deliberate-practice",
-            "depth": 2,
-            "value": "Deliberate Practice"
-          },
-          {
-            "slug": "required-knowledge-for-effective-application",
-            "depth": 2,
-            "value": "Required Knowledge For Effective Application"
-          }
-        ]
-      }
-    },
-    {
-      "key": "manual/Product-Discovery/Lean-Canvas.md",
-      "value": {
-        "name": "Lean Canvas",
-        "menu": "Product Discovery",
-        "id": "8279fade032e2e4519331cba87b3c49e",
-        "filepath": "manual/Product-Discovery/Lean-Canvas.md",
-        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Product-Discovery/Lean-Canvas.md",
-        "link": "",
-        "slug": "manual-product-discovery-lean-canvas",
-        "route": "/manual-product-discovery-lean-canvas",
-        "headings": [
-          {
-            "slug": "lean-canvas",
-            "depth": 1,
-            "value": "Lean Canvas"
-          },
-          {
-            "slug": "intro",
-            "depth": 2,
-            "value": "Intro"
-          },
-          {
-            "slug": "blank-lean-canvas",
-            "depth": 2,
-            "value": "Blank Lean Canvas"
-          }
-        ]
-      }
-    },
-    {
-      "key": "manual/Product-Discovery/Opportunity-Solution-Tree.md",
-      "value": {
-        "menu": "Product Discovery",
-        "name": "Opportunity Solution Tree",
-        "id": "63e51518d46323eb8e48fcb1f3976d39",
-        "filepath": "manual/Product-Discovery/Opportunity-Solution-Tree.md",
-        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Product-Discovery/Opportunity-Solution-Tree.md",
-        "link": "",
-        "slug": "manual-product-discovery-opportunity-solution-tree",
-        "route": "/manual-product-discovery-opportunity-solution-tree",
-        "headings": [
-          {
-            "slug": "opportunity-solution-tree",
-            "depth": 1,
-            "value": "Opportunity Solution Tree"
-          },
-          {
-            "slug": "the-power-of-mental-representations",
-            "depth": 2,
-            "value": "The Power Of Mental Representations"
-          },
-          {
-            "slug": "widen-the-lens",
-            "depth": 2,
-            "value": "Widen The Lens"
-          },
-          {
-            "slug": "beginning-with-the-end-in-mind",
-            "depth": 2,
-            "value": "Beginning With The End In Mind"
-          },
-          {
-            "slug": "multitracking",
-            "depth": 2,
-            "value": "Multitracking"
-          },
-          {
-            "slug": "4-common-gaps-in-our-thinking",
-            "depth": 2,
-            "value": "4 Common Gaps In Our Thinking"
-          },
-          {
-            "slug": "1-we-dont-examine-our-ideas-before-investing-in-them",
-            "depth": 3,
-            "value": "1. We don't examine our ideas before investing in them"
-          },
-          {
-            "slug": "2-we-dont-consider-enough-ideas",
-            "depth": 3,
-            "value": "2. We don't consider enough ideas"
-          },
-          {
-            "slug": "3-we-dont-multitrack-in-a-systematic-way",
-            "depth": 3,
-            "value": "3. We don't multitrack in a systematic way"
-          },
-          {
-            "slug": "4-our-solutions-dont-connect-to-an-opportunity-or-our-desired-outcome-at-all",
-            "depth": 3,
-            "value": "4. Our solutions don't connect to an opportunity or our desired outcome at all"
-          },
-          {
-            "slug": "the-opportunity-solution-tree-in-action",
-            "depth": 2,
-            "value": "The Opportunity Solution Tree In Action"
-          },
-          {
-            "slug": "building-the-four-sections-of-the-ost",
-            "depth": 2,
-            "value": "Building The Four Sections Of The OST"
-          },
-          {
-            "slug": "using-your-ost-to-guide-product-discovery",
-            "depth": 2,
-            "value": "Using Your OST To Guide Product Discovery"
-          },
-          {
-            "slug": "a-framework-for-continuous-product-discovery",
-            "depth": 2,
-            "value": "A Framework For Continuous Product Discovery"
-          }
-        ]
-      }
-    },
-    {
-      "key": "manual/Product-Discovery/Product-Discovery-Case-Study.md",
-      "value": {
-        "menu": "Product Discovery",
-        "name": "SEEK Case Study",
-        "id": "0a80ee6e69e1f52553a3ac01cbbf16a6",
-        "filepath": "manual/Product-Discovery/Product-Discovery-Case-Study.md",
-        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Product-Discovery/Product-Discovery-Case-Study.md",
-        "link": "",
-        "slug": "manual-product-discovery-product-discovery-case-study",
-        "route": "/manual-product-discovery-product-discovery-case-study",
-        "headings": [
-          {
-            "slug": "seek-case-study",
-            "depth": 1,
-            "value": "SEEK Case Study"
-          },
-          {
-            "slug": "aha-moments",
-            "depth": 2,
-            "value": "AHA moments"
-          },
-          {
-            "slug": "differences-in-work-approach",
-            "depth": 2,
-            "value": "Differences In Work Approach"
-          }
-        ]
-      }
-    },
-    {
-      "key": "manual/Product-Discovery/Product-Discovery-Principles.md",
-      "value": {
-        "name": "Product Discovery Best Practices",
-        "menu": "Product Discovery",
-        "id": "791d646f5b0c219db1c89d78e662ce20",
-        "filepath": "manual/Product-Discovery/Product-Discovery-Principles.md",
-        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Product-Discovery/Product-Discovery-Principles.md",
-        "link": "",
-        "slug": "manual-product-discovery-product-discovery-principles",
-        "route": "/manual-product-discovery-product-discovery-principles",
-        "headings": [
-          {
-            "slug": "product-discovery-best-practices",
-            "depth": 1,
-            "value": "Product Discovery Best Practices"
-          },
-          {
-            "slug": "empathy-for-your-audience",
-            "depth": 2,
-            "value": "Empathy For Your Audience"
-          },
-          {
-            "slug": "explore-the-problem-space-indefinitely",
-            "depth": 2,
-            "value": "Explore The Problem Space Indefinitely"
-          },
-          {
-            "slug": "map-your-way-to-clarity",
-            "depth": 2,
-            "value": "Map Your Way To Clarity"
-          },
-          {
-            "slug": "use-theory-as-inspiration-draw-from-first-principles",
-            "depth": 2,
-            "value": "Use Theory As Inspiration (Draw From First Principles)"
-          },
-          {
-            "slug": "co-create-solutions-that-meet-the-unique-needs-of-your-audience",
-            "depth": 2,
-            "value": "Co-Create Solutions That Meet The Unique Needs Of Your Audience"
-          },
-          {
-            "slug": "get-out-of-the-building",
-            "depth": 2,
-            "value": "Get Out Of The Building"
-          }
-        ]
-      }
-    },
-    {
-      "key": "manual/Product-Discovery/Story-Mapping.md",
-      "value": {
-        "menu": "Product Discovery",
-        "name": "Story Mapping",
-        "id": "540f0a2f2232278c586e652514270027",
-        "filepath": "manual/Product-Discovery/Story-Mapping.md",
-        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Product-Discovery/Story-Mapping.md",
-        "link": "",
-        "slug": "manual-product-discovery-story-mapping",
-        "route": "/manual-product-discovery-story-mapping",
-        "headings": [
-          {
-            "slug": "story-mapping",
-            "depth": 1,
-            "value": "Story Mapping"
-          },
-          {
-            "slug": "notes",
-            "depth": 2,
-            "value": "Notes"
-          }
-        ]
-      }
-    },
-    {
       "key": "manual/Productivity/Productivity.md",
       "value": {
         "name": "Productivity",
@@ -21615,6 +21810,306 @@
             "slug": "generating-the-tests",
             "depth": 2,
             "value": "Generating the tests"
+          }
+        ]
+      }
+    },
+    {
+      "key": "manual/R/R-Intermediate.md",
+      "value": {
+        "name": "R Intermediate",
+        "menu": "R",
+        "id": "14f173054c3d118b25cde37c40015413",
+        "filepath": "manual/R/R-Intermediate.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/R/R-Intermediate.md",
+        "link": "",
+        "slug": "manual-r-r-intermediate",
+        "route": "/manual-r-r-intermediate",
+        "headings": [
+          {
+            "slug": "title",
+            "depth": 1,
+            "value": "Title"
+          },
+          {
+            "slug": "table-of-contents",
+            "depth": 2,
+            "value": "Table of Contents"
+          },
+          {
+            "slug": "relational-operators",
+            "depth": 2,
+            "value": "Relational Operators"
+          },
+          {
+            "slug": "greater-than-or-less-than",
+            "depth": 3,
+            "value": "Greater than or less than"
+          },
+          {
+            "slug": "compare-vectors",
+            "depth": 3,
+            "value": "Compare Vectors"
+          },
+          {
+            "slug": "compare-matrices",
+            "depth": 3,
+            "value": "Compare Matrices"
+          },
+          {
+            "slug": "logical-operators",
+            "depth": 3,
+            "value": "Logical Operators"
+          },
+          {
+            "slug": "conditional-statements",
+            "depth": 3,
+            "value": "Conditional Statements"
+          },
+          {
+            "slug": "loops",
+            "depth": 2,
+            "value": "Loops"
+          },
+          {
+            "slug": "for-loop",
+            "depth": 3,
+            "value": "For Loop"
+          },
+          {
+            "slug": "looping-over-a-list",
+            "depth": 3,
+            "value": "Looping Over a List"
+          },
+          {
+            "slug": "functions",
+            "depth": 2,
+            "value": "Functions"
+          },
+          {
+            "slug": "mean",
+            "depth": 3,
+            "value": "mean()"
+          },
+          {
+            "slug": "mean-continued-sd-and-rmna",
+            "depth": 3,
+            "value": "mean() continued, sd() and rm.na"
+          },
+          {
+            "slug": "writing-functions",
+            "depth": 3,
+            "value": "Writing Functions"
+          },
+          {
+            "slug": "packages",
+            "depth": 3,
+            "value": "Packages"
+          },
+          {
+            "slug": "the-apply-family",
+            "depth": 2,
+            "value": "The Apply Family"
+          },
+          {
+            "slug": "anonymous-functions",
+            "depth": 3,
+            "value": "Anonymous Functions"
+          },
+          {
+            "slug": "sapply",
+            "depth": 3,
+            "value": "sapply"
+          },
+          {
+            "slug": "vapply",
+            "depth": 3,
+            "value": "vapply()"
+          },
+          {
+            "slug": "useful-functions",
+            "depth": 2,
+            "value": "Useful Functions"
+          },
+          {
+            "slug": "data-utilities",
+            "depth": 3,
+            "value": "Data Utilities"
+          },
+          {
+            "slug": "beat-gauss-using-r",
+            "depth": 3,
+            "value": "Beat Gauss using R"
+          },
+          {
+            "slug": "regex",
+            "depth": 3,
+            "value": "Regex"
+          },
+          {
+            "slug": "sub--gsub",
+            "depth": 3,
+            "value": "sub & gsub"
+          },
+          {
+            "slug": "times--dates",
+            "depth": 2,
+            "value": "Times & Dates"
+          }
+        ]
+      }
+    },
+    {
+      "key": "manual/R/R-Intro.md",
+      "value": {
+        "name": "R Intro",
+        "menu": "R",
+        "id": "afa31f5f18f3126af5467387305cff37",
+        "filepath": "manual/R/R-Intro.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/R/R-Intro.md",
+        "link": "",
+        "slug": "manual-r-r-intro",
+        "route": "/manual-r-r-intro",
+        "headings": [
+          {
+            "slug": "introduction-to-r",
+            "depth": 1,
+            "value": "Introduction to R"
+          },
+          {
+            "slug": "table-of-contents",
+            "depth": 2,
+            "value": "Table of Contents"
+          },
+          {
+            "slug": "r-1-how-it-works",
+            "depth": 2,
+            "value": "R-1: How it Works"
+          },
+          {
+            "slug": "arithmetic-with-r",
+            "depth": 2,
+            "value": "Arithmetic with R"
+          },
+          {
+            "slug": "variable-assignment",
+            "depth": 2,
+            "value": "Variable Assignment"
+          },
+          {
+            "slug": "basic-data-types-in-r",
+            "depth": 2,
+            "value": "Basic data types in R"
+          },
+          {
+            "slug": "r-2-vectors",
+            "depth": 2,
+            "value": "R-2: Vectors"
+          },
+          {
+            "slug": "naming-a-vector",
+            "depth": 2,
+            "value": "Naming a Vector"
+          },
+          {
+            "slug": "vector-selection",
+            "depth": 2,
+            "value": "Vector Selection"
+          },
+          {
+            "slug": "poker-and-roulette-winnings-from-monday-to-friday",
+            "depth": 1,
+            "value": "Poker and roulette winnings from Monday to Friday:"
+          },
+          {
+            "slug": "define-a-new-variable-based-on-a-selection",
+            "depth": 1,
+            "value": "Define a new variable based on a selection"
+          },
+          {
+            "slug": "selection-by-comparison",
+            "depth": 2,
+            "value": "Selection by Comparison"
+          },
+          {
+            "slug": "r-3-matrices",
+            "depth": 2,
+            "value": "R-3: Matrices"
+          },
+          {
+            "slug": "naming-a-matrix",
+            "depth": 2,
+            "value": "Naming a matrix"
+          },
+          {
+            "slug": "adding-a-row",
+            "depth": 2,
+            "value": "Adding a Row"
+          },
+          {
+            "slug": "all-functions-for-combining",
+            "depth": 2,
+            "value": "All functions for combining"
+          },
+          {
+            "slug": "selection-of-matrix-elements",
+            "depth": 2,
+            "value": "Selection of Matrix Elements"
+          },
+          {
+            "slug": "matrix-arithmetic",
+            "depth": 2,
+            "value": "Matrix Arithmetic"
+          },
+          {
+            "slug": "factors-in-r",
+            "depth": 2,
+            "value": "Factors in R"
+          },
+          {
+            "slug": "summarizing-a-factor",
+            "depth": 2,
+            "value": "Summarizing a factor"
+          },
+          {
+            "slug": "ordered-factors",
+            "depth": 2,
+            "value": "Ordered Factors"
+          },
+          {
+            "slug": "data-frames",
+            "depth": 2,
+            "value": "Data Frames"
+          },
+          {
+            "slug": "selection-of-data-frame-elements",
+            "depth": 2,
+            "value": "Selection of data frame elements"
+          },
+          {
+            "slug": "subsets",
+            "depth": 2,
+            "value": "Subsets"
+          },
+          {
+            "slug": "sorting",
+            "depth": 2,
+            "value": "Sorting"
+          },
+          {
+            "slug": "lists",
+            "depth": 2,
+            "value": "Lists"
+          },
+          {
+            "slug": "selecting-elements-from-a-list",
+            "depth": 2,
+            "value": "Selecting Elements from a List"
+          },
+          {
+            "slug": "adding-more-components-to-a-list",
+            "depth": 2,
+            "value": "Adding more components to a list"
           }
         ]
       }
@@ -22300,306 +22795,6 @@
             "slug": "try-weirdness",
             "depth": 2,
             "value": "Try Weirdness"
-          }
-        ]
-      }
-    },
-    {
-      "key": "manual/R/R-Intermediate.md",
-      "value": {
-        "name": "R Intermediate",
-        "menu": "R",
-        "id": "14f173054c3d118b25cde37c40015413",
-        "filepath": "manual/R/R-Intermediate.md",
-        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/R/R-Intermediate.md",
-        "link": "",
-        "slug": "manual-r-r-intermediate",
-        "route": "/manual-r-r-intermediate",
-        "headings": [
-          {
-            "slug": "title",
-            "depth": 1,
-            "value": "Title"
-          },
-          {
-            "slug": "table-of-contents",
-            "depth": 2,
-            "value": "Table of Contents"
-          },
-          {
-            "slug": "relational-operators",
-            "depth": 2,
-            "value": "Relational Operators"
-          },
-          {
-            "slug": "greater-than-or-less-than",
-            "depth": 3,
-            "value": "Greater than or less than"
-          },
-          {
-            "slug": "compare-vectors",
-            "depth": 3,
-            "value": "Compare Vectors"
-          },
-          {
-            "slug": "compare-matrices",
-            "depth": 3,
-            "value": "Compare Matrices"
-          },
-          {
-            "slug": "logical-operators",
-            "depth": 3,
-            "value": "Logical Operators"
-          },
-          {
-            "slug": "conditional-statements",
-            "depth": 3,
-            "value": "Conditional Statements"
-          },
-          {
-            "slug": "loops",
-            "depth": 2,
-            "value": "Loops"
-          },
-          {
-            "slug": "for-loop",
-            "depth": 3,
-            "value": "For Loop"
-          },
-          {
-            "slug": "looping-over-a-list",
-            "depth": 3,
-            "value": "Looping Over a List"
-          },
-          {
-            "slug": "functions",
-            "depth": 2,
-            "value": "Functions"
-          },
-          {
-            "slug": "mean",
-            "depth": 3,
-            "value": "mean()"
-          },
-          {
-            "slug": "mean-continued-sd-and-rmna",
-            "depth": 3,
-            "value": "mean() continued, sd() and rm.na"
-          },
-          {
-            "slug": "writing-functions",
-            "depth": 3,
-            "value": "Writing Functions"
-          },
-          {
-            "slug": "packages",
-            "depth": 3,
-            "value": "Packages"
-          },
-          {
-            "slug": "the-apply-family",
-            "depth": 2,
-            "value": "The Apply Family"
-          },
-          {
-            "slug": "anonymous-functions",
-            "depth": 3,
-            "value": "Anonymous Functions"
-          },
-          {
-            "slug": "sapply",
-            "depth": 3,
-            "value": "sapply"
-          },
-          {
-            "slug": "vapply",
-            "depth": 3,
-            "value": "vapply()"
-          },
-          {
-            "slug": "useful-functions",
-            "depth": 2,
-            "value": "Useful Functions"
-          },
-          {
-            "slug": "data-utilities",
-            "depth": 3,
-            "value": "Data Utilities"
-          },
-          {
-            "slug": "beat-gauss-using-r",
-            "depth": 3,
-            "value": "Beat Gauss using R"
-          },
-          {
-            "slug": "regex",
-            "depth": 3,
-            "value": "Regex"
-          },
-          {
-            "slug": "sub--gsub",
-            "depth": 3,
-            "value": "sub & gsub"
-          },
-          {
-            "slug": "times--dates",
-            "depth": 2,
-            "value": "Times & Dates"
-          }
-        ]
-      }
-    },
-    {
-      "key": "manual/R/R-Intro.md",
-      "value": {
-        "name": "R Intro",
-        "menu": "R",
-        "id": "afa31f5f18f3126af5467387305cff37",
-        "filepath": "manual/R/R-Intro.md",
-        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/R/R-Intro.md",
-        "link": "",
-        "slug": "manual-r-r-intro",
-        "route": "/manual-r-r-intro",
-        "headings": [
-          {
-            "slug": "introduction-to-r",
-            "depth": 1,
-            "value": "Introduction to R"
-          },
-          {
-            "slug": "table-of-contents",
-            "depth": 2,
-            "value": "Table of Contents"
-          },
-          {
-            "slug": "r-1-how-it-works",
-            "depth": 2,
-            "value": "R-1: How it Works"
-          },
-          {
-            "slug": "arithmetic-with-r",
-            "depth": 2,
-            "value": "Arithmetic with R"
-          },
-          {
-            "slug": "variable-assignment",
-            "depth": 2,
-            "value": "Variable Assignment"
-          },
-          {
-            "slug": "basic-data-types-in-r",
-            "depth": 2,
-            "value": "Basic data types in R"
-          },
-          {
-            "slug": "r-2-vectors",
-            "depth": 2,
-            "value": "R-2: Vectors"
-          },
-          {
-            "slug": "naming-a-vector",
-            "depth": 2,
-            "value": "Naming a Vector"
-          },
-          {
-            "slug": "vector-selection",
-            "depth": 2,
-            "value": "Vector Selection"
-          },
-          {
-            "slug": "poker-and-roulette-winnings-from-monday-to-friday",
-            "depth": 1,
-            "value": "Poker and roulette winnings from Monday to Friday:"
-          },
-          {
-            "slug": "define-a-new-variable-based-on-a-selection",
-            "depth": 1,
-            "value": "Define a new variable based on a selection"
-          },
-          {
-            "slug": "selection-by-comparison",
-            "depth": 2,
-            "value": "Selection by Comparison"
-          },
-          {
-            "slug": "r-3-matrices",
-            "depth": 2,
-            "value": "R-3: Matrices"
-          },
-          {
-            "slug": "naming-a-matrix",
-            "depth": 2,
-            "value": "Naming a matrix"
-          },
-          {
-            "slug": "adding-a-row",
-            "depth": 2,
-            "value": "Adding a Row"
-          },
-          {
-            "slug": "all-functions-for-combining",
-            "depth": 2,
-            "value": "All functions for combining"
-          },
-          {
-            "slug": "selection-of-matrix-elements",
-            "depth": 2,
-            "value": "Selection of Matrix Elements"
-          },
-          {
-            "slug": "matrix-arithmetic",
-            "depth": 2,
-            "value": "Matrix Arithmetic"
-          },
-          {
-            "slug": "factors-in-r",
-            "depth": 2,
-            "value": "Factors in R"
-          },
-          {
-            "slug": "summarizing-a-factor",
-            "depth": 2,
-            "value": "Summarizing a factor"
-          },
-          {
-            "slug": "ordered-factors",
-            "depth": 2,
-            "value": "Ordered Factors"
-          },
-          {
-            "slug": "data-frames",
-            "depth": 2,
-            "value": "Data Frames"
-          },
-          {
-            "slug": "selection-of-data-frame-elements",
-            "depth": 2,
-            "value": "Selection of data frame elements"
-          },
-          {
-            "slug": "subsets",
-            "depth": 2,
-            "value": "Subsets"
-          },
-          {
-            "slug": "sorting",
-            "depth": 2,
-            "value": "Sorting"
-          },
-          {
-            "slug": "lists",
-            "depth": 2,
-            "value": "Lists"
-          },
-          {
-            "slug": "selecting-elements-from-a-list",
-            "depth": 2,
-            "value": "Selecting Elements from a List"
-          },
-          {
-            "slug": "adding-more-components-to-a-list",
-            "depth": 2,
-            "value": "Adding more components to a list"
           }
         ]
       }
@@ -24260,51 +24455,6 @@
       }
     },
     {
-      "key": "manual/Rspec/Rspec-Intro.md",
-      "value": {
-        "menu": "RSpec",
-        "name": "Intro to RSpec",
-        "id": "435c5be5be34dc020b80453bec1cbeb8",
-        "filepath": "manual/Rspec/Rspec-Intro.md",
-        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Rspec/Rspec-Intro.md",
-        "link": "",
-        "slug": "manual-rspec-rspec-intro",
-        "route": "/manual-rspec-rspec-intro",
-        "headings": [
-          {
-            "slug": "intro-to-rspec",
-            "depth": 1,
-            "value": "Intro to RSpec"
-          },
-          {
-            "slug": "tldr",
-            "depth": 2,
-            "value": "tl;dr"
-          },
-          {
-            "slug": "setting-up-a-calculator-file",
-            "depth": 2,
-            "value": "Setting up a calculator file"
-          },
-          {
-            "slug": "pending-tests",
-            "depth": 2,
-            "value": "Pending tests"
-          },
-          {
-            "slug": "adding-your-first-test",
-            "depth": 2,
-            "value": "Adding your first test"
-          },
-          {
-            "slug": "module-testing-a-ruby-symbol",
-            "depth": 2,
-            "value": "Module testing a Ruby Symbol"
-          }
-        ]
-      }
-    },
-    {
       "key": "manual/Roadmaps/Roadmaps-Intro.md",
       "value": {
         "menu": "Roadmaps",
@@ -24350,6 +24500,51 @@
             "slug": "golang-roadmap",
             "depth": 3,
             "value": "GoLang Roadmap"
+          }
+        ]
+      }
+    },
+    {
+      "key": "manual/Rspec/Rspec-Intro.md",
+      "value": {
+        "menu": "RSpec",
+        "name": "Intro to RSpec",
+        "id": "435c5be5be34dc020b80453bec1cbeb8",
+        "filepath": "manual/Rspec/Rspec-Intro.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Rspec/Rspec-Intro.md",
+        "link": "",
+        "slug": "manual-rspec-rspec-intro",
+        "route": "/manual-rspec-rspec-intro",
+        "headings": [
+          {
+            "slug": "intro-to-rspec",
+            "depth": 1,
+            "value": "Intro to RSpec"
+          },
+          {
+            "slug": "tldr",
+            "depth": 2,
+            "value": "tl;dr"
+          },
+          {
+            "slug": "setting-up-a-calculator-file",
+            "depth": 2,
+            "value": "Setting up a calculator file"
+          },
+          {
+            "slug": "pending-tests",
+            "depth": 2,
+            "value": "Pending tests"
+          },
+          {
+            "slug": "adding-your-first-test",
+            "depth": 2,
+            "value": "Adding your first test"
+          },
+          {
+            "slug": "module-testing-a-ruby-symbol",
+            "depth": 2,
+            "value": "Module testing a Ruby Symbol"
           }
         ]
       }
@@ -25505,6 +25700,36 @@
             "slug": "sql-window-functions",
             "depth": 1,
             "value": "SQL-Window-Functions"
+          }
+        ]
+      }
+    },
+    {
+      "key": "manual/Security/Security-Intro.md",
+      "value": {
+        "menu": "Security",
+        "name": "Security Intro",
+        "id": "bbbb3cbcd11788a253942488008c6e5d",
+        "filepath": "manual/Security/Security-Intro.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Security/Security-Intro.md",
+        "link": "",
+        "slug": "manual-security-security-intro",
+        "route": "/manual-security-security-intro",
+        "headings": [
+          {
+            "slug": "security-intro",
+            "depth": 1,
+            "value": "Security Intro"
+          },
+          {
+            "slug": "resources",
+            "depth": 2,
+            "value": "Resources"
+          },
+          {
+            "slug": "difference-between-hash-cipher-and-encrpyption",
+            "depth": 2,
+            "value": "Difference between hash, cipher and encrpyption"
           }
         ]
       }
@@ -27754,6 +27979,136 @@
       }
     },
     {
+      "key": "manual/Timber/Timber-Cheat-Sheet.md",
+      "value": {
+        "name": "Timber Cheat Sheet",
+        "menu": "Timber",
+        "id": "fee87c16bf43fce86fbbd11fb7fcfade",
+        "filepath": "manual/Timber/Timber-Cheat-Sheet.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Timber/Timber-Cheat-Sheet.md",
+        "link": "",
+        "slug": "manual-timber-timber-cheat-sheet",
+        "route": "/manual-timber-timber-cheat-sheet",
+        "headings": [
+          {
+            "slug": "timber-help-sheet",
+            "depth": 1,
+            "value": "Timber Help Sheet"
+          },
+          {
+            "slug": "timber-example",
+            "depth": 2,
+            "value": "Timber Example"
+          },
+          {
+            "slug": "timber-blog-info",
+            "depth": 2,
+            "value": "Timber Blog Info"
+          },
+          {
+            "slug": "timber-body-class",
+            "depth": 2,
+            "value": "Timber Body Class"
+          },
+          {
+            "slug": "timber-post",
+            "depth": 2,
+            "value": "Timber Post"
+          },
+          {
+            "slug": "timber-theme",
+            "depth": 2,
+            "value": "Timber Theme"
+          },
+          {
+            "slug": "wp-functions",
+            "depth": 2,
+            "value": "WP Functions"
+          },
+          {
+            "slug": "wp-integrations",
+            "depth": 1,
+            "value": "WP Integrations"
+          },
+          {
+            "slug": "the_content",
+            "depth": 2,
+            "value": "the_content"
+          },
+          {
+            "slug": "hooks",
+            "depth": 2,
+            "value": "hooks"
+          },
+          {
+            "slug": "scripts--stylesheets",
+            "depth": 2,
+            "value": "Scripts + Stylesheets"
+          },
+          {
+            "slug": "functions",
+            "depth": 2,
+            "value": "Functions"
+          },
+          {
+            "slug": "actions",
+            "depth": 2,
+            "value": "Actions"
+          },
+          {
+            "slug": "filters",
+            "depth": 2,
+            "value": "Filters"
+          },
+          {
+            "slug": "widgets",
+            "depth": 2,
+            "value": "Widgets"
+          },
+          {
+            "slug": "shortcodes",
+            "depth": 2,
+            "value": "Shortcodes"
+          },
+          {
+            "slug": "layouts-with-shortcodes",
+            "depth": 2,
+            "value": "Layouts with Shortcodes"
+          }
+        ]
+      }
+    },
+    {
+      "key": "manual/Tooling/Awesome-CLI-Tools.md",
+      "value": {
+        "menu": "Tooling",
+        "name": "Awesome Tooling CLI",
+        "id": "e6a778e3c892cbac269ffb5e4930f04e",
+        "filepath": "manual/Tooling/Awesome-CLI-Tools.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Tooling/Awesome-CLI-Tools.md",
+        "link": "",
+        "slug": "manual-tooling-awesome-cli-tools",
+        "route": "/manual-tooling-awesome-cli-tools",
+        "headings": [
+          {
+            "slug": "awesome-tooling-cli",
+            "depth": 1,
+            "value": "Awesome Tooling CLI"
+          },
+          {
+            "slug": "resources",
+            "depth": 2,
+            "value": "Resources"
+          },
+          {
+            "slug": "reflex",
+            "depth": 2,
+            "value": "Reflex"
+          }
+        ]
+      }
+    },
+    {
       "key": "manual/Testing/Intro.md",
       "value": {
         "name": "Introduction and Types",
@@ -28019,136 +28374,6 @@
             "slug": "logging",
             "depth": 2,
             "value": "Logging"
-          }
-        ]
-      }
-    },
-    {
-      "key": "manual/Timber/Timber-Cheat-Sheet.md",
-      "value": {
-        "name": "Timber Cheat Sheet",
-        "menu": "Timber",
-        "id": "fee87c16bf43fce86fbbd11fb7fcfade",
-        "filepath": "manual/Timber/Timber-Cheat-Sheet.md",
-        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Timber/Timber-Cheat-Sheet.md",
-        "link": "",
-        "slug": "manual-timber-timber-cheat-sheet",
-        "route": "/manual-timber-timber-cheat-sheet",
-        "headings": [
-          {
-            "slug": "timber-help-sheet",
-            "depth": 1,
-            "value": "Timber Help Sheet"
-          },
-          {
-            "slug": "timber-example",
-            "depth": 2,
-            "value": "Timber Example"
-          },
-          {
-            "slug": "timber-blog-info",
-            "depth": 2,
-            "value": "Timber Blog Info"
-          },
-          {
-            "slug": "timber-body-class",
-            "depth": 2,
-            "value": "Timber Body Class"
-          },
-          {
-            "slug": "timber-post",
-            "depth": 2,
-            "value": "Timber Post"
-          },
-          {
-            "slug": "timber-theme",
-            "depth": 2,
-            "value": "Timber Theme"
-          },
-          {
-            "slug": "wp-functions",
-            "depth": 2,
-            "value": "WP Functions"
-          },
-          {
-            "slug": "wp-integrations",
-            "depth": 1,
-            "value": "WP Integrations"
-          },
-          {
-            "slug": "the_content",
-            "depth": 2,
-            "value": "the_content"
-          },
-          {
-            "slug": "hooks",
-            "depth": 2,
-            "value": "hooks"
-          },
-          {
-            "slug": "scripts--stylesheets",
-            "depth": 2,
-            "value": "Scripts + Stylesheets"
-          },
-          {
-            "slug": "functions",
-            "depth": 2,
-            "value": "Functions"
-          },
-          {
-            "slug": "actions",
-            "depth": 2,
-            "value": "Actions"
-          },
-          {
-            "slug": "filters",
-            "depth": 2,
-            "value": "Filters"
-          },
-          {
-            "slug": "widgets",
-            "depth": 2,
-            "value": "Widgets"
-          },
-          {
-            "slug": "shortcodes",
-            "depth": 2,
-            "value": "Shortcodes"
-          },
-          {
-            "slug": "layouts-with-shortcodes",
-            "depth": 2,
-            "value": "Layouts with Shortcodes"
-          }
-        ]
-      }
-    },
-    {
-      "key": "manual/Tooling/Awesome-CLI-Tools.md",
-      "value": {
-        "menu": "Tooling",
-        "name": "Awesome Tooling CLI",
-        "id": "e6a778e3c892cbac269ffb5e4930f04e",
-        "filepath": "manual/Tooling/Awesome-CLI-Tools.md",
-        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Tooling/Awesome-CLI-Tools.md",
-        "link": "",
-        "slug": "manual-tooling-awesome-cli-tools",
-        "route": "/manual-tooling-awesome-cli-tools",
-        "headings": [
-          {
-            "slug": "awesome-tooling-cli",
-            "depth": 1,
-            "value": "Awesome Tooling CLI"
-          },
-          {
-            "slug": "resources",
-            "depth": 2,
-            "value": "Resources"
-          },
-          {
-            "slug": "reflex",
-            "depth": 2,
-            "value": "Reflex"
           }
         ]
       }
