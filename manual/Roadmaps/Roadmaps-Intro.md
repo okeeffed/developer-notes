@@ -38,7 +38,7 @@ Reference the [Developer Roadmap](https://github.com/kamranahmedse/developer-roa
 2. Mitigaton Strategies
 3. Instrumentation vs Monitoring vs Telemetry ✅
 4. Web security (CSP, CORS, SSL/TLS, OWASP, Hashing options - reasons to not use MDA5)
-5. POSIX basics: stdin, stdout, stderr, pipes
+5. POSIX basics: stdin, stdout, stderr, pipes ✅
 6. Process Management
 7. GraphDB
 8. Message Brokers
@@ -47,7 +47,8 @@ Reference the [Developer Roadmap](https://github.com/kamranahmedse/developer-roa
 11. Service Meshes
 12. Config Management vs Infra Provisioning ✅
 13. Monads vs Functors ✅
-14. Caching
+14. Caching ✅
+15. Database N+1 problem and database normalisation
 
 ### Data Science
 
