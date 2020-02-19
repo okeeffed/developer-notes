@@ -52,7 +52,8 @@ Reference the [Developer Roadmap](https://github.com/kamranahmedse/developer-roa
 12. Config Management vs Infra Provisioning ✅
 13. Monads vs Functors ✅
 14. Caching ✅
-15. Database N+1 problem and database normalisation
+15. Database N+1 problem
+16. Database normalisation ✅
 
 ### Data Science
 
