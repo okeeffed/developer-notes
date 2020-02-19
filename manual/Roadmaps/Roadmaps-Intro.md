@@ -68,3 +68,17 @@ Reference the [GoLang Developer Roadmap](https://github.com/Alikhll/golang-devel
 6. Go Patterns
 7. Real-Time Communications
 8. Threads, threadpools, chunking
+
+### SRE Roadmap
+
+1. Embracing Risk
+2. Service Level Objectives
+3. Eliminating Toil
+4. Monitoring Distributed Systems
+5. Release Engineering
+6. Practical ALerting
+7. Effective Troubleshooting
+8. Emergency Response
+9. Tracking Outages
+10. Testing for Reliability
+11. Data Processing Pipelines
