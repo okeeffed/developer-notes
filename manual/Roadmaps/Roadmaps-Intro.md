@@ -26,6 +26,10 @@ Reference the [Software Design + Architecture Roadmaps](https://github.com/stemm
 
 1. Design Principles
 2. Architectural Principles
+   1. Component principles
+   2. Coupling & cohesion
+   3. Boundaries
+   4. Policy and level ✅
 3. Architectural Styles
 4. Architectural Patterns
 5. Enterprise Patterns
