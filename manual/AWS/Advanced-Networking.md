@@ -38,6 +38,7 @@ menu: AWS
 1. [Block Ciphers](https://en.wikipedia.org/wiki/Block_cipher)
 2. [Duplex vs Multiplex](https://networkengineering.stackexchange.com/questions/23212/multiaccess-with-duplex-and-multiplexing)
 3. [Pre-Shared Key](https://en.wikipedia.org/wiki/Pre-shared_key)
+4. [Public Key Encryption Explained](https://ssd.eff.org/en/module/deep-dive-end-end-encryption-how-do-public-key-encryption-systems-work)
 
 ## IPv4 and Subnetting
 
@@ -81,7 +82,7 @@ There are two primary types:
 ### Keys
 
 1.  Symmetric-key encryption: All parties share the same key to encrypt and decrypt a message.
-2.  Public-key encrytion (asymmetric): Each party has a public-private key pair. One computer uses its private key to encrypt a message and the other uses its public key to decrypt.
+2.  Public-key encrytion (asymmetric): Each party has a public-private key pair. One computer uses its private key to decrypt a message and the other uses its public key to encrypt.
 
 ### Key Exchange Encryption Keys
 
