@@ -76,11 +76,11 @@ Reference the [GoLang Developer Roadmap](https://github.com/Alikhll/golang-devel
 ### SRE Roadmap
 
 1. Embracing Risk
-2. Service Level Objectives
-3. Eliminating Toil
+2. Service Level Objectives ✅
+3. Eliminating Toil ✅
 4. Monitoring Distributed Systems
 5. Release Engineering
-6. Practical ALerting
+6. Practical Alerting
 7. Effective Troubleshooting
 8. Emergency Response
 9. Tracking Outages
