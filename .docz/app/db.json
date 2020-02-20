@@ -1512,6 +1512,101 @@
       }
     },
     {
+      "key": "manual/Algebra/Properties.md",
+      "value": {
+        "menu": "Algebra",
+        "name": "Properties",
+        "id": "ccc2fd6c2f0e1d3fb6a047f1ef394166",
+        "filepath": "manual/Algebra/Properties.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Algebra/Properties.md",
+        "link": "",
+        "slug": "manual-algebra-properties",
+        "route": "/manual-algebra-properties",
+        "headings": [
+          {
+            "slug": "properties",
+            "depth": 1,
+            "value": "Properties"
+          },
+          {
+            "slug": "resources",
+            "depth": 2,
+            "value": "Resources"
+          },
+          {
+            "slug": "properties-of-algebra",
+            "depth": 2,
+            "value": "Properties of Algebra"
+          },
+          {
+            "slug": "commutative-property-of-algebra",
+            "depth": 3,
+            "value": "Commutative Property of Algebra"
+          },
+          {
+            "slug": "associativity-property-of-algebra",
+            "depth": 3,
+            "value": "Associativity Property of Algebra"
+          },
+          {
+            "slug": "distributive-property-of-algebra",
+            "depth": 3,
+            "value": "Distributive Property of Algebra"
+          },
+          {
+            "slug": "additive-identity-property",
+            "depth": 3,
+            "value": "Additive Identity Property"
+          },
+          {
+            "slug": "multiplicative-identity-property",
+            "depth": 3,
+            "value": "Multiplicative Identity Property"
+          },
+          {
+            "slug": "additive-inverse-property",
+            "depth": 3,
+            "value": "Additive Inverse Property"
+          },
+          {
+            "slug": "multiplicative-inverse-property",
+            "depth": 3,
+            "value": "Multiplicative Inverse Property"
+          },
+          {
+            "slug": "logarithmic-properties",
+            "depth": 2,
+            "value": "Logarithmic Properties"
+          },
+          {
+            "slug": "product-rule",
+            "depth": 3,
+            "value": "Product Rule"
+          },
+          {
+            "slug": "quotient-rule",
+            "depth": 3,
+            "value": "Quotient Rule"
+          },
+          {
+            "slug": "power-rule",
+            "depth": 3,
+            "value": "Power Rule"
+          },
+          {
+            "slug": "change-of-base-formula",
+            "depth": 3,
+            "value": "Change of Base Formula"
+          },
+          {
+            "slug": "base-switch-rule",
+            "depth": 3,
+            "value": "Base Switch Rule"
+          }
+        ]
+      }
+    },
+    {
       "key": "manual/Algebra/Shortcuts.md",
       "value": {
         "menu": "Algebra",
@@ -1562,131 +1657,6 @@
             "slug": "resources",
             "depth": 2,
             "value": "Resources"
-          }
-        ]
-      }
-    },
-    {
-      "key": "manual/Amplify/Adding-Storage.md",
-      "value": {
-        "name": "Adding Storage",
-        "menu": "Amplify",
-        "id": "13f8980edfad7ad84d3e5c806137b3d0",
-        "filepath": "manual/Amplify/Adding-Storage.md",
-        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Amplify/Adding-Storage.md",
-        "link": "",
-        "slug": "manual-amplify-adding-storage",
-        "route": "/manual-amplify-adding-storage",
-        "headings": [
-          {
-            "slug": "adding-storage-to-amplify",
-            "depth": 1,
-            "value": "Adding Storage to Amplify"
-          },
-          {
-            "slug": "useful-links",
-            "depth": 2,
-            "value": "Useful links"
-          }
-        ]
-      }
-    },
-    {
-      "key": "manual/Amplify/Facebook-Login.md",
-      "value": {
-        "name": "Facebook Login",
-        "menu": "Amplify",
-        "id": "d9b06784265069da65ddeedf4841ffd4",
-        "filepath": "manual/Amplify/Facebook-Login.md",
-        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Amplify/Facebook-Login.md",
-        "link": "",
-        "slug": "manual-amplify-facebook-login",
-        "route": "/manual-amplify-facebook-login",
-        "headings": [
-          {
-            "slug": "facebook-login",
-            "depth": 1,
-            "value": "Facebook Login"
-          },
-          {
-            "slug": "tldr",
-            "depth": 2,
-            "value": "tl;dr"
-          }
-        ]
-      }
-    },
-    {
-      "key": "manual/Amplify/Graphql-Setup.md",
-      "value": {
-        "name": "Graphql Setup",
-        "menu": "Amplify",
-        "id": "c20b92610138602837f77a3da16b8ebb",
-        "filepath": "manual/Amplify/Graphql-Setup.md",
-        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Amplify/Graphql-Setup.md",
-        "link": "",
-        "slug": "manual-amplify-graphql-setup",
-        "route": "/manual-amplify-graphql-setup",
-        "headings": [
-          {
-            "slug": "graphql-setup",
-            "depth": 1,
-            "value": "GraphQL Setup"
-          },
-          {
-            "slug": "links",
-            "depth": 2,
-            "value": "Links"
-          },
-          {
-            "slug": "to-get-it-running",
-            "depth": 2,
-            "value": "To get it running"
-          },
-          {
-            "slug": "example-schema",
-            "depth": 3,
-            "value": "Example schema"
-          },
-          {
-            "slug": "example-mutation",
-            "depth": 3,
-            "value": "Example mutation"
-          },
-          {
-            "slug": "example-query",
-            "depth": 3,
-            "value": "Example query"
-          },
-          {
-            "slug": "autogenerating-code-for-the-schema",
-            "depth": 2,
-            "value": "Autogenerating code for the schema"
-          },
-          {
-            "slug": "1-many-many-to-many-relationship-schemas",
-            "depth": 2,
-            "value": "1-many, many-to-many relationship schemas"
-          }
-        ]
-      }
-    },
-    {
-      "key": "manual/Android/Lists-And-Adapters.md",
-      "value": {
-        "name": "Lists And Adapters",
-        "menu": "Android",
-        "id": "ab8ddf80b132a4bb703edba7b15ea264",
-        "filepath": "manual/Android/Lists-And-Adapters.md",
-        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Android/Lists-And-Adapters.md",
-        "link": "",
-        "slug": "manual-android-lists-and-adapters",
-        "route": "/manual-android-lists-and-adapters",
-        "headings": [
-          {
-            "slug": "lists-and-adapters-in-android",
-            "depth": 1,
-            "value": "Lists and Adapters in Android"
           }
         ]
       }
@@ -3017,46 +2987,126 @@
       }
     },
     {
-      "key": "manual/Art/Drawing.md",
+      "key": "manual/Amplify/Adding-Storage.md",
       "value": {
-        "name": "Drawing",
-        "menu": "Art",
-        "id": "78e8b1c599237c157d6fdc9caf01e49b",
-        "filepath": "manual/Art/Drawing.md",
-        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Art/Drawing.md",
+        "name": "Adding Storage",
+        "menu": "Amplify",
+        "id": "13f8980edfad7ad84d3e5c806137b3d0",
+        "filepath": "manual/Amplify/Adding-Storage.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Amplify/Adding-Storage.md",
         "link": "",
-        "slug": "manual-art-drawing",
-        "route": "/manual-art-drawing",
+        "slug": "manual-amplify-adding-storage",
+        "route": "/manual-amplify-adding-storage",
         "headings": [
           {
-            "slug": "drawing-course",
+            "slug": "adding-storage-to-amplify",
             "depth": 1,
-            "value": "Drawing Course"
+            "value": "Adding Storage to Amplify"
           },
           {
-            "slug": "basics",
+            "slug": "useful-links",
             "depth": 2,
-            "value": "Basics"
+            "value": "Useful links"
+          }
+        ]
+      }
+    },
+    {
+      "key": "manual/Amplify/Facebook-Login.md",
+      "value": {
+        "name": "Facebook Login",
+        "menu": "Amplify",
+        "id": "d9b06784265069da65ddeedf4841ffd4",
+        "filepath": "manual/Amplify/Facebook-Login.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Amplify/Facebook-Login.md",
+        "link": "",
+        "slug": "manual-amplify-facebook-login",
+        "route": "/manual-amplify-facebook-login",
+        "headings": [
+          {
+            "slug": "facebook-login",
+            "depth": 1,
+            "value": "Facebook Login"
           },
           {
-            "slug": "tools",
+            "slug": "tldr",
+            "depth": 2,
+            "value": "tl;dr"
+          }
+        ]
+      }
+    },
+    {
+      "key": "manual/Amplify/Graphql-Setup.md",
+      "value": {
+        "name": "Graphql Setup",
+        "menu": "Amplify",
+        "id": "c20b92610138602837f77a3da16b8ebb",
+        "filepath": "manual/Amplify/Graphql-Setup.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Amplify/Graphql-Setup.md",
+        "link": "",
+        "slug": "manual-amplify-graphql-setup",
+        "route": "/manual-amplify-graphql-setup",
+        "headings": [
+          {
+            "slug": "graphql-setup",
+            "depth": 1,
+            "value": "GraphQL Setup"
+          },
+          {
+            "slug": "links",
+            "depth": 2,
+            "value": "Links"
+          },
+          {
+            "slug": "to-get-it-running",
+            "depth": 2,
+            "value": "To get it running"
+          },
+          {
+            "slug": "example-schema",
             "depth": 3,
-            "value": "Tools"
+            "value": "Example schema"
           },
           {
-            "slug": "why-is-drawing-so-important",
-            "depth": 2,
-            "value": "Why is drawing so important?"
-          },
-          {
-            "slug": "testing-metric",
+            "slug": "example-mutation",
             "depth": 3,
-            "value": "Testing metric"
+            "value": "Example mutation"
           },
           {
-            "slug": "basics-of-line-drawing",
+            "slug": "example-query",
+            "depth": 3,
+            "value": "Example query"
+          },
+          {
+            "slug": "autogenerating-code-for-the-schema",
             "depth": 2,
-            "value": "Basics of line drawing"
+            "value": "Autogenerating code for the schema"
+          },
+          {
+            "slug": "1-many-many-to-many-relationship-schemas",
+            "depth": 2,
+            "value": "1-many, many-to-many relationship schemas"
+          }
+        ]
+      }
+    },
+    {
+      "key": "manual/Android/Lists-And-Adapters.md",
+      "value": {
+        "name": "Lists And Adapters",
+        "menu": "Android",
+        "id": "ab8ddf80b132a4bb703edba7b15ea264",
+        "filepath": "manual/Android/Lists-And-Adapters.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Android/Lists-And-Adapters.md",
+        "link": "",
+        "slug": "manual-android-lists-and-adapters",
+        "route": "/manual-android-lists-and-adapters",
+        "headings": [
+          {
+            "slug": "lists-and-adapters-in-android",
+            "depth": 1,
+            "value": "Lists and Adapters in Android"
           }
         ]
       }
@@ -3267,6 +3317,76 @@
             "slug": "structural-directives",
             "depth": 2,
             "value": "Structural Directives"
+          }
+        ]
+      }
+    },
+    {
+      "key": "manual/Architectural-Principles/Policy-And-Level.md",
+      "value": {
+        "menu": "Architectural Principles",
+        "name": "Policy and Level",
+        "id": "fe4939f3928f7ed32b0ba6bf51a319d8",
+        "filepath": "manual/Architectural-Principles/Policy-And-Level.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Architectural-Principles/Policy-And-Level.md",
+        "link": "",
+        "slug": "manual-architectural-principles-policy-and-level",
+        "route": "/manual-architectural-principles-policy-and-level",
+        "headings": [
+          {
+            "slug": "policy-and-level",
+            "depth": 1,
+            "value": "Policy and Level"
+          },
+          {
+            "slug": "level",
+            "depth": 2,
+            "value": "Level"
+          }
+        ]
+      }
+    },
+    {
+      "key": "manual/Art/Drawing.md",
+      "value": {
+        "name": "Drawing",
+        "menu": "Art",
+        "id": "78e8b1c599237c157d6fdc9caf01e49b",
+        "filepath": "manual/Art/Drawing.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Art/Drawing.md",
+        "link": "",
+        "slug": "manual-art-drawing",
+        "route": "/manual-art-drawing",
+        "headings": [
+          {
+            "slug": "drawing-course",
+            "depth": 1,
+            "value": "Drawing Course"
+          },
+          {
+            "slug": "basics",
+            "depth": 2,
+            "value": "Basics"
+          },
+          {
+            "slug": "tools",
+            "depth": 3,
+            "value": "Tools"
+          },
+          {
+            "slug": "why-is-drawing-so-important",
+            "depth": 2,
+            "value": "Why is drawing so important?"
+          },
+          {
+            "slug": "testing-metric",
+            "depth": 3,
+            "value": "Testing metric"
+          },
+          {
+            "slug": "basics-of-line-drawing",
+            "depth": 2,
+            "value": "Basics of line drawing"
           }
         ]
       }
@@ -4497,6 +4617,56 @@
       }
     },
     {
+      "key": "manual/Business/Personal-MBA.md",
+      "value": {
+        "name": "Personal MBA",
+        "menu": "Business",
+        "id": "99b19726f014e4b3507442e126d2f87b",
+        "filepath": "manual/Business/Personal-MBA.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Business/Personal-MBA.md",
+        "link": "",
+        "slug": "manual-business-personal-mba",
+        "route": "/manual-business-personal-mba",
+        "headings": [
+          {
+            "slug": "5-parts-of-every-business",
+            "depth": 2,
+            "value": "5 Parts of every business"
+          },
+          {
+            "slug": "5-interdependent-core-parts",
+            "depth": 2,
+            "value": "5 Interdependent core parts"
+          },
+          {
+            "slug": "5-core-human-drives",
+            "depth": 2,
+            "value": "5 Core Human Drives"
+          },
+          {
+            "slug": "10-ways-to-evaluate-the-market",
+            "depth": 2,
+            "value": "10 Ways to Evaluate the Market"
+          },
+          {
+            "slug": "12-standard-forms-of-value",
+            "depth": 2,
+            "value": "12 Standard forms of value"
+          },
+          {
+            "slug": "percieved-value",
+            "depth": 2,
+            "value": "Percieved value"
+          },
+          {
+            "slug": "the-iteration-cycle",
+            "depth": 2,
+            "value": "The Iteration Cycle"
+          }
+        ]
+      }
+    },
+    {
       "key": "manual/Braintree/Sandbox.md",
       "value": {
         "name": "Sandbox",
@@ -4582,56 +4752,6 @@
             "slug": "next-steps",
             "depth": 2,
             "value": "Next steps"
-          }
-        ]
-      }
-    },
-    {
-      "key": "manual/Business/Personal-MBA.md",
-      "value": {
-        "name": "Personal MBA",
-        "menu": "Business",
-        "id": "99b19726f014e4b3507442e126d2f87b",
-        "filepath": "manual/Business/Personal-MBA.md",
-        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Business/Personal-MBA.md",
-        "link": "",
-        "slug": "manual-business-personal-mba",
-        "route": "/manual-business-personal-mba",
-        "headings": [
-          {
-            "slug": "5-parts-of-every-business",
-            "depth": 2,
-            "value": "5 Parts of every business"
-          },
-          {
-            "slug": "5-interdependent-core-parts",
-            "depth": 2,
-            "value": "5 Interdependent core parts"
-          },
-          {
-            "slug": "5-core-human-drives",
-            "depth": 2,
-            "value": "5 Core Human Drives"
-          },
-          {
-            "slug": "10-ways-to-evaluate-the-market",
-            "depth": 2,
-            "value": "10 Ways to Evaluate the Market"
-          },
-          {
-            "slug": "12-standard-forms-of-value",
-            "depth": 2,
-            "value": "12 Standard forms of value"
-          },
-          {
-            "slug": "percieved-value",
-            "depth": 2,
-            "value": "Percieved value"
-          },
-          {
-            "slug": "the-iteration-cycle",
-            "depth": 2,
-            "value": "The Iteration Cycle"
           }
         ]
       }
@@ -6852,6 +6972,131 @@
       }
     },
     {
+      "key": "manual/Design/Design-fundamentals-7-tricks-graphic-designers-dont-want-you-to-know.md",
+      "value": {
+        "name": "Design Fundamentals 7 Tricks Graphic Designers Dont Want You To Know",
+        "menu": "Design",
+        "id": "80eddefbc45fa656f779c4bb14baef2a",
+        "filepath": "manual/Design/Design-fundamentals-7-tricks-graphic-designers-dont-want-you-to-know.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Design/Design-fundamentals-7-tricks-graphic-designers-dont-want-you-to-know.md",
+        "link": "",
+        "slug": "manual-design-design-fundamentals-7-tricks-graphic-designers-dont-want-you-to-know",
+        "route": "/manual-design-design-fundamentals-7-tricks-graphic-designers-dont-want-you-to-know",
+        "headings": [
+          {
+            "slug": "️-design-fundamentals-7-tricks-graphic-designers-dont-want-you-to-know",
+            "depth": 1,
+            "value": "✏️ Design fundamentals: 7 tricks graphic designers don’t want you to know"
+          },
+          {
+            "slug": "1-shapes",
+            "depth": 1,
+            "value": "#1 Shapes"
+          },
+          {
+            "slug": "three-types-of-lines",
+            "depth": 2,
+            "value": "Three types of lines"
+          },
+          {
+            "slug": "vertical-vs-horizontal",
+            "depth": 2,
+            "value": "Vertical vs Horizontal"
+          },
+          {
+            "slug": "horizontal-lines",
+            "depth": 2,
+            "value": "Horizontal Lines"
+          },
+          {
+            "slug": "dots-and-circles",
+            "depth": 2,
+            "value": "Dots and Circles"
+          },
+          {
+            "slug": "2-negative-space",
+            "depth": 1,
+            "value": "#2 Negative Space"
+          },
+          {
+            "slug": "3-scale-proportion",
+            "depth": 1,
+            "value": "#3 Scale, Proportion"
+          },
+          {
+            "slug": "scale-and-proportion",
+            "depth": 2,
+            "value": "Scale and Proportion"
+          },
+          {
+            "slug": "4-symmetry-and-asymmetry",
+            "depth": 1,
+            "value": "#4 Symmetry and Asymmetry"
+          },
+          {
+            "slug": "5-hierarchy",
+            "depth": 1,
+            "value": "#5 Hierarchy"
+          },
+          {
+            "slug": "6-rhythm-pattern",
+            "depth": 1,
+            "value": "#6 Rhythm, Pattern"
+          },
+          {
+            "slug": "rhythm",
+            "depth": 2,
+            "value": "Rhythm"
+          },
+          {
+            "slug": "pattern",
+            "depth": 2,
+            "value": "Pattern"
+          },
+          {
+            "slug": "7-typography-done-good",
+            "depth": 1,
+            "value": "#7 Typography done good"
+          },
+          {
+            "slug": "sans-serif-vs-serif",
+            "depth": 2,
+            "value": "Sans Serif vs Serif"
+          },
+          {
+            "slug": "fonts",
+            "depth": 2,
+            "value": "Fonts"
+          },
+          {
+            "slug": "line-height",
+            "depth": 2,
+            "value": "Line height"
+          },
+          {
+            "slug": "line-length",
+            "depth": 2,
+            "value": "Line length"
+          },
+          {
+            "slug": "font-size",
+            "depth": 2,
+            "value": "Font Size"
+          },
+          {
+            "slug": "good-summary",
+            "depth": 2,
+            "value": "Good Summary"
+          },
+          {
+            "slug": "thanks-thats-it",
+            "depth": 1,
+            "value": "Thanks that’s it."
+          }
+        ]
+      }
+    },
+    {
       "key": "manual/Databases/Data-Warehouses.md",
       "value": {
         "menu": "Databases",
@@ -7137,341 +7382,6 @@
             "slug": "ruby-resources",
             "depth": 2,
             "value": "Ruby Resources"
-          }
-        ]
-      }
-    },
-    {
-      "key": "manual/Design/Design-fundamentals-7-tricks-graphic-designers-dont-want-you-to-know.md",
-      "value": {
-        "name": "Design Fundamentals 7 Tricks Graphic Designers Dont Want You To Know",
-        "menu": "Design",
-        "id": "80eddefbc45fa656f779c4bb14baef2a",
-        "filepath": "manual/Design/Design-fundamentals-7-tricks-graphic-designers-dont-want-you-to-know.md",
-        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Design/Design-fundamentals-7-tricks-graphic-designers-dont-want-you-to-know.md",
-        "link": "",
-        "slug": "manual-design-design-fundamentals-7-tricks-graphic-designers-dont-want-you-to-know",
-        "route": "/manual-design-design-fundamentals-7-tricks-graphic-designers-dont-want-you-to-know",
-        "headings": [
-          {
-            "slug": "️-design-fundamentals-7-tricks-graphic-designers-dont-want-you-to-know",
-            "depth": 1,
-            "value": "✏️ Design fundamentals: 7 tricks graphic designers don’t want you to know"
-          },
-          {
-            "slug": "1-shapes",
-            "depth": 1,
-            "value": "#1 Shapes"
-          },
-          {
-            "slug": "three-types-of-lines",
-            "depth": 2,
-            "value": "Three types of lines"
-          },
-          {
-            "slug": "vertical-vs-horizontal",
-            "depth": 2,
-            "value": "Vertical vs Horizontal"
-          },
-          {
-            "slug": "horizontal-lines",
-            "depth": 2,
-            "value": "Horizontal Lines"
-          },
-          {
-            "slug": "dots-and-circles",
-            "depth": 2,
-            "value": "Dots and Circles"
-          },
-          {
-            "slug": "2-negative-space",
-            "depth": 1,
-            "value": "#2 Negative Space"
-          },
-          {
-            "slug": "3-scale-proportion",
-            "depth": 1,
-            "value": "#3 Scale, Proportion"
-          },
-          {
-            "slug": "scale-and-proportion",
-            "depth": 2,
-            "value": "Scale and Proportion"
-          },
-          {
-            "slug": "4-symmetry-and-asymmetry",
-            "depth": 1,
-            "value": "#4 Symmetry and Asymmetry"
-          },
-          {
-            "slug": "5-hierarchy",
-            "depth": 1,
-            "value": "#5 Hierarchy"
-          },
-          {
-            "slug": "6-rhythm-pattern",
-            "depth": 1,
-            "value": "#6 Rhythm, Pattern"
-          },
-          {
-            "slug": "rhythm",
-            "depth": 2,
-            "value": "Rhythm"
-          },
-          {
-            "slug": "pattern",
-            "depth": 2,
-            "value": "Pattern"
-          },
-          {
-            "slug": "7-typography-done-good",
-            "depth": 1,
-            "value": "#7 Typography done good"
-          },
-          {
-            "slug": "sans-serif-vs-serif",
-            "depth": 2,
-            "value": "Sans Serif vs Serif"
-          },
-          {
-            "slug": "fonts",
-            "depth": 2,
-            "value": "Fonts"
-          },
-          {
-            "slug": "line-height",
-            "depth": 2,
-            "value": "Line height"
-          },
-          {
-            "slug": "line-length",
-            "depth": 2,
-            "value": "Line length"
-          },
-          {
-            "slug": "font-size",
-            "depth": 2,
-            "value": "Font Size"
-          },
-          {
-            "slug": "good-summary",
-            "depth": 2,
-            "value": "Good Summary"
-          },
-          {
-            "slug": "thanks-thats-it",
-            "depth": 1,
-            "value": "Thanks that’s it."
-          }
-        ]
-      }
-    },
-    {
-      "key": "manual/Design-Systems/Comparing-Design-Systems.md",
-      "value": {
-        "menu": "Design Systems",
-        "name": "Comparing Design System Components",
-        "id": "c6291a74c7824a6dd407c3f383f607c8",
-        "filepath": "manual/Design-Systems/Comparing-Design-Systems.md",
-        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Design-Systems/Comparing-Design-Systems.md",
-        "link": "",
-        "slug": "manual-design-systems-comparing-design-systems",
-        "route": "/manual-design-systems-comparing-design-systems",
-        "headings": [
-          {
-            "slug": "comparing-design-system-components",
-            "depth": 1,
-            "value": "Comparing Design System Components"
-          },
-          {
-            "slug": "table-of-contents",
-            "depth": 2,
-            "value": "Table of Contents"
-          },
-          {
-            "slug": "button",
-            "depth": 2,
-            "value": "Button"
-          }
-        ]
-      }
-    },
-    {
-      "key": "manual/Design-Systems/Design-Systems.md",
-      "value": {
-        "name": "Design Systems",
-        "menu": "Design Systems",
-        "id": "c8e1f9241ac8e7cdc46c75aa9e8ccbe0",
-        "filepath": "manual/Design-Systems/Design-Systems.md",
-        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Design-Systems/Design-Systems.md",
-        "link": "",
-        "slug": "manual-design-systems-design-systems",
-        "route": "/manual-design-systems-design-systems",
-        "headings": [
-          {
-            "slug": "design-systems",
-            "depth": 1,
-            "value": "Design Systems"
-          },
-          {
-            "slug": "from-the-podcast",
-            "depth": 2,
-            "value": "From the podcast"
-          },
-          {
-            "slug": "design-system-links",
-            "depth": 2,
-            "value": "Design System Links"
-          },
-          {
-            "slug": "carbon-design-system",
-            "depth": 2,
-            "value": "Carbon Design System"
-          },
-          {
-            "slug": "guidelines",
-            "depth": 3,
-            "value": "Guidelines"
-          },
-          {
-            "slug": "accessibility",
-            "depth": 4,
-            "value": "Accessibility"
-          },
-          {
-            "slug": "content",
-            "depth": 4,
-            "value": "Content"
-          },
-          {
-            "slug": "principles",
-            "depth": 4,
-            "value": "Principles"
-          },
-          {
-            "slug": "style",
-            "depth": 3,
-            "value": "Style"
-          },
-          {
-            "slug": "components",
-            "depth": 3,
-            "value": "Components"
-          },
-          {
-            "slug": "a11y-style-guide",
-            "depth": 2,
-            "value": "A11y Style Guide"
-          },
-          {
-            "slug": "material-design",
-            "depth": 2,
-            "value": "Material Design"
-          },
-          {
-            "slug": "colour",
-            "depth": 3,
-            "value": "Colour"
-          },
-          {
-            "slug": "patterns",
-            "depth": 3,
-            "value": "Patterns"
-          },
-          {
-            "slug": "growth--communications",
-            "depth": 3,
-            "value": "Growth & communications"
-          },
-          {
-            "slug": "platforms",
-            "depth": 3,
-            "value": "Platforms"
-          },
-          {
-            "slug": "viljamisdesigncom",
-            "depth": 2,
-            "value": "viljamisdesign.com"
-          },
-          {
-            "slug": "atlassian-design",
-            "depth": 2,
-            "value": "Atlassian design"
-          },
-          {
-            "slug": "dropbox-branding",
-            "depth": 2,
-            "value": "Dropbox Branding"
-          },
-          {
-            "slug": "government-guidelines",
-            "depth": 2,
-            "value": "Government Guidelines"
-          },
-          {
-            "slug": "microservices",
-            "depth": 2,
-            "value": "Microservices"
-          },
-          {
-            "slug": "logging",
-            "depth": 3,
-            "value": "Logging"
-          },
-          {
-            "slug": "coding",
-            "depth": 2,
-            "value": "Coding"
-          },
-          {
-            "slug": "concerning-factors",
-            "depth": 3,
-            "value": "Concerning factors"
-          },
-          {
-            "slug": "workplace-best-practises",
-            "depth": 2,
-            "value": "Workplace Best Practises"
-          },
-          {
-            "slug": "mathemetic-concepts",
-            "depth": 2,
-            "value": "Mathemetic Concepts"
-          },
-          {
-            "slug": "inspiration",
-            "depth": 2,
-            "value": "Inspiration"
-          }
-        ]
-      }
-    },
-    {
-      "key": "manual/Design-Systems/Design-Tokens.md",
-      "value": {
-        "menu": "Design Systems",
-        "name": "Design Tokens",
-        "id": "db7a9be0b777f43fc1f041be9703913a",
-        "filepath": "manual/Design-Systems/Design-Tokens.md",
-        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Design-Systems/Design-Tokens.md",
-        "link": "",
-        "slug": "manual-design-systems-design-tokens",
-        "route": "/manual-design-systems-design-tokens",
-        "headings": [
-          {
-            "slug": "design-tokens",
-            "depth": 1,
-            "value": "Design Tokens"
-          },
-          {
-            "slug": "useful-links",
-            "depth": 2,
-            "value": "Useful links"
-          },
-          {
-            "slug": "elements-to-think-about",
-            "depth": 2,
-            "value": "Elements to think about"
           }
         ]
       }
@@ -8461,6 +8371,216 @@
             "slug": "whats-the-difference",
             "depth": 2,
             "value": "What's the difference?"
+          }
+        ]
+      }
+    },
+    {
+      "key": "manual/Design-Systems/Comparing-Design-Systems.md",
+      "value": {
+        "menu": "Design Systems",
+        "name": "Comparing Design System Components",
+        "id": "c6291a74c7824a6dd407c3f383f607c8",
+        "filepath": "manual/Design-Systems/Comparing-Design-Systems.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Design-Systems/Comparing-Design-Systems.md",
+        "link": "",
+        "slug": "manual-design-systems-comparing-design-systems",
+        "route": "/manual-design-systems-comparing-design-systems",
+        "headings": [
+          {
+            "slug": "comparing-design-system-components",
+            "depth": 1,
+            "value": "Comparing Design System Components"
+          },
+          {
+            "slug": "table-of-contents",
+            "depth": 2,
+            "value": "Table of Contents"
+          },
+          {
+            "slug": "button",
+            "depth": 2,
+            "value": "Button"
+          }
+        ]
+      }
+    },
+    {
+      "key": "manual/Design-Systems/Design-Systems.md",
+      "value": {
+        "name": "Design Systems",
+        "menu": "Design Systems",
+        "id": "c8e1f9241ac8e7cdc46c75aa9e8ccbe0",
+        "filepath": "manual/Design-Systems/Design-Systems.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Design-Systems/Design-Systems.md",
+        "link": "",
+        "slug": "manual-design-systems-design-systems",
+        "route": "/manual-design-systems-design-systems",
+        "headings": [
+          {
+            "slug": "design-systems",
+            "depth": 1,
+            "value": "Design Systems"
+          },
+          {
+            "slug": "from-the-podcast",
+            "depth": 2,
+            "value": "From the podcast"
+          },
+          {
+            "slug": "design-system-links",
+            "depth": 2,
+            "value": "Design System Links"
+          },
+          {
+            "slug": "carbon-design-system",
+            "depth": 2,
+            "value": "Carbon Design System"
+          },
+          {
+            "slug": "guidelines",
+            "depth": 3,
+            "value": "Guidelines"
+          },
+          {
+            "slug": "accessibility",
+            "depth": 4,
+            "value": "Accessibility"
+          },
+          {
+            "slug": "content",
+            "depth": 4,
+            "value": "Content"
+          },
+          {
+            "slug": "principles",
+            "depth": 4,
+            "value": "Principles"
+          },
+          {
+            "slug": "style",
+            "depth": 3,
+            "value": "Style"
+          },
+          {
+            "slug": "components",
+            "depth": 3,
+            "value": "Components"
+          },
+          {
+            "slug": "a11y-style-guide",
+            "depth": 2,
+            "value": "A11y Style Guide"
+          },
+          {
+            "slug": "material-design",
+            "depth": 2,
+            "value": "Material Design"
+          },
+          {
+            "slug": "colour",
+            "depth": 3,
+            "value": "Colour"
+          },
+          {
+            "slug": "patterns",
+            "depth": 3,
+            "value": "Patterns"
+          },
+          {
+            "slug": "growth--communications",
+            "depth": 3,
+            "value": "Growth & communications"
+          },
+          {
+            "slug": "platforms",
+            "depth": 3,
+            "value": "Platforms"
+          },
+          {
+            "slug": "viljamisdesigncom",
+            "depth": 2,
+            "value": "viljamisdesign.com"
+          },
+          {
+            "slug": "atlassian-design",
+            "depth": 2,
+            "value": "Atlassian design"
+          },
+          {
+            "slug": "dropbox-branding",
+            "depth": 2,
+            "value": "Dropbox Branding"
+          },
+          {
+            "slug": "government-guidelines",
+            "depth": 2,
+            "value": "Government Guidelines"
+          },
+          {
+            "slug": "microservices",
+            "depth": 2,
+            "value": "Microservices"
+          },
+          {
+            "slug": "logging",
+            "depth": 3,
+            "value": "Logging"
+          },
+          {
+            "slug": "coding",
+            "depth": 2,
+            "value": "Coding"
+          },
+          {
+            "slug": "concerning-factors",
+            "depth": 3,
+            "value": "Concerning factors"
+          },
+          {
+            "slug": "workplace-best-practises",
+            "depth": 2,
+            "value": "Workplace Best Practises"
+          },
+          {
+            "slug": "mathemetic-concepts",
+            "depth": 2,
+            "value": "Mathemetic Concepts"
+          },
+          {
+            "slug": "inspiration",
+            "depth": 2,
+            "value": "Inspiration"
+          }
+        ]
+      }
+    },
+    {
+      "key": "manual/Design-Systems/Design-Tokens.md",
+      "value": {
+        "menu": "Design Systems",
+        "name": "Design Tokens",
+        "id": "db7a9be0b777f43fc1f041be9703913a",
+        "filepath": "manual/Design-Systems/Design-Tokens.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Design-Systems/Design-Tokens.md",
+        "link": "",
+        "slug": "manual-design-systems-design-tokens",
+        "route": "/manual-design-systems-design-tokens",
+        "headings": [
+          {
+            "slug": "design-tokens",
+            "depth": 1,
+            "value": "Design Tokens"
+          },
+          {
+            "slug": "useful-links",
+            "depth": 2,
+            "value": "Useful links"
+          },
+          {
+            "slug": "elements-to-think-about",
+            "depth": 2,
+            "value": "Elements to think about"
           }
         ]
       }
@@ -10466,6 +10586,46 @@
       }
     },
     {
+      "key": "manual/Event-Tracking/Naming-Conventions.md",
+      "value": {
+        "menu": "Event Tracking",
+        "name": "Naming Conventions",
+        "id": "e216288f256c2cf08286c1fc4a464588",
+        "filepath": "manual/Event-Tracking/Naming-Conventions.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Event-Tracking/Naming-Conventions.md",
+        "link": "",
+        "slug": "manual-event-tracking-naming-conventions",
+        "route": "/manual-event-tracking-naming-conventions",
+        "headings": [
+          {
+            "slug": "naming-conventions",
+            "depth": 1,
+            "value": "Naming Conventions"
+          },
+          {
+            "slug": "two-things-you-need-to-do",
+            "depth": 2,
+            "value": "Two things you need to do"
+          },
+          {
+            "slug": "the-3-cs",
+            "depth": 2,
+            "value": "The 3 Cs"
+          },
+          {
+            "slug": "the-object-action-framework",
+            "depth": 2,
+            "value": "The Object-Action Framework"
+          },
+          {
+            "slug": "choose-the-properties-to-collect-with-each-object",
+            "depth": 2,
+            "value": "Choose the Properties to Collect With Each Object"
+          }
+        ]
+      }
+    },
+    {
       "key": "manual/Ethereum/Intro.md",
       "value": {
         "name": "Intro",
@@ -10506,46 +10666,6 @@
             "slug": "eth-accounts",
             "depth": 2,
             "value": "ETH Accounts"
-          }
-        ]
-      }
-    },
-    {
-      "key": "manual/Event-Tracking/Naming-Conventions.md",
-      "value": {
-        "menu": "Event Tracking",
-        "name": "Naming Conventions",
-        "id": "e216288f256c2cf08286c1fc4a464588",
-        "filepath": "manual/Event-Tracking/Naming-Conventions.md",
-        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Event-Tracking/Naming-Conventions.md",
-        "link": "",
-        "slug": "manual-event-tracking-naming-conventions",
-        "route": "/manual-event-tracking-naming-conventions",
-        "headings": [
-          {
-            "slug": "naming-conventions",
-            "depth": 1,
-            "value": "Naming Conventions"
-          },
-          {
-            "slug": "two-things-you-need-to-do",
-            "depth": 2,
-            "value": "Two things you need to do"
-          },
-          {
-            "slug": "the-3-cs",
-            "depth": 2,
-            "value": "The 3 Cs"
-          },
-          {
-            "slug": "the-object-action-framework",
-            "depth": 2,
-            "value": "The Object-Action Framework"
-          },
-          {
-            "slug": "choose-the-properties-to-collect-with-each-object",
-            "depth": 2,
-            "value": "Choose the Properties to Collect With Each Object"
           }
         ]
       }
@@ -10646,41 +10766,6 @@
             "slug": "tldr",
             "depth": 2,
             "value": "tl;dr"
-          }
-        ]
-      }
-    },
-    {
-      "key": "manual/Flask/Hello-World.md",
-      "value": {
-        "menu": "Flask",
-        "name": "Hello World!",
-        "id": "b0307c87ba301c63859175899a272135",
-        "filepath": "manual/Flask/Hello-World.md",
-        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Flask/Hello-World.md",
-        "link": "",
-        "slug": "manual-flask-hello-world",
-        "route": "/manual-flask-hello-world",
-        "headings": [
-          {
-            "slug": "flask-hello-world",
-            "depth": 1,
-            "value": "Flask Hello World"
-          },
-          {
-            "slug": "resources",
-            "depth": 2,
-            "value": "Resources"
-          },
-          {
-            "slug": "prereqs",
-            "depth": 2,
-            "value": "Prereqs"
-          },
-          {
-            "slug": "the-basic-code",
-            "depth": 2,
-            "value": "The Basic Code"
           }
         ]
       }
@@ -10976,181 +11061,6 @@
             "slug": "tldr",
             "depth": 2,
             "value": "tl;dr"
-          }
-        ]
-      }
-    },
-    {
-      "key": "manual/Git/Git-Complete.md",
-      "value": {
-        "menu": "Git",
-        "name": "Git Complete",
-        "id": "714931a36da7f13ed2111bdbac09024b",
-        "filepath": "manual/Git/Git-Complete.md",
-        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Git/Git-Complete.md",
-        "link": "",
-        "slug": "manual-git-git-complete",
-        "route": "/manual-git-git-complete",
-        "headings": [
-          {
-            "slug": "git-complete",
-            "depth": 1,
-            "value": "Git Complete"
-          },
-          {
-            "slug": "resources",
-            "depth": 2,
-            "value": "Resources"
-          },
-          {
-            "slug": "git-config",
-            "depth": 2,
-            "value": "Git Config"
-          },
-          {
-            "slug": "basic-commands",
-            "depth": 2,
-            "value": "Basic Commands"
-          },
-          {
-            "slug": "tracked-files",
-            "depth": 2,
-            "value": "Tracked Files"
-          },
-          {
-            "slug": "add-files-recursively",
-            "depth": 2,
-            "value": "Add Files Recursively"
-          },
-          {
-            "slug": "back-out-changes",
-            "depth": 2,
-            "value": "Back Out Changes"
-          },
-          {
-            "slug": "renaming-and-moving-files",
-            "depth": 2,
-            "value": "Renaming And Moving Files"
-          },
-          {
-            "slug": "git-history",
-            "depth": 2,
-            "value": "Git History"
-          },
-          {
-            "slug": "git-alias",
-            "depth": 2,
-            "value": "Git Alias"
-          },
-          {
-            "slug": "git-comparisons",
-            "depth": 2,
-            "value": "Git Comparisons"
-          },
-          {
-            "slug": "branching-and-merging",
-            "depth": 2,
-            "value": "Branching and Merging"
-          },
-          {
-            "slug": "fast-forward-merges",
-            "depth": 3,
-            "value": "Fast Forward Merges"
-          },
-          {
-            "slug": "automatic-merges",
-            "depth": 3,
-            "value": "Automatic Merges"
-          },
-          {
-            "slug": "handling-conflicts",
-            "depth": 2,
-            "value": "Handling Conflicts"
-          },
-          {
-            "slug": "rebase",
-            "depth": 2,
-            "value": "Rebase"
-          },
-          {
-            "slug": "stashing",
-            "depth": 2,
-            "value": "Stashing"
-          },
-          {
-            "slug": "tagging",
-            "depth": 2,
-            "value": "Tagging"
-          },
-          {
-            "slug": "reset-and-reflog",
-            "depth": 2,
-            "value": "Reset and Reflog"
-          }
-        ]
-      }
-    },
-    {
-      "key": "manual/Git/Intermediate-Git.md",
-      "value": {
-        "menu": "Git",
-        "name": "Intermediate Git",
-        "id": "4fba75dd2b672d063e60f6ec0467a95c",
-        "filepath": "manual/Git/Intermediate-Git.md",
-        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Git/Intermediate-Git.md",
-        "link": "",
-        "slug": "manual-git-intermediate-git",
-        "route": "/manual-git-intermediate-git",
-        "headings": [
-          {
-            "slug": "intermediate-git",
-            "depth": 1,
-            "value": "Intermediate Git"
-          }
-        ]
-      }
-    },
-    {
-      "key": "manual/Git/Setup-Github-SSH.md",
-      "value": {
-        "menu": "Git",
-        "name": "Setup Github SSH",
-        "id": "1f6c38894b796356a1ac57dfea30067b",
-        "filepath": "manual/Git/Setup-Github-SSH.md",
-        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Git/Setup-Github-SSH.md",
-        "link": "",
-        "slug": "manual-git-setup-github-ssh",
-        "route": "/manual-git-setup-github-ssh",
-        "headings": [
-          {
-            "slug": "setup-github-ssh",
-            "depth": 1,
-            "value": "Setup Github SSH"
-          },
-          {
-            "slug": "tldr",
-            "depth": 2,
-            "value": "tl;dr"
-          }
-        ]
-      }
-    },
-    {
-      "key": "manual/Git/Squashing-Commits.md",
-      "value": {
-        "menu": "Git",
-        "name": "Squashing Commits",
-        "id": "e22f747d4ecc76123996950045e70b13",
-        "filepath": "manual/Git/Squashing-Commits.md",
-        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Git/Squashing-Commits.md",
-        "link": "",
-        "slug": "manual-git-squashing-commits",
-        "route": "/manual-git-squashing-commits",
-        "headings": [
-          {
-            "slug": "squashing-commits",
-            "depth": 1,
-            "value": "Squashing Commits"
           }
         ]
       }
@@ -11971,6 +11881,181 @@
       }
     },
     {
+      "key": "manual/Git/Git-Complete.md",
+      "value": {
+        "menu": "Git",
+        "name": "Git Complete",
+        "id": "714931a36da7f13ed2111bdbac09024b",
+        "filepath": "manual/Git/Git-Complete.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Git/Git-Complete.md",
+        "link": "",
+        "slug": "manual-git-git-complete",
+        "route": "/manual-git-git-complete",
+        "headings": [
+          {
+            "slug": "git-complete",
+            "depth": 1,
+            "value": "Git Complete"
+          },
+          {
+            "slug": "resources",
+            "depth": 2,
+            "value": "Resources"
+          },
+          {
+            "slug": "git-config",
+            "depth": 2,
+            "value": "Git Config"
+          },
+          {
+            "slug": "basic-commands",
+            "depth": 2,
+            "value": "Basic Commands"
+          },
+          {
+            "slug": "tracked-files",
+            "depth": 2,
+            "value": "Tracked Files"
+          },
+          {
+            "slug": "add-files-recursively",
+            "depth": 2,
+            "value": "Add Files Recursively"
+          },
+          {
+            "slug": "back-out-changes",
+            "depth": 2,
+            "value": "Back Out Changes"
+          },
+          {
+            "slug": "renaming-and-moving-files",
+            "depth": 2,
+            "value": "Renaming And Moving Files"
+          },
+          {
+            "slug": "git-history",
+            "depth": 2,
+            "value": "Git History"
+          },
+          {
+            "slug": "git-alias",
+            "depth": 2,
+            "value": "Git Alias"
+          },
+          {
+            "slug": "git-comparisons",
+            "depth": 2,
+            "value": "Git Comparisons"
+          },
+          {
+            "slug": "branching-and-merging",
+            "depth": 2,
+            "value": "Branching and Merging"
+          },
+          {
+            "slug": "fast-forward-merges",
+            "depth": 3,
+            "value": "Fast Forward Merges"
+          },
+          {
+            "slug": "automatic-merges",
+            "depth": 3,
+            "value": "Automatic Merges"
+          },
+          {
+            "slug": "handling-conflicts",
+            "depth": 2,
+            "value": "Handling Conflicts"
+          },
+          {
+            "slug": "rebase",
+            "depth": 2,
+            "value": "Rebase"
+          },
+          {
+            "slug": "stashing",
+            "depth": 2,
+            "value": "Stashing"
+          },
+          {
+            "slug": "tagging",
+            "depth": 2,
+            "value": "Tagging"
+          },
+          {
+            "slug": "reset-and-reflog",
+            "depth": 2,
+            "value": "Reset and Reflog"
+          }
+        ]
+      }
+    },
+    {
+      "key": "manual/Git/Intermediate-Git.md",
+      "value": {
+        "menu": "Git",
+        "name": "Intermediate Git",
+        "id": "4fba75dd2b672d063e60f6ec0467a95c",
+        "filepath": "manual/Git/Intermediate-Git.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Git/Intermediate-Git.md",
+        "link": "",
+        "slug": "manual-git-intermediate-git",
+        "route": "/manual-git-intermediate-git",
+        "headings": [
+          {
+            "slug": "intermediate-git",
+            "depth": 1,
+            "value": "Intermediate Git"
+          }
+        ]
+      }
+    },
+    {
+      "key": "manual/Git/Setup-Github-SSH.md",
+      "value": {
+        "menu": "Git",
+        "name": "Setup Github SSH",
+        "id": "1f6c38894b796356a1ac57dfea30067b",
+        "filepath": "manual/Git/Setup-Github-SSH.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Git/Setup-Github-SSH.md",
+        "link": "",
+        "slug": "manual-git-setup-github-ssh",
+        "route": "/manual-git-setup-github-ssh",
+        "headings": [
+          {
+            "slug": "setup-github-ssh",
+            "depth": 1,
+            "value": "Setup Github SSH"
+          },
+          {
+            "slug": "tldr",
+            "depth": 2,
+            "value": "tl;dr"
+          }
+        ]
+      }
+    },
+    {
+      "key": "manual/Git/Squashing-Commits.md",
+      "value": {
+        "menu": "Git",
+        "name": "Squashing Commits",
+        "id": "e22f747d4ecc76123996950045e70b13",
+        "filepath": "manual/Git/Squashing-Commits.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Git/Squashing-Commits.md",
+        "link": "",
+        "slug": "manual-git-squashing-commits",
+        "route": "/manual-git-squashing-commits",
+        "headings": [
+          {
+            "slug": "squashing-commits",
+            "depth": 1,
+            "value": "Squashing Commits"
+          }
+        ]
+      }
+    },
+    {
       "key": "manual/Google-Cloud-Platform/Cloud-Vision-Nodejs.md",
       "value": {
         "menu": "Google Cloud Platform",
@@ -12296,41 +12381,6 @@
       }
     },
     {
-      "key": "manual/Hygen/intro.md",
-      "value": {
-        "name": "Intro",
-        "menu": "Hygen",
-        "id": "1ad4379725a54a19d03d3f4c7a4b24e6",
-        "filepath": "manual/Hygen/intro.md",
-        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Hygen/intro.md",
-        "link": "",
-        "slug": "manual-hygen-intro",
-        "route": "/manual-hygen-intro",
-        "headings": [
-          {
-            "slug": "intro-to-hygen",
-            "depth": 1,
-            "value": "Intro to Hygen"
-          },
-          {
-            "slug": "links",
-            "depth": 2,
-            "value": "Links"
-          },
-          {
-            "slug": "setup",
-            "depth": 2,
-            "value": "Setup"
-          },
-          {
-            "slug": "-hygen-react-component",
-            "depth": 2,
-            "value": "> hygen react component"
-          }
-        ]
-      }
-    },
-    {
       "key": "manual/Images/Image-Compression.md",
       "value": {
         "name": "Image Compression",
@@ -12371,6 +12421,76 @@
       }
     },
     {
+      "key": "manual/Hygen/intro.md",
+      "value": {
+        "name": "Intro",
+        "menu": "Hygen",
+        "id": "1ad4379725a54a19d03d3f4c7a4b24e6",
+        "filepath": "manual/Hygen/intro.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Hygen/intro.md",
+        "link": "",
+        "slug": "manual-hygen-intro",
+        "route": "/manual-hygen-intro",
+        "headings": [
+          {
+            "slug": "intro-to-hygen",
+            "depth": 1,
+            "value": "Intro to Hygen"
+          },
+          {
+            "slug": "links",
+            "depth": 2,
+            "value": "Links"
+          },
+          {
+            "slug": "setup",
+            "depth": 2,
+            "value": "Setup"
+          },
+          {
+            "slug": "-hygen-react-component",
+            "depth": 2,
+            "value": "> hygen react component"
+          }
+        ]
+      }
+    },
+    {
+      "key": "manual/Flask/Hello-World.md",
+      "value": {
+        "menu": "Flask",
+        "name": "Hello World!",
+        "id": "b0307c87ba301c63859175899a272135",
+        "filepath": "manual/Flask/Hello-World.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Flask/Hello-World.md",
+        "link": "",
+        "slug": "manual-flask-hello-world",
+        "route": "/manual-flask-hello-world",
+        "headings": [
+          {
+            "slug": "flask-hello-world",
+            "depth": 1,
+            "value": "Flask Hello World"
+          },
+          {
+            "slug": "resources",
+            "depth": 2,
+            "value": "Resources"
+          },
+          {
+            "slug": "prereqs",
+            "depth": 2,
+            "value": "Prereqs"
+          },
+          {
+            "slug": "the-basic-code",
+            "depth": 2,
+            "value": "The Basic Code"
+          }
+        ]
+      }
+    },
+    {
       "key": "manual/Interactive-Shells/Accessing.md",
       "value": {
         "name": "Accessing Interactive Shells",
@@ -12386,6 +12506,41 @@
             "slug": "accessing-interactive-shells",
             "depth": 1,
             "value": "Accessing Interactive Shells"
+          }
+        ]
+      }
+    },
+    {
+      "key": "manual/JIRA/Usage.md",
+      "value": {
+        "name": "Usage",
+        "menu": "JIRA",
+        "id": "3dd8cd4feb6bcce60b8bd661d145db89",
+        "filepath": "manual/JIRA/Usage.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/JIRA/Usage.md",
+        "link": "",
+        "slug": "manual-jira-usage",
+        "route": "/manual-jira-usage",
+        "headings": [
+          {
+            "slug": "jira-usage-and-best-practises",
+            "depth": 1,
+            "value": "JIRA Usage and Best Practises"
+          },
+          {
+            "slug": "guidelines",
+            "depth": 2,
+            "value": "Guidelines"
+          },
+          {
+            "slug": "component-vs-label",
+            "depth": 3,
+            "value": "Component vs Label"
+          },
+          {
+            "slug": "sprints",
+            "depth": 2,
+            "value": "Sprints"
           }
         ]
       }
@@ -12431,41 +12586,6 @@
             "slug": "teardown",
             "depth": 2,
             "value": "Teardown"
-          }
-        ]
-      }
-    },
-    {
-      "key": "manual/JIRA/Usage.md",
-      "value": {
-        "name": "Usage",
-        "menu": "JIRA",
-        "id": "3dd8cd4feb6bcce60b8bd661d145db89",
-        "filepath": "manual/JIRA/Usage.md",
-        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/JIRA/Usage.md",
-        "link": "",
-        "slug": "manual-jira-usage",
-        "route": "/manual-jira-usage",
-        "headings": [
-          {
-            "slug": "jira-usage-and-best-practises",
-            "depth": 1,
-            "value": "JIRA Usage and Best Practises"
-          },
-          {
-            "slug": "guidelines",
-            "depth": 2,
-            "value": "Guidelines"
-          },
-          {
-            "slug": "component-vs-label",
-            "depth": 3,
-            "value": "Component vs Label"
-          },
-          {
-            "slug": "sprints",
-            "depth": 2,
-            "value": "Sprints"
           }
         ]
       }
@@ -15065,6 +15185,146 @@
       }
     },
     {
+      "key": "manual/Laravel/Laravel-5.4.md",
+      "value": {
+        "name": "Laravel 5 4",
+        "menu": "Laravel",
+        "id": "831f59ea5f6305c0d1f9a2407ab0f739",
+        "filepath": "manual/Laravel/Laravel-5.4.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Laravel/Laravel-5.4.md",
+        "link": "",
+        "slug": "manual-laravel-laravel-5-4",
+        "route": "/manual-laravel-laravel-5-4",
+        "headings": [
+          {
+            "slug": "laravel-54",
+            "depth": 1,
+            "value": "Laravel 5.4"
+          },
+          {
+            "slug": "laravel-installation-and-composer",
+            "depth": 2,
+            "value": "Laravel Installation and Composer"
+          },
+          {
+            "slug": "basic-routing-and-views",
+            "depth": 2,
+            "value": "Basic Routing and Views"
+          },
+          {
+            "slug": "laravel-valet",
+            "depth": 2,
+            "value": "Laravel Valet"
+          }
+        ]
+      }
+    },
+    {
+      "key": "manual/Laravel/Laravel-Artisan.md",
+      "value": {
+        "name": "Laravel Artisan",
+        "menu": "Laravel",
+        "id": "1eaeff3aba489154912d2f6fe1848220",
+        "filepath": "manual/Laravel/Laravel-Artisan.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Laravel/Laravel-Artisan.md",
+        "link": "",
+        "slug": "manual-laravel-laravel-artisan",
+        "route": "/manual-laravel-laravel-artisan",
+        "headings": [
+          {
+            "slug": "laravel-and-artisan",
+            "depth": 1,
+            "value": "Laravel and Artisan"
+          },
+          {
+            "slug": "basics",
+            "depth": 2,
+            "value": "Basics"
+          },
+          {
+            "slug": "custom-commands",
+            "depth": 2,
+            "value": "Custom Commands"
+          }
+        ]
+      }
+    },
+    {
+      "key": "manual/Laravel/Laravel-Basics-TH.md",
+      "value": {
+        "name": "Laravel Basics TH",
+        "menu": "Laravel",
+        "id": "d8496d9b53f8c526822443f32e89a6e3",
+        "filepath": "manual/Laravel/Laravel-Basics-TH.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Laravel/Laravel-Basics-TH.md",
+        "link": "",
+        "slug": "manual-laravel-laravel-basics-th",
+        "route": "/manual-laravel-laravel-basics-th",
+        "headings": [
+          {
+            "slug": "laravel-4-basics",
+            "depth": 1,
+            "value": "LARAVEL 4 BASICS"
+          },
+          {
+            "slug": "getting-started-with-laravel",
+            "depth": 2,
+            "value": "Getting Started with Laravel"
+          },
+          {
+            "slug": "installing-virtualbox-homestead--vagrant",
+            "depth": 4,
+            "value": "Installing VirtualBox, Homestead & Vagrant"
+          },
+          {
+            "slug": "install-laravel",
+            "depth": 4,
+            "value": "Install Laravel"
+          },
+          {
+            "slug": "laravel-folder-structure",
+            "depth": 4,
+            "value": "Laravel Folder Structure"
+          },
+          {
+            "slug": "project-setup",
+            "depth": 2,
+            "value": "Project Setup"
+          },
+          {
+            "slug": "laravel-controllers",
+            "depth": 2,
+            "value": "Laravel Controllers"
+          },
+          {
+            "slug": "laravel-and-databases",
+            "depth": 2,
+            "value": "Laravel and Databases"
+          },
+          {
+            "slug": "blade-and-forms",
+            "depth": 2,
+            "value": "Blade and Forms"
+          },
+          {
+            "slug": "validation--flash-messages",
+            "depth": 2,
+            "value": "Validation & Flash Messages"
+          },
+          {
+            "slug": "continuing-crud",
+            "depth": 2,
+            "value": "Continuing CRUD"
+          },
+          {
+            "slug": "relating-data",
+            "depth": 2,
+            "value": "Relating Data"
+          }
+        ]
+      }
+    },
+    {
       "key": "manual/Kubernetes/AWS-EKS-Starter.md",
       "value": {
         "name": "AWS EKS Starter",
@@ -16675,146 +16935,6 @@
             "slug": "tldr",
             "depth": 2,
             "value": "tl;dr"
-          }
-        ]
-      }
-    },
-    {
-      "key": "manual/Laravel/Laravel-5.4.md",
-      "value": {
-        "name": "Laravel 5 4",
-        "menu": "Laravel",
-        "id": "831f59ea5f6305c0d1f9a2407ab0f739",
-        "filepath": "manual/Laravel/Laravel-5.4.md",
-        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Laravel/Laravel-5.4.md",
-        "link": "",
-        "slug": "manual-laravel-laravel-5-4",
-        "route": "/manual-laravel-laravel-5-4",
-        "headings": [
-          {
-            "slug": "laravel-54",
-            "depth": 1,
-            "value": "Laravel 5.4"
-          },
-          {
-            "slug": "laravel-installation-and-composer",
-            "depth": 2,
-            "value": "Laravel Installation and Composer"
-          },
-          {
-            "slug": "basic-routing-and-views",
-            "depth": 2,
-            "value": "Basic Routing and Views"
-          },
-          {
-            "slug": "laravel-valet",
-            "depth": 2,
-            "value": "Laravel Valet"
-          }
-        ]
-      }
-    },
-    {
-      "key": "manual/Laravel/Laravel-Artisan.md",
-      "value": {
-        "name": "Laravel Artisan",
-        "menu": "Laravel",
-        "id": "1eaeff3aba489154912d2f6fe1848220",
-        "filepath": "manual/Laravel/Laravel-Artisan.md",
-        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Laravel/Laravel-Artisan.md",
-        "link": "",
-        "slug": "manual-laravel-laravel-artisan",
-        "route": "/manual-laravel-laravel-artisan",
-        "headings": [
-          {
-            "slug": "laravel-and-artisan",
-            "depth": 1,
-            "value": "Laravel and Artisan"
-          },
-          {
-            "slug": "basics",
-            "depth": 2,
-            "value": "Basics"
-          },
-          {
-            "slug": "custom-commands",
-            "depth": 2,
-            "value": "Custom Commands"
-          }
-        ]
-      }
-    },
-    {
-      "key": "manual/Laravel/Laravel-Basics-TH.md",
-      "value": {
-        "name": "Laravel Basics TH",
-        "menu": "Laravel",
-        "id": "d8496d9b53f8c526822443f32e89a6e3",
-        "filepath": "manual/Laravel/Laravel-Basics-TH.md",
-        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Laravel/Laravel-Basics-TH.md",
-        "link": "",
-        "slug": "manual-laravel-laravel-basics-th",
-        "route": "/manual-laravel-laravel-basics-th",
-        "headings": [
-          {
-            "slug": "laravel-4-basics",
-            "depth": 1,
-            "value": "LARAVEL 4 BASICS"
-          },
-          {
-            "slug": "getting-started-with-laravel",
-            "depth": 2,
-            "value": "Getting Started with Laravel"
-          },
-          {
-            "slug": "installing-virtualbox-homestead--vagrant",
-            "depth": 4,
-            "value": "Installing VirtualBox, Homestead & Vagrant"
-          },
-          {
-            "slug": "install-laravel",
-            "depth": 4,
-            "value": "Install Laravel"
-          },
-          {
-            "slug": "laravel-folder-structure",
-            "depth": 4,
-            "value": "Laravel Folder Structure"
-          },
-          {
-            "slug": "project-setup",
-            "depth": 2,
-            "value": "Project Setup"
-          },
-          {
-            "slug": "laravel-controllers",
-            "depth": 2,
-            "value": "Laravel Controllers"
-          },
-          {
-            "slug": "laravel-and-databases",
-            "depth": 2,
-            "value": "Laravel and Databases"
-          },
-          {
-            "slug": "blade-and-forms",
-            "depth": 2,
-            "value": "Blade and Forms"
-          },
-          {
-            "slug": "validation--flash-messages",
-            "depth": 2,
-            "value": "Validation & Flash Messages"
-          },
-          {
-            "slug": "continuing-crud",
-            "depth": 2,
-            "value": "Continuing CRUD"
-          },
-          {
-            "slug": "relating-data",
-            "depth": 2,
-            "value": "Relating Data"
           }
         ]
       }
@@ -18800,16 +18920,16 @@
       }
     },
     {
-      "key": "manual/Mathematics/Introduction.md",
+      "key": "manual/Mathematics/Mathematics-Introduction.md",
       "value": {
         "menu": "Mathematics",
         "name": "Introduction",
-        "id": "11b2014835c5e797190484065bc287f4",
-        "filepath": "manual/Mathematics/Introduction.md",
-        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Mathematics/Introduction.md",
+        "id": "fce9c339d7d8c2467aad7bacff7a4952",
+        "filepath": "manual/Mathematics/Mathematics-Introduction.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Mathematics/Mathematics-Introduction.md",
         "link": "",
-        "slug": "manual-mathematics-introduction",
-        "route": "/manual-mathematics-introduction",
+        "slug": "manual-mathematics-mathematics-introduction",
+        "route": "/manual-mathematics-mathematics-introduction",
         "headings": [
           {
             "slug": "introduction",
@@ -19920,6 +20040,36 @@
       }
     },
     {
+      "key": "manual/POSIX/POSIX-Intro.md",
+      "value": {
+        "menu": "POSIX",
+        "name": "POSIX Intro",
+        "id": "d8712fed0c47ef61b4dc156c17c03ed4",
+        "filepath": "manual/POSIX/POSIX-Intro.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/POSIX/POSIX-Intro.md",
+        "link": "",
+        "slug": "manual-posix-posix-intro",
+        "route": "/manual-posix-posix-intro",
+        "headings": [
+          {
+            "slug": "posix-intro",
+            "depth": 1,
+            "value": "POSIX Intro"
+          },
+          {
+            "slug": "resources",
+            "depth": 2,
+            "value": "Resources"
+          },
+          {
+            "slug": "posix-api",
+            "depth": 2,
+            "value": "POSIX API"
+          }
+        ]
+      }
+    },
+    {
       "key": "manual/PHP/PHP-Anon-Funcs.md",
       "value": {
         "name": "PHP Anonymous Functions",
@@ -20200,36 +20350,6 @@
             "slug": "accessing-deep-arrays-to-find-values",
             "depth": 2,
             "value": "Accessing deep arrays to find values"
-          }
-        ]
-      }
-    },
-    {
-      "key": "manual/POSIX/POSIX-Intro.md",
-      "value": {
-        "menu": "POSIX",
-        "name": "POSIX Intro",
-        "id": "d8712fed0c47ef61b4dc156c17c03ed4",
-        "filepath": "manual/POSIX/POSIX-Intro.md",
-        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/POSIX/POSIX-Intro.md",
-        "link": "",
-        "slug": "manual-posix-posix-intro",
-        "route": "/manual-posix-posix-intro",
-        "headings": [
-          {
-            "slug": "posix-intro",
-            "depth": 1,
-            "value": "POSIX Intro"
-          },
-          {
-            "slug": "resources",
-            "depth": 2,
-            "value": "Resources"
-          },
-          {
-            "slug": "posix-api",
-            "depth": 2,
-            "value": "POSIX API"
           }
         ]
       }
@@ -21815,306 +21935,6 @@
       }
     },
     {
-      "key": "manual/R/R-Intermediate.md",
-      "value": {
-        "name": "R Intermediate",
-        "menu": "R",
-        "id": "14f173054c3d118b25cde37c40015413",
-        "filepath": "manual/R/R-Intermediate.md",
-        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/R/R-Intermediate.md",
-        "link": "",
-        "slug": "manual-r-r-intermediate",
-        "route": "/manual-r-r-intermediate",
-        "headings": [
-          {
-            "slug": "title",
-            "depth": 1,
-            "value": "Title"
-          },
-          {
-            "slug": "table-of-contents",
-            "depth": 2,
-            "value": "Table of Contents"
-          },
-          {
-            "slug": "relational-operators",
-            "depth": 2,
-            "value": "Relational Operators"
-          },
-          {
-            "slug": "greater-than-or-less-than",
-            "depth": 3,
-            "value": "Greater than or less than"
-          },
-          {
-            "slug": "compare-vectors",
-            "depth": 3,
-            "value": "Compare Vectors"
-          },
-          {
-            "slug": "compare-matrices",
-            "depth": 3,
-            "value": "Compare Matrices"
-          },
-          {
-            "slug": "logical-operators",
-            "depth": 3,
-            "value": "Logical Operators"
-          },
-          {
-            "slug": "conditional-statements",
-            "depth": 3,
-            "value": "Conditional Statements"
-          },
-          {
-            "slug": "loops",
-            "depth": 2,
-            "value": "Loops"
-          },
-          {
-            "slug": "for-loop",
-            "depth": 3,
-            "value": "For Loop"
-          },
-          {
-            "slug": "looping-over-a-list",
-            "depth": 3,
-            "value": "Looping Over a List"
-          },
-          {
-            "slug": "functions",
-            "depth": 2,
-            "value": "Functions"
-          },
-          {
-            "slug": "mean",
-            "depth": 3,
-            "value": "mean()"
-          },
-          {
-            "slug": "mean-continued-sd-and-rmna",
-            "depth": 3,
-            "value": "mean() continued, sd() and rm.na"
-          },
-          {
-            "slug": "writing-functions",
-            "depth": 3,
-            "value": "Writing Functions"
-          },
-          {
-            "slug": "packages",
-            "depth": 3,
-            "value": "Packages"
-          },
-          {
-            "slug": "the-apply-family",
-            "depth": 2,
-            "value": "The Apply Family"
-          },
-          {
-            "slug": "anonymous-functions",
-            "depth": 3,
-            "value": "Anonymous Functions"
-          },
-          {
-            "slug": "sapply",
-            "depth": 3,
-            "value": "sapply"
-          },
-          {
-            "slug": "vapply",
-            "depth": 3,
-            "value": "vapply()"
-          },
-          {
-            "slug": "useful-functions",
-            "depth": 2,
-            "value": "Useful Functions"
-          },
-          {
-            "slug": "data-utilities",
-            "depth": 3,
-            "value": "Data Utilities"
-          },
-          {
-            "slug": "beat-gauss-using-r",
-            "depth": 3,
-            "value": "Beat Gauss using R"
-          },
-          {
-            "slug": "regex",
-            "depth": 3,
-            "value": "Regex"
-          },
-          {
-            "slug": "sub--gsub",
-            "depth": 3,
-            "value": "sub & gsub"
-          },
-          {
-            "slug": "times--dates",
-            "depth": 2,
-            "value": "Times & Dates"
-          }
-        ]
-      }
-    },
-    {
-      "key": "manual/R/R-Intro.md",
-      "value": {
-        "name": "R Intro",
-        "menu": "R",
-        "id": "afa31f5f18f3126af5467387305cff37",
-        "filepath": "manual/R/R-Intro.md",
-        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/R/R-Intro.md",
-        "link": "",
-        "slug": "manual-r-r-intro",
-        "route": "/manual-r-r-intro",
-        "headings": [
-          {
-            "slug": "introduction-to-r",
-            "depth": 1,
-            "value": "Introduction to R"
-          },
-          {
-            "slug": "table-of-contents",
-            "depth": 2,
-            "value": "Table of Contents"
-          },
-          {
-            "slug": "r-1-how-it-works",
-            "depth": 2,
-            "value": "R-1: How it Works"
-          },
-          {
-            "slug": "arithmetic-with-r",
-            "depth": 2,
-            "value": "Arithmetic with R"
-          },
-          {
-            "slug": "variable-assignment",
-            "depth": 2,
-            "value": "Variable Assignment"
-          },
-          {
-            "slug": "basic-data-types-in-r",
-            "depth": 2,
-            "value": "Basic data types in R"
-          },
-          {
-            "slug": "r-2-vectors",
-            "depth": 2,
-            "value": "R-2: Vectors"
-          },
-          {
-            "slug": "naming-a-vector",
-            "depth": 2,
-            "value": "Naming a Vector"
-          },
-          {
-            "slug": "vector-selection",
-            "depth": 2,
-            "value": "Vector Selection"
-          },
-          {
-            "slug": "poker-and-roulette-winnings-from-monday-to-friday",
-            "depth": 1,
-            "value": "Poker and roulette winnings from Monday to Friday:"
-          },
-          {
-            "slug": "define-a-new-variable-based-on-a-selection",
-            "depth": 1,
-            "value": "Define a new variable based on a selection"
-          },
-          {
-            "slug": "selection-by-comparison",
-            "depth": 2,
-            "value": "Selection by Comparison"
-          },
-          {
-            "slug": "r-3-matrices",
-            "depth": 2,
-            "value": "R-3: Matrices"
-          },
-          {
-            "slug": "naming-a-matrix",
-            "depth": 2,
-            "value": "Naming a matrix"
-          },
-          {
-            "slug": "adding-a-row",
-            "depth": 2,
-            "value": "Adding a Row"
-          },
-          {
-            "slug": "all-functions-for-combining",
-            "depth": 2,
-            "value": "All functions for combining"
-          },
-          {
-            "slug": "selection-of-matrix-elements",
-            "depth": 2,
-            "value": "Selection of Matrix Elements"
-          },
-          {
-            "slug": "matrix-arithmetic",
-            "depth": 2,
-            "value": "Matrix Arithmetic"
-          },
-          {
-            "slug": "factors-in-r",
-            "depth": 2,
-            "value": "Factors in R"
-          },
-          {
-            "slug": "summarizing-a-factor",
-            "depth": 2,
-            "value": "Summarizing a factor"
-          },
-          {
-            "slug": "ordered-factors",
-            "depth": 2,
-            "value": "Ordered Factors"
-          },
-          {
-            "slug": "data-frames",
-            "depth": 2,
-            "value": "Data Frames"
-          },
-          {
-            "slug": "selection-of-data-frame-elements",
-            "depth": 2,
-            "value": "Selection of data frame elements"
-          },
-          {
-            "slug": "subsets",
-            "depth": 2,
-            "value": "Subsets"
-          },
-          {
-            "slug": "sorting",
-            "depth": 2,
-            "value": "Sorting"
-          },
-          {
-            "slug": "lists",
-            "depth": 2,
-            "value": "Lists"
-          },
-          {
-            "slug": "selecting-elements-from-a-list",
-            "depth": 2,
-            "value": "Selecting Elements from a List"
-          },
-          {
-            "slug": "adding-more-components-to-a-list",
-            "depth": 2,
-            "value": "Adding more components to a list"
-          }
-        ]
-      }
-    },
-    {
       "key": "manual/Python/Examples.md",
       "value": {
         "menu": "Python",
@@ -22795,6 +22615,306 @@
             "slug": "try-weirdness",
             "depth": 2,
             "value": "Try Weirdness"
+          }
+        ]
+      }
+    },
+    {
+      "key": "manual/R/R-Intermediate.md",
+      "value": {
+        "name": "R Intermediate",
+        "menu": "R",
+        "id": "14f173054c3d118b25cde37c40015413",
+        "filepath": "manual/R/R-Intermediate.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/R/R-Intermediate.md",
+        "link": "",
+        "slug": "manual-r-r-intermediate",
+        "route": "/manual-r-r-intermediate",
+        "headings": [
+          {
+            "slug": "title",
+            "depth": 1,
+            "value": "Title"
+          },
+          {
+            "slug": "table-of-contents",
+            "depth": 2,
+            "value": "Table of Contents"
+          },
+          {
+            "slug": "relational-operators",
+            "depth": 2,
+            "value": "Relational Operators"
+          },
+          {
+            "slug": "greater-than-or-less-than",
+            "depth": 3,
+            "value": "Greater than or less than"
+          },
+          {
+            "slug": "compare-vectors",
+            "depth": 3,
+            "value": "Compare Vectors"
+          },
+          {
+            "slug": "compare-matrices",
+            "depth": 3,
+            "value": "Compare Matrices"
+          },
+          {
+            "slug": "logical-operators",
+            "depth": 3,
+            "value": "Logical Operators"
+          },
+          {
+            "slug": "conditional-statements",
+            "depth": 3,
+            "value": "Conditional Statements"
+          },
+          {
+            "slug": "loops",
+            "depth": 2,
+            "value": "Loops"
+          },
+          {
+            "slug": "for-loop",
+            "depth": 3,
+            "value": "For Loop"
+          },
+          {
+            "slug": "looping-over-a-list",
+            "depth": 3,
+            "value": "Looping Over a List"
+          },
+          {
+            "slug": "functions",
+            "depth": 2,
+            "value": "Functions"
+          },
+          {
+            "slug": "mean",
+            "depth": 3,
+            "value": "mean()"
+          },
+          {
+            "slug": "mean-continued-sd-and-rmna",
+            "depth": 3,
+            "value": "mean() continued, sd() and rm.na"
+          },
+          {
+            "slug": "writing-functions",
+            "depth": 3,
+            "value": "Writing Functions"
+          },
+          {
+            "slug": "packages",
+            "depth": 3,
+            "value": "Packages"
+          },
+          {
+            "slug": "the-apply-family",
+            "depth": 2,
+            "value": "The Apply Family"
+          },
+          {
+            "slug": "anonymous-functions",
+            "depth": 3,
+            "value": "Anonymous Functions"
+          },
+          {
+            "slug": "sapply",
+            "depth": 3,
+            "value": "sapply"
+          },
+          {
+            "slug": "vapply",
+            "depth": 3,
+            "value": "vapply()"
+          },
+          {
+            "slug": "useful-functions",
+            "depth": 2,
+            "value": "Useful Functions"
+          },
+          {
+            "slug": "data-utilities",
+            "depth": 3,
+            "value": "Data Utilities"
+          },
+          {
+            "slug": "beat-gauss-using-r",
+            "depth": 3,
+            "value": "Beat Gauss using R"
+          },
+          {
+            "slug": "regex",
+            "depth": 3,
+            "value": "Regex"
+          },
+          {
+            "slug": "sub--gsub",
+            "depth": 3,
+            "value": "sub & gsub"
+          },
+          {
+            "slug": "times--dates",
+            "depth": 2,
+            "value": "Times & Dates"
+          }
+        ]
+      }
+    },
+    {
+      "key": "manual/R/R-Intro.md",
+      "value": {
+        "name": "R Intro",
+        "menu": "R",
+        "id": "afa31f5f18f3126af5467387305cff37",
+        "filepath": "manual/R/R-Intro.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/R/R-Intro.md",
+        "link": "",
+        "slug": "manual-r-r-intro",
+        "route": "/manual-r-r-intro",
+        "headings": [
+          {
+            "slug": "introduction-to-r",
+            "depth": 1,
+            "value": "Introduction to R"
+          },
+          {
+            "slug": "table-of-contents",
+            "depth": 2,
+            "value": "Table of Contents"
+          },
+          {
+            "slug": "r-1-how-it-works",
+            "depth": 2,
+            "value": "R-1: How it Works"
+          },
+          {
+            "slug": "arithmetic-with-r",
+            "depth": 2,
+            "value": "Arithmetic with R"
+          },
+          {
+            "slug": "variable-assignment",
+            "depth": 2,
+            "value": "Variable Assignment"
+          },
+          {
+            "slug": "basic-data-types-in-r",
+            "depth": 2,
+            "value": "Basic data types in R"
+          },
+          {
+            "slug": "r-2-vectors",
+            "depth": 2,
+            "value": "R-2: Vectors"
+          },
+          {
+            "slug": "naming-a-vector",
+            "depth": 2,
+            "value": "Naming a Vector"
+          },
+          {
+            "slug": "vector-selection",
+            "depth": 2,
+            "value": "Vector Selection"
+          },
+          {
+            "slug": "poker-and-roulette-winnings-from-monday-to-friday",
+            "depth": 1,
+            "value": "Poker and roulette winnings from Monday to Friday:"
+          },
+          {
+            "slug": "define-a-new-variable-based-on-a-selection",
+            "depth": 1,
+            "value": "Define a new variable based on a selection"
+          },
+          {
+            "slug": "selection-by-comparison",
+            "depth": 2,
+            "value": "Selection by Comparison"
+          },
+          {
+            "slug": "r-3-matrices",
+            "depth": 2,
+            "value": "R-3: Matrices"
+          },
+          {
+            "slug": "naming-a-matrix",
+            "depth": 2,
+            "value": "Naming a matrix"
+          },
+          {
+            "slug": "adding-a-row",
+            "depth": 2,
+            "value": "Adding a Row"
+          },
+          {
+            "slug": "all-functions-for-combining",
+            "depth": 2,
+            "value": "All functions for combining"
+          },
+          {
+            "slug": "selection-of-matrix-elements",
+            "depth": 2,
+            "value": "Selection of Matrix Elements"
+          },
+          {
+            "slug": "matrix-arithmetic",
+            "depth": 2,
+            "value": "Matrix Arithmetic"
+          },
+          {
+            "slug": "factors-in-r",
+            "depth": 2,
+            "value": "Factors in R"
+          },
+          {
+            "slug": "summarizing-a-factor",
+            "depth": 2,
+            "value": "Summarizing a factor"
+          },
+          {
+            "slug": "ordered-factors",
+            "depth": 2,
+            "value": "Ordered Factors"
+          },
+          {
+            "slug": "data-frames",
+            "depth": 2,
+            "value": "Data Frames"
+          },
+          {
+            "slug": "selection-of-data-frame-elements",
+            "depth": 2,
+            "value": "Selection of data frame elements"
+          },
+          {
+            "slug": "subsets",
+            "depth": 2,
+            "value": "Subsets"
+          },
+          {
+            "slug": "sorting",
+            "depth": 2,
+            "value": "Sorting"
+          },
+          {
+            "slug": "lists",
+            "depth": 2,
+            "value": "Lists"
+          },
+          {
+            "slug": "selecting-elements-from-a-list",
+            "depth": 2,
+            "value": "Selecting Elements from a List"
+          },
+          {
+            "slug": "adding-more-components-to-a-list",
+            "depth": 2,
+            "value": "Adding more components to a list"
           }
         ]
       }
@@ -24200,6 +24320,101 @@
       }
     },
     {
+      "key": "manual/Redis/Redis-Kue-Nodejs.md",
+      "value": {
+        "name": "Redis queues and forking with Kue",
+        "menu": "Redis",
+        "id": "7c70d238dc5a6edd3031e0893ed07eca",
+        "filepath": "manual/Redis/Redis-Kue-Nodejs.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Redis/Redis-Kue-Nodejs.md",
+        "link": "",
+        "slug": "manual-redis-redis-kue-nodejs",
+        "route": "/manual-redis-redis-kue-nodejs",
+        "headings": [
+          {
+            "slug": "redis-queues-and-forking-with-kue",
+            "depth": 1,
+            "value": "Redis queues and forking with Kue"
+          },
+          {
+            "slug": "tldr",
+            "depth": 2,
+            "value": "tl;dr"
+          }
+        ]
+      }
+    },
+    {
+      "key": "manual/Redis/Redis-Nodejs.md",
+      "value": {
+        "name": "Redis with Nodejs",
+        "menu": "Redis",
+        "id": "ba908ccfdd33c3cc1b8aef9383e0e6e8",
+        "filepath": "manual/Redis/Redis-Nodejs.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Redis/Redis-Nodejs.md",
+        "link": "",
+        "slug": "manual-redis-redis-nodejs",
+        "route": "/manual-redis-redis-nodejs",
+        "headings": [
+          {
+            "slug": "redis-with-nodejs",
+            "depth": 1,
+            "value": "Redis with Nodejs"
+          }
+        ]
+      }
+    },
+    {
+      "key": "manual/Redis/Redis.md",
+      "value": {
+        "name": "Redis CLI Basics",
+        "menu": "Redis",
+        "id": "998b7790e9c13c5a96828afb65f7fea7",
+        "filepath": "manual/Redis/Redis.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Redis/Redis.md",
+        "link": "",
+        "slug": "manual-redis-redis",
+        "route": "/manual-redis-redis",
+        "headings": [
+          {
+            "slug": "redis",
+            "depth": 1,
+            "value": "Redis"
+          },
+          {
+            "slug": "tldr",
+            "depth": 2,
+            "value": "tl;dr"
+          },
+          {
+            "slug": "hash-sets",
+            "depth": 3,
+            "value": "Hash Sets"
+          },
+          {
+            "slug": "lists",
+            "depth": 3,
+            "value": "Lists"
+          },
+          {
+            "slug": "run-local-server-and-attach",
+            "depth": 3,
+            "value": "Run local server and attach"
+          },
+          {
+            "slug": "command-list",
+            "depth": 2,
+            "value": "Command list"
+          },
+          {
+            "slug": "redis-commands",
+            "depth": 2,
+            "value": "Redis commands"
+          }
+        ]
+      }
+    },
+    {
       "key": "manual/ReasonML/Reason-Hello-World.md",
       "value": {
         "menu": "ReasonML",
@@ -24310,96 +24525,56 @@
       }
     },
     {
-      "key": "manual/Redis/Redis-Kue-Nodejs.md",
+      "key": "manual/Roadmaps/Roadmaps-Intro.md",
       "value": {
-        "name": "Redis queues and forking with Kue",
-        "menu": "Redis",
-        "id": "7c70d238dc5a6edd3031e0893ed07eca",
-        "filepath": "manual/Redis/Redis-Kue-Nodejs.md",
-        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Redis/Redis-Kue-Nodejs.md",
+        "menu": "Roadmaps",
+        "name": "Intro to Roadmaps",
+        "id": "a0da1a9ccca466c73b66295322969566",
+        "filepath": "manual/Roadmaps/Roadmaps-Intro.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Roadmaps/Roadmaps-Intro.md",
         "link": "",
-        "slug": "manual-redis-redis-kue-nodejs",
-        "route": "/manual-redis-redis-kue-nodejs",
+        "slug": "manual-roadmaps-roadmaps-intro",
+        "route": "/manual-roadmaps-roadmaps-intro",
         "headings": [
           {
-            "slug": "redis-queues-and-forking-with-kue",
+            "slug": "intro-to-roadmaps",
             "depth": 1,
-            "value": "Redis queues and forking with Kue"
+            "value": "Intro to Roadmaps"
           },
           {
-            "slug": "tldr",
+            "slug": "resources",
             "depth": 2,
-            "value": "tl;dr"
-          }
-        ]
-      }
-    },
-    {
-      "key": "manual/Redis/Redis-Nodejs.md",
-      "value": {
-        "name": "Redis with Nodejs",
-        "menu": "Redis",
-        "id": "ba908ccfdd33c3cc1b8aef9383e0e6e8",
-        "filepath": "manual/Redis/Redis-Nodejs.md",
-        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Redis/Redis-Nodejs.md",
-        "link": "",
-        "slug": "manual-redis-redis-nodejs",
-        "route": "/manual-redis-redis-nodejs",
-        "headings": [
-          {
-            "slug": "redis-with-nodejs",
-            "depth": 1,
-            "value": "Redis with Nodejs"
-          }
-        ]
-      }
-    },
-    {
-      "key": "manual/Redis/Redis.md",
-      "value": {
-        "name": "Redis CLI Basics",
-        "menu": "Redis",
-        "id": "998b7790e9c13c5a96828afb65f7fea7",
-        "filepath": "manual/Redis/Redis.md",
-        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Redis/Redis.md",
-        "link": "",
-        "slug": "manual-redis-redis",
-        "route": "/manual-redis-redis",
-        "headings": [
-          {
-            "slug": "redis",
-            "depth": 1,
-            "value": "Redis"
+            "value": "Resources"
           },
           {
-            "slug": "tldr",
+            "slug": "roadmap-to-roadmaps",
             "depth": 2,
-            "value": "tl;dr"
+            "value": "Roadmap to... roadmaps"
           },
           {
-            "slug": "hash-sets",
+            "slug": "software--architecture-design",
             "depth": 3,
-            "value": "Hash Sets"
+            "value": "Software + Architecture Design"
           },
           {
-            "slug": "lists",
+            "slug": "developer-roadmap",
             "depth": 3,
-            "value": "Lists"
+            "value": "Developer Roadmap"
           },
           {
-            "slug": "run-local-server-and-attach",
+            "slug": "data-science",
             "depth": 3,
-            "value": "Run local server and attach"
+            "value": "Data Science"
           },
           {
-            "slug": "command-list",
-            "depth": 2,
-            "value": "Command list"
+            "slug": "golang-roadmap",
+            "depth": 3,
+            "value": "GoLang Roadmap"
           },
           {
-            "slug": "redis-commands",
-            "depth": 2,
-            "value": "Redis commands"
+            "slug": "sre-roadmap",
+            "depth": 3,
+            "value": "SRE Roadmap"
           }
         ]
       }
@@ -24450,56 +24625,6 @@
             "slug": "redux-persist-usage-with-react-native",
             "depth": 1,
             "value": "Redux Persist usage with React Native"
-          }
-        ]
-      }
-    },
-    {
-      "key": "manual/Roadmaps/Roadmaps-Intro.md",
-      "value": {
-        "menu": "Roadmaps",
-        "name": "Intro to Roadmaps",
-        "id": "a0da1a9ccca466c73b66295322969566",
-        "filepath": "manual/Roadmaps/Roadmaps-Intro.md",
-        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Roadmaps/Roadmaps-Intro.md",
-        "link": "",
-        "slug": "manual-roadmaps-roadmaps-intro",
-        "route": "/manual-roadmaps-roadmaps-intro",
-        "headings": [
-          {
-            "slug": "intro-to-roadmaps",
-            "depth": 1,
-            "value": "Intro to Roadmaps"
-          },
-          {
-            "slug": "resources",
-            "depth": 2,
-            "value": "Resources"
-          },
-          {
-            "slug": "roadmap-to-roadmaps",
-            "depth": 2,
-            "value": "Roadmap to... roadmaps"
-          },
-          {
-            "slug": "software--architecture-design",
-            "depth": 3,
-            "value": "Software + Architecture Design"
-          },
-          {
-            "slug": "developer-roadmap",
-            "depth": 3,
-            "value": "Developer Roadmap"
-          },
-          {
-            "slug": "data-science",
-            "depth": 3,
-            "value": "Data Science"
-          },
-          {
-            "slug": "golang-roadmap",
-            "depth": 3,
-            "value": "GoLang Roadmap"
           }
         ]
       }
@@ -25405,101 +25530,6 @@
       }
     },
     {
-      "key": "manual/Scala/Intro-To-Scala.md",
-      "value": {
-        "name": "Intro To Scala",
-        "menu": "Scala",
-        "id": "ae4bd7f1d81566847c2562eefe377ca2",
-        "filepath": "manual/Scala/Intro-To-Scala.md",
-        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Scala/Intro-To-Scala.md",
-        "link": "",
-        "slug": "manual-scala-intro-to-scala",
-        "route": "/manual-scala-intro-to-scala",
-        "headings": [
-          {
-            "slug": "intro-to-scala",
-            "depth": 1,
-            "value": "Intro to Scala"
-          },
-          {
-            "slug": "function-declarations",
-            "depth": 2,
-            "value": "Function Declarations"
-          }
-        ]
-      }
-    },
-    {
-      "key": "manual/Scala/Scala-Expressions.md",
-      "value": {
-        "name": "Scala Expressions and Functions",
-        "menu": "Scala",
-        "id": "80ebb28b4ef3068d8af5fe3adf826065",
-        "filepath": "manual/Scala/Scala-Expressions.md",
-        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Scala/Scala-Expressions.md",
-        "link": "",
-        "slug": "manual-scala-scala-expressions",
-        "route": "/manual-scala-scala-expressions",
-        "headings": [
-          {
-            "slug": "scala-expressions-and-functions",
-            "depth": 1,
-            "value": "Scala Expressions and Functions"
-          },
-          {
-            "slug": "for-loops",
-            "depth": 2,
-            "value": "For Loops"
-          },
-          {
-            "slug": "code-blocks",
-            "depth": 2,
-            "value": "Code Blocks"
-          },
-          {
-            "slug": "examples-of-expressions-and-side-effects",
-            "depth": 2,
-            "value": "Examples of Expressions and Side Effects"
-          },
-          {
-            "slug": "functions",
-            "depth": 2,
-            "value": "Functions"
-          }
-        ]
-      }
-    },
-    {
-      "key": "manual/Scala/Scala-Values-Variables-Types.md",
-      "value": {
-        "name": "Values, Variables and Types",
-        "menu": "Scala",
-        "id": "4b9c94acdad989f2828bdc29b0ab2f43",
-        "filepath": "manual/Scala/Scala-Values-Variables-Types.md",
-        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Scala/Scala-Values-Variables-Types.md",
-        "link": "",
-        "slug": "manual-scala-scala-values-variables-types",
-        "route": "/manual-scala-scala-values-variables-types",
-        "headings": [
-          {
-            "slug": "scala-values-variables-and-types",
-            "depth": 1,
-            "value": "Scala Values, Variables and Types"
-          },
-          {
-            "slug": "declaring-variables",
-            "depth": 2,
-            "value": "Declaring Variables"
-          },
-          {
-            "slug": "declaring-various-types",
-            "depth": 2,
-            "value": "Declaring various types"
-          }
-        ]
-      }
-    },
-    {
       "key": "manual/SQL/Indexing-Example.md",
       "value": {
         "menu": "SQL",
@@ -25705,6 +25735,131 @@
       }
     },
     {
+      "key": "manual/Scala/Intro-To-Scala.md",
+      "value": {
+        "name": "Intro To Scala",
+        "menu": "Scala",
+        "id": "ae4bd7f1d81566847c2562eefe377ca2",
+        "filepath": "manual/Scala/Intro-To-Scala.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Scala/Intro-To-Scala.md",
+        "link": "",
+        "slug": "manual-scala-intro-to-scala",
+        "route": "/manual-scala-intro-to-scala",
+        "headings": [
+          {
+            "slug": "intro-to-scala",
+            "depth": 1,
+            "value": "Intro to Scala"
+          },
+          {
+            "slug": "function-declarations",
+            "depth": 2,
+            "value": "Function Declarations"
+          }
+        ]
+      }
+    },
+    {
+      "key": "manual/Scala/Scala-Expressions.md",
+      "value": {
+        "name": "Scala Expressions and Functions",
+        "menu": "Scala",
+        "id": "80ebb28b4ef3068d8af5fe3adf826065",
+        "filepath": "manual/Scala/Scala-Expressions.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Scala/Scala-Expressions.md",
+        "link": "",
+        "slug": "manual-scala-scala-expressions",
+        "route": "/manual-scala-scala-expressions",
+        "headings": [
+          {
+            "slug": "scala-expressions-and-functions",
+            "depth": 1,
+            "value": "Scala Expressions and Functions"
+          },
+          {
+            "slug": "for-loops",
+            "depth": 2,
+            "value": "For Loops"
+          },
+          {
+            "slug": "code-blocks",
+            "depth": 2,
+            "value": "Code Blocks"
+          },
+          {
+            "slug": "examples-of-expressions-and-side-effects",
+            "depth": 2,
+            "value": "Examples of Expressions and Side Effects"
+          },
+          {
+            "slug": "functions",
+            "depth": 2,
+            "value": "Functions"
+          }
+        ]
+      }
+    },
+    {
+      "key": "manual/Scala/Scala-Values-Variables-Types.md",
+      "value": {
+        "name": "Values, Variables and Types",
+        "menu": "Scala",
+        "id": "4b9c94acdad989f2828bdc29b0ab2f43",
+        "filepath": "manual/Scala/Scala-Values-Variables-Types.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Scala/Scala-Values-Variables-Types.md",
+        "link": "",
+        "slug": "manual-scala-scala-values-variables-types",
+        "route": "/manual-scala-scala-values-variables-types",
+        "headings": [
+          {
+            "slug": "scala-values-variables-and-types",
+            "depth": 1,
+            "value": "Scala Values, Variables and Types"
+          },
+          {
+            "slug": "declaring-variables",
+            "depth": 2,
+            "value": "Declaring Variables"
+          },
+          {
+            "slug": "declaring-various-types",
+            "depth": 2,
+            "value": "Declaring various types"
+          }
+        ]
+      }
+    },
+    {
+      "key": "manual/Security/OWASP-Top-Ten.md",
+      "value": {
+        "menu": "OWASP",
+        "name": "Top 10 Security Flaws",
+        "id": "17d679c21b3a32ae098be3cd575e06f3",
+        "filepath": "manual/Security/OWASP-Top-Ten.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Security/OWASP-Top-Ten.md",
+        "link": "",
+        "slug": "manual-security-owasp-top-ten",
+        "route": "/manual-security-owasp-top-ten",
+        "headings": [
+          {
+            "slug": "top-10-security-flaws",
+            "depth": 1,
+            "value": "Top 10 Security Flaws"
+          },
+          {
+            "slug": "resources",
+            "depth": 2,
+            "value": "Resources"
+          },
+          {
+            "slug": "the-list",
+            "depth": 2,
+            "value": "The List"
+          }
+        ]
+      }
+    },
+    {
       "key": "manual/Security/Security-Intro.md",
       "value": {
         "menu": "Security",
@@ -25855,6 +26010,66 @@
             "slug": "client-bundles",
             "depth": 2,
             "value": "Client bundles"
+          }
+        ]
+      }
+    },
+    {
+      "key": "manual/Site-Reliability-Engineering/Service-Level-Objectives.md",
+      "value": {
+        "menu": "Site Reliability Engineering",
+        "name": "Service Level Objectives",
+        "id": "56f0455da6c1da2fa984835d614a9821",
+        "filepath": "manual/Site-Reliability-Engineering/Service-Level-Objectives.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Site-Reliability-Engineering/Service-Level-Objectives.md",
+        "link": "",
+        "slug": "manual-site-reliability-engineering-service-level-objectives",
+        "route": "/manual-site-reliability-engineering-service-level-objectives",
+        "headings": [
+          {
+            "slug": "service-level-objectives",
+            "depth": 1,
+            "value": "Service Level Objectives"
+          },
+          {
+            "slug": "indicators",
+            "depth": 2,
+            "value": "Indicators"
+          },
+          {
+            "slug": "objectives",
+            "depth": 2,
+            "value": "Objectives"
+          },
+          {
+            "slug": "agreements",
+            "depth": 2,
+            "value": "Agreements"
+          }
+        ]
+      }
+    },
+    {
+      "key": "manual/Site-Reliability-Engineering/Toil.md",
+      "value": {
+        "menu": "Site Reliability Engineering",
+        "name": "Toil",
+        "id": "d8c35a7e1c4453e0026d333851d900cd",
+        "filepath": "manual/Site-Reliability-Engineering/Toil.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Site-Reliability-Engineering/Toil.md",
+        "link": "",
+        "slug": "manual-site-reliability-engineering-toil",
+        "route": "/manual-site-reliability-engineering-toil",
+        "headings": [
+          {
+            "slug": "toil",
+            "depth": 1,
+            "value": "Toil"
+          },
+          {
+            "slug": "the-issues-of-toil",
+            "depth": 2,
+            "value": "The issues of Toil"
           }
         ]
       }
@@ -26130,181 +26345,6 @@
             "slug": "step-three",
             "depth": 3,
             "value": "Step Three"
-          }
-        ]
-      }
-    },
-    {
-      "key": "manual/Style/base-animations.md",
-      "value": {
-        "name": "Base Animations",
-        "menu": "Style",
-        "id": "e8f945689a7bb192a0311acf4e1467e5",
-        "filepath": "manual/Style/base-animations.md",
-        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Style/base-animations.md",
-        "link": "",
-        "slug": "manual-style-base-animations",
-        "route": "/manual-style-base-animations",
-        "headings": [
-          {
-            "slug": "base-animations",
-            "depth": 1,
-            "value": "Base Animations"
-          }
-        ]
-      }
-    },
-    {
-      "key": "manual/Style/base-mixins.md",
-      "value": {
-        "name": "Base Mixins",
-        "menu": "Style",
-        "id": "657d14b6dba7113c21fcfea9415094b1",
-        "filepath": "manual/Style/base-mixins.md",
-        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Style/base-mixins.md",
-        "link": "",
-        "slug": "manual-style-base-mixins",
-        "route": "/manual-style-base-mixins",
-        "headings": [
-          {
-            "slug": "styles--base--mixins",
-            "depth": 1,
-            "value": "Styles > Base > Mixins"
-          },
-          {
-            "slug": "inline-block-list",
-            "depth": 2,
-            "value": "inline-block-list"
-          },
-          {
-            "slug": "omega-reset",
-            "depth": 2,
-            "value": "omega-reset"
-          },
-          {
-            "slug": "font-size",
-            "depth": 2,
-            "value": "font-size"
-          },
-          {
-            "slug": "inline-block",
-            "depth": 2,
-            "value": "inline-block"
-          },
-          {
-            "slug": "reset-box-model",
-            "depth": 2,
-            "value": "reset-box-model"
-          },
-          {
-            "slug": "absolute-fill",
-            "depth": 2,
-            "value": "absolute-fill"
-          },
-          {
-            "slug": "headings",
-            "depth": 2,
-            "value": "headings"
-          },
-          {
-            "slug": "background-image",
-            "depth": 2,
-            "value": "background-image"
-          },
-          {
-            "slug": "reset-ul",
-            "depth": 2,
-            "value": "reset-ul"
-          },
-          {
-            "slug": "hide-text",
-            "depth": 2,
-            "value": "hide-text"
-          },
-          {
-            "slug": "_neat-parse-media",
-            "depth": 2,
-            "value": "_ neat-parse-media"
-          },
-          {
-            "slug": "background-color",
-            "depth": 2,
-            "value": "background-color"
-          },
-          {
-            "slug": "color",
-            "depth": 2,
-            "value": "color"
-          }
-        ]
-      }
-    },
-    {
-      "key": "manual/Style/base.md",
-      "value": {
-        "name": "Base",
-        "menu": "Style",
-        "id": "d3b3d5d0ce273763453c5dd911f6abae",
-        "filepath": "manual/Style/base.md",
-        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Style/base.md",
-        "link": "",
-        "slug": "manual-style-base",
-        "route": "/manual-style-base",
-        "headings": [
-          {
-            "slug": "base-folder",
-            "depth": 1,
-            "value": "Base folder"
-          },
-          {
-            "slug": "structure",
-            "depth": 2,
-            "value": "Structure"
-          }
-        ]
-      }
-    },
-    {
-      "key": "manual/Style/style.md",
-      "value": {
-        "name": "Style",
-        "menu": "Style",
-        "id": "9313fd24ff69f2c6818a8c15fb2cef24",
-        "filepath": "manual/Style/style.md",
-        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Style/style.md",
-        "link": "",
-        "slug": "manual-style-style",
-        "route": "/manual-style-style",
-        "headings": [
-          {
-            "slug": "style",
-            "depth": 1,
-            "value": "Style"
-          },
-          {
-            "slug": "colours",
-            "depth": 2,
-            "value": "Colours"
-          },
-          {
-            "slug": "grids",
-            "depth": 2,
-            "value": "Grids"
-          },
-          {
-            "slug": "iconography",
-            "depth": 2,
-            "value": "Iconography"
-          },
-          {
-            "slug": "layer",
-            "depth": 2,
-            "value": "Layer"
-          },
-          {
-            "slug": "typography",
-            "depth": 2,
-            "value": "Typography"
           }
         ]
       }
@@ -26944,6 +26984,181 @@
             "slug": "stripe-cli-example-usage",
             "depth": 2,
             "value": "Stripe CLI example usage"
+          }
+        ]
+      }
+    },
+    {
+      "key": "manual/Style/base-animations.md",
+      "value": {
+        "name": "Base Animations",
+        "menu": "Style",
+        "id": "e8f945689a7bb192a0311acf4e1467e5",
+        "filepath": "manual/Style/base-animations.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Style/base-animations.md",
+        "link": "",
+        "slug": "manual-style-base-animations",
+        "route": "/manual-style-base-animations",
+        "headings": [
+          {
+            "slug": "base-animations",
+            "depth": 1,
+            "value": "Base Animations"
+          }
+        ]
+      }
+    },
+    {
+      "key": "manual/Style/base-mixins.md",
+      "value": {
+        "name": "Base Mixins",
+        "menu": "Style",
+        "id": "657d14b6dba7113c21fcfea9415094b1",
+        "filepath": "manual/Style/base-mixins.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Style/base-mixins.md",
+        "link": "",
+        "slug": "manual-style-base-mixins",
+        "route": "/manual-style-base-mixins",
+        "headings": [
+          {
+            "slug": "styles--base--mixins",
+            "depth": 1,
+            "value": "Styles > Base > Mixins"
+          },
+          {
+            "slug": "inline-block-list",
+            "depth": 2,
+            "value": "inline-block-list"
+          },
+          {
+            "slug": "omega-reset",
+            "depth": 2,
+            "value": "omega-reset"
+          },
+          {
+            "slug": "font-size",
+            "depth": 2,
+            "value": "font-size"
+          },
+          {
+            "slug": "inline-block",
+            "depth": 2,
+            "value": "inline-block"
+          },
+          {
+            "slug": "reset-box-model",
+            "depth": 2,
+            "value": "reset-box-model"
+          },
+          {
+            "slug": "absolute-fill",
+            "depth": 2,
+            "value": "absolute-fill"
+          },
+          {
+            "slug": "headings",
+            "depth": 2,
+            "value": "headings"
+          },
+          {
+            "slug": "background-image",
+            "depth": 2,
+            "value": "background-image"
+          },
+          {
+            "slug": "reset-ul",
+            "depth": 2,
+            "value": "reset-ul"
+          },
+          {
+            "slug": "hide-text",
+            "depth": 2,
+            "value": "hide-text"
+          },
+          {
+            "slug": "_neat-parse-media",
+            "depth": 2,
+            "value": "_ neat-parse-media"
+          },
+          {
+            "slug": "background-color",
+            "depth": 2,
+            "value": "background-color"
+          },
+          {
+            "slug": "color",
+            "depth": 2,
+            "value": "color"
+          }
+        ]
+      }
+    },
+    {
+      "key": "manual/Style/base.md",
+      "value": {
+        "name": "Base",
+        "menu": "Style",
+        "id": "d3b3d5d0ce273763453c5dd911f6abae",
+        "filepath": "manual/Style/base.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Style/base.md",
+        "link": "",
+        "slug": "manual-style-base",
+        "route": "/manual-style-base",
+        "headings": [
+          {
+            "slug": "base-folder",
+            "depth": 1,
+            "value": "Base folder"
+          },
+          {
+            "slug": "structure",
+            "depth": 2,
+            "value": "Structure"
+          }
+        ]
+      }
+    },
+    {
+      "key": "manual/Style/style.md",
+      "value": {
+        "name": "Style",
+        "menu": "Style",
+        "id": "9313fd24ff69f2c6818a8c15fb2cef24",
+        "filepath": "manual/Style/style.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Style/style.md",
+        "link": "",
+        "slug": "manual-style-style",
+        "route": "/manual-style-style",
+        "headings": [
+          {
+            "slug": "style",
+            "depth": 1,
+            "value": "Style"
+          },
+          {
+            "slug": "colours",
+            "depth": 2,
+            "value": "Colours"
+          },
+          {
+            "slug": "grids",
+            "depth": 2,
+            "value": "Grids"
+          },
+          {
+            "slug": "iconography",
+            "depth": 2,
+            "value": "Iconography"
+          },
+          {
+            "slug": "layer",
+            "depth": 2,
+            "value": "Layer"
+          },
+          {
+            "slug": "typography",
+            "depth": 2,
+            "value": "Typography"
           }
         ]
       }
@@ -27979,136 +28194,6 @@
       }
     },
     {
-      "key": "manual/Timber/Timber-Cheat-Sheet.md",
-      "value": {
-        "name": "Timber Cheat Sheet",
-        "menu": "Timber",
-        "id": "fee87c16bf43fce86fbbd11fb7fcfade",
-        "filepath": "manual/Timber/Timber-Cheat-Sheet.md",
-        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Timber/Timber-Cheat-Sheet.md",
-        "link": "",
-        "slug": "manual-timber-timber-cheat-sheet",
-        "route": "/manual-timber-timber-cheat-sheet",
-        "headings": [
-          {
-            "slug": "timber-help-sheet",
-            "depth": 1,
-            "value": "Timber Help Sheet"
-          },
-          {
-            "slug": "timber-example",
-            "depth": 2,
-            "value": "Timber Example"
-          },
-          {
-            "slug": "timber-blog-info",
-            "depth": 2,
-            "value": "Timber Blog Info"
-          },
-          {
-            "slug": "timber-body-class",
-            "depth": 2,
-            "value": "Timber Body Class"
-          },
-          {
-            "slug": "timber-post",
-            "depth": 2,
-            "value": "Timber Post"
-          },
-          {
-            "slug": "timber-theme",
-            "depth": 2,
-            "value": "Timber Theme"
-          },
-          {
-            "slug": "wp-functions",
-            "depth": 2,
-            "value": "WP Functions"
-          },
-          {
-            "slug": "wp-integrations",
-            "depth": 1,
-            "value": "WP Integrations"
-          },
-          {
-            "slug": "the_content",
-            "depth": 2,
-            "value": "the_content"
-          },
-          {
-            "slug": "hooks",
-            "depth": 2,
-            "value": "hooks"
-          },
-          {
-            "slug": "scripts--stylesheets",
-            "depth": 2,
-            "value": "Scripts + Stylesheets"
-          },
-          {
-            "slug": "functions",
-            "depth": 2,
-            "value": "Functions"
-          },
-          {
-            "slug": "actions",
-            "depth": 2,
-            "value": "Actions"
-          },
-          {
-            "slug": "filters",
-            "depth": 2,
-            "value": "Filters"
-          },
-          {
-            "slug": "widgets",
-            "depth": 2,
-            "value": "Widgets"
-          },
-          {
-            "slug": "shortcodes",
-            "depth": 2,
-            "value": "Shortcodes"
-          },
-          {
-            "slug": "layouts-with-shortcodes",
-            "depth": 2,
-            "value": "Layouts with Shortcodes"
-          }
-        ]
-      }
-    },
-    {
-      "key": "manual/Tooling/Awesome-CLI-Tools.md",
-      "value": {
-        "menu": "Tooling",
-        "name": "Awesome Tooling CLI",
-        "id": "e6a778e3c892cbac269ffb5e4930f04e",
-        "filepath": "manual/Tooling/Awesome-CLI-Tools.md",
-        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Tooling/Awesome-CLI-Tools.md",
-        "link": "",
-        "slug": "manual-tooling-awesome-cli-tools",
-        "route": "/manual-tooling-awesome-cli-tools",
-        "headings": [
-          {
-            "slug": "awesome-tooling-cli",
-            "depth": 1,
-            "value": "Awesome Tooling CLI"
-          },
-          {
-            "slug": "resources",
-            "depth": 2,
-            "value": "Resources"
-          },
-          {
-            "slug": "reflex",
-            "depth": 2,
-            "value": "Reflex"
-          }
-        ]
-      }
-    },
-    {
       "key": "manual/Testing/Intro.md",
       "value": {
         "name": "Introduction and Types",
@@ -28379,6 +28464,136 @@
       }
     },
     {
+      "key": "manual/Timber/Timber-Cheat-Sheet.md",
+      "value": {
+        "name": "Timber Cheat Sheet",
+        "menu": "Timber",
+        "id": "fee87c16bf43fce86fbbd11fb7fcfade",
+        "filepath": "manual/Timber/Timber-Cheat-Sheet.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Timber/Timber-Cheat-Sheet.md",
+        "link": "",
+        "slug": "manual-timber-timber-cheat-sheet",
+        "route": "/manual-timber-timber-cheat-sheet",
+        "headings": [
+          {
+            "slug": "timber-help-sheet",
+            "depth": 1,
+            "value": "Timber Help Sheet"
+          },
+          {
+            "slug": "timber-example",
+            "depth": 2,
+            "value": "Timber Example"
+          },
+          {
+            "slug": "timber-blog-info",
+            "depth": 2,
+            "value": "Timber Blog Info"
+          },
+          {
+            "slug": "timber-body-class",
+            "depth": 2,
+            "value": "Timber Body Class"
+          },
+          {
+            "slug": "timber-post",
+            "depth": 2,
+            "value": "Timber Post"
+          },
+          {
+            "slug": "timber-theme",
+            "depth": 2,
+            "value": "Timber Theme"
+          },
+          {
+            "slug": "wp-functions",
+            "depth": 2,
+            "value": "WP Functions"
+          },
+          {
+            "slug": "wp-integrations",
+            "depth": 1,
+            "value": "WP Integrations"
+          },
+          {
+            "slug": "the_content",
+            "depth": 2,
+            "value": "the_content"
+          },
+          {
+            "slug": "hooks",
+            "depth": 2,
+            "value": "hooks"
+          },
+          {
+            "slug": "scripts--stylesheets",
+            "depth": 2,
+            "value": "Scripts + Stylesheets"
+          },
+          {
+            "slug": "functions",
+            "depth": 2,
+            "value": "Functions"
+          },
+          {
+            "slug": "actions",
+            "depth": 2,
+            "value": "Actions"
+          },
+          {
+            "slug": "filters",
+            "depth": 2,
+            "value": "Filters"
+          },
+          {
+            "slug": "widgets",
+            "depth": 2,
+            "value": "Widgets"
+          },
+          {
+            "slug": "shortcodes",
+            "depth": 2,
+            "value": "Shortcodes"
+          },
+          {
+            "slug": "layouts-with-shortcodes",
+            "depth": 2,
+            "value": "Layouts with Shortcodes"
+          }
+        ]
+      }
+    },
+    {
+      "key": "manual/Tooling/Awesome-CLI-Tools.md",
+      "value": {
+        "menu": "Tooling",
+        "name": "Awesome Tooling CLI",
+        "id": "e6a778e3c892cbac269ffb5e4930f04e",
+        "filepath": "manual/Tooling/Awesome-CLI-Tools.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Tooling/Awesome-CLI-Tools.md",
+        "link": "",
+        "slug": "manual-tooling-awesome-cli-tools",
+        "route": "/manual-tooling-awesome-cli-tools",
+        "headings": [
+          {
+            "slug": "awesome-tooling-cli",
+            "depth": 1,
+            "value": "Awesome Tooling CLI"
+          },
+          {
+            "slug": "resources",
+            "depth": 2,
+            "value": "Resources"
+          },
+          {
+            "slug": "reflex",
+            "depth": 2,
+            "value": "Reflex"
+          }
+        ]
+      }
+    },
+    {
       "key": "manual/Treat/Index.md",
       "value": {
         "menu": "Treat",
@@ -28474,91 +28689,6 @@
       }
     },
     {
-      "key": "manual/Twig/Twig-Cheat-Sheet.md",
-      "value": {
-        "name": "Twig Cheat Sheet",
-        "menu": "Twig",
-        "id": "fa80cd9a6ca19447b9e8f3a0f2b288ca",
-        "filepath": "manual/Twig/Twig-Cheat-Sheet.md",
-        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Twig/Twig-Cheat-Sheet.md",
-        "link": "",
-        "slug": "manual-twig-twig-cheat-sheet",
-        "route": "/manual-twig-twig-cheat-sheet",
-        "headings": [
-          {
-            "slug": "twig-cheat-sheet",
-            "depth": 1,
-            "value": "TWIG CHEAT SHEET"
-          },
-          {
-            "slug": "web-synopsis",
-            "depth": 2,
-            "value": "Web Synopsis"
-          },
-          {
-            "slug": "attributes",
-            "depth": 2,
-            "value": "Attributes"
-          },
-          {
-            "slug": "setting-variables",
-            "depth": 2,
-            "value": "Setting Variables"
-          },
-          {
-            "slug": "filters",
-            "depth": 2,
-            "value": "Filters"
-          },
-          {
-            "slug": "functions",
-            "depth": 2,
-            "value": "Functions"
-          },
-          {
-            "slug": "named-arguments",
-            "depth": 2,
-            "value": "Named Arguments"
-          },
-          {
-            "slug": "control-flow-structure",
-            "depth": 2,
-            "value": "Control Flow Structure"
-          },
-          {
-            "slug": "comments",
-            "depth": 2,
-            "value": "Comments"
-          },
-          {
-            "slug": "include",
-            "depth": 2,
-            "value": "Include"
-          },
-          {
-            "slug": "extends",
-            "depth": 2,
-            "value": "Extends"
-          },
-          {
-            "slug": "template-inheritance",
-            "depth": 2,
-            "value": "Template Inheritance"
-          },
-          {
-            "slug": "manual-escaping",
-            "depth": 2,
-            "value": "Manual Escaping"
-          },
-          {
-            "slug": "macros-add-in-if-you-think-it-is-relevant",
-            "depth": 2,
-            "value": "Macros (add in if you think it is relevant)"
-          }
-        ]
-      }
-    },
-    {
       "key": "manual/TypeScript/Developers-Guide.md",
       "value": {
         "menu": "TypeScript",
@@ -28649,206 +28779,6 @@
             "slug": "resources",
             "depth": 2,
             "value": "Resources"
-          }
-        ]
-      }
-    },
-    {
-      "key": "manual/Unity/How-To-Make-A-Video-Game.md",
-      "value": {
-        "name": "How To Make A Video Game",
-        "menu": "Unity",
-        "id": "3acc627883ffdc51a196653a71832909",
-        "filepath": "manual/Unity/How-To-Make-A-Video-Game.md",
-        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Unity/How-To-Make-A-Video-Game.md",
-        "link": "",
-        "slug": "manual-unity-how-to-make-a-video-game",
-        "route": "/manual-unity-how-to-make-a-video-game",
-        "headings": [
-          {
-            "slug": "how-to-make-a-video-game",
-            "depth": 1,
-            "value": "How to make a video game"
-          },
-          {
-            "slug": "what-is-a-game-engine",
-            "depth": 3,
-            "value": "What is a game engine?"
-          },
-          {
-            "slug": "part-2",
-            "depth": 2,
-            "value": "Part 2"
-          },
-          {
-            "slug": "unity-interface",
-            "depth": 3,
-            "value": "Unity Interface"
-          },
-          {
-            "slug": "prefabs",
-            "depth": 4,
-            "value": "Prefabs"
-          },
-          {
-            "slug": "setup-the-project",
-            "depth": 3,
-            "value": "Setup the project"
-          },
-          {
-            "slug": "navigating-the-scene-view",
-            "depth": 3,
-            "value": "Navigating the Scene View"
-          },
-          {
-            "slug": "position-the-camera",
-            "depth": 3,
-            "value": "Position the camera"
-          },
-          {
-            "slug": "image-effects-and-asset-stores",
-            "depth": 3,
-            "value": "Image effects and asset stores"
-          },
-          {
-            "slug": "programming-games",
-            "depth": 2,
-            "value": "Programming Games"
-          },
-          {
-            "slug": "programming-with-c-with-unity",
-            "depth": 3,
-            "value": "Programming with C# with Unity"
-          },
-          {
-            "slug": "gather-player-input",
-            "depth": 3,
-            "value": "Gather Player Input"
-          },
-          {
-            "slug": "moving-a-player-with-animation",
-            "depth": 3,
-            "value": "Moving a player with animation"
-          },
-          {
-            "slug": "quaternions",
-            "depth": 3,
-            "value": "Quaternions"
-          },
-          {
-            "slug": "target-rotation",
-            "depth": 4,
-            "value": "Target rotation"
-          },
-          {
-            "slug": "making-a-follow-camera",
-            "depth": 3,
-            "value": "Making a follow camera"
-          },
-          {
-            "slug": "section-3",
-            "depth": 2,
-            "value": "Section 3"
-          },
-          {
-            "slug": "adding-the-flies-to-the-swamp",
-            "depth": 3,
-            "value": "Adding the flies to the swamp"
-          },
-          {
-            "slug": "adding-the-fly-pickup",
-            "depth": 3,
-            "value": "Adding the Fly Pickup"
-          },
-          {
-            "slug": "pickup-particles",
-            "depth": 4,
-            "value": "Pickup Particles"
-          },
-          {
-            "slug": "creating-the-enemy-in-the-game",
-            "depth": 3,
-            "value": "Creating the enemy in the game"
-          },
-          {
-            "slug": "monitor-player-health",
-            "depth": 3,
-            "value": "Monitor Player Health"
-          },
-          {
-            "slug": "managing-the-game-state",
-            "depth": 3,
-            "value": "Managing the game state"
-          },
-          {
-            "slug": "adding-audio",
-            "depth": 2,
-            "value": "Adding Audio"
-          },
-          {
-            "slug": "game-audio",
-            "depth": 3,
-            "value": "Game audio"
-          },
-          {
-            "slug": "controlling-sounds-on-game-objects",
-            "depth": 3,
-            "value": "Controlling sounds on game objects"
-          },
-          {
-            "slug": "audio-mixing",
-            "depth": 3,
-            "value": "Audio mixing"
-          },
-          {
-            "slug": "exporting-the-game",
-            "depth": 3,
-            "value": "Exporting the game"
-          }
-        ]
-      }
-    },
-    {
-      "key": "manual/Unity/Unity-Basics.md",
-      "value": {
-        "name": "Unity Basics",
-        "menu": "Unity",
-        "id": "d3c46979648f9df91b2482524fa86268",
-        "filepath": "manual/Unity/Unity-Basics.md",
-        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Unity/Unity-Basics.md",
-        "link": "",
-        "slug": "manual-unity-unity-basics",
-        "route": "/manual-unity-unity-basics",
-        "headings": [
-          {
-            "slug": "unity-basics",
-            "depth": 1,
-            "value": "Unity Basics"
-          },
-          {
-            "slug": "overview",
-            "depth": 3,
-            "value": "Overview"
-          },
-          {
-            "slug": "scene-view---navigation-and-positioning",
-            "depth": 3,
-            "value": "Scene View - Navigation and Positioning"
-          },
-          {
-            "slug": "scene-view-controls",
-            "depth": 3,
-            "value": "Scene View Controls"
-          },
-          {
-            "slug": "the-game-view",
-            "depth": 3,
-            "value": "The Game View"
-          },
-          {
-            "slug": "the-toolbar",
-            "depth": 3,
-            "value": "The Toolbar"
           }
         ]
       }
@@ -29059,6 +28989,291 @@
             "slug": "files-and-buffers",
             "depth": 2,
             "value": "Files and buffers"
+          }
+        ]
+      }
+    },
+    {
+      "key": "manual/Unity/How-To-Make-A-Video-Game.md",
+      "value": {
+        "name": "How To Make A Video Game",
+        "menu": "Unity",
+        "id": "3acc627883ffdc51a196653a71832909",
+        "filepath": "manual/Unity/How-To-Make-A-Video-Game.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Unity/How-To-Make-A-Video-Game.md",
+        "link": "",
+        "slug": "manual-unity-how-to-make-a-video-game",
+        "route": "/manual-unity-how-to-make-a-video-game",
+        "headings": [
+          {
+            "slug": "how-to-make-a-video-game",
+            "depth": 1,
+            "value": "How to make a video game"
+          },
+          {
+            "slug": "what-is-a-game-engine",
+            "depth": 3,
+            "value": "What is a game engine?"
+          },
+          {
+            "slug": "part-2",
+            "depth": 2,
+            "value": "Part 2"
+          },
+          {
+            "slug": "unity-interface",
+            "depth": 3,
+            "value": "Unity Interface"
+          },
+          {
+            "slug": "prefabs",
+            "depth": 4,
+            "value": "Prefabs"
+          },
+          {
+            "slug": "setup-the-project",
+            "depth": 3,
+            "value": "Setup the project"
+          },
+          {
+            "slug": "navigating-the-scene-view",
+            "depth": 3,
+            "value": "Navigating the Scene View"
+          },
+          {
+            "slug": "position-the-camera",
+            "depth": 3,
+            "value": "Position the camera"
+          },
+          {
+            "slug": "image-effects-and-asset-stores",
+            "depth": 3,
+            "value": "Image effects and asset stores"
+          },
+          {
+            "slug": "programming-games",
+            "depth": 2,
+            "value": "Programming Games"
+          },
+          {
+            "slug": "programming-with-c-with-unity",
+            "depth": 3,
+            "value": "Programming with C# with Unity"
+          },
+          {
+            "slug": "gather-player-input",
+            "depth": 3,
+            "value": "Gather Player Input"
+          },
+          {
+            "slug": "moving-a-player-with-animation",
+            "depth": 3,
+            "value": "Moving a player with animation"
+          },
+          {
+            "slug": "quaternions",
+            "depth": 3,
+            "value": "Quaternions"
+          },
+          {
+            "slug": "target-rotation",
+            "depth": 4,
+            "value": "Target rotation"
+          },
+          {
+            "slug": "making-a-follow-camera",
+            "depth": 3,
+            "value": "Making a follow camera"
+          },
+          {
+            "slug": "section-3",
+            "depth": 2,
+            "value": "Section 3"
+          },
+          {
+            "slug": "adding-the-flies-to-the-swamp",
+            "depth": 3,
+            "value": "Adding the flies to the swamp"
+          },
+          {
+            "slug": "adding-the-fly-pickup",
+            "depth": 3,
+            "value": "Adding the Fly Pickup"
+          },
+          {
+            "slug": "pickup-particles",
+            "depth": 4,
+            "value": "Pickup Particles"
+          },
+          {
+            "slug": "creating-the-enemy-in-the-game",
+            "depth": 3,
+            "value": "Creating the enemy in the game"
+          },
+          {
+            "slug": "monitor-player-health",
+            "depth": 3,
+            "value": "Monitor Player Health"
+          },
+          {
+            "slug": "managing-the-game-state",
+            "depth": 3,
+            "value": "Managing the game state"
+          },
+          {
+            "slug": "adding-audio",
+            "depth": 2,
+            "value": "Adding Audio"
+          },
+          {
+            "slug": "game-audio",
+            "depth": 3,
+            "value": "Game audio"
+          },
+          {
+            "slug": "controlling-sounds-on-game-objects",
+            "depth": 3,
+            "value": "Controlling sounds on game objects"
+          },
+          {
+            "slug": "audio-mixing",
+            "depth": 3,
+            "value": "Audio mixing"
+          },
+          {
+            "slug": "exporting-the-game",
+            "depth": 3,
+            "value": "Exporting the game"
+          }
+        ]
+      }
+    },
+    {
+      "key": "manual/Unity/Unity-Basics.md",
+      "value": {
+        "name": "Unity Basics",
+        "menu": "Unity",
+        "id": "d3c46979648f9df91b2482524fa86268",
+        "filepath": "manual/Unity/Unity-Basics.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Unity/Unity-Basics.md",
+        "link": "",
+        "slug": "manual-unity-unity-basics",
+        "route": "/manual-unity-unity-basics",
+        "headings": [
+          {
+            "slug": "unity-basics",
+            "depth": 1,
+            "value": "Unity Basics"
+          },
+          {
+            "slug": "overview",
+            "depth": 3,
+            "value": "Overview"
+          },
+          {
+            "slug": "scene-view---navigation-and-positioning",
+            "depth": 3,
+            "value": "Scene View - Navigation and Positioning"
+          },
+          {
+            "slug": "scene-view-controls",
+            "depth": 3,
+            "value": "Scene View Controls"
+          },
+          {
+            "slug": "the-game-view",
+            "depth": 3,
+            "value": "The Game View"
+          },
+          {
+            "slug": "the-toolbar",
+            "depth": 3,
+            "value": "The Toolbar"
+          }
+        ]
+      }
+    },
+    {
+      "key": "manual/Twig/Twig-Cheat-Sheet.md",
+      "value": {
+        "name": "Twig Cheat Sheet",
+        "menu": "Twig",
+        "id": "fa80cd9a6ca19447b9e8f3a0f2b288ca",
+        "filepath": "manual/Twig/Twig-Cheat-Sheet.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Twig/Twig-Cheat-Sheet.md",
+        "link": "",
+        "slug": "manual-twig-twig-cheat-sheet",
+        "route": "/manual-twig-twig-cheat-sheet",
+        "headings": [
+          {
+            "slug": "twig-cheat-sheet",
+            "depth": 1,
+            "value": "TWIG CHEAT SHEET"
+          },
+          {
+            "slug": "web-synopsis",
+            "depth": 2,
+            "value": "Web Synopsis"
+          },
+          {
+            "slug": "attributes",
+            "depth": 2,
+            "value": "Attributes"
+          },
+          {
+            "slug": "setting-variables",
+            "depth": 2,
+            "value": "Setting Variables"
+          },
+          {
+            "slug": "filters",
+            "depth": 2,
+            "value": "Filters"
+          },
+          {
+            "slug": "functions",
+            "depth": 2,
+            "value": "Functions"
+          },
+          {
+            "slug": "named-arguments",
+            "depth": 2,
+            "value": "Named Arguments"
+          },
+          {
+            "slug": "control-flow-structure",
+            "depth": 2,
+            "value": "Control Flow Structure"
+          },
+          {
+            "slug": "comments",
+            "depth": 2,
+            "value": "Comments"
+          },
+          {
+            "slug": "include",
+            "depth": 2,
+            "value": "Include"
+          },
+          {
+            "slug": "extends",
+            "depth": 2,
+            "value": "Extends"
+          },
+          {
+            "slug": "template-inheritance",
+            "depth": 2,
+            "value": "Template Inheritance"
+          },
+          {
+            "slug": "manual-escaping",
+            "depth": 2,
+            "value": "Manual Escaping"
+          },
+          {
+            "slug": "macros-add-in-if-you-think-it-is-relevant",
+            "depth": 2,
+            "value": "Macros (add in if you think it is relevant)"
           }
         ]
       }
