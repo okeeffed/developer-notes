@@ -16,7 +16,7 @@ const stubProps = {
   isArchiveable: false,
   editAction: jest.fn(),
   archiveAction: jest.fn(),
-  deleteAction: jest.fn()
+  deleteAction: jest.fn(),
 };
 
 const Wrapper = (props: any = {}) => <TeamDropdown {...stubProps} {...props} />;
@@ -57,6 +57,45 @@ describe('team dropdown state', () => {
     fireEvent.click(component.getByText('Open menu'));
     fireEvent.click(component.getByText('Delete'));
     expect(stubProps.deleteAction).toBeCalled();
+  });
+});
+```
+
+## Mocking
+
+```typescript
+// Component.tsx
+// super basic example w/ no types
+import useAPIHook from 'path/to/hook';
+const Component = () => {
+  const { data, loading } = useAPIHook(); // whatever you are getting destructured from the hook
+
+  if (loading) return <p data-automation-id="example-loading">Loading</p>;
+
+  return <p data-automation-id="example-data">Doing cool stuff with {data}</p>;
+};
+
+// Component.test.tsx
+import Component from 'path/to/component';
+import useAPIHook from 'path/to/hook';
+jest.mock('path/to/hook');
+describe('useful description', () => {
+  test('component does this when data available', async () => {
+    useAPIHook.mockImplementation(() => ({
+      data: 'mocks',
+      loading: false,
+    }));
+    const { getByTestId } = await render(<Component />);
+    expect(getByTestId('example-data')).toBeTruthy();
+  });
+
+  test('component shows loading when API loading', async () => {
+    useAPIHook.mockImplementation(() => ({
+      data: 'mocks',
+      loading: true,
+    }));
+    const { getByTestId } = await render(<Component />);
+    expect(getByTestId('example-loading')).toBeTruthy();
   });
 });
 ```
