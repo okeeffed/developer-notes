@@ -9,3 +9,11 @@ factorial n = n * factorial (n - 1)
 test :: [a] -> a
 test [] = error "Can't do this"
 test (x:_) = x
+
+sayHello :: String -> IO ()
+sayHello x =
+  putStrLn ("Hello, " ++ x ++ "!")
+
+data Bool3 = True | False
+takeBool :: Bool3 -> Bool3
+takeBool x = x

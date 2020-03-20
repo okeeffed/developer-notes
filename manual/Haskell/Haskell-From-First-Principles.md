@@ -105,3 +105,217 @@ Not all reducible lambda terms reduce neatly to a beta normal form. Reducing the
 <BlockMath math="(\lambda x.xx)(\lambda x.xx)" />
 <BlockMath math="(x := \lambda x.xx|xx)" />
 <BlockMath math="(\lambda x.xx)(\lambda x.xx)" />
+
+## Hello, Haskell!
+
+```haskell
+-- Say Hello
+sayHello :: String -> IO ()
+sayHello x =
+  putStrLn ("Hello, " ++ x ++ "!")
+```
+
+If in the `stack ghci` REPL, you can unload the file using `:m` and reload updated files using `:r`.
+
+### Normal Form Reminder
+
+Haskell reduces until we reach the normal form. Remember, `1 + 1` can be evaluated to `2`, thus Haskell returns the normal form.
+
+## Redexes
+
+Reducibles expressions such as `1 + 1` are also known as `redexes`. While we generally refer to this process as evaluation or reduction, you may also hear of it as `normalizing` or `executing` an expression (though somewhat imprecise).
+
+## Functions
+
+Functions are a specific type of expression. Functions in Haskell relate to functions in mathematics - they map an input or set of inputs to an output.
+
+Because they are built purely of expressions, they will always evaluate to the same result when given the same values.
+
+> As with Lambda Calculus, all functions in Haskell take one argument and return one result. Even when it seems we are passing multiple arguments, we are actually applying a series of nested functions (each to one argument). This is called `currying`.
+
+```haskell
+-- in GHCi REPL
+let triple x = x * 3
+-- in source file
+triple :: Number -> Number
+triple x = x * 3
+```
+
+## Evaluation
+
+When we talk about evaluating an expression, we're talking about reducing the terms until it is in the simplest form. We say it is `irreducible` or finished evaluating.
+
+Haskell uses `nonstrict evaluation` (sometimes called `lazy evaluation`) stategy which defers evaluations of terms until they're forced by other terms referring so them.
+
+Here is the reduction of our `triple` function:
+
+```haskell
+triple 2
+-- [triple x = x * 3; x:= 2]
+2 * 3
+6
+```
+
+The above is reduced to its normal form, however Haskell only evalutes is weak head normal form (WHNF) but default. This means things are not always reduced to its irreducible form straight away.
+
+`(\f -> (1, 2 + f)) 2` reduces to the following in WHNF `(1, 2 + 2)` before it is evaluated further.
+
+## Infix Operators
+
+Functions in Haskell default to prefix syntax (like the `triple` func above).
+
+Operators for example are functions that can be used in the infix style.
+
+You can sometimes use functions infix style with a small change in syntax:
+
+```haskell
+10 `div` 4
+div 10 4
+(/) 10 4
+2.5
+```
+
+If the function is alphanumeric, it is prefix by default. If it is a symbol, it is infix by default.
+
+## Associativity and precedence
+
+This BODMAS (from Mathematics) for precedence.
+
+We can use `:info` to get more info about an operator.
+
+```haskell
+Prelude> :i (/) (+) (-)
+class Num a => Fractional a where
+  (/) :: a -> a -> a
+  ...
+        -- Defined in ‘GHC.Real’
+infixl 7 /
+class Num a where
+  (+) :: a -> a -> a
+  ...
+        -- Defined in ‘GHC.Num’
+infixl 6 +
+class Num a where
+  ...
+  (-) :: a -> a -> a
+  ...
+        -- Defined in ‘GHC.Num’
+infixl 6 -
+```
+
+- `infixl` means infix operator and left associative
+- `7|6` is the precendence - higher is applied first
+- The last part is the function name (in this case the `/`, `+` and `-`)
+
+An example of a right-associative infix operator is the power operator `^`.
+
+## Declaring values
+
+```haskell
+-- in the REPL
+Prelude> let y = 10
+Prelude> let x = 10 * 5 + y
+Prelude> let myResult = x * 5
+-- in a file
+-- learn.hs
+module Learn where
+x = 10 * 5 + y
+myResult = x * 5
+y = 10
+```
+
+## \$ Operator
+
+The (\$) operator is a convenience for when you want to express something with fewer pairs of parentheses:
+
+```haskell
+ -- Remember ($)'s definition
+f $ a = f a
+-- in use
+Prelude> (2^) (2 + 2)
+16
+-- can replace those parentheses
+ Prelude> (2^) $ 2 + 2
+16
+-- without either parentheses or $
+ Prelude> (2^) 2 + 2
+ 6
+```
+
+The (\$) will allow everything to the right of it to be evaluated first and can be used to delay function application.
+
+## Let and where
+
+The contrast here is that let introduces an expression, so it can be used wherever you can have an expression, but where is a declaration and is bound to a surrounding syntactic construct.
+
+```haskell
+-- FunctionWithWhere.hs
+module FunctionWithWhere where
+
+printInc n = print plusTwo
+  where plusTwo = n + 2
+
+
+printInc2 n = let plusTwo = n + 2
+  in print plusTwo
+```
+
+## Strings
+
+```haskell
+Prelude> :type 'a'
+'a' :: Char
+Prelude> :type "Hello!"
+"Hello!" :: [Char]
+```
+
+To print strings we can use `print` in the REPL or `putStrLn` and `putStr` for our Haskell modules.
+
+Mutliline "do" can be done like so:
+
+```haskell
+-- print2.hs
+module Print2 where
+main :: IO () main = do
+  putStrLn "Count to four for me:"
+  putStr   "one, two"
+  putStr   ", three, and"
+  putStrLn " four!"
+```
+
+String concatenation:
+
+```haskell
+-- print3.hs
+module Print3 where
+
+myGreeting :: String
+myGreeting = "hello" ++ " world!" hello :: String
+
+hello = "hello" world :: String
+world = "world!"
+
+main :: IO () main = do
+  putStrLn myGreeting
+  putStrLn secondGreeting
+  where secondGreeting =
+    concat [hello, " ", world]
+```
+
+## Top-level versus local definitions
+
+```haskell
+module TopOrLocal where
+
+topLevelFunction :: Integer -> Integer topLevelFunction x =
+  x + woot + topLevelValue
+  where woot :: Integer
+        woot = 10
+
+topLevelValue :: Integer
+topLevelValue = 5
+```
+
+## Basic Datatypes
+
+The type constructor is the name of the type and is capitalized. When you are reading or writing type signatures (the type level of your code), the type names or type constructors are what you use.
