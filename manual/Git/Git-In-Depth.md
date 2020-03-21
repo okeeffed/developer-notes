@@ -10,6 +10,7 @@ These are notes taken from the Front End Masters course.
 ## Resources
 
 1. [Course online](https://frontendmasters.com/courses/git-in-depth/)
+2. [Contributing from a fork GitHub workflow](https://gist.github.com/Chaser324/ce0505fbed06b947d962)
 
 ## Git Foundations
 
@@ -395,3 +396,38 @@ The power of rebasing comes from replaying commits. Commits can be edited, remov
 | squash | Combine this commit with the previous one, stop to edit message |
 | fixup  | Combine this with prev commit, and keep prev commit message     |
 | exec   | Run the command on this line after picking the prev commit      |
+
+A worthwhile tip is to create a branch prior to any rebase.
+
+## Forks and Remotes
+
+| Term         | Definition                                                      |
+| ------------ | --------------------------------------------------------------- |
+| Fork         | A copy of a GitHub repo that is kept in your repository         |
+| Pull Request | A request to merge your changes                                 |
+| Upstream     | A base repository that enables you to keep your fork up to date |
+
+It generally follows the "triangular workflow".
+
+`git branch -vv` will show you which upstream or remote branch you are tracking on your local branch.
+
+Git fetch is important to keep local up to date and pulls all the changes. Git pull will do a fetch and then a merge.
+
+To see which commits haven't been pushed to upstream yet, use `git cherry -v`.
+
+For information on the general workflow for forking, working and then submitted a PR, checkout this [GitHub resource](https://gist.github.com/Chaser324/ce0505fbed06b947d962).
+
+## GitHub
+
+| Shortcut | Does                         |
+| -------- | ---------------------------- |
+| gc       | Go to code                   |
+| gi       | Go to issues                 |
+| gp       | Go to PRs                    |
+| gb       | Go to projects               |
+| gw       | Go to Wiki                   |
+| t        | Activates the file finder    |
+| l        | Jump to line                 |
+| w        | Switch branch/tag            |
+| y        | Expand URL to canonical form |
+| i        | Show/hide inline notes       |
