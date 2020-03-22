@@ -14,6 +14,7 @@ This course looks deep into understanding state, the inner workings of `this.set
 3. [GitHub resource for course](https://github.com/stevekinney/react-state-management)
 4. [Github code for Grude list](https://github.com/stevekinney/grudges-react-state)
 5. [Star Wars character state](https://github.com/stevekinney/star-wars-characters-react-state)
+6. [Collection of React Hooks](https://nikgraf.github.io/react-hooks/)
 
 ## Types of State
 
