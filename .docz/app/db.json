@@ -1487,6 +1487,111 @@
       }
     },
     {
+      "key": "manual/Amplify/Adding-Storage.md",
+      "value": {
+        "name": "Adding Storage",
+        "menu": "Amplify",
+        "id": "13f8980edfad7ad84d3e5c806137b3d0",
+        "filepath": "manual/Amplify/Adding-Storage.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Amplify/Adding-Storage.md",
+        "link": "",
+        "slug": "manual-amplify-adding-storage",
+        "route": "/manual-amplify-adding-storage",
+        "headings": [
+          {
+            "slug": "adding-storage-to-amplify",
+            "depth": 1,
+            "value": "Adding Storage to Amplify"
+          },
+          {
+            "slug": "useful-links",
+            "depth": 2,
+            "value": "Useful links"
+          }
+        ]
+      }
+    },
+    {
+      "key": "manual/Amplify/Facebook-Login.md",
+      "value": {
+        "name": "Facebook Login",
+        "menu": "Amplify",
+        "id": "d9b06784265069da65ddeedf4841ffd4",
+        "filepath": "manual/Amplify/Facebook-Login.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Amplify/Facebook-Login.md",
+        "link": "",
+        "slug": "manual-amplify-facebook-login",
+        "route": "/manual-amplify-facebook-login",
+        "headings": [
+          {
+            "slug": "facebook-login",
+            "depth": 1,
+            "value": "Facebook Login"
+          },
+          {
+            "slug": "tldr",
+            "depth": 2,
+            "value": "tl;dr"
+          }
+        ]
+      }
+    },
+    {
+      "key": "manual/Amplify/Graphql-Setup.md",
+      "value": {
+        "name": "Graphql Setup",
+        "menu": "Amplify",
+        "id": "c20b92610138602837f77a3da16b8ebb",
+        "filepath": "manual/Amplify/Graphql-Setup.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Amplify/Graphql-Setup.md",
+        "link": "",
+        "slug": "manual-amplify-graphql-setup",
+        "route": "/manual-amplify-graphql-setup",
+        "headings": [
+          {
+            "slug": "graphql-setup",
+            "depth": 1,
+            "value": "GraphQL Setup"
+          },
+          {
+            "slug": "links",
+            "depth": 2,
+            "value": "Links"
+          },
+          {
+            "slug": "to-get-it-running",
+            "depth": 2,
+            "value": "To get it running"
+          },
+          {
+            "slug": "example-schema",
+            "depth": 3,
+            "value": "Example schema"
+          },
+          {
+            "slug": "example-mutation",
+            "depth": 3,
+            "value": "Example mutation"
+          },
+          {
+            "slug": "example-query",
+            "depth": 3,
+            "value": "Example query"
+          },
+          {
+            "slug": "autogenerating-code-for-the-schema",
+            "depth": 2,
+            "value": "Autogenerating code for the schema"
+          },
+          {
+            "slug": "1-many-many-to-many-relationship-schemas",
+            "depth": 2,
+            "value": "1-many, many-to-many relationship schemas"
+          }
+        ]
+      }
+    },
+    {
       "key": "manual/Algebra/Intro.md",
       "value": {
         "menu": "Algebra",
@@ -3007,111 +3112,6 @@
       }
     },
     {
-      "key": "manual/Amplify/Adding-Storage.md",
-      "value": {
-        "name": "Adding Storage",
-        "menu": "Amplify",
-        "id": "13f8980edfad7ad84d3e5c806137b3d0",
-        "filepath": "manual/Amplify/Adding-Storage.md",
-        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Amplify/Adding-Storage.md",
-        "link": "",
-        "slug": "manual-amplify-adding-storage",
-        "route": "/manual-amplify-adding-storage",
-        "headings": [
-          {
-            "slug": "adding-storage-to-amplify",
-            "depth": 1,
-            "value": "Adding Storage to Amplify"
-          },
-          {
-            "slug": "useful-links",
-            "depth": 2,
-            "value": "Useful links"
-          }
-        ]
-      }
-    },
-    {
-      "key": "manual/Amplify/Facebook-Login.md",
-      "value": {
-        "name": "Facebook Login",
-        "menu": "Amplify",
-        "id": "d9b06784265069da65ddeedf4841ffd4",
-        "filepath": "manual/Amplify/Facebook-Login.md",
-        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Amplify/Facebook-Login.md",
-        "link": "",
-        "slug": "manual-amplify-facebook-login",
-        "route": "/manual-amplify-facebook-login",
-        "headings": [
-          {
-            "slug": "facebook-login",
-            "depth": 1,
-            "value": "Facebook Login"
-          },
-          {
-            "slug": "tldr",
-            "depth": 2,
-            "value": "tl;dr"
-          }
-        ]
-      }
-    },
-    {
-      "key": "manual/Amplify/Graphql-Setup.md",
-      "value": {
-        "name": "Graphql Setup",
-        "menu": "Amplify",
-        "id": "c20b92610138602837f77a3da16b8ebb",
-        "filepath": "manual/Amplify/Graphql-Setup.md",
-        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Amplify/Graphql-Setup.md",
-        "link": "",
-        "slug": "manual-amplify-graphql-setup",
-        "route": "/manual-amplify-graphql-setup",
-        "headings": [
-          {
-            "slug": "graphql-setup",
-            "depth": 1,
-            "value": "GraphQL Setup"
-          },
-          {
-            "slug": "links",
-            "depth": 2,
-            "value": "Links"
-          },
-          {
-            "slug": "to-get-it-running",
-            "depth": 2,
-            "value": "To get it running"
-          },
-          {
-            "slug": "example-schema",
-            "depth": 3,
-            "value": "Example schema"
-          },
-          {
-            "slug": "example-mutation",
-            "depth": 3,
-            "value": "Example mutation"
-          },
-          {
-            "slug": "example-query",
-            "depth": 3,
-            "value": "Example query"
-          },
-          {
-            "slug": "autogenerating-code-for-the-schema",
-            "depth": 2,
-            "value": "Autogenerating code for the schema"
-          },
-          {
-            "slug": "1-many-many-to-many-relationship-schemas",
-            "depth": 2,
-            "value": "1-many, many-to-many relationship schemas"
-          }
-        ]
-      }
-    },
-    {
       "key": "manual/Angular/Angular-Basics.md",
       "value": {
         "name": "Angular Basics",
@@ -3547,26 +3547,6 @@
             "slug": "hadoop-ecosystem",
             "depth": 2,
             "value": "Hadoop Ecosystem"
-          }
-        ]
-      }
-    },
-    {
-      "key": "manual/Bots/API-AI-Bot.md",
-      "value": {
-        "name": "API AI Bot",
-        "menu": "Bots",
-        "id": "5eef383e7db2a0a3816a272e1285e644",
-        "filepath": "manual/Bots/API-AI-Bot.md",
-        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Bots/API-AI-Bot.md",
-        "link": "",
-        "slug": "manual-bots-api-ai-bot",
-        "route": "/manual-bots-api-ai-bot",
-        "headings": [
-          {
-            "slug": "apiai-bots",
-            "depth": 1,
-            "value": "API.ai Bots"
           }
         ]
       }
@@ -4612,6 +4592,26 @@
             "slug": "the-sunny-side-of-death",
             "depth": 3,
             "value": "The Sunny Side of Death"
+          }
+        ]
+      }
+    },
+    {
+      "key": "manual/Bots/API-AI-Bot.md",
+      "value": {
+        "name": "API AI Bot",
+        "menu": "Bots",
+        "id": "5eef383e7db2a0a3816a272e1285e644",
+        "filepath": "manual/Bots/API-AI-Bot.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Bots/API-AI-Bot.md",
+        "link": "",
+        "slug": "manual-bots-api-ai-bot",
+        "route": "/manual-bots-api-ai-bot",
+        "headings": [
+          {
+            "slug": "apiai-bots",
+            "depth": 1,
+            "value": "API.ai Bots"
           }
         ]
       }
@@ -11101,6 +11101,111 @@
       }
     },
     {
+      "key": "manual/Functional-Programming/Hardcore-FP-In-JavaScript.md",
+      "value": {
+        "menu": "Functional Programming",
+        "name": "Hardcore FP in JavaScript",
+        "id": "0df465cb21af87960831b8730bfa4951",
+        "filepath": "manual/Functional-Programming/Hardcore-FP-In-JavaScript.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Functional-Programming/Hardcore-FP-In-JavaScript.md",
+        "link": "",
+        "slug": "manual-functional-programming-hardcore-fp-in-java-script",
+        "route": "/manual-functional-programming-hardcore-fp-in-java-script",
+        "headings": [
+          {
+            "slug": "hardcore-functional-programming-in-javascrpt",
+            "depth": 1,
+            "value": "Hardcore Functional Programming in JavaScrpt"
+          },
+          {
+            "slug": "resources",
+            "depth": 2,
+            "value": "Resources"
+          },
+          {
+            "slug": "introduction",
+            "depth": 2,
+            "value": "Introduction"
+          },
+          {
+            "slug": "omit-needless-names",
+            "depth": 3,
+            "value": "Omit Needless Names"
+          },
+          {
+            "slug": "separating-mutation-from-calculation",
+            "depth": 3,
+            "value": "Separating Mutation From Calculation"
+          },
+          {
+            "slug": "recognize-pure-functions",
+            "depth": 3,
+            "value": "Recognize Pure Functions"
+          },
+          {
+            "slug": "separate-functions-from-rules",
+            "depth": 3,
+            "value": "Separate Functions From Rules"
+          },
+          {
+            "slug": "compose",
+            "depth": 3,
+            "value": "Compose"
+          },
+          {
+            "slug": "point-free",
+            "depth": 3,
+            "value": "Point Free"
+          },
+          {
+            "slug": "the-voyage",
+            "depth": 2,
+            "value": "The Voyage"
+          },
+          {
+            "slug": "category-theory",
+            "depth": 3,
+            "value": "Category Theory"
+          },
+          {
+            "slug": "objects",
+            "depth": 3,
+            "value": "Objects"
+          },
+          {
+            "slug": "maybe-functor",
+            "depth": 3,
+            "value": "Maybe Functor"
+          },
+          {
+            "slug": "either-w-subclasses-left-or-right",
+            "depth": 3,
+            "value": "Either w/ subclasses Left or Right"
+          },
+          {
+            "slug": "io",
+            "depth": 3,
+            "value": "IO"
+          },
+          {
+            "slug": "other-functors",
+            "depth": 3,
+            "value": "Other Functors"
+          },
+          {
+            "slug": "functor-law-properties",
+            "depth": 3,
+            "value": "Functor Law Properties"
+          },
+          {
+            "slug": "monads",
+            "depth": 3,
+            "value": "Monads"
+          }
+        ]
+      }
+    },
+    {
       "key": "manual/Functional-Programming/Intro.md",
       "value": {
         "menu": "Functional Programming",
@@ -11231,6 +11336,216 @@
             "slug": "reset-and-reflog",
             "depth": 2,
             "value": "Reset and Reflog"
+          }
+        ]
+      }
+    },
+    {
+      "key": "manual/Git/Git-In-Depth.md",
+      "value": {
+        "menu": "Git",
+        "name": "Git Indepth",
+        "id": "6935e49a072ab8876597d5af7dacd6ec",
+        "filepath": "manual/Git/Git-In-Depth.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Git/Git-In-Depth.md",
+        "link": "",
+        "slug": "manual-git-git-in-depth",
+        "route": "/manual-git-git-in-depth",
+        "headings": [
+          {
+            "slug": "git-indepth-course",
+            "depth": 1,
+            "value": "Git Indepth Course"
+          },
+          {
+            "slug": "resources",
+            "depth": 2,
+            "value": "Resources"
+          },
+          {
+            "slug": "git-foundations",
+            "depth": 2,
+            "value": "Git Foundations"
+          },
+          {
+            "slug": "data-storage",
+            "depth": 3,
+            "value": "Data Storage"
+          },
+          {
+            "slug": "git-blobs",
+            "depth": 3,
+            "value": "Git Blobs"
+          },
+          {
+            "slug": "asking-git-for-hash-object",
+            "depth": 3,
+            "value": "Asking Git for Hash-Object"
+          },
+          {
+            "slug": "git-trees",
+            "depth": 3,
+            "value": "Git Trees"
+          },
+          {
+            "slug": "other-optimisations",
+            "depth": 3,
+            "value": "Other optimisations"
+          },
+          {
+            "slug": "bonus-navigating-less-tips",
+            "depth": 3,
+            "value": "Bonus: Navigating less tips"
+          },
+          {
+            "slug": "git-areas-and-stashing",
+            "depth": 2,
+            "value": "Git Areas and Stashing"
+          },
+          {
+            "slug": "working-area-staging-area--repository",
+            "depth": 3,
+            "value": "Working Area, Staging Area + Repository"
+          },
+          {
+            "slug": "the-working-area",
+            "depth": 3,
+            "value": "The Working Area"
+          },
+          {
+            "slug": "the-staging-area",
+            "depth": 3,
+            "value": "The Staging Area"
+          },
+          {
+            "slug": "the-repository",
+            "depth": 3,
+            "value": "The Repository"
+          },
+          {
+            "slug": "git-stash",
+            "depth": 3,
+            "value": "Git Stash"
+          },
+          {
+            "slug": "references-commits-branches",
+            "depth": 2,
+            "value": "References, Commits, Branches"
+          },
+          {
+            "slug": "what-is-a-branch",
+            "depth": 3,
+            "value": "What is a branch?"
+          },
+          {
+            "slug": "what-is-head",
+            "depth": 3,
+            "value": "What is HEAD?"
+          },
+          {
+            "slug": "tags-and-annotated-tags",
+            "depth": 3,
+            "value": "Tags and Annotated Tags"
+          },
+          {
+            "slug": "detached-head--dangling-commits",
+            "depth": 3,
+            "value": "Detached Head & Dangling Commits"
+          },
+          {
+            "slug": "dangling-commits",
+            "depth": 3,
+            "value": "Dangling Commits"
+          },
+          {
+            "slug": "merging-and-rebasing",
+            "depth": 2,
+            "value": "Merging and Rebasing"
+          },
+          {
+            "slug": "what-is-a-fast-forward",
+            "depth": 3,
+            "value": "What is a Fast-Forward?"
+          },
+          {
+            "slug": "merge-conflicts",
+            "depth": 3,
+            "value": "Merge Conflicts"
+          },
+          {
+            "slug": "history-and-diffs",
+            "depth": 2,
+            "value": "History and Diffs"
+          },
+          {
+            "slug": "commits-messages",
+            "depth": 3,
+            "value": "Commits Messages"
+          },
+          {
+            "slug": "git-log",
+            "depth": 3,
+            "value": "Git Log"
+          },
+          {
+            "slug": "referencing-commits",
+            "depth": 3,
+            "value": "Referencing Commits"
+          },
+          {
+            "slug": "git-show-and-diffs",
+            "depth": 3,
+            "value": "Git Show and Diffs"
+          },
+          {
+            "slug": "fixing-mistakes",
+            "depth": 2,
+            "value": "Fixing Mistakes"
+          },
+          {
+            "slug": "git-checkout",
+            "depth": 3,
+            "value": "Git Checkout"
+          },
+          {
+            "slug": "git-clean",
+            "depth": 3,
+            "value": "Git Clean"
+          },
+          {
+            "slug": "git-reset",
+            "depth": 3,
+            "value": "Git Reset"
+          },
+          {
+            "slug": "git-revert",
+            "depth": 3,
+            "value": "Git Revert"
+          },
+          {
+            "slug": "rebase-and-amend",
+            "depth": 2,
+            "value": "Rebase and Amend"
+          },
+          {
+            "slug": "amending-a-commit",
+            "depth": 3,
+            "value": "Amending a commit"
+          },
+          {
+            "slug": "rebasing",
+            "depth": 3,
+            "value": "Rebasing"
+          },
+          {
+            "slug": "forks-and-remotes",
+            "depth": 2,
+            "value": "Forks and Remotes"
+          },
+          {
+            "slug": "github",
+            "depth": 2,
+            "value": "GitHub"
           }
         ]
       }
@@ -12441,6 +12756,46 @@
       }
     },
     {
+      "key": "manual/Haskell/HackerRank-Notes.md",
+      "value": {
+        "menu": "Haskell",
+        "name": "HackerRank Notes",
+        "id": "dcb55751b3d23f1bb7e3a9f0fcb57977",
+        "filepath": "manual/Haskell/HackerRank-Notes.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Haskell/HackerRank-Notes.md",
+        "link": "",
+        "slug": "manual-haskell-hacker-rank-notes",
+        "route": "/manual-haskell-hacker-rank-notes",
+        "headings": [
+          {
+            "slug": "hackerrank-notes",
+            "depth": 1,
+            "value": "HackerRank Notes"
+          },
+          {
+            "slug": "hello-world",
+            "depth": 2,
+            "value": "Hello, World!"
+          },
+          {
+            "slug": "looped-hello-world",
+            "depth": 2,
+            "value": "Looped Hello, World!"
+          },
+          {
+            "slug": "print-a-number-n-times",
+            "depth": 2,
+            "value": "Print a number n times"
+          },
+          {
+            "slug": "write-your-own-filter",
+            "depth": 2,
+            "value": "Write your own filter"
+          }
+        ]
+      }
+    },
+    {
       "key": "manual/Haskell/Haskell-From-First-Principles.md",
       "value": {
         "menu": "Haskell",
@@ -12511,6 +12866,71 @@
             "slug": "divergence",
             "depth": 2,
             "value": "Divergence"
+          },
+          {
+            "slug": "hello-haskell",
+            "depth": 2,
+            "value": "Hello, Haskell!"
+          },
+          {
+            "slug": "normal-form-reminder",
+            "depth": 3,
+            "value": "Normal Form Reminder"
+          },
+          {
+            "slug": "redexes",
+            "depth": 2,
+            "value": "Redexes"
+          },
+          {
+            "slug": "functions",
+            "depth": 2,
+            "value": "Functions"
+          },
+          {
+            "slug": "evaluation",
+            "depth": 2,
+            "value": "Evaluation"
+          },
+          {
+            "slug": "infix-operators",
+            "depth": 2,
+            "value": "Infix Operators"
+          },
+          {
+            "slug": "associativity-and-precedence",
+            "depth": 2,
+            "value": "Associativity and precedence"
+          },
+          {
+            "slug": "declaring-values",
+            "depth": 2,
+            "value": "Declaring values"
+          },
+          {
+            "slug": "-operator",
+            "depth": 2,
+            "value": "\\$ Operator"
+          },
+          {
+            "slug": "let-and-where",
+            "depth": 2,
+            "value": "Let and where"
+          },
+          {
+            "slug": "strings",
+            "depth": 2,
+            "value": "Strings"
+          },
+          {
+            "slug": "top-level-versus-local-definitions",
+            "depth": 2,
+            "value": "Top-level versus local definitions"
+          },
+          {
+            "slug": "basic-datatypes",
+            "depth": 2,
+            "value": "Basic Datatypes"
           }
         ]
       }
@@ -14375,6 +14795,26 @@
             "slug": "javascript-grid-alignment-cheat-sheet",
             "depth": 1,
             "value": "JavaScript Grid Alignment Cheat Sheet"
+          }
+        ]
+      }
+    },
+    {
+      "key": "manual/Jest/Extending-Jest.md",
+      "value": {
+        "menu": "Jest",
+        "name": "Extending Jest",
+        "id": "5f9e28f60826ef5969df79924e410034",
+        "filepath": "manual/Jest/Extending-Jest.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Jest/Extending-Jest.md",
+        "link": "",
+        "slug": "manual-jest-extending-jest",
+        "route": "/manual-jest-extending-jest",
+        "headings": [
+          {
+            "slug": "extending-jest",
+            "depth": 1,
+            "value": "Extending Jest"
           }
         ]
       }
@@ -19175,6 +19615,26 @@
       }
     },
     {
+      "key": "manual/Machine-Learning-Algos/K-Nearest-Neighbours.md",
+      "value": {
+        "name": "K-Nearest Neighbours",
+        "menu": "Machine Learning Algos",
+        "id": "15ad57c7d2bdee4df66448a27d9d4ad1",
+        "filepath": "manual/Machine-Learning-Algos/K-Nearest-Neighbours.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Machine-Learning-Algos/K-Nearest-Neighbours.md",
+        "link": "",
+        "slug": "manual-machine-learning-algos-k-nearest-neighbours",
+        "route": "/manual-machine-learning-algos-k-nearest-neighbours",
+        "headings": [
+          {
+            "slug": "k-nearest-neighbours",
+            "depth": 1,
+            "value": "K-Nearest Neighbours"
+          }
+        ]
+      }
+    },
+    {
       "key": "manual/Mathematics/Mathematics-Introduction.md",
       "value": {
         "menu": "Mathematics",
@@ -19235,26 +19695,6 @@
             "slug": "definition",
             "depth": 2,
             "value": "Definition"
-          }
-        ]
-      }
-    },
-    {
-      "key": "manual/Machine-Learning-Algos/K-Nearest-Neighbours.md",
-      "value": {
-        "name": "K-Nearest Neighbours",
-        "menu": "Machine Learning Algos",
-        "id": "15ad57c7d2bdee4df66448a27d9d4ad1",
-        "filepath": "manual/Machine-Learning-Algos/K-Nearest-Neighbours.md",
-        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Machine-Learning-Algos/K-Nearest-Neighbours.md",
-        "link": "",
-        "slug": "manual-machine-learning-algos-k-nearest-neighbours",
-        "route": "/manual-machine-learning-algos-k-nearest-neighbours",
-        "headings": [
-          {
-            "slug": "k-nearest-neighbours",
-            "depth": 1,
-            "value": "K-Nearest Neighbours"
           }
         ]
       }
@@ -20055,66 +20495,6 @@
       }
     },
     {
-      "key": "manual/OSI-Model/What-Is-OSI.md",
-      "value": {
-        "name": "What is OSI?",
-        "menu": "OSI Model",
-        "id": "20cdc53351babc95094e6e0e58d67d12",
-        "filepath": "manual/OSI-Model/What-Is-OSI.md",
-        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/OSI-Model/What-Is-OSI.md",
-        "link": "",
-        "slug": "manual-osi-model-what-is-osi",
-        "route": "/manual-osi-model-what-is-osi",
-        "headings": [
-          {
-            "slug": "what-is-osi",
-            "depth": 1,
-            "value": "What is OSI?"
-          },
-          {
-            "slug": "osi-mnemonics",
-            "depth": 2,
-            "value": "OSI Mnemonics"
-          },
-          {
-            "slug": "osi-layers-in-network-traffic",
-            "depth": 2,
-            "value": "OSI Layers in Network Traffic"
-          },
-          {
-            "slug": "layer-1-physical",
-            "depth": 3,
-            "value": "Layer 1: Physical"
-          },
-          {
-            "slug": "layer-2-data-link",
-            "depth": 3,
-            "value": "Layer 2: Data Link"
-          },
-          {
-            "slug": "layer-3-network",
-            "depth": 3,
-            "value": "Layer 3: Network"
-          },
-          {
-            "slug": "layer-4-transport",
-            "depth": 3,
-            "value": "Layer 4: Transport"
-          },
-          {
-            "slug": "layer-5-7-application-presentation-session",
-            "depth": 3,
-            "value": "Layer 5-7: Application, Presentation, Session"
-          },
-          {
-            "slug": "data-in-a-tcpip-example",
-            "depth": 2,
-            "value": "Data in a TCP/IP Example"
-          }
-        ]
-      }
-    },
-    {
       "key": "manual/Nodejs/Async-Hooks.md",
       "value": {
         "menu": "Nodejs",
@@ -20310,6 +20690,66 @@
             "slug": "client-server",
             "depth": 2,
             "value": "Client server"
+          }
+        ]
+      }
+    },
+    {
+      "key": "manual/OSI-Model/What-Is-OSI.md",
+      "value": {
+        "name": "What is OSI?",
+        "menu": "OSI Model",
+        "id": "20cdc53351babc95094e6e0e58d67d12",
+        "filepath": "manual/OSI-Model/What-Is-OSI.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/OSI-Model/What-Is-OSI.md",
+        "link": "",
+        "slug": "manual-osi-model-what-is-osi",
+        "route": "/manual-osi-model-what-is-osi",
+        "headings": [
+          {
+            "slug": "what-is-osi",
+            "depth": 1,
+            "value": "What is OSI?"
+          },
+          {
+            "slug": "osi-mnemonics",
+            "depth": 2,
+            "value": "OSI Mnemonics"
+          },
+          {
+            "slug": "osi-layers-in-network-traffic",
+            "depth": 2,
+            "value": "OSI Layers in Network Traffic"
+          },
+          {
+            "slug": "layer-1-physical",
+            "depth": 3,
+            "value": "Layer 1: Physical"
+          },
+          {
+            "slug": "layer-2-data-link",
+            "depth": 3,
+            "value": "Layer 2: Data Link"
+          },
+          {
+            "slug": "layer-3-network",
+            "depth": 3,
+            "value": "Layer 3: Network"
+          },
+          {
+            "slug": "layer-4-transport",
+            "depth": 3,
+            "value": "Layer 4: Transport"
+          },
+          {
+            "slug": "layer-5-7-application-presentation-session",
+            "depth": 3,
+            "value": "Layer 5-7: Application, Presentation, Session"
+          },
+          {
+            "slug": "data-in-a-tcpip-example",
+            "depth": 2,
+            "value": "Data in a TCP/IP Example"
           }
         ]
       }
@@ -20710,336 +21150,6 @@
             "slug": "tldr",
             "depth": 2,
             "value": "tl;dr"
-          }
-        ]
-      }
-    },
-    {
-      "key": "manual/Product-Discovery/Best-Continous-Discovery-Mindsets.md",
-      "value": {
-        "menu": "Product Discovery",
-        "name": "Best Continuous Discovery Mindsets",
-        "id": "2871e325706b4d06aa3fcdb9cee692f5",
-        "filepath": "manual/Product-Discovery/Best-Continous-Discovery-Mindsets.md",
-        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Product-Discovery/Best-Continous-Discovery-Mindsets.md",
-        "link": "",
-        "slug": "manual-product-discovery-best-continous-discovery-mindsets",
-        "route": "/manual-product-discovery-best-continous-discovery-mindsets",
-        "headings": [
-          {
-            "slug": "best-continuous-discovery-mindsets",
-            "depth": 1,
-            "value": "Best Continuous Discovery Mindsets"
-          },
-          {
-            "slug": "the-mindsets",
-            "depth": 2,
-            "value": "The Mindsets"
-          },
-          {
-            "slug": "more-on-continuous-mindset",
-            "depth": 2,
-            "value": "More On Continuous Mindset"
-          },
-          {
-            "slug": "more-on-experimental-mindset",
-            "depth": 2,
-            "value": "More On Experimental Mindset"
-          }
-        ]
-      }
-    },
-    {
-      "key": "manual/Product-Discovery/Intro-To-Modern-Product-Discovery.md",
-      "value": {
-        "menu": "Product Discovery",
-        "name": "Intro To Modern Product Discovery",
-        "id": "7fc943957218a1392a8567a130186f38",
-        "filepath": "manual/Product-Discovery/Intro-To-Modern-Product-Discovery.md",
-        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Product-Discovery/Intro-To-Modern-Product-Discovery.md",
-        "link": "",
-        "slug": "manual-product-discovery-intro-to-modern-product-discovery",
-        "route": "/manual-product-discovery-intro-to-modern-product-discovery",
-        "headings": [
-          {
-            "slug": "intro-to-modern-product-discovery",
-            "depth": 1,
-            "value": "Intro To Modern Product Discovery"
-          },
-          {
-            "slug": "discovery-vs-delivery",
-            "depth": 2,
-            "value": "Discovery vs Delivery"
-          },
-          {
-            "slug": "history",
-            "depth": 2,
-            "value": "History"
-          },
-          {
-            "slug": "opportunity-solution-trees",
-            "depth": 2,
-            "value": "Opportunity Solution Trees"
-          },
-          {
-            "slug": "how-opportunities-help-drive-the-design-outcomes",
-            "depth": 3,
-            "value": "How Opportunities Help Drive The Design Outcomes"
-          },
-          {
-            "slug": "continuous-product-decisions",
-            "depth": 3,
-            "value": "Continuous Product Decisions"
-          }
-        ]
-      }
-    },
-    {
-      "key": "manual/Product-Discovery/Keystone-Habit.md",
-      "value": {
-        "name": "Keystone Habit",
-        "menu": "Product Discovery",
-        "id": "30d4847cf5993a0c82853a9c63dc6852",
-        "filepath": "manual/Product-Discovery/Keystone-Habit.md",
-        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Product-Discovery/Keystone-Habit.md",
-        "link": "",
-        "slug": "manual-product-discovery-keystone-habit",
-        "route": "/manual-product-discovery-keystone-habit",
-        "headings": [
-          {
-            "slug": "keystone-habit",
-            "depth": 1,
-            "value": "Keystone Habit"
-          },
-          {
-            "slug": "deliberate-practice",
-            "depth": 2,
-            "value": "Deliberate Practice"
-          },
-          {
-            "slug": "required-knowledge-for-effective-application",
-            "depth": 2,
-            "value": "Required Knowledge For Effective Application"
-          }
-        ]
-      }
-    },
-    {
-      "key": "manual/Product-Discovery/Lean-Canvas.md",
-      "value": {
-        "name": "Lean Canvas",
-        "menu": "Product Discovery",
-        "id": "8279fade032e2e4519331cba87b3c49e",
-        "filepath": "manual/Product-Discovery/Lean-Canvas.md",
-        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Product-Discovery/Lean-Canvas.md",
-        "link": "",
-        "slug": "manual-product-discovery-lean-canvas",
-        "route": "/manual-product-discovery-lean-canvas",
-        "headings": [
-          {
-            "slug": "lean-canvas",
-            "depth": 1,
-            "value": "Lean Canvas"
-          },
-          {
-            "slug": "intro",
-            "depth": 2,
-            "value": "Intro"
-          },
-          {
-            "slug": "blank-lean-canvas",
-            "depth": 2,
-            "value": "Blank Lean Canvas"
-          }
-        ]
-      }
-    },
-    {
-      "key": "manual/Product-Discovery/Opportunity-Solution-Tree.md",
-      "value": {
-        "menu": "Product Discovery",
-        "name": "Opportunity Solution Tree",
-        "id": "63e51518d46323eb8e48fcb1f3976d39",
-        "filepath": "manual/Product-Discovery/Opportunity-Solution-Tree.md",
-        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Product-Discovery/Opportunity-Solution-Tree.md",
-        "link": "",
-        "slug": "manual-product-discovery-opportunity-solution-tree",
-        "route": "/manual-product-discovery-opportunity-solution-tree",
-        "headings": [
-          {
-            "slug": "opportunity-solution-tree",
-            "depth": 1,
-            "value": "Opportunity Solution Tree"
-          },
-          {
-            "slug": "the-power-of-mental-representations",
-            "depth": 2,
-            "value": "The Power Of Mental Representations"
-          },
-          {
-            "slug": "widen-the-lens",
-            "depth": 2,
-            "value": "Widen The Lens"
-          },
-          {
-            "slug": "beginning-with-the-end-in-mind",
-            "depth": 2,
-            "value": "Beginning With The End In Mind"
-          },
-          {
-            "slug": "multitracking",
-            "depth": 2,
-            "value": "Multitracking"
-          },
-          {
-            "slug": "4-common-gaps-in-our-thinking",
-            "depth": 2,
-            "value": "4 Common Gaps In Our Thinking"
-          },
-          {
-            "slug": "1-we-dont-examine-our-ideas-before-investing-in-them",
-            "depth": 3,
-            "value": "1. We don't examine our ideas before investing in them"
-          },
-          {
-            "slug": "2-we-dont-consider-enough-ideas",
-            "depth": 3,
-            "value": "2. We don't consider enough ideas"
-          },
-          {
-            "slug": "3-we-dont-multitrack-in-a-systematic-way",
-            "depth": 3,
-            "value": "3. We don't multitrack in a systematic way"
-          },
-          {
-            "slug": "4-our-solutions-dont-connect-to-an-opportunity-or-our-desired-outcome-at-all",
-            "depth": 3,
-            "value": "4. Our solutions don't connect to an opportunity or our desired outcome at all"
-          },
-          {
-            "slug": "the-opportunity-solution-tree-in-action",
-            "depth": 2,
-            "value": "The Opportunity Solution Tree In Action"
-          },
-          {
-            "slug": "building-the-four-sections-of-the-ost",
-            "depth": 2,
-            "value": "Building The Four Sections Of The OST"
-          },
-          {
-            "slug": "using-your-ost-to-guide-product-discovery",
-            "depth": 2,
-            "value": "Using Your OST To Guide Product Discovery"
-          },
-          {
-            "slug": "a-framework-for-continuous-product-discovery",
-            "depth": 2,
-            "value": "A Framework For Continuous Product Discovery"
-          }
-        ]
-      }
-    },
-    {
-      "key": "manual/Product-Discovery/Product-Discovery-Case-Study.md",
-      "value": {
-        "menu": "Product Discovery",
-        "name": "SEEK Case Study",
-        "id": "0a80ee6e69e1f52553a3ac01cbbf16a6",
-        "filepath": "manual/Product-Discovery/Product-Discovery-Case-Study.md",
-        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Product-Discovery/Product-Discovery-Case-Study.md",
-        "link": "",
-        "slug": "manual-product-discovery-product-discovery-case-study",
-        "route": "/manual-product-discovery-product-discovery-case-study",
-        "headings": [
-          {
-            "slug": "seek-case-study",
-            "depth": 1,
-            "value": "SEEK Case Study"
-          },
-          {
-            "slug": "aha-moments",
-            "depth": 2,
-            "value": "AHA moments"
-          },
-          {
-            "slug": "differences-in-work-approach",
-            "depth": 2,
-            "value": "Differences In Work Approach"
-          }
-        ]
-      }
-    },
-    {
-      "key": "manual/Product-Discovery/Product-Discovery-Principles.md",
-      "value": {
-        "name": "Product Discovery Best Practices",
-        "menu": "Product Discovery",
-        "id": "791d646f5b0c219db1c89d78e662ce20",
-        "filepath": "manual/Product-Discovery/Product-Discovery-Principles.md",
-        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Product-Discovery/Product-Discovery-Principles.md",
-        "link": "",
-        "slug": "manual-product-discovery-product-discovery-principles",
-        "route": "/manual-product-discovery-product-discovery-principles",
-        "headings": [
-          {
-            "slug": "product-discovery-best-practices",
-            "depth": 1,
-            "value": "Product Discovery Best Practices"
-          },
-          {
-            "slug": "empathy-for-your-audience",
-            "depth": 2,
-            "value": "Empathy For Your Audience"
-          },
-          {
-            "slug": "explore-the-problem-space-indefinitely",
-            "depth": 2,
-            "value": "Explore The Problem Space Indefinitely"
-          },
-          {
-            "slug": "map-your-way-to-clarity",
-            "depth": 2,
-            "value": "Map Your Way To Clarity"
-          },
-          {
-            "slug": "use-theory-as-inspiration-draw-from-first-principles",
-            "depth": 2,
-            "value": "Use Theory As Inspiration (Draw From First Principles)"
-          },
-          {
-            "slug": "co-create-solutions-that-meet-the-unique-needs-of-your-audience",
-            "depth": 2,
-            "value": "Co-Create Solutions That Meet The Unique Needs Of Your Audience"
-          },
-          {
-            "slug": "get-out-of-the-building",
-            "depth": 2,
-            "value": "Get Out Of The Building"
-          }
-        ]
-      }
-    },
-    {
-      "key": "manual/Product-Discovery/Story-Mapping.md",
-      "value": {
-        "menu": "Product Discovery",
-        "name": "Story Mapping",
-        "id": "540f0a2f2232278c586e652514270027",
-        "filepath": "manual/Product-Discovery/Story-Mapping.md",
-        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Product-Discovery/Story-Mapping.md",
-        "link": "",
-        "slug": "manual-product-discovery-story-mapping",
-        "route": "/manual-product-discovery-story-mapping",
-        "headings": [
-          {
-            "slug": "story-mapping",
-            "depth": 1,
-            "value": "Story Mapping"
-          },
-          {
-            "slug": "notes",
-            "depth": 2,
-            "value": "Notes"
           }
         ]
       }
@@ -21850,6 +21960,336 @@
             "slug": "cloudfront",
             "depth": 3,
             "value": "CloudFront"
+          }
+        ]
+      }
+    },
+    {
+      "key": "manual/Product-Discovery/Best-Continous-Discovery-Mindsets.md",
+      "value": {
+        "menu": "Product Discovery",
+        "name": "Best Continuous Discovery Mindsets",
+        "id": "2871e325706b4d06aa3fcdb9cee692f5",
+        "filepath": "manual/Product-Discovery/Best-Continous-Discovery-Mindsets.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Product-Discovery/Best-Continous-Discovery-Mindsets.md",
+        "link": "",
+        "slug": "manual-product-discovery-best-continous-discovery-mindsets",
+        "route": "/manual-product-discovery-best-continous-discovery-mindsets",
+        "headings": [
+          {
+            "slug": "best-continuous-discovery-mindsets",
+            "depth": 1,
+            "value": "Best Continuous Discovery Mindsets"
+          },
+          {
+            "slug": "the-mindsets",
+            "depth": 2,
+            "value": "The Mindsets"
+          },
+          {
+            "slug": "more-on-continuous-mindset",
+            "depth": 2,
+            "value": "More On Continuous Mindset"
+          },
+          {
+            "slug": "more-on-experimental-mindset",
+            "depth": 2,
+            "value": "More On Experimental Mindset"
+          }
+        ]
+      }
+    },
+    {
+      "key": "manual/Product-Discovery/Intro-To-Modern-Product-Discovery.md",
+      "value": {
+        "menu": "Product Discovery",
+        "name": "Intro To Modern Product Discovery",
+        "id": "7fc943957218a1392a8567a130186f38",
+        "filepath": "manual/Product-Discovery/Intro-To-Modern-Product-Discovery.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Product-Discovery/Intro-To-Modern-Product-Discovery.md",
+        "link": "",
+        "slug": "manual-product-discovery-intro-to-modern-product-discovery",
+        "route": "/manual-product-discovery-intro-to-modern-product-discovery",
+        "headings": [
+          {
+            "slug": "intro-to-modern-product-discovery",
+            "depth": 1,
+            "value": "Intro To Modern Product Discovery"
+          },
+          {
+            "slug": "discovery-vs-delivery",
+            "depth": 2,
+            "value": "Discovery vs Delivery"
+          },
+          {
+            "slug": "history",
+            "depth": 2,
+            "value": "History"
+          },
+          {
+            "slug": "opportunity-solution-trees",
+            "depth": 2,
+            "value": "Opportunity Solution Trees"
+          },
+          {
+            "slug": "how-opportunities-help-drive-the-design-outcomes",
+            "depth": 3,
+            "value": "How Opportunities Help Drive The Design Outcomes"
+          },
+          {
+            "slug": "continuous-product-decisions",
+            "depth": 3,
+            "value": "Continuous Product Decisions"
+          }
+        ]
+      }
+    },
+    {
+      "key": "manual/Product-Discovery/Keystone-Habit.md",
+      "value": {
+        "name": "Keystone Habit",
+        "menu": "Product Discovery",
+        "id": "30d4847cf5993a0c82853a9c63dc6852",
+        "filepath": "manual/Product-Discovery/Keystone-Habit.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Product-Discovery/Keystone-Habit.md",
+        "link": "",
+        "slug": "manual-product-discovery-keystone-habit",
+        "route": "/manual-product-discovery-keystone-habit",
+        "headings": [
+          {
+            "slug": "keystone-habit",
+            "depth": 1,
+            "value": "Keystone Habit"
+          },
+          {
+            "slug": "deliberate-practice",
+            "depth": 2,
+            "value": "Deliberate Practice"
+          },
+          {
+            "slug": "required-knowledge-for-effective-application",
+            "depth": 2,
+            "value": "Required Knowledge For Effective Application"
+          }
+        ]
+      }
+    },
+    {
+      "key": "manual/Product-Discovery/Lean-Canvas.md",
+      "value": {
+        "name": "Lean Canvas",
+        "menu": "Product Discovery",
+        "id": "8279fade032e2e4519331cba87b3c49e",
+        "filepath": "manual/Product-Discovery/Lean-Canvas.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Product-Discovery/Lean-Canvas.md",
+        "link": "",
+        "slug": "manual-product-discovery-lean-canvas",
+        "route": "/manual-product-discovery-lean-canvas",
+        "headings": [
+          {
+            "slug": "lean-canvas",
+            "depth": 1,
+            "value": "Lean Canvas"
+          },
+          {
+            "slug": "intro",
+            "depth": 2,
+            "value": "Intro"
+          },
+          {
+            "slug": "blank-lean-canvas",
+            "depth": 2,
+            "value": "Blank Lean Canvas"
+          }
+        ]
+      }
+    },
+    {
+      "key": "manual/Product-Discovery/Opportunity-Solution-Tree.md",
+      "value": {
+        "menu": "Product Discovery",
+        "name": "Opportunity Solution Tree",
+        "id": "63e51518d46323eb8e48fcb1f3976d39",
+        "filepath": "manual/Product-Discovery/Opportunity-Solution-Tree.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Product-Discovery/Opportunity-Solution-Tree.md",
+        "link": "",
+        "slug": "manual-product-discovery-opportunity-solution-tree",
+        "route": "/manual-product-discovery-opportunity-solution-tree",
+        "headings": [
+          {
+            "slug": "opportunity-solution-tree",
+            "depth": 1,
+            "value": "Opportunity Solution Tree"
+          },
+          {
+            "slug": "the-power-of-mental-representations",
+            "depth": 2,
+            "value": "The Power Of Mental Representations"
+          },
+          {
+            "slug": "widen-the-lens",
+            "depth": 2,
+            "value": "Widen The Lens"
+          },
+          {
+            "slug": "beginning-with-the-end-in-mind",
+            "depth": 2,
+            "value": "Beginning With The End In Mind"
+          },
+          {
+            "slug": "multitracking",
+            "depth": 2,
+            "value": "Multitracking"
+          },
+          {
+            "slug": "4-common-gaps-in-our-thinking",
+            "depth": 2,
+            "value": "4 Common Gaps In Our Thinking"
+          },
+          {
+            "slug": "1-we-dont-examine-our-ideas-before-investing-in-them",
+            "depth": 3,
+            "value": "1. We don't examine our ideas before investing in them"
+          },
+          {
+            "slug": "2-we-dont-consider-enough-ideas",
+            "depth": 3,
+            "value": "2. We don't consider enough ideas"
+          },
+          {
+            "slug": "3-we-dont-multitrack-in-a-systematic-way",
+            "depth": 3,
+            "value": "3. We don't multitrack in a systematic way"
+          },
+          {
+            "slug": "4-our-solutions-dont-connect-to-an-opportunity-or-our-desired-outcome-at-all",
+            "depth": 3,
+            "value": "4. Our solutions don't connect to an opportunity or our desired outcome at all"
+          },
+          {
+            "slug": "the-opportunity-solution-tree-in-action",
+            "depth": 2,
+            "value": "The Opportunity Solution Tree In Action"
+          },
+          {
+            "slug": "building-the-four-sections-of-the-ost",
+            "depth": 2,
+            "value": "Building The Four Sections Of The OST"
+          },
+          {
+            "slug": "using-your-ost-to-guide-product-discovery",
+            "depth": 2,
+            "value": "Using Your OST To Guide Product Discovery"
+          },
+          {
+            "slug": "a-framework-for-continuous-product-discovery",
+            "depth": 2,
+            "value": "A Framework For Continuous Product Discovery"
+          }
+        ]
+      }
+    },
+    {
+      "key": "manual/Product-Discovery/Product-Discovery-Case-Study.md",
+      "value": {
+        "menu": "Product Discovery",
+        "name": "SEEK Case Study",
+        "id": "0a80ee6e69e1f52553a3ac01cbbf16a6",
+        "filepath": "manual/Product-Discovery/Product-Discovery-Case-Study.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Product-Discovery/Product-Discovery-Case-Study.md",
+        "link": "",
+        "slug": "manual-product-discovery-product-discovery-case-study",
+        "route": "/manual-product-discovery-product-discovery-case-study",
+        "headings": [
+          {
+            "slug": "seek-case-study",
+            "depth": 1,
+            "value": "SEEK Case Study"
+          },
+          {
+            "slug": "aha-moments",
+            "depth": 2,
+            "value": "AHA moments"
+          },
+          {
+            "slug": "differences-in-work-approach",
+            "depth": 2,
+            "value": "Differences In Work Approach"
+          }
+        ]
+      }
+    },
+    {
+      "key": "manual/Product-Discovery/Product-Discovery-Principles.md",
+      "value": {
+        "name": "Product Discovery Best Practices",
+        "menu": "Product Discovery",
+        "id": "791d646f5b0c219db1c89d78e662ce20",
+        "filepath": "manual/Product-Discovery/Product-Discovery-Principles.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Product-Discovery/Product-Discovery-Principles.md",
+        "link": "",
+        "slug": "manual-product-discovery-product-discovery-principles",
+        "route": "/manual-product-discovery-product-discovery-principles",
+        "headings": [
+          {
+            "slug": "product-discovery-best-practices",
+            "depth": 1,
+            "value": "Product Discovery Best Practices"
+          },
+          {
+            "slug": "empathy-for-your-audience",
+            "depth": 2,
+            "value": "Empathy For Your Audience"
+          },
+          {
+            "slug": "explore-the-problem-space-indefinitely",
+            "depth": 2,
+            "value": "Explore The Problem Space Indefinitely"
+          },
+          {
+            "slug": "map-your-way-to-clarity",
+            "depth": 2,
+            "value": "Map Your Way To Clarity"
+          },
+          {
+            "slug": "use-theory-as-inspiration-draw-from-first-principles",
+            "depth": 2,
+            "value": "Use Theory As Inspiration (Draw From First Principles)"
+          },
+          {
+            "slug": "co-create-solutions-that-meet-the-unique-needs-of-your-audience",
+            "depth": 2,
+            "value": "Co-Create Solutions That Meet The Unique Needs Of Your Audience"
+          },
+          {
+            "slug": "get-out-of-the-building",
+            "depth": 2,
+            "value": "Get Out Of The Building"
+          }
+        ]
+      }
+    },
+    {
+      "key": "manual/Product-Discovery/Story-Mapping.md",
+      "value": {
+        "menu": "Product Discovery",
+        "name": "Story Mapping",
+        "id": "540f0a2f2232278c586e652514270027",
+        "filepath": "manual/Product-Discovery/Story-Mapping.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Product-Discovery/Story-Mapping.md",
+        "link": "",
+        "slug": "manual-product-discovery-story-mapping",
+        "route": "/manual-product-discovery-story-mapping",
+        "headings": [
+          {
+            "slug": "story-mapping",
+            "depth": 1,
+            "value": "Story Mapping"
+          },
+          {
+            "slug": "notes",
+            "depth": 2,
+            "value": "Notes"
           }
         ]
       }
@@ -23235,6 +23675,96 @@
       }
     },
     {
+      "key": "manual/React/Advanced-React-Patterns.md",
+      "value": {
+        "menu": "React",
+        "name": "Advanced React Patterns",
+        "id": "bb124902074240c81f6d87035eb831f7",
+        "filepath": "manual/React/Advanced-React-Patterns.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/React/Advanced-React-Patterns.md",
+        "link": "",
+        "slug": "manual-react-advanced-react-patterns",
+        "route": "/manual-react-advanced-react-patterns",
+        "headings": [
+          {
+            "slug": "advanced-react-patterns",
+            "depth": 1,
+            "value": "Advanced React Patterns"
+          },
+          {
+            "slug": "resources",
+            "depth": 2,
+            "value": "Resources"
+          },
+          {
+            "slug": "tldr",
+            "depth": 2,
+            "value": "tl;dr"
+          },
+          {
+            "slug": "building-the-basic-toggle",
+            "depth": 2,
+            "value": "Building the Basic Toggle"
+          },
+          {
+            "slug": "basic-compound-components",
+            "depth": 2,
+            "value": "Basic Compound Components"
+          },
+          {
+            "slug": "flexible-compound-components",
+            "depth": 2,
+            "value": "Flexible Compound Components"
+          },
+          {
+            "slug": "render-props-pattern",
+            "depth": 2,
+            "value": "Render Props Pattern"
+          },
+          {
+            "slug": "prop-getters",
+            "depth": 2,
+            "value": "Prop Getters"
+          },
+          {
+            "slug": "state-initializers",
+            "depth": 2,
+            "value": "State Initializers"
+          },
+          {
+            "slug": "state-reducer",
+            "depth": 2,
+            "value": "State Reducer"
+          },
+          {
+            "slug": "control-props-primer",
+            "depth": 2,
+            "value": "Control Props Primer"
+          },
+          {
+            "slug": "control-props",
+            "depth": 2,
+            "value": "Control Props"
+          },
+          {
+            "slug": "provider-pattern",
+            "depth": 2,
+            "value": "Provider Pattern"
+          },
+          {
+            "slug": "higher-order-components",
+            "depth": 2,
+            "value": "Higher Order Components"
+          },
+          {
+            "slug": "rendex",
+            "depth": 2,
+            "value": "Rendex"
+          }
+        ]
+      }
+    },
+    {
       "key": "manual/React/Context-API.md",
       "value": {
         "menu": "React",
@@ -23325,6 +23855,111 @@
             "slug": "mocking",
             "depth": 2,
             "value": "Mocking"
+          }
+        ]
+      }
+    },
+    {
+      "key": "manual/React/State-Management-In-Pure-React.md",
+      "value": {
+        "menu": "React",
+        "name": "State Management in Pure React",
+        "id": "f3a649e072ec2d7f2d72e9fb92019a5d",
+        "filepath": "manual/React/State-Management-In-Pure-React.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/React/State-Management-In-Pure-React.md",
+        "link": "",
+        "slug": "manual-react-state-management-in-pure-react",
+        "route": "/manual-react-state-management-in-pure-react",
+        "headings": [
+          {
+            "slug": "state-management-in-pure-react",
+            "depth": 1,
+            "value": "State Management in Pure React"
+          },
+          {
+            "slug": "resources",
+            "depth": 2,
+            "value": "Resources"
+          },
+          {
+            "slug": "types-of-state",
+            "depth": 2,
+            "value": "Types of State"
+          },
+          {
+            "slug": "setstate--class",
+            "depth": 2,
+            "value": "setState & Class"
+          },
+          {
+            "slug": "setstate-patterns-and-anti-patterns",
+            "depth": 2,
+            "value": "setState Patterns and Anti-Patterns"
+          },
+          {
+            "slug": "hooks-state",
+            "depth": 2,
+            "value": "Hooks State"
+          },
+          {
+            "slug": "making-an-hooks-abstraction",
+            "depth": 3,
+            "value": "Making an hooks abstraction"
+          },
+          {
+            "slug": "persisting-state--useref",
+            "depth": 2,
+            "value": "Persisting State & useRef"
+          },
+          {
+            "slug": "useeffect--cleanup",
+            "depth": 2,
+            "value": "useEffect & Cleanup"
+          },
+          {
+            "slug": "reducers",
+            "depth": 2,
+            "value": "Reducers"
+          },
+          {
+            "slug": "reactmemo--usecallback",
+            "depth": 2,
+            "value": "React.memo & useCallback"
+          },
+          {
+            "slug": "prop-drilling--context-api",
+            "depth": 2,
+            "value": "Prop Drilling & Context API"
+          },
+          {
+            "slug": "creating-a-context-provider",
+            "depth": 3,
+            "value": "Creating a Context Provider"
+          },
+          {
+            "slug": "data-fetching",
+            "depth": 2,
+            "value": "Data Fetching"
+          },
+          {
+            "slug": "refactoring-to-a-reducer",
+            "depth": 3,
+            "value": "Refactoring to a reducer"
+          },
+          {
+            "slug": "thunks",
+            "depth": 2,
+            "value": "Thunks"
+          },
+          {
+            "slug": "usethunkreducer",
+            "depth": 3,
+            "value": "useThunkReducer"
+          },
+          {
+            "slug": "routing--thunks",
+            "depth": 2,
+            "value": "Routing & Thunks"
           }
         ]
       }
@@ -23445,6 +24080,381 @@
             "slug": "stylesscss",
             "depth": 1,
             "value": "styles.scss"
+          }
+        ]
+      }
+    },
+    {
+      "key": "manual/React-Native/React-Native-Cheat-Sheet.md",
+      "value": {
+        "name": "React Native Cheat Sheet",
+        "menu": "React Native",
+        "id": "d867184af7c5ccbb6ae1924d98a155a7",
+        "filepath": "manual/React-Native/React-Native-Cheat-Sheet.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/React-Native/React-Native-Cheat-Sheet.md",
+        "link": "",
+        "slug": "manual-react-native-react-native-cheat-sheet",
+        "route": "/manual-react-native-react-native-cheat-sheet",
+        "headings": [
+          {
+            "slug": "react-native-help-sheet",
+            "depth": 1,
+            "value": "React Native Help Sheet"
+          },
+          {
+            "slug": "rnhelp-1-debugger",
+            "depth": 2,
+            "value": "RNHELP-1: Debugger"
+          },
+          {
+            "slug": "rnhelp-2-void-casting-for-ios10",
+            "depth": 2,
+            "value": "RNHELP-2: (void) casting for iOS10"
+          },
+          {
+            "slug": "rnhelp-3-code-signing",
+            "depth": 2,
+            "value": "RNHELP-3: Code Signing"
+          }
+        ]
+      }
+    },
+    {
+      "key": "manual/React-Native/React-Native-Code-Guide.md",
+      "value": {
+        "name": "React Native Code Guide",
+        "menu": "React Native",
+        "id": "600c147be2ce4a652722dd16ba1d669a",
+        "filepath": "manual/React-Native/React-Native-Code-Guide.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/React-Native/React-Native-Code-Guide.md",
+        "link": "",
+        "slug": "manual-react-native-react-native-code-guide",
+        "route": "/manual-react-native-react-native-code-guide",
+        "headings": [
+          {
+            "slug": "react-native-cheat-sheet-using-es6",
+            "depth": 1,
+            "value": "React-Native Cheat Sheet using ES6"
+          },
+          {
+            "slug": "rn-1-importing-from-react",
+            "depth": 2,
+            "value": "RN-1: Importing from React"
+          },
+          {
+            "slug": "rn-2-example-classes",
+            "depth": 2,
+            "value": "RN-2: Example classes"
+          },
+          {
+            "slug": "rn-3-registry-for-an-app",
+            "depth": 2,
+            "value": "RN-3: Registry for an App"
+          },
+          {
+            "slug": "rn-4-debugging---important-things-to-note",
+            "depth": 2,
+            "value": "RN-4: Debugging - Important things to note"
+          },
+          {
+            "slug": "rn-5-stylesheetcreate",
+            "depth": 2,
+            "value": "RN-5: StyleSheet.create"
+          },
+          {
+            "slug": "rn-6-navigation-view",
+            "depth": 2,
+            "value": "RN-6: Navigation View"
+          },
+          {
+            "slug": "rn-7-uitablecellview-replica-listview",
+            "depth": 2,
+            "value": "RN-7: UITableCellView replica (ListView)"
+          }
+        ]
+      }
+    },
+    {
+      "key": "manual/React-Native/React-Native-For-iOS-Devs.md",
+      "value": {
+        "name": "React Native For I OS Devs",
+        "menu": "React Native",
+        "id": "90e3d3a2e80886bb5490e82443e12346",
+        "filepath": "manual/React-Native/React-Native-For-iOS-Devs.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/React-Native/React-Native-For-iOS-Devs.md",
+        "link": "",
+        "slug": "manual-react-native-react-native-for-i-os-devs",
+        "route": "/manual-react-native-react-native-for-i-os-devs",
+        "headings": [
+          {
+            "slug": "intro-to-react-native-for-ios-developers",
+            "depth": 1,
+            "value": "Intro to React Native for iOS Developers"
+          },
+          {
+            "slug": "benefits",
+            "depth": 2,
+            "value": "Benefits"
+          },
+          {
+            "slug": "installation",
+            "depth": 3,
+            "value": "Installation"
+          }
+        ]
+      }
+    },
+    {
+      "key": "manual/React-Native/React-Native-Redux.md",
+      "value": {
+        "name": "React Native Redux",
+        "menu": "React Native",
+        "id": "302e69c3a83f1a153d0e85cc486fac81",
+        "filepath": "manual/React-Native/React-Native-Redux.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/React-Native/React-Native-Redux.md",
+        "link": "",
+        "slug": "manual-react-native-react-native-redux",
+        "route": "/manual-react-native-react-native-redux",
+        "headings": [
+          {
+            "slug": "react-native-with-redux",
+            "depth": 1,
+            "value": "React Native with Redux"
+          },
+          {
+            "slug": "rnredux-1-intro",
+            "depth": 2,
+            "value": "RNREDUX-1: Intro"
+          },
+          {
+            "slug": "rnredux-2-react-native-101",
+            "depth": 2,
+            "value": "RNREDUX-2: React Native 101"
+          },
+          {
+            "slug": "rnredux-21-project-directoryscreen-content",
+            "depth": 2,
+            "value": "RNREDUX-2.1: Project Directory/Screen Content"
+          },
+          {
+            "slug": "rnredux-22-react-vs-react-native",
+            "depth": 2,
+            "value": "RNREDUX-2.2: React vs React Native"
+          },
+          {
+            "slug": "rnredux-4-http-requests-with-react-native",
+            "depth": 2,
+            "value": "RNREDUX-4: HTTP Requests with React Native"
+          },
+          {
+            "slug": "rnredux-41-sourcing-album-data",
+            "depth": 2,
+            "value": "RNREDUX-4.1: Sourcing Album Data"
+          },
+          {
+            "slug": "rnredux-42-functional-component-vs-class-component",
+            "depth": 2,
+            "value": "RNREDUX-4.2: Functional Component vs Class Component"
+          },
+          {
+            "slug": "rnredux-43-fetching-data-with-lifecycle-methods",
+            "depth": 2,
+            "value": "RNREDUX-4.3: Fetching Data with Lifecycle Methods"
+          },
+          {
+            "slug": "rnredux-44-rendering-a-list-of-components",
+            "depth": 2,
+            "value": "RNREDUX-4.4: Rendering a List of Components"
+          },
+          {
+            "slug": "rnredux-45-creating-reusable-components",
+            "depth": 2,
+            "value": "RNREDUX-4.5: Creating Reusable Components"
+          },
+          {
+            "slug": "rnredux-45-turn-a-component-into-sections",
+            "depth": 2,
+            "value": "RNREDUX-4.5: Turn a Component into Sections"
+          },
+          {
+            "slug": "rnredux-5-handling-component-layout",
+            "depth": 2,
+            "value": "RNREDUX-5: Handling Component Layout"
+          },
+          {
+            "slug": "rnredux-51-mastering-layout-with-flexbox",
+            "depth": 2,
+            "value": "RNREDUX-5.1: Mastering Layout with Flexbox"
+          },
+          {
+            "slug": "rnredux-52-making-content-scrollable-and-handling-input",
+            "depth": 2,
+            "value": "RNREDUX-5.2: Making Content Scrollable and Handling Input"
+          },
+          {
+            "slug": "rnredux-53-responding-to-user-input",
+            "depth": 2,
+            "value": "RNREDUX-5.3: Responding to User Input"
+          },
+          {
+            "slug": "rnredux-8-redux-inside-of-react-native",
+            "depth": 2,
+            "value": "RNREDUX-8: Redux inside of React Native"
+          },
+          {
+            "slug": "rnredux-81-redux-boilerplate",
+            "depth": 2,
+            "value": "RNREDUX-8.1: Redux Boilerplate"
+          },
+          {
+            "slug": "rnredux-82-reducer-and-state-design",
+            "depth": 2,
+            "value": "RNREDUX-8.2: Reducer and State Design"
+          },
+          {
+            "slug": "redux-thunk",
+            "depth": 2,
+            "value": "Redux Thunk"
+          },
+          {
+            "slug": "dealing-with-navigation",
+            "depth": 2,
+            "value": "Dealing with Navigation"
+          },
+          {
+            "slug": "navigation-in-the-router",
+            "depth": 2,
+            "value": "Navigation in the Router"
+          },
+          {
+            "slug": "navigating-between-routes",
+            "depth": 2,
+            "value": "Navigating between routes"
+          },
+          {
+            "slug": "grouping-scenes-with-buckets",
+            "depth": 2,
+            "value": "Grouping Scenes with 'Buckets'"
+          },
+          {
+            "slug": "actions-to-navigate-between-buckets",
+            "depth": 2,
+            "value": "Actions to navigate between buckets"
+          },
+          {
+            "slug": "form-updates-at-a-reducer-level--dynamic-property-updates",
+            "depth": 2,
+            "value": "Form updates at a reducer level / Dynamic Property updates"
+          }
+        ]
+      }
+    },
+    {
+      "key": "manual/React-Native/React-Native-With-SCSS.md",
+      "value": {
+        "name": "React Native With SCSS",
+        "menu": "React Native",
+        "id": "28eaedc6d6abd1c3c5721713a7cc895e",
+        "filepath": "manual/React-Native/React-Native-With-SCSS.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/React-Native/React-Native-With-SCSS.md",
+        "link": "",
+        "slug": "manual-react-native-react-native-with-scss",
+        "route": "/manual-react-native-react-native-with-scss",
+        "headings": [
+          {
+            "slug": "react-native-with-css-and-scss",
+            "depth": 1,
+            "value": "React Native with CSS and SCSS"
+          },
+          {
+            "slug": "react-native-to-cssscss-node-package",
+            "depth": 2,
+            "value": "React Native to CSS/SCSS Node Package"
+          }
+        ]
+      }
+    },
+    {
+      "key": "manual/React-Native/React-Native-iBeacon.md",
+      "value": {
+        "name": "React Native I Beacon",
+        "menu": "React Native",
+        "id": "99d9b30efb6bced257a15c8fb2a9dafd",
+        "filepath": "manual/React-Native/React-Native-iBeacon.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/React-Native/React-Native-iBeacon.md",
+        "link": "",
+        "slug": "manual-react-native-react-native-i-beacon",
+        "route": "/manual-react-native-react-native-i-beacon",
+        "headings": [
+          {
+            "slug": "react-native-ibeacon",
+            "depth": 1,
+            "value": "React Native iBeacon"
+          },
+          {
+            "slug": "react-native-beacons-manager",
+            "depth": 2,
+            "value": "react-native-beacons-manager"
+          },
+          {
+            "slug": "any-things-we-dont-understand-about-their-docs",
+            "depth": 3,
+            "value": "Any things we don’t understand about their docs?"
+          },
+          {
+            "slug": "any-technical-concerns",
+            "depth": 3,
+            "value": "Any technical concerns?"
+          },
+          {
+            "slug": "why-should-we-use-this-technology",
+            "depth": 3,
+            "value": "Why should we use this technology?"
+          },
+          {
+            "slug": "why-shouldnt-we-use-this-technology",
+            "depth": 3,
+            "value": "Why shouldn’t we use this technology?"
+          },
+          {
+            "slug": "are-there-alternatives",
+            "depth": 3,
+            "value": "Are there alternatives?"
+          },
+          {
+            "slug": "install",
+            "depth": 2,
+            "value": "Install"
+          },
+          {
+            "slug": "setup",
+            "depth": 2,
+            "value": "Setup"
+          }
+        ]
+      }
+    },
+    {
+      "key": "manual/React-Native/Setting-Up-Expo-Redux-Saga.md",
+      "value": {
+        "name": "Setting Up Expo Redux Saga",
+        "menu": "React Native",
+        "id": "e233578d78b1310a408b0cfd97b545ad",
+        "filepath": "manual/React-Native/Setting-Up-Expo-Redux-Saga.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/React-Native/Setting-Up-Expo-Redux-Saga.md",
+        "link": "",
+        "slug": "manual-react-native-setting-up-expo-redux-saga",
+        "route": "/manual-react-native-setting-up-expo-redux-saga",
+        "headings": [
+          {
+            "slug": "setting-up-an-expo-project-with-redux-redux-persist-redux-saga-amplify-etc",
+            "depth": 1,
+            "value": "Setting up an expo project with Redux, Redux Persist, Redux Saga, Amplify etc"
+          },
+          {
+            "slug": "requirements-for-kratos",
+            "depth": 2,
+            "value": "Requirements for Kratos"
           }
         ]
       }
@@ -24225,381 +25235,6 @@
       }
     },
     {
-      "key": "manual/React-Native/React-Native-Cheat-Sheet.md",
-      "value": {
-        "name": "React Native Cheat Sheet",
-        "menu": "React Native",
-        "id": "d867184af7c5ccbb6ae1924d98a155a7",
-        "filepath": "manual/React-Native/React-Native-Cheat-Sheet.md",
-        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/React-Native/React-Native-Cheat-Sheet.md",
-        "link": "",
-        "slug": "manual-react-native-react-native-cheat-sheet",
-        "route": "/manual-react-native-react-native-cheat-sheet",
-        "headings": [
-          {
-            "slug": "react-native-help-sheet",
-            "depth": 1,
-            "value": "React Native Help Sheet"
-          },
-          {
-            "slug": "rnhelp-1-debugger",
-            "depth": 2,
-            "value": "RNHELP-1: Debugger"
-          },
-          {
-            "slug": "rnhelp-2-void-casting-for-ios10",
-            "depth": 2,
-            "value": "RNHELP-2: (void) casting for iOS10"
-          },
-          {
-            "slug": "rnhelp-3-code-signing",
-            "depth": 2,
-            "value": "RNHELP-3: Code Signing"
-          }
-        ]
-      }
-    },
-    {
-      "key": "manual/React-Native/React-Native-Code-Guide.md",
-      "value": {
-        "name": "React Native Code Guide",
-        "menu": "React Native",
-        "id": "600c147be2ce4a652722dd16ba1d669a",
-        "filepath": "manual/React-Native/React-Native-Code-Guide.md",
-        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/React-Native/React-Native-Code-Guide.md",
-        "link": "",
-        "slug": "manual-react-native-react-native-code-guide",
-        "route": "/manual-react-native-react-native-code-guide",
-        "headings": [
-          {
-            "slug": "react-native-cheat-sheet-using-es6",
-            "depth": 1,
-            "value": "React-Native Cheat Sheet using ES6"
-          },
-          {
-            "slug": "rn-1-importing-from-react",
-            "depth": 2,
-            "value": "RN-1: Importing from React"
-          },
-          {
-            "slug": "rn-2-example-classes",
-            "depth": 2,
-            "value": "RN-2: Example classes"
-          },
-          {
-            "slug": "rn-3-registry-for-an-app",
-            "depth": 2,
-            "value": "RN-3: Registry for an App"
-          },
-          {
-            "slug": "rn-4-debugging---important-things-to-note",
-            "depth": 2,
-            "value": "RN-4: Debugging - Important things to note"
-          },
-          {
-            "slug": "rn-5-stylesheetcreate",
-            "depth": 2,
-            "value": "RN-5: StyleSheet.create"
-          },
-          {
-            "slug": "rn-6-navigation-view",
-            "depth": 2,
-            "value": "RN-6: Navigation View"
-          },
-          {
-            "slug": "rn-7-uitablecellview-replica-listview",
-            "depth": 2,
-            "value": "RN-7: UITableCellView replica (ListView)"
-          }
-        ]
-      }
-    },
-    {
-      "key": "manual/React-Native/React-Native-For-iOS-Devs.md",
-      "value": {
-        "name": "React Native For I OS Devs",
-        "menu": "React Native",
-        "id": "90e3d3a2e80886bb5490e82443e12346",
-        "filepath": "manual/React-Native/React-Native-For-iOS-Devs.md",
-        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/React-Native/React-Native-For-iOS-Devs.md",
-        "link": "",
-        "slug": "manual-react-native-react-native-for-i-os-devs",
-        "route": "/manual-react-native-react-native-for-i-os-devs",
-        "headings": [
-          {
-            "slug": "intro-to-react-native-for-ios-developers",
-            "depth": 1,
-            "value": "Intro to React Native for iOS Developers"
-          },
-          {
-            "slug": "benefits",
-            "depth": 2,
-            "value": "Benefits"
-          },
-          {
-            "slug": "installation",
-            "depth": 3,
-            "value": "Installation"
-          }
-        ]
-      }
-    },
-    {
-      "key": "manual/React-Native/React-Native-Redux.md",
-      "value": {
-        "name": "React Native Redux",
-        "menu": "React Native",
-        "id": "302e69c3a83f1a153d0e85cc486fac81",
-        "filepath": "manual/React-Native/React-Native-Redux.md",
-        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/React-Native/React-Native-Redux.md",
-        "link": "",
-        "slug": "manual-react-native-react-native-redux",
-        "route": "/manual-react-native-react-native-redux",
-        "headings": [
-          {
-            "slug": "react-native-with-redux",
-            "depth": 1,
-            "value": "React Native with Redux"
-          },
-          {
-            "slug": "rnredux-1-intro",
-            "depth": 2,
-            "value": "RNREDUX-1: Intro"
-          },
-          {
-            "slug": "rnredux-2-react-native-101",
-            "depth": 2,
-            "value": "RNREDUX-2: React Native 101"
-          },
-          {
-            "slug": "rnredux-21-project-directoryscreen-content",
-            "depth": 2,
-            "value": "RNREDUX-2.1: Project Directory/Screen Content"
-          },
-          {
-            "slug": "rnredux-22-react-vs-react-native",
-            "depth": 2,
-            "value": "RNREDUX-2.2: React vs React Native"
-          },
-          {
-            "slug": "rnredux-4-http-requests-with-react-native",
-            "depth": 2,
-            "value": "RNREDUX-4: HTTP Requests with React Native"
-          },
-          {
-            "slug": "rnredux-41-sourcing-album-data",
-            "depth": 2,
-            "value": "RNREDUX-4.1: Sourcing Album Data"
-          },
-          {
-            "slug": "rnredux-42-functional-component-vs-class-component",
-            "depth": 2,
-            "value": "RNREDUX-4.2: Functional Component vs Class Component"
-          },
-          {
-            "slug": "rnredux-43-fetching-data-with-lifecycle-methods",
-            "depth": 2,
-            "value": "RNREDUX-4.3: Fetching Data with Lifecycle Methods"
-          },
-          {
-            "slug": "rnredux-44-rendering-a-list-of-components",
-            "depth": 2,
-            "value": "RNREDUX-4.4: Rendering a List of Components"
-          },
-          {
-            "slug": "rnredux-45-creating-reusable-components",
-            "depth": 2,
-            "value": "RNREDUX-4.5: Creating Reusable Components"
-          },
-          {
-            "slug": "rnredux-45-turn-a-component-into-sections",
-            "depth": 2,
-            "value": "RNREDUX-4.5: Turn a Component into Sections"
-          },
-          {
-            "slug": "rnredux-5-handling-component-layout",
-            "depth": 2,
-            "value": "RNREDUX-5: Handling Component Layout"
-          },
-          {
-            "slug": "rnredux-51-mastering-layout-with-flexbox",
-            "depth": 2,
-            "value": "RNREDUX-5.1: Mastering Layout with Flexbox"
-          },
-          {
-            "slug": "rnredux-52-making-content-scrollable-and-handling-input",
-            "depth": 2,
-            "value": "RNREDUX-5.2: Making Content Scrollable and Handling Input"
-          },
-          {
-            "slug": "rnredux-53-responding-to-user-input",
-            "depth": 2,
-            "value": "RNREDUX-5.3: Responding to User Input"
-          },
-          {
-            "slug": "rnredux-8-redux-inside-of-react-native",
-            "depth": 2,
-            "value": "RNREDUX-8: Redux inside of React Native"
-          },
-          {
-            "slug": "rnredux-81-redux-boilerplate",
-            "depth": 2,
-            "value": "RNREDUX-8.1: Redux Boilerplate"
-          },
-          {
-            "slug": "rnredux-82-reducer-and-state-design",
-            "depth": 2,
-            "value": "RNREDUX-8.2: Reducer and State Design"
-          },
-          {
-            "slug": "redux-thunk",
-            "depth": 2,
-            "value": "Redux Thunk"
-          },
-          {
-            "slug": "dealing-with-navigation",
-            "depth": 2,
-            "value": "Dealing with Navigation"
-          },
-          {
-            "slug": "navigation-in-the-router",
-            "depth": 2,
-            "value": "Navigation in the Router"
-          },
-          {
-            "slug": "navigating-between-routes",
-            "depth": 2,
-            "value": "Navigating between routes"
-          },
-          {
-            "slug": "grouping-scenes-with-buckets",
-            "depth": 2,
-            "value": "Grouping Scenes with 'Buckets'"
-          },
-          {
-            "slug": "actions-to-navigate-between-buckets",
-            "depth": 2,
-            "value": "Actions to navigate between buckets"
-          },
-          {
-            "slug": "form-updates-at-a-reducer-level--dynamic-property-updates",
-            "depth": 2,
-            "value": "Form updates at a reducer level / Dynamic Property updates"
-          }
-        ]
-      }
-    },
-    {
-      "key": "manual/React-Native/React-Native-With-SCSS.md",
-      "value": {
-        "name": "React Native With SCSS",
-        "menu": "React Native",
-        "id": "28eaedc6d6abd1c3c5721713a7cc895e",
-        "filepath": "manual/React-Native/React-Native-With-SCSS.md",
-        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/React-Native/React-Native-With-SCSS.md",
-        "link": "",
-        "slug": "manual-react-native-react-native-with-scss",
-        "route": "/manual-react-native-react-native-with-scss",
-        "headings": [
-          {
-            "slug": "react-native-with-css-and-scss",
-            "depth": 1,
-            "value": "React Native with CSS and SCSS"
-          },
-          {
-            "slug": "react-native-to-cssscss-node-package",
-            "depth": 2,
-            "value": "React Native to CSS/SCSS Node Package"
-          }
-        ]
-      }
-    },
-    {
-      "key": "manual/React-Native/React-Native-iBeacon.md",
-      "value": {
-        "name": "React Native I Beacon",
-        "menu": "React Native",
-        "id": "99d9b30efb6bced257a15c8fb2a9dafd",
-        "filepath": "manual/React-Native/React-Native-iBeacon.md",
-        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/React-Native/React-Native-iBeacon.md",
-        "link": "",
-        "slug": "manual-react-native-react-native-i-beacon",
-        "route": "/manual-react-native-react-native-i-beacon",
-        "headings": [
-          {
-            "slug": "react-native-ibeacon",
-            "depth": 1,
-            "value": "React Native iBeacon"
-          },
-          {
-            "slug": "react-native-beacons-manager",
-            "depth": 2,
-            "value": "react-native-beacons-manager"
-          },
-          {
-            "slug": "any-things-we-dont-understand-about-their-docs",
-            "depth": 3,
-            "value": "Any things we don’t understand about their docs?"
-          },
-          {
-            "slug": "any-technical-concerns",
-            "depth": 3,
-            "value": "Any technical concerns?"
-          },
-          {
-            "slug": "why-should-we-use-this-technology",
-            "depth": 3,
-            "value": "Why should we use this technology?"
-          },
-          {
-            "slug": "why-shouldnt-we-use-this-technology",
-            "depth": 3,
-            "value": "Why shouldn’t we use this technology?"
-          },
-          {
-            "slug": "are-there-alternatives",
-            "depth": 3,
-            "value": "Are there alternatives?"
-          },
-          {
-            "slug": "install",
-            "depth": 2,
-            "value": "Install"
-          },
-          {
-            "slug": "setup",
-            "depth": 2,
-            "value": "Setup"
-          }
-        ]
-      }
-    },
-    {
-      "key": "manual/React-Native/Setting-Up-Expo-Redux-Saga.md",
-      "value": {
-        "name": "Setting Up Expo Redux Saga",
-        "menu": "React Native",
-        "id": "e233578d78b1310a408b0cfd97b545ad",
-        "filepath": "manual/React-Native/Setting-Up-Expo-Redux-Saga.md",
-        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/React-Native/Setting-Up-Expo-Redux-Saga.md",
-        "link": "",
-        "slug": "manual-react-native-setting-up-expo-redux-saga",
-        "route": "/manual-react-native-setting-up-expo-redux-saga",
-        "headings": [
-          {
-            "slug": "setting-up-an-expo-project-with-redux-redux-persist-redux-saga-amplify-etc",
-            "depth": 1,
-            "value": "Setting up an expo project with Redux, Redux Persist, Redux Saga, Amplify etc"
-          },
-          {
-            "slug": "requirements-for-kratos",
-            "depth": 2,
-            "value": "Requirements for Kratos"
-          }
-        ]
-      }
-    },
-    {
       "key": "manual/ReasonML/Reason-Hello-World.md",
       "value": {
         "menu": "ReasonML",
@@ -25320,6 +25955,26 @@
             "slug": "linked-list-example",
             "depth": 2,
             "value": "Linked List Example"
+          }
+        ]
+      }
+    },
+    {
+      "key": "manual/Ruby/Ruby-Currying.md",
+      "value": {
+        "menu": "Ruby",
+        "name": "Ruby Currying",
+        "id": "725b90f7490acc59ca4c6cf5f27dc78f",
+        "filepath": "manual/Ruby/Ruby-Currying.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Ruby/Ruby-Currying.md",
+        "link": "",
+        "slug": "manual-ruby-ruby-currying",
+        "route": "/manual-ruby-ruby-currying",
+        "headings": [
+          {
+            "slug": "ruby-currying",
+            "depth": 1,
+            "value": "Ruby Currying"
           }
         ]
       }
@@ -26135,46 +26790,6 @@
       }
     },
     {
-      "key": "manual/Segment/Intro.md",
-      "value": {
-        "name": "Intro",
-        "menu": "Segment",
-        "id": "37bc72de13857ae5e49d1fe9bf17f8de",
-        "filepath": "manual/Segment/Intro.md",
-        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Segment/Intro.md",
-        "link": "",
-        "slug": "manual-segment-intro",
-        "route": "/manual-segment-intro",
-        "headings": [
-          {
-            "slug": "segmentio",
-            "depth": 1,
-            "value": "SegmentIO"
-          },
-          {
-            "slug": "links",
-            "depth": 2,
-            "value": "Links"
-          },
-          {
-            "slug": "prerequisites",
-            "depth": 2,
-            "value": "Prerequisites"
-          },
-          {
-            "slug": "intergration",
-            "depth": 2,
-            "value": "Intergration"
-          },
-          {
-            "slug": "usage",
-            "depth": 2,
-            "value": "Usage"
-          }
-        ]
-      }
-    },
-    {
       "key": "manual/Security/OWASP-Top-Ten.md",
       "value": {
         "menu": "OWASP",
@@ -26230,6 +26845,46 @@
             "slug": "difference-between-hash-cipher-and-encrpyption",
             "depth": 2,
             "value": "Difference between hash, cipher and encrpyption"
+          }
+        ]
+      }
+    },
+    {
+      "key": "manual/Segment/Intro.md",
+      "value": {
+        "name": "Intro",
+        "menu": "Segment",
+        "id": "37bc72de13857ae5e49d1fe9bf17f8de",
+        "filepath": "manual/Segment/Intro.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Segment/Intro.md",
+        "link": "",
+        "slug": "manual-segment-intro",
+        "route": "/manual-segment-intro",
+        "headings": [
+          {
+            "slug": "segmentio",
+            "depth": 1,
+            "value": "SegmentIO"
+          },
+          {
+            "slug": "links",
+            "depth": 2,
+            "value": "Links"
+          },
+          {
+            "slug": "prerequisites",
+            "depth": 2,
+            "value": "Prerequisites"
+          },
+          {
+            "slug": "intergration",
+            "depth": 2,
+            "value": "Intergration"
+          },
+          {
+            "slug": "usage",
+            "depth": 2,
+            "value": "Usage"
           }
         ]
       }
@@ -26320,41 +26975,6 @@
       }
     },
     {
-      "key": "manual/Sketch/Principles.md",
-      "value": {
-        "name": "Principles",
-        "menu": "Sketch",
-        "id": "eb5d9a5adad3a81cdd1291e5448c292a",
-        "filepath": "manual/Sketch/Principles.md",
-        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Sketch/Principles.md",
-        "link": "",
-        "slug": "manual-sketch-principles",
-        "route": "/manual-sketch-principles",
-        "headings": [
-          {
-            "slug": "principles",
-            "depth": 1,
-            "value": "Principles"
-          },
-          {
-            "slug": "organising-symbols",
-            "depth": 2,
-            "value": "Organising symbols"
-          },
-          {
-            "slug": "naming-conventions",
-            "depth": 2,
-            "value": "Naming conventions"
-          },
-          {
-            "slug": "creating-new-symbols",
-            "depth": 2,
-            "value": "Creating new symbols"
-          }
-        ]
-      }
-    },
-    {
       "key": "manual/Site-Reliability-Engineering/Glossary.md",
       "value": {
         "menu": "Site Reliability Engineering",
@@ -26435,6 +27055,41 @@
             "slug": "the-issues-of-toil",
             "depth": 2,
             "value": "The issues of Toil"
+          }
+        ]
+      }
+    },
+    {
+      "key": "manual/Sketch/Principles.md",
+      "value": {
+        "name": "Principles",
+        "menu": "Sketch",
+        "id": "eb5d9a5adad3a81cdd1291e5448c292a",
+        "filepath": "manual/Sketch/Principles.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Sketch/Principles.md",
+        "link": "",
+        "slug": "manual-sketch-principles",
+        "route": "/manual-sketch-principles",
+        "headings": [
+          {
+            "slug": "principles",
+            "depth": 1,
+            "value": "Principles"
+          },
+          {
+            "slug": "organising-symbols",
+            "depth": 2,
+            "value": "Organising symbols"
+          },
+          {
+            "slug": "naming-conventions",
+            "depth": 2,
+            "value": "Naming conventions"
+          },
+          {
+            "slug": "creating-new-symbols",
+            "depth": 2,
+            "value": "Creating new symbols"
           }
         ]
       }
@@ -27804,41 +28459,6 @@
       }
     },
     {
-      "key": "manual/Tensorflow/Tensorflow-JS.md",
-      "value": {
-        "name": "Tensorflow.js",
-        "menu": "Tensorflow",
-        "id": "d79cb0bb0dbe29a08be56b193757d8f2",
-        "filepath": "manual/Tensorflow/Tensorflow-JS.md",
-        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Tensorflow/Tensorflow-JS.md",
-        "link": "",
-        "slug": "manual-tensorflow-tensorflow-js",
-        "route": "/manual-tensorflow-tensorflow-js",
-        "headings": [
-          {
-            "slug": "tensorflowjs",
-            "depth": 1,
-            "value": "Tensorflow.js"
-          },
-          {
-            "slug": "problem-solving-process",
-            "depth": 2,
-            "value": "Problem Solving Process"
-          },
-          {
-            "slug": "continuous-vs-discrete",
-            "depth": 2,
-            "value": "Continuous vs Discrete"
-          },
-          {
-            "slug": "plinko-example",
-            "depth": 2,
-            "value": "Plinko Example"
-          }
-        ]
-      }
-    },
-    {
       "key": "manual/System-Design/Data-Systems.md",
       "value": {
         "menu": "System Design",
@@ -28384,6 +29004,41 @@
       }
     },
     {
+      "key": "manual/Tensorflow/Tensorflow-JS.md",
+      "value": {
+        "name": "Tensorflow.js",
+        "menu": "Tensorflow",
+        "id": "d79cb0bb0dbe29a08be56b193757d8f2",
+        "filepath": "manual/Tensorflow/Tensorflow-JS.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Tensorflow/Tensorflow-JS.md",
+        "link": "",
+        "slug": "manual-tensorflow-tensorflow-js",
+        "route": "/manual-tensorflow-tensorflow-js",
+        "headings": [
+          {
+            "slug": "tensorflowjs",
+            "depth": 1,
+            "value": "Tensorflow.js"
+          },
+          {
+            "slug": "problem-solving-process",
+            "depth": 2,
+            "value": "Problem Solving Process"
+          },
+          {
+            "slug": "continuous-vs-discrete",
+            "depth": 2,
+            "value": "Continuous vs Discrete"
+          },
+          {
+            "slug": "plinko-example",
+            "depth": 2,
+            "value": "Plinko Example"
+          }
+        ]
+      }
+    },
+    {
       "key": "manual/Terminal/Tips-and-Tricks.md",
       "value": {
         "name": "Tips And Tricks",
@@ -28519,106 +29174,6 @@
             "slug": "",
             "depth": 2,
             "value": ""
-          }
-        ]
-      }
-    },
-    {
-      "key": "manual/Timber/Timber-Cheat-Sheet.md",
-      "value": {
-        "name": "Timber Cheat Sheet",
-        "menu": "Timber",
-        "id": "fee87c16bf43fce86fbbd11fb7fcfade",
-        "filepath": "manual/Timber/Timber-Cheat-Sheet.md",
-        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Timber/Timber-Cheat-Sheet.md",
-        "link": "",
-        "slug": "manual-timber-timber-cheat-sheet",
-        "route": "/manual-timber-timber-cheat-sheet",
-        "headings": [
-          {
-            "slug": "timber-help-sheet",
-            "depth": 1,
-            "value": "Timber Help Sheet"
-          },
-          {
-            "slug": "timber-example",
-            "depth": 2,
-            "value": "Timber Example"
-          },
-          {
-            "slug": "timber-blog-info",
-            "depth": 2,
-            "value": "Timber Blog Info"
-          },
-          {
-            "slug": "timber-body-class",
-            "depth": 2,
-            "value": "Timber Body Class"
-          },
-          {
-            "slug": "timber-post",
-            "depth": 2,
-            "value": "Timber Post"
-          },
-          {
-            "slug": "timber-theme",
-            "depth": 2,
-            "value": "Timber Theme"
-          },
-          {
-            "slug": "wp-functions",
-            "depth": 2,
-            "value": "WP Functions"
-          },
-          {
-            "slug": "wp-integrations",
-            "depth": 1,
-            "value": "WP Integrations"
-          },
-          {
-            "slug": "the_content",
-            "depth": 2,
-            "value": "the_content"
-          },
-          {
-            "slug": "hooks",
-            "depth": 2,
-            "value": "hooks"
-          },
-          {
-            "slug": "scripts--stylesheets",
-            "depth": 2,
-            "value": "Scripts + Stylesheets"
-          },
-          {
-            "slug": "functions",
-            "depth": 2,
-            "value": "Functions"
-          },
-          {
-            "slug": "actions",
-            "depth": 2,
-            "value": "Actions"
-          },
-          {
-            "slug": "filters",
-            "depth": 2,
-            "value": "Filters"
-          },
-          {
-            "slug": "widgets",
-            "depth": 2,
-            "value": "Widgets"
-          },
-          {
-            "slug": "shortcodes",
-            "depth": 2,
-            "value": "Shortcodes"
-          },
-          {
-            "slug": "layouts-with-shortcodes",
-            "depth": 2,
-            "value": "Layouts with Shortcodes"
           }
         ]
       }
@@ -28889,6 +29444,106 @@
             "slug": "logging",
             "depth": 2,
             "value": "Logging"
+          }
+        ]
+      }
+    },
+    {
+      "key": "manual/Timber/Timber-Cheat-Sheet.md",
+      "value": {
+        "name": "Timber Cheat Sheet",
+        "menu": "Timber",
+        "id": "fee87c16bf43fce86fbbd11fb7fcfade",
+        "filepath": "manual/Timber/Timber-Cheat-Sheet.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Timber/Timber-Cheat-Sheet.md",
+        "link": "",
+        "slug": "manual-timber-timber-cheat-sheet",
+        "route": "/manual-timber-timber-cheat-sheet",
+        "headings": [
+          {
+            "slug": "timber-help-sheet",
+            "depth": 1,
+            "value": "Timber Help Sheet"
+          },
+          {
+            "slug": "timber-example",
+            "depth": 2,
+            "value": "Timber Example"
+          },
+          {
+            "slug": "timber-blog-info",
+            "depth": 2,
+            "value": "Timber Blog Info"
+          },
+          {
+            "slug": "timber-body-class",
+            "depth": 2,
+            "value": "Timber Body Class"
+          },
+          {
+            "slug": "timber-post",
+            "depth": 2,
+            "value": "Timber Post"
+          },
+          {
+            "slug": "timber-theme",
+            "depth": 2,
+            "value": "Timber Theme"
+          },
+          {
+            "slug": "wp-functions",
+            "depth": 2,
+            "value": "WP Functions"
+          },
+          {
+            "slug": "wp-integrations",
+            "depth": 1,
+            "value": "WP Integrations"
+          },
+          {
+            "slug": "the_content",
+            "depth": 2,
+            "value": "the_content"
+          },
+          {
+            "slug": "hooks",
+            "depth": 2,
+            "value": "hooks"
+          },
+          {
+            "slug": "scripts--stylesheets",
+            "depth": 2,
+            "value": "Scripts + Stylesheets"
+          },
+          {
+            "slug": "functions",
+            "depth": 2,
+            "value": "Functions"
+          },
+          {
+            "slug": "actions",
+            "depth": 2,
+            "value": "Actions"
+          },
+          {
+            "slug": "filters",
+            "depth": 2,
+            "value": "Filters"
+          },
+          {
+            "slug": "widgets",
+            "depth": 2,
+            "value": "Widgets"
+          },
+          {
+            "slug": "shortcodes",
+            "depth": 2,
+            "value": "Shortcodes"
+          },
+          {
+            "slug": "layouts-with-shortcodes",
+            "depth": 2,
+            "value": "Layouts with Shortcodes"
           }
         ]
       }
@@ -29634,46 +30289,6 @@
       }
     },
     {
-      "key": "manual/Web-Servers/Resources.md",
-      "value": {
-        "menu": "Web Servers",
-        "name": "Web Server Resources",
-        "id": "eac2c86d3aa07a9e2515d50521bbb144",
-        "filepath": "manual/Web-Servers/Resources.md",
-        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Web-Servers/Resources.md",
-        "link": "",
-        "slug": "manual-web-servers-resources",
-        "route": "/manual-web-servers-resources",
-        "headings": [
-          {
-            "slug": "web-server-resources",
-            "depth": 1,
-            "value": "Web Server Resources"
-          },
-          {
-            "slug": "java--spring",
-            "depth": 2,
-            "value": "Java + Spring"
-          },
-          {
-            "slug": "php--slim",
-            "depth": 2,
-            "value": "PHP + Slim"
-          },
-          {
-            "slug": "ruby--rails",
-            "depth": 2,
-            "value": "Ruby + Rails"
-          },
-          {
-            "slug": "golang--gin",
-            "depth": 2,
-            "value": "Golang + Gin"
-          }
-        ]
-      }
-    },
-    {
       "key": "manual/Web/Accessibility-Course.md",
       "value": {
         "menu": "Web",
@@ -30179,6 +30794,46 @@
       }
     },
     {
+      "key": "manual/Web-Servers/Resources.md",
+      "value": {
+        "menu": "Web Servers",
+        "name": "Web Server Resources",
+        "id": "eac2c86d3aa07a9e2515d50521bbb144",
+        "filepath": "manual/Web-Servers/Resources.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Web-Servers/Resources.md",
+        "link": "",
+        "slug": "manual-web-servers-resources",
+        "route": "/manual-web-servers-resources",
+        "headings": [
+          {
+            "slug": "web-server-resources",
+            "depth": 1,
+            "value": "Web Server Resources"
+          },
+          {
+            "slug": "java--spring",
+            "depth": 2,
+            "value": "Java + Spring"
+          },
+          {
+            "slug": "php--slim",
+            "depth": 2,
+            "value": "PHP + Slim"
+          },
+          {
+            "slug": "ruby--rails",
+            "depth": 2,
+            "value": "Ruby + Rails"
+          },
+          {
+            "slug": "golang--gin",
+            "depth": 2,
+            "value": "Golang + Gin"
+          }
+        ]
+      }
+    },
+    {
       "key": "manual/Webpack/Building-A-Webpack-Plugin.md",
       "value": {
         "menu": "Webpack",
@@ -30399,61 +31054,6 @@
       }
     },
     {
-      "key": "manual/Writing/Writing-With-Flair.md",
-      "value": {
-        "name": "Writing With Flair",
-        "menu": "Writing",
-        "id": "327f029d69c5ab6bc219adff56315897",
-        "filepath": "manual/Writing/Writing-With-Flair.md",
-        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Writing/Writing-With-Flair.md",
-        "link": "",
-        "slug": "manual-writing-writing-with-flair",
-        "route": "/manual-writing-writing-with-flair",
-        "headings": [
-          {
-            "slug": "writing-with-flair",
-            "depth": 1,
-            "value": "Writing With Flair"
-          },
-          {
-            "slug": "purpose-of-writing",
-            "depth": 2,
-            "value": "Purpose Of Writing"
-          },
-          {
-            "slug": "the-mindset-of-elite-writing",
-            "depth": 3,
-            "value": "The Mindset Of Elite Writing"
-          },
-          {
-            "slug": "the-secret-sauce-of-flair",
-            "depth": 3,
-            "value": "The Secret Sauce Of Flair"
-          },
-          {
-            "slug": "1-simplicity",
-            "depth": 2,
-            "value": "1. Simplicity"
-          },
-          {
-            "slug": "11-economy",
-            "depth": 3,
-            "value": "1.1 Economy"
-          },
-          {
-            "slug": "12-repetition",
-            "depth": 3,
-            "value": "1.2 Repetition"
-          },
-          {
-            "slug": "13-overcomplicating-things",
-            "depth": 3,
-            "value": "1.3 Overcomplicating Things"
-          }
-        ]
-      }
-    },
-    {
       "key": "manual/WordPress/WP-PC-Cheat-Sheet.md",
       "value": {
         "name": "WP PC Cheat Sheet",
@@ -30629,6 +31229,116 @@
       }
     },
     {
+      "key": "manual/Writing/Writing-With-Flair.md",
+      "value": {
+        "name": "Writing With Flair",
+        "menu": "Writing",
+        "id": "327f029d69c5ab6bc219adff56315897",
+        "filepath": "manual/Writing/Writing-With-Flair.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Writing/Writing-With-Flair.md",
+        "link": "",
+        "slug": "manual-writing-writing-with-flair",
+        "route": "/manual-writing-writing-with-flair",
+        "headings": [
+          {
+            "slug": "writing-with-flair",
+            "depth": 1,
+            "value": "Writing With Flair"
+          },
+          {
+            "slug": "purpose-of-writing",
+            "depth": 2,
+            "value": "Purpose Of Writing"
+          },
+          {
+            "slug": "the-mindset-of-elite-writing",
+            "depth": 3,
+            "value": "The Mindset Of Elite Writing"
+          },
+          {
+            "slug": "the-secret-sauce-of-flair",
+            "depth": 3,
+            "value": "The Secret Sauce Of Flair"
+          },
+          {
+            "slug": "1-simplicity",
+            "depth": 2,
+            "value": "1. Simplicity"
+          },
+          {
+            "slug": "11-economy",
+            "depth": 3,
+            "value": "1.1 Economy"
+          },
+          {
+            "slug": "12-repetition",
+            "depth": 3,
+            "value": "1.2 Repetition"
+          },
+          {
+            "slug": "13-overcomplicating-things",
+            "depth": 3,
+            "value": "1.3 Overcomplicating Things"
+          }
+        ]
+      }
+    },
+    {
+      "key": "manual/Yarn/Workspaces-In-Yarn.md",
+      "value": {
+        "menu": "Yarn",
+        "name": "Yarn Workspaces",
+        "id": "c7c8200af4896c118c05342807cfa1d6",
+        "filepath": "manual/Yarn/Workspaces-In-Yarn.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Yarn/Workspaces-In-Yarn.md",
+        "link": "",
+        "slug": "manual-yarn-workspaces-in-yarn",
+        "route": "/manual-yarn-workspaces-in-yarn",
+        "headings": [
+          {
+            "slug": "yarn-workspaces",
+            "depth": 1,
+            "value": "Yarn Workspaces"
+          },
+          {
+            "slug": "tldr-key-commands",
+            "depth": 2,
+            "value": "tl;dr Key Commands"
+          },
+          {
+            "slug": "introduction",
+            "depth": 2,
+            "value": "Introduction"
+          },
+          {
+            "slug": "lerna",
+            "depth": 2,
+            "value": "Lerna"
+          },
+          {
+            "slug": "workspaces",
+            "depth": 2,
+            "value": "Workspaces"
+          },
+          {
+            "slug": "example-jest-workspace",
+            "depth": 2,
+            "value": "Example: Jest Workspace"
+          },
+          {
+            "slug": "how-yarn-install-works-with-workspaces",
+            "depth": 2,
+            "value": "How yarn install works with workspaces"
+          },
+          {
+            "slug": "managing-dependecies",
+            "depth": 2,
+            "value": "Managing Dependecies"
+          }
+        ]
+      }
+    },
+    {
       "key": "manual/Zeit-Now/Typescript-Github-Example.md",
       "value": {
         "menu": "Zeit Now",
@@ -30694,61 +31404,6 @@
             "slug": "moving-forward",
             "depth": 2,
             "value": "Moving forward"
-          }
-        ]
-      }
-    },
-    {
-      "key": "manual/Yarn/Workspaces-In-Yarn.md",
-      "value": {
-        "menu": "Yarn",
-        "name": "Yarn Workspaces",
-        "id": "c7c8200af4896c118c05342807cfa1d6",
-        "filepath": "manual/Yarn/Workspaces-In-Yarn.md",
-        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Yarn/Workspaces-In-Yarn.md",
-        "link": "",
-        "slug": "manual-yarn-workspaces-in-yarn",
-        "route": "/manual-yarn-workspaces-in-yarn",
-        "headings": [
-          {
-            "slug": "yarn-workspaces",
-            "depth": 1,
-            "value": "Yarn Workspaces"
-          },
-          {
-            "slug": "tldr-key-commands",
-            "depth": 2,
-            "value": "tl;dr Key Commands"
-          },
-          {
-            "slug": "introduction",
-            "depth": 2,
-            "value": "Introduction"
-          },
-          {
-            "slug": "lerna",
-            "depth": 2,
-            "value": "Lerna"
-          },
-          {
-            "slug": "workspaces",
-            "depth": 2,
-            "value": "Workspaces"
-          },
-          {
-            "slug": "example-jest-workspace",
-            "depth": 2,
-            "value": "Example: Jest Workspace"
-          },
-          {
-            "slug": "how-yarn-install-works-with-workspaces",
-            "depth": 2,
-            "value": "How yarn install works with workspaces"
-          },
-          {
-            "slug": "managing-dependecies",
-            "depth": 2,
-            "value": "Managing Dependecies"
           }
         ]
       }
