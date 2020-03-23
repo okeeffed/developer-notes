@@ -10,6 +10,7 @@ name: JS-Testing-Practices-And-Principles
 1. [Online Course](https://frontendmasters.com/courses/testing-practices-principles/jest-testing-framework/)
 2. [Jest CLI docs](https://jestjs.io/docs/en/cli)
 3. [Jest-in-case library](https://github.com/atlassian/jest-in-case)
+4. [Why Pure Modules](https://kentcdodds.com/blog/pure-modules/)
 
 ## Jest Intro
 
@@ -228,3 +229,69 @@ import axiosMock from 'axios';
 // if we don't want to mock module
 jest.unmock('axios');
 ```
+
+> An interesting point here on pure modules is that Jest has a `resetModules` method that you can run after each test if there is impurity (ie variables declared at the top-level of the file).
+
+## Using a `__mocks__` directory
+
+```javascript
+import * as usersController from '../users';
+import { db, initDb } from 'db-utils';
+
+beforeEach(() => {
+  // an example just initialising the db here
+  initDb();
+});
+
+test('getUsers returns all users in the database', async () => {
+  const req = {};
+  const res = {
+    json: jest.fn(),
+  };
+
+  await usersController.getUsers(req, res);
+  expect(res.json).toHaveBeenCalledTimes(1);
+  console.log(res.json.mock.calls[0]); // passes back array called in func [{users:[]}]
+
+  // for testing
+  const actualUsers = await db.getUsers();
+  expect(users).toEqual(actualUsers.map(safeUser));
+});
+```
+
+The example that Kent C Dodds users here is a util to generate random users.
+
+## Test Factories
+
+> Something to note throughout the tests is that Kent uses a `setup` top-level function to get the data required during test runtime instead of initialising at the top-level.
+
+```javascript
+function setup() {
+  const req = {};
+  const res = {};
+  Object.assign(res, {
+    status: jest.fn(
+      function status() {
+        return this;
+      }.bind(res),
+    ),
+    json: jest.fn(
+      function status() {
+        return this;
+      }.bind(res),
+    ),
+    send: jest.fn(
+      function status() {
+        return this;
+      }.bind(res),
+    ),
+  });
+  return { req, res };
+}
+```
+
+> Doing cleanup ahead of tests can be useful instead of after. This helps inspect the database at the time of failure to help debug.
+
+## Conclusion
+
+Kent mentions that you should use the `testing trophy`. He mentions that generally he focuses mainly on integration test over unit and e2e as they are more expensive time and money wise.
