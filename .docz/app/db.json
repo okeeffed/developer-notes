@@ -1487,111 +1487,6 @@
       }
     },
     {
-      "key": "manual/Amplify/Adding-Storage.md",
-      "value": {
-        "name": "Adding Storage",
-        "menu": "Amplify",
-        "id": "13f8980edfad7ad84d3e5c806137b3d0",
-        "filepath": "manual/Amplify/Adding-Storage.md",
-        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Amplify/Adding-Storage.md",
-        "link": "",
-        "slug": "manual-amplify-adding-storage",
-        "route": "/manual-amplify-adding-storage",
-        "headings": [
-          {
-            "slug": "adding-storage-to-amplify",
-            "depth": 1,
-            "value": "Adding Storage to Amplify"
-          },
-          {
-            "slug": "useful-links",
-            "depth": 2,
-            "value": "Useful links"
-          }
-        ]
-      }
-    },
-    {
-      "key": "manual/Amplify/Facebook-Login.md",
-      "value": {
-        "name": "Facebook Login",
-        "menu": "Amplify",
-        "id": "d9b06784265069da65ddeedf4841ffd4",
-        "filepath": "manual/Amplify/Facebook-Login.md",
-        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Amplify/Facebook-Login.md",
-        "link": "",
-        "slug": "manual-amplify-facebook-login",
-        "route": "/manual-amplify-facebook-login",
-        "headings": [
-          {
-            "slug": "facebook-login",
-            "depth": 1,
-            "value": "Facebook Login"
-          },
-          {
-            "slug": "tldr",
-            "depth": 2,
-            "value": "tl;dr"
-          }
-        ]
-      }
-    },
-    {
-      "key": "manual/Amplify/Graphql-Setup.md",
-      "value": {
-        "name": "Graphql Setup",
-        "menu": "Amplify",
-        "id": "c20b92610138602837f77a3da16b8ebb",
-        "filepath": "manual/Amplify/Graphql-Setup.md",
-        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Amplify/Graphql-Setup.md",
-        "link": "",
-        "slug": "manual-amplify-graphql-setup",
-        "route": "/manual-amplify-graphql-setup",
-        "headings": [
-          {
-            "slug": "graphql-setup",
-            "depth": 1,
-            "value": "GraphQL Setup"
-          },
-          {
-            "slug": "links",
-            "depth": 2,
-            "value": "Links"
-          },
-          {
-            "slug": "to-get-it-running",
-            "depth": 2,
-            "value": "To get it running"
-          },
-          {
-            "slug": "example-schema",
-            "depth": 3,
-            "value": "Example schema"
-          },
-          {
-            "slug": "example-mutation",
-            "depth": 3,
-            "value": "Example mutation"
-          },
-          {
-            "slug": "example-query",
-            "depth": 3,
-            "value": "Example query"
-          },
-          {
-            "slug": "autogenerating-code-for-the-schema",
-            "depth": 2,
-            "value": "Autogenerating code for the schema"
-          },
-          {
-            "slug": "1-many-many-to-many-relationship-schemas",
-            "depth": 2,
-            "value": "1-many, many-to-many relationship schemas"
-          }
-        ]
-      }
-    },
-    {
       "key": "manual/Algebra/Intro.md",
       "value": {
         "menu": "Algebra",
@@ -1762,6 +1657,111 @@
             "slug": "resources",
             "depth": 2,
             "value": "Resources"
+          }
+        ]
+      }
+    },
+    {
+      "key": "manual/Amplify/Adding-Storage.md",
+      "value": {
+        "name": "Adding Storage",
+        "menu": "Amplify",
+        "id": "13f8980edfad7ad84d3e5c806137b3d0",
+        "filepath": "manual/Amplify/Adding-Storage.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Amplify/Adding-Storage.md",
+        "link": "",
+        "slug": "manual-amplify-adding-storage",
+        "route": "/manual-amplify-adding-storage",
+        "headings": [
+          {
+            "slug": "adding-storage-to-amplify",
+            "depth": 1,
+            "value": "Adding Storage to Amplify"
+          },
+          {
+            "slug": "useful-links",
+            "depth": 2,
+            "value": "Useful links"
+          }
+        ]
+      }
+    },
+    {
+      "key": "manual/Amplify/Facebook-Login.md",
+      "value": {
+        "name": "Facebook Login",
+        "menu": "Amplify",
+        "id": "d9b06784265069da65ddeedf4841ffd4",
+        "filepath": "manual/Amplify/Facebook-Login.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Amplify/Facebook-Login.md",
+        "link": "",
+        "slug": "manual-amplify-facebook-login",
+        "route": "/manual-amplify-facebook-login",
+        "headings": [
+          {
+            "slug": "facebook-login",
+            "depth": 1,
+            "value": "Facebook Login"
+          },
+          {
+            "slug": "tldr",
+            "depth": 2,
+            "value": "tl;dr"
+          }
+        ]
+      }
+    },
+    {
+      "key": "manual/Amplify/Graphql-Setup.md",
+      "value": {
+        "name": "Graphql Setup",
+        "menu": "Amplify",
+        "id": "c20b92610138602837f77a3da16b8ebb",
+        "filepath": "manual/Amplify/Graphql-Setup.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Amplify/Graphql-Setup.md",
+        "link": "",
+        "slug": "manual-amplify-graphql-setup",
+        "route": "/manual-amplify-graphql-setup",
+        "headings": [
+          {
+            "slug": "graphql-setup",
+            "depth": 1,
+            "value": "GraphQL Setup"
+          },
+          {
+            "slug": "links",
+            "depth": 2,
+            "value": "Links"
+          },
+          {
+            "slug": "to-get-it-running",
+            "depth": 2,
+            "value": "To get it running"
+          },
+          {
+            "slug": "example-schema",
+            "depth": 3,
+            "value": "Example schema"
+          },
+          {
+            "slug": "example-mutation",
+            "depth": 3,
+            "value": "Example mutation"
+          },
+          {
+            "slug": "example-query",
+            "depth": 3,
+            "value": "Example query"
+          },
+          {
+            "slug": "autogenerating-code-for-the-schema",
+            "depth": 2,
+            "value": "Autogenerating code for the schema"
+          },
+          {
+            "slug": "1-many-many-to-many-relationship-schemas",
+            "depth": 2,
+            "value": "1-many, many-to-many relationship schemas"
           }
         ]
       }
@@ -3112,6 +3112,51 @@
       }
     },
     {
+      "key": "manual/Art/Drawing.md",
+      "value": {
+        "name": "Drawing",
+        "menu": "Art",
+        "id": "78e8b1c599237c157d6fdc9caf01e49b",
+        "filepath": "manual/Art/Drawing.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Art/Drawing.md",
+        "link": "",
+        "slug": "manual-art-drawing",
+        "route": "/manual-art-drawing",
+        "headings": [
+          {
+            "slug": "drawing-course",
+            "depth": 1,
+            "value": "Drawing Course"
+          },
+          {
+            "slug": "basics",
+            "depth": 2,
+            "value": "Basics"
+          },
+          {
+            "slug": "tools",
+            "depth": 3,
+            "value": "Tools"
+          },
+          {
+            "slug": "why-is-drawing-so-important",
+            "depth": 2,
+            "value": "Why is drawing so important?"
+          },
+          {
+            "slug": "testing-metric",
+            "depth": 3,
+            "value": "Testing metric"
+          },
+          {
+            "slug": "basics-of-line-drawing",
+            "depth": 2,
+            "value": "Basics of line drawing"
+          }
+        ]
+      }
+    },
+    {
       "key": "manual/Angular/Angular-Basics.md",
       "value": {
         "name": "Angular Basics",
@@ -3342,51 +3387,6 @@
             "slug": "level",
             "depth": 2,
             "value": "Level"
-          }
-        ]
-      }
-    },
-    {
-      "key": "manual/Art/Drawing.md",
-      "value": {
-        "name": "Drawing",
-        "menu": "Art",
-        "id": "78e8b1c599237c157d6fdc9caf01e49b",
-        "filepath": "manual/Art/Drawing.md",
-        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Art/Drawing.md",
-        "link": "",
-        "slug": "manual-art-drawing",
-        "route": "/manual-art-drawing",
-        "headings": [
-          {
-            "slug": "drawing-course",
-            "depth": 1,
-            "value": "Drawing Course"
-          },
-          {
-            "slug": "basics",
-            "depth": 2,
-            "value": "Basics"
-          },
-          {
-            "slug": "tools",
-            "depth": 3,
-            "value": "Tools"
-          },
-          {
-            "slug": "why-is-drawing-so-important",
-            "depth": 2,
-            "value": "Why is drawing so important?"
-          },
-          {
-            "slug": "testing-metric",
-            "depth": 3,
-            "value": "Testing metric"
-          },
-          {
-            "slug": "basics-of-line-drawing",
-            "depth": 2,
-            "value": "Basics of line drawing"
           }
         ]
       }
@@ -11071,166 +11071,6 @@
       }
     },
     {
-      "key": "manual/Functional-Programming/Functors-And-Monads.md",
-      "value": {
-        "menu": "Functional Programming",
-        "name": "Functors and Monads",
-        "id": "f65d0de9c29bf6acd237884d1f43b8ba",
-        "filepath": "manual/Functional-Programming/Functors-And-Monads.md",
-        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Functional-Programming/Functors-And-Monads.md",
-        "link": "",
-        "slug": "manual-functional-programming-functors-and-monads",
-        "route": "/manual-functional-programming-functors-and-monads",
-        "headings": [
-          {
-            "slug": "functors-and-monads",
-            "depth": 1,
-            "value": "Functors and Monads"
-          },
-          {
-            "slug": "resources",
-            "depth": 2,
-            "value": "Resources"
-          },
-          {
-            "slug": "tldr",
-            "depth": 2,
-            "value": "tl;dr"
-          }
-        ]
-      }
-    },
-    {
-      "key": "manual/Functional-Programming/Hardcore-FP-In-JavaScript.md",
-      "value": {
-        "menu": "Functional Programming",
-        "name": "Hardcore FP in JavaScript",
-        "id": "0df465cb21af87960831b8730bfa4951",
-        "filepath": "manual/Functional-Programming/Hardcore-FP-In-JavaScript.md",
-        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Functional-Programming/Hardcore-FP-In-JavaScript.md",
-        "link": "",
-        "slug": "manual-functional-programming-hardcore-fp-in-java-script",
-        "route": "/manual-functional-programming-hardcore-fp-in-java-script",
-        "headings": [
-          {
-            "slug": "hardcore-functional-programming-in-javascrpt",
-            "depth": 1,
-            "value": "Hardcore Functional Programming in JavaScrpt"
-          },
-          {
-            "slug": "resources",
-            "depth": 2,
-            "value": "Resources"
-          },
-          {
-            "slug": "introduction",
-            "depth": 2,
-            "value": "Introduction"
-          },
-          {
-            "slug": "omit-needless-names",
-            "depth": 3,
-            "value": "Omit Needless Names"
-          },
-          {
-            "slug": "separating-mutation-from-calculation",
-            "depth": 3,
-            "value": "Separating Mutation From Calculation"
-          },
-          {
-            "slug": "recognize-pure-functions",
-            "depth": 3,
-            "value": "Recognize Pure Functions"
-          },
-          {
-            "slug": "separate-functions-from-rules",
-            "depth": 3,
-            "value": "Separate Functions From Rules"
-          },
-          {
-            "slug": "compose",
-            "depth": 3,
-            "value": "Compose"
-          },
-          {
-            "slug": "point-free",
-            "depth": 3,
-            "value": "Point Free"
-          },
-          {
-            "slug": "the-voyage",
-            "depth": 2,
-            "value": "The Voyage"
-          },
-          {
-            "slug": "category-theory",
-            "depth": 3,
-            "value": "Category Theory"
-          },
-          {
-            "slug": "objects",
-            "depth": 3,
-            "value": "Objects"
-          },
-          {
-            "slug": "maybe-functor",
-            "depth": 3,
-            "value": "Maybe Functor"
-          },
-          {
-            "slug": "either-w-subclasses-left-or-right",
-            "depth": 3,
-            "value": "Either w/ subclasses Left or Right"
-          },
-          {
-            "slug": "io",
-            "depth": 3,
-            "value": "IO"
-          },
-          {
-            "slug": "other-functors",
-            "depth": 3,
-            "value": "Other Functors"
-          },
-          {
-            "slug": "functor-law-properties",
-            "depth": 3,
-            "value": "Functor Law Properties"
-          },
-          {
-            "slug": "monads",
-            "depth": 3,
-            "value": "Monads"
-          }
-        ]
-      }
-    },
-    {
-      "key": "manual/Functional-Programming/Intro.md",
-      "value": {
-        "menu": "Functional Programming",
-        "name": "Intro",
-        "id": "1a4df1b6f520a13c720050f930fa6a68",
-        "filepath": "manual/Functional-Programming/Intro.md",
-        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Functional-Programming/Intro.md",
-        "link": "",
-        "slug": "manual-functional-programming-intro",
-        "route": "/manual-functional-programming-intro",
-        "headings": [
-          {
-            "slug": "intro-to-functional-programming",
-            "depth": 1,
-            "value": "Intro to Functional Programming"
-          },
-          {
-            "slug": "resources",
-            "depth": 2,
-            "value": "Resources"
-          }
-        ]
-      }
-    },
-    {
       "key": "manual/Git/Git-Complete.md",
       "value": {
         "menu": "Git",
@@ -11611,6 +11451,166 @@
             "slug": "squashing-commits",
             "depth": 1,
             "value": "Squashing Commits"
+          }
+        ]
+      }
+    },
+    {
+      "key": "manual/Functional-Programming/Functors-And-Monads.md",
+      "value": {
+        "menu": "Functional Programming",
+        "name": "Functors and Monads",
+        "id": "f65d0de9c29bf6acd237884d1f43b8ba",
+        "filepath": "manual/Functional-Programming/Functors-And-Monads.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Functional-Programming/Functors-And-Monads.md",
+        "link": "",
+        "slug": "manual-functional-programming-functors-and-monads",
+        "route": "/manual-functional-programming-functors-and-monads",
+        "headings": [
+          {
+            "slug": "functors-and-monads",
+            "depth": 1,
+            "value": "Functors and Monads"
+          },
+          {
+            "slug": "resources",
+            "depth": 2,
+            "value": "Resources"
+          },
+          {
+            "slug": "tldr",
+            "depth": 2,
+            "value": "tl;dr"
+          }
+        ]
+      }
+    },
+    {
+      "key": "manual/Functional-Programming/Hardcore-FP-In-JavaScript.md",
+      "value": {
+        "menu": "Functional Programming",
+        "name": "Hardcore FP in JavaScript",
+        "id": "0df465cb21af87960831b8730bfa4951",
+        "filepath": "manual/Functional-Programming/Hardcore-FP-In-JavaScript.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Functional-Programming/Hardcore-FP-In-JavaScript.md",
+        "link": "",
+        "slug": "manual-functional-programming-hardcore-fp-in-java-script",
+        "route": "/manual-functional-programming-hardcore-fp-in-java-script",
+        "headings": [
+          {
+            "slug": "hardcore-functional-programming-in-javascrpt",
+            "depth": 1,
+            "value": "Hardcore Functional Programming in JavaScrpt"
+          },
+          {
+            "slug": "resources",
+            "depth": 2,
+            "value": "Resources"
+          },
+          {
+            "slug": "introduction",
+            "depth": 2,
+            "value": "Introduction"
+          },
+          {
+            "slug": "omit-needless-names",
+            "depth": 3,
+            "value": "Omit Needless Names"
+          },
+          {
+            "slug": "separating-mutation-from-calculation",
+            "depth": 3,
+            "value": "Separating Mutation From Calculation"
+          },
+          {
+            "slug": "recognize-pure-functions",
+            "depth": 3,
+            "value": "Recognize Pure Functions"
+          },
+          {
+            "slug": "separate-functions-from-rules",
+            "depth": 3,
+            "value": "Separate Functions From Rules"
+          },
+          {
+            "slug": "compose",
+            "depth": 3,
+            "value": "Compose"
+          },
+          {
+            "slug": "point-free",
+            "depth": 3,
+            "value": "Point Free"
+          },
+          {
+            "slug": "the-voyage",
+            "depth": 2,
+            "value": "The Voyage"
+          },
+          {
+            "slug": "category-theory",
+            "depth": 3,
+            "value": "Category Theory"
+          },
+          {
+            "slug": "objects",
+            "depth": 3,
+            "value": "Objects"
+          },
+          {
+            "slug": "maybe-functor",
+            "depth": 3,
+            "value": "Maybe Functor"
+          },
+          {
+            "slug": "either-w-subclasses-left-or-right",
+            "depth": 3,
+            "value": "Either w/ subclasses Left or Right"
+          },
+          {
+            "slug": "io",
+            "depth": 3,
+            "value": "IO"
+          },
+          {
+            "slug": "other-functors",
+            "depth": 3,
+            "value": "Other Functors"
+          },
+          {
+            "slug": "functor-law-properties",
+            "depth": 3,
+            "value": "Functor Law Properties"
+          },
+          {
+            "slug": "monads",
+            "depth": 3,
+            "value": "Monads"
+          }
+        ]
+      }
+    },
+    {
+      "key": "manual/Functional-Programming/Intro.md",
+      "value": {
+        "menu": "Functional Programming",
+        "name": "Intro",
+        "id": "1a4df1b6f520a13c720050f930fa6a68",
+        "filepath": "manual/Functional-Programming/Intro.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Functional-Programming/Intro.md",
+        "link": "",
+        "slug": "manual-functional-programming-intro",
+        "route": "/manual-functional-programming-intro",
+        "headings": [
+          {
+            "slug": "intro-to-functional-programming",
+            "depth": 1,
+            "value": "Intro to Functional Programming"
+          },
+          {
+            "slug": "resources",
+            "depth": 2,
+            "value": "Resources"
           }
         ]
       }
@@ -12501,6 +12501,151 @@
             "slug": "debugging",
             "depth": 2,
             "value": "Debugging"
+          }
+        ]
+      }
+    },
+    {
+      "key": "manual/GraphQL/Advanced-GraphQL-v2.md",
+      "value": {
+        "menu": "GraphQL",
+        "name": "Advanced GraphQL v2",
+        "id": "24aa4f8287715ac17254da15f5d45e31",
+        "filepath": "manual/GraphQL/Advanced-GraphQL-v2.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/GraphQL/Advanced-GraphQL-v2.md",
+        "link": "",
+        "slug": "manual-graph-ql-advanced-graph-ql-v2",
+        "route": "/manual-graph-ql-advanced-graph-ql-v2",
+        "headings": [
+          {
+            "slug": "advanced-graphql-v2",
+            "depth": 1,
+            "value": "Advanced GraphQL v2"
+          },
+          {
+            "slug": "resources",
+            "depth": 2,
+            "value": "Resources"
+          },
+          {
+            "slug": "introduction",
+            "depth": 2,
+            "value": "Introduction"
+          },
+          {
+            "slug": "create-a-graphql-server",
+            "depth": 2,
+            "value": "Create a GraphQL Server"
+          },
+          {
+            "slug": "type-definitions",
+            "depth": 3,
+            "value": "Type Definitions"
+          },
+          {
+            "slug": "resolvers",
+            "depth": 3,
+            "value": "Resolvers"
+          },
+          {
+            "slug": "authentication",
+            "depth": 2,
+            "value": "Authentication"
+          },
+          {
+            "slug": "auth-approaches",
+            "depth": 3,
+            "value": "Auth Approaches"
+          },
+          {
+            "slug": "outside-of-graphql",
+            "depth": 4,
+            "value": "Outside of GraphQL"
+          },
+          {
+            "slug": "when-creating-context",
+            "depth": 4,
+            "value": "When Creating Context"
+          },
+          {
+            "slug": "inside-resolvers",
+            "depth": 4,
+            "value": "Inside Resolvers"
+          },
+          {
+            "slug": "authentication-example",
+            "depth": 2,
+            "value": "Authentication Example"
+          },
+          {
+            "slug": "subscriptions-in-graphql",
+            "depth": 2,
+            "value": "Subscriptions in GraphQL"
+          },
+          {
+            "slug": "error-handling",
+            "depth": 2,
+            "value": "Error Handling"
+          },
+          {
+            "slug": "formatting-and-error-codes",
+            "depth": 3,
+            "value": "Formatting and Error Codes"
+          },
+          {
+            "slug": "testing",
+            "depth": 2,
+            "value": "Testing"
+          },
+          {
+            "slug": "testing-example",
+            "depth": 3,
+            "value": "Testing Example"
+          },
+          {
+            "slug": "directives",
+            "depth": 2,
+            "value": "Directives"
+          },
+          {
+            "slug": "directives-on-the-server-side",
+            "depth": 3,
+            "value": "Directives on the Server Side"
+          },
+          {
+            "slug": "clientside-directives",
+            "depth": 3,
+            "value": "Clientside Directives"
+          },
+          {
+            "slug": "creating-directives",
+            "depth": 2,
+            "value": "Creating Directives"
+          },
+          {
+            "slug": "example-auth-directive",
+            "depth": 2,
+            "value": "Example Auth Directive"
+          },
+          {
+            "slug": "caching",
+            "depth": 2,
+            "value": "Caching"
+          },
+          {
+            "slug": "client-side-caching",
+            "depth": 3,
+            "value": "Client side caching"
+          },
+          {
+            "slug": "how-should-you-cache",
+            "depth": 3,
+            "value": "How should you cache?"
+          },
+          {
+            "slug": "conclusion-and-qa",
+            "depth": 2,
+            "value": "Conclusion and Q&A"
           }
         ]
       }
@@ -14820,6 +14965,91 @@
       }
     },
     {
+      "key": "manual/Jest/JS-Testing-Practices-And-Principles.md",
+      "value": {
+        "menu": "Jest",
+        "name": "JS-Testing-Practices-And-Principles",
+        "id": "29306b825d079746a5af5cadfb58944a",
+        "filepath": "manual/Jest/JS-Testing-Practices-And-Principles.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Jest/JS-Testing-Practices-And-Principles.md",
+        "link": "",
+        "slug": "manual-jest-js-testing-practices-and-principles",
+        "route": "/manual-jest-js-testing-practices-and-principles",
+        "headings": [
+          {
+            "slug": "js-testing-practices-and-principles",
+            "depth": 1,
+            "value": "JS-Testing-Practices-And-Principles"
+          },
+          {
+            "slug": "resources",
+            "depth": 2,
+            "value": "Resources"
+          },
+          {
+            "slug": "jest-intro",
+            "depth": 2,
+            "value": "Jest Intro"
+          },
+          {
+            "slug": "cli",
+            "depth": 3,
+            "value": "CLI"
+          },
+          {
+            "slug": "commands",
+            "depth": 3,
+            "value": "Commands"
+          },
+          {
+            "slug": "test-factories-and-colocating-tests-qa",
+            "depth": 2,
+            "value": "Test Factories and Colocating Tests Q&A"
+          },
+          {
+            "slug": "code-coverage",
+            "depth": 2,
+            "value": "Code coverage"
+          },
+          {
+            "slug": "monkey-patch-a-mock",
+            "depth": 2,
+            "value": "Monkey Patch a mock"
+          },
+          {
+            "slug": "assert-calling-a-mock",
+            "depth": 2,
+            "value": "Assert calling a mock"
+          },
+          {
+            "slug": "jest-spyon",
+            "depth": 2,
+            "value": "Jest spyOn"
+          },
+          {
+            "slug": "jest-mock",
+            "depth": 2,
+            "value": "Jest Mock"
+          },
+          {
+            "slug": "using-a-__mocks__-directory",
+            "depth": 2,
+            "value": "Using a  __mocks__  directory"
+          },
+          {
+            "slug": "test-factories",
+            "depth": 2,
+            "value": "Test Factories"
+          },
+          {
+            "slug": "conclusion",
+            "depth": 2,
+            "value": "Conclusion"
+          }
+        ]
+      }
+    },
+    {
       "key": "manual/Kafka/Clients.md",
       "value": {
         "menu": "Kafka",
@@ -15725,176 +15955,6 @@
             "slug": "preferences",
             "depth": 2,
             "value": "Preferences"
-          }
-        ]
-      }
-    },
-    {
-      "key": "manual/Language-Learning/Approach-To-Learning-Software-Languages.md",
-      "value": {
-        "menu": "Language Learning",
-        "name": "Approach To Learning Software Languages",
-        "id": "9d2cc3e153cea4adb81211de57b01632",
-        "filepath": "manual/Language-Learning/Approach-To-Learning-Software-Languages.md",
-        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Language-Learning/Approach-To-Learning-Software-Languages.md",
-        "link": "",
-        "slug": "manual-language-learning-approach-to-learning-software-languages",
-        "route": "/manual-language-learning-approach-to-learning-software-languages",
-        "headings": [
-          {
-            "slug": "approach-to-learning-software-languages",
-            "depth": 1,
-            "value": "Approach To Learning Software Languages"
-          },
-          {
-            "slug": "first-steps",
-            "depth": 2,
-            "value": "First Steps"
-          },
-          {
-            "slug": "understanding-through-programs",
-            "depth": 2,
-            "value": "Understanding Through Programs"
-          }
-        ]
-      }
-    },
-    {
-      "key": "manual/Language-Learning/Golang.md",
-      "value": {
-        "menu": "Language Learning",
-        "name": "Golang",
-        "id": "a17c0111d159f171e5bb3949f7750ebc",
-        "filepath": "manual/Language-Learning/Golang.md",
-        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Language-Learning/Golang.md",
-        "link": "",
-        "slug": "manual-language-learning-golang",
-        "route": "/manual-language-learning-golang",
-        "headings": [
-          {
-            "slug": "golang",
-            "depth": 1,
-            "value": "Golang"
-          },
-          {
-            "slug": "the-why-behind-the-language",
-            "depth": 2,
-            "value": "The \"why\" behind the language?"
-          },
-          {
-            "slug": "quora-top-answer",
-            "depth": 3,
-            "value": "Quora Top Answer"
-          },
-          {
-            "slug": "from-rob-pike-one-of-gos-creators",
-            "depth": 3,
-            "value": "From Rob Pike, one of Go's Creators"
-          },
-          {
-            "slug": "pros-and-cons-of-the-language",
-            "depth": 2,
-            "value": "Pros and cons of the language?"
-          },
-          {
-            "slug": "pros",
-            "depth": 3,
-            "value": "Pros"
-          },
-          {
-            "slug": "cons",
-            "depth": 3,
-            "value": "Cons"
-          },
-          {
-            "slug": "what-are-the-use-cases",
-            "depth": 2,
-            "value": "What are the use cases?"
-          },
-          {
-            "slug": "testing--benchmarking",
-            "depth": 2,
-            "value": "Testing / Benchmarking"
-          },
-          {
-            "slug": "popular-web-servers-for-the-language",
-            "depth": 2,
-            "value": "Popular web servers for the language?"
-          },
-          {
-            "slug": "hello-world",
-            "depth": 2,
-            "value": "Hello, World!"
-          },
-          {
-            "slug": "documentation",
-            "depth": 2,
-            "value": "Documentation"
-          },
-          {
-            "slug": "what-are-the-nuances-of-the-language",
-            "depth": 2,
-            "value": "What are the nuances of the language?"
-          },
-          {
-            "slug": "how-does-package-management-work",
-            "depth": 2,
-            "value": "How does package management work?"
-          },
-          {
-            "slug": "how-does-importing-work",
-            "depth": 2,
-            "value": "How does importing work?"
-          },
-          {
-            "slug": "how-does-logging-work",
-            "depth": 2,
-            "value": "How does logging work?"
-          },
-          {
-            "slug": "useful-linksarticles",
-            "depth": 2,
-            "value": "Useful links/articles"
-          },
-          {
-            "slug": "useful-tips-and-tricks",
-            "depth": 2,
-            "value": "Useful tips and tricks"
-          },
-          {
-            "slug": "read-file",
-            "depth": 2,
-            "value": "Read File"
-          },
-          {
-            "slug": "write-file",
-            "depth": 2,
-            "value": "Write File"
-          },
-          {
-            "slug": "walk-through-directory",
-            "depth": 2,
-            "value": "Walk through directory"
-          },
-          {
-            "slug": "check-file-exists",
-            "depth": 2,
-            "value": "Check file exists"
-          },
-          {
-            "slug": "system-calls",
-            "depth": 2,
-            "value": "System calls"
-          },
-          {
-            "slug": "defer",
-            "depth": 2,
-            "value": "Defer"
-          },
-          {
-            "slug": "understanding-through-programs",
-            "depth": 2,
-            "value": "Understanding Through Programs"
           }
         ]
       }
@@ -17510,6 +17570,176 @@
             "slug": "tldr",
             "depth": 2,
             "value": "tl;dr"
+          }
+        ]
+      }
+    },
+    {
+      "key": "manual/Language-Learning/Approach-To-Learning-Software-Languages.md",
+      "value": {
+        "menu": "Language Learning",
+        "name": "Approach To Learning Software Languages",
+        "id": "9d2cc3e153cea4adb81211de57b01632",
+        "filepath": "manual/Language-Learning/Approach-To-Learning-Software-Languages.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Language-Learning/Approach-To-Learning-Software-Languages.md",
+        "link": "",
+        "slug": "manual-language-learning-approach-to-learning-software-languages",
+        "route": "/manual-language-learning-approach-to-learning-software-languages",
+        "headings": [
+          {
+            "slug": "approach-to-learning-software-languages",
+            "depth": 1,
+            "value": "Approach To Learning Software Languages"
+          },
+          {
+            "slug": "first-steps",
+            "depth": 2,
+            "value": "First Steps"
+          },
+          {
+            "slug": "understanding-through-programs",
+            "depth": 2,
+            "value": "Understanding Through Programs"
+          }
+        ]
+      }
+    },
+    {
+      "key": "manual/Language-Learning/Golang.md",
+      "value": {
+        "menu": "Language Learning",
+        "name": "Golang",
+        "id": "a17c0111d159f171e5bb3949f7750ebc",
+        "filepath": "manual/Language-Learning/Golang.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Language-Learning/Golang.md",
+        "link": "",
+        "slug": "manual-language-learning-golang",
+        "route": "/manual-language-learning-golang",
+        "headings": [
+          {
+            "slug": "golang",
+            "depth": 1,
+            "value": "Golang"
+          },
+          {
+            "slug": "the-why-behind-the-language",
+            "depth": 2,
+            "value": "The \"why\" behind the language?"
+          },
+          {
+            "slug": "quora-top-answer",
+            "depth": 3,
+            "value": "Quora Top Answer"
+          },
+          {
+            "slug": "from-rob-pike-one-of-gos-creators",
+            "depth": 3,
+            "value": "From Rob Pike, one of Go's Creators"
+          },
+          {
+            "slug": "pros-and-cons-of-the-language",
+            "depth": 2,
+            "value": "Pros and cons of the language?"
+          },
+          {
+            "slug": "pros",
+            "depth": 3,
+            "value": "Pros"
+          },
+          {
+            "slug": "cons",
+            "depth": 3,
+            "value": "Cons"
+          },
+          {
+            "slug": "what-are-the-use-cases",
+            "depth": 2,
+            "value": "What are the use cases?"
+          },
+          {
+            "slug": "testing--benchmarking",
+            "depth": 2,
+            "value": "Testing / Benchmarking"
+          },
+          {
+            "slug": "popular-web-servers-for-the-language",
+            "depth": 2,
+            "value": "Popular web servers for the language?"
+          },
+          {
+            "slug": "hello-world",
+            "depth": 2,
+            "value": "Hello, World!"
+          },
+          {
+            "slug": "documentation",
+            "depth": 2,
+            "value": "Documentation"
+          },
+          {
+            "slug": "what-are-the-nuances-of-the-language",
+            "depth": 2,
+            "value": "What are the nuances of the language?"
+          },
+          {
+            "slug": "how-does-package-management-work",
+            "depth": 2,
+            "value": "How does package management work?"
+          },
+          {
+            "slug": "how-does-importing-work",
+            "depth": 2,
+            "value": "How does importing work?"
+          },
+          {
+            "slug": "how-does-logging-work",
+            "depth": 2,
+            "value": "How does logging work?"
+          },
+          {
+            "slug": "useful-linksarticles",
+            "depth": 2,
+            "value": "Useful links/articles"
+          },
+          {
+            "slug": "useful-tips-and-tricks",
+            "depth": 2,
+            "value": "Useful tips and tricks"
+          },
+          {
+            "slug": "read-file",
+            "depth": 2,
+            "value": "Read File"
+          },
+          {
+            "slug": "write-file",
+            "depth": 2,
+            "value": "Write File"
+          },
+          {
+            "slug": "walk-through-directory",
+            "depth": 2,
+            "value": "Walk through directory"
+          },
+          {
+            "slug": "check-file-exists",
+            "depth": 2,
+            "value": "Check file exists"
+          },
+          {
+            "slug": "system-calls",
+            "depth": 2,
+            "value": "System calls"
+          },
+          {
+            "slug": "defer",
+            "depth": 2,
+            "value": "Defer"
+          },
+          {
+            "slug": "understanding-through-programs",
+            "depth": 2,
+            "value": "Understanding Through Programs"
           }
         ]
       }
@@ -20495,6 +20725,66 @@
       }
     },
     {
+      "key": "manual/OSI-Model/What-Is-OSI.md",
+      "value": {
+        "name": "What is OSI?",
+        "menu": "OSI Model",
+        "id": "20cdc53351babc95094e6e0e58d67d12",
+        "filepath": "manual/OSI-Model/What-Is-OSI.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/OSI-Model/What-Is-OSI.md",
+        "link": "",
+        "slug": "manual-osi-model-what-is-osi",
+        "route": "/manual-osi-model-what-is-osi",
+        "headings": [
+          {
+            "slug": "what-is-osi",
+            "depth": 1,
+            "value": "What is OSI?"
+          },
+          {
+            "slug": "osi-mnemonics",
+            "depth": 2,
+            "value": "OSI Mnemonics"
+          },
+          {
+            "slug": "osi-layers-in-network-traffic",
+            "depth": 2,
+            "value": "OSI Layers in Network Traffic"
+          },
+          {
+            "slug": "layer-1-physical",
+            "depth": 3,
+            "value": "Layer 1: Physical"
+          },
+          {
+            "slug": "layer-2-data-link",
+            "depth": 3,
+            "value": "Layer 2: Data Link"
+          },
+          {
+            "slug": "layer-3-network",
+            "depth": 3,
+            "value": "Layer 3: Network"
+          },
+          {
+            "slug": "layer-4-transport",
+            "depth": 3,
+            "value": "Layer 4: Transport"
+          },
+          {
+            "slug": "layer-5-7-application-presentation-session",
+            "depth": 3,
+            "value": "Layer 5-7: Application, Presentation, Session"
+          },
+          {
+            "slug": "data-in-a-tcpip-example",
+            "depth": 2,
+            "value": "Data in a TCP/IP Example"
+          }
+        ]
+      }
+    },
+    {
       "key": "manual/Nodejs/Async-Hooks.md",
       "value": {
         "menu": "Nodejs",
@@ -20690,66 +20980,6 @@
             "slug": "client-server",
             "depth": 2,
             "value": "Client server"
-          }
-        ]
-      }
-    },
-    {
-      "key": "manual/OSI-Model/What-Is-OSI.md",
-      "value": {
-        "name": "What is OSI?",
-        "menu": "OSI Model",
-        "id": "20cdc53351babc95094e6e0e58d67d12",
-        "filepath": "manual/OSI-Model/What-Is-OSI.md",
-        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/OSI-Model/What-Is-OSI.md",
-        "link": "",
-        "slug": "manual-osi-model-what-is-osi",
-        "route": "/manual-osi-model-what-is-osi",
-        "headings": [
-          {
-            "slug": "what-is-osi",
-            "depth": 1,
-            "value": "What is OSI?"
-          },
-          {
-            "slug": "osi-mnemonics",
-            "depth": 2,
-            "value": "OSI Mnemonics"
-          },
-          {
-            "slug": "osi-layers-in-network-traffic",
-            "depth": 2,
-            "value": "OSI Layers in Network Traffic"
-          },
-          {
-            "slug": "layer-1-physical",
-            "depth": 3,
-            "value": "Layer 1: Physical"
-          },
-          {
-            "slug": "layer-2-data-link",
-            "depth": 3,
-            "value": "Layer 2: Data Link"
-          },
-          {
-            "slug": "layer-3-network",
-            "depth": 3,
-            "value": "Layer 3: Network"
-          },
-          {
-            "slug": "layer-4-transport",
-            "depth": 3,
-            "value": "Layer 4: Transport"
-          },
-          {
-            "slug": "layer-5-7-application-presentation-session",
-            "depth": 3,
-            "value": "Layer 5-7: Application, Presentation, Session"
-          },
-          {
-            "slug": "data-in-a-tcpip-example",
-            "depth": 2,
-            "value": "Data in a TCP/IP Example"
           }
         ]
       }
@@ -21070,6 +21300,36 @@
       }
     },
     {
+      "key": "manual/PostgresSQL/PSQL-Tips.md",
+      "value": {
+        "menu": "PostgresSQL",
+        "name": "psql tips",
+        "id": "736246ea0165d333334530e1f385fc62",
+        "filepath": "manual/PostgresSQL/PSQL-Tips.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/PostgresSQL/PSQL-Tips.md",
+        "link": "",
+        "slug": "manual-postgres-sql-psql-tips",
+        "route": "/manual-postgres-sql-psql-tips",
+        "headings": [
+          {
+            "slug": "psql-tips",
+            "depth": 1,
+            "value": "psql tips"
+          },
+          {
+            "slug": "useful-links",
+            "depth": 2,
+            "value": "Useful Links"
+          },
+          {
+            "slug": "tldr",
+            "depth": 2,
+            "value": "tl;dr"
+          }
+        ]
+      }
+    },
+    {
       "key": "manual/Personal/Job-Preparation-Examples.md",
       "value": {
         "menu": "Personal",
@@ -21120,36 +21380,6 @@
             "slug": "thinking-principles",
             "depth": 2,
             "value": "Thinking Principles"
-          }
-        ]
-      }
-    },
-    {
-      "key": "manual/PostgresSQL/PSQL-Tips.md",
-      "value": {
-        "menu": "PostgresSQL",
-        "name": "psql tips",
-        "id": "736246ea0165d333334530e1f385fc62",
-        "filepath": "manual/PostgresSQL/PSQL-Tips.md",
-        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/PostgresSQL/PSQL-Tips.md",
-        "link": "",
-        "slug": "manual-postgres-sql-psql-tips",
-        "route": "/manual-postgres-sql-psql-tips",
-        "headings": [
-          {
-            "slug": "psql-tips",
-            "depth": 1,
-            "value": "psql tips"
-          },
-          {
-            "slug": "useful-links",
-            "depth": 2,
-            "value": "Useful Links"
-          },
-          {
-            "slug": "tldr",
-            "depth": 2,
-            "value": "tl;dr"
           }
         ]
       }
@@ -23960,6 +24190,91 @@
             "slug": "routing--thunks",
             "depth": 2,
             "value": "Routing & Thunks"
+          }
+        ]
+      }
+    },
+    {
+      "key": "manual/React/Testing-React-Applications.md",
+      "value": {
+        "menu": "React",
+        "name": "Testing-React-Applications",
+        "id": "99055dc6fc2273fb1b64f3d551b1d5ad",
+        "filepath": "manual/React/Testing-React-Applications.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/React/Testing-React-Applications.md",
+        "link": "",
+        "slug": "manual-react-testing-react-applications",
+        "route": "/manual-react-testing-react-applications",
+        "headings": [
+          {
+            "slug": "testing-react-applications",
+            "depth": 1,
+            "value": "Testing React Applications"
+          },
+          {
+            "slug": "resources",
+            "depth": 2,
+            "value": "Resources"
+          },
+          {
+            "slug": "introduction",
+            "depth": 2,
+            "value": "Introduction"
+          },
+          {
+            "slug": "jest-jsdom",
+            "depth": 2,
+            "value": "Jest JSDOM"
+          },
+          {
+            "slug": "css-imports",
+            "depth": 2,
+            "value": "CSS Imports"
+          },
+          {
+            "slug": "handling-dynamic-imports",
+            "depth": 2,
+            "value": "Handling Dynamic Imports"
+          },
+          {
+            "slug": "adding-coverage-reports",
+            "depth": 2,
+            "value": "Adding Coverage Reports"
+          },
+          {
+            "slug": "projects-key",
+            "depth": 2,
+            "value": "Projects Key"
+          },
+          {
+            "slug": "react-testing-library",
+            "depth": 2,
+            "value": "React Testing Library"
+          },
+          {
+            "slug": "component-testing-qa",
+            "depth": 2,
+            "value": "Component Testing Q&A"
+          },
+          {
+            "slug": "jest-snapshots",
+            "depth": 2,
+            "value": "Jest Snapshots"
+          },
+          {
+            "slug": "cypress-setup",
+            "depth": 2,
+            "value": "Cypress Setup"
+          },
+          {
+            "slug": "cypress-configuration",
+            "depth": 2,
+            "value": "Cypress Configuration"
+          },
+          {
+            "slug": "testing-trophy",
+            "depth": 2,
+            "value": "Testing Trophy"
           }
         ]
       }
@@ -27974,6 +28289,41 @@
       }
     },
     {
+      "key": "manual/Styled-Components/Intro-With-Styled-Systems.md",
+      "value": {
+        "menu": "Styled Components",
+        "name": "Intro With Styled Systems",
+        "id": "9023f581306cfd81ce3c0a77f731c055",
+        "filepath": "manual/Styled-Components/Intro-With-Styled-Systems.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Styled-Components/Intro-With-Styled-Systems.md",
+        "link": "",
+        "slug": "manual-styled-components-intro-with-styled-systems",
+        "route": "/manual-styled-components-intro-with-styled-systems",
+        "headings": [
+          {
+            "slug": "intro-with-styled-systems",
+            "depth": 1,
+            "value": "Intro With Styled Systems"
+          },
+          {
+            "slug": "quickstart-with-typescript",
+            "depth": 2,
+            "value": "Quickstart with TypeScript"
+          },
+          {
+            "slug": "typescript-setup",
+            "depth": 2,
+            "value": "TypeScript Setup"
+          },
+          {
+            "slug": "create-components",
+            "depth": 2,
+            "value": "Create Components"
+          }
+        ]
+      }
+    },
+    {
       "key": "manual/Style/base-animations.md",
       "value": {
         "name": "Base Animations",
@@ -28144,41 +28494,6 @@
             "slug": "typography",
             "depth": 2,
             "value": "Typography"
-          }
-        ]
-      }
-    },
-    {
-      "key": "manual/Styled-Components/Intro-With-Styled-Systems.md",
-      "value": {
-        "menu": "Styled Components",
-        "name": "Intro With Styled Systems",
-        "id": "9023f581306cfd81ce3c0a77f731c055",
-        "filepath": "manual/Styled-Components/Intro-With-Styled-Systems.md",
-        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Styled-Components/Intro-With-Styled-Systems.md",
-        "link": "",
-        "slug": "manual-styled-components-intro-with-styled-systems",
-        "route": "/manual-styled-components-intro-with-styled-systems",
-        "headings": [
-          {
-            "slug": "intro-with-styled-systems",
-            "depth": 1,
-            "value": "Intro With Styled Systems"
-          },
-          {
-            "slug": "quickstart-with-typescript",
-            "depth": 2,
-            "value": "Quickstart with TypeScript"
-          },
-          {
-            "slug": "typescript-setup",
-            "depth": 2,
-            "value": "TypeScript Setup"
-          },
-          {
-            "slug": "create-components",
-            "depth": 2,
-            "value": "Create Components"
           }
         ]
       }
@@ -29179,6 +29494,106 @@
       }
     },
     {
+      "key": "manual/Timber/Timber-Cheat-Sheet.md",
+      "value": {
+        "name": "Timber Cheat Sheet",
+        "menu": "Timber",
+        "id": "fee87c16bf43fce86fbbd11fb7fcfade",
+        "filepath": "manual/Timber/Timber-Cheat-Sheet.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Timber/Timber-Cheat-Sheet.md",
+        "link": "",
+        "slug": "manual-timber-timber-cheat-sheet",
+        "route": "/manual-timber-timber-cheat-sheet",
+        "headings": [
+          {
+            "slug": "timber-help-sheet",
+            "depth": 1,
+            "value": "Timber Help Sheet"
+          },
+          {
+            "slug": "timber-example",
+            "depth": 2,
+            "value": "Timber Example"
+          },
+          {
+            "slug": "timber-blog-info",
+            "depth": 2,
+            "value": "Timber Blog Info"
+          },
+          {
+            "slug": "timber-body-class",
+            "depth": 2,
+            "value": "Timber Body Class"
+          },
+          {
+            "slug": "timber-post",
+            "depth": 2,
+            "value": "Timber Post"
+          },
+          {
+            "slug": "timber-theme",
+            "depth": 2,
+            "value": "Timber Theme"
+          },
+          {
+            "slug": "wp-functions",
+            "depth": 2,
+            "value": "WP Functions"
+          },
+          {
+            "slug": "wp-integrations",
+            "depth": 1,
+            "value": "WP Integrations"
+          },
+          {
+            "slug": "the_content",
+            "depth": 2,
+            "value": "the_content"
+          },
+          {
+            "slug": "hooks",
+            "depth": 2,
+            "value": "hooks"
+          },
+          {
+            "slug": "scripts--stylesheets",
+            "depth": 2,
+            "value": "Scripts + Stylesheets"
+          },
+          {
+            "slug": "functions",
+            "depth": 2,
+            "value": "Functions"
+          },
+          {
+            "slug": "actions",
+            "depth": 2,
+            "value": "Actions"
+          },
+          {
+            "slug": "filters",
+            "depth": 2,
+            "value": "Filters"
+          },
+          {
+            "slug": "widgets",
+            "depth": 2,
+            "value": "Widgets"
+          },
+          {
+            "slug": "shortcodes",
+            "depth": 2,
+            "value": "Shortcodes"
+          },
+          {
+            "slug": "layouts-with-shortcodes",
+            "depth": 2,
+            "value": "Layouts with Shortcodes"
+          }
+        ]
+      }
+    },
+    {
       "key": "manual/Testing/Intro.md",
       "value": {
         "name": "Introduction and Types",
@@ -29449,106 +29864,6 @@
       }
     },
     {
-      "key": "manual/Timber/Timber-Cheat-Sheet.md",
-      "value": {
-        "name": "Timber Cheat Sheet",
-        "menu": "Timber",
-        "id": "fee87c16bf43fce86fbbd11fb7fcfade",
-        "filepath": "manual/Timber/Timber-Cheat-Sheet.md",
-        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Timber/Timber-Cheat-Sheet.md",
-        "link": "",
-        "slug": "manual-timber-timber-cheat-sheet",
-        "route": "/manual-timber-timber-cheat-sheet",
-        "headings": [
-          {
-            "slug": "timber-help-sheet",
-            "depth": 1,
-            "value": "Timber Help Sheet"
-          },
-          {
-            "slug": "timber-example",
-            "depth": 2,
-            "value": "Timber Example"
-          },
-          {
-            "slug": "timber-blog-info",
-            "depth": 2,
-            "value": "Timber Blog Info"
-          },
-          {
-            "slug": "timber-body-class",
-            "depth": 2,
-            "value": "Timber Body Class"
-          },
-          {
-            "slug": "timber-post",
-            "depth": 2,
-            "value": "Timber Post"
-          },
-          {
-            "slug": "timber-theme",
-            "depth": 2,
-            "value": "Timber Theme"
-          },
-          {
-            "slug": "wp-functions",
-            "depth": 2,
-            "value": "WP Functions"
-          },
-          {
-            "slug": "wp-integrations",
-            "depth": 1,
-            "value": "WP Integrations"
-          },
-          {
-            "slug": "the_content",
-            "depth": 2,
-            "value": "the_content"
-          },
-          {
-            "slug": "hooks",
-            "depth": 2,
-            "value": "hooks"
-          },
-          {
-            "slug": "scripts--stylesheets",
-            "depth": 2,
-            "value": "Scripts + Stylesheets"
-          },
-          {
-            "slug": "functions",
-            "depth": 2,
-            "value": "Functions"
-          },
-          {
-            "slug": "actions",
-            "depth": 2,
-            "value": "Actions"
-          },
-          {
-            "slug": "filters",
-            "depth": 2,
-            "value": "Filters"
-          },
-          {
-            "slug": "widgets",
-            "depth": 2,
-            "value": "Widgets"
-          },
-          {
-            "slug": "shortcodes",
-            "depth": 2,
-            "value": "Shortcodes"
-          },
-          {
-            "slug": "layouts-with-shortcodes",
-            "depth": 2,
-            "value": "Layouts with Shortcodes"
-          }
-        ]
-      }
-    },
-    {
       "key": "manual/Tooling/Awesome-CLI-Tools.md",
       "value": {
         "menu": "Tooling",
@@ -29759,101 +30074,6 @@
       }
     },
     {
-      "key": "manual/TypeScript/Developers-Guide.md",
-      "value": {
-        "menu": "TypeScript",
-        "name": "Developer's Guide",
-        "id": "3d2c2fa945329886a1c1939c3fec409d",
-        "filepath": "manual/TypeScript/Developers-Guide.md",
-        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/TypeScript/Developers-Guide.md",
-        "link": "",
-        "slug": "manual-type-script-developers-guide",
-        "route": "/manual-type-script-developers-guide",
-        "headings": [
-          {
-            "slug": "developers-guide-to-typescript",
-            "depth": 1,
-            "value": "Developer's Guide to TypeScript"
-          },
-          {
-            "slug": "types",
-            "depth": 2,
-            "value": "Types"
-          },
-          {
-            "slug": "declaring-types-examples",
-            "depth": 2,
-            "value": "Declaring types examples"
-          },
-          {
-            "slug": "the-any-type",
-            "depth": 2,
-            "value": "The 'any' type"
-          },
-          {
-            "slug": "the-void-and-never-return-types",
-            "depth": 2,
-            "value": "The 'void' and 'never' return types"
-          },
-          {
-            "slug": "interfaces",
-            "depth": 2,
-            "value": "Interfaces"
-          },
-          {
-            "slug": "abstract-classes",
-            "depth": 2,
-            "value": "Abstract Classes"
-          },
-          {
-            "slug": "abstract-classes-vs-interfaces",
-            "depth": 2,
-            "value": "Abstract classes vs Interfaces"
-          },
-          {
-            "slug": "enums",
-            "depth": 2,
-            "value": "Enums"
-          },
-          {
-            "slug": "generics",
-            "depth": 2,
-            "value": "Generics"
-          },
-          {
-            "slug": "constraints-with-generics",
-            "depth": 3,
-            "value": "Constraints with Generics"
-          }
-        ]
-      }
-    },
-    {
-      "key": "manual/TypeScript/Getting-Started.md",
-      "value": {
-        "menu": "TypeScript",
-        "name": "Getting Started With Typescript",
-        "id": "1cd9397a7257ade44925a899639c28c1",
-        "filepath": "manual/TypeScript/Getting-Started.md",
-        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/TypeScript/Getting-Started.md",
-        "link": "",
-        "slug": "manual-type-script-getting-started",
-        "route": "/manual-type-script-getting-started",
-        "headings": [
-          {
-            "slug": "getting-starte-with-typescript",
-            "depth": 1,
-            "value": "Getting Starte With Typescript"
-          },
-          {
-            "slug": "resources",
-            "depth": 2,
-            "value": "Resources"
-          }
-        ]
-      }
-    },
-    {
       "key": "manual/Unity/How-To-Make-A-Video-Game.md",
       "value": {
         "name": "How To Make A Video Game",
@@ -30054,6 +30274,101 @@
       }
     },
     {
+      "key": "manual/TypeScript/Developers-Guide.md",
+      "value": {
+        "menu": "TypeScript",
+        "name": "Developer's Guide",
+        "id": "3d2c2fa945329886a1c1939c3fec409d",
+        "filepath": "manual/TypeScript/Developers-Guide.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/TypeScript/Developers-Guide.md",
+        "link": "",
+        "slug": "manual-type-script-developers-guide",
+        "route": "/manual-type-script-developers-guide",
+        "headings": [
+          {
+            "slug": "developers-guide-to-typescript",
+            "depth": 1,
+            "value": "Developer's Guide to TypeScript"
+          },
+          {
+            "slug": "types",
+            "depth": 2,
+            "value": "Types"
+          },
+          {
+            "slug": "declaring-types-examples",
+            "depth": 2,
+            "value": "Declaring types examples"
+          },
+          {
+            "slug": "the-any-type",
+            "depth": 2,
+            "value": "The 'any' type"
+          },
+          {
+            "slug": "the-void-and-never-return-types",
+            "depth": 2,
+            "value": "The 'void' and 'never' return types"
+          },
+          {
+            "slug": "interfaces",
+            "depth": 2,
+            "value": "Interfaces"
+          },
+          {
+            "slug": "abstract-classes",
+            "depth": 2,
+            "value": "Abstract Classes"
+          },
+          {
+            "slug": "abstract-classes-vs-interfaces",
+            "depth": 2,
+            "value": "Abstract classes vs Interfaces"
+          },
+          {
+            "slug": "enums",
+            "depth": 2,
+            "value": "Enums"
+          },
+          {
+            "slug": "generics",
+            "depth": 2,
+            "value": "Generics"
+          },
+          {
+            "slug": "constraints-with-generics",
+            "depth": 3,
+            "value": "Constraints with Generics"
+          }
+        ]
+      }
+    },
+    {
+      "key": "manual/TypeScript/Getting-Started.md",
+      "value": {
+        "menu": "TypeScript",
+        "name": "Getting Started With Typescript",
+        "id": "1cd9397a7257ade44925a899639c28c1",
+        "filepath": "manual/TypeScript/Getting-Started.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/TypeScript/Getting-Started.md",
+        "link": "",
+        "slug": "manual-type-script-getting-started",
+        "route": "/manual-type-script-getting-started",
+        "headings": [
+          {
+            "slug": "getting-starte-with-typescript",
+            "depth": 1,
+            "value": "Getting Starte With Typescript"
+          },
+          {
+            "slug": "resources",
+            "depth": 2,
+            "value": "Resources"
+          }
+        ]
+      }
+    },
+    {
       "key": "manual/Unix/Appending-Files.md",
       "value": {
         "menu": "Unix",
@@ -30109,6 +30424,106 @@
             "slug": "downloaded-useful-programs",
             "depth": 2,
             "value": "Downloaded, Useful Programs"
+          }
+        ]
+      }
+    },
+    {
+      "key": "manual/VSCode/VSCode-Can-Do-That.md",
+      "value": {
+        "menu": "VSCode",
+        "name": "VSCode Can Do That",
+        "id": "176efafd57d1dc031dc867c2e087c375",
+        "filepath": "manual/VSCode/VSCode-Can-Do-That.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/VSCode/VSCode-Can-Do-That.md",
+        "link": "",
+        "slug": "manual-vs-code-vs-code-can-do-that",
+        "route": "/manual-vs-code-vs-code-can-do-that",
+        "headings": [
+          {
+            "slug": "vscode-can-do-that",
+            "depth": 1,
+            "value": "VSCode Can Do That?"
+          },
+          {
+            "slug": "resources",
+            "depth": 2,
+            "value": "Resources"
+          },
+          {
+            "slug": "multiple-cursors",
+            "depth": 2,
+            "value": "Multiple Cursors"
+          },
+          {
+            "slug": "regex-find",
+            "depth": 2,
+            "value": "Regex Find"
+          },
+          {
+            "slug": "navigating-vscode",
+            "depth": 2,
+            "value": "Navigating VSCode"
+          },
+          {
+            "slug": "refactors",
+            "depth": 2,
+            "value": "Refactors"
+          },
+          {
+            "slug": "debugging",
+            "depth": 2,
+            "value": "Debugging"
+          },
+          {
+            "slug": "nodemon",
+            "depth": 3,
+            "value": "Nodemon"
+          },
+          {
+            "slug": "docker",
+            "depth": 2,
+            "value": "Docker"
+          },
+          {
+            "slug": "deploying-to-a-container-registry",
+            "depth": 3,
+            "value": "Deploying to a Container Registry"
+          },
+          {
+            "slug": "docker-compose",
+            "depth": 3,
+            "value": "Docker Compose"
+          },
+          {
+            "slug": "remote-development",
+            "depth": 2,
+            "value": "Remote Development"
+          },
+          {
+            "slug": "developing-remote-containers",
+            "depth": 2,
+            "value": "Developing Remote Containers"
+          },
+          {
+            "slug": "sql-in-vscode",
+            "depth": 2,
+            "value": "SQL in VSCode"
+          },
+          {
+            "slug": "git-in-vscode",
+            "depth": 2,
+            "value": "Git in VSCode"
+          },
+          {
+            "slug": "reviewing-and-merging-prs",
+            "depth": 3,
+            "value": "Reviewing and Merging PRs"
+          },
+          {
+            "slug": "moving-code--code-folding",
+            "depth": 2,
+            "value": "Moving Code & Code Folding"
           }
         ]
       }
