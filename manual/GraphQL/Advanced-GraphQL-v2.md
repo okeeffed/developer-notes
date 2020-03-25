@@ -493,6 +493,7 @@ const server = new ApolloServer({
       if (connectionParams.auth) {
         const user = getUserFromToken(connectionParams.auth);
 
+        // handled error happened here
         if (!user) {
           throw new AuthenticationError('not authenticated');
         }
@@ -505,3 +506,17 @@ const server = new ApolloServer({
   },
 });
 ```
+
+> When demoing subscriptions in the UI, it is important that you need to run Graphiql in two different tabs. One that subscribes, the other that can make the mutation.
+
+## Error Handling
+
+If you throw errors, GraphQL will ensure they are caught. In the context of GraphQL, any error will be caught and passed back in the query.
+
+The query will give back an errors property with an array of errors that contain things including the error name and stack trace etc.
+
+The response can contain errors or data.
+
+If you are in production mode, the stacktrace won't be passed in the response when using Apollo.
+
+Note that Apollo has its own errors exposed from the API that you can extend.
