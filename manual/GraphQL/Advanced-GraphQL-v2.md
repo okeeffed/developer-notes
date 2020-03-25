@@ -14,6 +14,7 @@ name: Advanced GraphQL v2
 5. [GraphQL Mutations and Input Types](https://graphql.org/graphql-js/mutations-and-input-types/)
 6. [GraphQL Resolvers](https://www.apollographql.com/docs/graphql-tools/resolvers/)
 7. [GraphQL Context](https://graphql.org/learn/execution/#root-fields-resolvers)
+8. [GraphQL Lodash library](https://github.com/APIs-guru/graphql-lodash)
 
 ## Introduction
 
@@ -332,7 +333,7 @@ Read more about `context` on the [GraphQL Docs](https://graphql.org/learn/execut
 
 Ties the business logic too close to the authentication logic. Not a good use of separation of concerns.
 
-## Authentication
+## Authentication Example
 
 Here is an example of using authentication:
 
@@ -520,3 +521,381 @@ The response can contain errors or data.
 If you are in production mode, the stacktrace won't be passed in the response when using Apollo.
 
 Note that Apollo has its own errors exposed from the API that you can extend.
+
+### Formatting and Error Codes
+
+You can also intercept and change errors from the `ApolloServer` using the `formatError` object method.
+
+Here is a good spot to use something like Sentry etc to help filter what errors to send to Sentry.
+
+## Testing
+
+Testing resolvers:
+
+- Unit test resolver functions.
+- Mock out data sources.
+- Mock out DB calls.
+
+Testing schema:
+
+- Convert TypeDefs into Schema.
+- Unit test Object types.
+- Not a lot of people unit test their schema.
+
+Testing the server:
+
+- Integration testing the entire server.
+- Create a test client to use to issue queries and mutations with against a testing instance of your server.
+- Mock out whatever you want. Variables, constants etc.
+
+### Testing Example
+
+There is a helper for setting up the server in the `tests` directory.
+
+Because the schema is typed, it makes it very easy to turn on mocks! This means you don't have to wait for the end users.
+
+```javascript
+const { ApolloServer } = require('apollo-server');
+const { createTestClient } = require('apollo-server-testing');
+const typeDefs = require('../src/typedefs');
+const resolvers = require('../src/resolvers');
+
+const createTestServer = ctx => {
+  const server = new ApolloServer({
+    typeDefs,
+    resolvers,
+    // these two are closely tied
+    mockEntireSchema: false,
+    mocks: true,
+    context: () => ctx,
+  });
+
+  return createTestClient(server);
+};
+
+module.exports = createTestServer;
+```
+
+As for the test itself, you can see an example here:
+
+```javascript
+// query.test.js
+const gql = require('graphql-tag');
+const createTestServer = require('./helper');
+const FEED = gql`
+  {
+    feed {
+      id
+      message
+      createdAt
+      likes
+      views
+    }
+  }
+`;
+
+describe('queries', () => {
+  test('feed', async () => {
+    // this is where the test server will
+    // take an object
+    const { query } = createTestServer({
+      user: { id: 1 },
+      models: {
+        Post: {
+          findMany: jest.fn(() => [
+            {
+              id: 1,
+              message: 'hello',
+              createdAt: 12345839,
+              likes: 20,
+              views: 300,
+            },
+          ]),
+        },
+      },
+    });
+
+    const res = await query({ query: FEED });
+    expect(res).toMatchSnapshot();
+  });
+});
+```
+
+## Directives
+
+Allow you to add logic and metadata to your Schemas, Queries or Mutations. Can act like middleware for Schemas, or post processing hooks for your Queries and Mutations.
+
+Why use directives?
+
+- Fine-grain control down to the field level on your `TypeDefs`.
+- Eliminate post processing on your clients after you query.
+- Extendable. Can have directives use directives etc.
+
+### Directives on the Server Side
+
+For example, using the deprecate, formatDate and log directive - one from GraphQL, the other two that we declare:
+
+Directives can go on a property (as seen below) or even on a type ie `type User @deprecate { ... }`.
+
+```javascript
+const gql = require('graphql-tag');
+
+module.exports = gql`
+  directive @log(format: String) on FIELD_DEFINITION
+  directive @formatDate(format: String = "d, MMM, yyyy") on FIELD_DEFINITION
+  enum Theme {
+    DARK
+    LIGHT
+  }
+  enum Role {
+    ADMIN
+    MEMBER
+    GUEST
+  }
+  type User {
+    id: ID! @log(format: "hello")
+    email: String! @deprecated
+    avatar: String!
+    verified: Boolean!
+    createdAt: String! @formatDate
+    posts: [Post]!
+    role: Role!
+    settings: Settings!
+  }
+`;
+```
+
+This then also helps support our GraphQL docs.
+
+Note that `@deprected` takes an argument ie `@deprecated(reason: "use another field")`.
+
+### Clientside Directives
+
+Front the client query, we can add clientside directives.
+
+```graphql
+query GetMe($yes: Boolean!) {
+  me {
+    # based on query variables
+    error @include(if: $yes)
+    username
+    createdAt
+  }
+}
+```
+
+There is a [library](https://github.com/APIs-guru/graphql-lodash) that can even do Lodash changes to your queries from the clientside.
+
+## Creating Directives
+
+Can be challenging if you're unfamiliar with how GraphQL works. You will need to work with the AST.
+
+It also requires a definition in your schema.
+
+Finally, you need to create logic for your Directive to use.
+
+```javascript
+// the rest is omitted for brevity.
+module.exports = gql`
+  directive @log(format: String) on FIELD_DEFINITION
+  directive @formatDate(format: String = "d, MMM, yyyy") on FIELD_DEFINITION
+`;
+```
+
+The, we can define the logic for our directive:
+
+```javascript
+const { SchemaDirectiveVisitor } = require('apollo-server');
+const { defaultFieldResolver, GraphQLString } = require('graphql');
+const { formatDate } = require('./utils');
+
+class LogDirective extends SchemaDirectiveVisitor {
+  visitFieldDefinition(field, type) {
+    const { resolve = defaultFieldResolver } = field;
+
+    field.resolve = async function(root, { format, ...rest }, ctx, info) {
+      console.log(`⚡️  ${type.objectType}.${field.name}`);
+      return resolve.call(this, root, rest, ctx, info);
+    };
+  }
+}
+
+class FormatDateDirective extends SchemaDirectiveVisitor {
+  visitFieldDefinition(field) {
+    const { resolve = defaultFieldResolver } = field;
+    const { format: defaultFormat } = this.args;
+
+    field.args.push({
+      name: 'format',
+      type: GraphQLString,
+    });
+
+    field.resolve = async function(root, { format, ...rest }, ctx, info) {
+      const date = await resolve.call(this, root, rest, ctx, info);
+      return formatDate(date, format || defaultFormat);
+    };
+  }
+}
+
+module.exports = { LogDirective, FormatDateDirective };
+```
+
+For the server, you need to make sure you link the directives for this to all work.
+
+```javascript
+const server = new ApolloServer({
+  // rest omitted for brevity
+  schemaDirectives: {
+    log: LogDirective,
+    formatDate: FormatDateDirective,
+  },
+});
+```
+
+We can use `defaultFieldResolver` from `graphql` which takes a value, looks at the keys and if the keys match the field, it returns that.
+
+This is used to make sure our definition logs when it is called instead of on startup:
+
+```javascript
+visitFieldDefinition(field, type) {
+  // guves access to old resolver or using the default one
+  const { resolve = defaultFieldResolver } = field;
+
+  field.resolve = async function(root, { format, ...rest }, ctx, info) {
+    console.log(`⚡️  ${type.objectType}.${field.name}`);
+    return resolve.call(this, root, rest, ctx, info);
+  };
+}
+```
+
+Directives can also take a string as an argument. In fact, we can set the directive to take args from the query params:
+
+```javascript
+const { SchemaDirectiveVisitor } = require('apollo-server');
+const { defaultFieldResolver, GraphQLString } = require('graphql');
+
+class FormatDateDirective extends SchemaDirectiveVisitor {
+  visitFieldDefinition(field) {
+    const { resolve = defaultFieldResolver } = field;
+    const { format: defaultFormat } = this.args;
+
+    field.args.push({
+      name: 'format',
+      type: GraphQLString,
+    });
+
+    field.resolve = async function(root, { format, ...rest }, ctx, info) {
+      const date = await resolve.call(this, root, rest, ctx, info);
+      return formatDate(date, format || defaultFormat);
+    };
+  }
+}
+```
+
+## Example Auth Directive
+
+```javascript
+class AuthenticationDirective extends SchemaDirectiveVisitor {
+  visitFieldDefinition(field) {
+    const resolver = field.resolve || defaultFieldResolver;
+    field.resolve = async (root, args, ctx, info) => {
+      if (!ctx.user) {
+        throw new AuthenticationError('not auth');
+      }
+      return resolver(root, args, ctx, info);
+    };
+  }
+}
+
+class AuthorizationDirective extends SchemaDirectiveVisitor {
+  visitFieldDefinition(field) {
+    const resolver = field.resolve || defaultFieldResolver;
+    const { role } = this.args;
+
+    field.resolve = async (root, args, ctx, info) => {
+      if (ctx.user.role !== role) {
+        throw new AuthenticationError('wrong role');
+      }
+      return resolver(root, args, ctx, info);
+    };
+  }
+}
+```
+
+Then in the GraphQL Tag:
+
+```javascript
+module.exports = gql`
+  directive @authenticated on FIELD_DEFINITION
+  directive @authorized(role: Role!) on FIELD_DEFINITION
+`;
+```
+
+Finally, we add it onto the server:
+
+```javascript
+const server = new ApolloServer({
+  // rest omitted for brevity
+  schemaDirectives: {
+    authentication: AuthenticationDirective,
+    authorization: AuthorizationDirective,
+  },
+});
+```
+
+You can then use it in a GraphQL theory like so:
+
+```graphql
+module.exports = gql`
+  type Query {
+    me: User! @authenticated @authorized(role: ADMIN)
+    posts: [Post]!
+    post(id: ID!): Post!
+    userSettings: Settings!
+    feed: [Post]!
+  }
+`
+```
+
+Note that the directives can be added to type definitions as well!
+
+## Caching
+
+There is:
+
+1. Application Caching (DB, external data source, resolvers)
+2. Network Caching (HTTP caching)
+3. Client-side Caching
+
+Application Caching is the preferred way to cache GraphQL right now. Have many options and levels to cache depending on your server.
+
+A bunch of misunderstandings around HTTP caching and GraphQL. This can be complicated if you're not using...
+
+- Apollo Cache Control
+- Engine
+- Automatic Persisted Queries
+
+A persisted query is that you build all the queries at runtime and send it to the server. The server prevalidates and stores them on a DB somewhere.
+
+You get that for free with Apollo if you're using the client and the server packages. You can also use edge applications to program your own cache logic. Examples being Lambda Edge, CloudFlare Edge etc.
+
+You can also handle or restrict Mutations over `/GET`.
+
+### Client side caching
+
+- Apollo client handles this well
+- Use any client-side state management (Redux, RxJS etc)
+- Persisted Queries in coordination with the server
+
+### How should you cache?
+
+- If you are able to use HTTP caching, enable it
+- Cache external HTTP data sources
+- Cache client-side
+
+## Conclusion and Q&A
+
+1. Are directions part of the GraphQL spec? Yes.
+2. How does he feel about Apollo Federation? Speaker sounds impressed.
+3. How do you limit query length? Security. GitHub counts how many nodes per interval. There is a really nice GraphQL blog for this on "how to GraphQL".
+4. Does Apollo have a data valiation directive? No but there is some packages out there.
