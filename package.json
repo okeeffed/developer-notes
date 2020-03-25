@@ -5,7 +5,8 @@
   "license": "MIT",
   "scripts": {
     "start": "docz dev",
-    "build": "docz build"
+    "build": "docz build",
+    "prepush": "yarn build && git add --all"
   },
   "peerDependencies": {
     "acorn": "^7.1.1",
