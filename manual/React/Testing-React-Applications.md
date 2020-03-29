@@ -1,6 +1,6 @@
 ---
 menu: React
-name: Testing-React-Applications
+name: Testing React Applications
 ---
 
 # Testing React Applications
