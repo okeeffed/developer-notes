@@ -3112,6 +3112,31 @@
       }
     },
     {
+      "key": "manual/Architectural-Principles/Policy-And-Level.md",
+      "value": {
+        "menu": "Architectural Principles",
+        "name": "Policy and Level",
+        "id": "fe4939f3928f7ed32b0ba6bf51a319d8",
+        "filepath": "manual/Architectural-Principles/Policy-And-Level.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Architectural-Principles/Policy-And-Level.md",
+        "link": "",
+        "slug": "manual-architectural-principles-policy-and-level",
+        "route": "/manual-architectural-principles-policy-and-level",
+        "headings": [
+          {
+            "slug": "policy-and-level",
+            "depth": 1,
+            "value": "Policy and Level"
+          },
+          {
+            "slug": "level",
+            "depth": 2,
+            "value": "Level"
+          }
+        ]
+      }
+    },
+    {
       "key": "manual/Angular/Angular-Basics.md",
       "value": {
         "name": "Angular Basics",
@@ -3317,31 +3342,6 @@
             "slug": "structural-directives",
             "depth": 2,
             "value": "Structural Directives"
-          }
-        ]
-      }
-    },
-    {
-      "key": "manual/Architectural-Principles/Policy-And-Level.md",
-      "value": {
-        "menu": "Architectural Principles",
-        "name": "Policy and Level",
-        "id": "fe4939f3928f7ed32b0ba6bf51a319d8",
-        "filepath": "manual/Architectural-Principles/Policy-And-Level.md",
-        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Architectural-Principles/Policy-And-Level.md",
-        "link": "",
-        "slug": "manual-architectural-principles-policy-and-level",
-        "route": "/manual-architectural-principles-policy-and-level",
-        "headings": [
-          {
-            "slug": "policy-and-level",
-            "depth": 1,
-            "value": "Policy and Level"
-          },
-          {
-            "slug": "level",
-            "depth": 2,
-            "value": "Level"
           }
         ]
       }
@@ -6177,6 +6177,46 @@
       }
     },
     {
+      "key": "manual/Containers/Containers-vs-VMs.md",
+      "value": {
+        "menu": "Containers",
+        "name": "Containers vs VMs",
+        "id": "5f67511f9f85926fc90e3ea2cb61dddb",
+        "filepath": "manual/Containers/Containers-vs-VMs.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Containers/Containers-vs-VMs.md",
+        "link": "",
+        "slug": "manual-containers-containers-vs-v-ms",
+        "route": "/manual-containers-containers-vs-v-ms",
+        "headings": [
+          {
+            "slug": "containers-vs-vms",
+            "depth": 1,
+            "value": "Containers vs VMs"
+          },
+          {
+            "slug": "resources",
+            "depth": 2,
+            "value": "Resources"
+          },
+          {
+            "slug": "what-are-virtual-machines",
+            "depth": 2,
+            "value": "What are Virtual Machines"
+          },
+          {
+            "slug": "what-are-containers",
+            "depth": 2,
+            "value": "What are Containers"
+          },
+          {
+            "slug": "whats-the-difference",
+            "depth": 2,
+            "value": "What's the difference"
+          }
+        ]
+      }
+    },
+    {
       "key": "manual/Consulting/Questions-To-Ask.md",
       "value": {
         "menu": "Consulting",
@@ -6252,46 +6292,6 @@
       }
     },
     {
-      "key": "manual/Containers/Containers-vs-VMs.md",
-      "value": {
-        "menu": "Containers",
-        "name": "Containers vs VMs",
-        "id": "5f67511f9f85926fc90e3ea2cb61dddb",
-        "filepath": "manual/Containers/Containers-vs-VMs.md",
-        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Containers/Containers-vs-VMs.md",
-        "link": "",
-        "slug": "manual-containers-containers-vs-v-ms",
-        "route": "/manual-containers-containers-vs-v-ms",
-        "headings": [
-          {
-            "slug": "containers-vs-vms",
-            "depth": 1,
-            "value": "Containers vs VMs"
-          },
-          {
-            "slug": "resources",
-            "depth": 2,
-            "value": "Resources"
-          },
-          {
-            "slug": "what-are-virtual-machines",
-            "depth": 2,
-            "value": "What are Virtual Machines"
-          },
-          {
-            "slug": "what-are-containers",
-            "depth": 2,
-            "value": "What are Containers"
-          },
-          {
-            "slug": "whats-the-difference",
-            "depth": 2,
-            "value": "What's the difference"
-          }
-        ]
-      }
-    },
-    {
       "key": "manual/Contentful/Contentful-JS-API.md",
       "value": {
         "menu": "Contentful",
@@ -6332,41 +6332,6 @@
       }
     },
     {
-      "key": "manual/Conventional-Commits/Automating-Versioning.md",
-      "value": {
-        "menu": "Conventional Commits",
-        "name": "Automating Versioning",
-        "id": "6806c96fbdab387e3bcb46c8a57cd35f",
-        "filepath": "manual/Conventional-Commits/Automating-Versioning.md",
-        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Conventional-Commits/Automating-Versioning.md",
-        "link": "",
-        "slug": "manual-conventional-commits-automating-versioning",
-        "route": "/manual-conventional-commits-automating-versioning",
-        "headings": [
-          {
-            "slug": "automating-versioning",
-            "depth": 1,
-            "value": "Automating Versioning"
-          },
-          {
-            "slug": "resources",
-            "depth": 2,
-            "value": "Resources"
-          },
-          {
-            "slug": "for-local-packages",
-            "depth": 2,
-            "value": "For local packages"
-          },
-          {
-            "slug": "updating-packagejson",
-            "depth": 2,
-            "value": "Updating package.json"
-          }
-        ]
-      }
-    },
-    {
       "key": "manual/Cpp/Cpp-Udemy.md",
       "value": {
         "name": "Cpp Udemy",
@@ -6397,6 +6362,41 @@
             "slug": "5-arrays",
             "depth": 2,
             "value": "5: Arrays"
+          }
+        ]
+      }
+    },
+    {
+      "key": "manual/Conventional-Commits/Automating-Versioning.md",
+      "value": {
+        "menu": "Conventional Commits",
+        "name": "Automating Versioning",
+        "id": "6806c96fbdab387e3bcb46c8a57cd35f",
+        "filepath": "manual/Conventional-Commits/Automating-Versioning.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Conventional-Commits/Automating-Versioning.md",
+        "link": "",
+        "slug": "manual-conventional-commits-automating-versioning",
+        "route": "/manual-conventional-commits-automating-versioning",
+        "headings": [
+          {
+            "slug": "automating-versioning",
+            "depth": 1,
+            "value": "Automating Versioning"
+          },
+          {
+            "slug": "resources",
+            "depth": 2,
+            "value": "Resources"
+          },
+          {
+            "slug": "for-local-packages",
+            "depth": 2,
+            "value": "For local packages"
+          },
+          {
+            "slug": "updating-packagejson",
+            "depth": 2,
+            "value": "Updating package.json"
           }
         ]
       }
@@ -14166,6 +14166,306 @@
       }
     },
     {
+      "key": "manual/JavaScript/Functional-Light-JavaScript-v3.md",
+      "value": {
+        "menu": "JavaScript",
+        "name": "Functional-Light JavaScript v3",
+        "id": "af77a84ee2c5682a9b62433ebf01b94e",
+        "filepath": "manual/JavaScript/Functional-Light-JavaScript-v3.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/JavaScript/Functional-Light-JavaScript-v3.md",
+        "link": "",
+        "slug": "manual-java-script-functional-light-java-script-v3",
+        "route": "/manual-java-script-functional-light-java-script-v3",
+        "headings": [
+          {
+            "slug": "functional-light-javascript-v3",
+            "depth": 1,
+            "value": "Functional-Light JavaScript v3"
+          },
+          {
+            "slug": "resources",
+            "depth": 2,
+            "value": "Resources"
+          },
+          {
+            "slug": "introduction",
+            "depth": 2,
+            "value": "Introduction"
+          },
+          {
+            "slug": "why-functional-programming",
+            "depth": 2,
+            "value": "Why Functional Programming?"
+          },
+          {
+            "slug": "imperative-vs-declarative",
+            "depth": 3,
+            "value": "Imperative vs declarative."
+          },
+          {
+            "slug": "the-journey",
+            "depth": 3,
+            "value": "The journey"
+          },
+          {
+            "slug": "code-is-provable",
+            "depth": 3,
+            "value": "Code is provable"
+          },
+          {
+            "slug": "course-overview",
+            "depth": 3,
+            "value": "Course overview"
+          },
+          {
+            "slug": "function-purity",
+            "depth": 2,
+            "value": "Function Purity"
+          },
+          {
+            "slug": "functions-vs-procedures",
+            "depth": 3,
+            "value": "Functions vs Procedures"
+          },
+          {
+            "slug": "naming-semantics",
+            "depth": 3,
+            "value": "Naming Semantics"
+          },
+          {
+            "slug": "side-effects",
+            "depth": 3,
+            "value": "Side Effects"
+          },
+          {
+            "slug": "listing-some-side-effects",
+            "depth": 3,
+            "value": "Listing some Side Effects"
+          },
+          {
+            "slug": "pure-functions",
+            "depth": 2,
+            "value": "Pure Functions"
+          },
+          {
+            "slug": "reducing-surface-area",
+            "depth": 3,
+            "value": "Reducing Surface Area"
+          },
+          {
+            "slug": "same-input-same-output",
+            "depth": 3,
+            "value": "Same Input, Same Output"
+          },
+          {
+            "slug": "extracting-impurity",
+            "depth": 2,
+            "value": "Extracting Impurity"
+          },
+          {
+            "slug": "argument-adapters",
+            "depth": 2,
+            "value": "Argument Adapters"
+          },
+          {
+            "slug": "spread-adapter",
+            "depth": 3,
+            "value": "Spread adapter"
+          },
+          {
+            "slug": "point-free",
+            "depth": 2,
+            "value": "Point-Free"
+          },
+          {
+            "slug": "advanced-point-free",
+            "depth": 3,
+            "value": "Advanced Point-Free"
+          },
+          {
+            "slug": "closure",
+            "depth": 2,
+            "value": "Closure"
+          },
+          {
+            "slug": "lazy-vs-eager-execution",
+            "depth": 2,
+            "value": "Lazy vs Eager Execution"
+          },
+          {
+            "slug": "referential-transparency",
+            "depth": 2,
+            "value": "Referential Transparency"
+          },
+          {
+            "slug": "generalised-to-specialised",
+            "depth": 3,
+            "value": "Generalised to specialised"
+          },
+          {
+            "slug": "partial-applications--currying",
+            "depth": 2,
+            "value": "Partial Applications & Currying"
+          },
+          {
+            "slug": "partial-application-vs-currying",
+            "depth": 3,
+            "value": "Partial Application vs Currying"
+          },
+          {
+            "slug": "changing-function-shape-with-currying",
+            "depth": 3,
+            "value": "Changing function shape with currying"
+          },
+          {
+            "slug": "composition",
+            "depth": 2,
+            "value": "Composition"
+          },
+          {
+            "slug": "piping-vs-composition",
+            "depth": 3,
+            "value": "Piping vs Composition"
+          },
+          {
+            "slug": "associaitivity",
+            "depth": 3,
+            "value": "Associaitivity"
+          },
+          {
+            "slug": "composition-with-currying",
+            "depth": 3,
+            "value": "Composition With Currying"
+          },
+          {
+            "slug": "immutabililty",
+            "depth": 2,
+            "value": "Immutabililty"
+          },
+          {
+            "slug": "value-immutability",
+            "depth": 3,
+            "value": "Value immutability"
+          },
+          {
+            "slug": "read-only-data-structures",
+            "depth": 3,
+            "value": "Read-Only Data Structures"
+          },
+          {
+            "slug": "immutablejs",
+            "depth": 3,
+            "value": "Immutable.js"
+          },
+          {
+            "slug": "recursion",
+            "depth": 2,
+            "value": "Recursion"
+          },
+          {
+            "slug": "stack-frames-and-memory-limits",
+            "depth": 3,
+            "value": "Stack Frames and Memory Limits"
+          },
+          {
+            "slug": "optimisation-tail-calls",
+            "depth": 3,
+            "value": "Optimisation: Tail Calls"
+          },
+          {
+            "slug": "proper-tails-calls",
+            "depth": 3,
+            "value": "Proper Tails Calls"
+          },
+          {
+            "slug": "continuation-passing-style",
+            "depth": 2,
+            "value": "Continuation-Passing Style"
+          },
+          {
+            "slug": "trampolines",
+            "depth": 2,
+            "value": "Trampolines"
+          },
+          {
+            "slug": "list-operations",
+            "depth": 2,
+            "value": "List Operations"
+          },
+          {
+            "slug": "map-transformations",
+            "depth": 3,
+            "value": "Map: Transformations"
+          },
+          {
+            "slug": "filter-inclusion",
+            "depth": 3,
+            "value": "Filter: Inclusion"
+          },
+          {
+            "slug": "reduce-combination",
+            "depth": 3,
+            "value": "Reduce: Combination"
+          },
+          {
+            "slug": "composition-with-reduce",
+            "depth": 3,
+            "value": "Composition with Reduce"
+          },
+          {
+            "slug": "fusion",
+            "depth": 2,
+            "value": "Fusion"
+          },
+          {
+            "slug": "transduction",
+            "depth": 2,
+            "value": "Transduction"
+          },
+          {
+            "slug": "deriving-transduction",
+            "depth": 3,
+            "value": "Deriving Transduction"
+          },
+          {
+            "slug": "data-structure-operations",
+            "depth": 2,
+            "value": "Data Structure Operations"
+          },
+          {
+            "slug": "monad-data-structure",
+            "depth": 2,
+            "value": "Monad Data Structure"
+          },
+          {
+            "slug": "maybe-monad",
+            "depth": 2,
+            "value": "Maybe Monad"
+          },
+          {
+            "slug": "functional-js-utils",
+            "depth": 2,
+            "value": "Functional JS Utils"
+          },
+          {
+            "slug": "lodashfp",
+            "depth": 3,
+            "value": "Lodash/FP"
+          },
+          {
+            "slug": "ramda",
+            "depth": 3,
+            "value": "Ramda"
+          },
+          {
+            "slug": "fpo",
+            "depth": 3,
+            "value": "FPO"
+          }
+        ]
+      }
+    },
+    {
       "key": "manual/JavaScript/Gulp-Basics-TH.md",
       "value": {
         "name": "Gulp Basics TH",
@@ -16070,6 +16370,176 @@
       }
     },
     {
+      "key": "manual/Language-Learning/Approach-To-Learning-Software-Languages.md",
+      "value": {
+        "menu": "Language Learning",
+        "name": "Approach To Learning Software Languages",
+        "id": "9d2cc3e153cea4adb81211de57b01632",
+        "filepath": "manual/Language-Learning/Approach-To-Learning-Software-Languages.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Language-Learning/Approach-To-Learning-Software-Languages.md",
+        "link": "",
+        "slug": "manual-language-learning-approach-to-learning-software-languages",
+        "route": "/manual-language-learning-approach-to-learning-software-languages",
+        "headings": [
+          {
+            "slug": "approach-to-learning-software-languages",
+            "depth": 1,
+            "value": "Approach To Learning Software Languages"
+          },
+          {
+            "slug": "first-steps",
+            "depth": 2,
+            "value": "First Steps"
+          },
+          {
+            "slug": "understanding-through-programs",
+            "depth": 2,
+            "value": "Understanding Through Programs"
+          }
+        ]
+      }
+    },
+    {
+      "key": "manual/Language-Learning/Golang.md",
+      "value": {
+        "menu": "Language Learning",
+        "name": "Golang",
+        "id": "a17c0111d159f171e5bb3949f7750ebc",
+        "filepath": "manual/Language-Learning/Golang.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Language-Learning/Golang.md",
+        "link": "",
+        "slug": "manual-language-learning-golang",
+        "route": "/manual-language-learning-golang",
+        "headings": [
+          {
+            "slug": "golang",
+            "depth": 1,
+            "value": "Golang"
+          },
+          {
+            "slug": "the-why-behind-the-language",
+            "depth": 2,
+            "value": "The \"why\" behind the language?"
+          },
+          {
+            "slug": "quora-top-answer",
+            "depth": 3,
+            "value": "Quora Top Answer"
+          },
+          {
+            "slug": "from-rob-pike-one-of-gos-creators",
+            "depth": 3,
+            "value": "From Rob Pike, one of Go's Creators"
+          },
+          {
+            "slug": "pros-and-cons-of-the-language",
+            "depth": 2,
+            "value": "Pros and cons of the language?"
+          },
+          {
+            "slug": "pros",
+            "depth": 3,
+            "value": "Pros"
+          },
+          {
+            "slug": "cons",
+            "depth": 3,
+            "value": "Cons"
+          },
+          {
+            "slug": "what-are-the-use-cases",
+            "depth": 2,
+            "value": "What are the use cases?"
+          },
+          {
+            "slug": "testing--benchmarking",
+            "depth": 2,
+            "value": "Testing / Benchmarking"
+          },
+          {
+            "slug": "popular-web-servers-for-the-language",
+            "depth": 2,
+            "value": "Popular web servers for the language?"
+          },
+          {
+            "slug": "hello-world",
+            "depth": 2,
+            "value": "Hello, World!"
+          },
+          {
+            "slug": "documentation",
+            "depth": 2,
+            "value": "Documentation"
+          },
+          {
+            "slug": "what-are-the-nuances-of-the-language",
+            "depth": 2,
+            "value": "What are the nuances of the language?"
+          },
+          {
+            "slug": "how-does-package-management-work",
+            "depth": 2,
+            "value": "How does package management work?"
+          },
+          {
+            "slug": "how-does-importing-work",
+            "depth": 2,
+            "value": "How does importing work?"
+          },
+          {
+            "slug": "how-does-logging-work",
+            "depth": 2,
+            "value": "How does logging work?"
+          },
+          {
+            "slug": "useful-linksarticles",
+            "depth": 2,
+            "value": "Useful links/articles"
+          },
+          {
+            "slug": "useful-tips-and-tricks",
+            "depth": 2,
+            "value": "Useful tips and tricks"
+          },
+          {
+            "slug": "read-file",
+            "depth": 2,
+            "value": "Read File"
+          },
+          {
+            "slug": "write-file",
+            "depth": 2,
+            "value": "Write File"
+          },
+          {
+            "slug": "walk-through-directory",
+            "depth": 2,
+            "value": "Walk through directory"
+          },
+          {
+            "slug": "check-file-exists",
+            "depth": 2,
+            "value": "Check file exists"
+          },
+          {
+            "slug": "system-calls",
+            "depth": 2,
+            "value": "System calls"
+          },
+          {
+            "slug": "defer",
+            "depth": 2,
+            "value": "Defer"
+          },
+          {
+            "slug": "understanding-through-programs",
+            "depth": 2,
+            "value": "Understanding Through Programs"
+          }
+        ]
+      }
+    },
+    {
       "key": "manual/Kubernetes/AWS-EKS-Starter.md",
       "value": {
         "name": "AWS EKS Starter",
@@ -17680,176 +18150,6 @@
             "slug": "tldr",
             "depth": 2,
             "value": "tl;dr"
-          }
-        ]
-      }
-    },
-    {
-      "key": "manual/Language-Learning/Approach-To-Learning-Software-Languages.md",
-      "value": {
-        "menu": "Language Learning",
-        "name": "Approach To Learning Software Languages",
-        "id": "9d2cc3e153cea4adb81211de57b01632",
-        "filepath": "manual/Language-Learning/Approach-To-Learning-Software-Languages.md",
-        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Language-Learning/Approach-To-Learning-Software-Languages.md",
-        "link": "",
-        "slug": "manual-language-learning-approach-to-learning-software-languages",
-        "route": "/manual-language-learning-approach-to-learning-software-languages",
-        "headings": [
-          {
-            "slug": "approach-to-learning-software-languages",
-            "depth": 1,
-            "value": "Approach To Learning Software Languages"
-          },
-          {
-            "slug": "first-steps",
-            "depth": 2,
-            "value": "First Steps"
-          },
-          {
-            "slug": "understanding-through-programs",
-            "depth": 2,
-            "value": "Understanding Through Programs"
-          }
-        ]
-      }
-    },
-    {
-      "key": "manual/Language-Learning/Golang.md",
-      "value": {
-        "menu": "Language Learning",
-        "name": "Golang",
-        "id": "a17c0111d159f171e5bb3949f7750ebc",
-        "filepath": "manual/Language-Learning/Golang.md",
-        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Language-Learning/Golang.md",
-        "link": "",
-        "slug": "manual-language-learning-golang",
-        "route": "/manual-language-learning-golang",
-        "headings": [
-          {
-            "slug": "golang",
-            "depth": 1,
-            "value": "Golang"
-          },
-          {
-            "slug": "the-why-behind-the-language",
-            "depth": 2,
-            "value": "The \"why\" behind the language?"
-          },
-          {
-            "slug": "quora-top-answer",
-            "depth": 3,
-            "value": "Quora Top Answer"
-          },
-          {
-            "slug": "from-rob-pike-one-of-gos-creators",
-            "depth": 3,
-            "value": "From Rob Pike, one of Go's Creators"
-          },
-          {
-            "slug": "pros-and-cons-of-the-language",
-            "depth": 2,
-            "value": "Pros and cons of the language?"
-          },
-          {
-            "slug": "pros",
-            "depth": 3,
-            "value": "Pros"
-          },
-          {
-            "slug": "cons",
-            "depth": 3,
-            "value": "Cons"
-          },
-          {
-            "slug": "what-are-the-use-cases",
-            "depth": 2,
-            "value": "What are the use cases?"
-          },
-          {
-            "slug": "testing--benchmarking",
-            "depth": 2,
-            "value": "Testing / Benchmarking"
-          },
-          {
-            "slug": "popular-web-servers-for-the-language",
-            "depth": 2,
-            "value": "Popular web servers for the language?"
-          },
-          {
-            "slug": "hello-world",
-            "depth": 2,
-            "value": "Hello, World!"
-          },
-          {
-            "slug": "documentation",
-            "depth": 2,
-            "value": "Documentation"
-          },
-          {
-            "slug": "what-are-the-nuances-of-the-language",
-            "depth": 2,
-            "value": "What are the nuances of the language?"
-          },
-          {
-            "slug": "how-does-package-management-work",
-            "depth": 2,
-            "value": "How does package management work?"
-          },
-          {
-            "slug": "how-does-importing-work",
-            "depth": 2,
-            "value": "How does importing work?"
-          },
-          {
-            "slug": "how-does-logging-work",
-            "depth": 2,
-            "value": "How does logging work?"
-          },
-          {
-            "slug": "useful-linksarticles",
-            "depth": 2,
-            "value": "Useful links/articles"
-          },
-          {
-            "slug": "useful-tips-and-tricks",
-            "depth": 2,
-            "value": "Useful tips and tricks"
-          },
-          {
-            "slug": "read-file",
-            "depth": 2,
-            "value": "Read File"
-          },
-          {
-            "slug": "write-file",
-            "depth": 2,
-            "value": "Write File"
-          },
-          {
-            "slug": "walk-through-directory",
-            "depth": 2,
-            "value": "Walk through directory"
-          },
-          {
-            "slug": "check-file-exists",
-            "depth": 2,
-            "value": "Check file exists"
-          },
-          {
-            "slug": "system-calls",
-            "depth": 2,
-            "value": "System calls"
-          },
-          {
-            "slug": "defer",
-            "depth": 2,
-            "value": "Defer"
-          },
-          {
-            "slug": "understanding-through-programs",
-            "depth": 2,
-            "value": "Understanding Through Programs"
           }
         ]
       }
@@ -21035,66 +21335,6 @@
       }
     },
     {
-      "key": "manual/OSI-Model/What-Is-OSI.md",
-      "value": {
-        "name": "What is OSI?",
-        "menu": "OSI Model",
-        "id": "20cdc53351babc95094e6e0e58d67d12",
-        "filepath": "manual/OSI-Model/What-Is-OSI.md",
-        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/OSI-Model/What-Is-OSI.md",
-        "link": "",
-        "slug": "manual-osi-model-what-is-osi",
-        "route": "/manual-osi-model-what-is-osi",
-        "headings": [
-          {
-            "slug": "what-is-osi",
-            "depth": 1,
-            "value": "What is OSI?"
-          },
-          {
-            "slug": "osi-mnemonics",
-            "depth": 2,
-            "value": "OSI Mnemonics"
-          },
-          {
-            "slug": "osi-layers-in-network-traffic",
-            "depth": 2,
-            "value": "OSI Layers in Network Traffic"
-          },
-          {
-            "slug": "layer-1-physical",
-            "depth": 3,
-            "value": "Layer 1: Physical"
-          },
-          {
-            "slug": "layer-2-data-link",
-            "depth": 3,
-            "value": "Layer 2: Data Link"
-          },
-          {
-            "slug": "layer-3-network",
-            "depth": 3,
-            "value": "Layer 3: Network"
-          },
-          {
-            "slug": "layer-4-transport",
-            "depth": 3,
-            "value": "Layer 4: Transport"
-          },
-          {
-            "slug": "layer-5-7-application-presentation-session",
-            "depth": 3,
-            "value": "Layer 5-7: Application, Presentation, Session"
-          },
-          {
-            "slug": "data-in-a-tcpip-example",
-            "depth": 2,
-            "value": "Data in a TCP/IP Example"
-          }
-        ]
-      }
-    },
-    {
       "key": "manual/PHP/PHP-Anon-Funcs.md",
       "value": {
         "name": "PHP Anonymous Functions",
@@ -21405,6 +21645,66 @@
             "slug": "posix-api",
             "depth": 2,
             "value": "POSIX API"
+          }
+        ]
+      }
+    },
+    {
+      "key": "manual/OSI-Model/What-Is-OSI.md",
+      "value": {
+        "name": "What is OSI?",
+        "menu": "OSI Model",
+        "id": "20cdc53351babc95094e6e0e58d67d12",
+        "filepath": "manual/OSI-Model/What-Is-OSI.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/OSI-Model/What-Is-OSI.md",
+        "link": "",
+        "slug": "manual-osi-model-what-is-osi",
+        "route": "/manual-osi-model-what-is-osi",
+        "headings": [
+          {
+            "slug": "what-is-osi",
+            "depth": 1,
+            "value": "What is OSI?"
+          },
+          {
+            "slug": "osi-mnemonics",
+            "depth": 2,
+            "value": "OSI Mnemonics"
+          },
+          {
+            "slug": "osi-layers-in-network-traffic",
+            "depth": 2,
+            "value": "OSI Layers in Network Traffic"
+          },
+          {
+            "slug": "layer-1-physical",
+            "depth": 3,
+            "value": "Layer 1: Physical"
+          },
+          {
+            "slug": "layer-2-data-link",
+            "depth": 3,
+            "value": "Layer 2: Data Link"
+          },
+          {
+            "slug": "layer-3-network",
+            "depth": 3,
+            "value": "Layer 3: Network"
+          },
+          {
+            "slug": "layer-4-transport",
+            "depth": 3,
+            "value": "Layer 4: Transport"
+          },
+          {
+            "slug": "layer-5-7-application-presentation-session",
+            "depth": 3,
+            "value": "Layer 5-7: Application, Presentation, Session"
+          },
+          {
+            "slug": "data-in-a-tcpip-example",
+            "depth": 2,
+            "value": "Data in a TCP/IP Example"
           }
         ]
       }
@@ -22720,6 +23020,71 @@
       }
     },
     {
+      "key": "manual/Programming-Languages/Code-Transformation-and-Linting-with-ASTs.md",
+      "value": {
+        "menu": "Programming Languages",
+        "name": "Code Transformation and Lintings with ASTs",
+        "id": "e8656e1c75b002e9a0c2fa9c91ad4565",
+        "filepath": "manual/Programming-Languages/Code-Transformation-and-Linting-with-ASTs.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Programming-Languages/Code-Transformation-and-Linting-with-ASTs.md",
+        "link": "",
+        "slug": "manual-programming-languages-code-transformation-and-linting-with-as-ts",
+        "route": "/manual-programming-languages-code-transformation-and-linting-with-as-ts",
+        "headings": [
+          {
+            "slug": "code-transformation-and-lintings-with-asts",
+            "depth": 1,
+            "value": "Code Transformation and Lintings with ASTs"
+          },
+          {
+            "slug": "resources",
+            "depth": 2,
+            "value": "Resources"
+          },
+          {
+            "slug": "introduction",
+            "depth": 2,
+            "value": "Introduction"
+          },
+          {
+            "slug": "examples-of-asts",
+            "depth": 2,
+            "value": "Examples of ASTs"
+          },
+          {
+            "slug": "asts",
+            "depth": 2,
+            "value": "ASTs"
+          },
+          {
+            "slug": "eslint",
+            "depth": 3,
+            "value": "ESLint"
+          },
+          {
+            "slug": "making-a-plugin",
+            "depth": 2,
+            "value": "Making a plugin"
+          },
+          {
+            "slug": "babel-plugin-and-ast",
+            "depth": 2,
+            "value": "Babel Plugin and AST"
+          },
+          {
+            "slug": "example-on-testing-for-an-eslint-plugin",
+            "depth": 3,
+            "value": "Example on testing for an ESLint plugin"
+          },
+          {
+            "slug": "codemods",
+            "depth": 2,
+            "value": "Codemods"
+          }
+        ]
+      }
+    },
+    {
       "key": "manual/Programming-Languages/Creating-Your-Own-Language.md",
       "value": {
         "menu": "Programming Languages",
@@ -22737,13 +23102,23 @@
             "value": "Creating Your Own Language"
           },
           {
-            "slug": "use-cases",
+            "slug": "resources",
             "depth": 2,
+            "value": "Resources"
+          },
+          {
+            "slug": "why-your-own-language",
+            "depth": 2,
+            "value": "Why your own language?"
+          },
+          {
+            "slug": "use-cases",
+            "depth": 3,
             "value": "Use Cases"
           },
           {
             "slug": "usecases-at-sendgrid",
-            "depth": 2,
+            "depth": 3,
             "value": "Usecases at SendGrid"
           },
           {
@@ -22752,13 +23127,8 @@
             "value": "What is a compiler?"
           },
           {
-            "slug": "todays-example",
-            "depth": 2,
-            "value": "Todays example"
-          },
-          {
             "slug": "inspiration-resources",
-            "depth": 2,
+            "depth": 3,
             "value": "Inspiration Resources"
           },
           {
@@ -22780,6 +23150,36 @@
             "slug": "turning-strings-to-tokens",
             "depth": 3,
             "value": "Turning strings to tokens"
+          },
+          {
+            "slug": "building-an-ast",
+            "depth": 2,
+            "value": "Building an AST"
+          },
+          {
+            "slug": "repl",
+            "depth": 2,
+            "value": "REPL"
+          },
+          {
+            "slug": "building-the-repl",
+            "depth": 3,
+            "value": "Building the REPL"
+          },
+          {
+            "slug": "generation",
+            "depth": 2,
+            "value": "Generation"
+          },
+          {
+            "slug": "visitor-pattern",
+            "depth": 3,
+            "value": "Visitor Pattern"
+          },
+          {
+            "slug": "bonus-terms",
+            "depth": 2,
+            "value": "Bonus Terms"
           }
         ]
       }
@@ -24308,7 +24708,7 @@
       "key": "manual/React/Testing-React-Applications.md",
       "value": {
         "menu": "React",
-        "name": "Testing-React-Applications",
+        "name": "Testing React Applications",
         "id": "99055dc6fc2273fb1b64f3d551b1d5ad",
         "filepath": "manual/React/Testing-React-Applications.md",
         "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/React/Testing-React-Applications.md",
@@ -24880,6 +25280,116 @@
             "slug": "requirements-for-kratos",
             "depth": 2,
             "value": "Requirements for Kratos"
+          }
+        ]
+      }
+    },
+    {
+      "key": "manual/ReasonML/Reason-Hello-World.md",
+      "value": {
+        "menu": "ReasonML",
+        "name": "ReasonML Hello World",
+        "id": "064c49c85f0e33b8596386e19ea0a698",
+        "filepath": "manual/ReasonML/Reason-Hello-World.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/ReasonML/Reason-Hello-World.md",
+        "link": "",
+        "slug": "manual-reason-ml-reason-hello-world",
+        "route": "/manual-reason-ml-reason-hello-world",
+        "headings": [
+          {
+            "slug": "reasonml-hello-world",
+            "depth": 1,
+            "value": "ReasonML Hello World"
+          },
+          {
+            "slug": "tldr",
+            "depth": 2,
+            "value": "tl;dr"
+          },
+          {
+            "slug": "let-binding",
+            "depth": 2,
+            "value": "Let Binding"
+          },
+          {
+            "slug": "string--char",
+            "depth": 2,
+            "value": "String & Char"
+          },
+          {
+            "slug": "boolean",
+            "depth": 2,
+            "value": "Boolean"
+          },
+          {
+            "slug": "number",
+            "depth": 2,
+            "value": "Number"
+          },
+          {
+            "slug": "objectrecord",
+            "depth": 2,
+            "value": "Object/Record"
+          },
+          {
+            "slug": "array",
+            "depth": 2,
+            "value": "Array"
+          },
+          {
+            "slug": "null",
+            "depth": 2,
+            "value": "Null"
+          },
+          {
+            "slug": "function",
+            "depth": 2,
+            "value": "Function"
+          },
+          {
+            "slug": "blocks",
+            "depth": 3,
+            "value": "Blocks"
+          },
+          {
+            "slug": "currying",
+            "depth": 3,
+            "value": "Currying"
+          },
+          {
+            "slug": "if-else",
+            "depth": 2,
+            "value": "If-else"
+          },
+          {
+            "slug": "destructuring",
+            "depth": 2,
+            "value": "Destructuring"
+          },
+          {
+            "slug": "loop",
+            "depth": 2,
+            "value": "Loop"
+          },
+          {
+            "slug": "jsx",
+            "depth": 2,
+            "value": "JSX"
+          },
+          {
+            "slug": "exception",
+            "depth": 2,
+            "value": "Exception"
+          },
+          {
+            "slug": "blocks-1",
+            "depth": 2,
+            "value": "Blocks"
+          },
+          {
+            "slug": "comments",
+            "depth": 2,
+            "value": "Comments"
           }
         ]
       }
@@ -25655,116 +26165,6 @@
             "slug": "formatting-attributes",
             "depth": 2,
             "value": "Formatting Attributes"
-          }
-        ]
-      }
-    },
-    {
-      "key": "manual/ReasonML/Reason-Hello-World.md",
-      "value": {
-        "menu": "ReasonML",
-        "name": "ReasonML Hello World",
-        "id": "064c49c85f0e33b8596386e19ea0a698",
-        "filepath": "manual/ReasonML/Reason-Hello-World.md",
-        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/ReasonML/Reason-Hello-World.md",
-        "link": "",
-        "slug": "manual-reason-ml-reason-hello-world",
-        "route": "/manual-reason-ml-reason-hello-world",
-        "headings": [
-          {
-            "slug": "reasonml-hello-world",
-            "depth": 1,
-            "value": "ReasonML Hello World"
-          },
-          {
-            "slug": "tldr",
-            "depth": 2,
-            "value": "tl;dr"
-          },
-          {
-            "slug": "let-binding",
-            "depth": 2,
-            "value": "Let Binding"
-          },
-          {
-            "slug": "string--char",
-            "depth": 2,
-            "value": "String & Char"
-          },
-          {
-            "slug": "boolean",
-            "depth": 2,
-            "value": "Boolean"
-          },
-          {
-            "slug": "number",
-            "depth": 2,
-            "value": "Number"
-          },
-          {
-            "slug": "objectrecord",
-            "depth": 2,
-            "value": "Object/Record"
-          },
-          {
-            "slug": "array",
-            "depth": 2,
-            "value": "Array"
-          },
-          {
-            "slug": "null",
-            "depth": 2,
-            "value": "Null"
-          },
-          {
-            "slug": "function",
-            "depth": 2,
-            "value": "Function"
-          },
-          {
-            "slug": "blocks",
-            "depth": 3,
-            "value": "Blocks"
-          },
-          {
-            "slug": "currying",
-            "depth": 3,
-            "value": "Currying"
-          },
-          {
-            "slug": "if-else",
-            "depth": 2,
-            "value": "If-else"
-          },
-          {
-            "slug": "destructuring",
-            "depth": 2,
-            "value": "Destructuring"
-          },
-          {
-            "slug": "loop",
-            "depth": 2,
-            "value": "Loop"
-          },
-          {
-            "slug": "jsx",
-            "depth": 2,
-            "value": "JSX"
-          },
-          {
-            "slug": "exception",
-            "depth": 2,
-            "value": "Exception"
-          },
-          {
-            "slug": "blocks-1",
-            "depth": 2,
-            "value": "Blocks"
-          },
-          {
-            "slug": "comments",
-            "depth": 2,
-            "value": "Comments"
           }
         ]
       }
@@ -27395,6 +27795,36 @@
             "slug": "client-bundles",
             "depth": 2,
             "value": "Client bundles"
+          }
+        ]
+      }
+    },
+    {
+      "key": "manual/Shape-Up/Hill-Charts.md",
+      "value": {
+        "menu": "Shape Up",
+        "name": "Hill Charts",
+        "id": "679ead6e309762c6d27bab11f2ad43e5",
+        "filepath": "manual/Shape-Up/Hill-Charts.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Shape-Up/Hill-Charts.md",
+        "link": "",
+        "slug": "manual-shape-up-hill-charts",
+        "route": "/manual-shape-up-hill-charts",
+        "headings": [
+          {
+            "slug": "hill-charts",
+            "depth": 1,
+            "value": "Hill Charts"
+          },
+          {
+            "slug": "introduction",
+            "depth": 2,
+            "value": "Introduction"
+          },
+          {
+            "slug": "rating-the-hill",
+            "depth": 2,
+            "value": "Rating the hill"
           }
         ]
       }
@@ -29974,6 +30404,36 @@
       }
     },
     {
+      "key": "manual/Tooling/Awesome-CLI-Tools.md",
+      "value": {
+        "menu": "Tooling",
+        "name": "Awesome Tooling CLI",
+        "id": "e6a778e3c892cbac269ffb5e4930f04e",
+        "filepath": "manual/Tooling/Awesome-CLI-Tools.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Tooling/Awesome-CLI-Tools.md",
+        "link": "",
+        "slug": "manual-tooling-awesome-cli-tools",
+        "route": "/manual-tooling-awesome-cli-tools",
+        "headings": [
+          {
+            "slug": "awesome-tooling-cli",
+            "depth": 1,
+            "value": "Awesome Tooling CLI"
+          },
+          {
+            "slug": "resources",
+            "depth": 2,
+            "value": "Resources"
+          },
+          {
+            "slug": "reflex",
+            "depth": 2,
+            "value": "Reflex"
+          }
+        ]
+      }
+    },
+    {
       "key": "manual/Treat/Index.md",
       "value": {
         "menu": "Treat",
@@ -30064,36 +30524,6 @@
             "slug": "setting-up-configuration",
             "depth": 2,
             "value": "Setting Up Configuration"
-          }
-        ]
-      }
-    },
-    {
-      "key": "manual/Tooling/Awesome-CLI-Tools.md",
-      "value": {
-        "menu": "Tooling",
-        "name": "Awesome Tooling CLI",
-        "id": "e6a778e3c892cbac269ffb5e4930f04e",
-        "filepath": "manual/Tooling/Awesome-CLI-Tools.md",
-        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Tooling/Awesome-CLI-Tools.md",
-        "link": "",
-        "slug": "manual-tooling-awesome-cli-tools",
-        "route": "/manual-tooling-awesome-cli-tools",
-        "headings": [
-          {
-            "slug": "awesome-tooling-cli",
-            "depth": 1,
-            "value": "Awesome Tooling CLI"
-          },
-          {
-            "slug": "resources",
-            "depth": 2,
-            "value": "Resources"
-          },
-          {
-            "slug": "reflex",
-            "depth": 2,
-            "value": "Reflex"
           }
         ]
       }
@@ -30814,6 +31244,266 @@
       }
     },
     {
+      "key": "manual/Webpack/Building-A-Webpack-Plugin.md",
+      "value": {
+        "menu": "Webpack",
+        "name": "Building A Webpack Plugin",
+        "id": "054603ee1a36179bbb07d2ace867ce99",
+        "filepath": "manual/Webpack/Building-A-Webpack-Plugin.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Webpack/Building-A-Webpack-Plugin.md",
+        "link": "",
+        "slug": "manual-webpack-building-a-webpack-plugin",
+        "route": "/manual-webpack-building-a-webpack-plugin",
+        "headings": [
+          {
+            "slug": "building-a-webpack-plugin",
+            "depth": 1,
+            "value": "Building A Webpack Plugin"
+          },
+          {
+            "slug": "resources",
+            "depth": 2,
+            "value": "Resources"
+          },
+          {
+            "slug": "building-a-plugin-to-compile-tokens",
+            "depth": 2,
+            "value": "Building A Plugin To Compile Tokens"
+          },
+          {
+            "slug": "hello-world",
+            "depth": 2,
+            "value": "Hello, World!"
+          }
+        ]
+      }
+    },
+    {
+      "key": "manual/Webpack/Webpack-2.md",
+      "value": {
+        "name": "Webpack 2",
+        "menu": "Webpack",
+        "id": "bdd8b871ffd6635acb06cea803e96d08",
+        "filepath": "manual/Webpack/Webpack-2.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Webpack/Webpack-2.md",
+        "link": "",
+        "slug": "manual-webpack-webpack-2",
+        "route": "/manual-webpack-webpack-2",
+        "headings": [
+          {
+            "slug": "webpack-2",
+            "depth": 1,
+            "value": "Webpack-2"
+          },
+          {
+            "slug": "10-webpack-in-action",
+            "depth": 2,
+            "value": "1.0: Webpack in Action"
+          },
+          {
+            "slug": "11-webpack-configuration",
+            "depth": 2,
+            "value": "1.1 Webpack Configuration"
+          },
+          {
+            "slug": "20-module-loaders",
+            "depth": 2,
+            "value": "2.0 Module Loaders"
+          },
+          {
+            "slug": "21-css-loaders",
+            "depth": 2,
+            "value": "2.1 CSS Loaders"
+          },
+          {
+            "slug": "22-image-loaders",
+            "depth": 2,
+            "value": "2.2 Image Loaders"
+          },
+          {
+            "slug": "30-code-splitting",
+            "depth": 2,
+            "value": "3.0 Code Splitting"
+          },
+          {
+            "slug": "44-code-splitting-in-the-real-world",
+            "depth": 2,
+            "value": "4.4: Code Splitting in the real world"
+          }
+        ]
+      }
+    },
+    {
+      "key": "manual/Webpack/Webpack-Optimisation.md",
+      "value": {
+        "menu": "Webpack",
+        "name": "Webpack Optimisation",
+        "id": "0597b8b3b195a5e54dd0b9b469c01b22",
+        "filepath": "manual/Webpack/Webpack-Optimisation.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Webpack/Webpack-Optimisation.md",
+        "link": "",
+        "slug": "manual-webpack-webpack-optimisation",
+        "route": "/manual-webpack-webpack-optimisation",
+        "headings": [
+          {
+            "slug": "webpack-optimisation",
+            "depth": 1,
+            "value": "Webpack Optimisation"
+          },
+          {
+            "slug": "loader-targeting",
+            "depth": 2,
+            "value": "Loader targeting"
+          },
+          {
+            "slug": "bootstrap",
+            "depth": 2,
+            "value": "Bootstrap"
+          },
+          {
+            "slug": "resolving",
+            "depth": 2,
+            "value": "Resolving"
+          },
+          {
+            "slug": "dlls",
+            "depth": 2,
+            "value": "Dlls"
+          },
+          {
+            "slug": "smaller--faster",
+            "depth": 2,
+            "value": "Smaller = Faster"
+          },
+          {
+            "slug": "worker-pool",
+            "depth": 2,
+            "value": "Worker Pool"
+          },
+          {
+            "slug": "persistent-cache",
+            "depth": 2,
+            "value": "Persistent Cache"
+          },
+          {
+            "slug": "custom-pluginsloaders",
+            "depth": 2,
+            "value": "Custom plugins/loaders"
+          },
+          {
+            "slug": "incremental-builds",
+            "depth": 2,
+            "value": "Incremental Builds"
+          },
+          {
+            "slug": "compile-in-memory",
+            "depth": 2,
+            "value": "Compile in Memory"
+          },
+          {
+            "slug": "devtool",
+            "depth": 2,
+            "value": "Devtool"
+          }
+        ]
+      }
+    },
+    {
+      "key": "manual/Webpack/Webpack.md",
+      "value": {
+        "name": "Webpack",
+        "menu": "Webpack",
+        "id": "3fef1699afe903ff8434801f2a4f5852",
+        "filepath": "manual/Webpack/Webpack.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Webpack/Webpack.md",
+        "link": "",
+        "slug": "manual-webpack-webpack",
+        "route": "/manual-webpack-webpack",
+        "headings": [
+          {
+            "slug": "webpack",
+            "depth": 1,
+            "value": "Webpack"
+          },
+          {
+            "slug": "table-of-contents",
+            "depth": 2,
+            "value": "Table of Contents"
+          },
+          {
+            "slug": "web-1-webpack---the-why",
+            "depth": 2,
+            "value": "WEB-1: Webpack - The Why."
+          },
+          {
+            "slug": "web-2-webpack-config",
+            "depth": 2,
+            "value": "WEB-2: Webpack Config"
+          },
+          {
+            "slug": "web-3-building-an-app",
+            "depth": 2,
+            "value": "WEB-3: Building an app"
+          },
+          {
+            "slug": "web-4-webpack-dev-server",
+            "depth": 2,
+            "value": "WEB-4: Webpack Dev Server"
+          },
+          {
+            "slug": "web-5-adding-styles",
+            "depth": 2,
+            "value": "WEB-5: Adding Styles"
+          },
+          {
+            "slug": "web-6-loaders",
+            "depth": 2,
+            "value": "WEB-6: Loaders"
+          }
+        ]
+      }
+    },
+    {
+      "key": "manual/Web-Servers/Resources.md",
+      "value": {
+        "menu": "Web Servers",
+        "name": "Web Server Resources",
+        "id": "eac2c86d3aa07a9e2515d50521bbb144",
+        "filepath": "manual/Web-Servers/Resources.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Web-Servers/Resources.md",
+        "link": "",
+        "slug": "manual-web-servers-resources",
+        "route": "/manual-web-servers-resources",
+        "headings": [
+          {
+            "slug": "web-server-resources",
+            "depth": 1,
+            "value": "Web Server Resources"
+          },
+          {
+            "slug": "java--spring",
+            "depth": 2,
+            "value": "Java + Spring"
+          },
+          {
+            "slug": "php--slim",
+            "depth": 2,
+            "value": "PHP + Slim"
+          },
+          {
+            "slug": "ruby--rails",
+            "depth": 2,
+            "value": "Ruby + Rails"
+          },
+          {
+            "slug": "golang--gin",
+            "depth": 2,
+            "value": "Golang + Gin"
+          }
+        ]
+      }
+    },
+    {
       "key": "manual/Web/Accessibility-Course.md",
       "value": {
         "menu": "Web",
@@ -31314,266 +32004,6 @@
             "slug": "more",
             "depth": 2,
             "value": "More"
-          }
-        ]
-      }
-    },
-    {
-      "key": "manual/Web-Servers/Resources.md",
-      "value": {
-        "menu": "Web Servers",
-        "name": "Web Server Resources",
-        "id": "eac2c86d3aa07a9e2515d50521bbb144",
-        "filepath": "manual/Web-Servers/Resources.md",
-        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Web-Servers/Resources.md",
-        "link": "",
-        "slug": "manual-web-servers-resources",
-        "route": "/manual-web-servers-resources",
-        "headings": [
-          {
-            "slug": "web-server-resources",
-            "depth": 1,
-            "value": "Web Server Resources"
-          },
-          {
-            "slug": "java--spring",
-            "depth": 2,
-            "value": "Java + Spring"
-          },
-          {
-            "slug": "php--slim",
-            "depth": 2,
-            "value": "PHP + Slim"
-          },
-          {
-            "slug": "ruby--rails",
-            "depth": 2,
-            "value": "Ruby + Rails"
-          },
-          {
-            "slug": "golang--gin",
-            "depth": 2,
-            "value": "Golang + Gin"
-          }
-        ]
-      }
-    },
-    {
-      "key": "manual/Webpack/Building-A-Webpack-Plugin.md",
-      "value": {
-        "menu": "Webpack",
-        "name": "Building A Webpack Plugin",
-        "id": "054603ee1a36179bbb07d2ace867ce99",
-        "filepath": "manual/Webpack/Building-A-Webpack-Plugin.md",
-        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Webpack/Building-A-Webpack-Plugin.md",
-        "link": "",
-        "slug": "manual-webpack-building-a-webpack-plugin",
-        "route": "/manual-webpack-building-a-webpack-plugin",
-        "headings": [
-          {
-            "slug": "building-a-webpack-plugin",
-            "depth": 1,
-            "value": "Building A Webpack Plugin"
-          },
-          {
-            "slug": "resources",
-            "depth": 2,
-            "value": "Resources"
-          },
-          {
-            "slug": "building-a-plugin-to-compile-tokens",
-            "depth": 2,
-            "value": "Building A Plugin To Compile Tokens"
-          },
-          {
-            "slug": "hello-world",
-            "depth": 2,
-            "value": "Hello, World!"
-          }
-        ]
-      }
-    },
-    {
-      "key": "manual/Webpack/Webpack-2.md",
-      "value": {
-        "name": "Webpack 2",
-        "menu": "Webpack",
-        "id": "bdd8b871ffd6635acb06cea803e96d08",
-        "filepath": "manual/Webpack/Webpack-2.md",
-        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Webpack/Webpack-2.md",
-        "link": "",
-        "slug": "manual-webpack-webpack-2",
-        "route": "/manual-webpack-webpack-2",
-        "headings": [
-          {
-            "slug": "webpack-2",
-            "depth": 1,
-            "value": "Webpack-2"
-          },
-          {
-            "slug": "10-webpack-in-action",
-            "depth": 2,
-            "value": "1.0: Webpack in Action"
-          },
-          {
-            "slug": "11-webpack-configuration",
-            "depth": 2,
-            "value": "1.1 Webpack Configuration"
-          },
-          {
-            "slug": "20-module-loaders",
-            "depth": 2,
-            "value": "2.0 Module Loaders"
-          },
-          {
-            "slug": "21-css-loaders",
-            "depth": 2,
-            "value": "2.1 CSS Loaders"
-          },
-          {
-            "slug": "22-image-loaders",
-            "depth": 2,
-            "value": "2.2 Image Loaders"
-          },
-          {
-            "slug": "30-code-splitting",
-            "depth": 2,
-            "value": "3.0 Code Splitting"
-          },
-          {
-            "slug": "44-code-splitting-in-the-real-world",
-            "depth": 2,
-            "value": "4.4: Code Splitting in the real world"
-          }
-        ]
-      }
-    },
-    {
-      "key": "manual/Webpack/Webpack-Optimisation.md",
-      "value": {
-        "menu": "Webpack",
-        "name": "Webpack Optimisation",
-        "id": "0597b8b3b195a5e54dd0b9b469c01b22",
-        "filepath": "manual/Webpack/Webpack-Optimisation.md",
-        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Webpack/Webpack-Optimisation.md",
-        "link": "",
-        "slug": "manual-webpack-webpack-optimisation",
-        "route": "/manual-webpack-webpack-optimisation",
-        "headings": [
-          {
-            "slug": "webpack-optimisation",
-            "depth": 1,
-            "value": "Webpack Optimisation"
-          },
-          {
-            "slug": "loader-targeting",
-            "depth": 2,
-            "value": "Loader targeting"
-          },
-          {
-            "slug": "bootstrap",
-            "depth": 2,
-            "value": "Bootstrap"
-          },
-          {
-            "slug": "resolving",
-            "depth": 2,
-            "value": "Resolving"
-          },
-          {
-            "slug": "dlls",
-            "depth": 2,
-            "value": "Dlls"
-          },
-          {
-            "slug": "smaller--faster",
-            "depth": 2,
-            "value": "Smaller = Faster"
-          },
-          {
-            "slug": "worker-pool",
-            "depth": 2,
-            "value": "Worker Pool"
-          },
-          {
-            "slug": "persistent-cache",
-            "depth": 2,
-            "value": "Persistent Cache"
-          },
-          {
-            "slug": "custom-pluginsloaders",
-            "depth": 2,
-            "value": "Custom plugins/loaders"
-          },
-          {
-            "slug": "incremental-builds",
-            "depth": 2,
-            "value": "Incremental Builds"
-          },
-          {
-            "slug": "compile-in-memory",
-            "depth": 2,
-            "value": "Compile in Memory"
-          },
-          {
-            "slug": "devtool",
-            "depth": 2,
-            "value": "Devtool"
-          }
-        ]
-      }
-    },
-    {
-      "key": "manual/Webpack/Webpack.md",
-      "value": {
-        "name": "Webpack",
-        "menu": "Webpack",
-        "id": "3fef1699afe903ff8434801f2a4f5852",
-        "filepath": "manual/Webpack/Webpack.md",
-        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Webpack/Webpack.md",
-        "link": "",
-        "slug": "manual-webpack-webpack",
-        "route": "/manual-webpack-webpack",
-        "headings": [
-          {
-            "slug": "webpack",
-            "depth": 1,
-            "value": "Webpack"
-          },
-          {
-            "slug": "table-of-contents",
-            "depth": 2,
-            "value": "Table of Contents"
-          },
-          {
-            "slug": "web-1-webpack---the-why",
-            "depth": 2,
-            "value": "WEB-1: Webpack - The Why."
-          },
-          {
-            "slug": "web-2-webpack-config",
-            "depth": 2,
-            "value": "WEB-2: Webpack Config"
-          },
-          {
-            "slug": "web-3-building-an-app",
-            "depth": 2,
-            "value": "WEB-3: Building an app"
-          },
-          {
-            "slug": "web-4-webpack-dev-server",
-            "depth": 2,
-            "value": "WEB-4: Webpack Dev Server"
-          },
-          {
-            "slug": "web-5-adding-styles",
-            "depth": 2,
-            "value": "WEB-5: Adding Styles"
-          },
-          {
-            "slug": "web-6-loaders",
-            "depth": 2,
-            "value": "WEB-6: Loaders"
           }
         ]
       }
