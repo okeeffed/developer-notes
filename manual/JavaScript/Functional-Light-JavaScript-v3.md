@@ -19,6 +19,8 @@ It is light as it is not trying to delve too deep in the mathematics.
 3. [GitHub Book](https://github.com/getify/Functional-Light-JS)
 4. [Amazon Book](https://www.amazon.com/Functional-Light-JavaScript-Pragmatic-Balanced-FP-ebook/dp/B0787DBFKH)
 5. [LeanPub Book](https://leanpub.com/fljs)
+6. [Monad - Wikipedia](<https://en.wikipedia.org/wiki/Monad_(category_theory)>)
+7. [Lodash FP](https://github.com/lodash/lodash/wiki/FP-Guide)
 
 ## Introduction
 
@@ -1473,7 +1475,7 @@ function Just(val) {
     return fn(val);
   }
 
-  //
+  // the monad, of course, must have a map
   function ap(anotherMonad) {
     return anotherMonad.map(val);
   }
@@ -1481,4 +1483,131 @@ function Just(val) {
   // these are the three cores methods on the monads
   return { map, chain, ap };
 }
+
+// in action
+var fortyOne = Just(41);
+var forthTwo = fortyOne.map(function inc(v) {
+  return v + 1;
+});
+
+function identity(v) {
+  return v;
+}
+
+// debug inspection - note: violating monad laws
+fortyOne.chain(identity); // 41
+fortyTwo.chain(identity); // 42
+fortyOne.map(identity); // Just(41)
+
+var user1 = Just('Kyle');
+var user2 = Just('Susan');
+
+// is a reducer shape
+var tuple = curry(2, function tuple(x, y) {
+  return [x, y];
+});
+
+var users = user1.map(tuple).ap(user2);
+['Kyle', 'Susan'];
+```
+
+## Maybe Monad
+
+One of the most common uses of the monads.
+
+```javascript
+var someObj = {
+  something: {
+    else: {
+      entirely: 42,
+    },
+  },
+};
+
+someObj.something.else.entirely; // 42
+```
+
+What happens when one of the properties is undefined? To understand, we need a nothing monad.
+
+```javascript
+// Nothing becomes a blackhole of Nothingness ie no-op
+function Nothing() {
+  return { map: Nothing, chain: Nothing, ap: Nothing };
+}
+
+var Maybe = { Just, Nothing, of: Just };
+
+// critical behaviour to give us another monad
+function fromNullable(val) {
+  if (val == null) return Maybe.Nothing();
+  else return Maybe.of(val);
+}
+
+// will give back Nothing or Just monad
+var prop = curry(2, function prop(prop, obj) {
+  return fromNullable(obj[prop]);
+});
+
+Maybe.of(someObj)
+  .chain(prop('something'))
+  .chain(prop('else'))
+  .chain(prop('entirely'))
+  .chain(identity); // 42 - the value of the deep nested object
+```
+
+> Should you use monads? Maybe. Just don't be scared of them. - Kyle
+
+## Functional JS Utils
+
+1. Lodash/FP - note, it is not Lodash
+2. Ramda
+3. FPO
+
+### Lodash/FP
+
+```javascript
+fp.reduce((acc, v) => acc + v), 0, [3,7,9]) // 19
+
+var f = fp.curryN(3, function f(x,y,z) {
+  return x + (y * z)
+})
+var g = fp.compose([fp.add(1), f(1,4)])
+g(10) // 42
+```
+
+### Ramda
+
+One of the most popular of the libraries out there.
+
+```javascript
+R.reduce((acc, v) => acc + v), 0, [3,7,9]) // 19
+
+var f = R.curryN(3, function f(x,y,z) {
+  return x + (y * z)
+})
+var g = R.compose(R.inc, f(1,4))
+g(10) // 42
+```
+
+### FPO
+
+One that Kyle wrote, initially to be a wrapper on top of Ramda.
+
+```javascript
+// traditional on the FPO.std namespace
+FPO.std.reduce((acc, v) => acc + v), undefined, [3,7,9]) // 19
+
+// named arguments
+FPO.reduce({arr: [3,7,9], fn: ({acc, v}) => acc + v}) // 19
+
+// comparing
+var f = curry(2, flip(partialRight(reduce, [[3,7,9]])))
+
+f((acc,v) => acc + v) // 19
+f((acc,v) => acc * v) // 189
+
+var f = FPO.reduce({arr: [3,7,9]})
+
+f({fn: ({acc,v}) => acc + v}) // 19
+f({fn: ({acc,v}) => acc * v}) // 189
 ```
