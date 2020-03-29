@@ -971,3 +971,514 @@ If you're in the middle of function A, but then call function B, you need to som
 Tail calls may not necessarily run faster, but the memory usage is improved.
 
 JavaScript has had in place to not run so far to even run out of memory. There is a limit to how many function calls can be done in depth.
+
+### Proper Tails Calls
+
+PTC are the idea that a tail call gets memory optimised. TCO (Tail Call Operations) are a family of optimisations that are optional for tail calls.
+
+PTC were standardised. It should be possible for an operation in a tail call position to be optimised. TC39 decided to let PTC in ES6.
+
+Proper tail calls require `use strict` keyword and `return function` at the end of a function.
+
+```javascript
+'use strict';
+
+var countVowels = curry(2, function countVowels(count, str) {
+  var count = isVowel(str[0]) ? 1 : 0;
+  // base condition
+  if (str.length <= 1) return count;
+
+  return countVowels(count, str.slice(1));
+});
+
+countVowels('Hello the world!');
+```
+
+## Continuation-Passing Style
+
+It is worth noting this since we can't rely on Proper Tail Calls.
+
+```javascript
+'use strict';
+
+function countVowels(str, cont = v => v) {
+  var count = isVowel(str[0]) ? 1 : 0;
+  // base condition
+  if (str.length <= 1) return count;
+
+  return countVowels(str.slice(1), function f(v) {
+    return cont(first + v);
+  });
+}
+
+countVowels('Hello the world!');
+```
+
+> Note: `v => v` is known as the identity function.
+
+CPS is a cheat, since we are deferring the real recursive call. We aren't fixing the memory problem, but we are now storing the data on the heap instead of the stack.
+
+## Trampolines
+
+A function call function, then return another one. We never want to build the stack depth beyond one.
+
+```javascript
+function trampoline(fn) {
+  return function trampolined(...args) {
+    var results = fn(...args);
+
+    while (typeof result == 'function') {
+      result = result();
+    }
+
+    return result;
+  };
+}
+```
+
+So this is how it looks in practice:
+
+```javascript
+'use strict';
+
+var countVowels = trampoline(function countVowels(count, str) {
+  var count = isVowel(str[0]) ? 1 : 0;
+  // base condition
+  if (str.length <= 1) return count;
+
+  return function f() {
+    return countVowels(count, str.slice(1));
+  };
+});
+
+const countVowels = curry(2, countVowels)(0);
+```
+
+> This is the current state that Kyle writes his recursion functions. Put it into tail call form and then wrap it in a trampoline.
+
+## List Operations
+
+### Map: Transformations
+
+> Functor is a value over which those values it in can be mapped.
+
+Map will take a value and transform it. The map needs to create a new data structure.
+
+```javascript
+function makeRecord(name) {
+  return { id: uniqID(), name };
+}
+
+['Kyle', 'Susan'].map(makeRecord);
+```
+
+### Filter: Inclusion
+
+Filter in programming is actually a filter in. We take a set of inputs and return only a filtered in set of outputs.
+
+### Reduce: Combination
+
+Reduce is a very general operation.
+
+Note that you need to select an appropriate initial value.
+
+### Composition with Reduce
+
+The example shows how to implement a `pipe` and `compose` function by using `reduce` and `reduceRight`.
+
+## Fusion
+
+It will be extremely common to start chains.
+
+There is a downside for using these chains. One is performance. The intermidiate states for the items list that are large need to be garbage collect.
+
+The other is the state at any time.
+
+## Transduction
+
+> The concept of composing together map, filter, reduce methods. This is due to all three functions having different shapes. Transducing is composition of reducers. We want to turn the maps and predicates into transducers.
+
+There is an API by the name of `transduce` that allows us to use all this.
+
+```javascript
+// not, it isn't the function calls themselves
+// but the arguments going into those functions
+function add1(v) {
+  return v + 1;
+}
+function isOdd(v) {
+  return v % 2 == 1;
+}
+function sum(total, v) {
+  return total + v;
+}
+
+var list = [1, 2, 3, 4, 5];
+
+// Attempt 1: note that the returns and functions themselves have
+// incompatible shapes
+list
+  .map(add1)
+  .filter(isOdd)
+  .reduce(sum); // 42
+
+// Attempt 2: note that this approach now is imperative
+list.reduce(function allAtOnce(total, v) {
+  v = add1(v);
+  if (isOdd(v)) {
+    total = sum(total, v);
+  }
+  return total;
+}, 0); // 42
+
+// Attempt 3: we want to use tranducers
+// note: a transducer NEEDS a reducer
+var transducer = compose(
+  // we pass our "maps" and "filters"
+  // to their reduce counterpart
+  mapReducer(add1),
+  filterReducer(isOdd),
+);
+
+transduce(
+  // needs the transducer
+  transducer,
+  // needs the reduction function
+  sum,
+  // needs the inital value
+  0,
+  // needs to data to map over
+  list,
+);
+
+// Attempt 4: using the "into" helper function
+// into passes us something akin to the sum.
+// function. It knows based on transducer type.
+// "into" is just a shorthand.
+into(transducer, 0, list);
+```
+
+> Transducer is a higher-order reducer.
+
+### Deriving Transduction
+
+From here, things will get difficult. Let's start again:
+
+```javascript
+function add1(v) {
+  return v + 1;
+}
+function isOdd(v) {
+  return v % 2 == 1;
+}
+function sum(total, v) {
+  return total + v;
+}
+
+var list = [1, 2, 3, 4, 5];
+
+// 1: Let's take this as our basis again
+list
+  .map(add1)
+  .filter(isOdd)
+  .reduce(sum);
+
+// 2: Let's show what happens when we create our own reducers
+function mapWithReduce(arr, mappingFn) {
+  return arr.reduce(function reducer(list, v) {
+    // specifically cutting a corner
+    // it is using mutation
+    list.push(mappingFn(v));
+    return list;
+  }, []);
+}
+
+function filterWithReduce(arr, predicateFn) {
+  return arr.reduce(function reducer(list, v) {
+    if (predicateFn(v)) list.push(v);
+    return list;
+  }, []);
+}
+
+list = mapWithReduce(list, add1);
+list = filterWithReduce(list, isOdd);
+list.reduce(sum); // 42
+
+// 3: Extracting the utilities
+function mapWithReduce(mappingFn) {
+  return function reducer(list, v) {
+    // specifically cutting a corner
+    // it is using mutation
+    list.push(mappingFn(v));
+    return list;
+  };
+}
+
+function filterWithReduce(predicateFn) {
+  return function reducer(list, v) {
+    if (predicateFn(v)) list.push(v);
+    return list;
+  };
+}
+
+// now we create a stream of reducers
+list
+  .reduce(mapReducer(add1))
+  .reduce(filterReducer(isOdd))
+  .reduce(sum); // 42
+
+// 4: Instead, lets use a combiner
+function listCombination(list, v) {
+  list.push(v);
+  return list;
+}
+
+function mapWithReduce(mappingFn) {
+  return function reducer(list, v) {
+    return listCombination(list, mappingFn(v));
+  };
+}
+
+function filterWithReduce(predicateFn) {
+  return function reducer(list, v) {
+    if (predicateFn(v)) return listCombination(list, mappingFn(v));
+    return list;
+  };
+}
+
+list
+  .reduce(mapReducer(add1))
+  .reduce(filterReducer(isOdd))
+  .reduce(sum); // 42
+
+// 5. Passing listCombination as a parameter
+function listCombination(list, v) {
+  list.push(v);
+  return list;
+}
+
+var mapWithReduce = curry(2, function mapReducer(mappingFn, combineFn) {
+  return function reducer(list, v) {
+    return combineFn(list, mappingFn(v));
+  };
+});
+
+var filterWithReduce = curry(2, function filterReducer(predicateFn, combineFn) {
+  return function reducer(list, v) {
+    if (predicateFn(v)) return combineFn(list, mappingFn(v));
+    return list;
+  };
+});
+
+list
+  // returns Higher Order Reducers waiting for reducer
+  .reduce(mapReducer(add1)(listCombimation), [])
+  .reduce(filterReducer(isOdd)(listCombimation), [])
+  .reduce(sum); // 42
+```
+
+The end goal here was to turn our functions into higher order reducers waiting for a reducer.
+
+> Again, the idea of currying is to creating specialisation instead of generalisation (in this case, towards the unary function).
+
+```javascript
+function listCombination(list, v) {
+  list.push(v);
+  return list;
+}
+
+var mapWithReduce = curry(2, function mapReducer(mappingFn, combineFn) {
+  return function reducer(list, v) {
+    return combineFn(list, mappingFn(v));
+  };
+});
+
+var filterWithReduce = curry(2, function filterReducer(predicateFn, combineFn) {
+  return function reducer(list, v) {
+    if (predicateFn(v)) return combineFn(list, mappingFn(v));
+    return list;
+  };
+});
+
+// Each function gets a reducer out
+// we are now thinking of reducers
+// travelling through the composition
+// and not numbers.
+var transducer = compose(
+  mapReducer(add1),
+  filterReducer(isOdd),
+);
+
+list
+  // returns Higher Order Reducers waiting for reducer
+  .reduce(transducer(listCombination), [])
+  .reduce(sum); // 42
+```
+
+After all of this work, we have one step. `listCombination` is essentially a sum function.
+
+Because of this, we don't even need our intermediate array! What's the point if the list will just get reduced?
+
+```javascript
+var mapWithReduce = curry(2, function mapReducer(mappingFn, combineFn) {
+  return function reducer(list, v) {
+    return combineFn(list, mappingFn(v));
+  };
+});
+
+var filterWithReduce = curry(2, function filterReducer(predicateFn, combineFn) {
+  return function reducer(list, v) {
+    if (predicateFn(v)) return combineFn(list, mappingFn(v));
+    return list;
+  };
+});
+
+// Each function gets a reducer out
+// we are now thinking of reducers
+// travelling through the composition
+// and not numbers.
+var transducer = compose(
+  mapReducer(add1),
+  filterReducer(isOdd),
+);
+
+list.reduce(transducer(sum), 0); // 42
+```
+
+> All that's done here is use everything spoken in the course so far. Abstraction, currying etc.
+
+> Reducers always need an initial value. Whatever you pass to the transducer is what we want to get at the end. Instead of sum, could have been a string concater, could be a list builder.
+
+## Data Structure Operations
+
+Say we wanted to lowercase the properties of an object:
+
+```javascript
+var obj = {
+  name: 'Dennis',
+  email: 'Test@Gmail.com',
+};
+
+function mapObj(mapper, o) {
+  var newObj = {};
+  for (let key of Object.keys(o)) {
+    newObj[hey] = mapper(o[key]);
+  }
+  return newObj;
+}
+
+mapObg(function lower(val) {
+  return val.toLowerCase();
+}, obj);
+// { name: "kyle", email: "test@gmail.com" }
+```
+
+> Think of map as lifting an operation to a list of values in a container.
+
+So what would filter and reduce look like in an object sense?
+
+```javascript
+function filterObj(predicateFn, o) {
+  var newObj = {};
+  for (let key of Object.keys(o)) {
+    if (predicateFn(o[key])) newObj[hey] = mapper(o[key]);
+  }
+  return newObj;
+}
+
+function reduceObj(reducerFn, initialValue, o) {
+  var result = initialValue;
+  for (let key of Object.keys(o)) {
+    result = reducerFn(result, o[key]);
+  }
+  return result;
+}
+```
+
+Now we want to do some refactoring using the pieces that we already know:
+
+```javascript
+// 1. Transforming what we already have
+var filteredNums = filterObj(function(list) {
+  return isOdd(listSum(list));
+}, nums);
+
+var filteredNumsProduct = mapObj(function(list) {
+  return listProduct(list);
+}, filteredNums);
+
+reduceObj(
+  function(acc, v) {
+    return acc + v;
+  },
+  0,
+  filteredNumsProducts,
+); // 38886
+
+// 2. Transforming to be point free
+pipe(
+  curry(2)(
+    filterObj(
+      compose(
+        isOdd,
+        listSum,
+      ),
+    ),
+  ),
+  curry(2)(mapObj(listProduct, filteredNums)),
+  curry(2)(reduceObj),
+)(nums); // 38886
+
+// 3. Remove the repetitiveness
+// binary used to reduce arity
+[
+  curry(2)(
+    filterObj(
+      compose(
+        isOdd,
+        listSum,
+      ),
+    ),
+  ),
+  curry(2)(mapObj(listProduct, filteredNums)),
+  curry(2)(reduceObj),
+].reduce(binary(pipe))(nums); // 38886
+```
+
+## Monad Data Structure
+
+> Monad is a way of creating a functional-friendly data structure. "A monoid in the category of endofunctors." In laymen terms: a pattern for pairing data with a set of predictable behaviours that let it interact with other data + behaviour pairings (other monads).
+
+Why do I need a data structure for one value? It is a wrapper with a set of behaviours with it that allow it to be friendly to functional concepts.
+
+```javascript
+// a wrapper around a single value
+function Just(val) {
+  // these are the three cores methods on the monads
+  return { map, chain, ap };
+}
+```
+
+How might we implement these as an example? Note: this is not strictly an accurate representation of these functions in the wild.
+
+```javascript
+// a wrapper around a single value
+function Just(val) {
+  function map(fn) {
+    return Just(fn(val));
+  }
+
+  // aka bind, flatMap
+  function chain(fn) {
+    return fn(val);
+  }
+
+  //
+  function ap(anotherMonad) {
+    return anotherMonad.map(val);
+  }
+
+  // these are the three cores methods on the monads
+  return { map, chain, ap };
+}
+```
