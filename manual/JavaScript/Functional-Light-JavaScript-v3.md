@@ -21,6 +21,7 @@ It is light as it is not trying to delve too deep in the mathematics.
 5. [LeanPub Book](https://leanpub.com/fljs)
 6. [Monad - Wikipedia](<https://en.wikipedia.org/wiki/Monad_(category_theory)>)
 7. [Lodash FP](https://github.com/lodash/lodash/wiki/FP-Guide)
+8. [Functional Programming Jargon](https://github.com/hemanth/functional-programming-jargon)
 
 ## Introduction
 
@@ -1556,6 +1557,58 @@ Maybe.of(someObj)
 ```
 
 > Should you use monads? Maybe. Just don't be scared of them. - Kyle
+
+## Async
+
+Here is an example of synchronous and eager operations:
+
+```javascript
+var = [1,2,3]
+
+var b = a.map(function double(v) {
+  return v * 2
+})
+
+b; // [2,4,6]
+```
+
+How can we do this in a lazy way?
+
+> Kyle here asks the question on what could it look like if we had a `lazyMap` function or a `lazyArray` data structure.
+
+This is where `observable` comes through.
+
+> Kyle akins them to a spreadsheet. If you set A1 to 5 and B1 to A1 + 5, B1 is 10. What happens if you now change A1 to 10? B1 "magically" becomes 15.
+
+Observables can "lift" our program to become time oriented.
+
+> "Lifting is when you take a value and put it into an object like a functor. If you lift a function into an Applicative Functor then you can make it work on values that are also in that functor." - [GitHub resource](https://github.com/hemanth/functional-programming-jargon#lift)
+
+### Reactive Programming with Rx.js
+
+```javascript
+var a = new Rx.Subject();
+
+setInterval(function everySecond() {
+  a.next(Math.random());
+}, 1000);
+
+// elsewhere
+
+// when you do Observable.map etc, you get another Observable!
+var b = a.map(function double(v) {
+  return v * 2;
+});
+
+// subscribe to changes like b
+b.subscribe(function onValue(v) {
+  console.log(v);
+});
+```
+
+> Note: Kyle says that if you think about Event-Oriented programming, then terms have about 80% crossover ie observables, event streaming etc.
+
+### Map Lazy and Lazy Array
 
 ## Functional JS Utils
 
