@@ -15,6 +15,8 @@ name: A11y in JavaScript
 6. [GitHub Dropdown solution](https://github.com/marcysutton/js-a11y-workshop/blob/master/examples/dropdown/dropdown.js)
 7. [React FocusScope](https://github.com/facebook/react/pull/15487)
 8. [Route change sandbox](https://codepen.io/marcysutton/pen/MNpmMd)
+9. [ARIA Live Regions](https://www.w3.org/TR/wai-aria/#live_region_roles)
+10. [Live region code sandbox](https://codepen.io/marcysutton/pen/ZgeKaV)
 
 ## Debugging a11y
 
@@ -191,3 +193,40 @@ The final code [can be seen here](https://github.com/marcysutton/js-a11y-worksho
 > A cool tidbit here is that Marcy uses the router meta data on a change to help dictate if the skip link should be focused.
 
 There is a nice little sandbox you can use to test an `onRouteChange` type handler for a [Gatsby example](https://codepen.io/marcysutton/pen/MNpmMd).
+
+## Announcements
+
+Nice patterns to follow to notify assistive tech users without moving focus:
+
+- Async save/update/etc
+- Combobox usage/list filtering
+- Chat widgets
+- Title changes
+
+You can create the announcements using ARIA live regions (with reference [here](https://www.w3.org/TR/wai-aria/#live_region_roles)):
+
+```html
+<div role="status"></div>
+<div role="alert"></div>
+<div aria-live="polite"></div>
+<div aria-live="assertive"></div>
+```
+
+> Message command centers of varying importance
+
+Live region gotchas and tips:
+
+1. Includes multiple regions for stubborn situations
+2. Politeness levels depend on the use case
+3. Site-level announcement manager APIs
+
+There is a [codepen](https://codepen.io/marcysutton/pen/ZgeKaV) for playing around with the live regions.
+
+## Progressive Enhancement
+
+### Semantic HTML
+
+- Use headings & landmarks
+- Start with native UI controls
+- Build semantics into templates
+- Verify assistive tech output
