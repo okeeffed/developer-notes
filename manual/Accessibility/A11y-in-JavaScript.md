@@ -17,6 +17,9 @@ name: A11y in JavaScript
 8. [Route change sandbox](https://codepen.io/marcysutton/pen/MNpmMd)
 9. [ARIA Live Regions](https://www.w3.org/TR/wai-aria/#live_region_roles)
 10. [Live region code sandbox](https://codepen.io/marcysutton/pen/ZgeKaV)
+11. [NVDA Keyboard shortcuts](https://dequeuniversity.com/screenreaders/nvda-keyboard-shortcuts#nvda-the_basics)
+12. [prefers-reduced-motion CSS CodePen](https://codepen.io/marcysutton/pen/yqVVeY)
+13. [Focusable test](https://github.com/marcysutton/js-a11y-workshop/blob/master/src/components/better/__tests__/dropdown.test.js)
 
 ## Debugging a11y
 
@@ -230,3 +233,42 @@ There is a [codepen](https://codepen.io/marcysutton/pen/ZgeKaV) for playing arou
 - Start with native UI controls
 - Build semantics into templates
 - Verify assistive tech output
+
+### Unobtrustive Motion
+
+- `prefers-reduced-motion` CSS
+- media, animation playback controls
+- opt-in for autoplay
+
+There is a nice CodePen to see the `prefers-reduced-motion` in action [here](https://codepen.io/marcysutton/pen/yqVVeY).
+
+### Tip to Progressive Enhancement
+
+Emphasize core web page content first, then add layers of presentation and features on top as browsers/connections allow:
+
+1. Turn off JavaScript
+2. Provide accessible baseline markup
+3. Add ARIA with scripting
+4. Prioritize core user flows
+
+## Testing
+
+### Linting
+
+Testing for quality live in a file or on a commit, you can use `eslint-plugin-jsx-a11y`.
+
+### Jest Test
+
+An interesting test that Marcy uses:
+
+```javascript
+const activator = getByTestId('id');
+activator.focus();
+
+// will only pass if element is focusable
+// also great when you emulate clicks and test
+// focus to change
+expect(activator).toHaveFocus();
+```
+
+Find the example from the video [here](https://github.com/marcysutton/js-a11y-workshop/blob/master/src/components/better/__tests__/dropdown.test.js).
