@@ -280,3 +280,149 @@ Prioritize functons in the microtask queue over the Callback queue.
 - Non-blocking applications: we don't have to wait in a single thread and don't vlock further code from running.
 - However long it takes: We cannot predicate when our Browser feature's work will finish so we let JS handle automatically runnng the function on its completion.
 - Web applications: Async JS is the backbone of the modern web - letting us build fast 'non-blocking' applications.
+
+## Classes & Prototypes (OOP)
+
+- A popular paradigm for structuring complex code.
+- Prototype chain - has embulance of OOP.
+- Understanding the differences between `__proto__` and prototype.
+- The `new` and `class` keywords such as tools to automate our object & method creation.
+
+### Objects store functions with associated data
+
+This is the principle of encapsulation.
+
+```javascript
+const user1 = {
+  name: 'Will',
+  score: 3,
+  increment: function() {
+    user1.score++;
+  },
+};
+
+user1.increment();
+```
+
+You could also use `Object.create(null)` then assign properties to the object if it is assigned to a variable.
+
+## Factory Functions
+
+Factory functions are used to build out objects.
+
+```javascript
+function userFactory(name, score) {
+  const newUser = {};
+  newUser.name = name;
+  newUser.score = score;
+  newUser.increment = function() {
+    newUser.score++;
+  };
+  return newUser;
+}
+
+const user1 = userFactory('Jill', 0);
+const user2 = userFactory('Jack', 2);
+user1.increment();
+```
+
+> The factory follows the previous knowledge that we understand about closures, the variable environment and returns from the local execution context.
+
+## Prototype Chain
+
+Is the better way than putting a copy of functions onto every single object?
+
+We can use the Prototype chain. We have the interpreter - if it doesn't find the function on the object (in this case, the user) - look up that protoype object to see if it is there.
+
+```javascript
+function userFactory(name, score) {
+  const newUser = Object.create(userFunctionStore);
+  newUser.name = name;
+  newUser.score = score;
+  return newUser;
+}
+
+const userFunctionStore = {
+  increment: function() {
+    newUser.score++;
+  },
+  login: function() {
+    console.log('Logged in');
+  },
+};
+
+const user1 = userFactory('Jill', 0);
+const user2 = userFactory('Jack', 2);
+user1.increment();
+```
+
+### The Prototypal Link
+
+Under the hood, there is a hidden property on the objects we've been creating `__proto__` and it has a link to `userFunctionStore`.
+
+> The argument for `Object.create` is always the `__proto__` property.
+
+### hasOwnProperty Method
+
+We can use `hasOwnProperty` which comes from the head honcho, the `Object prototype` that all objects link to at the top of the prototype chain.
+
+If we use an exammple of `user1.hasOwnProperty('store')`, it will move up the prototype chain looking for that value.
+
+> The parent Object type at the top of the chain has property `__proto__` which will have a `null` value.
+
+### this Keyword
+
+The default value for `this` is from the global namespace.
+
+> There is the historical reference for the `that = this` assignment that objects used to use to keep context.
+
+If you use `.call` (or `.apply`) with `this` as the argument, it would keep the scope as well.
+
+This can now be avoided with the `this` assignment being lexically scope by ES6's arrow functions.
+
+> Lexically scoped = it is from the scope of where this was defined.
+
+### new Keyword
+
+The `new` keyword can be used to automate the factory function.
+
+```javascript
+userFactory.prototype.increment = function() {
+  this.score++;
+};
+
+const user1 = new userFactory('Jack', 2);
+```
+
+This automatically sets the `__proto__` value and an empty object at `this` as well. The `__proto__` points to a prototype object of `userFactory` in the above example.
+
+### class Keyword
+
+This section introduced the idiomatic way to define when the `new` keyword needs to be used to instantiate an object. In addition, the syntactic sugar of the class keyword is discussed, and how it really is no different under the hood than what was demonstrated in previous sections.
+
+Developers use the convention of the capital letter to help developers know that the `new` keyword should be used for a factory function.
+
+```javascript
+class UserCreator {
+  // Syntactic sugar for the factory
+  // function.
+  constructor(name, score) {
+    this.name = name;
+    this.score = score;
+  }
+
+  // These methods are syntactic sugar for the
+  // prototype ie this transpiles to
+  // UserCreator.prototype.increment.
+  increment() {
+    this.score++;
+  }
+
+  login() {
+    console.log('login');
+  }
+}
+
+const user1 = new UserCreator('Eva', 0);
+user1.increment();
+```
