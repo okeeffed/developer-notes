@@ -86,6 +86,8 @@ Chrome also gives you little "red triangles" to help give you information on pla
 
 There is also an "optimizing compiler" that taks some code from the interpreter and spits out optimized machine code. Sometimes if it can't be optimized, it goes back to the byte code output from step 5.
 
+The link to the slide diagram is [here](https://speakerdeck.com/stevekinney/web-performance?slide=76).
+
 ### Parsing
 
 Parsing is slow, can be 1MB/s on mobile. The aim is to do as much parsing as you need and as little as you can get away with.
