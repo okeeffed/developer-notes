@@ -9,6 +9,7 @@ name: VSCode Can Do That
 
 1. [Code Navigation](https://code.visualstudio.com/Docs/editor/editingevolved)
 2. [Remote Containers](https://www.freecodecamp.org/news/put-your-dev-env-in-github/)
+3. [Breadcrumbs on Dev.to](https://dev.to/mrahmadawais/vscode-breadcrumbs-are-here-jkn)
 
 ## Multiple Cursors
 
@@ -130,3 +131,11 @@ The `GitHub Pull Requests` extensions enables you to review, comment, approve an
 You can add `//#region Class Methods` (as an example) and `//#endregion Class Methods` to create you own custom folder points.
 
 If your cursor is inside of a region and you fold all of a level etc, it is smart enough to know to keep that region open.
+
+## Breadcrumbs
+
+If you hit `shift + command + .`, you can open the breadcrumbs popover and navigated through the page breadcrumbs!
+
+This can be a little similar to `command + shift + o` but shows a clearer outline.
+
+An article that shares this can be found [here](https://dev.to/mrahmadawais/vscode-breadcrumbs-are-here-jkn).
