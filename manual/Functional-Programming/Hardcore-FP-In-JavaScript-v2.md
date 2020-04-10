@@ -546,3 +546,5 @@ Notes from while he is doing the tasks:
 
 - Left or Right comes from the mathmetical history in Category Theory.
 - Brian mentions that a lot of the naming comes from the math history and is about not ignoring the docs.
+- Brian recommends learning imperative before declarative program.
+- RxJS is mentioned as being purely functional.
