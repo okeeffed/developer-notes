@@ -63,7 +63,7 @@ generates:
       - fragment-matcher
 ```
 
-Run `yarn codegen` to generate the schema.
+Run `yarn codegen` to generate the schema while your API is running.
 
 ## In Action
 

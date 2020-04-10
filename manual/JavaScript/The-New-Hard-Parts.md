@@ -89,3 +89,46 @@ const returnNextElement = createFlow();
 const element1 = returnNextElement.next(); // 10
 const element2 = returnNextElement.next(2); // 7 - be wary of that
 ```
+
+> Generators are described to be more towards the declarative side and not the imperative.
+
+> A great insight was the idea of being able to infinitely calculate the fibonacci sequence.
+
+## Async Generators
+
+We have the ability to pause and only restart when the data returns.
+
+```javascript
+function doWhenDataReceived(value) {
+  returnNextElement.next(value)
+}
+
+function* createFlow() {
+  const data = yield fetch('http://twitter.com/will/tweets/1`)
+  console.log(data)
+}
+
+const returnNextElement = createFlow()
+const futureData = returnNextElement.next()
+
+futureData.then(doWhenDataReceived)
+```
+
+> Important to note how this generate continues to keep things asynchronous.
+
+## Async Await
+
+```javascript
+function doWhenDataReceived(value) {
+  returnNextElement.next(value)
+}
+
+function* createFlow() {
+  console.log('Me first')
+  const data = await fetch('http://twitter.com/will/tweets/1`)
+  console.log(data)
+}
+
+createFlow()
+console.log('Me second')
+```
