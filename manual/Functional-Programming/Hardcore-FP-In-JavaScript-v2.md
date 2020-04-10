@@ -541,3 +541,8 @@ Notes from while he is doing the tasks:
 - He is packaging up the arguments into one.
 - There is a use case he doesn't going into during the exercise with a Writer monad.
 - Brian creates a Weather data type when updating to functional programming.
+
+## Q&A
+
+- Left or Right comes from the mathmetical history in Category Theory.
+- Brian mentions that a lot of the naming comes from the math history and is about not ignoring the docs.
