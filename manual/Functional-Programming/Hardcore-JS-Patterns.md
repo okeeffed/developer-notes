@@ -499,3 +499,118 @@ Reducer(login)
 ```
 
 > Contramap is called a `Contravariant Functor`. If you have a `map` and `contramap` where you can change the input AND the output it is called a `Profunctor`.
+
+## Function Modelling Equivalences
+
+```javascript
+const login = (state, payload) =>
+  payload.email
+    ? Object.assign({}, state, { loggedIn: checkCreds(payload.email, payload) })
+    : state;
+
+const setPrefs = (state, payload) =>
+  payload.prefs ? Object.assign({}, state, { prefs: payload.prefs }) : state;
+
+// (acc, a) -> acc
+// (a, acc) -> acc
+// a -> (acc -> acc)
+// a -> Endo(acc -> acc)
+
+// Fn(a -> Endo(acc -> acc))
+const Reducer = run => ({
+  run,
+  contramap: f => Reducer((acc, x) => run(acc, f(x))),
+  concat: (acc, x) => run(acc, f(x)),
+});
+
+// instead of this, we can use our knowledge of equivalences
+// mentioned above to rewrite this
+const reducerNotIdeal = Reducer(login).concat(Reducer(setPrefs));
+
+const state = { loggedIn: false, prefs: {} };
+const payload = { email: 'admn', pass: 123, prefs: { bgColor: '#000' } };
+
+console.log(reducer.run(state, payload));
+
+// ... to this
+const login = payload => Endo(state) =>
+  payload.email
+    ? Object.assign({}, state, { loggedIn: checkCreds(payload.email, payload) })
+    : state;
+
+const setPrefs = payload => Endo(state) =>
+  payload.prefs ? Object.assign({}, state, { prefs: payload.prefs }) : state;
+
+const reducer = Fn(login).concat(Fn(setPrefs));
+
+
+const state = { loggedIn: false, prefs: {} };
+const payload = { email: 'admn', pass: 123, prefs: { bgColor: '#000' } };
+
+console.log(reducer.run(payload).run(state));
+
+// or this
+const login = payload => state =>
+  payload.email
+    ? Object.assign({}, state, { loggedIn: checkCreds(payload.email, payload) })
+    : state;
+
+const setPrefs = payload => state =>
+  payload.prefs ? Object.assign({}, state, { prefs: payload.prefs }) : state;
+const reducer = Fn(login).map(Endo)concat(Fn(setPrefs).map(Endo));
+```
+
+Knowing these functional equivalences gives you the ability to model things based on what is available in the APIs as well as structuring your APIs.
+
+## Composing Functors
+
+> For those familiar with `fold`, `extract` does not take a function and pass it to the function, it just takes it out.
+
+The example given here is creating a function `TaskEither` by composition of functors `Task`, `Either`.
+
+Here we get an issue that we cannot write a `chain` method.
+
+## Monad Transformers
+
+Helps us around the chaining issue that came up from composing functors.
+
+```javascript
+const users = []; // pretend an array of users
+const following = []; // pretend an array of objects of user following user
+const find = (table, query) =>
+  Task.of(Either.fromNullable(_.find(table, query)));
+
+const app = () =>
+  find(users, { id: 1 }) // Task(Either(User))
+    .chain(eu =>
+      eu.fold(Task.rejected, u => find(following, { follow_id: u.id })),
+    )
+    .chain(eu => eu.fold(Task.rejected, fo => find(users, { id: fo.user_id })))
+    .fork(console.err, eu => eu.fold(console.error, console.log));
+
+app(); // returns User object ie {id: 2, name: 'Marc'}
+```
+
+So we note this sucks, so we want to transform this into a `TaskEither` monad:
+
+```javascript
+const { TaskT, Task, Either } = require('../types');
+const { Left, Right } = Either;
+
+// This thing knows how to "chain" chain
+const TaskEither = TaskT(Either);
+// an interesting tidbit - Task = TaskT(Id);
+
+const users = []; // pretend an array of users
+const following = []; // pretend an array of objects of user following user
+const find = (table, query) =>
+  TaskEither.lift(Either.fromNullable(_.find(table, query))); // gives Task(Either(x)) by lifting instead of Task(Either(Either(x)))
+
+const app = () =>
+  find(users, { id: 1 }) // Task(Either(User))
+    .chain(u => find(following, { follow_id: u.id }))
+    .chain(fo => find(users, { id: fo.user_id }))
+    .fork(console.err, eu => eu.fold(console.error, console.log));
+
+app(); // returns User object ie {id: 2, name: 'Marc'}
+```
