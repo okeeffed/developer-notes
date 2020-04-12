@@ -14,8 +14,10 @@ name: Hardcore JS Patterns
 3. [What is a semigroup?](https://subscription.packtpub.com/book/application_development/9781785883880/8/ch08lvl1sec68/semigroup)
 4. [What is a Set?](<https://en.wikipedia.org/wiki/Set_(abstract_data_type)>)
 5. [FP Jargon: Semigroup](https://github.com/hemanth/functional-programming-jargon#semigroup)
-6. [Monoid Exercises](https://codepen.io/joumanae/pen/XWbEdbR?editors=0010)
+6. [Monoid Codepen Exercises](https://codepen.io/joumanae/pen/XWbEdbR?editors=0010)
 7. [What are these Math Symbols?](https://www.intellecquity.com/what-does-mean-in-math)
+8. [Function Modelling Codepen Exercises](https://codepen.io/drboolean/pen/qeqpgB?editors=0010)
+9. [Fantasy-land figures](https://github.com/fantasyland/fantasy-land/blob/master/figures/dependencies.png)
 
 ## Introduction
 
@@ -288,3 +290,212 @@ const readFile = promisify(fs.readFile);
 const filepaths = ['one.txt', 'two.txt', 'three.txt'];
 filepaths.foldMap(readFile, Promise.resolve(''));
 ```
+
+## Creating a Validation Library
+
+First, we go through a basic implementation using Either.
+
+```javascript
+import List from 'immutable-ext'
+import {Either} from '../types'
+const {Left, Right} = Either
+
+const isPresent = x => !!x
+
+const validate = (spec, obj) => {
+  List.(Object.keys(spec)).foldMap(key => {
+    spec[key](obj[key]) ? Right(obj) : Left(`${key} bad`)
+  }, Either.of(obj))
+}
+
+const validations = {name: isPresent, email: isPresent}
+const obj = {name: 'brian', email: 'brian@brian.com'}
+const res = validate(validations, obj) // obj | []
+
+res.fold(console.error, console.log)
+```
+
+This doesn't really do what we want it to do, so let's make our own `Success` and `Failure` types and these can be a "subclass" of a Validation type.
+
+## Creating Success & Fail Monoids
+
+```javascript
+import List from 'immutable-ext'
+import {Either} from '../types'
+const {Left, Right} = Either
+
+const isPresent = x => !!x
+
+const Success = x => ({
+  x,
+  isFail: false,
+  fold: (f, g) => g(x),
+  concat: other => (other.isFail ? other : Success(x)),
+});
+
+const Failure = x => ({
+  x,
+  isFail: true,
+  fold: (f, g) => f(x),
+  concat: other => (other.isFail ? Fail(x.concat(other.x)) : Fail(x)),
+});
+
+const validate = (spec, obj) => {
+  List.(Object.keys(spec)).foldMap(key => {
+    spec[key](obj[key]) ? Success(obj) : Failure(`${key} bad`)
+  }, Success.of(obj))
+}
+
+// just check if both are present for now
+const validations = {name: isPresent, email: isPresent}
+const obj = {name: 'brian', email: 'brian@brian.com'}
+const res = validate(validations, obj) // obj | []
+
+res.fold(console.error, console.log) // [{name: 'brian', email: 'brian@brian.com'}]
+
+const obj2 = {name: 'brian', email: ''}
+const res2 = validate(validations, obj2) // obj | []
+res2.fold(console.error, console.log) // ['email bad']
+
+const obj3 = {name: '', email: ''}
+const res3 = validate(validations, obj3) // obj | []
+res3.fold(console.error, console.log) // ['name bad', 'email bad']
+```
+
+You can then start to weigh up your options about how you want to go about things.
+
+## Creating the Validation Monoid
+
+```javascript
+// any alternative approach to `isPresent` but loses the key.
+const isPresent = Validation(key, x => !!x ? Success(x) : Fail([`${key} needs to be present`]))
+
+const isEmail = Validation(key, x => /@/.test(x) ? Success(x) : Fail([`${key} needs to be an email`]))
+
+// The validation super class we need
+const Validation = run => ({
+  run,
+  concat: other => Validation((key, x) => run(key,x).concat(other.run(key.x)))
+})
+
+const validate = (spec, obj) => {
+  List.(Object.keys(spec)).foldMap(key => {
+    spec[key].run(obj[key])
+  }, Success.of(obj))
+}
+
+const validations = {name: isPresent, email: isPresent.concat(isEmail)}
+```
+
+## Function Modelling
+
+```javascript
+// [1]
+const { Either } = require('../types');
+
+const toUpper = x => x.toUpperCase();
+const exclaim = x => x.concat('!');
+
+const Fn = run => ({
+  run,
+  map: f => Fn(x => f(run(x))),
+  concat: other => Fn(x => run(x).concat(other.run(x))),
+});
+
+const res = Fn(toUpper)
+  .concat(Fn(exclaim))
+  .run('fp sux');
+console.log(res); // 'FP SUXfp sux!'
+
+// [2] After adding in the capability to chain and promote to a Monad.
+// Note: This is forming the basis of what is known as the Reader Monad.
+const { Either } = require('../types');
+
+const toUpper = x => x.toUpperCase();
+const exclaim = x => x.concat('!');
+
+const Fn = run => ({
+  run,
+  chain: f => Fn(x => f(run(x)).run(x)),
+  map: f => Fn(x => f(run(x))),
+  concat: other => Fn(x => run(x).concat(other.run(x))),
+});
+
+Fn.of = x => Fn(() => x);
+
+const res = Fn(toUpper)
+  // This is called a Reader because we can transform
+  // and still get back to the original
+  .chain(upper => Fn(x => [upper, exclaim(upper)]))
+  .run('hi');
+console.log(res); // ['HI', 'hi!']
+
+const res = Fn('hello')
+  .map(toUpper)
+  .chain(upper => Fn(x => [upper, exclaim(upper)]))
+  .run('hi');
+console.log(res); // ['HELLO', 'hi!']
+
+// [3] Making the method more convenient - this becomes the Reader Monad!
+Fn.ask = Fn(x => x);
+
+const res = Fn(toUpper)
+  // This is called a Reader because we can transform
+  // and still get back to the original
+  .chain(upper => Fn(x => [upper, exclaim(upper)]))
+  .run('hi');
+console.log(res); // ['HI', 'hi!']
+
+const res = Fn('hello')
+  .map(toUpper)
+  .chain(upper => Fn.ask.map(config => [upper, config]))
+  .run({ port: 3000 });
+console.log(res); // ['HELLO', {port: 3000}]
+```
+
+> The idea is that you can do dependency injection in here. You could pass in things like the db or strategy etc.
+
+## The Endo Functor
+
+What if we would rather (instead of combining functions by running both and combining the results) is create a composition as concatenation?
+
+```javascript
+const toUpper = x => x.toUpperCase();
+const exclaim = x => x.concat('!');
+
+const Endo = run => ({
+  run,
+  concat: other => Endo(x => run(other.run(x))),
+});
+
+// this is using the identity function again so
+// we do not have to pass an arg to Endo.empty
+Endo.empty = () => Endo(x => x);
+
+List([(toUpper, exclaim)])
+  .foldMap(Endo, Endo.empty())
+  .run('hello');
+
+console.log(res); // Hello!
+```
+
+> It's called `Endo` because it only works with `Endomorphisms` which means it can only go from type `a -> a` ie `String -> String`.
+
+## Contramap
+
+These are useful for if there is a bunch of functions that you want to combine. Contramaps allow us to pull out values during the execution.
+
+```javascript
+const Reducer = run => ({
+  run,
+  contramap: f => Reducer((acc, x) => run(acc, f(x))),
+});
+
+// Example
+Reducer(login)
+  .contramap(pay => pay.user)
+  .concat(Reducer(changePage).contramap(payload => payload.currentPage))
+  .run(state, { user: {}, currentPage: {} });
+```
+
+> Contramap is called a `Contravariant Functor`. If you have a `map` and `contramap` where you can change the input AND the output it is called a `Profunctor`.
