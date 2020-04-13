@@ -18,6 +18,8 @@ name: Hardcore JS Patterns
 7. [What are these Math Symbols?](https://www.intellecquity.com/what-does-mean-in-math)
 8. [Function Modelling Codepen Exercises](https://codepen.io/drboolean/pen/qeqpgB?editors=0010)
 9. [Fantasy-land figures](https://github.com/fantasyland/fantasy-land/blob/master/figures/dependencies.png)
+10. [Monad Transformer Exercises](https://codepen.io/drboolean/pen/NQKByP?editors=0010)
+11. [Daggy GitHub](https://github.com/fantasyland/daggy)
 
 ## Introduction
 
@@ -614,3 +616,129 @@ const app = () =>
 
 app(); // returns User object ie {id: 2, name: 'Marc'}
 ```
+
+## Restructuring with Monad Transformers
+
+```javascript
+const { FnT, TaskT, Task, Either, EitherT } = require('path/to/types');
+
+const FnTask = FnT(Task);
+const App = EitherT(FnTask); // App :: Either(Fn(Task))
+
+// the challenges come from when instead of map we start to
+// return eithers or functions or tasks within these things
+// if we chain - see below
+const res = App.of(2).map(x => x + 1);
+console.log(res);
+
+res.fold(console.error, fn =>
+  fn.run({ myEnv: true }).fork(console.error, console.log),
+); // 3
+
+// Chaining
+const res = App.of(2)
+  .chain(two => App.lift(TaskEither.of(two + two)))
+  .chain(two => App.lift(TaskEither.lift(Either.of(four))))
+  .chain(two => App.lift(Task.of(four).map(Either.of))) // mapping to keep Either(Fn(Task)) type
+  .run({})
+  .fork(console.error, fi => fi.fold(console.error, console.log));
+```
+
+> You get these stacks of transformers and you have to get things in the right spot.
+
+Brian here talks about how he does not love Monad transformers. Sometimes they're useful and they're around so it's good to know and can be useful if you keep it shallow.
+
+## Defining the Free Monad
+
+> Free Monads are usually not what you want. They solve a specific problem.
+
+The free monad is a way to take your functions and treat them like data types.
+
+```javascript
+// [1] the base
+const { liftF } = require('../lib/free');
+const { Id } = require('../lib/types');
+
+// instead of doing this
+const httpGet = url => Task();
+// we could hold a data type
+const httpGet = url => HttpGet(url);
+// doing so enables us to do things like...
+// HttpGet(url).chain(contents => HttpPost('./analytics', contents));
+
+// [2] an interpreter to interpret the new structure
+const {taggedSum} = require('daggy')
+const Http = taggedSum('Http', Get: ['url'], Post: ['url', 'body'])
+console.log(Http.Get('/home')) // {url: '/home'}
+
+// enables us to do thingsl like this.
+// Get('/home').cata({
+//   Get: url => 'get',
+//   Post: (url, body) => 'post'
+// })
+
+// now we chan hange our httpGet
+const httpGet = url => LiftF(Http.Get((url)));
+const httpPost = (url, body) => LiftF(Http.Posts((url, body)));
+
+const app = () => httpGet('/home').chain(contents => httpPost('/analytics'), contents)
+
+// normally want a target monad like Task for the following
+const interpret = x => x.cata({
+  Get: url => Id(`contents for ${url}`),
+  Post: (url, body) => Id(`posted ${body} to ${url}`)
+})
+
+const res = app().foldMap(interpret, Id.of)
+console.log(res.extract()) // posted contents for /home to /analytics
+```
+
+> Brian normally stubs Id.of in before Task so he can get an idea of what is going on.
+
+The catamorphism is essentially being used as a bunch of ifs. JS doesn't give the tools out of the box, so that is what it is used for.
+
+Free monads can be useful - Brian mentions one that he did for posted packages to Bower. It was a great solution to make sure you weren't accidentally posting to NPM everytime you used it.
+
+## Lenses
+
+You can do anything with lenses. You could rewrite every app in just lenses.
+
+```javascript
+const { toUpper, view, over, lensProp, compose } = require('ramda');
+
+const L = {
+  name: lensProp('name'),
+  street: lensProp('street'),
+  address: lensProp('address'),
+};
+
+const user = { address: { street: { name: 'Maple' } } };
+const res = view(
+  compose(
+    L.address,
+    L.street,
+  ),
+  user,
+); // allows us to compose
+console.log(res); // { name: 'Maple'}
+
+// allows us to set value
+const res2 = over(
+  compose(
+    L.address,
+    L.street,
+    L.name
+  ),
+  toUpper
+  user,
+); // allows us to compose
+console.log(res); // { name: 'MAPLE'}
+```
+
+> Note: Lenses are also immutable.
+
+If you had an `Either` of a property with everything inside a `Task`, we could jump deep inside of these properties, open things up, change it and then put it all back together.
+
+It gets very powerful. It's like treating functors like properties.
+
+> Compose for lenses compose backwards and get from left to right.
