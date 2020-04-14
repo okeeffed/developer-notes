@@ -20,6 +20,10 @@ name: Hardcore JS Patterns
 9. [Fantasy-land figures](https://github.com/fantasyland/fantasy-land/blob/master/figures/dependencies.png)
 10. [Monad Transformer Exercises](https://codepen.io/drboolean/pen/NQKByP?editors=0010)
 11. [Daggy GitHub](https://github.com/fantasyland/daggy)
+12. [Catamorphisms](https://wiki.haskell.org/Catamorphisms)
+13. [Haskell - Free Monads](http://hackage.haskell.org/package/free-5.1.3/docs/Control-Monad-Free.html)
+14. [FP-TS GitHub](https://github.com/gcanti/fp-ts)
+15. [FP-TS Website](https://gcanti.github.io/fp-ts/)
 
 ## Introduction
 
@@ -742,3 +746,21 @@ If you had an `Either` of a property with everything inside a `Task`, we could j
 It gets very powerful. It's like treating functors like properties.
 
 > Compose for lenses compose backwards and get from left to right.
+
+## Building a CLI App
+
+Brian goes through an overview of how he build a CLI app.
+
+Things that he goes through is to apply things that we've learned with catamorphisms, Free Monads etc to enable a CLI blog post.
+
+He also uses an example of an interpreter test that uses its own version of testing the identity (done using `dbToId` and `consoleToId`).
+
+> "The different between `Free` and `Fix` is that `Free` is a `Fix` with an endpoint to it."
+
+## Creating a Redux Alternative
+
+In this app, Brian uses lenses to overwrite and update state in the reducer.
+
+Brian manages to remove the `state` from the function by using `ask` from the `Fn` type that Brian supplies to the course.
+
+> Brian eludes to the fact that TS doesn't love things like `Promise<Either<Task>>` as it is not built for that. There are some workarounds.
