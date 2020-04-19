@@ -11,6 +11,7 @@ name: Exploring Service Workers
 4. [Going Offline - Book](https://abookapart.com/blogs/press/going-offline-is-now-available)
 5. [Workbox - Github](https://github.com/GoogleChrome/workbox)
 6. [servieworke.rs](https://serviceworke.rs/)
+7. [Inspective the SW Lifecycle](https://developer.mozilla.org/en-US/docs/Web/API/Clients/claim)
 
 ## Introduction
 
@@ -759,3 +760,62 @@ function delay(ms) {
   });
 }
 ```
+
+## Creating a Service Worker
+
+The Service Worker will stay alive while the user is on the page. The browser will control the service worker lifecycle.
+
+It is important to note that when a service worker restarts, it doesn't rerun the installation and activation phase.
+
+We will also see how to start and stop the service worker in Chrome Dev Tools.
+
+### SW Lifecycle
+
+Below is some code that will allow us to see the lifecycle playout.
+
+```javascript
+// sw.js
+'use strict';
+
+var version = 1;
+
+self.addEventListener('install', onInstall);
+self.addEventListener('activate', onActivate);
+
+main().catch(console.error);
+
+async function main() {
+  console.log(`Service Worker (${version}) is starting...`);
+}
+
+// an event handler
+async function onInstall(evt) {
+  console.log(`Service Worker (${version}) has installed...`);
+  // to skip waiting phase
+  self.skipWaitng();
+}
+
+// also an event handler
+async function onActivation(evt) {
+  console.log(`Service Worker (${version}) has activated...`);
+}
+```
+
+Note that there is a way to request to the browser to not shut down the service worker:
+
+```javascript
+// omitted for brevity
+async function onActivation(evt) {
+  // passing a promise returned from handleActivation
+  event.waitUntil(handleActivation());
+  console.log(`Service Worker (${version}) has activated...`);
+}
+
+async function handleActivation() {
+  await clients.claim();
+}
+```
+
+> The service worker being activated it doesn't mean that the page talking to the old service worker knows about the new service worker. We need to tell the page to that.
+
+Documentation for [clients.claim](https://developer.mozilla.org/en-US/docs/Web/API/Clients/claim) can be found here.
