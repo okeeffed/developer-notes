@@ -10,6 +10,7 @@ name: Digging Into Nodejs
 1. [FE Masters Course](https://frontendmasters.com/courses/digging-into-node/)
 2. [GitHub Stream handbook](https://github.com/substack/stream-handbook)
 3. [readable.pipe](https://nodejs.org/api/stream.html#stream_readable_pipe_destination_options)
+4. [Cancelable Async Functions - GitHub](https://github.com/getify/caf)
 
 ## Streams
 
@@ -181,3 +182,138 @@ function processFile(inStream) {
 > Gzip was designed for streams, that is why it is so easy.
 
 > Note that for `vi out.txt.gz` that Vim automatically unzips it for you!
+
+## Determining End of Stream
+
+```javascript
+// building a helper
+function streamComplete(stream) {
+  return new Promise(function c(res) {
+    stream.on('end', res);
+  });
+}
+
+async function processFile(inStream) {
+  var outStream = inStream;
+
+  // handling compressed files
+  if (args.uncompress) {
+    let gunzipStream = zlib.createGunzip();
+    outStream = outStream.pipe(gunzipStream);
+  }
+
+  var upperStream = new Transform({
+    // Note: next is a callback
+    transform(chunk, enc, next) {
+      this.push(chunk.toString().toUpperCase());
+      next();
+    },
+  });
+
+  outStream = outStream.pipe(upperStream);
+
+  // Compression code!
+  if (args.compress) {
+    let gzipStream = zlin.createGzip();
+    // adding additional stream
+    outStream = outStream.pipe(gzipStream);
+    // ensure name output changes
+    OUTSTREAM_NAME = `${OUTSTREAM_NAME}.gz`;
+  }
+
+  var targetStream;
+
+  if (args.out) {
+    targetStream = process.stdout;
+  } else {
+    targetStream = fs.createWriteStream('path/to/file');
+  }
+
+  outStream.pipe(targetStream); // pipe to process.stdout
+
+  await streamComplete(outStream);
+}
+```
+
+## Asynchronous Cancellation & Timeouts
+
+```javascript
+var CAF = require('caf');
+
+processFile = CAF(processFile);
+
+function* processFile(signal, inStream) {
+  var outStream = inStream;
+
+  // handling compressed files
+  if (args.uncompress) {
+    let gunzipStream = zlib.createGunzip();
+    outStream = outStream.pipe(gunzipStream);
+  }
+
+  var upperStream = new Transform({
+    // Note: next is a callback
+    transform(chunk, enc, next) {
+      this.push(chunk.toString().toUpperCase());
+      next();
+    },
+  });
+
+  outStream = outStream.pipe(upperStream);
+
+  // Compression code!
+  if (args.compress) {
+    let gzipStream = zlin.createGzip();
+    // adding additional stream
+    outStream = outStream.pipe(gzipStream);
+    // ensure name output changes
+    OUTSTREAM_NAME = `${OUTSTREAM_NAME}.gz`;
+  }
+
+  var targetStream;
+
+  if (args.out) {
+    targetStream = process.stdout;
+  } else {
+    targetStream = fs.createWriteStream('path/to/file');
+  }
+
+  outStream.pipe(targetStream); // pipe to process.stdout
+
+  signal.pr.catch(function f() {
+    outStream.unpipe(targetStream);
+    outStream.destroy(); // kill the stream process
+  });
+
+  yield streamComplete(outStream);
+}
+
+// later
+let tooLong = CAF.timeout(3); // cancel at 3
+processFile(tooLong, stream)
+  .then(() => console.log('Complete'))
+  .catch(error);
+```
+
+## Child Processes
+
+```javascript
+const childProc = require('child_process');
+async function main() {
+  var child = childProc.spawn('node', ['index.js']);
+  child.on('exit', function(code) {
+    console.log('Child finished', code);
+  });
+}
+```
+
+### Exit Codes
+
+The commands are based on POSIX standards.
+
+| Code | Meaning |
+| ---- | ------- |
+| 0    | Success |
+| 1    | Fail    |
+
+You can use `process.exitCode(value)` in the child processes to communicate back.
