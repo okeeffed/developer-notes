@@ -24,6 +24,10 @@ name: Practical Deep Learning
 15. [Polynomials](https://mathworld.wolfram.com/Polynomial.html)
 16. [CPU vs GPU](https://www.geeksforgeeks.org/difference-between-cpu-and-gpu/)
 17. [Understanding TPU](https://www.geeksforgeeks.org/understanding-tensor-processing-units/)
+18. [Computational Graphs](https://colah.github.io/posts/2015-08-Backprop/)
+19. [Heterogenous Programming](https://mcai.github.io/resources/papers/2017_0007364_reading/2017_Communications%20of%20ACM_Heterogeneous%20Computing_Here%20to%20Stay.pdf)
+20. [Parallel Programming](https://www.geeksforgeeks.org/introduction-to-parallel-computing/)
+21. [Math Kernel Library](https://software.intel.com/en-us/mkl)
 
 ## Introduction
 
@@ -97,7 +101,7 @@ import matplotlib.pyplot as plt
 from tensorflow.keras import Model
 
 def make_noisy_data(w=0.1, b=0.3, n=100):
-    # generates random data
+    # generates random dataco
     x = tf.random.uniform(shape=(n, ))
     noise = tf.random.normal(shape=(len(x), ), stddev=0.01)
     y = w * x + b + noise
@@ -111,4 +115,26 @@ plt.plot(X, 0.1*X+0.3)
 
 > Note: writing `tf.random.uniform?` and executing will bring up the docs on the method.
 
-## Hardware and Compiler
+## TensorFlow Architecture
+
+TensorFlow attempts to optimise the hardware. TensorFlow is written in C and C++ and uses Python as the interface the "description of the model". The user "describes" models in Python, and then hands it off to C and C++ for the implementation of particular reverberations.
+
+TF 1 was using (by default) building a computational graph.
+
+> A computational graph here is basically all the code in Python being rebuilt as a computation graph with nodes being your operations and links between those graphs ease the opeartion. ie `a + b` in Python (or `tf.constant(a) + tf.constant(b)` for RF) will become two nodes of `a` and `b` connected by node `+` - similar to AST. TF was doing this (and still can) is because it allows it to optimise for a number of things. An example given was then taking the previous operation and then multiplying it by another value etc. It allows it to figure out things like required memory, if we can paralellize calls etc. It does this as one of the slowest processes is memory allocation.
+
+### Cuda
+
+Cuda can be used which was designed to program GPUs (NVIDIA to be specific) and NVIDIA also created CuDNN, which is heavily optimised library for paralellism. CuDNN has the basic building block of neural networks.
+
+It's optimising a lot of the neural network operatiions that rely heavily on matrix-matrix multiplication or matrix-vector multiplication.
+
+> GMM is general matrix-matrix multiplication.
+
+For CPUs, there is MKL which is the math kernel library created by Intel. There is an abstraction using this called NumPy (numerical python package) is what TensorFlow is using. NumPy is a way to link your Python and C.
+
+### Finalizing Everything
+
+1. TF creates computational graph
+2. It will try to use libraries based on available architectures (CuDNN of GPUs or MKL for CPUs)
+3. TF is simply looking at Python description of the model and then figuring out which optimised C routines it should use to get the best speed out of the hardware that you have.
