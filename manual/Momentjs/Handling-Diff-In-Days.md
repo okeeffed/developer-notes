@@ -11,9 +11,9 @@ An example, 9pm today and 1pm tomorrow will still return `1`, while 9pm today an
 
 ```javascript
 // This attempts to guess the local users timezone,
-// changes the timezone to the start of the day and
-// finally calculates the difference that way. This
-// ensures differences, for example less than 24 hours,
+// changes the time to the start of the day based on that
+// local timezone and finally calculates the difference that way.
+// This ensures differences, for example less than 24 hours,
 // but on different days are still calculated to have
 // a difference of one day and for those on the same day
 // to come up with zero etc.

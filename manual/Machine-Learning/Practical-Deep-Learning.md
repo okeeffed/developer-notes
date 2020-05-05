@@ -28,6 +28,7 @@ name: Practical Deep Learning
 19. [Heterogenous Programming](https://mcai.github.io/resources/papers/2017_0007364_reading/2017_Communications%20of%20ACM_Heterogeneous%20Computing_Here%20to%20Stay.pdf)
 20. [Parallel Programming](https://www.geeksforgeeks.org/introduction-to-parallel-computing/)
 21. [Math Kernel Library](https://software.intel.com/en-us/mkl)
+22. [Matplotlib](https://matplotlib.org/)
 
 ## Introduction
 
@@ -138,3 +139,91 @@ For CPUs, there is MKL which is the math kernel library created by Intel. There 
 1. TF creates computational graph
 2. It will try to use libraries based on available architectures (CuDNN of GPUs or MKL for CPUs)
 3. TF is simply looking at Python description of the model and then figuring out which optimised C routines it should use to get the best speed out of the hardware that you have.
+
+TF is swapping out their default behaviour. In TF 2 they use "eager execution". It means we will have all access to variables and that access will not be in the lazy form. It makes debugging significantly easier (which was a big benefit of PyTorch).
+
+> Don't be surprised if the executed code on TF2 is somewhat slow. It is because TF1 uses the optimisation from the get go. TF2 provides the "development" environment.
+
+## Plotting Uniform Data
+
+```python
+import tensorflow as tf
+
+# showing how random works
+var = tf.random.uniform([1])
+print(var.numpy()) # [0.5515773]
+
+# w weight, b bias, n number
+def data_creation(w=0.1, b=0.5, n=100):
+  X = tf.random.uniform(shape=(n,))
+  print(X)
+  return X
+
+data_creation(n=10000)
+```
+
+`X` will print out 100 uniformly distributed numbers between 0 and 1 in the above code.
+
+> With Jupyter notebooks, you can use `%matplotlib inline` where `%` for Jupyter is a "magic command".
+
+```python
+%matplotlib inline
+import matplotlib.pyplot as mpl # common alias for pyplot
+
+mpl.hist(X.numpy())
+mpl.show()
+```
+
+## Plotting those points
+
+```python
+import tensorflow as tf
+import matplotlib.pyplot as mpl
+
+# showing how random works
+var = tf.random.uniform([1])
+print(var.numpy()) # [0.5515773]
+
+# w weight, b bias, n number
+def data_creation(w=0.1, b=0.5, n=100):
+  X = tf.random.uniform(shape=(n,))
+  print(X)
+  noise = tf.random.normal(shape=(n,), mean=0.0, stddev=0.01)
+  Y = X*w + b + noise
+  return X.numpy(), Y.numpy()
+
+X, Y = data_creation(n=10000)
+
+mpl.plot(X, Y, 'bo')
+mpl.plot([0,1], [0*w+b,1*w+b], 'g:') # g: is green dashed-line
+```
+
+> What the aim of this is that we want to learn what the "weights" and "biases" are to fit that kind of distribution of data.
+
+The green dashed line produced is our ideal solution.
+
+Here we will create a red line to illustrate the problem we are trying to solve.
+
+```python
+w_guess = 0.0
+b_guess = 0.0
+
+mpl.plot(X, Y, 'bo')
+mpl.plot([0,1], [0*w_guess+b_guess,1*w_guess+b_guess], 'r:')
+```
+
+> Say we're trying to find the correlation between x and y, that could be represented by the data we just created. The green line will show the true dependency between those, while our red line is our prediction that we can create from that generated data.
+
+We get the red line there by playing around with "w's" and "b's". We need to figure out the error for how far away we are.
+
+```python
+def predict(x):
+  y = w_guess * x + b_guess
+  return y
+
+def mean_squared_error(y_pred, Y):
+  return tf.reduce_mean(tf.square)
+
+def loss():
+
+```
