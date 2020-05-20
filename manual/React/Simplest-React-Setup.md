@@ -8,6 +8,7 @@ name: Simplest React Setup
 ## Resources
 
 1. [Kent C Dodd's Blog - Super Simple Start to React](https://kentcdodds.com/blog/super-simple-start-to-react)
+2. [Data Vis for React Devs](https://docs.dennisokeeffe.com/manual-react-data-vis-for-react-developers)
 
 ## tl;dr
 
