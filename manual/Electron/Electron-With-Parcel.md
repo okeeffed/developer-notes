@@ -19,9 +19,9 @@ mkdir hello-parcel-electron
 cd hello-parcel-electron
 yarn init -y
 yarn add react react-dom electron-is-dev
-yarn add -D concurrently cross-env electron electron-builder parcel-bundler wait-on
+yarn add -D concurrently cross-env electron electron-builder parcel-bundler wait-on typescript
 # Babel
-yarn add -D concurrently cross-env electron electron-builder parcel-bundler wait-on
+yarn add -D babel-core babel-plugin-transform-object-rest-spread babel-plugin-transform-react-jsx babel-preset-env babel-preset-react
 ```
 
 Second, create `index.html` file in root dir:
@@ -85,35 +85,33 @@ Create `.babelrc`:
 Add scripts to `package.json`:
 
 ```json
-"scripts": {
-  "react-start": "parcel -p 3000 index.html --out-dir build",
-  "react-build": "parcel build index.html --out-dir build --public-url ./",
-  "main": "src/electron.js",
+{
   "homepage": "./",
-  "start": "concurrently \"cross-env BROWSER=none yarn react-start\" \"wait-on http://localhost:3000 && electron . \"",
-  "electron-build": "electron-builder -mwl",
-  "build": "yarn clean-build && yarn react-build && yarn electron-build",
-},
-"build": {
-  "appId": "com.dennisokeeffe",
-  "files": [
-     "src/electron.js",
-     "src/assets/*",
-     "build/**/*"
-  ],
-  "mac": {
-     "target": "dmg",
-     "icon": "src/assets/logo.png"
+  "main": "src/electron.js",
+  "scripts": {
+    "react-start": "parcel -p 3000 index.html --out-dir build",
+    "react-build": "parcel build index.html --out-dir build --public-url ./",
+    "start": "concurrently \"cross-env BROWSER=none yarn react-start\" \"wait-on http://localhost:3000 && electron . \"",
+    "electron-build": "electron-builder -mwl",
+    "build": "yarn clean-build && yarn react-build && yarn electron-build"
+  },
+  "build": {
+    "appId": "com.dennisokeeffe",
+    "files": ["src/electron.js", "src/assets/*", "build/**/*"],
+    "mac": {
+      "target": "dmg",
+      "icon": "src/assets/logo.png"
     },
-   "win": {
-     "target": "nsis",
-     "icon": "src/assets/logo.png"
+    "win": {
+      "target": "nsis",
+      "icon": "src/assets/logo.png"
     },
-   "linux": {
-     "target": "deb",
-     "icon": "src/assets/logo.png",
-     "category": "Development"
-   }
+    "linux": {
+      "target": "deb",
+      "icon": "src/assets/logo.png",
+      "category": "Development"
+    }
+  }
 }
 ```
 
@@ -169,3 +167,5 @@ In order to update to TypeScript, simply add the `tsconfig.json` file:
   }
 }
 ```
+
+To start now, we run `yarn start` and to build we run `yarn build`.
