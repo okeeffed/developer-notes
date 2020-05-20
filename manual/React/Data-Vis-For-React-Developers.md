@@ -453,8 +453,8 @@ const barChartData = data => {
   };
 };
 
-const Component = ({ data, width, height }) => {
-  const { data, xAxis, yAxis } = useCallback(() => barChartData(data));
+const BarChart = ({ chartData, width, height }) => {
+  const { data, xAxis, yAxis } = barChartData(chartData, width, height);
   const xAxisRef = useRef('xAxis');
   const yAxisRef = useRef('yAxis');
 
@@ -465,12 +465,12 @@ const Component = ({ data, width, height }) => {
 
   return (
     <svg width={width} height={height}>
-      {data.map(d => (
+      {data.map((d, i) => (
         // she manually put <rect x={d.x} y={d.y} width={2} height={d.height} fill={d.fill}>
-        <rect {...d} />
+        <rect key={i} {...d} />
       ))}
-      <g ref={xAxisRef} transform={`translate(0, ${height}`)} />
-      <g ref={yAxisRef} transform={`translate(${leftPadding}, 0)`)} />
+      <g ref={xAxisRef} transform={`translate(0, ${height})`} />
+      <g ref={yAxisRef} transform={`translate(${leftPadding}, 0)`} />
     </svg>
   );
 };
