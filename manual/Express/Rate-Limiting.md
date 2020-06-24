@@ -8,6 +8,8 @@ name: Rate Limiting
 ## Resources
 
 1. [Express Rate Limit](https://github.com/nfriedly/express-rate-limit)
+2. [Rate limit Redis](https://www.npmjs.com/package/rate-limit-redis)
+3. [Node Redis docs](https://github.com/NodeRedis/node-redis)
 
 ## tl;dr
 
@@ -17,7 +19,7 @@ For `index.js`:
 const express = require('express');
 const rateLimit = require('express-rate-limit');
 const app = express();
-const port = 8080;`
+const port = 8080;
 
 const limiter = rateLimit({
   windowMs: 15 * 60 * 1000, // 15 minutes

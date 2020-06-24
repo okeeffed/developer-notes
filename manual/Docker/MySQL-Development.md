@@ -1,7 +1,8 @@
 ---
 name: My SQL Development
-menu: Docker 
+menu: Docker
 ---
+
 # MySQL Development using Docker
 
 Firstly, pull `docker pull mysql/mysql-server`.
@@ -16,4 +17,4 @@ Linking `docker run -d -name app-container-name --link mysql-container-name app-
 
 ## Updating the local Docker MySQL instance
 
-Log into the container and first log into `mysql` using `mysql -u root -p`. This will prompt you for that password we created, so now type that in and enter the command line terminal. First, run `CREATE USER 'admin'@'%' IDENTIFIED BY 'password';` Run `GRANT ALL PRIVILEGES ON *.* TO 'admin'@'%' WITH GRANT OPTION;`. Finally, run `FLUSH PRIVILEGES;`.
+Log into the container `docker exec -it CONTAINER_ID /bin/bash` and first log into `mysql` using `mysql -u root -p`. This will prompt you for that password we created, so now type that in and enter the command line terminal. First, run `CREATE USER 'admin'@'%' IDENTIFIED BY 'password';` Run `GRANT ALL PRIVILEGES ON *.* TO 'admin'@'%' WITH GRANT OPTION;`. Finally, run `FLUSH PRIVILEGES;`.

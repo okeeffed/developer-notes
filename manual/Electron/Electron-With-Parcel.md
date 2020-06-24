@@ -9,6 +9,7 @@ name: Production-Ready Electron + Parcel
 
 1. [Medium post](https://medium.com/@yogeshkumarr/production-ready-electron-app-using-react-and-parcel-web-bundler-74dcda63f148)
 2. [Parcel TypeScript](https://parceljs.org/typeScript.html)
+3. [Electron - Dialog API](https://www.electronjs.org/docs/api/dialog)
 
 ## tl;dr
 
