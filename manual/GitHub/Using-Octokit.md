@@ -1,3 +1,8 @@
+---
+name: Using Octokit
+menu: GitHub
+---
+
 # Using Octokit
 
 ## Resource
