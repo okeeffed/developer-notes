@@ -55,7 +55,7 @@ const html = `<!DOCTYPE html>
   const page = await browser.newPage();
   await page.goto(`data:text/html,${html}`, { waitUntil: 'networkidle0' });
   const element = await page.$('#mykatex');
-  await element.screenshot({ path: 'math.png' });
+  await element.screenshot({ path: path.join(__dirname, argv.out) });
 
   await browser.close();
 })();
