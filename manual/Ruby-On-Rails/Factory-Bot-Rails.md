@@ -48,19 +48,20 @@ test/factories/*.rb
 spec/factories/*.rb
 ```
 
-You can configure in `config/application.rb` or the appropraite env config.
+If you want to, you can set custom configuration in `config/application.rb` or the appropraite env config.
 
 ```s
 config.factory_bot.definition_file_paths = ["custom/factories"]
 ```
 
-> This will cause factory_bot_rails to automatically load factories in `custom/factories.rb` and `custom/factories/*.rb`.
+This will cause factory_bot_rails to automatically load factories in `custom/factories.rb` and `custom/factories/*.rb`.
 
 ## Config
 
 Add the following configuration to `test/support/factory_bot.rb`:
 
 ```rb
+# test/support/factory_bot.rb
 require "factory_bot_rails"
 
 RSpec.configure do |config|
@@ -71,6 +72,7 @@ end
 Be sure to require that file in `test/test_helper.rb`:
 
 ```rb
+# test/test_helper.rb
 ENV["RAILS_ENV"] ||= "test"
 require_relative "../config/environment"
 require_relative "./support/factory_bot"
