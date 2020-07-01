@@ -5,12 +5,23 @@ name: Factory Bot Rails Gem
 
 # Factory Bot Rails Gem
 
+## Why Factory Bot?
+
+From the world's most reliable resource [Wikipedia](<https://en.wikipedia.org/wiki/Factory_Bot_(Rails_Testing)>):
+
+> Factory Bot is often used in testing Ruby on Rails applications; where it replaces Rails' built-in fixture mechanism. Rails' default setup uses a pre-populated database as test fixtures, which are global for the complete test suite. Factory Bot, on the other hand, allows developers to define a different setup for each test and thus helps to avoid dependencies within the test suite.
+
+There is more info on the why on the [Why Factories](https://thoughtbot.com/blog/why-factories) article.
+
+This is simply a quick start to get up and going to test model validation.
+
 ## Resources
 
 1. [thoughtbot/factory_bot_rails](https://github.com/thoughtbot/factory_bot_rails)
 2. [thoughtbot/factory_bot](https://github.com/thoughtbot/factory_bot)
 3. [Creating an Article model in Rails](https://guides.rubyonrails.org/getting_started.html#creating-the-article-model)
 4. [Testing RSpec](https://semaphoreci.com/community/tutorials/how-to-test-rails-models-with-rspec)
+5. [Why Factories?](https://thoughtbot.com/blog/why-factories)
 
 ## Quick start
 
