@@ -113,6 +113,386 @@
       }
     },
     {
+      "key": "manual/ACloudGuru/Certified-Solutions-Architect-Professional.md",
+      "value": {
+        "menu": "ACloudGuru",
+        "name": "Certified Solutions Architect Professional",
+        "id": "3428d11e7318b4fc0f6716ef4032684a",
+        "filepath": "manual/ACloudGuru/Certified-Solutions-Architect-Professional.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/ACloudGuru/Certified-Solutions-Architect-Professional.md",
+        "link": "",
+        "slug": "manual-a-cloud-guru-certified-solutions-architect-professional",
+        "route": "/manual-a-cloud-guru-certified-solutions-architect-professional",
+        "headings": [
+          {
+            "slug": "certified-solutions-architect-professional",
+            "depth": 1,
+            "value": "Certified Solutions Architect Professional"
+          },
+          {
+            "slug": "resources",
+            "depth": 2,
+            "value": "Resources"
+          },
+          {
+            "slug": "about-the-exam",
+            "depth": 2,
+            "value": "About the Exam"
+          },
+          {
+            "slug": "about-this-course",
+            "depth": 2,
+            "value": "About this course"
+          },
+          {
+            "slug": "exam-aspects",
+            "depth": 3,
+            "value": "Exam aspects"
+          },
+          {
+            "slug": "chapter-format",
+            "depth": 3,
+            "value": "Chapter Format"
+          },
+          {
+            "slug": "about-the-labs",
+            "depth": 2,
+            "value": "About the Labs"
+          },
+          {
+            "slug": "data-stores",
+            "depth": 2,
+            "value": "Data Stores"
+          },
+          {
+            "slug": "data-persistence",
+            "depth": 3,
+            "value": "Data Persistence"
+          },
+          {
+            "slug": "iops-vs-throughput",
+            "depth": 3,
+            "value": "IOPS vs Throughput"
+          },
+          {
+            "slug": "consistency",
+            "depth": 3,
+            "value": "Consistency"
+          },
+          {
+            "slug": "acid--base-consistency-models",
+            "depth": 3,
+            "value": "ACID & BASE Consistency Models"
+          },
+          {
+            "slug": "s3",
+            "depth": 3,
+            "value": "S3"
+          },
+          {
+            "slug": "s3-security",
+            "depth": 3,
+            "value": "S3 Security"
+          },
+          {
+            "slug": "s3-data-protection",
+            "depth": 3,
+            "value": "S3 Data Protection"
+          },
+          {
+            "slug": "s3-lifecycle-management",
+            "depth": 3,
+            "value": "S3 Lifecycle Management"
+          },
+          {
+            "slug": "s3-analytics",
+            "depth": 3,
+            "value": "S3 Analytics"
+          },
+          {
+            "slug": "s3-encryption-at-rest",
+            "depth": 3,
+            "value": "S3 Encryption at REST"
+          },
+          {
+            "slug": "more-nifty-s3-tricks",
+            "depth": 3,
+            "value": "More nifty S3 Tricks"
+          },
+          {
+            "slug": "amazon-glacier",
+            "depth": 2,
+            "value": "Amazon Glacier"
+          },
+          {
+            "slug": "amazon-elastic-block-storage",
+            "depth": 2,
+            "value": "Amazon Elastic Block Storage"
+          },
+          {
+            "slug": "comparing-ebs-to-instance-storage",
+            "depth": 3,
+            "value": "Comparing EBS to Instance storage"
+          },
+          {
+            "slug": "ebs-snapshots",
+            "depth": 3,
+            "value": "EBS Snapshots"
+          },
+          {
+            "slug": "ebs-lifecycle-manager",
+            "depth": 3,
+            "value": "EBS Lifecycle Manager"
+          },
+          {
+            "slug": "amazon-elastic-file-system",
+            "depth": 2,
+            "value": "Amazon Elastic File System"
+          },
+          {
+            "slug": "amazon-storage-gateway",
+            "depth": 2,
+            "value": "Amazon Storage Gateway"
+          },
+          {
+            "slug": "different-operation-modes",
+            "depth": 3,
+            "value": "Different operation modes"
+          },
+          {
+            "slug": "amazon-workdocs",
+            "depth": 2,
+            "value": "Amazon WorkDocs"
+          },
+          {
+            "slug": "ec2-databases",
+            "depth": 2,
+            "value": "EC2 Databases"
+          },
+          {
+            "slug": "amazon-rds",
+            "depth": 2,
+            "value": "Amazon RDS"
+          },
+          {
+            "slug": "rds-anti-patters",
+            "depth": 3,
+            "value": "RDS Anti-Patters"
+          },
+          {
+            "slug": "amazon-dynamodb",
+            "depth": 2,
+            "value": "Amazon DynamoDB"
+          },
+          {
+            "slug": "relational-vs-nosql",
+            "depth": 3,
+            "value": "Relational vs NoSQL"
+          },
+          {
+            "slug": "secondary-indexes",
+            "depth": 3,
+            "value": "Secondary Indexes"
+          },
+          {
+            "slug": "dynamodb-design-best-practices",
+            "depth": 3,
+            "value": "DynamoDB Design Best Practices"
+          },
+          {
+            "slug": "amazon-redshift",
+            "depth": 2,
+            "value": "Amazon Redshift"
+          },
+          {
+            "slug": "data-lake",
+            "depth": 3,
+            "value": "Data Lake"
+          },
+          {
+            "slug": "amazon-neptune",
+            "depth": 2,
+            "value": "Amazon Neptune"
+          },
+          {
+            "slug": "amazon-elasticache",
+            "depth": 2,
+            "value": "Amazon Elasticache"
+          },
+          {
+            "slug": "memcached-vs-redis",
+            "depth": 3,
+            "value": "Memcached vs Redis"
+          },
+          {
+            "slug": "other-database-options",
+            "depth": 2,
+            "value": "Other Database Options"
+          },
+          {
+            "slug": "amazon-athena",
+            "depth": 3,
+            "value": "Amazon Athena"
+          },
+          {
+            "slug": "amazon-quantum-ledger",
+            "depth": 3,
+            "value": "Amazon Quantum Ledger"
+          },
+          {
+            "slug": "amazon-managed-blockchain",
+            "depth": 3,
+            "value": "Amazon Managed Blockchain"
+          },
+          {
+            "slug": "amazon-timestream-database",
+            "depth": 3,
+            "value": "Amazon Timestream Database"
+          },
+          {
+            "slug": "amazon-documentdb",
+            "depth": 3,
+            "value": "Amazon DocumentDB"
+          },
+          {
+            "slug": "amazon-elasticsearch",
+            "depth": 3,
+            "value": "Amazon ElasticSearch"
+          },
+          {
+            "slug": "comparing-database-options",
+            "depth": 2,
+            "value": "Comparing Database Options"
+          },
+          {
+            "slug": "storage-exam-tips",
+            "depth": 2,
+            "value": "Storage Exam Tips"
+          },
+          {
+            "slug": "storage-pro-tips",
+            "depth": 2,
+            "value": "Storage Pro Tips"
+          },
+          {
+            "slug": "networking",
+            "depth": 2,
+            "value": "Networking"
+          },
+          {
+            "slug": "amazon-networking-refresher",
+            "depth": 2,
+            "value": "Amazon Networking Refresher"
+          },
+          {
+            "slug": "osi-model",
+            "depth": 3,
+            "value": "OSI Model"
+          },
+          {
+            "slug": "tcp-vs-udp-cs-icmp",
+            "depth": 3,
+            "value": "TCP vs UDP cs ICMP"
+          },
+          {
+            "slug": "ephemeral-ports",
+            "depth": 3,
+            "value": "Ephemeral Ports"
+          },
+          {
+            "slug": "reserved-ip-addresses",
+            "depth": 3,
+            "value": "Reserved IP Addresses"
+          },
+          {
+            "slug": "aws-availability-zones",
+            "depth": 3,
+            "value": "AWS Availability Zones"
+          },
+          {
+            "slug": "need-to-continue-chapter-3-here",
+            "depth": 2,
+            "value": "NEED TO CONTINUE CHAPTER 3 HERE"
+          },
+          {
+            "slug": "architecting-to-scale",
+            "depth": 2,
+            "value": "Architecting to Scale"
+          },
+          {
+            "slug": "architectural-patterns",
+            "depth": 3,
+            "value": "Architectural Patterns"
+          },
+          {
+            "slug": "horizontal-vs-vertical-scaling",
+            "depth": 3,
+            "value": "Horizontal vs Vertical Scaling"
+          },
+          {
+            "slug": "type-of-auto-scaling",
+            "depth": 3,
+            "value": "Type of Auto-Scaling"
+          },
+          {
+            "slug": "ec2-auto-scaling",
+            "depth": 4,
+            "value": "EC2 Auto Scaling"
+          },
+          {
+            "slug": "application-auto-scaling",
+            "depth": 4,
+            "value": "Application Auto Scaling"
+          },
+          {
+            "slug": "aws-auto-scaling",
+            "depth": 4,
+            "value": "AWS Auto Scaling"
+          },
+          {
+            "slug": "autoscaling-based-sqs",
+            "depth": 4,
+            "value": "Autoscaling based SQS"
+          },
+          {
+            "slug": "aws-predictive-scaling",
+            "depth": 4,
+            "value": "AWS Predictive Scaling"
+          },
+          {
+            "slug": "aws-kinesis",
+            "depth": 2,
+            "value": "AWS Kinesis"
+          }
+        ]
+      }
+    },
+    {
+      "key": "manual/AWS/AWS-CDK.md",
+      "value": {
+        "menu": "AWS",
+        "name": "AWS CDK",
+        "id": "fe7e277243796879b91f47ba6d181fdf",
+        "filepath": "manual/AWS/AWS-CDK.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/AWS/AWS-CDK.md",
+        "link": "",
+        "slug": "manual-aws-aws-cdk",
+        "route": "/manual-aws-aws-cdk",
+        "headings": [
+          {
+            "slug": "aws-cdk",
+            "depth": 1,
+            "value": "AWS CDK"
+          },
+          {
+            "slug": "resources",
+            "depth": 2,
+            "value": "Resources"
+          }
+        ]
+      }
+    },
+    {
       "key": "manual/AWS/AWS-Certified-Big-Data.md",
       "value": {
         "menu": "AWS",
@@ -3572,6 +3952,36 @@
       }
     },
     {
+      "key": "manual/Bash/Autocompletion.md",
+      "value": {
+        "menu": "Bash",
+        "name": "Autocompletion",
+        "id": "9c332881975d9e232284688e6655feea",
+        "filepath": "manual/Bash/Autocompletion.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Bash/Autocompletion.md",
+        "link": "",
+        "slug": "manual-bash-autocompletion",
+        "route": "/manual-bash-autocompletion",
+        "headings": [
+          {
+            "slug": "autocompletion",
+            "depth": 1,
+            "value": "Autocompletion"
+          },
+          {
+            "slug": "resources",
+            "depth": 2,
+            "value": "Resources"
+          },
+          {
+            "slug": "example",
+            "depth": 2,
+            "value": "Example"
+          }
+        ]
+      }
+    },
+    {
       "key": "manual/Big-Data/Big-Data-Essentials.md",
       "value": {
         "menu": "Big Data",
@@ -6152,36 +6562,6 @@
       }
     },
     {
-      "key": "manual/Communication/Introduction.md",
-      "value": {
-        "menu": "Communication",
-        "name": "Introduction",
-        "id": "0c7a0c3c2bbe377950941083076a9697",
-        "filepath": "manual/Communication/Introduction.md",
-        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Communication/Introduction.md",
-        "link": "",
-        "slug": "manual-communication-introduction",
-        "route": "/manual-communication-introduction",
-        "headings": [
-          {
-            "slug": "introduction",
-            "depth": 1,
-            "value": "Introduction"
-          },
-          {
-            "slug": "resources",
-            "depth": 2,
-            "value": "Resources"
-          },
-          {
-            "slug": "techniques-and-concepts",
-            "depth": 2,
-            "value": "Techniques and concepts"
-          }
-        ]
-      }
-    },
-    {
       "key": "manual/Chrome/Mastering-Chrome-Dev-Tools-v2.md",
       "value": {
         "menu": "Chrome",
@@ -6317,6 +6697,36 @@
             "slug": "chrome-canary",
             "depth": 2,
             "value": "Chrome Canary"
+          }
+        ]
+      }
+    },
+    {
+      "key": "manual/Communication/Introduction.md",
+      "value": {
+        "menu": "Communication",
+        "name": "Introduction",
+        "id": "0c7a0c3c2bbe377950941083076a9697",
+        "filepath": "manual/Communication/Introduction.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Communication/Introduction.md",
+        "link": "",
+        "slug": "manual-communication-introduction",
+        "route": "/manual-communication-introduction",
+        "headings": [
+          {
+            "slug": "introduction",
+            "depth": 1,
+            "value": "Introduction"
+          },
+          {
+            "slug": "resources",
+            "depth": 2,
+            "value": "Resources"
+          },
+          {
+            "slug": "techniques-and-concepts",
+            "depth": 2,
+            "value": "Techniques and concepts"
           }
         ]
       }
@@ -6712,6 +7122,26 @@
             "slug": "5-arrays",
             "depth": 2,
             "value": "5: Arrays"
+          }
+        ]
+      }
+    },
+    {
+      "key": "manual/Crontab/Mac-Crontab.md",
+      "value": {
+        "name": "Mac Crontab",
+        "menu": "Crontab",
+        "id": "330114a3ca07cec5d6d351b68d04c48e",
+        "filepath": "manual/Crontab/Mac-Crontab.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Crontab/Mac-Crontab.md",
+        "link": "",
+        "slug": "manual-crontab-mac-crontab",
+        "route": "/manual-crontab-mac-crontab",
+        "headings": [
+          {
+            "slug": "mac-crontab",
+            "depth": 1,
+            "value": "Mac Crontab"
           }
         ]
       }
@@ -7702,216 +8132,6 @@
       }
     },
     {
-      "key": "manual/Design-Systems/Comparing-Design-Systems.md",
-      "value": {
-        "menu": "Design Systems",
-        "name": "Comparing Design System Components",
-        "id": "c6291a74c7824a6dd407c3f383f607c8",
-        "filepath": "manual/Design-Systems/Comparing-Design-Systems.md",
-        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Design-Systems/Comparing-Design-Systems.md",
-        "link": "",
-        "slug": "manual-design-systems-comparing-design-systems",
-        "route": "/manual-design-systems-comparing-design-systems",
-        "headings": [
-          {
-            "slug": "comparing-design-system-components",
-            "depth": 1,
-            "value": "Comparing Design System Components"
-          },
-          {
-            "slug": "table-of-contents",
-            "depth": 2,
-            "value": "Table of Contents"
-          },
-          {
-            "slug": "button",
-            "depth": 2,
-            "value": "Button"
-          }
-        ]
-      }
-    },
-    {
-      "key": "manual/Design-Systems/Design-Systems.md",
-      "value": {
-        "name": "Design Systems",
-        "menu": "Design Systems",
-        "id": "c8e1f9241ac8e7cdc46c75aa9e8ccbe0",
-        "filepath": "manual/Design-Systems/Design-Systems.md",
-        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Design-Systems/Design-Systems.md",
-        "link": "",
-        "slug": "manual-design-systems-design-systems",
-        "route": "/manual-design-systems-design-systems",
-        "headings": [
-          {
-            "slug": "design-systems",
-            "depth": 1,
-            "value": "Design Systems"
-          },
-          {
-            "slug": "from-the-podcast",
-            "depth": 2,
-            "value": "From the podcast"
-          },
-          {
-            "slug": "design-system-links",
-            "depth": 2,
-            "value": "Design System Links"
-          },
-          {
-            "slug": "carbon-design-system",
-            "depth": 2,
-            "value": "Carbon Design System"
-          },
-          {
-            "slug": "guidelines",
-            "depth": 3,
-            "value": "Guidelines"
-          },
-          {
-            "slug": "accessibility",
-            "depth": 4,
-            "value": "Accessibility"
-          },
-          {
-            "slug": "content",
-            "depth": 4,
-            "value": "Content"
-          },
-          {
-            "slug": "principles",
-            "depth": 4,
-            "value": "Principles"
-          },
-          {
-            "slug": "style",
-            "depth": 3,
-            "value": "Style"
-          },
-          {
-            "slug": "components",
-            "depth": 3,
-            "value": "Components"
-          },
-          {
-            "slug": "a11y-style-guide",
-            "depth": 2,
-            "value": "A11y Style Guide"
-          },
-          {
-            "slug": "material-design",
-            "depth": 2,
-            "value": "Material Design"
-          },
-          {
-            "slug": "colour",
-            "depth": 3,
-            "value": "Colour"
-          },
-          {
-            "slug": "patterns",
-            "depth": 3,
-            "value": "Patterns"
-          },
-          {
-            "slug": "growth--communications",
-            "depth": 3,
-            "value": "Growth & communications"
-          },
-          {
-            "slug": "platforms",
-            "depth": 3,
-            "value": "Platforms"
-          },
-          {
-            "slug": "viljamisdesigncom",
-            "depth": 2,
-            "value": "viljamisdesign.com"
-          },
-          {
-            "slug": "atlassian-design",
-            "depth": 2,
-            "value": "Atlassian design"
-          },
-          {
-            "slug": "dropbox-branding",
-            "depth": 2,
-            "value": "Dropbox Branding"
-          },
-          {
-            "slug": "government-guidelines",
-            "depth": 2,
-            "value": "Government Guidelines"
-          },
-          {
-            "slug": "microservices",
-            "depth": 2,
-            "value": "Microservices"
-          },
-          {
-            "slug": "logging",
-            "depth": 3,
-            "value": "Logging"
-          },
-          {
-            "slug": "coding",
-            "depth": 2,
-            "value": "Coding"
-          },
-          {
-            "slug": "concerning-factors",
-            "depth": 3,
-            "value": "Concerning factors"
-          },
-          {
-            "slug": "workplace-best-practises",
-            "depth": 2,
-            "value": "Workplace Best Practises"
-          },
-          {
-            "slug": "mathemetic-concepts",
-            "depth": 2,
-            "value": "Mathemetic Concepts"
-          },
-          {
-            "slug": "inspiration",
-            "depth": 2,
-            "value": "Inspiration"
-          }
-        ]
-      }
-    },
-    {
-      "key": "manual/Design-Systems/Design-Tokens.md",
-      "value": {
-        "menu": "Design Systems",
-        "name": "Design Tokens",
-        "id": "db7a9be0b777f43fc1f041be9703913a",
-        "filepath": "manual/Design-Systems/Design-Tokens.md",
-        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Design-Systems/Design-Tokens.md",
-        "link": "",
-        "slug": "manual-design-systems-design-tokens",
-        "route": "/manual-design-systems-design-tokens",
-        "headings": [
-          {
-            "slug": "design-tokens",
-            "depth": 1,
-            "value": "Design Tokens"
-          },
-          {
-            "slug": "useful-links",
-            "depth": 2,
-            "value": "Useful links"
-          },
-          {
-            "slug": "elements-to-think-about",
-            "depth": 2,
-            "value": "Elements to think about"
-          }
-        ]
-      }
-    },
-    {
       "key": "manual/Design-Patterns/Abstract-Factory-Pattern.md",
       "value": {
         "menu": "Design Patterns",
@@ -8667,156 +8887,211 @@
       }
     },
     {
-      "key": "manual/Digital-Marketing/Digital-Marketing-Course.md",
+      "key": "manual/Design-Systems/Comparing-Design-Systems.md",
       "value": {
-        "name": "Digital Marketing Course",
-        "menu": "Digital Marketing",
-        "id": "6bac3de3b042226db5f7f0ae0c945bcb",
-        "filepath": "manual/Digital-Marketing/Digital-Marketing-Course.md",
-        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Digital-Marketing/Digital-Marketing-Course.md",
+        "menu": "Design Systems",
+        "name": "Comparing Design System Components",
+        "id": "c6291a74c7824a6dd407c3f383f607c8",
+        "filepath": "manual/Design-Systems/Comparing-Design-Systems.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Design-Systems/Comparing-Design-Systems.md",
         "link": "",
-        "slug": "manual-digital-marketing-digital-marketing-course",
-        "route": "/manual-digital-marketing-digital-marketing-course",
+        "slug": "manual-design-systems-comparing-design-systems",
+        "route": "/manual-design-systems-comparing-design-systems",
         "headings": [
           {
-            "slug": "digital-marketing",
+            "slug": "comparing-design-system-components",
             "depth": 1,
-            "value": "Digital Marketing"
+            "value": "Comparing Design System Components"
           },
           {
-            "slug": "demystified",
+            "slug": "table-of-contents",
             "depth": 2,
-            "value": "Demystified"
+            "value": "Table of Contents"
           },
           {
-            "slug": "5-best-digital-marketing-tools",
+            "slug": "button",
             "depth": 2,
-            "value": "5 Best Digital Marketing Tools"
+            "value": "Button"
+          }
+        ]
+      }
+    },
+    {
+      "key": "manual/Design-Systems/Design-Systems.md",
+      "value": {
+        "name": "Design Systems",
+        "menu": "Design Systems",
+        "id": "c8e1f9241ac8e7cdc46c75aa9e8ccbe0",
+        "filepath": "manual/Design-Systems/Design-Systems.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Design-Systems/Design-Systems.md",
+        "link": "",
+        "slug": "manual-design-systems-design-systems",
+        "route": "/manual-design-systems-design-systems",
+        "headings": [
+          {
+            "slug": "design-systems",
+            "depth": 1,
+            "value": "Design Systems"
           },
           {
-            "slug": "1-create-a-buyer-persona--identify-your-unique-selling-proposition",
+            "slug": "from-the-podcast",
             "depth": 2,
-            "value": "1. Create a Buyer Persona & Identify Your Unique Selling Proposition"
+            "value": "From the podcast"
           },
           {
-            "slug": "11-buyers-persona",
+            "slug": "design-system-links",
             "depth": 2,
-            "value": "1.1 Buyers Persona"
+            "value": "Design System Links"
           },
           {
-            "slug": "buyers-persona-questions-to-ask",
+            "slug": "carbon-design-system",
+            "depth": 2,
+            "value": "Carbon Design System"
+          },
+          {
+            "slug": "guidelines",
             "depth": 3,
-            "value": "Buyers Persona Questions to ask"
+            "value": "Guidelines"
           },
           {
-            "slug": "12-8-ways-to-find-your-audience-online",
-            "depth": 2,
-            "value": "1.2 8 Ways To Find Your Audience Online"
+            "slug": "accessibility",
+            "depth": 4,
+            "value": "Accessibility"
           },
           {
-            "slug": "13-identifying-your-unique-selling-proposition-usp",
-            "depth": 2,
-            "value": "1.3 Identifying Your Unique Selling Proposition (USP)"
+            "slug": "content",
+            "depth": 4,
+            "value": "Content"
           },
           {
-            "slug": "usp-questions-to-ask",
+            "slug": "principles",
+            "depth": 4,
+            "value": "Principles"
+          },
+          {
+            "slug": "style",
             "depth": 3,
-            "value": "USP Questions To Ask"
+            "value": "Style"
           },
           {
-            "slug": "2-market-research",
-            "depth": 2,
-            "value": "2. Market Research"
-          },
-          {
-            "slug": "4-copywriting",
-            "depth": 2,
-            "value": "4. Copywriting"
-          },
-          {
-            "slug": "41-writing-for-the-buyers-persona",
-            "depth": 2,
-            "value": "4.1 Writing for the Buyer's Persona"
-          },
-          {
-            "slug": "42-attention",
-            "depth": 2,
-            "value": "4.2 Attention"
-          },
-          {
-            "slug": "43-interest",
-            "depth": 2,
-            "value": "4.3 Interest"
-          },
-          {
-            "slug": "44-desire",
-            "depth": 2,
-            "value": "4.4 Desire"
-          },
-          {
-            "slug": "45-action",
-            "depth": 2,
-            "value": "4.5 Action"
-          },
-          {
-            "slug": "7-facebook-marketing",
-            "depth": 2,
-            "value": "7. Facebook Marketing"
-          },
-          {
-            "slug": "71-facebook-page-setup",
-            "depth": 2,
-            "value": "7.1 Facebook Page Setup"
-          },
-          {
-            "slug": "what-to-post",
+            "slug": "components",
             "depth": 3,
-            "value": "What to post?"
+            "value": "Components"
           },
           {
-            "slug": "8-tactics-for-getting-likes",
-            "depth": 3,
-            "value": "8 Tactics For Getting Likes"
-          },
-          {
-            "slug": "other-boosts",
-            "depth": 3,
-            "value": "Other boosts"
-          },
-          {
-            "slug": "facebook-competitions",
-            "depth": 3,
-            "value": "Facebook Competitions"
-          },
-          {
-            "slug": "facebook-groups",
-            "depth": 3,
-            "value": "Facebook groups"
-          },
-          {
-            "slug": "facebook-live",
-            "depth": 3,
-            "value": "Facebook live"
-          },
-          {
-            "slug": "adding-admins",
-            "depth": 3,
-            "value": "Adding Admins"
-          },
-          {
-            "slug": "moderating",
-            "depth": 3,
-            "value": "Moderating"
-          },
-          {
-            "slug": "facebook-insights",
-            "depth": 3,
-            "value": "Facebook Insights"
-          },
-          {
-            "slug": "8-twitter-marketing",
+            "slug": "a11y-style-guide",
             "depth": 2,
-            "value": "8. Twitter Marketing"
+            "value": "A11y Style Guide"
+          },
+          {
+            "slug": "material-design",
+            "depth": 2,
+            "value": "Material Design"
+          },
+          {
+            "slug": "colour",
+            "depth": 3,
+            "value": "Colour"
+          },
+          {
+            "slug": "patterns",
+            "depth": 3,
+            "value": "Patterns"
+          },
+          {
+            "slug": "growth--communications",
+            "depth": 3,
+            "value": "Growth & communications"
+          },
+          {
+            "slug": "platforms",
+            "depth": 3,
+            "value": "Platforms"
+          },
+          {
+            "slug": "viljamisdesigncom",
+            "depth": 2,
+            "value": "viljamisdesign.com"
+          },
+          {
+            "slug": "atlassian-design",
+            "depth": 2,
+            "value": "Atlassian design"
+          },
+          {
+            "slug": "dropbox-branding",
+            "depth": 2,
+            "value": "Dropbox Branding"
+          },
+          {
+            "slug": "government-guidelines",
+            "depth": 2,
+            "value": "Government Guidelines"
+          },
+          {
+            "slug": "microservices",
+            "depth": 2,
+            "value": "Microservices"
+          },
+          {
+            "slug": "logging",
+            "depth": 3,
+            "value": "Logging"
+          },
+          {
+            "slug": "coding",
+            "depth": 2,
+            "value": "Coding"
+          },
+          {
+            "slug": "concerning-factors",
+            "depth": 3,
+            "value": "Concerning factors"
+          },
+          {
+            "slug": "workplace-best-practises",
+            "depth": 2,
+            "value": "Workplace Best Practises"
+          },
+          {
+            "slug": "mathemetic-concepts",
+            "depth": 2,
+            "value": "Mathemetic Concepts"
+          },
+          {
+            "slug": "inspiration",
+            "depth": 2,
+            "value": "Inspiration"
+          }
+        ]
+      }
+    },
+    {
+      "key": "manual/Design-Systems/Design-Tokens.md",
+      "value": {
+        "menu": "Design Systems",
+        "name": "Design Tokens",
+        "id": "db7a9be0b777f43fc1f041be9703913a",
+        "filepath": "manual/Design-Systems/Design-Tokens.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Design-Systems/Design-Tokens.md",
+        "link": "",
+        "slug": "manual-design-systems-design-tokens",
+        "route": "/manual-design-systems-design-tokens",
+        "headings": [
+          {
+            "slug": "design-tokens",
+            "depth": 1,
+            "value": "Design Tokens"
+          },
+          {
+            "slug": "useful-links",
+            "depth": 2,
+            "value": "Useful links"
+          },
+          {
+            "slug": "elements-to-think-about",
+            "depth": 2,
+            "value": "Elements to think about"
           }
         ]
       }
@@ -9051,6 +9326,161 @@
             "slug": "whats-the-difference",
             "depth": 2,
             "value": "What's the difference?"
+          }
+        ]
+      }
+    },
+    {
+      "key": "manual/Digital-Marketing/Digital-Marketing-Course.md",
+      "value": {
+        "name": "Digital Marketing Course",
+        "menu": "Digital Marketing",
+        "id": "6bac3de3b042226db5f7f0ae0c945bcb",
+        "filepath": "manual/Digital-Marketing/Digital-Marketing-Course.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Digital-Marketing/Digital-Marketing-Course.md",
+        "link": "",
+        "slug": "manual-digital-marketing-digital-marketing-course",
+        "route": "/manual-digital-marketing-digital-marketing-course",
+        "headings": [
+          {
+            "slug": "digital-marketing",
+            "depth": 1,
+            "value": "Digital Marketing"
+          },
+          {
+            "slug": "demystified",
+            "depth": 2,
+            "value": "Demystified"
+          },
+          {
+            "slug": "5-best-digital-marketing-tools",
+            "depth": 2,
+            "value": "5 Best Digital Marketing Tools"
+          },
+          {
+            "slug": "1-create-a-buyer-persona--identify-your-unique-selling-proposition",
+            "depth": 2,
+            "value": "1. Create a Buyer Persona & Identify Your Unique Selling Proposition"
+          },
+          {
+            "slug": "11-buyers-persona",
+            "depth": 2,
+            "value": "1.1 Buyers Persona"
+          },
+          {
+            "slug": "buyers-persona-questions-to-ask",
+            "depth": 3,
+            "value": "Buyers Persona Questions to ask"
+          },
+          {
+            "slug": "12-8-ways-to-find-your-audience-online",
+            "depth": 2,
+            "value": "1.2 8 Ways To Find Your Audience Online"
+          },
+          {
+            "slug": "13-identifying-your-unique-selling-proposition-usp",
+            "depth": 2,
+            "value": "1.3 Identifying Your Unique Selling Proposition (USP)"
+          },
+          {
+            "slug": "usp-questions-to-ask",
+            "depth": 3,
+            "value": "USP Questions To Ask"
+          },
+          {
+            "slug": "2-market-research",
+            "depth": 2,
+            "value": "2. Market Research"
+          },
+          {
+            "slug": "4-copywriting",
+            "depth": 2,
+            "value": "4. Copywriting"
+          },
+          {
+            "slug": "41-writing-for-the-buyers-persona",
+            "depth": 2,
+            "value": "4.1 Writing for the Buyer's Persona"
+          },
+          {
+            "slug": "42-attention",
+            "depth": 2,
+            "value": "4.2 Attention"
+          },
+          {
+            "slug": "43-interest",
+            "depth": 2,
+            "value": "4.3 Interest"
+          },
+          {
+            "slug": "44-desire",
+            "depth": 2,
+            "value": "4.4 Desire"
+          },
+          {
+            "slug": "45-action",
+            "depth": 2,
+            "value": "4.5 Action"
+          },
+          {
+            "slug": "7-facebook-marketing",
+            "depth": 2,
+            "value": "7. Facebook Marketing"
+          },
+          {
+            "slug": "71-facebook-page-setup",
+            "depth": 2,
+            "value": "7.1 Facebook Page Setup"
+          },
+          {
+            "slug": "what-to-post",
+            "depth": 3,
+            "value": "What to post?"
+          },
+          {
+            "slug": "8-tactics-for-getting-likes",
+            "depth": 3,
+            "value": "8 Tactics For Getting Likes"
+          },
+          {
+            "slug": "other-boosts",
+            "depth": 3,
+            "value": "Other boosts"
+          },
+          {
+            "slug": "facebook-competitions",
+            "depth": 3,
+            "value": "Facebook Competitions"
+          },
+          {
+            "slug": "facebook-groups",
+            "depth": 3,
+            "value": "Facebook groups"
+          },
+          {
+            "slug": "facebook-live",
+            "depth": 3,
+            "value": "Facebook live"
+          },
+          {
+            "slug": "adding-admins",
+            "depth": 3,
+            "value": "Adding Admins"
+          },
+          {
+            "slug": "moderating",
+            "depth": 3,
+            "value": "Moderating"
+          },
+          {
+            "slug": "facebook-insights",
+            "depth": 3,
+            "value": "Facebook Insights"
+          },
+          {
+            "slug": "8-twitter-marketing",
+            "depth": 2,
+            "value": "8. Twitter Marketing"
           }
         ]
       }
@@ -9801,36 +10231,6 @@
       }
     },
     {
-      "key": "manual/Electron/Electron-Udemy.md",
-      "value": {
-        "name": "Electron Udemy",
-        "menu": "Electron",
-        "id": "9dedab216dfa885abf1c1f7ca790ed71",
-        "filepath": "manual/Electron/Electron-Udemy.md",
-        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Electron/Electron-Udemy.md",
-        "link": "",
-        "slug": "manual-electron-electron-udemy",
-        "route": "/manual-electron-electron-udemy",
-        "headings": [
-          {
-            "slug": "electron",
-            "depth": 1,
-            "value": "Electron"
-          },
-          {
-            "slug": "installation",
-            "depth": 2,
-            "value": "Installation"
-          },
-          {
-            "slug": "properties",
-            "depth": 2,
-            "value": "Properties"
-          }
-        ]
-      }
-    },
-    {
       "key": "manual/Drupal/Drupal-8-Modules.md",
       "value": {
         "name": "Drupal 8 Modules",
@@ -10026,6 +10426,101 @@
             "slug": "create-a-new-content-type---event",
             "depth": 3,
             "value": "Create a new content type - Event"
+          }
+        ]
+      }
+    },
+    {
+      "key": "manual/Electron/Electron-FS.md",
+      "value": {
+        "menu": "Electron",
+        "name": "Electron FS",
+        "id": "0cae77dc32000d5c3da2a4cb32209c6d",
+        "filepath": "manual/Electron/Electron-FS.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Electron/Electron-FS.md",
+        "link": "",
+        "slug": "manual-electron-electron-fs",
+        "route": "/manual-electron-electron-fs",
+        "headings": [
+          {
+            "slug": "electron-file-systems",
+            "depth": 1,
+            "value": "Electron File Systems"
+          },
+          {
+            "slug": "resources",
+            "depth": 2,
+            "value": "Resources"
+          },
+          {
+            "slug": "tldr",
+            "depth": 2,
+            "value": "tl;dr"
+          },
+          {
+            "slug": "debugging-notes",
+            "depth": 2,
+            "value": "Debugging notes"
+          }
+        ]
+      }
+    },
+    {
+      "key": "manual/Electron/Electron-Udemy.md",
+      "value": {
+        "name": "Electron Udemy",
+        "menu": "Electron",
+        "id": "9dedab216dfa885abf1c1f7ca790ed71",
+        "filepath": "manual/Electron/Electron-Udemy.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Electron/Electron-Udemy.md",
+        "link": "",
+        "slug": "manual-electron-electron-udemy",
+        "route": "/manual-electron-electron-udemy",
+        "headings": [
+          {
+            "slug": "electron",
+            "depth": 1,
+            "value": "Electron"
+          },
+          {
+            "slug": "installation",
+            "depth": 2,
+            "value": "Installation"
+          },
+          {
+            "slug": "properties",
+            "depth": 2,
+            "value": "Properties"
+          }
+        ]
+      }
+    },
+    {
+      "key": "manual/Electron/Electron-With-Parcel.md",
+      "value": {
+        "menu": "Electron",
+        "name": "Production-Ready Electron + Parcel",
+        "id": "190b7214a47fb8c5ab3c02802afd5332",
+        "filepath": "manual/Electron/Electron-With-Parcel.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Electron/Electron-With-Parcel.md",
+        "link": "",
+        "slug": "manual-electron-electron-with-parcel",
+        "route": "/manual-electron-electron-with-parcel",
+        "headings": [
+          {
+            "slug": "production-ready-electron--parcel",
+            "depth": 1,
+            "value": "Production-Ready Electron + Parcel"
+          },
+          {
+            "slug": "resources",
+            "depth": 2,
+            "value": "Resources"
+          },
+          {
+            "slug": "tldr",
+            "depth": 2,
+            "value": "tl;dr"
           }
         ]
       }
@@ -10986,6 +11481,41 @@
       }
     },
     {
+      "key": "manual/Expo/Quick-Start.md",
+      "value": {
+        "name": "Expo Quick Start",
+        "menu": "Expo",
+        "id": "59c70310dff68c1d7a1421fff724df77",
+        "filepath": "manual/Expo/Quick-Start.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Expo/Quick-Start.md",
+        "link": "",
+        "slug": "manual-expo-quick-start",
+        "route": "/manual-expo-quick-start",
+        "headings": [
+          {
+            "slug": "expo-quick-start",
+            "depth": 1,
+            "value": "Expo Quick Start"
+          },
+          {
+            "slug": "resources",
+            "depth": 2,
+            "value": "Resources"
+          },
+          {
+            "slug": "getting-up-and-running",
+            "depth": 2,
+            "value": "Getting up and running"
+          },
+          {
+            "slug": "useful-cli-commands",
+            "depth": 2,
+            "value": "Useful CLI Commands"
+          }
+        ]
+      }
+    },
+    {
       "key": "manual/Expo/Working-With-Detox.md",
       "value": {
         "name": "Working With Detox",
@@ -11861,6 +12391,31 @@
       }
     },
     {
+      "key": "manual/Generative-Art/P5-getting-started.md",
+      "value": {
+        "name": "Getting Started with P5.js",
+        "menu": "Generative Art",
+        "id": "f52415bd8812ff7ef91f403805695649",
+        "filepath": "manual/Generative-Art/P5-getting-started.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Generative-Art/P5-getting-started.md",
+        "link": "",
+        "slug": "manual-generative-art-p5-getting-started",
+        "route": "/manual-generative-art-p5-getting-started",
+        "headings": [
+          {
+            "slug": "getting-started-with-p5js",
+            "depth": 1,
+            "value": "Getting Started with P5.js"
+          },
+          {
+            "slug": "resources",
+            "depth": 2,
+            "value": "Resources"
+          }
+        ]
+      }
+    },
+    {
       "key": "manual/Git/Git-Complete.md",
       "value": {
         "menu": "Git",
@@ -12201,6 +12756,36 @@
       }
     },
     {
+      "key": "manual/Git/Removing-Files-From-Repo-History.md",
+      "value": {
+        "menu": "Git",
+        "name": "Removing Files From Repo History",
+        "id": "329778c04b75a5ebde5356772c663a8c",
+        "filepath": "manual/Git/Removing-Files-From-Repo-History.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Git/Removing-Files-From-Repo-History.md",
+        "link": "",
+        "slug": "manual-git-removing-files-from-repo-history",
+        "route": "/manual-git-removing-files-from-repo-history",
+        "headings": [
+          {
+            "slug": "removing-files-from-repo-history",
+            "depth": 1,
+            "value": "Removing Files From Repo History"
+          },
+          {
+            "slug": "resources",
+            "depth": 2,
+            "value": "Resources"
+          },
+          {
+            "slug": "tldr",
+            "depth": 2,
+            "value": "tl;dr"
+          }
+        ]
+      }
+    },
+    {
       "key": "manual/Git/Setup-Github-SSH.md",
       "value": {
         "menu": "Git",
@@ -12241,6 +12826,86 @@
             "slug": "squashing-commits",
             "depth": 1,
             "value": "Squashing Commits"
+          }
+        ]
+      }
+    },
+    {
+      "key": "manual/GitHub/NPM-Packages.md",
+      "value": {
+        "name": "Hosting NPM packages on GitHub",
+        "menu": "GitHub",
+        "id": "7e7bfad271ca5db8286a409f788cff73",
+        "filepath": "manual/GitHub/NPM-Packages.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/GitHub/NPM-Packages.md",
+        "link": "",
+        "slug": "manual-git-hub-npm-packages",
+        "route": "/manual-git-hub-npm-packages",
+        "headings": [
+          {
+            "slug": "hosting-npm-packages-on-github",
+            "depth": 1,
+            "value": "Hosting NPM packages on GitHub"
+          },
+          {
+            "slug": "resources",
+            "depth": 2,
+            "value": "Resources"
+          },
+          {
+            "slug": "create-an-access-token-on-github",
+            "depth": 2,
+            "value": "Create an Access Token on GitHub"
+          },
+          {
+            "slug": "publishing-the-first-package",
+            "depth": 2,
+            "value": "Publishing the first package"
+          },
+          {
+            "slug": "installing-the-package",
+            "depth": 2,
+            "value": "Installing the package"
+          }
+        ]
+      }
+    },
+    {
+      "key": "manual/GitHub/Using-Octokit.md",
+      "value": {
+        "name": "Using Octokit",
+        "menu": "GitHub",
+        "id": "17efda97e10fc0532d36ce8d6f55b2bc",
+        "filepath": "manual/GitHub/Using-Octokit.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/GitHub/Using-Octokit.md",
+        "link": "",
+        "slug": "manual-git-hub-using-octokit",
+        "route": "/manual-git-hub-using-octokit",
+        "headings": [
+          {
+            "slug": "using-octokit",
+            "depth": 1,
+            "value": "Using Octokit"
+          },
+          {
+            "slug": "resource",
+            "depth": 2,
+            "value": "Resource"
+          },
+          {
+            "slug": "adding-a-file-to-a-repo",
+            "depth": 2,
+            "value": "Adding a file to a repo"
+          },
+          {
+            "slug": "usage",
+            "depth": 2,
+            "value": "Usage"
+          },
+          {
+            "slug": "adding-a-file-to-a-repo-using-octokit",
+            "depth": 2,
+            "value": "Adding a file to a repo using Octokit"
           }
         ]
       }
@@ -15972,6 +16637,46 @@
       }
     },
     {
+      "key": "manual/JavaScript/Resources.md",
+      "value": {
+        "menu": "JavaScript",
+        "name": "Resources",
+        "id": "4c76f0fadef91a90640ace0d36d2be11",
+        "filepath": "manual/JavaScript/Resources.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/JavaScript/Resources.md",
+        "link": "",
+        "slug": "manual-java-script-resources",
+        "route": "/manual-java-script-resources",
+        "headings": [
+          {
+            "slug": "javascript-resources",
+            "depth": 1,
+            "value": "JavaScript Resources"
+          },
+          {
+            "slug": "people",
+            "depth": 2,
+            "value": "People"
+          },
+          {
+            "slug": "react",
+            "depth": 2,
+            "value": "React"
+          },
+          {
+            "slug": "typescript",
+            "depth": 2,
+            "value": "TypeScript"
+          },
+          {
+            "slug": "blogs-books-docs-and-more",
+            "depth": 2,
+            "value": "Blogs, Books, Docs and More"
+          }
+        ]
+      }
+    },
+    {
       "key": "manual/JavaScript/Sinon-JS.md",
       "value": {
         "name": "Sinon JS",
@@ -17605,176 +18310,6 @@
       }
     },
     {
-      "key": "manual/Language-Learning/Approach-To-Learning-Software-Languages.md",
-      "value": {
-        "menu": "Language Learning",
-        "name": "Approach To Learning Software Languages",
-        "id": "9d2cc3e153cea4adb81211de57b01632",
-        "filepath": "manual/Language-Learning/Approach-To-Learning-Software-Languages.md",
-        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Language-Learning/Approach-To-Learning-Software-Languages.md",
-        "link": "",
-        "slug": "manual-language-learning-approach-to-learning-software-languages",
-        "route": "/manual-language-learning-approach-to-learning-software-languages",
-        "headings": [
-          {
-            "slug": "approach-to-learning-software-languages",
-            "depth": 1,
-            "value": "Approach To Learning Software Languages"
-          },
-          {
-            "slug": "first-steps",
-            "depth": 2,
-            "value": "First Steps"
-          },
-          {
-            "slug": "understanding-through-programs",
-            "depth": 2,
-            "value": "Understanding Through Programs"
-          }
-        ]
-      }
-    },
-    {
-      "key": "manual/Language-Learning/Golang.md",
-      "value": {
-        "menu": "Language Learning",
-        "name": "Golang",
-        "id": "a17c0111d159f171e5bb3949f7750ebc",
-        "filepath": "manual/Language-Learning/Golang.md",
-        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Language-Learning/Golang.md",
-        "link": "",
-        "slug": "manual-language-learning-golang",
-        "route": "/manual-language-learning-golang",
-        "headings": [
-          {
-            "slug": "golang",
-            "depth": 1,
-            "value": "Golang"
-          },
-          {
-            "slug": "the-why-behind-the-language",
-            "depth": 2,
-            "value": "The \"why\" behind the language?"
-          },
-          {
-            "slug": "quora-top-answer",
-            "depth": 3,
-            "value": "Quora Top Answer"
-          },
-          {
-            "slug": "from-rob-pike-one-of-gos-creators",
-            "depth": 3,
-            "value": "From Rob Pike, one of Go's Creators"
-          },
-          {
-            "slug": "pros-and-cons-of-the-language",
-            "depth": 2,
-            "value": "Pros and cons of the language?"
-          },
-          {
-            "slug": "pros",
-            "depth": 3,
-            "value": "Pros"
-          },
-          {
-            "slug": "cons",
-            "depth": 3,
-            "value": "Cons"
-          },
-          {
-            "slug": "what-are-the-use-cases",
-            "depth": 2,
-            "value": "What are the use cases?"
-          },
-          {
-            "slug": "testing--benchmarking",
-            "depth": 2,
-            "value": "Testing / Benchmarking"
-          },
-          {
-            "slug": "popular-web-servers-for-the-language",
-            "depth": 2,
-            "value": "Popular web servers for the language?"
-          },
-          {
-            "slug": "hello-world",
-            "depth": 2,
-            "value": "Hello, World!"
-          },
-          {
-            "slug": "documentation",
-            "depth": 2,
-            "value": "Documentation"
-          },
-          {
-            "slug": "what-are-the-nuances-of-the-language",
-            "depth": 2,
-            "value": "What are the nuances of the language?"
-          },
-          {
-            "slug": "how-does-package-management-work",
-            "depth": 2,
-            "value": "How does package management work?"
-          },
-          {
-            "slug": "how-does-importing-work",
-            "depth": 2,
-            "value": "How does importing work?"
-          },
-          {
-            "slug": "how-does-logging-work",
-            "depth": 2,
-            "value": "How does logging work?"
-          },
-          {
-            "slug": "useful-linksarticles",
-            "depth": 2,
-            "value": "Useful links/articles"
-          },
-          {
-            "slug": "useful-tips-and-tricks",
-            "depth": 2,
-            "value": "Useful tips and tricks"
-          },
-          {
-            "slug": "read-file",
-            "depth": 2,
-            "value": "Read File"
-          },
-          {
-            "slug": "write-file",
-            "depth": 2,
-            "value": "Write File"
-          },
-          {
-            "slug": "walk-through-directory",
-            "depth": 2,
-            "value": "Walk through directory"
-          },
-          {
-            "slug": "check-file-exists",
-            "depth": 2,
-            "value": "Check file exists"
-          },
-          {
-            "slug": "system-calls",
-            "depth": 2,
-            "value": "System calls"
-          },
-          {
-            "slug": "defer",
-            "depth": 2,
-            "value": "Defer"
-          },
-          {
-            "slug": "understanding-through-programs",
-            "depth": 2,
-            "value": "Understanding Through Programs"
-          }
-        ]
-      }
-    },
-    {
       "key": "manual/Kubernetes/AWS-EKS-Starter.md",
       "value": {
         "name": "AWS EKS Starter",
@@ -19385,6 +19920,196 @@
             "slug": "tldr",
             "depth": 2,
             "value": "tl;dr"
+          }
+        ]
+      }
+    },
+    {
+      "key": "manual/Kubernetes/Skaffold-Local-Development.md",
+      "value": {
+        "menu": "Kubernetes",
+        "name": "Skaffold Local Development",
+        "id": "99a32d66e8c41107c85aa284c7bb36e4",
+        "filepath": "manual/Kubernetes/Skaffold-Local-Development.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Kubernetes/Skaffold-Local-Development.md",
+        "link": "",
+        "slug": "manual-kubernetes-skaffold-local-development",
+        "route": "/manual-kubernetes-skaffold-local-development",
+        "headings": [
+          {
+            "slug": "skaffold-local-development",
+            "depth": 1,
+            "value": "Skaffold Local Development"
+          }
+        ]
+      }
+    },
+    {
+      "key": "manual/Language-Learning/Approach-To-Learning-Software-Languages.md",
+      "value": {
+        "menu": "Language Learning",
+        "name": "Approach To Learning Software Languages",
+        "id": "9d2cc3e153cea4adb81211de57b01632",
+        "filepath": "manual/Language-Learning/Approach-To-Learning-Software-Languages.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Language-Learning/Approach-To-Learning-Software-Languages.md",
+        "link": "",
+        "slug": "manual-language-learning-approach-to-learning-software-languages",
+        "route": "/manual-language-learning-approach-to-learning-software-languages",
+        "headings": [
+          {
+            "slug": "approach-to-learning-software-languages",
+            "depth": 1,
+            "value": "Approach To Learning Software Languages"
+          },
+          {
+            "slug": "first-steps",
+            "depth": 2,
+            "value": "First Steps"
+          },
+          {
+            "slug": "understanding-through-programs",
+            "depth": 2,
+            "value": "Understanding Through Programs"
+          }
+        ]
+      }
+    },
+    {
+      "key": "manual/Language-Learning/Golang.md",
+      "value": {
+        "menu": "Language Learning",
+        "name": "Golang",
+        "id": "a17c0111d159f171e5bb3949f7750ebc",
+        "filepath": "manual/Language-Learning/Golang.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Language-Learning/Golang.md",
+        "link": "",
+        "slug": "manual-language-learning-golang",
+        "route": "/manual-language-learning-golang",
+        "headings": [
+          {
+            "slug": "golang",
+            "depth": 1,
+            "value": "Golang"
+          },
+          {
+            "slug": "the-why-behind-the-language",
+            "depth": 2,
+            "value": "The \"why\" behind the language?"
+          },
+          {
+            "slug": "quora-top-answer",
+            "depth": 3,
+            "value": "Quora Top Answer"
+          },
+          {
+            "slug": "from-rob-pike-one-of-gos-creators",
+            "depth": 3,
+            "value": "From Rob Pike, one of Go's Creators"
+          },
+          {
+            "slug": "pros-and-cons-of-the-language",
+            "depth": 2,
+            "value": "Pros and cons of the language?"
+          },
+          {
+            "slug": "pros",
+            "depth": 3,
+            "value": "Pros"
+          },
+          {
+            "slug": "cons",
+            "depth": 3,
+            "value": "Cons"
+          },
+          {
+            "slug": "what-are-the-use-cases",
+            "depth": 2,
+            "value": "What are the use cases?"
+          },
+          {
+            "slug": "testing--benchmarking",
+            "depth": 2,
+            "value": "Testing / Benchmarking"
+          },
+          {
+            "slug": "popular-web-servers-for-the-language",
+            "depth": 2,
+            "value": "Popular web servers for the language?"
+          },
+          {
+            "slug": "hello-world",
+            "depth": 2,
+            "value": "Hello, World!"
+          },
+          {
+            "slug": "documentation",
+            "depth": 2,
+            "value": "Documentation"
+          },
+          {
+            "slug": "what-are-the-nuances-of-the-language",
+            "depth": 2,
+            "value": "What are the nuances of the language?"
+          },
+          {
+            "slug": "how-does-package-management-work",
+            "depth": 2,
+            "value": "How does package management work?"
+          },
+          {
+            "slug": "how-does-importing-work",
+            "depth": 2,
+            "value": "How does importing work?"
+          },
+          {
+            "slug": "how-does-logging-work",
+            "depth": 2,
+            "value": "How does logging work?"
+          },
+          {
+            "slug": "useful-linksarticles",
+            "depth": 2,
+            "value": "Useful links/articles"
+          },
+          {
+            "slug": "useful-tips-and-tricks",
+            "depth": 2,
+            "value": "Useful tips and tricks"
+          },
+          {
+            "slug": "read-file",
+            "depth": 2,
+            "value": "Read File"
+          },
+          {
+            "slug": "write-file",
+            "depth": 2,
+            "value": "Write File"
+          },
+          {
+            "slug": "walk-through-directory",
+            "depth": 2,
+            "value": "Walk through directory"
+          },
+          {
+            "slug": "check-file-exists",
+            "depth": 2,
+            "value": "Check file exists"
+          },
+          {
+            "slug": "system-calls",
+            "depth": 2,
+            "value": "System calls"
+          },
+          {
+            "slug": "defer",
+            "depth": 2,
+            "value": "Defer"
+          },
+          {
+            "slug": "understanding-through-programs",
+            "depth": 2,
+            "value": "Understanding Through Programs"
           }
         ]
       }
@@ -21490,6 +22215,101 @@
       }
     },
     {
+      "key": "manual/Machine-Learning/Practical-Deep-Learning.md",
+      "value": {
+        "menu": "Machine Learning",
+        "name": "Practical Deep Learning",
+        "id": "2751d59f372f063b4f15fba9fa303a22",
+        "filepath": "manual/Machine-Learning/Practical-Deep-Learning.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Machine-Learning/Practical-Deep-Learning.md",
+        "link": "",
+        "slug": "manual-machine-learning-practical-deep-learning",
+        "route": "/manual-machine-learning-practical-deep-learning",
+        "headings": [
+          {
+            "slug": "practical-deep-learning",
+            "depth": 1,
+            "value": "Practical Deep Learning"
+          },
+          {
+            "slug": "resources",
+            "depth": 2,
+            "value": "Resources"
+          },
+          {
+            "slug": "introduction",
+            "depth": 2,
+            "value": "Introduction"
+          },
+          {
+            "slug": "jupyter",
+            "depth": 2,
+            "value": "Jupyter"
+          },
+          {
+            "slug": "statistics-machine-learning-and-deep-learning",
+            "depth": 2,
+            "value": "Statistics, Machine Learning and Deep Learning"
+          },
+          {
+            "slug": "neurons-and-model-training",
+            "depth": 2,
+            "value": "Neurons and Model Training"
+          },
+          {
+            "slug": "training-model",
+            "depth": 2,
+            "value": "Training Model"
+          },
+          {
+            "slug": "deep-learning--ai",
+            "depth": 2,
+            "value": "Deep Learning & AI"
+          },
+          {
+            "slug": "ai-modelling-demo",
+            "depth": 2,
+            "value": "AI Modelling demo"
+          },
+          {
+            "slug": "combining-neural-networks--ai",
+            "depth": 2,
+            "value": "Combining Neural Networks & AI"
+          },
+          {
+            "slug": "linear-regression",
+            "depth": 2,
+            "value": "Linear Regression"
+          },
+          {
+            "slug": "tensorflow-architecture",
+            "depth": 2,
+            "value": "TensorFlow Architecture"
+          },
+          {
+            "slug": "cuda",
+            "depth": 3,
+            "value": "Cuda"
+          },
+          {
+            "slug": "finalizing-everything",
+            "depth": 3,
+            "value": "Finalizing Everything"
+          },
+          {
+            "slug": "plotting-uniform-data",
+            "depth": 2,
+            "value": "Plotting Uniform Data"
+          },
+          {
+            "slug": "plotting-those-points",
+            "depth": 2,
+            "value": "Plotting those points"
+          }
+        ]
+      }
+    },
+    {
       "key": "manual/Machine-Learning-Algos/K-Nearest-Neighbours.md",
       "value": {
         "name": "K-Nearest Neighbours",
@@ -22395,6 +23215,61 @@
       }
     },
     {
+      "key": "manual/Next/Next-Auth.md",
+      "value": {
+        "menu": "Next",
+        "name": "Next Auth with local MySQL Container",
+        "id": "9179524e8d777d3a389c7886ed6dd03e",
+        "filepath": "manual/Next/Next-Auth.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Next/Next-Auth.md",
+        "link": "",
+        "slug": "manual-next-next-auth",
+        "route": "/manual-next-next-auth",
+        "headings": [
+          {
+            "slug": "resources",
+            "depth": 2,
+            "value": "Resources"
+          },
+          {
+            "slug": "setting-up-mysql-with-docker",
+            "depth": 2,
+            "value": "Setting up MySQL with Docker"
+          },
+          {
+            "slug": "setting-up-nextjs",
+            "depth": 3,
+            "value": "Setting up Next.js"
+          },
+          {
+            "slug": "setting-up-next-auth-in-the-application",
+            "depth": 2,
+            "value": "Setting up Next Auth in the application"
+          },
+          {
+            "slug": "setting-up-ngrok",
+            "depth": 2,
+            "value": "Setting up ngrok"
+          },
+          {
+            "slug": "setting-up-github-oauth",
+            "depth": 2,
+            "value": "Setting up GitHub OAuth"
+          },
+          {
+            "slug": "env-variables",
+            "depth": 2,
+            "value": "Env Variables"
+          },
+          {
+            "slug": "running-dev",
+            "depth": 2,
+            "value": "Running Dev"
+          }
+        ]
+      }
+    },
+    {
       "key": "manual/Nginx/Nginx-Nodejs-Docker.md",
       "value": {
         "name": "Nginx Nodejs Docker",
@@ -23155,6 +24030,51 @@
             "slug": "posix-api",
             "depth": 2,
             "value": "POSIX API"
+          }
+        ]
+      }
+    },
+    {
+      "key": "manual/Parcel/Parcel-React.md",
+      "value": {
+        "menu": "Parcel",
+        "name": "React with Parcel",
+        "id": "5547459a723dd401aaac633e61373bb9",
+        "filepath": "manual/Parcel/Parcel-React.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Parcel/Parcel-React.md",
+        "link": "",
+        "slug": "manual-parcel-parcel-react",
+        "route": "/manual-parcel-parcel-react",
+        "headings": [
+          {
+            "slug": "react-with-parcel",
+            "depth": 1,
+            "value": "React with Parcel"
+          },
+          {
+            "slug": "the-files",
+            "depth": 2,
+            "value": "The files"
+          },
+          {
+            "slug": "indexhtml",
+            "depth": 3,
+            "value": "index.html"
+          },
+          {
+            "slug": "indexjs",
+            "depth": 3,
+            "value": "index.js"
+          },
+          {
+            "slug": "babelrc",
+            "depth": 3,
+            "value": ".babelrc"
+          },
+          {
+            "slug": "packagejson",
+            "depth": 3,
+            "value": "package.json"
           }
         ]
       }
@@ -24635,6 +25555,96 @@
       }
     },
     {
+      "key": "manual/Puppeteer/Dev-Tool-Assertions.md",
+      "value": {
+        "menu": "Puppeteer",
+        "name": "Dev Tool Assertions",
+        "id": "363b26466fa1c719e5fa7bee8af07360",
+        "filepath": "manual/Puppeteer/Dev-Tool-Assertions.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Puppeteer/Dev-Tool-Assertions.md",
+        "link": "",
+        "slug": "manual-puppeteer-dev-tool-assertions",
+        "route": "/manual-puppeteer-dev-tool-assertions",
+        "headings": [
+          {
+            "slug": "dev-tool-assertions",
+            "depth": 1,
+            "value": "Dev Tool Assertions"
+          },
+          {
+            "slug": "useful-links",
+            "depth": 2,
+            "value": "Useful links"
+          }
+        ]
+      }
+    },
+    {
+      "key": "manual/Puppeteer/Recorder.md",
+      "value": {
+        "name": "Recorder",
+        "menu": "Puppeteer",
+        "id": "e77f8f206f62475298ccc8126c70d3c1",
+        "filepath": "manual/Puppeteer/Recorder.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Puppeteer/Recorder.md",
+        "link": "",
+        "slug": "manual-puppeteer-recorder",
+        "route": "/manual-puppeteer-recorder",
+        "headings": [
+          {
+            "slug": "puppeteer-recorder",
+            "depth": 1,
+            "value": "Puppeteer Recorder"
+          },
+          {
+            "slug": "install",
+            "depth": 2,
+            "value": "Install"
+          },
+          {
+            "slug": "usage",
+            "depth": 2,
+            "value": "Usage"
+          },
+          {
+            "slug": "generating-the-tests",
+            "depth": 2,
+            "value": "Generating the tests"
+          }
+        ]
+      }
+    },
+    {
+      "key": "manual/Puppeteer/Screenshot-Anything.md",
+      "value": {
+        "menu": "Puppeteer",
+        "name": "Screenshot Anything",
+        "id": "b58327a0f2e2cdd0f67da159600cd9ac",
+        "filepath": "manual/Puppeteer/Screenshot-Anything.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Puppeteer/Screenshot-Anything.md",
+        "link": "",
+        "slug": "manual-puppeteer-screenshot-anything",
+        "route": "/manual-puppeteer-screenshot-anything",
+        "headings": [
+          {
+            "slug": "screenshot-any-valid-html-with-puppeteer",
+            "depth": 1,
+            "value": "Screenshot Any Valid HTML with Puppeteer"
+          },
+          {
+            "slug": "resources",
+            "depth": 2,
+            "value": "Resources"
+          },
+          {
+            "slug": "working-code",
+            "depth": 2,
+            "value": "Working Code"
+          }
+        ]
+      }
+    },
+    {
       "key": "manual/Protocols/Address-Resolution-Protocol.md",
       "value": {
         "menu": "Protocols",
@@ -24780,66 +25790,6 @@
       }
     },
     {
-      "key": "manual/Puppeteer/Dev-Tool-Assertions.md",
-      "value": {
-        "menu": "Puppeteer",
-        "name": "Dev Tool Assertions",
-        "id": "363b26466fa1c719e5fa7bee8af07360",
-        "filepath": "manual/Puppeteer/Dev-Tool-Assertions.md",
-        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Puppeteer/Dev-Tool-Assertions.md",
-        "link": "",
-        "slug": "manual-puppeteer-dev-tool-assertions",
-        "route": "/manual-puppeteer-dev-tool-assertions",
-        "headings": [
-          {
-            "slug": "dev-tool-assertions",
-            "depth": 1,
-            "value": "Dev Tool Assertions"
-          },
-          {
-            "slug": "useful-links",
-            "depth": 2,
-            "value": "Useful links"
-          }
-        ]
-      }
-    },
-    {
-      "key": "manual/Puppeteer/Recorder.md",
-      "value": {
-        "name": "Recorder",
-        "menu": "Puppeteer",
-        "id": "e77f8f206f62475298ccc8126c70d3c1",
-        "filepath": "manual/Puppeteer/Recorder.md",
-        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Puppeteer/Recorder.md",
-        "link": "",
-        "slug": "manual-puppeteer-recorder",
-        "route": "/manual-puppeteer-recorder",
-        "headings": [
-          {
-            "slug": "puppeteer-recorder",
-            "depth": 1,
-            "value": "Puppeteer Recorder"
-          },
-          {
-            "slug": "install",
-            "depth": 2,
-            "value": "Install"
-          },
-          {
-            "slug": "usage",
-            "depth": 2,
-            "value": "Usage"
-          },
-          {
-            "slug": "generating-the-tests",
-            "depth": 2,
-            "value": "Generating the tests"
-          }
-        ]
-      }
-    },
-    {
       "key": "manual/Python/Examples.md",
       "value": {
         "menu": "Python",
@@ -24885,6 +25835,66 @@
             "slug": "example",
             "depth": 2,
             "value": "Example"
+          }
+        ]
+      }
+    },
+    {
+      "key": "manual/Python/Package-Management.md",
+      "value": {
+        "name": "Package Management in Python",
+        "menu": "Python",
+        "id": "3646d9c888fd243daf247bd694d3f1ee",
+        "filepath": "manual/Python/Package-Management.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Python/Package-Management.md",
+        "link": "",
+        "slug": "manual-python-package-management",
+        "route": "/manual-python-package-management",
+        "headings": [
+          {
+            "slug": "package-management-in-python",
+            "depth": 1,
+            "value": "Package Management in Python"
+          },
+          {
+            "slug": "resources",
+            "depth": 2,
+            "value": "Resources"
+          },
+          {
+            "slug": "why-pipenv",
+            "depth": 2,
+            "value": "Why Pipenv?"
+          },
+          {
+            "slug": "installation",
+            "depth": 2,
+            "value": "Installation"
+          },
+          {
+            "slug": "setting-up-two-basic-projects-to-demonstrate",
+            "depth": 2,
+            "value": "Setting up two basic projects to demonstrate"
+          },
+          {
+            "slug": "running-a-simple-get-requests-from-ipython",
+            "depth": 2,
+            "value": "Running a simple GET requests from iPython"
+          },
+          {
+            "slug": "pipfile",
+            "depth": 2,
+            "value": "Pipfile"
+          },
+          {
+            "slug": "pipfilelock",
+            "depth": 2,
+            "value": "Pipfile.lock"
+          },
+          {
+            "slug": "conclusion",
+            "depth": 2,
+            "value": "Conclusion"
           }
         ]
       }
@@ -25520,6 +26530,67 @@
             "slug": "try-weirdness",
             "depth": 2,
             "value": "Try Weirdness"
+          }
+        ]
+      }
+    },
+    {
+      "key": "manual/Quick-Start/Golang.md",
+      "value": {
+        "menu": "Quickstart",
+        "name": "Golang",
+        "id": "19269e811569f9b3000d85cbdfcdd54d",
+        "filepath": "manual/Quick-Start/Golang.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Quick-Start/Golang.md",
+        "link": "",
+        "slug": "manual-quick-start-golang",
+        "route": "/manual-quick-start-golang",
+        "headings": [
+          {
+            "slug": "golang-quickstart",
+            "depth": 1,
+            "value": "Golang Quickstart"
+          },
+          {
+            "slug": "resources",
+            "depth": 2,
+            "value": "Resources"
+          },
+          {
+            "slug": "quickstart",
+            "depth": 2,
+            "value": "Quickstart"
+          }
+        ]
+      }
+    },
+    {
+      "key": "manual/Quick-Start/Ruby.md",
+      "value": {
+        "menu": "Quick Start",
+        "title": "Ruby",
+        "id": "a83760e39d6b1f1fec12892c5c07767e",
+        "filepath": "manual/Quick-Start/Ruby.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Quick-Start/Ruby.md",
+        "link": "",
+        "slug": "manual-quick-start-ruby",
+        "route": "/manual-quick-start-ruby",
+        "name": "Ruby",
+        "headings": [
+          {
+            "slug": "resources",
+            "depth": 2,
+            "value": "Resources"
+          },
+          {
+            "slug": "basic-ruby-project",
+            "depth": 2,
+            "value": "Basic Ruby Project"
+          },
+          {
+            "slug": "rails-project",
+            "depth": 2,
+            "value": "Rails Project"
           }
         ]
       }
@@ -26165,6 +27236,41 @@
             "slug": "mocking",
             "depth": 2,
             "value": "Mocking"
+          }
+        ]
+      }
+    },
+    {
+      "key": "manual/React/Simplest-React-Setup.md",
+      "value": {
+        "menu": "React",
+        "name": "Simplest React Setup",
+        "id": "5f4a595523faf0013b2b84d07c5ed885",
+        "filepath": "manual/React/Simplest-React-Setup.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/React/Simplest-React-Setup.md",
+        "link": "",
+        "slug": "manual-react-simplest-react-setup",
+        "route": "/manual-react-simplest-react-setup",
+        "headings": [
+          {
+            "slug": "simplest-react-setup",
+            "depth": 1,
+            "value": "Simplest React Setup"
+          },
+          {
+            "slug": "resources",
+            "depth": 2,
+            "value": "Resources"
+          },
+          {
+            "slug": "tldr",
+            "depth": 2,
+            "value": "tl;dr"
+          },
+          {
+            "slug": "transforming-to-use-d3",
+            "depth": 2,
+            "value": "Transforming to use D3"
           }
         ]
       }
@@ -28075,6 +29181,77 @@
       }
     },
     {
+      "key": "manual/Ruby/Metaprogramming-Ruby-2.md",
+      "value": {
+        "menu": "Ruby",
+        "name": "Metaprogramming Ruby 2",
+        "id": "c54147c3a076164aafb3986fb50f2e96",
+        "filepath": "manual/Ruby/Metaprogramming-Ruby-2.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Ruby/Metaprogramming-Ruby-2.md",
+        "link": "",
+        "slug": "manual-ruby-metaprogramming-ruby-2",
+        "route": "/manual-ruby-metaprogramming-ruby-2",
+        "headings": [
+          {
+            "slug": "metaprogramming-ruby-2",
+            "depth": 1,
+            "value": "Metaprogramming Ruby 2"
+          },
+          {
+            "slug": "resources",
+            "depth": 2,
+            "value": "Resources"
+          },
+          {
+            "slug": "the-object-model",
+            "depth": 2,
+            "value": "The Object Model"
+          },
+          {
+            "slug": "modules--look-ups",
+            "depth": 3,
+            "value": "Modules & Look ups"
+          },
+          {
+            "slug": "the-kernel",
+            "depth": 3,
+            "value": "The Kernel"
+          },
+          {
+            "slug": "self",
+            "depth": 3,
+            "value": "Self"
+          }
+        ]
+      }
+    },
+    {
+      "key": "manual/Ruby/Quick-Start.md",
+      "value": {
+        "menu": "Ruby",
+        "title": "Quick Start",
+        "id": "1121adf8e9b517af3b995d74c3d0e024",
+        "filepath": "manual/Ruby/Quick-Start.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Ruby/Quick-Start.md",
+        "link": "",
+        "slug": "manual-ruby-quick-start",
+        "route": "/manual-ruby-quick-start",
+        "name": "Quick start",
+        "headings": [
+          {
+            "slug": "quick-start",
+            "depth": 2,
+            "value": "Quick start"
+          },
+          {
+            "slug": "quick-start-with-rails",
+            "depth": 2,
+            "value": "Quick start with Rails"
+          }
+        ]
+      }
+    },
+    {
       "key": "manual/Ruby/Rails-Useful-Tidbits.md",
       "value": {
         "menu": "Ruby",
@@ -28720,6 +29897,81 @@
             "slug": "changing-gem-source",
             "depth": 3,
             "value": "Changing Gem source"
+          }
+        ]
+      }
+    },
+    {
+      "key": "manual/Ruby-On-Rails/Factory-Bot-Rails.md",
+      "value": {
+        "menu": "Ruby on Rails",
+        "name": "Factory Bot Rails Gem",
+        "id": "90bde013e3d1ff920fbbc9d9a4ec5533",
+        "filepath": "manual/Ruby-On-Rails/Factory-Bot-Rails.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Ruby-On-Rails/Factory-Bot-Rails.md",
+        "link": "",
+        "slug": "manual-ruby-on-rails-factory-bot-rails",
+        "route": "/manual-ruby-on-rails-factory-bot-rails",
+        "headings": [
+          {
+            "slug": "factory-bot-rails-gem",
+            "depth": 1,
+            "value": "Factory Bot Rails Gem"
+          },
+          {
+            "slug": "why-factory-bot",
+            "depth": 2,
+            "value": "Why Factory Bot?"
+          },
+          {
+            "slug": "resources",
+            "depth": 2,
+            "value": "Resources"
+          },
+          {
+            "slug": "quick-start",
+            "depth": 2,
+            "value": "Quick start"
+          },
+          {
+            "slug": "update-gemfile-config",
+            "depth": 2,
+            "value": "Update Gemfile config"
+          },
+          {
+            "slug": "automatic-factory-definition-loading",
+            "depth": 2,
+            "value": "Automatic factory definition loading"
+          },
+          {
+            "slug": "config",
+            "depth": 2,
+            "value": "Config"
+          },
+          {
+            "slug": "create-a-model",
+            "depth": 2,
+            "value": "Create a model"
+          },
+          {
+            "slug": "update-ruby",
+            "depth": 2,
+            "value": "Update Ruby"
+          },
+          {
+            "slug": "add-the-following-to-the-factories-directory",
+            "depth": 2,
+            "value": "Add the following to the factories directory"
+          },
+          {
+            "slug": "add-an-rspec-for-the-model",
+            "depth": 2,
+            "value": "Add an Rspec for the model"
+          },
+          {
+            "slug": "running-the-test",
+            "depth": 2,
+            "value": "Running the test"
           }
         ]
       }
@@ -33754,6 +35006,31 @@
       }
     },
     {
+      "key": "manual/Webpack/Webpack-5-Federation.md",
+      "value": {
+        "menu": "Webpack",
+        "name": "Webpack 5 Federation",
+        "id": "92b06a9160caf029ebfb158b6f87d1fb",
+        "filepath": "manual/Webpack/Webpack-5-Federation.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Webpack/Webpack-5-Federation.md",
+        "link": "",
+        "slug": "manual-webpack-webpack-5-federation",
+        "route": "/manual-webpack-webpack-5-federation",
+        "headings": [
+          {
+            "slug": "",
+            "depth": 1,
+            "value": ""
+          },
+          {
+            "slug": "resources",
+            "depth": 2,
+            "value": "Resources"
+          }
+        ]
+      }
+    },
+    {
       "key": "manual/Webpack/Webpack-Optimisation.md",
       "value": {
         "menu": "Webpack",
@@ -34244,6 +35521,31 @@
             "slug": "13-overcomplicating-things",
             "depth": 3,
             "value": "1.3 Overcomplicating Things"
+          }
+        ]
+      }
+    },
+    {
+      "key": "manual/XState/State-Machines-in-JS.md",
+      "value": {
+        "menu": "XState",
+        "name": "State Machines in JavaScript with XState",
+        "id": "35c709aaadfdf5673914a8fc780f2d56",
+        "filepath": "manual/XState/State-Machines-in-JS.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/XState/State-Machines-in-JS.md",
+        "link": "",
+        "slug": "manual-x-state-state-machines-in-js",
+        "route": "/manual-x-state-state-machines-in-js",
+        "headings": [
+          {
+            "slug": "state-machines-in-javascript-with-xstate",
+            "depth": 1,
+            "value": "State Machines in JavaScript with XState"
+          },
+          {
+            "slug": "resources",
+            "depth": 2,
+            "value": "Resources"
           }
         ]
       }
