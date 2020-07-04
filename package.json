@@ -7,7 +7,8 @@
     "start": "docz dev",
     "build": "docz build",
     "prepush": "yarn build && git add --all",
-    "alfred": "bin/alfred"
+    "alfred": "bin/alfred",
+    "prepush": "bin/prepush"
   },
   "peerDependencies": {
     "acorn": "^7.1.1",
@@ -19,6 +20,7 @@
     "babel-preset-env": "^1.7.0",
     "docz": "^2.2.0",
     "docz-theme-default": "^1.2.0",
+    "husky": "^4.2.5",
     "lodash.kebabcase": "^4.1.1",
     "lodash.startcase": "^4.4.0",
     "prettier": "^1.18.2",
@@ -31,5 +33,10 @@
     "react-dom": "^16.12.0",
     "react-katex": "^2.0.2",
     "react-latex": "^1.5.0"
+  },
+  "husky": {
+    "hooks": {
+      "pre-push": "bin/prepush"
+    }
   }
 }
