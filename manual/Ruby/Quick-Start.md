@@ -32,3 +32,14 @@ The --configure option no longer needs any arguments, so true was ignored.
   create   spec/spec_helper.rb
   create   .rspec
 ```
+
+## Quick start with Rails
+
+```s
+# for help
+rails new --help
+# standard
+rails new <project-name>
+# API only
+rails new <project-name> --api
+```

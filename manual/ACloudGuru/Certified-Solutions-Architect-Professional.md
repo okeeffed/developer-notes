@@ -593,3 +593,110 @@ AWS uses certain IP addresses in each VPC as reserved.
 ### AWS Availability Zones
 
 The Physical to Logical assignment of AZs is done at the Account level (mind-blown).
+
+## NEED TO CONTINUE CHAPTER 3 HERE
+
+(starting from network to VPC connectivity)
+
+## Architecting to Scale
+
+### Architectural Patterns
+
+> Suggested ways to help design architectures.
+
+An example of this is a loosely-coupled architecture: "Components can stand independently and require little or no knowledge of the inner workings of the other components."
+
+They have some good benefits when it comes to abstraction.
+
+- Layers of abstraction
+- Permits more flexibility
+- Interchangeable components
+- More atomic functional units (independent)
+- Can scale components independently
+
+> An example is given about given more resources for a loosely coupled architecture to a particular process that may be time-expensive beforehand.
+
+### Horizontal vs Vertical Scaling
+
+| Horizontal                                       | Vertical                                                         |
+| ------------------------------------------------ | ---------------------------------------------------------------- |
+| Add more instances as demand increases           | Add more CPU and/or RAM to existing instance as demand increases |
+| No downtime required to scale up or down         | Requires restart to scale up or down                             |
+| Automatically supported with Auto-scaling groups | Requires script to automate                                      |
+| (Theoretically) unlimited                        | Limited by instance size                                         |
+
+More terms:
+
+- Scale in: Reduce horizontal scale
+- Scale down: Reduce vertical scale
+
+With scaling, you should scale to match demand. We can scale in and scale out based on demands. The example shows the potential savings over a month based to auto-scaling.
+
+### Type of Auto-Scaling
+
+- AWS Auto Scaling
+- EC2 Auto Scaling
+- Application Auto scaling
+
+#### EC2 Auto Scaling
+
+Focused on EC2. Why? Setup scaling groups for EC2 instances; health checks to remove unhealthy instances.
+
+- Automatically provides horizontal scaling (scale-out) for your landscape.
+- Triggered by an event or scaling action to either launch or terminate instances.
+- Availability, Cost and System Metrics can all factor into scaling.
+- Four scaling options:
+  1. Maintain: Keep a specific or minimum number of instances running
+  2. Manual: Use max, min or specified number of instances
+  3. Schedule: Increase or decrease instances based on schedule
+  4. Dynamic: Scale based on some metric
+
+When creating, you need to set some launch configurations:
+
+- Specifiy VPC amd subnets for scaled instances
+- Attach to a ELB
+- Define a Health Check Grace Period
+
+Here you can also define the scaling policies:
+
+| Scaling                | What                                                                             | When                                                              |
+| ---------------------- | -------------------------------------------------------------------------------- | ----------------------------------------------------------------- |
+| Target Tracking Policy | Scale based on a predefined or custom metric in relation to a target value       | "When CPU utilization gets to 70% on current instances, scale up" |
+| Simple Scaling Policy  | Waits until health check and cool down period expires before evaluating new need | Let's add new instances slow and steady                           |
+| Step Scaling Policy    | Responds to scaling needs with more sophistication and logic                     | "AGG! Add ALL the instances!"                                     |
+
+There is a "cooldown" period for EC2:
+
+- Default is 300s. Gives your scaling a chance to "come up to speed" and absorb load.
+- Automatically applies to dynamic scaling and optionally to manual scaling but **not supported for scheduled scaling**.
+- Can override default cooldown via scaling-specific cool down.
+
+#### Application Auto Scaling
+
+API used to control scaling for resources other than EC2 like Dynamo, ECS, EMR. Why? Provides a common way to interact with the scalability of other services.
+
+#### AWS Auto Scaling
+
+Provides centralized way to manage scalability for whole stacks; Predictive scaling feature. Why? Console that can manage both of the above from a unified standpoint.
+
+Provides a holistic way to scale and it provides some high-level scaling strategies that are phrased in business terms, but if you want you can still get into the details.
+
+| Scaling                  | What                                                                                  | When                                                                                             |
+| ------------------------ | ------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------ |
+| Target Tracking Policy   | Initiates scaling events to try to track as closely as possible a given target metric | "I want my ECS hosts to stay at or below 70% CPU utilization"                                    |
+| Step Scaling Policy      | Based on a metric, adjusts capacity iven certain defined thresholds                   | "I want to increase my EC2 Spot Fleet by 20% every time I add another 10k connections to my ELB" |
+| Scheduled Scaling Policy | Initiates scaling events based on a predefined time, day or date                      | "Every Monday at 0800, I want to increase the Read Capacity Units of my DynamoDB Table to 20k"   |
+
+#### Autoscaling based SQS
+
+Scaling can be based based on SQS. The lambda function can check capacity and emits a custom metric (using a CloudWatch alarm).
+
+#### AWS Predictive Scaling
+
+Can be used to dynamically scale based on load and calculating expected capacity.
+
+Without dynamic scaling, you can just use the data to adjust your own scaling policies.
+
+You can also opt-out of this if you don't want AWS collecting this data.
+
+## AWS Kinesis
