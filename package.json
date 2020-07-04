@@ -19,6 +19,7 @@
     "babel-preset-env": "^1.7.0",
     "docz": "^2.2.0",
     "docz-theme-default": "^1.2.0",
+    "lodash.kebabcase": "^4.1.1",
     "lodash.startcase": "^4.4.0",
     "prettier": "^1.18.2",
     "recursive-readdir": "^2.2.2"
