@@ -1,10 +1,12 @@
 #!/bin/bash
 BRANCH=$(git rev-parse --abbrev-ref HEAD)
-if [[ "$BRANCH" != "x" ]]; then
-  echo 'Not on master branch - aborting pre-push script';
-  # Exit 0 as this is expected behaviour
-  exit 0;
+if [[ "$BRANCH" != "master" ]]; then
+    echo 'Not on master branch - aborting pre-push script';
+    # Exit 0 as this is expected behaviour
+    exit 0;
 fi
 
 yarn build;
+git add --all;
+git commit -m "feat: Master build pre-push additions"
 yarn alfred;
