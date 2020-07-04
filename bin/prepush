@@ -1,8 +1,9 @@
 #!/bin/bash
 BRANCH=$(git rev-parse --abbrev-ref HEAD)
-if [[ "$BRANCH" != "master" ]]; then
+if [[ "$BRANCH" != "x" ]]; then
   echo 'Not on master branch - aborting pre-push script';
-  exit 1;
+  # Exit 0 as this is expected behaviour
+  exit 0;
 fi
 
 yarn build;
