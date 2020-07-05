@@ -6,7 +6,6 @@
  */
 
 const fs = require('fs');
-const startCase = require('lodash.startcase');
 const kebabCase = require('lodash.kebabcase');
 
 const BASE_URL = 'https://docs.dennisokeeffe.com/manual';
@@ -29,6 +28,8 @@ const getFiles = source =>
     .filter(dirent => dirent.isFile())
     .map(dirent => dirent.name);
 
+const replaceDashWithSpace = str => str.replace(/\-/g, ' ');
+
 const main = () => {
   const directories = getDirectories(`${parentDir}/manual`);
   const json = [];
@@ -38,12 +39,14 @@ const main = () => {
       .map(file => file.replace('.md', ''))
       .map(file =>
         json.push({
-          title: startCase(file),
-          subtitle: startCase(directory),
+          title: replaceDashWithSpace(file),
+          subtitle: replaceDashWithSpace(directory),
           arg: `${BASE_URL}-${kebabCase(directory).toLowerCase()}-${kebabCase(
             file,
           ).toLowerCase()}`,
-          search: `${startCase(directory)} ${startCase(file)}`,
+          search: `${replaceDashWithSpace(directory)} ${replaceDashWithSpace(
+            file,
+          )}`,
         }),
       );
   }
