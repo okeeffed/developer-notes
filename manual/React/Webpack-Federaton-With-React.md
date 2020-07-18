@@ -14,20 +14,49 @@ name: Webpack Federation with React
 ```js
 // App.js
 import React from 'react';
-
-const RemoteButton = React.lazy(() => import('app2/Button'));
+import { ThemeProvider } from 'styled-components';
+import Page from './Page';
+const RemoteCombo = React.lazy(() => import('app2/Combo'));
 
 const App = () => (
   <div>
-    <h1>Basic Host-Remote</h1>
-    <h2>App 1</h2>
-    <React.Suspense fallback="Loading Button">
-      <RemoteButton />
-    </React.Suspense>
+    <ThemeProvider theme={{ main: 'royalblue' }}>
+      <h1>Basic Host-Remote</h1>
+      <h2>App 1</h2>
+      <Page />
+      <React.Suspense fallback="Waddup">
+        <RemoteCombo theme={{ main: 'royalblue' }} />
+      </React.Suspense>
+    </ThemeProvider>
   </div>
 );
 
 export default App;
+
+// Page.js
+import React, { useContext } from 'react';
+import { ThemeContext } from 'styled-components';
+const RemoteButton = React.lazy(() => import('app2/Button'));
+const RemoteTitle = React.lazy(() => import('app2/Title'));
+
+const Page = () => {
+  const theme = useContext(ThemeContext);
+
+  return (
+    <React.Fragment>
+      <React.Suspense fallback="Loading Button">
+        <RemoteTitle theme={theme}>Styled Title</RemoteTitle>
+      </React.Suspense>
+      <React.Suspense fallback="Loading Button">
+        <RemoteButton onClick={() => alert('Made it')} theme={theme}>
+          Styled Component
+        </RemoteButton>
+      </React.Suspense>
+    </React.Fragment>
+  );
+};
+
+export default Page;
 
 // Webpack config
 const HtmlWebpackPlugin = require('html-webpack-plugin');
@@ -84,10 +113,63 @@ module.exports = {
 ```js
 // Button.js
 import React from 'react';
+import styled from 'styled-components';
+// Define our button, but with the use of props.theme this time
+const Button = styled.button`
+  font-size: 1em;
+  margin: 1em;
+  padding: 0.25em 1em;
+  border-radius: 3px;
+  /* Color the border and text with theme.main */
+  color: ${(props) => props.theme.main};
+  border: 2px solid ${(props) => props.theme.main};
 
-const Button = () => <button>App 2 Button</button>;
+  &:hover {
+    background-color: ${(props) => props.theme.main};
+    color: black;
+  }
+`;
+// We are passing a default theme for Buttons that arent wrapped in the ThemeProvider
+Button.defaultProps = {
+  theme: {
+    main: 'palevioletred',
+  },
+};
 
 export default Button;
+
+// Title.js
+import React from 'react';
+import styled from 'styled-components';
+
+const Title = styled.h1`
+  font-size: 1.5em;
+  text-align: center;
+  color: ${(props) => props.theme.main};
+`;
+
+Title.defaultProps = {
+  theme: {
+    main: 'black',
+  },
+};
+
+export default Title;
+
+// Combo.js
+import React from 'react';
+import LocalButton from './Button';
+import LocalTitle from './Title';
+
+const App = ({ theme }) => (
+  <div>
+    <LocalTitle theme={theme}>Hello, world!</LocalTitle>
+    <LocalButton theme={theme}>Button</LocalButton>
+  </div>
+);
+
+export default App;
+
 
 // weboack.config.js
 
