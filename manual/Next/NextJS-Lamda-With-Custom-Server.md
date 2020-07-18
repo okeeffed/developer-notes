@@ -48,5 +48,6 @@ app
 
 ## Resources
 
-1. [Online forum](https://awesomeopensource.com/project/mattdamon108/nextjs-with-lambda)
+1. [Deploy NextJS to Lambda](https://moondaddi.dev/post/2019-01-11-Deploy-Nextjs-app-to-AWS-Lambda/)
 2. [AWS Serverless Express](https://github.com/awslabs/aws-serverless-express)
+3. [AWS Vault](https://github.com/99designs/aws-vault)
