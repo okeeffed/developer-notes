@@ -71,7 +71,8 @@ module.exports = {
     port: 3001,
   },
   output: {
-    publicPath: 'http://localhost:3001/',
+    // assuming we are running in Production
+    publicPath: 'https://federation-app.nodular.co/',
   },
   module: {
     rules: [
@@ -97,9 +98,13 @@ module.exports = {
     new ModuleFederationPlugin({
       name: 'app1',
       remotes: {
-        app2: 'app2@http://localhost:3002/remoteEntry.js',
+        app2: 'app2@https://federation.nodular.co/remoteEntry.js',
       },
-      shared: { react: { singleton: true }, 'react-dom': { singleton: true } },
+      shared: {
+        react: { singleton: true },
+        'react-dom': { singleton: true },
+        'styled-components': { singleton: true },
+      },
     }),
     new HtmlWebpackPlugin({
       template: './public/index.html',
@@ -172,7 +177,6 @@ export default App;
 
 
 // weboack.config.js
-
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const { ModuleFederationPlugin } = require('webpack').container;
 const path = require('path');
@@ -185,7 +189,8 @@ module.exports = {
     port: 3002,
   },
   output: {
-    publicPath: 'http://localhost:3002/',
+    // assume we are running in production
+    publicPath: 'https://federation.nodular.co/',
   },
   module: {
     rules: [
@@ -206,6 +211,8 @@ module.exports = {
       filename: 'remoteEntry.js',
       exposes: {
         './Button': './src/Button',
+        './Title': './src/Title',
+        './Combo': './src/Combo',
       },
       shared: { react: { singleton: true }, 'react-dom': { singleton: true } },
     }),
@@ -214,4 +221,5 @@ module.exports = {
     }),
   ],
 };
+
 ```
