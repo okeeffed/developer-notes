@@ -288,3 +288,34 @@ const feedbackMachine = createMachine(
   },
 );
 ```
+
+### Context + Assignment
+
+```js
+import {createMachine, assign} from 'xstate'
+
+const feedbackMachine = createMachine(
+  {
+    initial: 'entry',
+    context: {
+      count: 0
+    }
+    states: {
+      // prefer this object syntax
+      // to wholesale function syntax
+      entry: assign({
+        count: (context, event) => {
+          return context.count + 1
+        }
+      })
+      on: {
+        CLICK: {
+          target: 'thanks',
+          action: 'transitionActive',
+        },
+      },
+      exit: 'exitActive',
+    },
+  },
+}
+```
