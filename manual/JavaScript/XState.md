@@ -228,6 +228,8 @@ One of the benefits of XState is that you can visualize the machine!
 
 ## XState Actions
 
+[Action docs](https://xstate.js.org/docs/guides/actions.html)
+
 1. Transition actions: Moving between states
 2. Entry actions: Entering into state
 3. Exit actions: Exiting state
@@ -317,5 +319,156 @@ const feedbackMachine = createMachine(
       exit: 'exitActive',
     },
   },
-}
+)
+```
+
+## Transitions
+
+[Guarded Transition docs](https://xstate.js.org/docs/guides/guards.html).
+
+### Conditional Predicates
+
+Example here used for retries:
+
+```ts
+import {createMachine, assign} from 'xstate'
+
+const feedbackMachine = createMachine(
+  {
+    initial: 'entry',
+    context: {
+      count: 0
+    }
+    states: {
+      failure: {
+        on: {
+          RETRY: {
+            target: 'loading',
+            actions: assign({
+              retries: (context, event) => context.retries + 1
+            })
+            // HERE is the conditional
+            cond: 'noExceededRetries'
+          }
+        }
+      }
+    },
+  },
+  {
+    // guard for conditional
+    guards: {
+      noExceededRetries: (context, event) => {
+        return context.retries < 5
+      }
+    }
+  }
+)
+```
+
+### Transient Transitions
+
+[Transient docs](https://xstate.js.org/docs/guides/transitions.html#transient-transitions)
+
+Happen on "null" events. Most useful with conditionals.
+
+```js
+const gameMachine = Machine(
+  {
+    id: 'game',
+    initial: 'playing',
+    context: {
+      points: 0,
+    },
+    states: {
+      playing: {
+        on: {
+          // Transient transition
+          // Will transition to either 'win' or 'lose' immediately upon
+          // (re)entering 'playing' state if the condition is met.
+          '': [
+            { target: 'win', cond: 'didPlayerWin' },
+            { target: 'lose', cond: 'didPlayerLose' },
+          ],
+          // Self-transition
+          AWARD_POINTS: {
+            actions: assign({
+              points: 100,
+            }),
+          },
+        },
+      },
+      win: { type: 'final' },
+      lose: { type: 'final' },
+    },
+  },
+  {
+    guards: {
+      didPlayerWin: (context, event) => {
+        // check if player won
+        return context.points > 99;
+      },
+      didPlayerLose: (context, event) => {
+        // check if player lost
+        return context.points < 0;
+      },
+    },
+  },
+);
+
+const gameService = interpret(gameMachine)
+  .onTransition(state => console.log(state.value))
+  .start();
+
+// Still in 'playing' state because no conditions of
+// transient transition were met
+// => 'playing'
+
+// When 'AWARD_POINTS' is sent, a self-transition to 'PLAYING' occurs.
+// The transient transition to 'win' is taken because the 'didPlayerWin'
+// condition is satisfied.
+gameService.send('AWARD_POINTS');
+// => 'win'
+```
+
+### Delayed Transitions
+
+[Delayed Events and Transitions](https://xstate.js.org/docs/guides/delays.html#delayed-transitions)
+
+Transition states happen in zero time. They are never asynchronous. State machines are never async.
+
+You can use delayed transitions with some trickery.
+
+```js
+const lightDelayMachine = Machine(
+  {
+    id: 'lightDelay',
+    initial: 'green',
+    context: {
+      trafficLevel: 'low',
+    },
+    states: {
+      green: {
+        after: {
+          // after 1 second, transition to yellow
+          LIGHT_DELAY: 'yellow',
+        },
+      },
+      yellow: {
+        after: {
+          YELLOW_LIGHT_DELAY: 'red',
+        },
+      },
+      // ...
+    },
+  },
+  {
+    // String delays configured here
+    delays: {
+      LIGHT_DELAY: (context, event) => {
+        return context.trafficLevel === 'low' ? 1000 : 3000;
+      },
+      YELLOW_LIGHT_DELAY: 500, // static value
+    },
+  },
+);
 ```
