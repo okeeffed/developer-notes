@@ -700,3 +700,197 @@ Without dynamic scaling, you can just use the data to adjust your own scaling po
 You can also opt-out of this if you don't want AWS collecting this data.
 
 ## AWS Kinesis
+
+- Collection of services for processing streams of various types.
+- Data processed in "shards" -- each shared able to ingest 1000 records per second.
+- A default limit of 500 shards, but you can increate to unlimited.
+- Record consists of Partition Key, Sequence Number and Data Blog (up to 1MB).
+- Transient Data Store - default of 24 hours but can be configured for 7 days.
+
+There are different "flavours" of Kinesis (like video streams).
+
+For the exam, focus on data stream. With Kinises, we can even do analytics then and there.
+
+Firehose also allows us to automatically send it to "landing spaces" (if we don't have to process it then and there).
+
+### Kinises Key concepts
+
+- The more "shards" you have, the more data that can go through. Data is divided up between shards and eventually ends up in Firehose or a Consumer App.
+- Shards have their own partition key.
+
+## DynamoDB Scaling
+
+The axis (x,y) illustrate (throughput, size) where throughput consists of read/write capacity units and size consists of "max item size (400KB here)".
+
+- Under the hood, Dynamo scales out by partition. It does this by capacity or by size (ie `MAX(capabity, size)`).
+- While AWS allows "burst", generally the RCU/WCU is evely distributed.
+
+In the example given for "hot key" issue, the problem is illustrated when you load WCU for a particular partition if you used a partition key with something like "date" which is unbalanced.
+
+### Autoscaling for Dynamo DB
+
+- Using Target Tracking method to stay close to target utilization.
+- Currently does not scale down if consumption drops to zero
+- Workaround 1: Send reqs to table until it auto scales down.
+- Workaround 2: Manually reduce max capacity to be the same as min capacity.
+- Autoscaling supports Global Secondary Indexes - think of them like a copy of the index.
+
+### On-Demand Scaling
+
+- Gives you capacity whenever you need it.
+- Costs more than traditional provisioning and auto-scaling.
+- Maybe a good idea if you do not have metrics.
+- DynamoDB Accelorator (DAX) cache is something that sits in front of DynamoDB that can give microsecond response instead of millisecond. Good if you require the fastest possible time (read-intensive applications).
+
+## CloudFront Part 2
+
+- Deliver content faster through caching static AND dynamic content at edge locations.
+- Dynamic content delivery achieved using HTTP cookies forwarded from origin.
+- Support's Adobe Flash Media Server's RTMP protocol but must choose that delivery method.
+- Supports media streaming and live streaming but uses HTTP or HTTPS.
+- Origins can be S3, EC2, ELB or another web server.
+- Multiple origins possiblbe. Behaviours can configure content based on URL path.
+
+### Invalidation
+
+- Delete file from origin and wait for TTL.
+- Use AWS console to request invalidation.
+- Use CloudFront API.
+- Several 3rd party tools to invalidate cache.
+- Supports Zone Apex entries (no subdomain).
+- Supports geo restrictions.
+
+## Amazon Simple Notification Service
+
+- Enables pub/sub design patterns.
+- Topics = channel to publish notifications.
+- Subscriptions = configuring an endpoint to receive messages publish on the topic.
+- Endpoint protocols include HTTP(S), Email, SMS, SQS, Amazon Device Message (push notifications) and Lambda.
+
+> SNS useful for when we need several processes to run in parallel. A great way to achieve loosely-coupled architecture.
+
+## SQS
+
+- Reliable, highly-scalable, hosted message queueing service.
+- Available for KMS integration (encrypted messaging).
+- Transient storage (default 4 days, max 14 days).
+- Optionally supports FIFO queue ordering.
+- Max size 256KB but using a special Java SQS SDK, you can have as large as 2GB.
+
+> A standard queue does not guarantee FIFO.
+
+### vs Amazon MQ
+
+- MQ is an implementation of Apache ActiveMQ, a message broker.
+- Functions similar, but with a different implementation of a messaging queue.
+- Fully managed and highly available within a region.
+- Supports ActiveMQ API, JMS, NMS, MQTT, WebSocket.
+- Designed as a drop-in replacement for on-premise message brokers.
+
+The tl;dr:
+
+- Use SQS if you are creating a new application from scratch.
+- Use MQ if you want an easy low-hassle path to migrate to the cloud.
+
+## AWS Lambda, Serverless, Application Manager and EventBridge
+
+- Allows you to run code on demand without infrastructure.
+- Supports a bunch: Common are NodeJS, Python, Java, Go and C#. You can even write your own interpreter.
+- Purpose built for serverless architecture.
+- Code is stateless and executed on an event basis.
+- No fundamental limits to scaling a function since AWS dynamically allocates capacity in relation to events.
+
+### AWS Serverless Application Model
+
+- Opensource framework for building serverless apps on AWS.
+- Uses YAML as the configuraton language.
+- Includes AWS CLI-like functonality to create, deploy and update serverless apps.
+- Enables local testing and debugging of apps using a Lambda-like emulator via Docker.
+- Extension of CF.
+
+### AWS Serverless App Repo
+
+A set of apps that AWS provides for you to fork or use as a basis for your own applications.
+
+### AWS SAM vs Serverless Framework
+
+Similar, but serverless framework supports multi-cloud.
+
+### Amazon EventBridge
+
+A service designed to hook up various event sources, apply some rules and then pass it to other targets.
+
+Why use it? Primarily designed to link AWS and 3rd party applications ie ZenDesk, OneLogin, PagerDuty etc.
+
+## AWS Simple Workflow Service
+
+- Create distributed async systems as workflows.
+- Supports both sequential and parallel processing.
+- Tracks the state of your workflow which you interact and update via API.
+- Best suited for human-enabled workflows like order fulfilment or procedural steps.
+- AWS recommends to look at Step Functions over SWF.
+
+### What is involved with SWF
+
+- Activity worker: interacts with SWF service to get tasks, process tasks and return results.
+- Decider: controls coordination of tasks, such as their ordering, concurrency and scheduling.
+
+## AWS Step Functions
+
+- Managed workflow and orchestration platform
+- Scalable and highly available
+- Define your app as a state machine
+- Create tasks, sequential steps, parallel steps, branching paths or timers
+- Amazon State Language declarative JSON
+- Apps can interact or update the stream via Step Function API
+- Visual interface describes flow and realtime status
+- Detailed logs of each step execution
+
+### When to use step functions?
+
+- Out-out-the-box coordination of AWS service components.
+- Use SWS if you need to support external processes or specialized execution logic (ie manual review steps).
+- Use SQS for message queues; Store and forward patterns (like image resizing).
+- Batch when scheduled or reoccurding taks that do not require heavy logic (ie logs daily)
+
+## AWS Batch
+
+There is still a need for batch processing. AWS Batch helps with this.
+
+Tool to help batching on EC2 instances.
+
+You can create a computer environment: managed or unmanaged, spot of on-demand, vCPUs.
+
+Then you can create a Job Queue with a priority and assign it to job env.
+
+You then create a job definiton: script of JSON, env vars, mount points, IAM role, container image, etc.
+
+Finally, you schedule the job.
+
+## Elastic MapReduce
+
+### What is it?
+
+Elastic MapReduce **is not one product**. It is a collecton of open source projects.
+
+EMR helps to make this collection more of a "push button".
+
+At the core is `Hadoop HDFS` and `Hadoop MapReduce`.
+
+HDFS is the distribution of the file system, MapReduce for the processing and ZooKeeper which handles resource co-ordinaton.
+
+Oozie is a workflow framework. Pig is a scripting framework. Hive is a SQL framework for the Hadoop landscape.
+
+Mahout is for ML, HBase is Columnar Datastore for storing Hadoop data.
+
+Flume is used to ingest application and sys logs. Sqoop facililtates import of data from our databases/sources.
+
+Laying over the top is Ambari which is for management and monitoring.
+
+### Back to AWS EMR
+
+- Managed Hadoop framework for processing huge amounts of data.
+- Also supports Apache Spark, HBase, Presto and Flink.
+- Most commonly used for log analysis, financial analysis or extract, translate and loading (ETL) activities.
+- A "Step" is a programmatic task performed on the data (ie count words sent into EMR).
+- A "Cluster" is a collection of EC2 instances provisioned by EMR to run your Steps. Has a master node, core nodes (attached to HDPS) and task nodes that can be used to work on the steps.
