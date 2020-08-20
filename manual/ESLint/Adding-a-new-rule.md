@@ -9,6 +9,8 @@ menu: ESLint
 
 1. [AST Explorer](https://astexplorer.net/)
 2. [ESLint Docs](https://eslint.org/docs/developer-guide/working-with-rules)
+3. [Extending ESLint Config](https://create-react-app.dev/docs/setting-up-your-editor/#experimental-extending-the-eslint-config)
+4. [Advanced Config](https://create-react-app.dev/docs/advanced-configuration/)
 
 ## Intro
 
@@ -59,3 +61,25 @@ export default function(context) {
   };
 }
 ```
+
+## Adding to CRA
+
+> When set to true, user provided ESLint configs will be used by eslint-loader. Note that any rules set to "error" will stop the application from building.
+
+In a CRA app, add `.eslintrc` and add the following:
+
+```json
+{
+  "eslintConfig": {
+    "extends": "react-app",
+    "rules": {
+      "no-lodash/no-lodash": "warn"
+    },
+    "plugins": ["no-lodash"]
+  }
+}
+```
+
+Finally, to test the rule add `import _ from 'lodash'` into `src/app.jsx`.
+
+Run `EXTEND_ESLINT=true yarn start`.
