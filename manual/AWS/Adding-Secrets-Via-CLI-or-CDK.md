@@ -68,4 +68,51 @@ You'll get back:
 
 ## With the CDK
 
-This example shows
+```ts
+import secretsManager = require('@aws-cdk/aws-secretsmanager');
+
+// ... further down
+new Function(this, `teams-bot-${props.farm}`, {
+  projectName: props.projectName,
+  functionName: `${props.projectName}-teams-bot-${props.farm}`,
+  code: lambda.Code.fromAsset('../path/to/func.zip'),
+  runtime: lambda.Runtime.NODEJS_12_X,
+  handler: 'index.handler',
+  environment: {
+    ...props.functionEnvVars,
+    MICROSOFT_APP_ID: `${
+      secretsManager.Secret.fromSecretArn(
+        this,
+        'ms-app-id',
+        `/${props.projectName}/ms-app-id`,
+      ).secretValue
+    }`,
+    MICROSOFT_APP_PASSWORD: `${
+      secretsManager.Secret.fromSecretArn(
+        this,
+        'ms-app-password',
+        `/${props.projectName}/ms-app-password`,
+      ).secretValue
+    }`,
+    OAUTH_CLIENT_ID: `${
+      secretsManager.Secret.fromSecretArn(
+        this,
+        'oauth-client-id',
+        `/${props.projectName}/oauth-client-id`,
+      ).secretValue
+    }`,
+    OAUTH_CLIENT_SECRET: `${
+      secretsManager.Secret.fromSecretArn(
+        this,
+        'oauth-client-secret',
+        `/${props.projectName}/oauth-client-secret`,
+      ).secretValue
+    }`,
+    NEW_RELIC_APP_NAME: `${props.projectName}-teams-bot-${props.farm}`,
+  },
+  timeout: cdk.Duration.seconds(60),
+  memorySize: 256,
+  vpc: this.cultureAmpEnvironment.vpcRef(this, SubnetType.Services),
+  securityGroups: [sg],
+});
+```
