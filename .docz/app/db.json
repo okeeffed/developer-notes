@@ -463,6 +463,116 @@
             "slug": "aws-kinesis",
             "depth": 2,
             "value": "AWS Kinesis"
+          },
+          {
+            "slug": "kinises-key-concepts",
+            "depth": 3,
+            "value": "Kinises Key concepts"
+          },
+          {
+            "slug": "dynamodb-scaling",
+            "depth": 2,
+            "value": "DynamoDB Scaling"
+          },
+          {
+            "slug": "autoscaling-for-dynamo-db",
+            "depth": 3,
+            "value": "Autoscaling for Dynamo DB"
+          },
+          {
+            "slug": "on-demand-scaling",
+            "depth": 3,
+            "value": "On-Demand Scaling"
+          },
+          {
+            "slug": "cloudfront-part-2",
+            "depth": 2,
+            "value": "CloudFront Part 2"
+          },
+          {
+            "slug": "invalidation",
+            "depth": 3,
+            "value": "Invalidation"
+          },
+          {
+            "slug": "amazon-simple-notification-service",
+            "depth": 2,
+            "value": "Amazon Simple Notification Service"
+          },
+          {
+            "slug": "sqs",
+            "depth": 2,
+            "value": "SQS"
+          },
+          {
+            "slug": "vs-amazon-mq",
+            "depth": 3,
+            "value": "vs Amazon MQ"
+          },
+          {
+            "slug": "aws-lambda-serverless-application-manager-and-eventbridge",
+            "depth": 2,
+            "value": "AWS Lambda, Serverless, Application Manager and EventBridge"
+          },
+          {
+            "slug": "aws-serverless-application-model",
+            "depth": 3,
+            "value": "AWS Serverless Application Model"
+          },
+          {
+            "slug": "aws-serverless-app-repo",
+            "depth": 3,
+            "value": "AWS Serverless App Repo"
+          },
+          {
+            "slug": "aws-sam-vs-serverless-framework",
+            "depth": 3,
+            "value": "AWS SAM vs Serverless Framework"
+          },
+          {
+            "slug": "amazon-eventbridge",
+            "depth": 3,
+            "value": "Amazon EventBridge"
+          },
+          {
+            "slug": "aws-simple-workflow-service",
+            "depth": 2,
+            "value": "AWS Simple Workflow Service"
+          },
+          {
+            "slug": "what-is-involved-with-swf",
+            "depth": 3,
+            "value": "What is involved with SWF"
+          },
+          {
+            "slug": "aws-step-functions",
+            "depth": 2,
+            "value": "AWS Step Functions"
+          },
+          {
+            "slug": "when-to-use-step-functions",
+            "depth": 3,
+            "value": "When to use step functions?"
+          },
+          {
+            "slug": "aws-batch",
+            "depth": 2,
+            "value": "AWS Batch"
+          },
+          {
+            "slug": "elastic-mapreduce",
+            "depth": 2,
+            "value": "Elastic MapReduce"
+          },
+          {
+            "slug": "what-is-it",
+            "depth": 3,
+            "value": "What is it?"
+          },
+          {
+            "slug": "back-to-aws-emr",
+            "depth": 3,
+            "value": "Back to AWS EMR"
           }
         ]
       }
@@ -1237,6 +1347,36 @@
             "slug": "aws-7-to-fix-file-persmissions-for-the-apache-web-server",
             "depth": 2,
             "value": "AWS-7: To fix file persmissions for the Apache web server"
+          }
+        ]
+      }
+    },
+    {
+      "key": "manual/AWS/Adding-Role-Permissions-To-Lambda-CDK.md",
+      "value": {
+        "menu": "AWS",
+        "name": "Adding Secrets Via CLI or CDK",
+        "id": "f71b8379d27c11bfe00b3dd57689896e",
+        "filepath": "manual/AWS/Adding-Role-Permissions-To-Lambda-CDK.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/AWS/Adding-Role-Permissions-To-Lambda-CDK.md",
+        "link": "",
+        "slug": "manual-aws-adding-role-permissions-to-lambda-cdk",
+        "route": "/manual-aws-adding-role-permissions-to-lambda-cdk",
+        "headings": [
+          {
+            "slug": "adding-secrets-via-cli-or-cdk",
+            "depth": 1,
+            "value": "Adding Secrets Via CLI or CDK"
+          },
+          {
+            "slug": "resources",
+            "depth": 2,
+            "value": "Resources"
+          },
+          {
+            "slug": "example",
+            "depth": 2,
+            "value": "Example"
           }
         ]
       }
@@ -2342,111 +2482,6 @@
             "slug": "resources",
             "depth": 2,
             "value": "Resources"
-          }
-        ]
-      }
-    },
-    {
-      "key": "manual/Amplify/Adding-Storage.md",
-      "value": {
-        "name": "Adding Storage",
-        "menu": "Amplify",
-        "id": "13f8980edfad7ad84d3e5c806137b3d0",
-        "filepath": "manual/Amplify/Adding-Storage.md",
-        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Amplify/Adding-Storage.md",
-        "link": "",
-        "slug": "manual-amplify-adding-storage",
-        "route": "/manual-amplify-adding-storage",
-        "headings": [
-          {
-            "slug": "adding-storage-to-amplify",
-            "depth": 1,
-            "value": "Adding Storage to Amplify"
-          },
-          {
-            "slug": "useful-links",
-            "depth": 2,
-            "value": "Useful links"
-          }
-        ]
-      }
-    },
-    {
-      "key": "manual/Amplify/Facebook-Login.md",
-      "value": {
-        "name": "Facebook Login",
-        "menu": "Amplify",
-        "id": "d9b06784265069da65ddeedf4841ffd4",
-        "filepath": "manual/Amplify/Facebook-Login.md",
-        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Amplify/Facebook-Login.md",
-        "link": "",
-        "slug": "manual-amplify-facebook-login",
-        "route": "/manual-amplify-facebook-login",
-        "headings": [
-          {
-            "slug": "facebook-login",
-            "depth": 1,
-            "value": "Facebook Login"
-          },
-          {
-            "slug": "tldr",
-            "depth": 2,
-            "value": "tl;dr"
-          }
-        ]
-      }
-    },
-    {
-      "key": "manual/Amplify/Graphql-Setup.md",
-      "value": {
-        "name": "Graphql Setup",
-        "menu": "Amplify",
-        "id": "c20b92610138602837f77a3da16b8ebb",
-        "filepath": "manual/Amplify/Graphql-Setup.md",
-        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Amplify/Graphql-Setup.md",
-        "link": "",
-        "slug": "manual-amplify-graphql-setup",
-        "route": "/manual-amplify-graphql-setup",
-        "headings": [
-          {
-            "slug": "graphql-setup",
-            "depth": 1,
-            "value": "GraphQL Setup"
-          },
-          {
-            "slug": "links",
-            "depth": 2,
-            "value": "Links"
-          },
-          {
-            "slug": "to-get-it-running",
-            "depth": 2,
-            "value": "To get it running"
-          },
-          {
-            "slug": "example-schema",
-            "depth": 3,
-            "value": "Example schema"
-          },
-          {
-            "slug": "example-mutation",
-            "depth": 3,
-            "value": "Example mutation"
-          },
-          {
-            "slug": "example-query",
-            "depth": 3,
-            "value": "Example query"
-          },
-          {
-            "slug": "autogenerating-code-for-the-schema",
-            "depth": 2,
-            "value": "Autogenerating code for the schema"
-          },
-          {
-            "slug": "1-many-many-to-many-relationship-schemas",
-            "depth": 2,
-            "value": "1-many, many-to-many relationship schemas"
           }
         ]
       }
@@ -3777,6 +3812,111 @@
       }
     },
     {
+      "key": "manual/Amplify/Adding-Storage.md",
+      "value": {
+        "name": "Adding Storage",
+        "menu": "Amplify",
+        "id": "13f8980edfad7ad84d3e5c806137b3d0",
+        "filepath": "manual/Amplify/Adding-Storage.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Amplify/Adding-Storage.md",
+        "link": "",
+        "slug": "manual-amplify-adding-storage",
+        "route": "/manual-amplify-adding-storage",
+        "headings": [
+          {
+            "slug": "adding-storage-to-amplify",
+            "depth": 1,
+            "value": "Adding Storage to Amplify"
+          },
+          {
+            "slug": "useful-links",
+            "depth": 2,
+            "value": "Useful links"
+          }
+        ]
+      }
+    },
+    {
+      "key": "manual/Amplify/Facebook-Login.md",
+      "value": {
+        "name": "Facebook Login",
+        "menu": "Amplify",
+        "id": "d9b06784265069da65ddeedf4841ffd4",
+        "filepath": "manual/Amplify/Facebook-Login.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Amplify/Facebook-Login.md",
+        "link": "",
+        "slug": "manual-amplify-facebook-login",
+        "route": "/manual-amplify-facebook-login",
+        "headings": [
+          {
+            "slug": "facebook-login",
+            "depth": 1,
+            "value": "Facebook Login"
+          },
+          {
+            "slug": "tldr",
+            "depth": 2,
+            "value": "tl;dr"
+          }
+        ]
+      }
+    },
+    {
+      "key": "manual/Amplify/Graphql-Setup.md",
+      "value": {
+        "name": "Graphql Setup",
+        "menu": "Amplify",
+        "id": "c20b92610138602837f77a3da16b8ebb",
+        "filepath": "manual/Amplify/Graphql-Setup.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Amplify/Graphql-Setup.md",
+        "link": "",
+        "slug": "manual-amplify-graphql-setup",
+        "route": "/manual-amplify-graphql-setup",
+        "headings": [
+          {
+            "slug": "graphql-setup",
+            "depth": 1,
+            "value": "GraphQL Setup"
+          },
+          {
+            "slug": "links",
+            "depth": 2,
+            "value": "Links"
+          },
+          {
+            "slug": "to-get-it-running",
+            "depth": 2,
+            "value": "To get it running"
+          },
+          {
+            "slug": "example-schema",
+            "depth": 3,
+            "value": "Example schema"
+          },
+          {
+            "slug": "example-mutation",
+            "depth": 3,
+            "value": "Example mutation"
+          },
+          {
+            "slug": "example-query",
+            "depth": 3,
+            "value": "Example query"
+          },
+          {
+            "slug": "autogenerating-code-for-the-schema",
+            "depth": 2,
+            "value": "Autogenerating code for the schema"
+          },
+          {
+            "slug": "1-many-many-to-many-relationship-schemas",
+            "depth": 2,
+            "value": "1-many, many-to-many relationship schemas"
+          }
+        ]
+      }
+    },
+    {
       "key": "manual/Android/Lists-And-Adapters.md",
       "value": {
         "name": "Lists And Adapters",
@@ -4107,6 +4247,41 @@
             "slug": "in-use",
             "depth": 2,
             "value": "In use"
+          }
+        ]
+      }
+    },
+    {
+      "key": "manual/Auth/React-Course-Auth.md",
+      "value": {
+        "menu": "Auth",
+        "name": "React Course Auth",
+        "id": "2824199d6bc5360f6a89ce9cfeec03ac",
+        "filepath": "manual/Auth/React-Course-Auth.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Auth/React-Course-Auth.md",
+        "link": "",
+        "slug": "manual-auth-react-course-auth",
+        "route": "/manual-auth-react-course-auth",
+        "headings": [
+          {
+            "slug": "react-course-auth",
+            "depth": 1,
+            "value": "React Course Auth"
+          },
+          {
+            "slug": "resources",
+            "depth": 2,
+            "value": "Resources"
+          },
+          {
+            "slug": "general-authentication-notes",
+            "depth": 2,
+            "value": "General Authentication notes"
+          },
+          {
+            "slug": "oauth-servers-vs-js-browser-apps",
+            "depth": 2,
+            "value": "OAuth Servers vs JS Browser apps"
           }
         ]
       }
@@ -5332,6 +5507,56 @@
       }
     },
     {
+      "key": "manual/Business/Personal-MBA.md",
+      "value": {
+        "name": "Personal MBA",
+        "menu": "Business",
+        "id": "99b19726f014e4b3507442e126d2f87b",
+        "filepath": "manual/Business/Personal-MBA.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Business/Personal-MBA.md",
+        "link": "",
+        "slug": "manual-business-personal-mba",
+        "route": "/manual-business-personal-mba",
+        "headings": [
+          {
+            "slug": "5-parts-of-every-business",
+            "depth": 2,
+            "value": "5 Parts of every business"
+          },
+          {
+            "slug": "5-interdependent-core-parts",
+            "depth": 2,
+            "value": "5 Interdependent core parts"
+          },
+          {
+            "slug": "5-core-human-drives",
+            "depth": 2,
+            "value": "5 Core Human Drives"
+          },
+          {
+            "slug": "10-ways-to-evaluate-the-market",
+            "depth": 2,
+            "value": "10 Ways to Evaluate the Market"
+          },
+          {
+            "slug": "12-standard-forms-of-value",
+            "depth": 2,
+            "value": "12 Standard forms of value"
+          },
+          {
+            "slug": "percieved-value",
+            "depth": 2,
+            "value": "Percieved value"
+          },
+          {
+            "slug": "the-iteration-cycle",
+            "depth": 2,
+            "value": "The Iteration Cycle"
+          }
+        ]
+      }
+    },
+    {
       "key": "manual/Braintree/Sandbox.md",
       "value": {
         "name": "Sandbox",
@@ -5417,56 +5642,6 @@
             "slug": "next-steps",
             "depth": 2,
             "value": "Next steps"
-          }
-        ]
-      }
-    },
-    {
-      "key": "manual/Business/Personal-MBA.md",
-      "value": {
-        "name": "Personal MBA",
-        "menu": "Business",
-        "id": "99b19726f014e4b3507442e126d2f87b",
-        "filepath": "manual/Business/Personal-MBA.md",
-        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Business/Personal-MBA.md",
-        "link": "",
-        "slug": "manual-business-personal-mba",
-        "route": "/manual-business-personal-mba",
-        "headings": [
-          {
-            "slug": "5-parts-of-every-business",
-            "depth": 2,
-            "value": "5 Parts of every business"
-          },
-          {
-            "slug": "5-interdependent-core-parts",
-            "depth": 2,
-            "value": "5 Interdependent core parts"
-          },
-          {
-            "slug": "5-core-human-drives",
-            "depth": 2,
-            "value": "5 Core Human Drives"
-          },
-          {
-            "slug": "10-ways-to-evaluate-the-market",
-            "depth": 2,
-            "value": "10 Ways to Evaluate the Market"
-          },
-          {
-            "slug": "12-standard-forms-of-value",
-            "depth": 2,
-            "value": "12 Standard forms of value"
-          },
-          {
-            "slug": "percieved-value",
-            "depth": 2,
-            "value": "Percieved value"
-          },
-          {
-            "slug": "the-iteration-cycle",
-            "depth": 2,
-            "value": "The Iteration Cycle"
           }
         ]
       }
@@ -6862,6 +7037,66 @@
       }
     },
     {
+      "key": "manual/Chrome/React-Chrome-Extensions.md",
+      "value": {
+        "menu": "Chrome",
+        "name": "React Chrome Extensions",
+        "id": "d86aebe10016b1e6e082f115a5e00c82",
+        "filepath": "manual/Chrome/React-Chrome-Extensions.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Chrome/React-Chrome-Extensions.md",
+        "link": "",
+        "slug": "manual-chrome-react-chrome-extensions",
+        "route": "/manual-chrome-react-chrome-extensions",
+        "headings": [
+          {
+            "slug": "react-chrome-extensions",
+            "depth": 1,
+            "value": "React Chrome Extensions"
+          },
+          {
+            "slug": "project-notes",
+            "depth": 2,
+            "value": "Project Notes"
+          },
+          {
+            "slug": "resources",
+            "depth": 2,
+            "value": "Resources"
+          }
+        ]
+      }
+    },
+    {
+      "key": "manual/Communication/Introduction.md",
+      "value": {
+        "menu": "Communication",
+        "name": "Introduction",
+        "id": "0c7a0c3c2bbe377950941083076a9697",
+        "filepath": "manual/Communication/Introduction.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Communication/Introduction.md",
+        "link": "",
+        "slug": "manual-communication-introduction",
+        "route": "/manual-communication-introduction",
+        "headings": [
+          {
+            "slug": "introduction",
+            "depth": 1,
+            "value": "Introduction"
+          },
+          {
+            "slug": "resources",
+            "depth": 2,
+            "value": "Resources"
+          },
+          {
+            "slug": "techniques-and-concepts",
+            "depth": 2,
+            "value": "Techniques and concepts"
+          }
+        ]
+      }
+    },
+    {
       "key": "manual/Computer-Science/Communicating-Sequential-Processess.md",
       "value": {
         "menu": "Computer Science",
@@ -6977,36 +7212,6 @@
             "slug": "links",
             "depth": 2,
             "value": "Links"
-          }
-        ]
-      }
-    },
-    {
-      "key": "manual/Communication/Introduction.md",
-      "value": {
-        "menu": "Communication",
-        "name": "Introduction",
-        "id": "0c7a0c3c2bbe377950941083076a9697",
-        "filepath": "manual/Communication/Introduction.md",
-        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Communication/Introduction.md",
-        "link": "",
-        "slug": "manual-communication-introduction",
-        "route": "/manual-communication-introduction",
-        "headings": [
-          {
-            "slug": "introduction",
-            "depth": 1,
-            "value": "Introduction"
-          },
-          {
-            "slug": "resources",
-            "depth": 2,
-            "value": "Resources"
-          },
-          {
-            "slug": "techniques-and-concepts",
-            "depth": 2,
-            "value": "Techniques and concepts"
           }
         ]
       }
@@ -7287,6 +7492,106 @@
       }
     },
     {
+      "key": "manual/Crontab/Mac-Crontab.md",
+      "value": {
+        "name": "Mac Crontab",
+        "menu": "Crontab",
+        "id": "330114a3ca07cec5d6d351b68d04c48e",
+        "filepath": "manual/Crontab/Mac-Crontab.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Crontab/Mac-Crontab.md",
+        "link": "",
+        "slug": "manual-crontab-mac-crontab",
+        "route": "/manual-crontab-mac-crontab",
+        "headings": [
+          {
+            "slug": "mac-crontab",
+            "depth": 1,
+            "value": "Mac Crontab"
+          }
+        ]
+      }
+    },
+    {
+      "key": "manual/Cypress/Handover.md",
+      "value": {
+        "menu": "Cypress",
+        "name": "Handover",
+        "id": "d3d6ca4ba30ffbf833a2a6526dd75c02",
+        "filepath": "manual/Cypress/Handover.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Cypress/Handover.md",
+        "link": "",
+        "slug": "manual-cypress-handover",
+        "route": "/manual-cypress-handover",
+        "headings": [
+          {
+            "slug": "handover",
+            "depth": 1,
+            "value": "Handover"
+          },
+          {
+            "slug": "resources",
+            "depth": 2,
+            "value": "Resources"
+          },
+          {
+            "slug": "video-2",
+            "depth": 2,
+            "value": "Video 2"
+          },
+          {
+            "slug": "writing-cypress-tests",
+            "depth": 3,
+            "value": "Writing Cypress tests"
+          },
+          {
+            "slug": "do-not-assign-values-in-it-block",
+            "depth": 4,
+            "value": "Do not assign values in it block"
+          },
+          {
+            "slug": "test-structure",
+            "depth": 4,
+            "value": "Test structure"
+          },
+          {
+            "slug": "iscontext",
+            "depth": 3,
+            "value": "isContext"
+          },
+          {
+            "slug": "setting-cookies",
+            "depth": 4,
+            "value": "Setting Cookies"
+          },
+          {
+            "slug": "settinggetting-local-storage",
+            "depth": 4,
+            "value": "Setting/Getting local storage"
+          },
+          {
+            "slug": "get-calls",
+            "depth": 4,
+            "value": "Get calls"
+          },
+          {
+            "slug": "order-of-what-to-pick",
+            "depth": 4,
+            "value": "Order of what to pick"
+          },
+          {
+            "slug": "custom-commands",
+            "depth": 4,
+            "value": "Custom commands"
+          },
+          {
+            "slug": "things-to-be-aware-of",
+            "depth": 3,
+            "value": "Things to be aware of"
+          }
+        ]
+      }
+    },
+    {
       "key": "manual/Data-Engineering/Intro-To-Data-Engineering.md",
       "value": {
         "menu": "Data Engineering",
@@ -7307,26 +7612,6 @@
             "slug": "resources",
             "depth": 2,
             "value": "Resources"
-          }
-        ]
-      }
-    },
-    {
-      "key": "manual/Crontab/Mac-Crontab.md",
-      "value": {
-        "name": "Mac Crontab",
-        "menu": "Crontab",
-        "id": "330114a3ca07cec5d6d351b68d04c48e",
-        "filepath": "manual/Crontab/Mac-Crontab.md",
-        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Crontab/Mac-Crontab.md",
-        "link": "",
-        "slug": "manual-crontab-mac-crontab",
-        "route": "/manual-crontab-mac-crontab",
-        "headings": [
-          {
-            "slug": "mac-crontab",
-            "depth": 1,
-            "value": "Mac Crontab"
           }
         ]
       }
@@ -8167,6 +8452,37 @@
       }
     },
     {
+      "key": "manual/Deno/Using-NPM-Packages-With-Deno.md",
+      "value": {
+        "menu": "Deno",
+        "title": "Using NPM Packages with Deno",
+        "id": "ffdb70fe9042439388adc89ab9c05ee6",
+        "filepath": "manual/Deno/Using-NPM-Packages-With-Deno.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Deno/Using-NPM-Packages-With-Deno.md",
+        "link": "",
+        "slug": "manual-deno-using-npm-packages-with-deno",
+        "route": "/manual-deno-using-npm-packages-with-deno",
+        "name": "Using npm packages with deno",
+        "headings": [
+          {
+            "slug": "using-npm-packages-with-deno",
+            "depth": 1,
+            "value": "Using NPM Packages with Deno"
+          },
+          {
+            "slug": "resources",
+            "depth": 2,
+            "value": "Resources"
+          },
+          {
+            "slug": "example-with-xstate",
+            "depth": 2,
+            "value": "Example with XState"
+          }
+        ]
+      }
+    },
+    {
       "key": "manual/Design/Design-fundamentals-7-tricks-graphic-designers-dont-want-you-to-know.md",
       "value": {
         "name": "Design Fundamentals 7 Tricks Graphic Designers Dont Want You To Know",
@@ -8287,216 +8603,6 @@
             "slug": "thanks-thats-it",
             "depth": 1,
             "value": "Thanks that’s it."
-          }
-        ]
-      }
-    },
-    {
-      "key": "manual/Design-Systems/Comparing-Design-Systems.md",
-      "value": {
-        "menu": "Design Systems",
-        "name": "Comparing Design System Components",
-        "id": "c6291a74c7824a6dd407c3f383f607c8",
-        "filepath": "manual/Design-Systems/Comparing-Design-Systems.md",
-        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Design-Systems/Comparing-Design-Systems.md",
-        "link": "",
-        "slug": "manual-design-systems-comparing-design-systems",
-        "route": "/manual-design-systems-comparing-design-systems",
-        "headings": [
-          {
-            "slug": "comparing-design-system-components",
-            "depth": 1,
-            "value": "Comparing Design System Components"
-          },
-          {
-            "slug": "table-of-contents",
-            "depth": 2,
-            "value": "Table of Contents"
-          },
-          {
-            "slug": "button",
-            "depth": 2,
-            "value": "Button"
-          }
-        ]
-      }
-    },
-    {
-      "key": "manual/Design-Systems/Design-Systems.md",
-      "value": {
-        "name": "Design Systems",
-        "menu": "Design Systems",
-        "id": "c8e1f9241ac8e7cdc46c75aa9e8ccbe0",
-        "filepath": "manual/Design-Systems/Design-Systems.md",
-        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Design-Systems/Design-Systems.md",
-        "link": "",
-        "slug": "manual-design-systems-design-systems",
-        "route": "/manual-design-systems-design-systems",
-        "headings": [
-          {
-            "slug": "design-systems",
-            "depth": 1,
-            "value": "Design Systems"
-          },
-          {
-            "slug": "from-the-podcast",
-            "depth": 2,
-            "value": "From the podcast"
-          },
-          {
-            "slug": "design-system-links",
-            "depth": 2,
-            "value": "Design System Links"
-          },
-          {
-            "slug": "carbon-design-system",
-            "depth": 2,
-            "value": "Carbon Design System"
-          },
-          {
-            "slug": "guidelines",
-            "depth": 3,
-            "value": "Guidelines"
-          },
-          {
-            "slug": "accessibility",
-            "depth": 4,
-            "value": "Accessibility"
-          },
-          {
-            "slug": "content",
-            "depth": 4,
-            "value": "Content"
-          },
-          {
-            "slug": "principles",
-            "depth": 4,
-            "value": "Principles"
-          },
-          {
-            "slug": "style",
-            "depth": 3,
-            "value": "Style"
-          },
-          {
-            "slug": "components",
-            "depth": 3,
-            "value": "Components"
-          },
-          {
-            "slug": "a11y-style-guide",
-            "depth": 2,
-            "value": "A11y Style Guide"
-          },
-          {
-            "slug": "material-design",
-            "depth": 2,
-            "value": "Material Design"
-          },
-          {
-            "slug": "colour",
-            "depth": 3,
-            "value": "Colour"
-          },
-          {
-            "slug": "patterns",
-            "depth": 3,
-            "value": "Patterns"
-          },
-          {
-            "slug": "growth--communications",
-            "depth": 3,
-            "value": "Growth & communications"
-          },
-          {
-            "slug": "platforms",
-            "depth": 3,
-            "value": "Platforms"
-          },
-          {
-            "slug": "viljamisdesigncom",
-            "depth": 2,
-            "value": "viljamisdesign.com"
-          },
-          {
-            "slug": "atlassian-design",
-            "depth": 2,
-            "value": "Atlassian design"
-          },
-          {
-            "slug": "dropbox-branding",
-            "depth": 2,
-            "value": "Dropbox Branding"
-          },
-          {
-            "slug": "government-guidelines",
-            "depth": 2,
-            "value": "Government Guidelines"
-          },
-          {
-            "slug": "microservices",
-            "depth": 2,
-            "value": "Microservices"
-          },
-          {
-            "slug": "logging",
-            "depth": 3,
-            "value": "Logging"
-          },
-          {
-            "slug": "coding",
-            "depth": 2,
-            "value": "Coding"
-          },
-          {
-            "slug": "concerning-factors",
-            "depth": 3,
-            "value": "Concerning factors"
-          },
-          {
-            "slug": "workplace-best-practises",
-            "depth": 2,
-            "value": "Workplace Best Practises"
-          },
-          {
-            "slug": "mathemetic-concepts",
-            "depth": 2,
-            "value": "Mathemetic Concepts"
-          },
-          {
-            "slug": "inspiration",
-            "depth": 2,
-            "value": "Inspiration"
-          }
-        ]
-      }
-    },
-    {
-      "key": "manual/Design-Systems/Design-Tokens.md",
-      "value": {
-        "menu": "Design Systems",
-        "name": "Design Tokens",
-        "id": "db7a9be0b777f43fc1f041be9703913a",
-        "filepath": "manual/Design-Systems/Design-Tokens.md",
-        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Design-Systems/Design-Tokens.md",
-        "link": "",
-        "slug": "manual-design-systems-design-tokens",
-        "route": "/manual-design-systems-design-tokens",
-        "headings": [
-          {
-            "slug": "design-tokens",
-            "depth": 1,
-            "value": "Design Tokens"
-          },
-          {
-            "slug": "useful-links",
-            "depth": 2,
-            "value": "Useful links"
-          },
-          {
-            "slug": "elements-to-think-about",
-            "depth": 2,
-            "value": "Elements to think about"
           }
         ]
       }
@@ -9257,6 +9363,216 @@
       }
     },
     {
+      "key": "manual/Design-Systems/Comparing-Design-Systems.md",
+      "value": {
+        "menu": "Design Systems",
+        "name": "Comparing Design System Components",
+        "id": "c6291a74c7824a6dd407c3f383f607c8",
+        "filepath": "manual/Design-Systems/Comparing-Design-Systems.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Design-Systems/Comparing-Design-Systems.md",
+        "link": "",
+        "slug": "manual-design-systems-comparing-design-systems",
+        "route": "/manual-design-systems-comparing-design-systems",
+        "headings": [
+          {
+            "slug": "comparing-design-system-components",
+            "depth": 1,
+            "value": "Comparing Design System Components"
+          },
+          {
+            "slug": "table-of-contents",
+            "depth": 2,
+            "value": "Table of Contents"
+          },
+          {
+            "slug": "button",
+            "depth": 2,
+            "value": "Button"
+          }
+        ]
+      }
+    },
+    {
+      "key": "manual/Design-Systems/Design-Systems.md",
+      "value": {
+        "name": "Design Systems",
+        "menu": "Design Systems",
+        "id": "c8e1f9241ac8e7cdc46c75aa9e8ccbe0",
+        "filepath": "manual/Design-Systems/Design-Systems.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Design-Systems/Design-Systems.md",
+        "link": "",
+        "slug": "manual-design-systems-design-systems",
+        "route": "/manual-design-systems-design-systems",
+        "headings": [
+          {
+            "slug": "design-systems",
+            "depth": 1,
+            "value": "Design Systems"
+          },
+          {
+            "slug": "from-the-podcast",
+            "depth": 2,
+            "value": "From the podcast"
+          },
+          {
+            "slug": "design-system-links",
+            "depth": 2,
+            "value": "Design System Links"
+          },
+          {
+            "slug": "carbon-design-system",
+            "depth": 2,
+            "value": "Carbon Design System"
+          },
+          {
+            "slug": "guidelines",
+            "depth": 3,
+            "value": "Guidelines"
+          },
+          {
+            "slug": "accessibility",
+            "depth": 4,
+            "value": "Accessibility"
+          },
+          {
+            "slug": "content",
+            "depth": 4,
+            "value": "Content"
+          },
+          {
+            "slug": "principles",
+            "depth": 4,
+            "value": "Principles"
+          },
+          {
+            "slug": "style",
+            "depth": 3,
+            "value": "Style"
+          },
+          {
+            "slug": "components",
+            "depth": 3,
+            "value": "Components"
+          },
+          {
+            "slug": "a11y-style-guide",
+            "depth": 2,
+            "value": "A11y Style Guide"
+          },
+          {
+            "slug": "material-design",
+            "depth": 2,
+            "value": "Material Design"
+          },
+          {
+            "slug": "colour",
+            "depth": 3,
+            "value": "Colour"
+          },
+          {
+            "slug": "patterns",
+            "depth": 3,
+            "value": "Patterns"
+          },
+          {
+            "slug": "growth--communications",
+            "depth": 3,
+            "value": "Growth & communications"
+          },
+          {
+            "slug": "platforms",
+            "depth": 3,
+            "value": "Platforms"
+          },
+          {
+            "slug": "viljamisdesigncom",
+            "depth": 2,
+            "value": "viljamisdesign.com"
+          },
+          {
+            "slug": "atlassian-design",
+            "depth": 2,
+            "value": "Atlassian design"
+          },
+          {
+            "slug": "dropbox-branding",
+            "depth": 2,
+            "value": "Dropbox Branding"
+          },
+          {
+            "slug": "government-guidelines",
+            "depth": 2,
+            "value": "Government Guidelines"
+          },
+          {
+            "slug": "microservices",
+            "depth": 2,
+            "value": "Microservices"
+          },
+          {
+            "slug": "logging",
+            "depth": 3,
+            "value": "Logging"
+          },
+          {
+            "slug": "coding",
+            "depth": 2,
+            "value": "Coding"
+          },
+          {
+            "slug": "concerning-factors",
+            "depth": 3,
+            "value": "Concerning factors"
+          },
+          {
+            "slug": "workplace-best-practises",
+            "depth": 2,
+            "value": "Workplace Best Practises"
+          },
+          {
+            "slug": "mathemetic-concepts",
+            "depth": 2,
+            "value": "Mathemetic Concepts"
+          },
+          {
+            "slug": "inspiration",
+            "depth": 2,
+            "value": "Inspiration"
+          }
+        ]
+      }
+    },
+    {
+      "key": "manual/Design-Systems/Design-Tokens.md",
+      "value": {
+        "menu": "Design Systems",
+        "name": "Design Tokens",
+        "id": "db7a9be0b777f43fc1f041be9703913a",
+        "filepath": "manual/Design-Systems/Design-Tokens.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Design-Systems/Design-Tokens.md",
+        "link": "",
+        "slug": "manual-design-systems-design-tokens",
+        "route": "/manual-design-systems-design-tokens",
+        "headings": [
+          {
+            "slug": "design-tokens",
+            "depth": 1,
+            "value": "Design Tokens"
+          },
+          {
+            "slug": "useful-links",
+            "depth": 2,
+            "value": "Useful links"
+          },
+          {
+            "slug": "elements-to-think-about",
+            "depth": 2,
+            "value": "Elements to think about"
+          }
+        ]
+      }
+    },
+    {
       "key": "manual/DevOps/Caching.md",
       "value": {
         "menu": "DevOps",
@@ -9671,161 +9987,6 @@
             "slug": "what-is-a-dfs",
             "depth": 2,
             "value": "What is a DFS?"
-          }
-        ]
-      }
-    },
-    {
-      "key": "manual/Dotnet/Adding-Models.md",
-      "value": {
-        "menu": "Dotnet",
-        "name": "Adding Models in Dotnet",
-        "id": "c017f2681bfc0e9e91e8f42e4c7318f6",
-        "filepath": "manual/Dotnet/Adding-Models.md",
-        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Dotnet/Adding-Models.md",
-        "link": "",
-        "slug": "manual-dotnet-adding-models",
-        "route": "/manual-dotnet-adding-models",
-        "headings": [
-          {
-            "slug": "adding-models",
-            "depth": 1,
-            "value": "Adding Models"
-          },
-          {
-            "slug": "resources",
-            "depth": 2,
-            "value": "Resources"
-          },
-          {
-            "slug": "add-a-data-model-class",
-            "depth": 2,
-            "value": "Add a data model class"
-          },
-          {
-            "slug": "add-nuget-packages",
-            "depth": 2,
-            "value": "Add NuGet Packages"
-          },
-          {
-            "slug": "create-database-context-class",
-            "depth": 2,
-            "value": "Create database context class"
-          },
-          {
-            "slug": "register-the-database-context",
-            "depth": 2,
-            "value": "Register the database context"
-          },
-          {
-            "slug": "add-a-database-connection-string",
-            "depth": 2,
-            "value": "Add a database connection string"
-          },
-          {
-            "slug": "scaffold-movie-pages",
-            "depth": 2,
-            "value": "Scaffold movie pages"
-          },
-          {
-            "slug": "initial-migration",
-            "depth": 2,
-            "value": "Initial migration"
-          },
-          {
-            "slug": "the-initialcreate-class",
-            "depth": 2,
-            "value": "The InitialCreate class"
-          },
-          {
-            "slug": "dependency-injection-in-the-controller",
-            "depth": 2,
-            "value": "Dependency injection in the controller"
-          }
-        ]
-      }
-    },
-    {
-      "key": "manual/Dotnet/Getting-Started.md",
-      "value": {
-        "menu": "Dotnet",
-        "name": "Getting Started with Dotnet",
-        "id": "09e5d7156459948f0058d6b4fedef19e",
-        "filepath": "manual/Dotnet/Getting-Started.md",
-        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Dotnet/Getting-Started.md",
-        "link": "",
-        "slug": "manual-dotnet-getting-started",
-        "route": "/manual-dotnet-getting-started",
-        "headings": [
-          {
-            "slug": "getting-start-with-dotnet",
-            "depth": 1,
-            "value": "Getting Start with Dotnet"
-          },
-          {
-            "slug": "resources",
-            "depth": 2,
-            "value": "Resources"
-          },
-          {
-            "slug": "getting-started",
-            "depth": 2,
-            "value": "Getting started"
-          },
-          {
-            "slug": "creating-a-console-app",
-            "depth": 2,
-            "value": "Creating a Console App"
-          },
-          {
-            "slug": "creating-a-web-application",
-            "depth": 2,
-            "value": "Creating a Web application"
-          },
-          {
-            "slug": "updating-the-code-in-the-application",
-            "depth": 2,
-            "value": "Updating the code in the application"
-          }
-        ]
-      }
-    },
-    {
-      "key": "manual/Dotnet/Package-Management.md",
-      "value": {
-        "menu": "Dotnet",
-        "name": "Dotnet Package Management",
-        "id": "7809044b1a241f9995b43bf9bb2ab6a3",
-        "filepath": "manual/Dotnet/Package-Management.md",
-        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Dotnet/Package-Management.md",
-        "link": "",
-        "slug": "manual-dotnet-package-management",
-        "route": "/manual-dotnet-package-management",
-        "headings": [
-          {
-            "slug": "dotnet-package-management",
-            "depth": 1,
-            "value": "Dotnet Package Management"
-          },
-          {
-            "slug": "resources",
-            "depth": 2,
-            "value": "Resources"
-          },
-          {
-            "slug": "installing-a-package-on-a-dotnet-project",
-            "depth": 2,
-            "value": "Installing a package on a Dotnet project"
-          },
-          {
-            "slug": "specific-examples",
-            "depth": 2,
-            "value": "Specific Examples"
-          },
-          {
-            "slug": "other-useful-commands",
-            "depth": 2,
-            "value": "Other useful commands"
           }
         ]
       }
@@ -10391,6 +10552,161 @@
       }
     },
     {
+      "key": "manual/Dotnet/Adding-Models.md",
+      "value": {
+        "menu": "Dotnet",
+        "name": "Adding Models in Dotnet",
+        "id": "c017f2681bfc0e9e91e8f42e4c7318f6",
+        "filepath": "manual/Dotnet/Adding-Models.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Dotnet/Adding-Models.md",
+        "link": "",
+        "slug": "manual-dotnet-adding-models",
+        "route": "/manual-dotnet-adding-models",
+        "headings": [
+          {
+            "slug": "adding-models",
+            "depth": 1,
+            "value": "Adding Models"
+          },
+          {
+            "slug": "resources",
+            "depth": 2,
+            "value": "Resources"
+          },
+          {
+            "slug": "add-a-data-model-class",
+            "depth": 2,
+            "value": "Add a data model class"
+          },
+          {
+            "slug": "add-nuget-packages",
+            "depth": 2,
+            "value": "Add NuGet Packages"
+          },
+          {
+            "slug": "create-database-context-class",
+            "depth": 2,
+            "value": "Create database context class"
+          },
+          {
+            "slug": "register-the-database-context",
+            "depth": 2,
+            "value": "Register the database context"
+          },
+          {
+            "slug": "add-a-database-connection-string",
+            "depth": 2,
+            "value": "Add a database connection string"
+          },
+          {
+            "slug": "scaffold-movie-pages",
+            "depth": 2,
+            "value": "Scaffold movie pages"
+          },
+          {
+            "slug": "initial-migration",
+            "depth": 2,
+            "value": "Initial migration"
+          },
+          {
+            "slug": "the-initialcreate-class",
+            "depth": 2,
+            "value": "The InitialCreate class"
+          },
+          {
+            "slug": "dependency-injection-in-the-controller",
+            "depth": 2,
+            "value": "Dependency injection in the controller"
+          }
+        ]
+      }
+    },
+    {
+      "key": "manual/Dotnet/Getting-Started.md",
+      "value": {
+        "menu": "Dotnet",
+        "name": "Getting Started with Dotnet",
+        "id": "09e5d7156459948f0058d6b4fedef19e",
+        "filepath": "manual/Dotnet/Getting-Started.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Dotnet/Getting-Started.md",
+        "link": "",
+        "slug": "manual-dotnet-getting-started",
+        "route": "/manual-dotnet-getting-started",
+        "headings": [
+          {
+            "slug": "getting-start-with-dotnet",
+            "depth": 1,
+            "value": "Getting Start with Dotnet"
+          },
+          {
+            "slug": "resources",
+            "depth": 2,
+            "value": "Resources"
+          },
+          {
+            "slug": "getting-started",
+            "depth": 2,
+            "value": "Getting started"
+          },
+          {
+            "slug": "creating-a-console-app",
+            "depth": 2,
+            "value": "Creating a Console App"
+          },
+          {
+            "slug": "creating-a-web-application",
+            "depth": 2,
+            "value": "Creating a Web application"
+          },
+          {
+            "slug": "updating-the-code-in-the-application",
+            "depth": 2,
+            "value": "Updating the code in the application"
+          }
+        ]
+      }
+    },
+    {
+      "key": "manual/Dotnet/Package-Management.md",
+      "value": {
+        "menu": "Dotnet",
+        "name": "Dotnet Package Management",
+        "id": "7809044b1a241f9995b43bf9bb2ab6a3",
+        "filepath": "manual/Dotnet/Package-Management.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Dotnet/Package-Management.md",
+        "link": "",
+        "slug": "manual-dotnet-package-management",
+        "route": "/manual-dotnet-package-management",
+        "headings": [
+          {
+            "slug": "dotnet-package-management",
+            "depth": 1,
+            "value": "Dotnet Package Management"
+          },
+          {
+            "slug": "resources",
+            "depth": 2,
+            "value": "Resources"
+          },
+          {
+            "slug": "installing-a-package-on-a-dotnet-project",
+            "depth": 2,
+            "value": "Installing a package on a Dotnet project"
+          },
+          {
+            "slug": "specific-examples",
+            "depth": 2,
+            "value": "Specific Examples"
+          },
+          {
+            "slug": "other-useful-commands",
+            "depth": 2,
+            "value": "Other useful commands"
+          }
+        ]
+      }
+    },
+    {
       "key": "manual/Drupal/Drupal-8-Modules.md",
       "value": {
         "name": "Drupal 8 Modules",
@@ -10586,6 +10902,51 @@
             "slug": "create-a-new-content-type---event",
             "depth": 3,
             "value": "Create a new content type - Event"
+          }
+        ]
+      }
+    },
+    {
+      "key": "manual/ESLint/Adding-a-new-rule.md",
+      "value": {
+        "name": "Adding a new lint rule",
+        "menu": "ESLint",
+        "id": "34b6a7c1ac91d7fb8f67cbfb2de5e99e",
+        "filepath": "manual/ESLint/Adding-a-new-rule.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/ESLint/Adding-a-new-rule.md",
+        "link": "",
+        "slug": "manual-es-lint-adding-a-new-rule",
+        "route": "/manual-es-lint-adding-a-new-rule",
+        "headings": [
+          {
+            "slug": "adding-a-new-lint-rule",
+            "depth": 1,
+            "value": "Adding a new lint rule"
+          },
+          {
+            "slug": "resources",
+            "depth": 2,
+            "value": "Resources"
+          },
+          {
+            "slug": "intro",
+            "depth": 2,
+            "value": "Intro"
+          },
+          {
+            "slug": "the-replace-function",
+            "depth": 2,
+            "value": "The replace function"
+          },
+          {
+            "slug": "within-the-actual-rule-package",
+            "depth": 2,
+            "value": "Within the actual rule package"
+          },
+          {
+            "slug": "adding-to-cra",
+            "depth": 2,
+            "value": "Adding to CRA"
           }
         ]
       }
@@ -13066,6 +13427,36 @@
             "slug": "adding-a-file-to-a-repo-using-octokit",
             "depth": 2,
             "value": "Adding a file to a repo using Octokit"
+          }
+        ]
+      }
+    },
+    {
+      "key": "manual/Go/Authentication-With-Goth.md",
+      "value": {
+        "menu": "Go",
+        "name": "Authentication with Goth",
+        "id": "937dcee4467b9c9b32c427d68d911e8a",
+        "filepath": "manual/Go/Authentication-With-Goth.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Go/Authentication-With-Goth.md",
+        "link": "",
+        "slug": "manual-go-authentication-with-goth",
+        "route": "/manual-go-authentication-with-goth",
+        "headings": [
+          {
+            "slug": "authentication-with-goth",
+            "depth": 1,
+            "value": "Authentication with Goth"
+          },
+          {
+            "slug": "resources",
+            "depth": 2,
+            "value": "Resources"
+          },
+          {
+            "slug": "example-with-github",
+            "depth": 2,
+            "value": "Example with GitHub"
           }
         ]
       }
@@ -15716,556 +16107,6 @@
       }
     },
     {
-      "key": "manual/Jest/Extending-Jest.md",
-      "value": {
-        "menu": "Jest",
-        "name": "Extending Jest",
-        "id": "5f9e28f60826ef5969df79924e410034",
-        "filepath": "manual/Jest/Extending-Jest.md",
-        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Jest/Extending-Jest.md",
-        "link": "",
-        "slug": "manual-jest-extending-jest",
-        "route": "/manual-jest-extending-jest",
-        "headings": [
-          {
-            "slug": "extending-jest",
-            "depth": 1,
-            "value": "Extending Jest"
-          }
-        ]
-      }
-    },
-    {
-      "key": "manual/Jest/JS-Testing-Practices-And-Principles.md",
-      "value": {
-        "menu": "Jest",
-        "name": "JS-Testing-Practices-And-Principles",
-        "id": "29306b825d079746a5af5cadfb58944a",
-        "filepath": "manual/Jest/JS-Testing-Practices-And-Principles.md",
-        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Jest/JS-Testing-Practices-And-Principles.md",
-        "link": "",
-        "slug": "manual-jest-js-testing-practices-and-principles",
-        "route": "/manual-jest-js-testing-practices-and-principles",
-        "headings": [
-          {
-            "slug": "js-testing-practices-and-principles",
-            "depth": 1,
-            "value": "JS-Testing-Practices-And-Principles"
-          },
-          {
-            "slug": "resources",
-            "depth": 2,
-            "value": "Resources"
-          },
-          {
-            "slug": "jest-intro",
-            "depth": 2,
-            "value": "Jest Intro"
-          },
-          {
-            "slug": "cli",
-            "depth": 3,
-            "value": "CLI"
-          },
-          {
-            "slug": "commands",
-            "depth": 3,
-            "value": "Commands"
-          },
-          {
-            "slug": "test-factories-and-colocating-tests-qa",
-            "depth": 2,
-            "value": "Test Factories and Colocating Tests Q&A"
-          },
-          {
-            "slug": "code-coverage",
-            "depth": 2,
-            "value": "Code coverage"
-          },
-          {
-            "slug": "monkey-patch-a-mock",
-            "depth": 2,
-            "value": "Monkey Patch a mock"
-          },
-          {
-            "slug": "assert-calling-a-mock",
-            "depth": 2,
-            "value": "Assert calling a mock"
-          },
-          {
-            "slug": "jest-spyon",
-            "depth": 2,
-            "value": "Jest spyOn"
-          },
-          {
-            "slug": "jest-mock",
-            "depth": 2,
-            "value": "Jest Mock"
-          },
-          {
-            "slug": "using-a-__mocks__-directory",
-            "depth": 2,
-            "value": "Using a  __mocks__  directory"
-          },
-          {
-            "slug": "test-factories",
-            "depth": 2,
-            "value": "Test Factories"
-          },
-          {
-            "slug": "conclusion",
-            "depth": 2,
-            "value": "Conclusion"
-          }
-        ]
-      }
-    },
-    {
-      "key": "manual/Kafka/Clients.md",
-      "value": {
-        "menu": "Kafka",
-        "name": "Kafka Clients",
-        "id": "760084c9abca747db48bce259c82f722",
-        "filepath": "manual/Kafka/Clients.md",
-        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Kafka/Clients.md",
-        "link": "",
-        "slug": "manual-kafka-clients",
-        "route": "/manual-kafka-clients",
-        "headings": [
-          {
-            "slug": "kafka-clients",
-            "depth": 1,
-            "value": "Kafka Clients"
-          },
-          {
-            "slug": "docker-kafka",
-            "depth": 2,
-            "value": "Docker Kafka"
-          },
-          {
-            "slug": "kubernetes",
-            "depth": 2,
-            "value": "Kubernetes"
-          }
-        ]
-      }
-    },
-    {
-      "key": "manual/Kafka/Hello-Kafka.md",
-      "value": {
-        "menu": "Kafka",
-        "name": "Hello Kafka",
-        "id": "39bbc5132506a925f0e0c0d775be3460",
-        "filepath": "manual/Kafka/Hello-Kafka.md",
-        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Kafka/Hello-Kafka.md",
-        "link": "",
-        "slug": "manual-kafka-hello-kafka",
-        "route": "/manual-kafka-hello-kafka",
-        "headings": [
-          {
-            "slug": "hello-kafka",
-            "depth": 1,
-            "value": "Hello Kafka"
-          },
-          {
-            "slug": "resources",
-            "depth": 2,
-            "value": "Resources"
-          },
-          {
-            "slug": "getting-started-with-nodejs",
-            "depth": 2,
-            "value": "Getting Started with Nodejs"
-          },
-          {
-            "slug": "prerequisites",
-            "depth": 2,
-            "value": "Prerequisites"
-          },
-          {
-            "slug": "docker-composing",
-            "depth": 2,
-            "value": "Docker Composing"
-          },
-          {
-            "slug": "consumeproducing-from-within-docker-container",
-            "depth": 2,
-            "value": "Consume/Producing from within Docker Container"
-          },
-          {
-            "slug": "node-kafka",
-            "depth": 2,
-            "value": "Node Kafka"
-          },
-          {
-            "slug": "producer",
-            "depth": 2,
-            "value": "Producer"
-          },
-          {
-            "slug": "consumer",
-            "depth": 2,
-            "value": "Consumer"
-          },
-          {
-            "slug": "running-it-altogether",
-            "depth": 2,
-            "value": "Running it altogether"
-          }
-        ]
-      }
-    },
-    {
-      "key": "manual/Kafka/Kafka-Admin.md",
-      "value": {
-        "menu": "Kafka",
-        "name": "Kafka Administration",
-        "id": "9109e882bbfff6b994dd53ef8a005be2",
-        "filepath": "manual/Kafka/Kafka-Admin.md",
-        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Kafka/Kafka-Admin.md",
-        "link": "",
-        "slug": "manual-kafka-kafka-admin",
-        "route": "/manual-kafka-kafka-admin",
-        "headings": [
-          {
-            "slug": "kafka-administration",
-            "depth": 1,
-            "value": "Kafka Administration"
-          },
-          {
-            "slug": "file-formats-and-indexes",
-            "depth": 2,
-            "value": "File Formats and Indexes"
-          },
-          {
-            "slug": "file-management",
-            "depth": 2,
-            "value": "File Management"
-          },
-          {
-            "slug": "storage-structures",
-            "depth": 2,
-            "value": "Storage Structures"
-          },
-          {
-            "slug": "stream-processing",
-            "depth": 2,
-            "value": "Stream Processing"
-          },
-          {
-            "slug": "data-replication",
-            "depth": 2,
-            "value": "Data Replication"
-          },
-          {
-            "slug": "mirrormaker",
-            "depth": 2,
-            "value": "MirrorMaker"
-          },
-          {
-            "slug": "cluster-and-broker-monitoring",
-            "depth": 2,
-            "value": "Cluster and Broker Monitoring"
-          },
-          {
-            "slug": "monitoring-the-overall-health",
-            "depth": 2,
-            "value": "Monitoring the Overall Health"
-          },
-          {
-            "slug": "broker-metrics-to-follow",
-            "depth": 2,
-            "value": "Broker Metrics to Follow"
-          }
-        ]
-      }
-    },
-    {
-      "key": "manual/Kafka/Kafka-Advanced-Admin.md",
-      "value": {
-        "menu": "Kafka",
-        "name": "Kafka Advanced Config",
-        "id": "2c991ff1106f99b982e2d01aed37c5b0",
-        "filepath": "manual/Kafka/Kafka-Advanced-Admin.md",
-        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Kafka/Kafka-Advanced-Admin.md",
-        "link": "",
-        "slug": "manual-kafka-kafka-advanced-admin",
-        "route": "/manual-kafka-kafka-advanced-admin",
-        "headings": [
-          {
-            "slug": "kafka-advanced-config",
-            "depth": 1,
-            "value": "Kafka Advanced Config"
-          },
-          {
-            "slug": "advanced-producers",
-            "depth": 2,
-            "value": "Advanced Producers"
-          },
-          {
-            "slug": "idempotent-producers",
-            "depth": 2,
-            "value": "Idempotent Producers"
-          },
-          {
-            "slug": "impotent-producer-config",
-            "depth": 3,
-            "value": "Impotent Producer Config"
-          },
-          {
-            "slug": "batch-compression",
-            "depth": 2,
-            "value": "Batch Compression"
-          },
-          {
-            "slug": "batch-size-and-timing",
-            "depth": 3,
-            "value": "Batch Size and Timing"
-          },
-          {
-            "slug": "serializer",
-            "depth": 2,
-            "value": "Serializer"
-          },
-          {
-            "slug": "producer-buffer-memory",
-            "depth": 2,
-            "value": "Producer Buffer Memory"
-          },
-          {
-            "slug": "advanced-consumers",
-            "depth": 2,
-            "value": "Advanced Consumers"
-          },
-          {
-            "slug": "reading-duplicate-messages",
-            "depth": 2,
-            "value": "Reading Duplicate Messages"
-          },
-          {
-            "slug": "tracking-offsets",
-            "depth": 2,
-            "value": "Tracking Offsets"
-          },
-          {
-            "slug": "partition-rebalancing",
-            "depth": 2,
-            "value": "Partition Rebalancing"
-          },
-          {
-            "slug": "consumer-group-coordinator",
-            "depth": 2,
-            "value": "Consumer Group Coordinator"
-          },
-          {
-            "slug": "advanced-topics",
-            "depth": 2,
-            "value": "Advanced Topics"
-          },
-          {
-            "slug": "topic-design",
-            "depth": 2,
-            "value": "Topic Design"
-          },
-          {
-            "slug": "topic-alterations",
-            "depth": 2,
-            "value": "Topic Alterations"
-          }
-        ]
-      }
-    },
-    {
-      "key": "manual/Kafka/Kafka-At-A-Glance.md",
-      "value": {
-        "menu": "Kafka",
-        "name": "Kafka At A Glance",
-        "id": "ff374750ffd5d27075f4e0801b45d2ab",
-        "filepath": "manual/Kafka/Kafka-At-A-Glance.md",
-        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Kafka/Kafka-At-A-Glance.md",
-        "link": "",
-        "slug": "manual-kafka-kafka-at-a-glance",
-        "route": "/manual-kafka-kafka-at-a-glance",
-        "headings": [
-          {
-            "slug": "kafka-at-a-glance",
-            "depth": 1,
-            "value": "Kafka At A Glance"
-          },
-          {
-            "slug": "key-terms",
-            "depth": 2,
-            "value": "Key terms"
-          },
-          {
-            "slug": "messages-and-schemas",
-            "depth": 2,
-            "value": "Messages and Schemas"
-          },
-          {
-            "slug": "topics-and-partitions",
-            "depth": 2,
-            "value": "Topics and Partitions"
-          },
-          {
-            "slug": "producers-and-consumers",
-            "depth": 2,
-            "value": "Producers and Consumers"
-          },
-          {
-            "slug": "brokers-and-clusters",
-            "depth": 2,
-            "value": "Brokers and Clusters"
-          }
-        ]
-      }
-    },
-    {
-      "key": "manual/Kafka/Kafka-Basic-Terms.md",
-      "value": {
-        "name": "Kafka Basic Terms",
-        "menu": "Kafka",
-        "id": "22a38181fb1228fa7b98b2f7192a5864",
-        "filepath": "manual/Kafka/Kafka-Basic-Terms.md",
-        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Kafka/Kafka-Basic-Terms.md",
-        "link": "",
-        "slug": "manual-kafka-kafka-basic-terms",
-        "route": "/manual-kafka-kafka-basic-terms",
-        "headings": [
-          {
-            "slug": "kafka-basic-terms",
-            "depth": 1,
-            "value": "Kafka Basic Terms"
-          },
-          {
-            "slug": "messages",
-            "depth": 2,
-            "value": "Messages"
-          },
-          {
-            "slug": "batches",
-            "depth": 2,
-            "value": "Batches"
-          },
-          {
-            "slug": "schemas",
-            "depth": 2,
-            "value": "Schemas"
-          },
-          {
-            "slug": "topics",
-            "depth": 2,
-            "value": "Topics"
-          },
-          {
-            "slug": "partitions",
-            "depth": 2,
-            "value": "Partitions"
-          },
-          {
-            "slug": "streams",
-            "depth": 2,
-            "value": "Streams"
-          },
-          {
-            "slug": "producers",
-            "depth": 2,
-            "value": "Producers"
-          },
-          {
-            "slug": "consumers",
-            "depth": 2,
-            "value": "Consumers"
-          },
-          {
-            "slug": "consumer-group",
-            "depth": 2,
-            "value": "Consumer Group"
-          },
-          {
-            "slug": "ownership",
-            "depth": 2,
-            "value": "Ownership"
-          },
-          {
-            "slug": "brokers",
-            "depth": 2,
-            "value": "Brokers"
-          },
-          {
-            "slug": "clusters",
-            "depth": 2,
-            "value": "Clusters"
-          },
-          {
-            "slug": "controller",
-            "depth": 2,
-            "value": "Controller"
-          },
-          {
-            "slug": "retention",
-            "depth": 2,
-            "value": "Retention"
-          },
-          {
-            "slug": "log-compacted-retention",
-            "depth": 2,
-            "value": "Log Compacted Retention"
-          },
-          {
-            "slug": "multiple-clusters",
-            "depth": 2,
-            "value": "Multiple Clusters"
-          }
-        ]
-      }
-    },
-    {
-      "key": "manual/Kafka/Kafka-Internals.md",
-      "value": {
-        "menu": "Kafka",
-        "name": "Kafka Internals",
-        "id": "9ac972be845672e1ff9c5f7348413279",
-        "filepath": "manual/Kafka/Kafka-Internals.md",
-        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Kafka/Kafka-Internals.md",
-        "link": "",
-        "slug": "manual-kafka-kafka-internals",
-        "route": "/manual-kafka-kafka-internals",
-        "headings": [
-          {
-            "slug": "kafka-internals",
-            "depth": 1,
-            "value": "Kafka Internals"
-          },
-          {
-            "slug": "broker",
-            "depth": 2,
-            "value": "Broker"
-          },
-          {
-            "slug": "broker-config",
-            "depth": 2,
-            "value": "Broker Config"
-          },
-          {
-            "slug": "replicas",
-            "depth": 2,
-            "value": "Replicas"
-          },
-          {
-            "slug": "handling-requests",
-            "depth": 2,
-            "value": "Handling Requests"
-          },
-          {
-            "slug": "partitions",
-            "depth": 2,
-            "value": "Partitions"
-          }
-        ]
-      }
-    },
-    {
       "key": "manual/JavaScript/ES6-Guide.md",
       "value": {
         "name": "ES 6 Guide",
@@ -17860,6 +17701,102 @@
       }
     },
     {
+      "key": "manual/JavaScript/XState.md",
+      "value": {
+        "menu": "JavaScript",
+        "title": "State Machines in JavaScript with XState",
+        "id": "0c44d05a4e709e4e75b825d27cbc8387",
+        "filepath": "manual/JavaScript/XState.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/JavaScript/XState.md",
+        "link": "",
+        "slug": "manual-java-script-x-state",
+        "route": "/manual-java-script-x-state",
+        "name": "X state",
+        "headings": [
+          {
+            "slug": "state-machines-in-javascript-with-xstate",
+            "depth": 1,
+            "value": "State Machines in JavaScript with XState"
+          },
+          {
+            "slug": "resources",
+            "depth": 2,
+            "value": "Resources"
+          },
+          {
+            "slug": "bottom-up-code",
+            "depth": 2,
+            "value": "Bottom Up Code"
+          },
+          {
+            "slug": "why-use-state-machines-and-statecharts",
+            "depth": 2,
+            "value": "Why use state machines and statecharts?"
+          },
+          {
+            "slug": "graphs",
+            "depth": 2,
+            "value": "Graphs"
+          },
+          {
+            "slug": "finite-state-machines",
+            "depth": 2,
+            "value": "Finite State Machines"
+          },
+          {
+            "slug": "an-entry-example",
+            "depth": 2,
+            "value": "An entry example"
+          },
+          {
+            "slug": "xstate",
+            "depth": 2,
+            "value": "XState"
+          },
+          {
+            "slug": "interpret-function",
+            "depth": 2,
+            "value": "Interpret function"
+          },
+          {
+            "slug": "visualize",
+            "depth": 2,
+            "value": "Visualize"
+          },
+          {
+            "slug": "xstate-actions",
+            "depth": 2,
+            "value": "XState Actions"
+          },
+          {
+            "slug": "context--assignment",
+            "depth": 3,
+            "value": "Context + Assignment"
+          },
+          {
+            "slug": "transitions",
+            "depth": 2,
+            "value": "Transitions"
+          },
+          {
+            "slug": "conditional-predicates",
+            "depth": 3,
+            "value": "Conditional Predicates"
+          },
+          {
+            "slug": "transient-transitions",
+            "depth": 3,
+            "value": "Transient Transitions"
+          },
+          {
+            "slug": "delayed-transitions",
+            "depth": 3,
+            "value": "Delayed Transitions"
+          }
+        ]
+      }
+    },
+    {
       "key": "manual/JavaScript/Yeoman-Generator.md",
       "value": {
         "name": "Yeoman Generator",
@@ -18190,6 +18127,556 @@
             "slug": "javascript-grid-alignment-cheat-sheet",
             "depth": 1,
             "value": "JavaScript Grid Alignment Cheat Sheet"
+          }
+        ]
+      }
+    },
+    {
+      "key": "manual/Jest/Extending-Jest.md",
+      "value": {
+        "menu": "Jest",
+        "name": "Extending Jest",
+        "id": "5f9e28f60826ef5969df79924e410034",
+        "filepath": "manual/Jest/Extending-Jest.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Jest/Extending-Jest.md",
+        "link": "",
+        "slug": "manual-jest-extending-jest",
+        "route": "/manual-jest-extending-jest",
+        "headings": [
+          {
+            "slug": "extending-jest",
+            "depth": 1,
+            "value": "Extending Jest"
+          }
+        ]
+      }
+    },
+    {
+      "key": "manual/Jest/JS-Testing-Practices-And-Principles.md",
+      "value": {
+        "menu": "Jest",
+        "name": "JS-Testing-Practices-And-Principles",
+        "id": "29306b825d079746a5af5cadfb58944a",
+        "filepath": "manual/Jest/JS-Testing-Practices-And-Principles.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Jest/JS-Testing-Practices-And-Principles.md",
+        "link": "",
+        "slug": "manual-jest-js-testing-practices-and-principles",
+        "route": "/manual-jest-js-testing-practices-and-principles",
+        "headings": [
+          {
+            "slug": "js-testing-practices-and-principles",
+            "depth": 1,
+            "value": "JS-Testing-Practices-And-Principles"
+          },
+          {
+            "slug": "resources",
+            "depth": 2,
+            "value": "Resources"
+          },
+          {
+            "slug": "jest-intro",
+            "depth": 2,
+            "value": "Jest Intro"
+          },
+          {
+            "slug": "cli",
+            "depth": 3,
+            "value": "CLI"
+          },
+          {
+            "slug": "commands",
+            "depth": 3,
+            "value": "Commands"
+          },
+          {
+            "slug": "test-factories-and-colocating-tests-qa",
+            "depth": 2,
+            "value": "Test Factories and Colocating Tests Q&A"
+          },
+          {
+            "slug": "code-coverage",
+            "depth": 2,
+            "value": "Code coverage"
+          },
+          {
+            "slug": "monkey-patch-a-mock",
+            "depth": 2,
+            "value": "Monkey Patch a mock"
+          },
+          {
+            "slug": "assert-calling-a-mock",
+            "depth": 2,
+            "value": "Assert calling a mock"
+          },
+          {
+            "slug": "jest-spyon",
+            "depth": 2,
+            "value": "Jest spyOn"
+          },
+          {
+            "slug": "jest-mock",
+            "depth": 2,
+            "value": "Jest Mock"
+          },
+          {
+            "slug": "using-a-__mocks__-directory",
+            "depth": 2,
+            "value": "Using a  __mocks__  directory"
+          },
+          {
+            "slug": "test-factories",
+            "depth": 2,
+            "value": "Test Factories"
+          },
+          {
+            "slug": "conclusion",
+            "depth": 2,
+            "value": "Conclusion"
+          }
+        ]
+      }
+    },
+    {
+      "key": "manual/Kafka/Clients.md",
+      "value": {
+        "menu": "Kafka",
+        "name": "Kafka Clients",
+        "id": "760084c9abca747db48bce259c82f722",
+        "filepath": "manual/Kafka/Clients.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Kafka/Clients.md",
+        "link": "",
+        "slug": "manual-kafka-clients",
+        "route": "/manual-kafka-clients",
+        "headings": [
+          {
+            "slug": "kafka-clients",
+            "depth": 1,
+            "value": "Kafka Clients"
+          },
+          {
+            "slug": "docker-kafka",
+            "depth": 2,
+            "value": "Docker Kafka"
+          },
+          {
+            "slug": "kubernetes",
+            "depth": 2,
+            "value": "Kubernetes"
+          }
+        ]
+      }
+    },
+    {
+      "key": "manual/Kafka/Hello-Kafka.md",
+      "value": {
+        "menu": "Kafka",
+        "name": "Hello Kafka",
+        "id": "39bbc5132506a925f0e0c0d775be3460",
+        "filepath": "manual/Kafka/Hello-Kafka.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Kafka/Hello-Kafka.md",
+        "link": "",
+        "slug": "manual-kafka-hello-kafka",
+        "route": "/manual-kafka-hello-kafka",
+        "headings": [
+          {
+            "slug": "hello-kafka",
+            "depth": 1,
+            "value": "Hello Kafka"
+          },
+          {
+            "slug": "resources",
+            "depth": 2,
+            "value": "Resources"
+          },
+          {
+            "slug": "getting-started-with-nodejs",
+            "depth": 2,
+            "value": "Getting Started with Nodejs"
+          },
+          {
+            "slug": "prerequisites",
+            "depth": 2,
+            "value": "Prerequisites"
+          },
+          {
+            "slug": "docker-composing",
+            "depth": 2,
+            "value": "Docker Composing"
+          },
+          {
+            "slug": "consumeproducing-from-within-docker-container",
+            "depth": 2,
+            "value": "Consume/Producing from within Docker Container"
+          },
+          {
+            "slug": "node-kafka",
+            "depth": 2,
+            "value": "Node Kafka"
+          },
+          {
+            "slug": "producer",
+            "depth": 2,
+            "value": "Producer"
+          },
+          {
+            "slug": "consumer",
+            "depth": 2,
+            "value": "Consumer"
+          },
+          {
+            "slug": "running-it-altogether",
+            "depth": 2,
+            "value": "Running it altogether"
+          }
+        ]
+      }
+    },
+    {
+      "key": "manual/Kafka/Kafka-Admin.md",
+      "value": {
+        "menu": "Kafka",
+        "name": "Kafka Administration",
+        "id": "9109e882bbfff6b994dd53ef8a005be2",
+        "filepath": "manual/Kafka/Kafka-Admin.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Kafka/Kafka-Admin.md",
+        "link": "",
+        "slug": "manual-kafka-kafka-admin",
+        "route": "/manual-kafka-kafka-admin",
+        "headings": [
+          {
+            "slug": "kafka-administration",
+            "depth": 1,
+            "value": "Kafka Administration"
+          },
+          {
+            "slug": "file-formats-and-indexes",
+            "depth": 2,
+            "value": "File Formats and Indexes"
+          },
+          {
+            "slug": "file-management",
+            "depth": 2,
+            "value": "File Management"
+          },
+          {
+            "slug": "storage-structures",
+            "depth": 2,
+            "value": "Storage Structures"
+          },
+          {
+            "slug": "stream-processing",
+            "depth": 2,
+            "value": "Stream Processing"
+          },
+          {
+            "slug": "data-replication",
+            "depth": 2,
+            "value": "Data Replication"
+          },
+          {
+            "slug": "mirrormaker",
+            "depth": 2,
+            "value": "MirrorMaker"
+          },
+          {
+            "slug": "cluster-and-broker-monitoring",
+            "depth": 2,
+            "value": "Cluster and Broker Monitoring"
+          },
+          {
+            "slug": "monitoring-the-overall-health",
+            "depth": 2,
+            "value": "Monitoring the Overall Health"
+          },
+          {
+            "slug": "broker-metrics-to-follow",
+            "depth": 2,
+            "value": "Broker Metrics to Follow"
+          }
+        ]
+      }
+    },
+    {
+      "key": "manual/Kafka/Kafka-Advanced-Admin.md",
+      "value": {
+        "menu": "Kafka",
+        "name": "Kafka Advanced Config",
+        "id": "2c991ff1106f99b982e2d01aed37c5b0",
+        "filepath": "manual/Kafka/Kafka-Advanced-Admin.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Kafka/Kafka-Advanced-Admin.md",
+        "link": "",
+        "slug": "manual-kafka-kafka-advanced-admin",
+        "route": "/manual-kafka-kafka-advanced-admin",
+        "headings": [
+          {
+            "slug": "kafka-advanced-config",
+            "depth": 1,
+            "value": "Kafka Advanced Config"
+          },
+          {
+            "slug": "advanced-producers",
+            "depth": 2,
+            "value": "Advanced Producers"
+          },
+          {
+            "slug": "idempotent-producers",
+            "depth": 2,
+            "value": "Idempotent Producers"
+          },
+          {
+            "slug": "impotent-producer-config",
+            "depth": 3,
+            "value": "Impotent Producer Config"
+          },
+          {
+            "slug": "batch-compression",
+            "depth": 2,
+            "value": "Batch Compression"
+          },
+          {
+            "slug": "batch-size-and-timing",
+            "depth": 3,
+            "value": "Batch Size and Timing"
+          },
+          {
+            "slug": "serializer",
+            "depth": 2,
+            "value": "Serializer"
+          },
+          {
+            "slug": "producer-buffer-memory",
+            "depth": 2,
+            "value": "Producer Buffer Memory"
+          },
+          {
+            "slug": "advanced-consumers",
+            "depth": 2,
+            "value": "Advanced Consumers"
+          },
+          {
+            "slug": "reading-duplicate-messages",
+            "depth": 2,
+            "value": "Reading Duplicate Messages"
+          },
+          {
+            "slug": "tracking-offsets",
+            "depth": 2,
+            "value": "Tracking Offsets"
+          },
+          {
+            "slug": "partition-rebalancing",
+            "depth": 2,
+            "value": "Partition Rebalancing"
+          },
+          {
+            "slug": "consumer-group-coordinator",
+            "depth": 2,
+            "value": "Consumer Group Coordinator"
+          },
+          {
+            "slug": "advanced-topics",
+            "depth": 2,
+            "value": "Advanced Topics"
+          },
+          {
+            "slug": "topic-design",
+            "depth": 2,
+            "value": "Topic Design"
+          },
+          {
+            "slug": "topic-alterations",
+            "depth": 2,
+            "value": "Topic Alterations"
+          }
+        ]
+      }
+    },
+    {
+      "key": "manual/Kafka/Kafka-At-A-Glance.md",
+      "value": {
+        "menu": "Kafka",
+        "name": "Kafka At A Glance",
+        "id": "ff374750ffd5d27075f4e0801b45d2ab",
+        "filepath": "manual/Kafka/Kafka-At-A-Glance.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Kafka/Kafka-At-A-Glance.md",
+        "link": "",
+        "slug": "manual-kafka-kafka-at-a-glance",
+        "route": "/manual-kafka-kafka-at-a-glance",
+        "headings": [
+          {
+            "slug": "kafka-at-a-glance",
+            "depth": 1,
+            "value": "Kafka At A Glance"
+          },
+          {
+            "slug": "key-terms",
+            "depth": 2,
+            "value": "Key terms"
+          },
+          {
+            "slug": "messages-and-schemas",
+            "depth": 2,
+            "value": "Messages and Schemas"
+          },
+          {
+            "slug": "topics-and-partitions",
+            "depth": 2,
+            "value": "Topics and Partitions"
+          },
+          {
+            "slug": "producers-and-consumers",
+            "depth": 2,
+            "value": "Producers and Consumers"
+          },
+          {
+            "slug": "brokers-and-clusters",
+            "depth": 2,
+            "value": "Brokers and Clusters"
+          }
+        ]
+      }
+    },
+    {
+      "key": "manual/Kafka/Kafka-Basic-Terms.md",
+      "value": {
+        "name": "Kafka Basic Terms",
+        "menu": "Kafka",
+        "id": "22a38181fb1228fa7b98b2f7192a5864",
+        "filepath": "manual/Kafka/Kafka-Basic-Terms.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Kafka/Kafka-Basic-Terms.md",
+        "link": "",
+        "slug": "manual-kafka-kafka-basic-terms",
+        "route": "/manual-kafka-kafka-basic-terms",
+        "headings": [
+          {
+            "slug": "kafka-basic-terms",
+            "depth": 1,
+            "value": "Kafka Basic Terms"
+          },
+          {
+            "slug": "messages",
+            "depth": 2,
+            "value": "Messages"
+          },
+          {
+            "slug": "batches",
+            "depth": 2,
+            "value": "Batches"
+          },
+          {
+            "slug": "schemas",
+            "depth": 2,
+            "value": "Schemas"
+          },
+          {
+            "slug": "topics",
+            "depth": 2,
+            "value": "Topics"
+          },
+          {
+            "slug": "partitions",
+            "depth": 2,
+            "value": "Partitions"
+          },
+          {
+            "slug": "streams",
+            "depth": 2,
+            "value": "Streams"
+          },
+          {
+            "slug": "producers",
+            "depth": 2,
+            "value": "Producers"
+          },
+          {
+            "slug": "consumers",
+            "depth": 2,
+            "value": "Consumers"
+          },
+          {
+            "slug": "consumer-group",
+            "depth": 2,
+            "value": "Consumer Group"
+          },
+          {
+            "slug": "ownership",
+            "depth": 2,
+            "value": "Ownership"
+          },
+          {
+            "slug": "brokers",
+            "depth": 2,
+            "value": "Brokers"
+          },
+          {
+            "slug": "clusters",
+            "depth": 2,
+            "value": "Clusters"
+          },
+          {
+            "slug": "controller",
+            "depth": 2,
+            "value": "Controller"
+          },
+          {
+            "slug": "retention",
+            "depth": 2,
+            "value": "Retention"
+          },
+          {
+            "slug": "log-compacted-retention",
+            "depth": 2,
+            "value": "Log Compacted Retention"
+          },
+          {
+            "slug": "multiple-clusters",
+            "depth": 2,
+            "value": "Multiple Clusters"
+          }
+        ]
+      }
+    },
+    {
+      "key": "manual/Kafka/Kafka-Internals.md",
+      "value": {
+        "menu": "Kafka",
+        "name": "Kafka Internals",
+        "id": "9ac972be845672e1ff9c5f7348413279",
+        "filepath": "manual/Kafka/Kafka-Internals.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Kafka/Kafka-Internals.md",
+        "link": "",
+        "slug": "manual-kafka-kafka-internals",
+        "route": "/manual-kafka-kafka-internals",
+        "headings": [
+          {
+            "slug": "kafka-internals",
+            "depth": 1,
+            "value": "Kafka Internals"
+          },
+          {
+            "slug": "broker",
+            "depth": 2,
+            "value": "Broker"
+          },
+          {
+            "slug": "broker-config",
+            "depth": 2,
+            "value": "Broker Config"
+          },
+          {
+            "slug": "replicas",
+            "depth": 2,
+            "value": "Replicas"
+          },
+          {
+            "slug": "handling-requests",
+            "depth": 2,
+            "value": "Handling Requests"
+          },
+          {
+            "slug": "partitions",
+            "depth": 2,
+            "value": "Partitions"
           }
         ]
       }
@@ -18655,6 +19142,176 @@
             "slug": "preferences",
             "depth": 2,
             "value": "Preferences"
+          }
+        ]
+      }
+    },
+    {
+      "key": "manual/Language-Learning/Approach-To-Learning-Software-Languages.md",
+      "value": {
+        "menu": "Language Learning",
+        "name": "Approach To Learning Software Languages",
+        "id": "9d2cc3e153cea4adb81211de57b01632",
+        "filepath": "manual/Language-Learning/Approach-To-Learning-Software-Languages.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Language-Learning/Approach-To-Learning-Software-Languages.md",
+        "link": "",
+        "slug": "manual-language-learning-approach-to-learning-software-languages",
+        "route": "/manual-language-learning-approach-to-learning-software-languages",
+        "headings": [
+          {
+            "slug": "approach-to-learning-software-languages",
+            "depth": 1,
+            "value": "Approach To Learning Software Languages"
+          },
+          {
+            "slug": "first-steps",
+            "depth": 2,
+            "value": "First Steps"
+          },
+          {
+            "slug": "understanding-through-programs",
+            "depth": 2,
+            "value": "Understanding Through Programs"
+          }
+        ]
+      }
+    },
+    {
+      "key": "manual/Language-Learning/Golang.md",
+      "value": {
+        "menu": "Language Learning",
+        "name": "Golang",
+        "id": "a17c0111d159f171e5bb3949f7750ebc",
+        "filepath": "manual/Language-Learning/Golang.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Language-Learning/Golang.md",
+        "link": "",
+        "slug": "manual-language-learning-golang",
+        "route": "/manual-language-learning-golang",
+        "headings": [
+          {
+            "slug": "golang",
+            "depth": 1,
+            "value": "Golang"
+          },
+          {
+            "slug": "the-why-behind-the-language",
+            "depth": 2,
+            "value": "The \"why\" behind the language?"
+          },
+          {
+            "slug": "quora-top-answer",
+            "depth": 3,
+            "value": "Quora Top Answer"
+          },
+          {
+            "slug": "from-rob-pike-one-of-gos-creators",
+            "depth": 3,
+            "value": "From Rob Pike, one of Go's Creators"
+          },
+          {
+            "slug": "pros-and-cons-of-the-language",
+            "depth": 2,
+            "value": "Pros and cons of the language?"
+          },
+          {
+            "slug": "pros",
+            "depth": 3,
+            "value": "Pros"
+          },
+          {
+            "slug": "cons",
+            "depth": 3,
+            "value": "Cons"
+          },
+          {
+            "slug": "what-are-the-use-cases",
+            "depth": 2,
+            "value": "What are the use cases?"
+          },
+          {
+            "slug": "testing--benchmarking",
+            "depth": 2,
+            "value": "Testing / Benchmarking"
+          },
+          {
+            "slug": "popular-web-servers-for-the-language",
+            "depth": 2,
+            "value": "Popular web servers for the language?"
+          },
+          {
+            "slug": "hello-world",
+            "depth": 2,
+            "value": "Hello, World!"
+          },
+          {
+            "slug": "documentation",
+            "depth": 2,
+            "value": "Documentation"
+          },
+          {
+            "slug": "what-are-the-nuances-of-the-language",
+            "depth": 2,
+            "value": "What are the nuances of the language?"
+          },
+          {
+            "slug": "how-does-package-management-work",
+            "depth": 2,
+            "value": "How does package management work?"
+          },
+          {
+            "slug": "how-does-importing-work",
+            "depth": 2,
+            "value": "How does importing work?"
+          },
+          {
+            "slug": "how-does-logging-work",
+            "depth": 2,
+            "value": "How does logging work?"
+          },
+          {
+            "slug": "useful-linksarticles",
+            "depth": 2,
+            "value": "Useful links/articles"
+          },
+          {
+            "slug": "useful-tips-and-tricks",
+            "depth": 2,
+            "value": "Useful tips and tricks"
+          },
+          {
+            "slug": "read-file",
+            "depth": 2,
+            "value": "Read File"
+          },
+          {
+            "slug": "write-file",
+            "depth": 2,
+            "value": "Write File"
+          },
+          {
+            "slug": "walk-through-directory",
+            "depth": 2,
+            "value": "Walk through directory"
+          },
+          {
+            "slug": "check-file-exists",
+            "depth": 2,
+            "value": "Check file exists"
+          },
+          {
+            "slug": "system-calls",
+            "depth": 2,
+            "value": "System calls"
+          },
+          {
+            "slug": "defer",
+            "depth": 2,
+            "value": "Defer"
+          },
+          {
+            "slug": "understanding-through-programs",
+            "depth": 2,
+            "value": "Understanding Through Programs"
           }
         ]
       }
@@ -20430,176 +21087,6 @@
             "slug": "relating-data",
             "depth": 2,
             "value": "Relating Data"
-          }
-        ]
-      }
-    },
-    {
-      "key": "manual/Language-Learning/Approach-To-Learning-Software-Languages.md",
-      "value": {
-        "menu": "Language Learning",
-        "name": "Approach To Learning Software Languages",
-        "id": "9d2cc3e153cea4adb81211de57b01632",
-        "filepath": "manual/Language-Learning/Approach-To-Learning-Software-Languages.md",
-        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Language-Learning/Approach-To-Learning-Software-Languages.md",
-        "link": "",
-        "slug": "manual-language-learning-approach-to-learning-software-languages",
-        "route": "/manual-language-learning-approach-to-learning-software-languages",
-        "headings": [
-          {
-            "slug": "approach-to-learning-software-languages",
-            "depth": 1,
-            "value": "Approach To Learning Software Languages"
-          },
-          {
-            "slug": "first-steps",
-            "depth": 2,
-            "value": "First Steps"
-          },
-          {
-            "slug": "understanding-through-programs",
-            "depth": 2,
-            "value": "Understanding Through Programs"
-          }
-        ]
-      }
-    },
-    {
-      "key": "manual/Language-Learning/Golang.md",
-      "value": {
-        "menu": "Language Learning",
-        "name": "Golang",
-        "id": "a17c0111d159f171e5bb3949f7750ebc",
-        "filepath": "manual/Language-Learning/Golang.md",
-        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Language-Learning/Golang.md",
-        "link": "",
-        "slug": "manual-language-learning-golang",
-        "route": "/manual-language-learning-golang",
-        "headings": [
-          {
-            "slug": "golang",
-            "depth": 1,
-            "value": "Golang"
-          },
-          {
-            "slug": "the-why-behind-the-language",
-            "depth": 2,
-            "value": "The \"why\" behind the language?"
-          },
-          {
-            "slug": "quora-top-answer",
-            "depth": 3,
-            "value": "Quora Top Answer"
-          },
-          {
-            "slug": "from-rob-pike-one-of-gos-creators",
-            "depth": 3,
-            "value": "From Rob Pike, one of Go's Creators"
-          },
-          {
-            "slug": "pros-and-cons-of-the-language",
-            "depth": 2,
-            "value": "Pros and cons of the language?"
-          },
-          {
-            "slug": "pros",
-            "depth": 3,
-            "value": "Pros"
-          },
-          {
-            "slug": "cons",
-            "depth": 3,
-            "value": "Cons"
-          },
-          {
-            "slug": "what-are-the-use-cases",
-            "depth": 2,
-            "value": "What are the use cases?"
-          },
-          {
-            "slug": "testing--benchmarking",
-            "depth": 2,
-            "value": "Testing / Benchmarking"
-          },
-          {
-            "slug": "popular-web-servers-for-the-language",
-            "depth": 2,
-            "value": "Popular web servers for the language?"
-          },
-          {
-            "slug": "hello-world",
-            "depth": 2,
-            "value": "Hello, World!"
-          },
-          {
-            "slug": "documentation",
-            "depth": 2,
-            "value": "Documentation"
-          },
-          {
-            "slug": "what-are-the-nuances-of-the-language",
-            "depth": 2,
-            "value": "What are the nuances of the language?"
-          },
-          {
-            "slug": "how-does-package-management-work",
-            "depth": 2,
-            "value": "How does package management work?"
-          },
-          {
-            "slug": "how-does-importing-work",
-            "depth": 2,
-            "value": "How does importing work?"
-          },
-          {
-            "slug": "how-does-logging-work",
-            "depth": 2,
-            "value": "How does logging work?"
-          },
-          {
-            "slug": "useful-linksarticles",
-            "depth": 2,
-            "value": "Useful links/articles"
-          },
-          {
-            "slug": "useful-tips-and-tricks",
-            "depth": 2,
-            "value": "Useful tips and tricks"
-          },
-          {
-            "slug": "read-file",
-            "depth": 2,
-            "value": "Read File"
-          },
-          {
-            "slug": "write-file",
-            "depth": 2,
-            "value": "Write File"
-          },
-          {
-            "slug": "walk-through-directory",
-            "depth": 2,
-            "value": "Walk through directory"
-          },
-          {
-            "slug": "check-file-exists",
-            "depth": 2,
-            "value": "Check file exists"
-          },
-          {
-            "slug": "system-calls",
-            "depth": 2,
-            "value": "System calls"
-          },
-          {
-            "slug": "defer",
-            "depth": 2,
-            "value": "Defer"
-          },
-          {
-            "slug": "understanding-through-programs",
-            "depth": 2,
-            "value": "Understanding Through Programs"
           }
         ]
       }
@@ -23525,6 +24012,126 @@
       }
     },
     {
+      "key": "manual/Next/Hello-Next.md",
+      "value": {
+        "menu": "Next",
+        "name": "Hello Next",
+        "id": "613aa9bae9b5a9101d7d6da47e7a24b9",
+        "filepath": "manual/Next/Hello-Next.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Next/Hello-Next.md",
+        "link": "",
+        "slug": "manual-next-hello-next",
+        "route": "/manual-next-hello-next",
+        "headings": [
+          {
+            "slug": "hello-next",
+            "depth": 1,
+            "value": "Hello Next"
+          },
+          {
+            "slug": "useful-links",
+            "depth": 2,
+            "value": "Useful links"
+          },
+          {
+            "slug": "getting-started",
+            "depth": 2,
+            "value": "Getting started"
+          },
+          {
+            "slug": "setting-up-typescript",
+            "depth": 2,
+            "value": "Setting up TypeScript"
+          },
+          {
+            "slug": "adding-treat",
+            "depth": 2,
+            "value": "Adding Treat"
+          }
+        ]
+      }
+    },
+    {
+      "key": "manual/Next/Next-Auth.md",
+      "value": {
+        "menu": "Next",
+        "name": "Next Auth with local MySQL Container",
+        "id": "9179524e8d777d3a389c7886ed6dd03e",
+        "filepath": "manual/Next/Next-Auth.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Next/Next-Auth.md",
+        "link": "",
+        "slug": "manual-next-next-auth",
+        "route": "/manual-next-next-auth",
+        "headings": [
+          {
+            "slug": "resources",
+            "depth": 2,
+            "value": "Resources"
+          },
+          {
+            "slug": "setting-up-mysql-with-docker",
+            "depth": 2,
+            "value": "Setting up MySQL with Docker"
+          },
+          {
+            "slug": "setting-up-nextjs",
+            "depth": 3,
+            "value": "Setting up Next.js"
+          },
+          {
+            "slug": "setting-up-next-auth-in-the-application",
+            "depth": 2,
+            "value": "Setting up Next Auth in the application"
+          },
+          {
+            "slug": "setting-up-ngrok",
+            "depth": 2,
+            "value": "Setting up ngrok"
+          },
+          {
+            "slug": "setting-up-github-oauth",
+            "depth": 2,
+            "value": "Setting up GitHub OAuth"
+          },
+          {
+            "slug": "env-variables",
+            "depth": 2,
+            "value": "Env Variables"
+          },
+          {
+            "slug": "running-dev",
+            "depth": 2,
+            "value": "Running Dev"
+          }
+        ]
+      }
+    },
+    {
+      "key": "manual/Next/NextJS-Lamda-With-Custom-Server.md",
+      "value": {
+        "menu": "Next",
+        "name": "NextJS Lambda w/ Express Server",
+        "id": "dd287f9d454a5edf8f485c14e68970ca",
+        "filepath": "manual/Next/NextJS-Lamda-With-Custom-Server.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Next/NextJS-Lamda-With-Custom-Server.md",
+        "link": "",
+        "slug": "manual-next-next-js-lamda-with-custom-server",
+        "route": "/manual-next-next-js-lamda-with-custom-server",
+        "headings": [
+          {
+            "slug": "nextjs-lambda-w-express-server",
+            "depth": 1,
+            "value": "NextJS Lambda w/ Express Server"
+          },
+          {
+            "slug": "resources",
+            "depth": 2,
+            "value": "Resources"
+          }
+        ]
+      }
+    },
+    {
       "key": "manual/Nginx/Nginx-Nodejs-Docker.md",
       "value": {
         "name": "Nginx Nodejs Docker",
@@ -23760,6 +24367,96 @@
       }
     },
     {
+      "key": "manual/Nodejs/Microservices-With-NodeJS-React.md",
+      "value": {
+        "menu": "Nodejs",
+        "name": "Microservices with NodeJS",
+        "id": "cc83942e4c4483355482688c4aaf42e7",
+        "filepath": "manual/Nodejs/Microservices-With-NodeJS-React.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Nodejs/Microservices-With-NodeJS-React.md",
+        "link": "",
+        "slug": "manual-nodejs-microservices-with-node-js-react",
+        "route": "/manual-nodejs-microservices-with-node-js-react",
+        "headings": [
+          {
+            "slug": "microservices-with-nodejs",
+            "depth": 1,
+            "value": "Microservices with NodeJS"
+          },
+          {
+            "slug": "resources",
+            "depth": 2,
+            "value": "Resources"
+          },
+          {
+            "slug": "fundamental-auth-strategies",
+            "depth": 2,
+            "value": "Fundamental Auth Strategies"
+          },
+          {
+            "slug": "approaches-to-auth---strategy-one",
+            "depth": 3,
+            "value": "Approaches to Auth - Strategy One"
+          },
+          {
+            "slug": "approaches-to-auth---strategy-two",
+            "depth": 3,
+            "value": "Approaches to Auth - Strategy Two"
+          },
+          {
+            "slug": "approaches-to-auth---strategy-three",
+            "depth": 3,
+            "value": "Approaches to Auth - Strategy Three"
+          },
+          {
+            "slug": "cookies-vs-jwts",
+            "depth": 2,
+            "value": "Cookies vs JWTs"
+          },
+          {
+            "slug": "cookies",
+            "depth": 3,
+            "value": "Cookies"
+          },
+          {
+            "slug": "jwts",
+            "depth": 3,
+            "value": "JWTs"
+          },
+          {
+            "slug": "stores",
+            "depth": 2,
+            "value": "Stores"
+          },
+          {
+            "slug": "cookie-session",
+            "depth": 3,
+            "value": "Cookie Session"
+          },
+          {
+            "slug": "generating-a-jwt",
+            "depth": 3,
+            "value": "Generating a JWT"
+          },
+          {
+            "slug": "verifying-the-token",
+            "depth": 2,
+            "value": "Verifying the token"
+          },
+          {
+            "slug": "storing-secrets",
+            "depth": 2,
+            "value": "Storing Secrets"
+          },
+          {
+            "slug": "typing-aside",
+            "depth": 2,
+            "value": "Typing aside"
+          }
+        ]
+      }
+    },
+    {
       "key": "manual/Nodejs/Node-Internals.md",
       "value": {
         "menu": "Nodejs",
@@ -23910,126 +24607,6 @@
             "slug": "client-server",
             "depth": 2,
             "value": "Client server"
-          }
-        ]
-      }
-    },
-    {
-      "key": "manual/Next/Hello-Next.md",
-      "value": {
-        "menu": "Next",
-        "name": "Hello Next",
-        "id": "613aa9bae9b5a9101d7d6da47e7a24b9",
-        "filepath": "manual/Next/Hello-Next.md",
-        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Next/Hello-Next.md",
-        "link": "",
-        "slug": "manual-next-hello-next",
-        "route": "/manual-next-hello-next",
-        "headings": [
-          {
-            "slug": "hello-next",
-            "depth": 1,
-            "value": "Hello Next"
-          },
-          {
-            "slug": "useful-links",
-            "depth": 2,
-            "value": "Useful links"
-          },
-          {
-            "slug": "getting-started",
-            "depth": 2,
-            "value": "Getting started"
-          },
-          {
-            "slug": "setting-up-typescript",
-            "depth": 2,
-            "value": "Setting up TypeScript"
-          },
-          {
-            "slug": "adding-treat",
-            "depth": 2,
-            "value": "Adding Treat"
-          }
-        ]
-      }
-    },
-    {
-      "key": "manual/Next/Next-Auth.md",
-      "value": {
-        "menu": "Next",
-        "name": "Next Auth with local MySQL Container",
-        "id": "9179524e8d777d3a389c7886ed6dd03e",
-        "filepath": "manual/Next/Next-Auth.md",
-        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Next/Next-Auth.md",
-        "link": "",
-        "slug": "manual-next-next-auth",
-        "route": "/manual-next-next-auth",
-        "headings": [
-          {
-            "slug": "resources",
-            "depth": 2,
-            "value": "Resources"
-          },
-          {
-            "slug": "setting-up-mysql-with-docker",
-            "depth": 2,
-            "value": "Setting up MySQL with Docker"
-          },
-          {
-            "slug": "setting-up-nextjs",
-            "depth": 3,
-            "value": "Setting up Next.js"
-          },
-          {
-            "slug": "setting-up-next-auth-in-the-application",
-            "depth": 2,
-            "value": "Setting up Next Auth in the application"
-          },
-          {
-            "slug": "setting-up-ngrok",
-            "depth": 2,
-            "value": "Setting up ngrok"
-          },
-          {
-            "slug": "setting-up-github-oauth",
-            "depth": 2,
-            "value": "Setting up GitHub OAuth"
-          },
-          {
-            "slug": "env-variables",
-            "depth": 2,
-            "value": "Env Variables"
-          },
-          {
-            "slug": "running-dev",
-            "depth": 2,
-            "value": "Running Dev"
-          }
-        ]
-      }
-    },
-    {
-      "key": "manual/Next/NextJS-Lamda-With-Custom-Server.md",
-      "value": {
-        "menu": "Next",
-        "name": "NextJS Lambda w/ Express Server",
-        "id": "dd287f9d454a5edf8f485c14e68970ca",
-        "filepath": "manual/Next/NextJS-Lamda-With-Custom-Server.md",
-        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Next/NextJS-Lamda-With-Custom-Server.md",
-        "link": "",
-        "slug": "manual-next-next-js-lamda-with-custom-server",
-        "route": "/manual-next-next-js-lamda-with-custom-server",
-        "headings": [
-          {
-            "slug": "nextjs-lambda-w-express-server",
-            "depth": 1,
-            "value": "NextJS Lambda w/ Express Server"
-          },
-          {
-            "slug": "resources",
-            "depth": 2,
-            "value": "Resources"
           }
         ]
       }
@@ -25930,157 +26507,6 @@
       }
     },
     {
-      "key": "manual/Puppeteer/Dev-Tool-Assertions.md",
-      "value": {
-        "menu": "Puppeteer",
-        "name": "Dev Tool Assertions",
-        "id": "363b26466fa1c719e5fa7bee8af07360",
-        "filepath": "manual/Puppeteer/Dev-Tool-Assertions.md",
-        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Puppeteer/Dev-Tool-Assertions.md",
-        "link": "",
-        "slug": "manual-puppeteer-dev-tool-assertions",
-        "route": "/manual-puppeteer-dev-tool-assertions",
-        "headings": [
-          {
-            "slug": "dev-tool-assertions",
-            "depth": 1,
-            "value": "Dev Tool Assertions"
-          },
-          {
-            "slug": "useful-links",
-            "depth": 2,
-            "value": "Useful links"
-          }
-        ]
-      }
-    },
-    {
-      "key": "manual/Puppeteer/Recorder.md",
-      "value": {
-        "name": "Recorder",
-        "menu": "Puppeteer",
-        "id": "e77f8f206f62475298ccc8126c70d3c1",
-        "filepath": "manual/Puppeteer/Recorder.md",
-        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Puppeteer/Recorder.md",
-        "link": "",
-        "slug": "manual-puppeteer-recorder",
-        "route": "/manual-puppeteer-recorder",
-        "headings": [
-          {
-            "slug": "puppeteer-recorder",
-            "depth": 1,
-            "value": "Puppeteer Recorder"
-          },
-          {
-            "slug": "install",
-            "depth": 2,
-            "value": "Install"
-          },
-          {
-            "slug": "usage",
-            "depth": 2,
-            "value": "Usage"
-          },
-          {
-            "slug": "generating-the-tests",
-            "depth": 2,
-            "value": "Generating the tests"
-          }
-        ]
-      }
-    },
-    {
-      "key": "manual/Puppeteer/Screenshot-Anything.md",
-      "value": {
-        "menu": "Puppeteer",
-        "name": "Screenshot Anything",
-        "id": "b58327a0f2e2cdd0f67da159600cd9ac",
-        "filepath": "manual/Puppeteer/Screenshot-Anything.md",
-        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Puppeteer/Screenshot-Anything.md",
-        "link": "",
-        "slug": "manual-puppeteer-screenshot-anything",
-        "route": "/manual-puppeteer-screenshot-anything",
-        "headings": [
-          {
-            "slug": "screenshot-any-valid-html-with-puppeteer",
-            "depth": 1,
-            "value": "Screenshot Any Valid HTML with Puppeteer"
-          },
-          {
-            "slug": "resources",
-            "depth": 2,
-            "value": "Resources"
-          },
-          {
-            "slug": "working-code",
-            "depth": 2,
-            "value": "Working Code"
-          }
-        ]
-      }
-    },
-    {
-      "key": "manual/Quick-Start/Golang.md",
-      "value": {
-        "menu": "Quickstart",
-        "name": "Golang",
-        "id": "19269e811569f9b3000d85cbdfcdd54d",
-        "filepath": "manual/Quick-Start/Golang.md",
-        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Quick-Start/Golang.md",
-        "link": "",
-        "slug": "manual-quick-start-golang",
-        "route": "/manual-quick-start-golang",
-        "headings": [
-          {
-            "slug": "golang-quickstart",
-            "depth": 1,
-            "value": "Golang Quickstart"
-          },
-          {
-            "slug": "resources",
-            "depth": 2,
-            "value": "Resources"
-          },
-          {
-            "slug": "quickstart",
-            "depth": 2,
-            "value": "Quickstart"
-          }
-        ]
-      }
-    },
-    {
-      "key": "manual/Quick-Start/Ruby.md",
-      "value": {
-        "menu": "Quick Start",
-        "title": "Ruby",
-        "id": "a83760e39d6b1f1fec12892c5c07767e",
-        "filepath": "manual/Quick-Start/Ruby.md",
-        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Quick-Start/Ruby.md",
-        "link": "",
-        "slug": "manual-quick-start-ruby",
-        "route": "/manual-quick-start-ruby",
-        "name": "Ruby",
-        "headings": [
-          {
-            "slug": "resources",
-            "depth": 2,
-            "value": "Resources"
-          },
-          {
-            "slug": "basic-ruby-project",
-            "depth": 2,
-            "value": "Basic Ruby Project"
-          },
-          {
-            "slug": "rails-project",
-            "depth": 2,
-            "value": "Rails Project"
-          }
-        ]
-      }
-    },
-    {
       "key": "manual/Protocols/Address-Resolution-Protocol.md",
       "value": {
         "menu": "Protocols",
@@ -26221,6 +26647,96 @@
             "slug": "simple-mail-transfer-protocol",
             "depth": 1,
             "value": "Simple Mail Transfer Protocol"
+          }
+        ]
+      }
+    },
+    {
+      "key": "manual/Puppeteer/Dev-Tool-Assertions.md",
+      "value": {
+        "menu": "Puppeteer",
+        "name": "Dev Tool Assertions",
+        "id": "363b26466fa1c719e5fa7bee8af07360",
+        "filepath": "manual/Puppeteer/Dev-Tool-Assertions.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Puppeteer/Dev-Tool-Assertions.md",
+        "link": "",
+        "slug": "manual-puppeteer-dev-tool-assertions",
+        "route": "/manual-puppeteer-dev-tool-assertions",
+        "headings": [
+          {
+            "slug": "dev-tool-assertions",
+            "depth": 1,
+            "value": "Dev Tool Assertions"
+          },
+          {
+            "slug": "useful-links",
+            "depth": 2,
+            "value": "Useful links"
+          }
+        ]
+      }
+    },
+    {
+      "key": "manual/Puppeteer/Recorder.md",
+      "value": {
+        "name": "Recorder",
+        "menu": "Puppeteer",
+        "id": "e77f8f206f62475298ccc8126c70d3c1",
+        "filepath": "manual/Puppeteer/Recorder.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Puppeteer/Recorder.md",
+        "link": "",
+        "slug": "manual-puppeteer-recorder",
+        "route": "/manual-puppeteer-recorder",
+        "headings": [
+          {
+            "slug": "puppeteer-recorder",
+            "depth": 1,
+            "value": "Puppeteer Recorder"
+          },
+          {
+            "slug": "install",
+            "depth": 2,
+            "value": "Install"
+          },
+          {
+            "slug": "usage",
+            "depth": 2,
+            "value": "Usage"
+          },
+          {
+            "slug": "generating-the-tests",
+            "depth": 2,
+            "value": "Generating the tests"
+          }
+        ]
+      }
+    },
+    {
+      "key": "manual/Puppeteer/Screenshot-Anything.md",
+      "value": {
+        "menu": "Puppeteer",
+        "name": "Screenshot Anything",
+        "id": "b58327a0f2e2cdd0f67da159600cd9ac",
+        "filepath": "manual/Puppeteer/Screenshot-Anything.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Puppeteer/Screenshot-Anything.md",
+        "link": "",
+        "slug": "manual-puppeteer-screenshot-anything",
+        "route": "/manual-puppeteer-screenshot-anything",
+        "headings": [
+          {
+            "slug": "screenshot-any-valid-html-with-puppeteer",
+            "depth": 1,
+            "value": "Screenshot Any Valid HTML with Puppeteer"
+          },
+          {
+            "slug": "resources",
+            "depth": 2,
+            "value": "Resources"
+          },
+          {
+            "slug": "working-code",
+            "depth": 2,
+            "value": "Working Code"
           }
         ]
       }
@@ -26971,6 +27487,67 @@
       }
     },
     {
+      "key": "manual/Quick-Start/Golang.md",
+      "value": {
+        "menu": "Quickstart",
+        "name": "Golang",
+        "id": "19269e811569f9b3000d85cbdfcdd54d",
+        "filepath": "manual/Quick-Start/Golang.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Quick-Start/Golang.md",
+        "link": "",
+        "slug": "manual-quick-start-golang",
+        "route": "/manual-quick-start-golang",
+        "headings": [
+          {
+            "slug": "golang-quickstart",
+            "depth": 1,
+            "value": "Golang Quickstart"
+          },
+          {
+            "slug": "resources",
+            "depth": 2,
+            "value": "Resources"
+          },
+          {
+            "slug": "quickstart",
+            "depth": 2,
+            "value": "Quickstart"
+          }
+        ]
+      }
+    },
+    {
+      "key": "manual/Quick-Start/Ruby.md",
+      "value": {
+        "menu": "Quick Start",
+        "title": "Ruby",
+        "id": "a83760e39d6b1f1fec12892c5c07767e",
+        "filepath": "manual/Quick-Start/Ruby.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Quick-Start/Ruby.md",
+        "link": "",
+        "slug": "manual-quick-start-ruby",
+        "route": "/manual-quick-start-ruby",
+        "name": "Ruby",
+        "headings": [
+          {
+            "slug": "resources",
+            "depth": 2,
+            "value": "Resources"
+          },
+          {
+            "slug": "basic-ruby-project",
+            "depth": 2,
+            "value": "Basic Ruby Project"
+          },
+          {
+            "slug": "rails-project",
+            "depth": 2,
+            "value": "Rails Project"
+          }
+        ]
+      }
+    },
+    {
       "key": "manual/R/R-Intermediate.md",
       "value": {
         "name": "R Intermediate",
@@ -27591,6 +28168,61 @@
       }
     },
     {
+      "key": "manual/React/React-SSR.md",
+      "value": {
+        "menu": "React",
+        "name": "React SSR",
+        "id": "b5e1863c65f62b686c83bf74d88ef3f8",
+        "filepath": "manual/React/React-SSR.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/React/React-SSR.md",
+        "link": "",
+        "slug": "manual-react-react-ssr",
+        "route": "/manual-react-react-ssr",
+        "headings": [
+          {
+            "slug": "resources",
+            "depth": 1,
+            "value": "Resources"
+          },
+          {
+            "slug": "create-react-app",
+            "depth": 2,
+            "value": "Create React App"
+          },
+          {
+            "slug": "update-reactdom",
+            "depth": 2,
+            "value": "Update ReactDOM"
+          },
+          {
+            "slug": "update-the-express-server",
+            "depth": 2,
+            "value": "Update the Express server"
+          },
+          {
+            "slug": "create-webpack-server-config",
+            "depth": 2,
+            "value": "Create Webpack Server config"
+          },
+          {
+            "slug": "babelrcjson",
+            "depth": 2,
+            "value": ".babelrc.json"
+          },
+          {
+            "slug": "webpackserverjs",
+            "depth": 2,
+            "value": "webpack.server.js"
+          },
+          {
+            "slug": "update-packagejson",
+            "depth": 2,
+            "value": "Update package.json"
+          }
+        ]
+      }
+    },
+    {
       "key": "manual/React/React-Testing-Library.md",
       "value": {
         "menu": "React",
@@ -27836,6 +28468,41 @@
             "slug": "testing-trophy",
             "depth": 2,
             "value": "Testing Trophy"
+          }
+        ]
+      }
+    },
+    {
+      "key": "manual/React/Webpack-Federaton-With-React.md",
+      "value": {
+        "menu": "React",
+        "name": "Webpack Federation with React",
+        "id": "f3030a756895e579aef5517899ce108b",
+        "filepath": "manual/React/Webpack-Federaton-With-React.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/React/Webpack-Federaton-With-React.md",
+        "link": "",
+        "slug": "manual-react-webpack-federaton-with-react",
+        "route": "/manual-react-webpack-federaton-with-react",
+        "headings": [
+          {
+            "slug": "webpack-federation-with-react",
+            "depth": 1,
+            "value": "Webpack Federation with React"
+          },
+          {
+            "slug": "resources",
+            "depth": 2,
+            "value": "Resources"
+          },
+          {
+            "slug": "react-app-one",
+            "depth": 2,
+            "value": "React App One"
+          },
+          {
+            "slug": "app-two",
+            "depth": 2,
+            "value": "App Two"
           }
         ]
       }
@@ -29466,6 +30133,31 @@
       }
     },
     {
+      "key": "manual/Rspec/Working-With-Dates.md",
+      "value": {
+        "menu": "Rspec",
+        "name": "Working with dates",
+        "id": "a82e60a6faaf41299acbeb8d1868e780",
+        "filepath": "manual/Rspec/Working-With-Dates.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Rspec/Working-With-Dates.md",
+        "link": "",
+        "slug": "manual-rspec-working-with-dates",
+        "route": "/manual-rspec-working-with-dates",
+        "headings": [
+          {
+            "slug": "working-with-dates",
+            "depth": 1,
+            "value": "Working with dates"
+          },
+          {
+            "slug": "resources",
+            "depth": 2,
+            "value": "Resources"
+          }
+        ]
+      }
+    },
+    {
       "key": "manual/Ruby/CocoaPods-Workshop.md",
       "value": {
         "name": "Cocoa Pods Workshop",
@@ -30377,6 +31069,26 @@
       }
     },
     {
+      "key": "manual/Ruby-On-Rails/Performance-API-Tips.md",
+      "value": {
+        "menu": "Ruby on Rails",
+        "name": "Performance API Tips",
+        "id": "103dc7c8e8b21ec952a0a842e97031c6",
+        "filepath": "manual/Ruby-On-Rails/Performance-API-Tips.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Ruby-On-Rails/Performance-API-Tips.md",
+        "link": "",
+        "slug": "manual-ruby-on-rails-performance-api-tips",
+        "route": "/manual-ruby-on-rails-performance-api-tips",
+        "headings": [
+          {
+            "slug": "performance-api-tips",
+            "depth": 1,
+            "value": "Performance API Tips"
+          }
+        ]
+      }
+    },
+    {
       "key": "manual/Rust/Building-Rust-CLIs.md",
       "value": {
         "menu": "Rust",
@@ -30442,6 +31154,77 @@
             "slug": "resources",
             "depth": 2,
             "value": "Resources"
+          }
+        ]
+      }
+    },
+    {
+      "key": "manual/Rust/Quickstart.md",
+      "value": {
+        "menu": "Rust",
+        "title": "Rust Quickstart",
+        "id": "4d67853a2acdb80a70d5bd30cb3cc921",
+        "filepath": "manual/Rust/Quickstart.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Rust/Quickstart.md",
+        "link": "",
+        "slug": "manual-rust-quickstart",
+        "route": "/manual-rust-quickstart",
+        "name": "Quickstart",
+        "headings": [
+          {
+            "slug": "rust-quickstart",
+            "depth": 1,
+            "value": "Rust Quickstart"
+          },
+          {
+            "slug": "resources",
+            "depth": 2,
+            "value": "Resources"
+          },
+          {
+            "slug": "generating-a-new-project",
+            "depth": 2,
+            "value": "Generating a new project"
+          }
+        ]
+      }
+    },
+    {
+      "key": "manual/Rust/Redirection-In-Rust.md",
+      "value": {
+        "menu": "Rust",
+        "name": "Redirection in Rust",
+        "id": "2512bb6ea88ff4afe6ac9c8e73193e39",
+        "filepath": "manual/Rust/Redirection-In-Rust.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Rust/Redirection-In-Rust.md",
+        "link": "",
+        "slug": "manual-rust-redirection-in-rust",
+        "route": "/manual-rust-redirection-in-rust",
+        "headings": [
+          {
+            "slug": "redirection-in-rust",
+            "depth": 1,
+            "value": "Redirection in Rust"
+          },
+          {
+            "slug": "resources",
+            "depth": 2,
+            "value": "Resources"
+          },
+          {
+            "slug": "getting-started",
+            "depth": 2,
+            "value": "Getting started"
+          },
+          {
+            "slug": "reading-a-simple-file",
+            "depth": 2,
+            "value": "Reading a simple file"
+          },
+          {
+            "slug": "using-redirection",
+            "depth": 2,
+            "value": "Using redirection"
           }
         ]
       }
@@ -31192,6 +31975,31 @@
       }
     },
     {
+      "key": "manual/Skaffold/Intro.md",
+      "value": {
+        "menu": "Skaffold",
+        "name": "Intro to Skaffold",
+        "id": "c8a00b41296b7593d92c7d87c2f38d6e",
+        "filepath": "manual/Skaffold/Intro.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Skaffold/Intro.md",
+        "link": "",
+        "slug": "manual-skaffold-intro",
+        "route": "/manual-skaffold-intro",
+        "headings": [
+          {
+            "slug": "skaffold",
+            "depth": 1,
+            "value": "Skaffold"
+          },
+          {
+            "slug": "resources",
+            "depth": 2,
+            "value": "Resources"
+          }
+        ]
+      }
+    },
+    {
       "key": "manual/Sketch/Principles.md",
       "value": {
         "name": "Principles",
@@ -31277,6 +32085,61 @@
             "slug": "tldr",
             "depth": 2,
             "value": "tl;dr"
+          }
+        ]
+      }
+    },
+    {
+      "key": "manual/Snowpack/Snowpack-With-Create-React-App.md",
+      "value": {
+        "menu": "Snowpack",
+        "name": "Snowpack with CRA",
+        "id": "62f9487a95e88e5cd4b1d8057af7eb76",
+        "filepath": "manual/Snowpack/Snowpack-With-Create-React-App.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Snowpack/Snowpack-With-Create-React-App.md",
+        "link": "",
+        "slug": "manual-snowpack-snowpack-with-create-react-app",
+        "route": "/manual-snowpack-snowpack-with-create-react-app",
+        "headings": [
+          {
+            "slug": "snowpack-with-cra",
+            "depth": 1,
+            "value": "Snowpack with CRA"
+          },
+          {
+            "slug": "resources",
+            "depth": 2,
+            "value": "Resources"
+          },
+          {
+            "slug": "starting-the-app",
+            "depth": 2,
+            "value": "Starting the app"
+          },
+          {
+            "slug": "babel-run-command-file",
+            "depth": 2,
+            "value": "Babel Run Command File"
+          },
+          {
+            "slug": "indexhtml",
+            "depth": 2,
+            "value": "index.html"
+          },
+          {
+            "slug": "config",
+            "depth": 2,
+            "value": "Config"
+          },
+          {
+            "slug": "dependencies",
+            "depth": 2,
+            "value": "Dependencies"
+          },
+          {
+            "slug": "packagejson",
+            "depth": 2,
+            "value": "package.json"
           }
         ]
       }
@@ -33136,6 +33999,61 @@
       }
     },
     {
+      "key": "manual/Tailwind/Quickstart.md",
+      "value": {
+        "menu": "Tailwind",
+        "name": "Quickstart with Tailwind",
+        "id": "39bac8bd7517106e4b4bf3cdae3c99f0",
+        "filepath": "manual/Tailwind/Quickstart.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Tailwind/Quickstart.md",
+        "link": "",
+        "slug": "manual-tailwind-quickstart",
+        "route": "/manual-tailwind-quickstart",
+        "headings": [
+          {
+            "slug": "quickstart-with-tailwind--typescript--vscode",
+            "depth": 1,
+            "value": "Quickstart with Tailwind + TypeScript + VSCode"
+          },
+          {
+            "slug": "resources",
+            "depth": 2,
+            "value": "Resources"
+          },
+          {
+            "slug": "installation",
+            "depth": 2,
+            "value": "Installation"
+          },
+          {
+            "slug": "add-css-imports",
+            "depth": 2,
+            "value": "Add CSS imports"
+          },
+          {
+            "slug": "adding-scripts",
+            "depth": 2,
+            "value": "Adding scripts"
+          },
+          {
+            "slug": "usage-with-classnames",
+            "depth": 2,
+            "value": "Usage with classnames"
+          },
+          {
+            "slug": "updating-apptsx-to-use-the-correct-styles",
+            "depth": 2,
+            "value": "Updating App.tsx to use the correct styles"
+          },
+          {
+            "slug": "alternative-without-classnames",
+            "depth": 2,
+            "value": "Alternative without classnames"
+          }
+        ]
+      }
+    },
+    {
       "key": "manual/Tensorflow/Tensorflow-JS.md",
       "value": {
         "name": "Tensorflow.js",
@@ -34311,6 +35229,101 @@
       }
     },
     {
+      "key": "manual/Unix/Appending-Files.md",
+      "value": {
+        "menu": "Unix",
+        "name": "Appending Files",
+        "id": "80e405125ff5e8bc82fc36c61d12d7e3",
+        "filepath": "manual/Unix/Appending-Files.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Unix/Appending-Files.md",
+        "link": "",
+        "slug": "manual-unix-appending-files",
+        "route": "/manual-unix-appending-files",
+        "headings": [
+          {
+            "slug": "appending-files",
+            "depth": 1,
+            "value": "Appending Files"
+          },
+          {
+            "slug": "resources",
+            "depth": 2,
+            "value": "Resources"
+          }
+        ]
+      }
+    },
+    {
+      "key": "manual/Unix/Redirection.md",
+      "value": {
+        "menu": "Unix",
+        "name": "Redirection",
+        "id": "7bc937fae3d47674f4f7ce922b2f7aa6",
+        "filepath": "manual/Unix/Redirection.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Unix/Redirection.md",
+        "link": "",
+        "slug": "manual-unix-redirection",
+        "route": "/manual-unix-redirection",
+        "headings": [
+          {
+            "slug": "unix-redirection-in-c",
+            "depth": 1,
+            "value": "Unix Redirection in C"
+          },
+          {
+            "slug": "resources",
+            "depth": 2,
+            "value": "Resources"
+          },
+          {
+            "slug": "first-example",
+            "depth": 2,
+            "value": "First example"
+          },
+          {
+            "slug": "second-example",
+            "depth": 2,
+            "value": "Second example"
+          }
+        ]
+      }
+    },
+    {
+      "key": "manual/Unix/Unix-Command-Line.md",
+      "value": {
+        "menu": "Unix",
+        "name": "Unix Command Line",
+        "id": "287624f9e766f85f72d42b0494845f13",
+        "filepath": "manual/Unix/Unix-Command-Line.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Unix/Unix-Command-Line.md",
+        "link": "",
+        "slug": "manual-unix-unix-command-line",
+        "route": "/manual-unix-unix-command-line",
+        "headings": [
+          {
+            "slug": "unix-command-line",
+            "depth": 1,
+            "value": "Unix Command Line"
+          },
+          {
+            "slug": "resources",
+            "depth": 2,
+            "value": "Resources"
+          },
+          {
+            "slug": "useful-programs",
+            "depth": 2,
+            "value": "Useful programs"
+          },
+          {
+            "slug": "downloaded-useful-programs",
+            "depth": 2,
+            "value": "Downloaded, Useful Programs"
+          }
+        ]
+      }
+    },
+    {
       "key": "manual/VSCode/VSCode-Can-Do-That.md",
       "value": {
         "menu": "VSCode",
@@ -34411,66 +35424,6 @@
             "slug": "breadcrumbs",
             "depth": 2,
             "value": "Breadcrumbs"
-          }
-        ]
-      }
-    },
-    {
-      "key": "manual/Unix/Appending-Files.md",
-      "value": {
-        "menu": "Unix",
-        "name": "Appending Files",
-        "id": "80e405125ff5e8bc82fc36c61d12d7e3",
-        "filepath": "manual/Unix/Appending-Files.md",
-        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Unix/Appending-Files.md",
-        "link": "",
-        "slug": "manual-unix-appending-files",
-        "route": "/manual-unix-appending-files",
-        "headings": [
-          {
-            "slug": "appending-files",
-            "depth": 1,
-            "value": "Appending Files"
-          },
-          {
-            "slug": "resources",
-            "depth": 2,
-            "value": "Resources"
-          }
-        ]
-      }
-    },
-    {
-      "key": "manual/Unix/Unix-Command-Line.md",
-      "value": {
-        "menu": "Unix",
-        "name": "Unix Command Line",
-        "id": "287624f9e766f85f72d42b0494845f13",
-        "filepath": "manual/Unix/Unix-Command-Line.md",
-        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Unix/Unix-Command-Line.md",
-        "link": "",
-        "slug": "manual-unix-unix-command-line",
-        "route": "/manual-unix-unix-command-line",
-        "headings": [
-          {
-            "slug": "unix-command-line",
-            "depth": 1,
-            "value": "Unix Command Line"
-          },
-          {
-            "slug": "resources",
-            "depth": 2,
-            "value": "Resources"
-          },
-          {
-            "slug": "useful-programs",
-            "depth": 2,
-            "value": "Useful programs"
-          },
-          {
-            "slug": "downloaded-useful-programs",
-            "depth": 2,
-            "value": "Downloaded, Useful Programs"
           }
         ]
       }
@@ -34646,46 +35599,6 @@
             "slug": "resources",
             "depth": 2,
             "value": "Resources"
-          }
-        ]
-      }
-    },
-    {
-      "key": "manual/Web-Servers/Resources.md",
-      "value": {
-        "menu": "Web Servers",
-        "name": "Web Server Resources",
-        "id": "eac2c86d3aa07a9e2515d50521bbb144",
-        "filepath": "manual/Web-Servers/Resources.md",
-        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Web-Servers/Resources.md",
-        "link": "",
-        "slug": "manual-web-servers-resources",
-        "route": "/manual-web-servers-resources",
-        "headings": [
-          {
-            "slug": "web-server-resources",
-            "depth": 1,
-            "value": "Web Server Resources"
-          },
-          {
-            "slug": "java--spring",
-            "depth": 2,
-            "value": "Java + Spring"
-          },
-          {
-            "slug": "php--slim",
-            "depth": 2,
-            "value": "PHP + Slim"
-          },
-          {
-            "slug": "ruby--rails",
-            "depth": 2,
-            "value": "Ruby + Rails"
-          },
-          {
-            "slug": "golang--gin",
-            "depth": 2,
-            "value": "Golang + Gin"
           }
         ]
       }
@@ -35266,176 +36179,41 @@
       }
     },
     {
-      "key": "manual/WordPress/WP-PC-Cheat-Sheet.md",
+      "key": "manual/Web-Servers/Resources.md",
       "value": {
-        "name": "WP PC Cheat Sheet",
-        "menu": "Word Press",
-        "id": "bcb79c4c57e5bd52525ea3fefc3f92d2",
-        "filepath": "manual/WordPress/WP-PC-Cheat-Sheet.md",
-        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/WordPress/WP-PC-Cheat-Sheet.md",
+        "menu": "Web Servers",
+        "name": "Web Server Resources",
+        "id": "eac2c86d3aa07a9e2515d50521bbb144",
+        "filepath": "manual/Web-Servers/Resources.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Web-Servers/Resources.md",
         "link": "",
-        "slug": "manual-word-press-wp-pc-cheat-sheet",
-        "route": "/manual-word-press-wp-pc-cheat-sheet",
+        "slug": "manual-web-servers-resources",
+        "route": "/manual-web-servers-resources",
         "headings": [
           {
-            "slug": "wp-pres-company-cheat-sheet",
+            "slug": "web-server-resources",
             "depth": 1,
-            "value": "WP PRES COMPANY CHEAT SHEET"
+            "value": "Web Server Resources"
           },
           {
-            "slug": "wppres-1-faq",
+            "slug": "java--spring",
             "depth": 2,
-            "value": "WPPRES-1: FAQ"
+            "value": "Java + Spring"
           },
           {
-            "slug": "wppres-2-custom-type-relationships",
+            "slug": "php--slim",
             "depth": 2,
-            "value": "WPPRES-2: Custom Type Relationships"
+            "value": "PHP + Slim"
           },
           {
-            "slug": "wppres-3-example-of-rendering-a-twig-file-using-timber-wp-functions",
+            "slug": "ruby--rails",
             "depth": 2,
-            "value": "WPPRES-3: Example of Rendering a .twig file using Timber WP functions"
+            "value": "Ruby + Rails"
           },
           {
-            "slug": "wppres-4-example-php-functionsphp",
+            "slug": "golang--gin",
             "depth": 2,
-            "value": "WPPRES-4: Example PHP functions.php"
-          },
-          {
-            "slug": "wppres-5-creating-ajax-loading-example",
-            "depth": 2,
-            "value": "WPPRES-5: Creating AJAX (Loading example)"
-          },
-          {
-            "slug": "wppres-6-custom-search-terms",
-            "depth": 2,
-            "value": "WPPRES-6: Custom Search Terms"
-          }
-        ]
-      }
-    },
-    {
-      "key": "manual/WordPress/WP-PC-Setup-Cheat-Sheet.md",
-      "value": {
-        "name": "WP PC Setup Cheat Sheet",
-        "menu": "Word Press",
-        "id": "0c2acf0fc3d9d2824fe0b782c251c963",
-        "filepath": "manual/WordPress/WP-PC-Setup-Cheat-Sheet.md",
-        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/WordPress/WP-PC-Setup-Cheat-Sheet.md",
-        "link": "",
-        "slug": "manual-word-press-wp-pc-setup-cheat-sheet",
-        "route": "/manual-word-press-wp-pc-setup-cheat-sheet",
-        "headings": [
-          {
-            "slug": "1-install-bower",
-            "depth": 3,
-            "value": "1. Install Bower"
-          },
-          {
-            "slug": "2-install-node-dependencies",
-            "depth": 3,
-            "value": "2. Install Node Dependencies"
-          },
-          {
-            "slug": "3-install-composer-dependencies",
-            "depth": 3,
-            "value": "3. Install Composer Dependencies"
-          },
-          {
-            "slug": "4-copy-across-wordpress-files",
-            "depth": 3,
-            "value": "4. Copy Across WordPress Files"
-          },
-          {
-            "slug": "5-set-mamp-to-the-correct-folder",
-            "depth": 3,
-            "value": "5. Set MAMP to the correct folder"
-          },
-          {
-            "slug": "6-create-database",
-            "depth": 3,
-            "value": "6. Create Database"
-          },
-          {
-            "slug": "7-open-the-localhost-and-begin-the-wp-set-up",
-            "depth": 3,
-            "value": "7. Open the Localhost and begin the WP set up"
-          },
-          {
-            "slug": "8-open-the-localhost-and-begin-the-wp-set-up",
-            "depth": 3,
-            "value": "8. Open the Localhost and begin the WP set up"
-          },
-          {
-            "slug": "9-ensure-that-any-other-filesplugins-required-in-the-correct-folder-in-reference-to-3",
-            "depth": 3,
-            "value": "9. Ensure that any other files/plugins required in the correct folder (in reference to 3)"
-          },
-          {
-            "slug": "10-gulp-watch---ensure-that-the-gulpfilejs-is-all-sweet",
-            "depth": 3,
-            "value": "10. gulp watch - ensure that the gulpfile.js is all sweet!"
-          },
-          {
-            "slug": "11-ensure-the-correct-plugins-are-active",
-            "depth": 3,
-            "value": "11. Ensure the correct plugins are active"
-          },
-          {
-            "slug": "12-active-the-appropriate-theme",
-            "depth": 3,
-            "value": "12. Active the appropriate theme"
-          }
-        ]
-      }
-    },
-    {
-      "key": "manual/WordPress/WordPress-Cheat-Sheet.md",
-      "value": {
-        "name": "Word Press Cheat Sheet",
-        "menu": "Word Press",
-        "id": "836e36138780da7070045e7584ff0219",
-        "filepath": "manual/WordPress/WordPress-Cheat-Sheet.md",
-        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/WordPress/WordPress-Cheat-Sheet.md",
-        "link": "",
-        "slug": "manual-word-press-word-press-cheat-sheet",
-        "route": "/manual-word-press-word-press-cheat-sheet",
-        "headings": [
-          {
-            "slug": "wordpress-help",
-            "depth": 1,
-            "value": "WordPress Help"
-          },
-          {
-            "slug": "wordpress-theme-files",
-            "depth": 2,
-            "value": "WordPress Theme Files"
-          },
-          {
-            "slug": "define-new-theme",
-            "depth": 2,
-            "value": "Define new theme"
-          },
-          {
-            "slug": "template-include-tags",
-            "depth": 2,
-            "value": "Template include tags"
-          },
-          {
-            "slug": "other-template-tags",
-            "depth": 2,
-            "value": "Other template tags"
-          },
-          {
-            "slug": "other-loops",
-            "depth": 2,
-            "value": "Other loops"
-          },
-          {
-            "slug": "treehouse-theme-dev",
-            "depth": 2,
-            "value": "TreeHouse Theme Dev"
+            "value": "Golang + Gin"
           }
         ]
       }
@@ -35846,6 +36624,181 @@
       }
     },
     {
+      "key": "manual/WordPress/WP-PC-Cheat-Sheet.md",
+      "value": {
+        "name": "WP PC Cheat Sheet",
+        "menu": "Word Press",
+        "id": "bcb79c4c57e5bd52525ea3fefc3f92d2",
+        "filepath": "manual/WordPress/WP-PC-Cheat-Sheet.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/WordPress/WP-PC-Cheat-Sheet.md",
+        "link": "",
+        "slug": "manual-word-press-wp-pc-cheat-sheet",
+        "route": "/manual-word-press-wp-pc-cheat-sheet",
+        "headings": [
+          {
+            "slug": "wp-pres-company-cheat-sheet",
+            "depth": 1,
+            "value": "WP PRES COMPANY CHEAT SHEET"
+          },
+          {
+            "slug": "wppres-1-faq",
+            "depth": 2,
+            "value": "WPPRES-1: FAQ"
+          },
+          {
+            "slug": "wppres-2-custom-type-relationships",
+            "depth": 2,
+            "value": "WPPRES-2: Custom Type Relationships"
+          },
+          {
+            "slug": "wppres-3-example-of-rendering-a-twig-file-using-timber-wp-functions",
+            "depth": 2,
+            "value": "WPPRES-3: Example of Rendering a .twig file using Timber WP functions"
+          },
+          {
+            "slug": "wppres-4-example-php-functionsphp",
+            "depth": 2,
+            "value": "WPPRES-4: Example PHP functions.php"
+          },
+          {
+            "slug": "wppres-5-creating-ajax-loading-example",
+            "depth": 2,
+            "value": "WPPRES-5: Creating AJAX (Loading example)"
+          },
+          {
+            "slug": "wppres-6-custom-search-terms",
+            "depth": 2,
+            "value": "WPPRES-6: Custom Search Terms"
+          }
+        ]
+      }
+    },
+    {
+      "key": "manual/WordPress/WP-PC-Setup-Cheat-Sheet.md",
+      "value": {
+        "name": "WP PC Setup Cheat Sheet",
+        "menu": "Word Press",
+        "id": "0c2acf0fc3d9d2824fe0b782c251c963",
+        "filepath": "manual/WordPress/WP-PC-Setup-Cheat-Sheet.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/WordPress/WP-PC-Setup-Cheat-Sheet.md",
+        "link": "",
+        "slug": "manual-word-press-wp-pc-setup-cheat-sheet",
+        "route": "/manual-word-press-wp-pc-setup-cheat-sheet",
+        "headings": [
+          {
+            "slug": "1-install-bower",
+            "depth": 3,
+            "value": "1. Install Bower"
+          },
+          {
+            "slug": "2-install-node-dependencies",
+            "depth": 3,
+            "value": "2. Install Node Dependencies"
+          },
+          {
+            "slug": "3-install-composer-dependencies",
+            "depth": 3,
+            "value": "3. Install Composer Dependencies"
+          },
+          {
+            "slug": "4-copy-across-wordpress-files",
+            "depth": 3,
+            "value": "4. Copy Across WordPress Files"
+          },
+          {
+            "slug": "5-set-mamp-to-the-correct-folder",
+            "depth": 3,
+            "value": "5. Set MAMP to the correct folder"
+          },
+          {
+            "slug": "6-create-database",
+            "depth": 3,
+            "value": "6. Create Database"
+          },
+          {
+            "slug": "7-open-the-localhost-and-begin-the-wp-set-up",
+            "depth": 3,
+            "value": "7. Open the Localhost and begin the WP set up"
+          },
+          {
+            "slug": "8-open-the-localhost-and-begin-the-wp-set-up",
+            "depth": 3,
+            "value": "8. Open the Localhost and begin the WP set up"
+          },
+          {
+            "slug": "9-ensure-that-any-other-filesplugins-required-in-the-correct-folder-in-reference-to-3",
+            "depth": 3,
+            "value": "9. Ensure that any other files/plugins required in the correct folder (in reference to 3)"
+          },
+          {
+            "slug": "10-gulp-watch---ensure-that-the-gulpfilejs-is-all-sweet",
+            "depth": 3,
+            "value": "10. gulp watch - ensure that the gulpfile.js is all sweet!"
+          },
+          {
+            "slug": "11-ensure-the-correct-plugins-are-active",
+            "depth": 3,
+            "value": "11. Ensure the correct plugins are active"
+          },
+          {
+            "slug": "12-active-the-appropriate-theme",
+            "depth": 3,
+            "value": "12. Active the appropriate theme"
+          }
+        ]
+      }
+    },
+    {
+      "key": "manual/WordPress/WordPress-Cheat-Sheet.md",
+      "value": {
+        "name": "Word Press Cheat Sheet",
+        "menu": "Word Press",
+        "id": "836e36138780da7070045e7584ff0219",
+        "filepath": "manual/WordPress/WordPress-Cheat-Sheet.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/WordPress/WordPress-Cheat-Sheet.md",
+        "link": "",
+        "slug": "manual-word-press-word-press-cheat-sheet",
+        "route": "/manual-word-press-word-press-cheat-sheet",
+        "headings": [
+          {
+            "slug": "wordpress-help",
+            "depth": 1,
+            "value": "WordPress Help"
+          },
+          {
+            "slug": "wordpress-theme-files",
+            "depth": 2,
+            "value": "WordPress Theme Files"
+          },
+          {
+            "slug": "define-new-theme",
+            "depth": 2,
+            "value": "Define new theme"
+          },
+          {
+            "slug": "template-include-tags",
+            "depth": 2,
+            "value": "Template include tags"
+          },
+          {
+            "slug": "other-template-tags",
+            "depth": 2,
+            "value": "Other template tags"
+          },
+          {
+            "slug": "other-loops",
+            "depth": 2,
+            "value": "Other loops"
+          },
+          {
+            "slug": "treehouse-theme-dev",
+            "depth": 2,
+            "value": "TreeHouse Theme Dev"
+          }
+        ]
+      }
+    },
+    {
       "key": "manual/Writing/Writing-With-Flair.md",
       "value": {
         "name": "Writing With Flair",
@@ -36076,6 +37029,146 @@
             "slug": "working-with-arrays",
             "depth": 2,
             "value": "Working with arrays"
+          }
+        ]
+      }
+    },
+    {
+      "key": "manual/gRPC/gRPC-with-Go.md",
+      "value": {
+        "menu": "gRPC",
+        "name": "gRPCs w/ Golang",
+        "id": "69625290e4bc1b40042b8c5d32834500",
+        "filepath": "manual/gRPC/gRPC-with-Go.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/gRPC/gRPC-with-Go.md",
+        "link": "",
+        "slug": "manual-g-rpc-g-rpc-with-go",
+        "route": "/manual-g-rpc-g-rpc-with-go",
+        "headings": [
+          {
+            "slug": "grpc-with-golang",
+            "depth": 1,
+            "value": "gRPC with Golang"
+          },
+          {
+            "slug": "resources",
+            "depth": 2,
+            "value": "Resources"
+          },
+          {
+            "slug": "intro",
+            "depth": 2,
+            "value": "Intro"
+          },
+          {
+            "slug": "benefits",
+            "depth": 3,
+            "value": "Benefits"
+          },
+          {
+            "slug": "remote-procedural-call",
+            "depth": 2,
+            "value": "Remote Procedural Call"
+          },
+          {
+            "slug": "getting-started",
+            "depth": 2,
+            "value": "Getting started"
+          },
+          {
+            "slug": "example-proto-file",
+            "depth": 3,
+            "value": "Example proto file"
+          },
+          {
+            "slug": "why-protocol-buffers",
+            "depth": 2,
+            "value": "Why Protocol Buffers?"
+          },
+          {
+            "slug": "protocol-buffers--interoperability",
+            "depth": 3,
+            "value": "Protocol Buffers & Interoperability"
+          },
+          {
+            "slug": "grpc-languages",
+            "depth": 3,
+            "value": "gRPC languages"
+          },
+          {
+            "slug": "http2-vs-http1",
+            "depth": 2,
+            "value": "HTTP/2 vs HTTP/1"
+          },
+          {
+            "slug": "http1",
+            "depth": 3,
+            "value": "HTTP/1"
+          },
+          {
+            "slug": "http2",
+            "depth": 3,
+            "value": "HTTP/2"
+          },
+          {
+            "slug": "4-types-of-api-in-grpc",
+            "depth": 2,
+            "value": "4 Types of API in gRPC"
+          },
+          {
+            "slug": "grpc-scalability",
+            "depth": 2,
+            "value": "gRPC Scalability"
+          },
+          {
+            "slug": "grpc-security",
+            "depth": 2,
+            "value": "gRPC Security"
+          },
+          {
+            "slug": "getting-started-with-grpc-go",
+            "depth": 2,
+            "value": "Getting Started with gRPC Go"
+          },
+          {
+            "slug": "a-hello-service",
+            "depth": 3,
+            "value": "A Hello Service"
+          },
+          {
+            "slug": "server-boilerplate",
+            "depth": 2,
+            "value": "Server Boilerplate"
+          },
+          {
+            "slug": "client-boilerplate",
+            "depth": 2,
+            "value": "Client Boilerplate"
+          },
+          {
+            "slug": "creating-a-unary-api-call",
+            "depth": 2,
+            "value": "Creating a Unary API call"
+          },
+          {
+            "slug": "updating-the-client-to-get-a-response",
+            "depth": 2,
+            "value": "Updating the client to get a response"
+          },
+          {
+            "slug": "server-streaming",
+            "depth": 2,
+            "value": "Server Streaming"
+          },
+          {
+            "slug": "client-streaming",
+            "depth": 2,
+            "value": "Client Streaming"
+          },
+          {
+            "slug": "bidi-streaming",
+            "depth": 2,
+            "value": "BiDi Streaming"
           }
         ]
       }
