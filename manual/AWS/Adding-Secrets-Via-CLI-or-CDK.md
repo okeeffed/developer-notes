@@ -13,9 +13,8 @@ name: Adding Secrets Via CLI or CDK
 
 ## Creating the Secret
 
-```s
-aws secretsmanager create-secret --name tutorials/MyFirstTutorialSecret --description "The secret I created for the first tutorial"
-```
+````s
+aws secretsmanager create-secret --name tutorials/MyFirstTutorialSecret --description "The secret I created for the first tutorial" --secret-string SUPERSECRET
 
 The response will look something like so:
 
@@ -24,7 +23,7 @@ The response will look something like so:
   "ARN": "&region-arn;secretsmanager:us-west-2:123456789012:secret:tutorials/MyFirstTutorialSecret-a1b2c3",
   "Name": "tutorials/MyFirstTutorialSecret"
 }
-```
+````
 
 ## Describing the Secret
 
