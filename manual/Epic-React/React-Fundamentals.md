@@ -203,3 +203,197 @@ const element = {
 Why does `message` not work but `Message` work? If you look at Babel, you get answers from the transpilation.
 
 With React specifications, starting the function with a capital letter will help Babel know how to transform the custom components.
+
+## Basic Forms
+
+In this exercise, we simply discussed ways to submit to a form.
+
+The default HTML submit behaviour is prevented using `event.preventDefault()`, and the value can be abstracted using `e.target[number].value` or, in a better method, using `e.target.elements[idOfElement]`.
+
+The solution is as follows:
+
+```js
+// Basic Forms
+// http://localhost:3000/isolated/exercise/06.js
+
+import React from 'react';
+
+function UsernameForm({ onSubmitUsername }) {
+  // 🐨 add a submit event handler here (`handleSubmit`).
+  // 💰 Make sure to accept the `event` as an argument and call
+  // `event.preventDefault()` to prevent the default behavior of form submit
+  // events (which refreshes the page).
+  const handleSubmit = e => {
+    e.preventDefault();
+    const { username } = e.target.elements;
+    onSubmitUsername(username.value);
+  };
+  // 🐨 get the value from the username input (using whichever method
+  // you prefer from the options mentioned in the instructions)
+  // 💰 For example: event.target.elements[0]
+  // 🐨 Call `onSubmitUsername` with the value of the input
+
+  // 🐨 add the onSubmit handler to the <form> below
+
+  // 🐨 make sure to associate the label to the input by specifying an `id` on
+  // the input and a matching value as an `htmlFor` prop on the label.
+  return (
+    <form onSubmit={handleSubmit}>
+      <div>
+        <label htmlFor="username">Username:</label>
+        <input id="username" type="text" />
+      </div>
+      <button type="submit">Submit</button>
+    </form>
+  );
+}
+
+function App() {
+  const onSubmitUsername = username => alert(`You entered: ${username}`);
+  return <UsernameForm onSubmitUsername={onSubmitUsername} />;
+}
+
+export default App;
+```
+
+### Using Refs
+
+Another alternative is to use refs to get our target value.
+
+Kent mentions that he would stick to the original method but wanted to demonstrate examples.
+
+```js
+import React, { useRef } from 'react';
+
+function UsernameForm({ onSubmitUsername }) {
+  const usernameRef = useRef();
+
+  const handleSubmit = e => {
+    e.preventDefault();
+    const username = usernameRef.current.value;
+    onSubmitUsername(username);
+  };
+
+  return (
+    <form onSubmit={handleSubmit}>
+      <div>
+        <label htmlFor="username">Username:</label>
+        <input ref={usernameRef} id="username" type="text" />
+      </div>
+      <button type="submit">Submit</button>
+    </form>
+  );
+}
+
+function App() {
+  const onSubmitUsername = username => alert(`You entered: ${username}`);
+  return <UsernameForm onSubmitUsername={onSubmitUsername} />;
+}
+
+export default App;
+```
+
+### Validation Extra Credit
+
+```js
+// Basic Forms
+// http://localhost:3000/isolated/exercise/06.js
+
+import React, { useState } from 'react';
+
+function UsernameForm({ onSubmitUsername }) {
+  const [isValid, setIsValid] = useState(true);
+
+  const handleChange = e => {
+    const username = e.target.value;
+    const isValid = username === username.toLowerCase();
+    setIsValid(isValid);
+  };
+
+  const handleSubmit = e => {
+    e.preventDefault();
+    const { username } = e.target.elements;
+    onSubmitUsername(username.value);
+  };
+
+  return (
+    <form onSubmit={handleSubmit}>
+      <div>
+        <label htmlFor="username">Username:</label>
+        <input onChange={handleChange} id="username" type="text" />
+        {!isValid && <p>The value is invalid</p>}
+      </div>
+      <button type="submit">Submit</button>
+    </form>
+  );
+}
+
+function App() {
+  const onSubmitUsername = username => alert(`You entered: ${username}`);
+  return <UsernameForm onSubmitUsername={onSubmitUsername} />;
+}
+
+export default App;
+```
+
+### Controlled Form Extra Credit
+
+To validate our form to show that the value is all lower case, we can add a function to enable this.
+
+```js
+// Basic Forms
+// http://localhost:3000/isolated/exercise/06.js
+
+import React, { useState } from 'react';
+
+function UsernameForm({ onSubmitUsername }) {
+  const [username, setUsername] = useState('');
+  const [isValid, setIsValid] = useState(true);
+
+  const handleChange = e => {
+    const username = e.target.value;
+
+    const isValid = username === username.toLowerCase();
+    setIsValid(isValid);
+
+    setUsername(username);
+  };
+
+  const handleSubmit = e => {
+    e.preventDefault();
+    const { username } = e.target.elements;
+    onSubmitUsername(username.value);
+  };
+
+  return (
+    <form onSubmit={handleSubmit}>
+      <div>
+        <label htmlFor="username">Username:</label>
+        <input
+          onChange={handleChange}
+          id="username"
+          type="text"
+          value={username}
+        />
+        {!isValid && <p>The value is invalid</p>}
+      </div>
+      <button disabled={!isValid} type="submit">
+        Submit
+      </button>
+    </form>
+  );
+}
+
+function App() {
+  const onSubmitUsername = username => alert(`You entered: ${username}`);
+  return <UsernameForm onSubmitUsername={onSubmitUsername} />;
+}
+
+export default App;
+```
+
+## Rendering Arrays
+
+This is a last fundamental look at array rendering.
+
+The gist of it is that you should use a specific `key` that is not the index to ensure there is no unusual behaviour and that focus can follow around on the page.
