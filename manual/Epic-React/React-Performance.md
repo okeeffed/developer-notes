@@ -944,7 +944,7 @@ function AppProvider({ children }) {
     grid: initialGrid,
   });
   // 🐨 memoize this value with React.useMemo
-  const value = React.useMemo(() => [state, dispatch], [state]);
+  const value = React.useMemo(() => [state, dispatch], [state, dispatch]);
   // const value = [state, dispatch]
   return (
     <AppStateContext.Provider value={value}>
@@ -1048,3 +1048,897 @@ The results can be seen in these screenshots:
 ![Force rerender without memoization](./force-rerender-without-memoization.png)
 
 ![Force rerender with memoization](./force-rerender-with-memoization.png)
+
+### Separate the contexts
+
+Another issue we run into is that when we click on a grid item, our state is updating. Because the state "did update", we are getting a new array in the memoised `AppProvider` and therefore this change is re-rendering everything that consumes the state (even though the `Grid` only needs to consume the dispatch!)
+
+```js
+// Optimize context value
+// http://localhost:3000/isolated/exercise/05.js
+
+import * as React from 'react';
+import {
+  useForceRerender,
+  useDebouncedState,
+  AppGrid,
+  updateGridState,
+  updateGridCellState,
+} from '../utils';
+
+const AppStateContext = React.createContext();
+const AppDispatchContext = React.createContext();
+
+const initialGrid = Array.from({ length: 100 }, () =>
+  Array.from({ length: 100 }, () => Math.random() * 100),
+);
+
+function appReducer(state, action) {
+  switch (action.type) {
+    case 'TYPED_IN_DOG_INPUT': {
+      return { ...state, dogName: action.dogName };
+    }
+    case 'UPDATE_GRID_CELL': {
+      return { ...state, grid: updateGridCellState(state.grid, action) };
+    }
+    case 'UPDATE_GRID': {
+      return { ...state, grid: updateGridState(state.grid) };
+    }
+    default: {
+      throw new Error(`Unhandled action type: ${action.type}`);
+    }
+  }
+}
+
+function AppProvider({ children }) {
+  const [state, dispatch] = React.useReducer(appReducer, {
+    dogName: '',
+    grid: initialGrid,
+  });
+
+  return (
+    <AppStateContext.Provider value={state}>
+      <AppDispatchContext.Provider value={dispatch}>
+        {children}
+      </AppDispatchContext.Provider>
+    </AppStateContext.Provider>
+  );
+}
+
+function useAppState() {
+  const context = React.useContext(AppStateContext);
+  if (!context) {
+    throw new Error('useAppState must be used within the AppProvider');
+  }
+  return context;
+}
+
+function useAppDispatch() {
+  const context = React.useContext(AppDispatchContext);
+  if (!context) {
+    throw new Error('useAppDispatch must be used within the AppProvider');
+  }
+  return context;
+}
+
+function Grid() {
+  const dispatch = useAppDispatch();
+  const [rows, setRows] = useDebouncedState(50);
+  const [columns, setColumns] = useDebouncedState(50);
+  const updateGridData = () => dispatch({ type: 'UPDATE_GRID' });
+  return (
+    <AppGrid
+      onUpdateGrid={updateGridData}
+      rows={rows}
+      handleRowsChange={setRows}
+      columns={columns}
+      handleColumnsChange={setColumns}
+      Cell={Cell}
+    />
+  );
+}
+Grid = React.memo(Grid);
+
+function Cell({ row, column }) {
+  const state = useAppState();
+  const dispatch = useAppDispatch();
+  const cell = state.grid[row][column];
+  const handleClick = () => dispatch({ type: 'UPDATE_GRID_CELL', row, column });
+  return (
+    <button
+      className="cell"
+      onClick={handleClick}
+      style={{
+        color: cell > 50 ? 'white' : 'black',
+        backgroundColor: `rgba(0, 0, 0, ${cell / 100})`,
+      }}
+    >
+      {Math.floor(cell)}
+    </button>
+  );
+}
+Cell = React.memo(Cell);
+
+function DogNameInput() {
+  const state = useAppState();
+  const dispatch = useAppDispatch();
+  const { dogName } = state;
+
+  function handleChange(event) {
+    const newDogName = event.target.value;
+    dispatch({ type: 'TYPED_IN_DOG_INPUT', dogName: newDogName });
+  }
+
+  return (
+    <form onSubmit={e => e.preventDefault()}>
+      <label htmlFor="dogName">Dog Name</label>
+      <input
+        value={dogName}
+        onChange={handleChange}
+        id="dogName"
+        placeholder="Toto"
+      />
+      {dogName ? (
+        <div>
+          <strong>{dogName}</strong>, I've a feeling we're not in Kansas anymore
+        </div>
+      ) : null}
+    </form>
+  );
+}
+
+function App() {
+  const forceRerender = useForceRerender();
+  return (
+    <div className="grid-app">
+      <button onClick={forceRerender}>force rerender</button>
+      <AppProvider>
+        <div>
+          <DogNameInput />
+          <Grid />
+        </div>
+      </AppProvider>
+    </div>
+  );
+}
+
+export default App;
+```
+
+> Note: at the end of this challenge on production, we'll see that we didn't make _huge changes_ to the timing.
+
+## Fix Perf Deatch by a Thousand Cuts
+
+In this example, we had to fix an input that was operating horrifically slow. The reason we come to find is related to a requirement of state colocation with the component.
+
+It is important NOT to just add everything to the state context willy nilly. There are a lot of Performance implications with this.
+
+```js
+// Fix "perf death by a thousand cuts"
+// http://localhost:3000/isolated/exercise/06.js
+
+import * as React from 'react';
+import {
+  useForceRerender,
+  useDebouncedState,
+  AppGrid,
+  updateGridState,
+  updateGridCellState,
+} from '../utils';
+
+const AppStateContext = React.createContext();
+AppStateContext.displayName = 'AppStateContext';
+const AppDispatchContext = React.createContext();
+AppDispatchContext.displayName = 'AppDispatchContext';
+
+const initialGrid = Array.from({ length: 100 }, () =>
+  Array.from({ length: 100 }, () => Math.random() * 100),
+);
+
+function appReducer(state, action) {
+  switch (action.type) {
+    // we're no longer managing the dogName state in our reducer
+    // 💣 remove this case
+    case 'TYPED_IN_DOG_INPUT': {
+      return { ...state, dogName: action.dogName };
+    }
+    case 'UPDATE_GRID_CELL': {
+      return { ...state, grid: updateGridCellState(state.grid, action) };
+    }
+    case 'UPDATE_GRID': {
+      return { ...state, grid: updateGridState(state.grid) };
+    }
+    default: {
+      throw new Error(`Unhandled action type: ${action.type}`);
+    }
+  }
+}
+
+function AppProvider({ children }) {
+  const [state, dispatch] = React.useReducer(appReducer, {
+    grid: initialGrid,
+  });
+  return (
+    <AppStateContext.Provider value={state}>
+      <AppDispatchContext.Provider value={dispatch}>
+        {children}
+      </AppDispatchContext.Provider>
+    </AppStateContext.Provider>
+  );
+}
+
+function useAppState() {
+  const context = React.useContext(AppStateContext);
+  if (!context) {
+    throw new Error('useAppState must be used within the AppProvider');
+  }
+  return context;
+}
+
+function useAppDispatch() {
+  const context = React.useContext(AppDispatchContext);
+  if (!context) {
+    throw new Error('useAppDispatch must be used within the AppProvider');
+  }
+  return context;
+}
+
+function Grid() {
+  const dispatch = useAppDispatch();
+  const [rows, setRows] = useDebouncedState(50);
+  const [columns, setColumns] = useDebouncedState(50);
+  const updateGridData = () => dispatch({ type: 'UPDATE_GRID' });
+  return (
+    <AppGrid
+      onUpdateGrid={updateGridData}
+      rows={rows}
+      handleRowsChange={setRows}
+      columns={columns}
+      handleColumnsChange={setColumns}
+      Cell={Cell}
+    />
+  );
+}
+Grid = React.memo(Grid);
+
+function Cell({ row, column }) {
+  const state = useAppState();
+  const cell = state.grid[row][column];
+  const dispatch = useAppDispatch();
+  const handleClick = () => dispatch({ type: 'UPDATE_GRID_CELL', row, column });
+  return (
+    <button
+      className="cell"
+      onClick={handleClick}
+      style={{
+        color: cell > 50 ? 'white' : 'black',
+        backgroundColor: `rgba(0, 0, 0, ${cell / 100})`,
+      }}
+    >
+      {Math.floor(cell)}
+    </button>
+  );
+}
+Cell = React.memo(Cell);
+
+function DogNameInput() {
+  // 🐨 replace the useAppState and useAppDispatch with a normal useState here
+  // to manage the dogName locally within this component
+  const [dogName, setDogName] = React.useState('');
+
+  function handleChange(event) {
+    const newDogName = event.target.value;
+    setDogName(newDogName);
+  }
+
+  return (
+    <form onSubmit={e => e.preventDefault()}>
+      <label htmlFor="dogName">Dog Name</label>
+      <input
+        value={dogName}
+        onChange={handleChange}
+        id="dogName"
+        placeholder="Toto"
+      />
+      {dogName ? (
+        <div>
+          <strong>{dogName}</strong>, I've a feeling we're not in Kansas anymore
+        </div>
+      ) : null}
+    </form>
+  );
+}
+function App() {
+  const forceRerender = useForceRerender();
+  return (
+    <div className="grid-app">
+      <button onClick={forceRerender}>force rerender</button>
+      <AppProvider>
+        <div>
+          <DogNameInput />
+          <Grid />
+        </div>
+      </AppProvider>
+    </div>
+  );
+}
+
+export default App;
+```
+
+### Separate Contexts
+
+This solution is about going for a different approach. The approach here is to handle when things are global. We can separate context out for different domains.
+
+> It is really important to also measure after to see if you've made serious Performance improvements and not just added complexity.
+
+```js
+import * as React from 'react';
+import {
+  useForceRerender,
+  useDebouncedState,
+  AppGrid,
+  updateGridState,
+  updateGridCellState,
+} from '../utils';
+
+const AppStateContext = React.createContext();
+const AppDispatchContext = React.createContext();
+const DogContext = React.createContext();
+
+const initialGrid = Array.from({ length: 100 }, () =>
+  Array.from({ length: 100 }, () => Math.random() * 100),
+);
+
+function appReducer(state, action) {
+  switch (action.type) {
+    case 'UPDATE_GRID_CELL': {
+      return { ...state, grid: updateGridCellState(state.grid, action) };
+    }
+    case 'UPDATE_GRID': {
+      return { ...state, grid: updateGridState(state.grid) };
+    }
+    default: {
+      throw new Error(`Unhandled action type: ${action.type}`);
+    }
+  }
+}
+
+function AppProvider({ children }) {
+  const [state, dispatch] = React.useReducer(appReducer, {
+    grid: initialGrid,
+  });
+  return (
+    <AppStateContext.Provider value={state}>
+      <AppDispatchContext.Provider value={dispatch}>
+        {children}
+      </AppDispatchContext.Provider>
+    </AppStateContext.Provider>
+  );
+}
+
+function useAppState() {
+  const context = React.useContext(AppStateContext);
+  if (!context) {
+    throw new Error('useAppState must be used within the AppProvider');
+  }
+  return context;
+}
+
+function useAppDispatch() {
+  const context = React.useContext(AppDispatchContext);
+  if (!context) {
+    throw new Error('useAppDispatch must be used within the AppProvider');
+  }
+  return context;
+}
+
+function dogReducer(state, action) {
+  switch (action.type) {
+    case 'TYPED_IN_DOG_INPUT': {
+      return { ...state, dogName: action.dogName };
+    }
+    default: {
+      throw new Error(`Unhandled action type: ${action.type}`);
+    }
+  }
+}
+
+function DogProvider(props) {
+  const [state, dispatch] = React.useReducer(dogReducer, {
+    dogName: '',
+  });
+
+  const value = [state, dispatch];
+
+  return <DogProvider value={value} {...props} />;
+}
+
+function useDogContext() {
+  const context = React.useContext(DogContext);
+  if (!context) {
+    throw new Error('useAppDispatch must be used within the AppProvider');
+  }
+  return context;
+}
+
+function Grid() {
+  const dispatch = useAppDispatch();
+  const [rows, setRows] = useDebouncedState(50);
+  const [columns, setColumns] = useDebouncedState(50);
+  const updateGridData = () => dispatch({ type: 'UPDATE_GRID' });
+  return (
+    <AppGrid
+      onUpdateGrid={updateGridData}
+      rows={rows}
+      handleRowsChange={setRows}
+      columns={columns}
+      handleColumnsChange={setColumns}
+      Cell={Cell}
+    />
+  );
+}
+Grid = React.memo(Grid);
+
+function Cell({ row, column }) {
+  const state = useAppState();
+  const cell = state.grid[row][column];
+  const dispatch = useAppDispatch();
+  const handleClick = () => dispatch({ type: 'UPDATE_GRID_CELL', row, column });
+  return (
+    <button
+      className="cell"
+      onClick={handleClick}
+      style={{
+        color: cell > 50 ? 'white' : 'black',
+        backgroundColor: `rgba(0, 0, 0, ${cell / 100})`,
+      }}
+    >
+      {Math.floor(cell)}
+    </button>
+  );
+}
+Cell = React.memo(Cell);
+
+function DogNameInput() {
+  // 🐨 replace the useAppState and useAppDispatch with a normal useState here
+  // to manage the dogName locally within this component
+  const [state, dispatch] = useDogContext();
+  const { dogName } = state;
+
+  function handleChange(event) {
+    const newDogName = event.target.value;
+    // 🐨 change this to call your state setter that you get from useState
+    dispatch({ type: 'TYPED_IN_DOG_INPUT', dogName: newDogName });
+  }
+
+  return (
+    <form onSubmit={e => e.preventDefault()}>
+      <label htmlFor="dogName">Dog Name</label>
+      <input
+        value={dogName}
+        onChange={handleChange}
+        id="dogName"
+        placeholder="Toto"
+      />
+      {dogName ? (
+        <div>
+          <strong>{dogName}</strong>, I've a feeling we're not in Kansas anymore
+        </div>
+      ) : null}
+    </form>
+  );
+}
+function App() {
+  const forceRerender = useForceRerender();
+  return (
+    <div className="grid-app">
+      <button onClick={forceRerender}>force rerender</button>
+      <AppProvider>
+        <div>
+          <DogProvider>
+            <DogNameInput />
+          </DogProvider>
+          <Grid />
+        </div>
+      </AppProvider>
+    </div>
+  );
+}
+
+export default App;
+```
+
+> Note: Because the `AppProvider` not longer impacts anything other than the grid, we can also change the Providers to focus more where is matters:
+
+```js
+function App() {
+  const forceRerender = useForceRerender();
+  return (
+    <div className="grid-app">
+      <button onClick={forceRerender}>force rerender</button>
+      <div>
+        <DogProvider>
+          <DogNameInput />
+        </DogProvider>
+        <AppProvider>
+          <Grid />
+        </AppProvider>
+      </div>
+    </div>
+  );
+}
+```
+
+### Consuming Components
+
+If we check our profiling after the changes that we made above, we will see that when we click a button, there are still all these smaller re-renderings that are happening.
+
+In this particular scenario, it is the `const cell = state.grid[row][column]` line that we want to take out from the cell and calculate prior.
+
+```js
+// This is like a "man-in-middle" that cares about state and can take that,
+// pass it down and then the rendering of the CellImpl can take advantage of memoisation
+function Cell({ row, column }) {
+  const state = useAppState();
+  const cell = state.grid[row][column];
+  return <CellImpl cell={cell} row={row} column={column} />;
+}
+Cell = React.memo(Cell);
+
+function CellImpl({ cell, row, column }) {
+  const dispatch = useAppDispatch();
+  const handleClick = () => dispatch({ type: 'UPDATE_GRID_CELL', row, column });
+  return (
+    <button
+      className="cell"
+      onClick={handleClick}
+      style={{
+        color: cell > 50 ? 'white' : 'black',
+        backgroundColor: `rgba(0, 0, 0, ${cell / 100})`,
+      }}
+    >
+      {Math.floor(cell)}
+    </button>
+  );
+}
+CellImpl = React.memo(CellImpl);
+```
+
+### Slice of App State
+
+"I'm not super jazzed about making an intermediary component". Instead, we can make a higher-order component to take care of it for us instead.
+
+```js
+function withStateSlice(Comp, slice) {
+  const MemoComp = React.memo(Comp);
+  function Wrapper(props, ref) {
+    const state = useAppState();
+    return <MemoComp ref={ref} state={slice(state, props)} {...props} />;
+  }
+  Wrapper.displayName = `withStateSlice${Comp.dispayName || Comp.name}`;
+  return React.memo(React.forwardRef(Wrapper));
+}
+
+function Cell({ state: cell, row, column }) {
+  const dispatch = useAppDispatch();
+  const handleClick = () => dispatch({ type: 'UPDATE_GRID_CELL', row, column });
+  return (
+    <button
+      className="cell"
+      onClick={handleClick}
+      style={{
+        color: cell > 50 ? 'white' : 'black',
+        backgroundColor: `rgba(0, 0, 0, ${cell / 100})`,
+      }}
+    >
+      {Math.floor(cell)}
+    </button>
+  );
+}
+Cell = withStateSlice(
+  Cell,
+  (state, { row, column }) => state.grid[row][column],
+);
+```
+
+### Use Recoil
+
+For the specific problem we have with the massive grid (if we want to use something like that), we can use Recoil to resolve the problems that we run into.
+
+It is worth noting that there is a complexity cost for using Recoil, but in our specific usecase, it is something that Recoil was built to solve:
+
+```js
+// Starting point for the Recoil Extra Credit
+// 💯 use recoil (exercise)
+// http://localhost:3000/isolated/exercise/06.extra-4.js
+
+import * as React from 'react';
+import {
+  useForceRerender,
+  useDebouncedState,
+  AppGrid,
+  updateGridState,
+  updateGridCellState,
+} from '../utils';
+// 🐨 you're gonna need these:
+import {
+  RecoilRoot,
+  useRecoilState,
+  useRecoilCallback,
+  atomFamily,
+} from 'recoil';
+
+const AppStateContext = React.createContext();
+
+const initialGrid = Array.from({ length: 100 }, () =>
+  Array.from({ length: 100 }, () => Math.random() * 100),
+);
+
+// 🐨 create an atomFamily called `cellAtoms` here where the
+// default callback function accepts an object with the
+// `row` and `column` and returns the value from the initialGrid
+// 💰 initialGrid[row][column]
+const cellAtoms = atomFamily({
+  key: 'cells',
+  default: () => ({ row, column }) => initialGrid[row][column],
+});
+
+// 💰 I'm going to give this hook to you as it's mostly here for our contrived
+// example purposes. Just comment this in when you're ready to use it.
+// Here's how it's used:
+// const updateGrid = useUpdateGrid()
+// then later: updateGrid({rows, columns})
+function useUpdateGrid() {
+  return useRecoilCallback(({ set }) => ({ rows, columns }) => {
+    for (let row = 0; row < rows; row++) {
+      for (let column = 0; column < columns; column++) {
+        if (Math.random() > 0.7) {
+          set(cellAtoms({ row, column }), Math.random() * 100);
+        }
+      }
+    }
+  });
+}
+
+function appReducer(state, action) {
+  switch (action.type) {
+    case 'TYPED_IN_DOG_INPUT': {
+      return { ...state, dogName: action.dogName };
+    }
+    default: {
+      throw new Error(`Unhandled action type: ${action.type}`);
+    }
+  }
+}
+
+function AppProvider({ children }) {
+  const [state, dispatch] = React.useReducer(appReducer, {
+    dogName: '',
+  });
+  // 🦉 notice that we don't even need to bother memoizing this value
+  const value = [state, dispatch];
+  return (
+    <AppStateContext.Provider value={value}>
+      {children}
+    </AppStateContext.Provider>
+  );
+}
+
+function useAppState() {
+  const context = React.useContext(AppStateContext);
+  if (!context) {
+    throw new Error('useAppState must be used within the AppProvider');
+  }
+  return context;
+}
+
+function Grid() {
+  // 🐨 we're no longer storing the grid in our app state, so instead you
+  // want to get the updateGrid function from useUpdateGrid
+  const updateGrid = useUpdateGrid();
+  const [rows, setRows] = useDebouncedState(50);
+  const [columns, setColumns] = useDebouncedState(50);
+  const updateGridData = () => updateGrid({ rows, columns });
+  return (
+    <AppGrid
+      onUpdateGrid={updateGridData}
+      rows={rows}
+      handleRowsChange={setRows}
+      columns={columns}
+      handleColumnsChange={setColumns}
+      Cell={Cell}
+    />
+  );
+}
+
+function Cell({ row, column }) {
+  const [cell, setCell] = useRecoilState(cellAtoms({ row, column }));
+  const handleClick = () => setCell(Math.random() * 100);
+
+  return (
+    <button
+      className="cell"
+      onClick={handleClick}
+      style={{
+        color: cell > 50 ? 'white' : 'black',
+        backgroundColor: `rgba(0, 0, 0, ${cell / 100})`,
+      }}
+    >
+      {Math.floor(cell)}
+    </button>
+  );
+}
+
+function DogNameInput() {
+  const [state, dispatch] = useAppState();
+  const { dogName } = state;
+
+  function handleChange(event) {
+    const newDogName = event.target.value;
+    dispatch({ type: 'TYPED_IN_DOG_INPUT', dogName: newDogName });
+  }
+
+  return (
+    <form onSubmit={e => e.preventDefault()}>
+      <label htmlFor="dogName">Dog Name</label>
+      <input
+        value={dogName}
+        onChange={handleChange}
+        id="dogName"
+        placeholder="Toto"
+      />
+      {dogName ? (
+        <div>
+          <strong>{dogName}</strong>, I've a feeling we're not in Kansas anymore
+        </div>
+      ) : null}
+    </form>
+  );
+}
+function App() {
+  const forceRerender = useForceRerender();
+  return (
+    <div className="grid-app">
+      <button onClick={forceRerender}>force rerender</button>
+      <RecoilRoot>
+        <AppProvider>
+          <div>
+            <DogNameInput />
+            <Grid />
+          </div>
+        </AppProvider>
+      </RecoilRoot>
+    </div>
+  );
+}
+
+export default App;
+```
+
+Read more on [Recoil](https://recoiljs.org/docs/introduction/motivation) from their docs.
+
+## Production Performance Monitoring
+
+A great way to prevent changes from regressions, we can use production performance monitoring.
+
+> Note: There is a small performance cost involved with profiling. Facebook A/B serves a version with profiling involved.
+
+This exercise looks at using the [React Profiler API](https://reactjs.org/docs/profiler.html).
+
+The usage and callback:
+
+```js
+<App>
+  <Profiler id="Navigation" onRender={onRenderCallback}>
+    <Navigation {...props} />
+  </Profiler>
+  <Main {...props} />
+</App>;
+
+// callback
+function onRenderCallback(
+  id, // the "id" prop of the Profiler tree that has just committed
+  phase, // either "mount" (if the tree just mounted) or "update" (if it re-rendered)
+  actualDuration, // time spent rendering the committed update
+  baseDuration, // estimated time to render the entire subtree without memoization
+  startTime, // when React began rendering this update
+  commitTime, // when React committed this update
+  interactions, // the Set of interactions belonging to this update
+) {
+  // Aggregate or log render timings...
+}
+```
+
+> "It’s important to note that unless you build your app using react-dom/profiling and scheduler/tracing-profiling this component won’t do anything."
+
+Kent also has a [blog post](https://kentcdodds.com/blog/react-production-performance-monitoring/) on the profiling.
+
+The solution to record one:
+
+```js
+// Production performance monitoring
+// http://localhost:3000/isolated/exercise/07.js
+
+import * as React from 'react';
+// 🐨 you're going to need the reportProfile function
+// 💰 here, let me help you with that..
+import reportProfile from '../report-profile';
+
+function Counter() {
+  const [count, setCount] = React.useState(0);
+  const increment = () => setCount(c => c + 1);
+  return <button onClick={increment}>{count}</button>;
+}
+
+function App() {
+  return (
+    <div>
+      {/*
+      🐨 Wrap this div in a React.Profiler component
+      give it the ID of "counter" and pass reportProfile
+      to the onRender prop.
+      */}
+      <React.Profiler id="counter" onRender={reportProfile}>
+        <div>
+          Profiled counter
+          <Counter />
+        </div>
+      </React.Profiler>
+      <div>
+        Unprofiled counter
+        <Counter />
+      </div>
+    </div>
+  );
+}
+
+export default App;
+```
+
+### Tracing API
+
+So we don't know "why" the user caused the rerendering so we can use an `unstable_trace` to check.
+
+```js
+import * as React from 'react';
+import { unstable_trace as trace } from 'scheduler/tracing';
+import reportProfile from '../report-profile';
+
+function Counter() {
+  const [count, setCount] = React.useState(0);
+  // We can wrap the setCount callback to use the trace API
+  const increment = trace('click', performance.now(), () =>
+    setCount(c => c + 1),
+  );
+  return <button onClick={increment}>{count}</button>;
+}
+
+function App() {
+  return (
+    <div>
+      {/*
+      🐨 Wrap this div in a React.Profiler component
+      give it the ID of "counter" and pass reportProfile
+      to the onRender prop.
+      */}
+      <React.Profiler id="counter" onRender={reportProfile}>
+        <div>
+          Profiled counter
+          <Counter />
+        </div>
+      </React.Profiler>
+      <div>
+        Unprofiled counter
+        <Counter />
+      </div>
+    </div>
+  );
+}
+
+export default App;
+```
+
+That is it! Now when the user clicks, we can get more information thanks to the trace that comes under the `interactions` value.
+
+With the `trace` API, we can also start to use the `user interactions` section of the React profile!
