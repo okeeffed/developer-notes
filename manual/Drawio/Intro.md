@@ -19,7 +19,7 @@ There are also custom ones for a VPC, AWS Step Functions border, etc.
 
 ### Cloud Diagram Example
 
-<img title="Cloud example" src="./cloud.drawio.svg" />
+<img title="Cloud diagram example" src="./cloud.drawio.svg" />
 
 ## Usage for ERDs
 
@@ -29,6 +29,8 @@ There are two different styles of ERDs.
 
 ### Style 1
 
-<img title="Cloud example" src="./erd-one.drawio.svg" />
+<img title="ERD example one" src="./erd-one.drawio.svg" />
 
 ### Style 2
+
+<img title="ERD example two" src="./erd-two.drawio.svg" />
