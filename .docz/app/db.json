@@ -608,221 +608,6 @@
       }
     },
     {
-      "key": "manual/Ableton/Sound-Production-Course-Levels-And-Panning.md",
-      "value": {
-        "menu": "Ableton",
-        "name": "Levels and Panning (Sound Production Course)",
-        "id": "8918c8b4c0d45a56a17e074b9708e0a2",
-        "filepath": "manual/Ableton/Sound-Production-Course-Levels-And-Panning.md",
-        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Ableton/Sound-Production-Course-Levels-And-Panning.md",
-        "link": "",
-        "slug": "manual-ableton-sound-production-course-levels-and-panning",
-        "route": "/manual-ableton-sound-production-course-levels-and-panning",
-        "headings": [
-          {
-            "slug": "levels-and-panning",
-            "depth": 1,
-            "value": "Levels and Panning"
-          },
-          {
-            "slug": "resources",
-            "depth": 2,
-            "value": "Resources"
-          },
-          {
-            "slug": "levels-at-the-source",
-            "depth": 2,
-            "value": "Levels at the Source"
-          },
-          {
-            "slug": "the-built-in-microphone",
-            "depth": 3,
-            "value": "The Built-in Microphone"
-          },
-          {
-            "slug": "software-synths--plugins",
-            "depth": 3,
-            "value": "Software Synths + Plugins"
-          },
-          {
-            "slug": "warning-on-the-signal",
-            "depth": 3,
-            "value": "Warning on the signal"
-          },
-          {
-            "slug": "panning-overview",
-            "depth": 2,
-            "value": "Panning Overview"
-          },
-          {
-            "slug": "automation-drawing",
-            "depth": 2,
-            "value": "Automation: Drawing"
-          },
-          {
-            "slug": "pink-noise",
-            "depth": 2,
-            "value": "Pink Noise"
-          }
-        ]
-      }
-    },
-    {
-      "key": "manual/Ableton/Sound-Production-Course-Nature-Of-Sound.md",
-      "value": {
-        "menu": "Ableton",
-        "name": "Nature Of Sound (Sound Production Course)",
-        "id": "205b6cbd1ee79eae5e183c9c263e5c64",
-        "filepath": "manual/Ableton/Sound-Production-Course-Nature-Of-Sound.md",
-        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Ableton/Sound-Production-Course-Nature-Of-Sound.md",
-        "link": "",
-        "slug": "manual-ableton-sound-production-course-nature-of-sound",
-        "route": "/manual-ableton-sound-production-course-nature-of-sound",
-        "headings": [
-          {
-            "slug": "nature-of-sound",
-            "depth": 1,
-            "value": "Nature Of Sound"
-          },
-          {
-            "slug": "resources",
-            "depth": 2,
-            "value": "Resources"
-          },
-          {
-            "slug": "frequency",
-            "depth": 2,
-            "value": "Frequency"
-          },
-          {
-            "slug": "pitch",
-            "depth": 2,
-            "value": "Pitch"
-          },
-          {
-            "slug": "loudness",
-            "depth": 2,
-            "value": "Loudness"
-          },
-          {
-            "slug": "digital-audio-sample-rate",
-            "depth": 2,
-            "value": "Digital Audio: Sample Rate"
-          },
-          {
-            "slug": "bit-depth",
-            "depth": 2,
-            "value": "Bit Depth"
-          },
-          {
-            "slug": "gain-staging",
-            "depth": 2,
-            "value": "Gain Staging"
-          },
-          {
-            "slug": "mixing-practice",
-            "depth": 2,
-            "value": "Mixing Practice"
-          }
-        ]
-      }
-    },
-    {
-      "key": "manual/Ableton/Sound-Production-Course.md",
-      "value": {
-        "menu": "Ableton",
-        "name": "Sound Production Course (Kadenze)",
-        "id": "ff12d9e07965568175b9036b527bebbc",
-        "filepath": "manual/Ableton/Sound-Production-Course.md",
-        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Ableton/Sound-Production-Course.md",
-        "link": "",
-        "slug": "manual-ableton-sound-production-course",
-        "route": "/manual-ableton-sound-production-course",
-        "headings": [
-          {
-            "slug": "sound-production-course-kadenze",
-            "depth": 1,
-            "value": "Sound Production Course (Kadenze)"
-          },
-          {
-            "slug": "resources",
-            "depth": 2,
-            "value": "Resources"
-          },
-          {
-            "slug": "aims",
-            "depth": 2,
-            "value": "Aims"
-          },
-          {
-            "slug": "live-sets-and-projects",
-            "depth": 2,
-            "value": "Live Sets and Projects"
-          },
-          {
-            "slug": "the-browser",
-            "depth": 2,
-            "value": "The Browser"
-          },
-          {
-            "slug": "session-view-clips-tracks-and-scenes",
-            "depth": 2,
-            "value": "Session View, Clips, Tracks and Scenes"
-          },
-          {
-            "slug": "renaming-scenesclips",
-            "depth": 3,
-            "value": "Renaming Scenes/Clips"
-          },
-          {
-            "slug": "arrangement-view",
-            "depth": 2,
-            "value": "Arrangement View"
-          },
-          {
-            "slug": "locators",
-            "depth": 3,
-            "value": "Locators"
-          },
-          {
-            "slug": "bring-ideas-from-session-view-to-arrangement-view",
-            "depth": 3,
-            "value": "Bring ideas from Session View to Arrangement View"
-          },
-          {
-            "slug": "loops",
-            "depth": 3,
-            "value": "Loops"
-          },
-          {
-            "slug": "the-clip-view",
-            "depth": 2,
-            "value": "The Clip View"
-          },
-          {
-            "slug": "launch-view",
-            "depth": 3,
-            "value": "Launch View"
-          },
-          {
-            "slug": "preseve-mode-within-the-sample-view",
-            "depth": 3,
-            "value": "Preseve mode within the Sample View"
-          },
-          {
-            "slug": "the-envelope-section",
-            "depth": 3,
-            "value": "The Envelope Section"
-          },
-          {
-            "slug": "for-midi",
-            "depth": 3,
-            "value": "For MIDI"
-          }
-        ]
-      }
-    },
-    {
       "key": "manual/AWS/AWS-CDK.md",
       "value": {
         "menu": "AWS",
@@ -2407,6 +2192,221 @@
             "slug": "vpc-setup",
             "depth": 1,
             "value": "VPC Setup"
+          }
+        ]
+      }
+    },
+    {
+      "key": "manual/Ableton/Sound-Production-Course-Levels-And-Panning.md",
+      "value": {
+        "menu": "Ableton",
+        "name": "Levels and Panning (Sound Production Course)",
+        "id": "8918c8b4c0d45a56a17e074b9708e0a2",
+        "filepath": "manual/Ableton/Sound-Production-Course-Levels-And-Panning.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Ableton/Sound-Production-Course-Levels-And-Panning.md",
+        "link": "",
+        "slug": "manual-ableton-sound-production-course-levels-and-panning",
+        "route": "/manual-ableton-sound-production-course-levels-and-panning",
+        "headings": [
+          {
+            "slug": "levels-and-panning",
+            "depth": 1,
+            "value": "Levels and Panning"
+          },
+          {
+            "slug": "resources",
+            "depth": 2,
+            "value": "Resources"
+          },
+          {
+            "slug": "levels-at-the-source",
+            "depth": 2,
+            "value": "Levels at the Source"
+          },
+          {
+            "slug": "the-built-in-microphone",
+            "depth": 3,
+            "value": "The Built-in Microphone"
+          },
+          {
+            "slug": "software-synths--plugins",
+            "depth": 3,
+            "value": "Software Synths + Plugins"
+          },
+          {
+            "slug": "warning-on-the-signal",
+            "depth": 3,
+            "value": "Warning on the signal"
+          },
+          {
+            "slug": "panning-overview",
+            "depth": 2,
+            "value": "Panning Overview"
+          },
+          {
+            "slug": "automation-drawing",
+            "depth": 2,
+            "value": "Automation: Drawing"
+          },
+          {
+            "slug": "pink-noise",
+            "depth": 2,
+            "value": "Pink Noise"
+          }
+        ]
+      }
+    },
+    {
+      "key": "manual/Ableton/Sound-Production-Course-Nature-Of-Sound.md",
+      "value": {
+        "menu": "Ableton",
+        "name": "Nature Of Sound (Sound Production Course)",
+        "id": "205b6cbd1ee79eae5e183c9c263e5c64",
+        "filepath": "manual/Ableton/Sound-Production-Course-Nature-Of-Sound.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Ableton/Sound-Production-Course-Nature-Of-Sound.md",
+        "link": "",
+        "slug": "manual-ableton-sound-production-course-nature-of-sound",
+        "route": "/manual-ableton-sound-production-course-nature-of-sound",
+        "headings": [
+          {
+            "slug": "nature-of-sound",
+            "depth": 1,
+            "value": "Nature Of Sound"
+          },
+          {
+            "slug": "resources",
+            "depth": 2,
+            "value": "Resources"
+          },
+          {
+            "slug": "frequency",
+            "depth": 2,
+            "value": "Frequency"
+          },
+          {
+            "slug": "pitch",
+            "depth": 2,
+            "value": "Pitch"
+          },
+          {
+            "slug": "loudness",
+            "depth": 2,
+            "value": "Loudness"
+          },
+          {
+            "slug": "digital-audio-sample-rate",
+            "depth": 2,
+            "value": "Digital Audio: Sample Rate"
+          },
+          {
+            "slug": "bit-depth",
+            "depth": 2,
+            "value": "Bit Depth"
+          },
+          {
+            "slug": "gain-staging",
+            "depth": 2,
+            "value": "Gain Staging"
+          },
+          {
+            "slug": "mixing-practice",
+            "depth": 2,
+            "value": "Mixing Practice"
+          }
+        ]
+      }
+    },
+    {
+      "key": "manual/Ableton/Sound-Production-Course.md",
+      "value": {
+        "menu": "Ableton",
+        "name": "Sound Production Course (Kadenze)",
+        "id": "ff12d9e07965568175b9036b527bebbc",
+        "filepath": "manual/Ableton/Sound-Production-Course.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Ableton/Sound-Production-Course.md",
+        "link": "",
+        "slug": "manual-ableton-sound-production-course",
+        "route": "/manual-ableton-sound-production-course",
+        "headings": [
+          {
+            "slug": "sound-production-course-kadenze",
+            "depth": 1,
+            "value": "Sound Production Course (Kadenze)"
+          },
+          {
+            "slug": "resources",
+            "depth": 2,
+            "value": "Resources"
+          },
+          {
+            "slug": "aims",
+            "depth": 2,
+            "value": "Aims"
+          },
+          {
+            "slug": "live-sets-and-projects",
+            "depth": 2,
+            "value": "Live Sets and Projects"
+          },
+          {
+            "slug": "the-browser",
+            "depth": 2,
+            "value": "The Browser"
+          },
+          {
+            "slug": "session-view-clips-tracks-and-scenes",
+            "depth": 2,
+            "value": "Session View, Clips, Tracks and Scenes"
+          },
+          {
+            "slug": "renaming-scenesclips",
+            "depth": 3,
+            "value": "Renaming Scenes/Clips"
+          },
+          {
+            "slug": "arrangement-view",
+            "depth": 2,
+            "value": "Arrangement View"
+          },
+          {
+            "slug": "locators",
+            "depth": 3,
+            "value": "Locators"
+          },
+          {
+            "slug": "bring-ideas-from-session-view-to-arrangement-view",
+            "depth": 3,
+            "value": "Bring ideas from Session View to Arrangement View"
+          },
+          {
+            "slug": "loops",
+            "depth": 3,
+            "value": "Loops"
+          },
+          {
+            "slug": "the-clip-view",
+            "depth": 2,
+            "value": "The Clip View"
+          },
+          {
+            "slug": "launch-view",
+            "depth": 3,
+            "value": "Launch View"
+          },
+          {
+            "slug": "preseve-mode-within-the-sample-view",
+            "depth": 3,
+            "value": "Preseve mode within the Sample View"
+          },
+          {
+            "slug": "the-envelope-section",
+            "depth": 3,
+            "value": "The Envelope Section"
+          },
+          {
+            "slug": "for-midi",
+            "depth": 3,
+            "value": "For MIDI"
           }
         ]
       }
@@ -4227,31 +4227,6 @@
       }
     },
     {
-      "key": "manual/Architectural-Principles/Policy-And-Level.md",
-      "value": {
-        "menu": "Architectural Principles",
-        "name": "Policy and Level",
-        "id": "fe4939f3928f7ed32b0ba6bf51a319d8",
-        "filepath": "manual/Architectural-Principles/Policy-And-Level.md",
-        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Architectural-Principles/Policy-And-Level.md",
-        "link": "",
-        "slug": "manual-architectural-principles-policy-and-level",
-        "route": "/manual-architectural-principles-policy-and-level",
-        "headings": [
-          {
-            "slug": "policy-and-level",
-            "depth": 1,
-            "value": "Policy and Level"
-          },
-          {
-            "slug": "level",
-            "depth": 2,
-            "value": "Level"
-          }
-        ]
-      }
-    },
-    {
       "key": "manual/Angular/Angular-Basics.md",
       "value": {
         "name": "Angular Basics",
@@ -4457,6 +4432,31 @@
             "slug": "structural-directives",
             "depth": 2,
             "value": "Structural Directives"
+          }
+        ]
+      }
+    },
+    {
+      "key": "manual/Architectural-Principles/Policy-And-Level.md",
+      "value": {
+        "menu": "Architectural Principles",
+        "name": "Policy and Level",
+        "id": "fe4939f3928f7ed32b0ba6bf51a319d8",
+        "filepath": "manual/Architectural-Principles/Policy-And-Level.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Architectural-Principles/Policy-And-Level.md",
+        "link": "",
+        "slug": "manual-architectural-principles-policy-and-level",
+        "route": "/manual-architectural-principles-policy-and-level",
+        "headings": [
+          {
+            "slug": "policy-and-level",
+            "depth": 1,
+            "value": "Policy and Level"
+          },
+          {
+            "slug": "level",
+            "depth": 2,
+            "value": "Level"
           }
         ]
       }
@@ -5937,131 +5937,6 @@
       }
     },
     {
-      "key": "manual/COMP3306-AI/2-Problem-Solving-And-Search.md",
-      "value": {
-        "name": "2 Problem Solving And Search",
-        "menu": "COMP 3306 AI",
-        "id": "b412678e7536d243b118513f07787e2f",
-        "filepath": "manual/COMP3306-AI/2-Problem-Solving-And-Search.md",
-        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/COMP3306-AI/2-Problem-Solving-And-Search.md",
-        "link": "",
-        "slug": "manual-com-p3306-ai-2-problem-solving-and-search",
-        "route": "/manual-com-p3306-ai-2-problem-solving-and-search",
-        "headings": [
-          {
-            "slug": "problem-solving-and-search",
-            "depth": 1,
-            "value": "Problem Solving and Search"
-          },
-          {
-            "slug": "search-problem-formulation",
-            "depth": 2,
-            "value": "Search Problem Formulation"
-          },
-          {
-            "slug": "searching-for-solutions",
-            "depth": 2,
-            "value": "Searching for solutions"
-          },
-          {
-            "slug": "tree-search-algorithm---pseudo-code",
-            "depth": 2,
-            "value": "Tree search algorithm - pseudo code"
-          },
-          {
-            "slug": "nodes-vs-states",
-            "depth": 2,
-            "value": "Nodes vs States"
-          },
-          {
-            "slug": "search-strategies",
-            "depth": 2,
-            "value": "Search Strategies"
-          },
-          {
-            "slug": "uninformed-blind-search-strategies",
-            "depth": 2,
-            "value": "Uninformed (Blind) Search Strategies"
-          },
-          {
-            "slug": "bfs---breadth-first-search",
-            "depth": 2,
-            "value": "BFS - Breadth First Search"
-          },
-          {
-            "slug": "ucs---uniform-cost-search",
-            "depth": 2,
-            "value": "UCS - Uniform Cost Search"
-          },
-          {
-            "slug": "dfs---depth-firth-search",
-            "depth": 2,
-            "value": "DFS - Depth-Firth Search"
-          },
-          {
-            "slug": "ids---iterative-deepening-searh-ids",
-            "depth": 2,
-            "value": "IDS - Iterative Deepening Searh (IDS)"
-          },
-          {
-            "slug": "informed-vs-uninformed-search",
-            "depth": 2,
-            "value": "Informed vs Uninformed Search"
-          },
-          {
-            "slug": "best-first-search",
-            "depth": 1,
-            "value": "Best First Search"
-          },
-          {
-            "slug": "greedy-search-gs",
-            "depth": 2,
-            "value": "Greedy Search (GS)"
-          }
-        ]
-      }
-    },
-    {
-      "key": "manual/COMP3306-AI/3-A*-Algorithm.md",
-      "value": {
-        "name": "3 A Algorithm",
-        "menu": "COMP 3306 AI",
-        "id": "ab4fd34156e7f3d90cc3437a535cfc3d",
-        "filepath": "manual/COMP3306-AI/3-A*-Algorithm.md",
-        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/COMP3306-AI/3-A*-Algorithm.md",
-        "link": "",
-        "slug": "manual-com-p3306-ai-3-a-algorithm",
-        "route": "/manual-com-p3306-ai-3-a-algorithm",
-        "headings": [
-          {
-            "slug": "week-3---a-algorithm",
-            "depth": 1,
-            "value": "Week 3 - A *  Algorithm"
-          },
-          {
-            "slug": "a-search",
-            "depth": 2,
-            "value": "A *  Search"
-          },
-          {
-            "slug": "admissible-heauristic",
-            "depth": 2,
-            "value": "Admissible Heauristic"
-          },
-          {
-            "slug": "optimality-of-a---proof",
-            "depth": 2,
-            "value": "Optimality of A *  - Proof"
-          },
-          {
-            "slug": "dominance",
-            "depth": 2,
-            "value": "Dominance"
-          }
-        ]
-      }
-    },
-    {
       "key": "manual/COMP3520-OS/2-Process-Description-And-Control.md",
       "value": {
         "name": "2 Process Description And Control",
@@ -6437,6 +6312,131 @@
             "slug": "producer-consumer-using-condition-variables",
             "depth": 2,
             "value": "Producer-Consumer Using Condition Variables"
+          }
+        ]
+      }
+    },
+    {
+      "key": "manual/COMP3306-AI/2-Problem-Solving-And-Search.md",
+      "value": {
+        "name": "2 Problem Solving And Search",
+        "menu": "COMP 3306 AI",
+        "id": "b412678e7536d243b118513f07787e2f",
+        "filepath": "manual/COMP3306-AI/2-Problem-Solving-And-Search.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/COMP3306-AI/2-Problem-Solving-And-Search.md",
+        "link": "",
+        "slug": "manual-com-p3306-ai-2-problem-solving-and-search",
+        "route": "/manual-com-p3306-ai-2-problem-solving-and-search",
+        "headings": [
+          {
+            "slug": "problem-solving-and-search",
+            "depth": 1,
+            "value": "Problem Solving and Search"
+          },
+          {
+            "slug": "search-problem-formulation",
+            "depth": 2,
+            "value": "Search Problem Formulation"
+          },
+          {
+            "slug": "searching-for-solutions",
+            "depth": 2,
+            "value": "Searching for solutions"
+          },
+          {
+            "slug": "tree-search-algorithm---pseudo-code",
+            "depth": 2,
+            "value": "Tree search algorithm - pseudo code"
+          },
+          {
+            "slug": "nodes-vs-states",
+            "depth": 2,
+            "value": "Nodes vs States"
+          },
+          {
+            "slug": "search-strategies",
+            "depth": 2,
+            "value": "Search Strategies"
+          },
+          {
+            "slug": "uninformed-blind-search-strategies",
+            "depth": 2,
+            "value": "Uninformed (Blind) Search Strategies"
+          },
+          {
+            "slug": "bfs---breadth-first-search",
+            "depth": 2,
+            "value": "BFS - Breadth First Search"
+          },
+          {
+            "slug": "ucs---uniform-cost-search",
+            "depth": 2,
+            "value": "UCS - Uniform Cost Search"
+          },
+          {
+            "slug": "dfs---depth-firth-search",
+            "depth": 2,
+            "value": "DFS - Depth-Firth Search"
+          },
+          {
+            "slug": "ids---iterative-deepening-searh-ids",
+            "depth": 2,
+            "value": "IDS - Iterative Deepening Searh (IDS)"
+          },
+          {
+            "slug": "informed-vs-uninformed-search",
+            "depth": 2,
+            "value": "Informed vs Uninformed Search"
+          },
+          {
+            "slug": "best-first-search",
+            "depth": 1,
+            "value": "Best First Search"
+          },
+          {
+            "slug": "greedy-search-gs",
+            "depth": 2,
+            "value": "Greedy Search (GS)"
+          }
+        ]
+      }
+    },
+    {
+      "key": "manual/COMP3306-AI/3-A*-Algorithm.md",
+      "value": {
+        "name": "3 A Algorithm",
+        "menu": "COMP 3306 AI",
+        "id": "ab4fd34156e7f3d90cc3437a535cfc3d",
+        "filepath": "manual/COMP3306-AI/3-A*-Algorithm.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/COMP3306-AI/3-A*-Algorithm.md",
+        "link": "",
+        "slug": "manual-com-p3306-ai-3-a-algorithm",
+        "route": "/manual-com-p3306-ai-3-a-algorithm",
+        "headings": [
+          {
+            "slug": "week-3---a-algorithm",
+            "depth": 1,
+            "value": "Week 3 - A *  Algorithm"
+          },
+          {
+            "slug": "a-search",
+            "depth": 2,
+            "value": "A *  Search"
+          },
+          {
+            "slug": "admissible-heauristic",
+            "depth": 2,
+            "value": "Admissible Heauristic"
+          },
+          {
+            "slug": "optimality-of-a---proof",
+            "depth": 2,
+            "value": "Optimality of A *  - Proof"
+          },
+          {
+            "slug": "dominance",
+            "depth": 2,
+            "value": "Dominance"
           }
         ]
       }
@@ -8012,6 +8012,261 @@
       }
     },
     {
+      "key": "manual/Databases/Data-Warehouses.md",
+      "value": {
+        "menu": "Databases",
+        "name": "Data Warehouses",
+        "id": "a6925cee45b5c3c0ccd7ca3a4bc7f31c",
+        "filepath": "manual/Databases/Data-Warehouses.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Databases/Data-Warehouses.md",
+        "link": "",
+        "slug": "manual-databases-data-warehouses",
+        "route": "/manual-databases-data-warehouses",
+        "headings": [
+          {
+            "slug": "data-warehouses",
+            "depth": 1,
+            "value": "Data Warehouses"
+          },
+          {
+            "slug": "resources",
+            "depth": 2,
+            "value": "Resources"
+          },
+          {
+            "slug": "books",
+            "depth": 3,
+            "value": "Books"
+          },
+          {
+            "slug": "what-are-data-warehouses",
+            "depth": 2,
+            "value": "What are data warehouses?"
+          },
+          {
+            "slug": "why-are-data-warehouses-important",
+            "depth": 2,
+            "value": "Why are data warehouses important?"
+          }
+        ]
+      }
+    },
+    {
+      "key": "manual/Databases/ETL.md",
+      "value": {
+        "menu": "Databases",
+        "name": "Extract Transform Load",
+        "id": "9949df098aafee0c8310a6c41495f3a3",
+        "filepath": "manual/Databases/ETL.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Databases/ETL.md",
+        "link": "",
+        "slug": "manual-databases-etl",
+        "route": "/manual-databases-etl",
+        "headings": [
+          {
+            "slug": "extract-transform-load",
+            "depth": 1,
+            "value": "Extract Transform Load"
+          },
+          {
+            "slug": "resources",
+            "depth": 2,
+            "value": "Resources"
+          },
+          {
+            "slug": "what-is-etl",
+            "depth": 2,
+            "value": "What is ETL"
+          },
+          {
+            "slug": "why-is-it-important",
+            "depth": 2,
+            "value": "Why is it important?"
+          }
+        ]
+      }
+    },
+    {
+      "key": "manual/Databases/Intro-And-Overview.md",
+      "value": {
+        "menu": "Databases",
+        "name": "Intro and Overview",
+        "id": "5c4a8f47c5dffdfe2ec49f90cbdf0e67",
+        "filepath": "manual/Databases/Intro-And-Overview.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Databases/Intro-And-Overview.md",
+        "link": "",
+        "slug": "manual-databases-intro-and-overview",
+        "route": "/manual-databases-intro-and-overview",
+        "headings": [
+          {
+            "slug": "intro-and-overview",
+            "depth": 1,
+            "value": "Intro and Overview"
+          },
+          {
+            "slug": "resources",
+            "depth": 2,
+            "value": "Resources"
+          },
+          {
+            "slug": "websites",
+            "depth": 3,
+            "value": "Websites"
+          },
+          {
+            "slug": "books",
+            "depth": 3,
+            "value": "Books"
+          },
+          {
+            "slug": "key-value-databases",
+            "depth": 2,
+            "value": "Key-Value databases"
+          },
+          {
+            "slug": "graph-databases",
+            "depth": 2,
+            "value": "Graph databases"
+          },
+          {
+            "slug": "time-series-databases",
+            "depth": 2,
+            "value": "Time-Series databases"
+          },
+          {
+            "slug": "search-engine-databases",
+            "depth": 2,
+            "value": "Search Engine databases"
+          },
+          {
+            "slug": "document-databases",
+            "depth": 2,
+            "value": "Document databases"
+          },
+          {
+            "slug": "wide-column-store-databases",
+            "depth": 2,
+            "value": "Wide column store databases"
+          },
+          {
+            "slug": "relational-databases",
+            "depth": 2,
+            "value": "Relational databases"
+          },
+          {
+            "slug": "newsql-databases",
+            "depth": 2,
+            "value": "NewSQL databases"
+          },
+          {
+            "slug": "cap-theorem",
+            "depth": 2,
+            "value": "CAP Theorem"
+          },
+          {
+            "slug": "acid-properties",
+            "depth": 2,
+            "value": "ACID Properties"
+          },
+          {
+            "slug": "atomicity",
+            "depth": 3,
+            "value": "Atomicity"
+          },
+          {
+            "slug": "consistency",
+            "depth": 3,
+            "value": "Consistency"
+          },
+          {
+            "slug": "isolation",
+            "depth": 3,
+            "value": "Isolation"
+          },
+          {
+            "slug": "durability",
+            "depth": 3,
+            "value": "Durability"
+          },
+          {
+            "slug": "base-eventual-consistency",
+            "depth": 2,
+            "value": "BASE: Eventual Consistency"
+          },
+          {
+            "slug": "column-oriented-dbms",
+            "depth": 2,
+            "value": "Column-oriented DBMS"
+          }
+        ]
+      }
+    },
+    {
+      "key": "manual/Databases/Normalisation.md",
+      "value": {
+        "menu": "Databases",
+        "name": "Database Normalisation",
+        "id": "ac2ca71396c6a83ad08bbf62859157de",
+        "filepath": "manual/Databases/Normalisation.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Databases/Normalisation.md",
+        "link": "",
+        "slug": "manual-databases-normalisation",
+        "route": "/manual-databases-normalisation",
+        "headings": [
+          {
+            "slug": "database-normalisaton",
+            "depth": 1,
+            "value": "Database Normalisaton"
+          },
+          {
+            "slug": "resources",
+            "depth": 2,
+            "value": "Resources"
+          },
+          {
+            "slug": "what-is-it",
+            "depth": 2,
+            "value": "What is it?"
+          },
+          {
+            "slug": "denormalisation-objectives",
+            "depth": 2,
+            "value": "Denormalisation Objectives"
+          },
+          {
+            "slug": "undesireable-side-effects",
+            "depth": 2,
+            "value": "Undesireable Side-Effects"
+          },
+          {
+            "slug": "terms",
+            "depth": 2,
+            "value": "Terms"
+          },
+          {
+            "slug": "candidate-key",
+            "depth": 3,
+            "value": "Candidate Key"
+          },
+          {
+            "slug": "candidate-vs-composite",
+            "depth": 3,
+            "value": "Candidate vs Composite"
+          },
+          {
+            "slug": "compound-key",
+            "depth": 3,
+            "value": "Compound Key"
+          },
+          {
+            "slug": "super-key",
+            "depth": 3,
+            "value": "Super Key"
+          }
+        ]
+      }
+    },
+    {
       "key": "manual/Data-Structures/Count-Vowels.md",
       "value": {
         "name": "Count Vowels",
@@ -8532,261 +8787,6 @@
             "slug": "heap-sort-implementation",
             "depth": 2,
             "value": "Heap Sort Implementation"
-          }
-        ]
-      }
-    },
-    {
-      "key": "manual/Databases/Data-Warehouses.md",
-      "value": {
-        "menu": "Databases",
-        "name": "Data Warehouses",
-        "id": "a6925cee45b5c3c0ccd7ca3a4bc7f31c",
-        "filepath": "manual/Databases/Data-Warehouses.md",
-        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Databases/Data-Warehouses.md",
-        "link": "",
-        "slug": "manual-databases-data-warehouses",
-        "route": "/manual-databases-data-warehouses",
-        "headings": [
-          {
-            "slug": "data-warehouses",
-            "depth": 1,
-            "value": "Data Warehouses"
-          },
-          {
-            "slug": "resources",
-            "depth": 2,
-            "value": "Resources"
-          },
-          {
-            "slug": "books",
-            "depth": 3,
-            "value": "Books"
-          },
-          {
-            "slug": "what-are-data-warehouses",
-            "depth": 2,
-            "value": "What are data warehouses?"
-          },
-          {
-            "slug": "why-are-data-warehouses-important",
-            "depth": 2,
-            "value": "Why are data warehouses important?"
-          }
-        ]
-      }
-    },
-    {
-      "key": "manual/Databases/ETL.md",
-      "value": {
-        "menu": "Databases",
-        "name": "Extract Transform Load",
-        "id": "9949df098aafee0c8310a6c41495f3a3",
-        "filepath": "manual/Databases/ETL.md",
-        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Databases/ETL.md",
-        "link": "",
-        "slug": "manual-databases-etl",
-        "route": "/manual-databases-etl",
-        "headings": [
-          {
-            "slug": "extract-transform-load",
-            "depth": 1,
-            "value": "Extract Transform Load"
-          },
-          {
-            "slug": "resources",
-            "depth": 2,
-            "value": "Resources"
-          },
-          {
-            "slug": "what-is-etl",
-            "depth": 2,
-            "value": "What is ETL"
-          },
-          {
-            "slug": "why-is-it-important",
-            "depth": 2,
-            "value": "Why is it important?"
-          }
-        ]
-      }
-    },
-    {
-      "key": "manual/Databases/Intro-And-Overview.md",
-      "value": {
-        "menu": "Databases",
-        "name": "Intro and Overview",
-        "id": "5c4a8f47c5dffdfe2ec49f90cbdf0e67",
-        "filepath": "manual/Databases/Intro-And-Overview.md",
-        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Databases/Intro-And-Overview.md",
-        "link": "",
-        "slug": "manual-databases-intro-and-overview",
-        "route": "/manual-databases-intro-and-overview",
-        "headings": [
-          {
-            "slug": "intro-and-overview",
-            "depth": 1,
-            "value": "Intro and Overview"
-          },
-          {
-            "slug": "resources",
-            "depth": 2,
-            "value": "Resources"
-          },
-          {
-            "slug": "websites",
-            "depth": 3,
-            "value": "Websites"
-          },
-          {
-            "slug": "books",
-            "depth": 3,
-            "value": "Books"
-          },
-          {
-            "slug": "key-value-databases",
-            "depth": 2,
-            "value": "Key-Value databases"
-          },
-          {
-            "slug": "graph-databases",
-            "depth": 2,
-            "value": "Graph databases"
-          },
-          {
-            "slug": "time-series-databases",
-            "depth": 2,
-            "value": "Time-Series databases"
-          },
-          {
-            "slug": "search-engine-databases",
-            "depth": 2,
-            "value": "Search Engine databases"
-          },
-          {
-            "slug": "document-databases",
-            "depth": 2,
-            "value": "Document databases"
-          },
-          {
-            "slug": "wide-column-store-databases",
-            "depth": 2,
-            "value": "Wide column store databases"
-          },
-          {
-            "slug": "relational-databases",
-            "depth": 2,
-            "value": "Relational databases"
-          },
-          {
-            "slug": "newsql-databases",
-            "depth": 2,
-            "value": "NewSQL databases"
-          },
-          {
-            "slug": "cap-theorem",
-            "depth": 2,
-            "value": "CAP Theorem"
-          },
-          {
-            "slug": "acid-properties",
-            "depth": 2,
-            "value": "ACID Properties"
-          },
-          {
-            "slug": "atomicity",
-            "depth": 3,
-            "value": "Atomicity"
-          },
-          {
-            "slug": "consistency",
-            "depth": 3,
-            "value": "Consistency"
-          },
-          {
-            "slug": "isolation",
-            "depth": 3,
-            "value": "Isolation"
-          },
-          {
-            "slug": "durability",
-            "depth": 3,
-            "value": "Durability"
-          },
-          {
-            "slug": "base-eventual-consistency",
-            "depth": 2,
-            "value": "BASE: Eventual Consistency"
-          },
-          {
-            "slug": "column-oriented-dbms",
-            "depth": 2,
-            "value": "Column-oriented DBMS"
-          }
-        ]
-      }
-    },
-    {
-      "key": "manual/Databases/Normalisation.md",
-      "value": {
-        "menu": "Databases",
-        "name": "Database Normalisation",
-        "id": "ac2ca71396c6a83ad08bbf62859157de",
-        "filepath": "manual/Databases/Normalisation.md",
-        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Databases/Normalisation.md",
-        "link": "",
-        "slug": "manual-databases-normalisation",
-        "route": "/manual-databases-normalisation",
-        "headings": [
-          {
-            "slug": "database-normalisaton",
-            "depth": 1,
-            "value": "Database Normalisaton"
-          },
-          {
-            "slug": "resources",
-            "depth": 2,
-            "value": "Resources"
-          },
-          {
-            "slug": "what-is-it",
-            "depth": 2,
-            "value": "What is it?"
-          },
-          {
-            "slug": "denormalisation-objectives",
-            "depth": 2,
-            "value": "Denormalisation Objectives"
-          },
-          {
-            "slug": "undesireable-side-effects",
-            "depth": 2,
-            "value": "Undesireable Side-Effects"
-          },
-          {
-            "slug": "terms",
-            "depth": 2,
-            "value": "Terms"
-          },
-          {
-            "slug": "candidate-key",
-            "depth": 3,
-            "value": "Candidate Key"
-          },
-          {
-            "slug": "candidate-vs-composite",
-            "depth": 3,
-            "value": "Candidate vs Composite"
-          },
-          {
-            "slug": "compound-key",
-            "depth": 3,
-            "value": "Compound Key"
-          },
-          {
-            "slug": "super-key",
-            "depth": 3,
-            "value": "Super Key"
           }
         ]
       }
@@ -17246,111 +17246,6 @@
       }
     },
     {
-      "key": "manual/Jest/Extending-Jest.md",
-      "value": {
-        "menu": "Jest",
-        "name": "Extending Jest",
-        "id": "5f9e28f60826ef5969df79924e410034",
-        "filepath": "manual/Jest/Extending-Jest.md",
-        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Jest/Extending-Jest.md",
-        "link": "",
-        "slug": "manual-jest-extending-jest",
-        "route": "/manual-jest-extending-jest",
-        "headings": [
-          {
-            "slug": "extending-jest",
-            "depth": 1,
-            "value": "Extending Jest"
-          }
-        ]
-      }
-    },
-    {
-      "key": "manual/Jest/JS-Testing-Practices-And-Principles.md",
-      "value": {
-        "menu": "Jest",
-        "name": "JS-Testing-Practices-And-Principles",
-        "id": "29306b825d079746a5af5cadfb58944a",
-        "filepath": "manual/Jest/JS-Testing-Practices-And-Principles.md",
-        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Jest/JS-Testing-Practices-And-Principles.md",
-        "link": "",
-        "slug": "manual-jest-js-testing-practices-and-principles",
-        "route": "/manual-jest-js-testing-practices-and-principles",
-        "headings": [
-          {
-            "slug": "js-testing-practices-and-principles",
-            "depth": 1,
-            "value": "JS-Testing-Practices-And-Principles"
-          },
-          {
-            "slug": "resources",
-            "depth": 2,
-            "value": "Resources"
-          },
-          {
-            "slug": "jest-intro",
-            "depth": 2,
-            "value": "Jest Intro"
-          },
-          {
-            "slug": "cli",
-            "depth": 3,
-            "value": "CLI"
-          },
-          {
-            "slug": "commands",
-            "depth": 3,
-            "value": "Commands"
-          },
-          {
-            "slug": "test-factories-and-colocating-tests-qa",
-            "depth": 2,
-            "value": "Test Factories and Colocating Tests Q&A"
-          },
-          {
-            "slug": "code-coverage",
-            "depth": 2,
-            "value": "Code coverage"
-          },
-          {
-            "slug": "monkey-patch-a-mock",
-            "depth": 2,
-            "value": "Monkey Patch a mock"
-          },
-          {
-            "slug": "assert-calling-a-mock",
-            "depth": 2,
-            "value": "Assert calling a mock"
-          },
-          {
-            "slug": "jest-spyon",
-            "depth": 2,
-            "value": "Jest spyOn"
-          },
-          {
-            "slug": "jest-mock",
-            "depth": 2,
-            "value": "Jest Mock"
-          },
-          {
-            "slug": "using-a-__mocks__-directory",
-            "depth": 2,
-            "value": "Using a  __mocks__  directory"
-          },
-          {
-            "slug": "test-factories",
-            "depth": 2,
-            "value": "Test Factories"
-          },
-          {
-            "slug": "conclusion",
-            "depth": 2,
-            "value": "Conclusion"
-          }
-        ]
-      }
-    },
-    {
       "key": "manual/JavaScript/ES6-Guide.md",
       "value": {
         "name": "ES 6 Guide",
@@ -19376,6 +19271,111 @@
       }
     },
     {
+      "key": "manual/Jest/Extending-Jest.md",
+      "value": {
+        "menu": "Jest",
+        "name": "Extending Jest",
+        "id": "5f9e28f60826ef5969df79924e410034",
+        "filepath": "manual/Jest/Extending-Jest.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Jest/Extending-Jest.md",
+        "link": "",
+        "slug": "manual-jest-extending-jest",
+        "route": "/manual-jest-extending-jest",
+        "headings": [
+          {
+            "slug": "extending-jest",
+            "depth": 1,
+            "value": "Extending Jest"
+          }
+        ]
+      }
+    },
+    {
+      "key": "manual/Jest/JS-Testing-Practices-And-Principles.md",
+      "value": {
+        "menu": "Jest",
+        "name": "JS-Testing-Practices-And-Principles",
+        "id": "29306b825d079746a5af5cadfb58944a",
+        "filepath": "manual/Jest/JS-Testing-Practices-And-Principles.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Jest/JS-Testing-Practices-And-Principles.md",
+        "link": "",
+        "slug": "manual-jest-js-testing-practices-and-principles",
+        "route": "/manual-jest-js-testing-practices-and-principles",
+        "headings": [
+          {
+            "slug": "js-testing-practices-and-principles",
+            "depth": 1,
+            "value": "JS-Testing-Practices-And-Principles"
+          },
+          {
+            "slug": "resources",
+            "depth": 2,
+            "value": "Resources"
+          },
+          {
+            "slug": "jest-intro",
+            "depth": 2,
+            "value": "Jest Intro"
+          },
+          {
+            "slug": "cli",
+            "depth": 3,
+            "value": "CLI"
+          },
+          {
+            "slug": "commands",
+            "depth": 3,
+            "value": "Commands"
+          },
+          {
+            "slug": "test-factories-and-colocating-tests-qa",
+            "depth": 2,
+            "value": "Test Factories and Colocating Tests Q&A"
+          },
+          {
+            "slug": "code-coverage",
+            "depth": 2,
+            "value": "Code coverage"
+          },
+          {
+            "slug": "monkey-patch-a-mock",
+            "depth": 2,
+            "value": "Monkey Patch a mock"
+          },
+          {
+            "slug": "assert-calling-a-mock",
+            "depth": 2,
+            "value": "Assert calling a mock"
+          },
+          {
+            "slug": "jest-spyon",
+            "depth": 2,
+            "value": "Jest spyOn"
+          },
+          {
+            "slug": "jest-mock",
+            "depth": 2,
+            "value": "Jest Mock"
+          },
+          {
+            "slug": "using-a-__mocks__-directory",
+            "depth": 2,
+            "value": "Using a  __mocks__  directory"
+          },
+          {
+            "slug": "test-factories",
+            "depth": 2,
+            "value": "Test Factories"
+          },
+          {
+            "slug": "conclusion",
+            "depth": 2,
+            "value": "Conclusion"
+          }
+        ]
+      }
+    },
+    {
       "key": "manual/Kafka/Clients.md",
       "value": {
         "menu": "Kafka",
@@ -20281,6 +20281,176 @@
             "slug": "preferences",
             "depth": 2,
             "value": "Preferences"
+          }
+        ]
+      }
+    },
+    {
+      "key": "manual/Language-Learning/Approach-To-Learning-Software-Languages.md",
+      "value": {
+        "menu": "Language Learning",
+        "name": "Approach To Learning Software Languages",
+        "id": "9d2cc3e153cea4adb81211de57b01632",
+        "filepath": "manual/Language-Learning/Approach-To-Learning-Software-Languages.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Language-Learning/Approach-To-Learning-Software-Languages.md",
+        "link": "",
+        "slug": "manual-language-learning-approach-to-learning-software-languages",
+        "route": "/manual-language-learning-approach-to-learning-software-languages",
+        "headings": [
+          {
+            "slug": "approach-to-learning-software-languages",
+            "depth": 1,
+            "value": "Approach To Learning Software Languages"
+          },
+          {
+            "slug": "first-steps",
+            "depth": 2,
+            "value": "First Steps"
+          },
+          {
+            "slug": "understanding-through-programs",
+            "depth": 2,
+            "value": "Understanding Through Programs"
+          }
+        ]
+      }
+    },
+    {
+      "key": "manual/Language-Learning/Golang.md",
+      "value": {
+        "menu": "Language Learning",
+        "name": "Golang",
+        "id": "a17c0111d159f171e5bb3949f7750ebc",
+        "filepath": "manual/Language-Learning/Golang.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Language-Learning/Golang.md",
+        "link": "",
+        "slug": "manual-language-learning-golang",
+        "route": "/manual-language-learning-golang",
+        "headings": [
+          {
+            "slug": "golang",
+            "depth": 1,
+            "value": "Golang"
+          },
+          {
+            "slug": "the-why-behind-the-language",
+            "depth": 2,
+            "value": "The \"why\" behind the language?"
+          },
+          {
+            "slug": "quora-top-answer",
+            "depth": 3,
+            "value": "Quora Top Answer"
+          },
+          {
+            "slug": "from-rob-pike-one-of-gos-creators",
+            "depth": 3,
+            "value": "From Rob Pike, one of Go's Creators"
+          },
+          {
+            "slug": "pros-and-cons-of-the-language",
+            "depth": 2,
+            "value": "Pros and cons of the language?"
+          },
+          {
+            "slug": "pros",
+            "depth": 3,
+            "value": "Pros"
+          },
+          {
+            "slug": "cons",
+            "depth": 3,
+            "value": "Cons"
+          },
+          {
+            "slug": "what-are-the-use-cases",
+            "depth": 2,
+            "value": "What are the use cases?"
+          },
+          {
+            "slug": "testing--benchmarking",
+            "depth": 2,
+            "value": "Testing / Benchmarking"
+          },
+          {
+            "slug": "popular-web-servers-for-the-language",
+            "depth": 2,
+            "value": "Popular web servers for the language?"
+          },
+          {
+            "slug": "hello-world",
+            "depth": 2,
+            "value": "Hello, World!"
+          },
+          {
+            "slug": "documentation",
+            "depth": 2,
+            "value": "Documentation"
+          },
+          {
+            "slug": "what-are-the-nuances-of-the-language",
+            "depth": 2,
+            "value": "What are the nuances of the language?"
+          },
+          {
+            "slug": "how-does-package-management-work",
+            "depth": 2,
+            "value": "How does package management work?"
+          },
+          {
+            "slug": "how-does-importing-work",
+            "depth": 2,
+            "value": "How does importing work?"
+          },
+          {
+            "slug": "how-does-logging-work",
+            "depth": 2,
+            "value": "How does logging work?"
+          },
+          {
+            "slug": "useful-linksarticles",
+            "depth": 2,
+            "value": "Useful links/articles"
+          },
+          {
+            "slug": "useful-tips-and-tricks",
+            "depth": 2,
+            "value": "Useful tips and tricks"
+          },
+          {
+            "slug": "read-file",
+            "depth": 2,
+            "value": "Read File"
+          },
+          {
+            "slug": "write-file",
+            "depth": 2,
+            "value": "Write File"
+          },
+          {
+            "slug": "walk-through-directory",
+            "depth": 2,
+            "value": "Walk through directory"
+          },
+          {
+            "slug": "check-file-exists",
+            "depth": 2,
+            "value": "Check file exists"
+          },
+          {
+            "slug": "system-calls",
+            "depth": 2,
+            "value": "System calls"
+          },
+          {
+            "slug": "defer",
+            "depth": 2,
+            "value": "Defer"
+          },
+          {
+            "slug": "understanding-through-programs",
+            "depth": 2,
+            "value": "Understanding Through Programs"
           }
         ]
       }
@@ -21916,176 +22086,6 @@
             "slug": "skaffold-local-development",
             "depth": 1,
             "value": "Skaffold Local Development"
-          }
-        ]
-      }
-    },
-    {
-      "key": "manual/Language-Learning/Approach-To-Learning-Software-Languages.md",
-      "value": {
-        "menu": "Language Learning",
-        "name": "Approach To Learning Software Languages",
-        "id": "9d2cc3e153cea4adb81211de57b01632",
-        "filepath": "manual/Language-Learning/Approach-To-Learning-Software-Languages.md",
-        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Language-Learning/Approach-To-Learning-Software-Languages.md",
-        "link": "",
-        "slug": "manual-language-learning-approach-to-learning-software-languages",
-        "route": "/manual-language-learning-approach-to-learning-software-languages",
-        "headings": [
-          {
-            "slug": "approach-to-learning-software-languages",
-            "depth": 1,
-            "value": "Approach To Learning Software Languages"
-          },
-          {
-            "slug": "first-steps",
-            "depth": 2,
-            "value": "First Steps"
-          },
-          {
-            "slug": "understanding-through-programs",
-            "depth": 2,
-            "value": "Understanding Through Programs"
-          }
-        ]
-      }
-    },
-    {
-      "key": "manual/Language-Learning/Golang.md",
-      "value": {
-        "menu": "Language Learning",
-        "name": "Golang",
-        "id": "a17c0111d159f171e5bb3949f7750ebc",
-        "filepath": "manual/Language-Learning/Golang.md",
-        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Language-Learning/Golang.md",
-        "link": "",
-        "slug": "manual-language-learning-golang",
-        "route": "/manual-language-learning-golang",
-        "headings": [
-          {
-            "slug": "golang",
-            "depth": 1,
-            "value": "Golang"
-          },
-          {
-            "slug": "the-why-behind-the-language",
-            "depth": 2,
-            "value": "The \"why\" behind the language?"
-          },
-          {
-            "slug": "quora-top-answer",
-            "depth": 3,
-            "value": "Quora Top Answer"
-          },
-          {
-            "slug": "from-rob-pike-one-of-gos-creators",
-            "depth": 3,
-            "value": "From Rob Pike, one of Go's Creators"
-          },
-          {
-            "slug": "pros-and-cons-of-the-language",
-            "depth": 2,
-            "value": "Pros and cons of the language?"
-          },
-          {
-            "slug": "pros",
-            "depth": 3,
-            "value": "Pros"
-          },
-          {
-            "slug": "cons",
-            "depth": 3,
-            "value": "Cons"
-          },
-          {
-            "slug": "what-are-the-use-cases",
-            "depth": 2,
-            "value": "What are the use cases?"
-          },
-          {
-            "slug": "testing--benchmarking",
-            "depth": 2,
-            "value": "Testing / Benchmarking"
-          },
-          {
-            "slug": "popular-web-servers-for-the-language",
-            "depth": 2,
-            "value": "Popular web servers for the language?"
-          },
-          {
-            "slug": "hello-world",
-            "depth": 2,
-            "value": "Hello, World!"
-          },
-          {
-            "slug": "documentation",
-            "depth": 2,
-            "value": "Documentation"
-          },
-          {
-            "slug": "what-are-the-nuances-of-the-language",
-            "depth": 2,
-            "value": "What are the nuances of the language?"
-          },
-          {
-            "slug": "how-does-package-management-work",
-            "depth": 2,
-            "value": "How does package management work?"
-          },
-          {
-            "slug": "how-does-importing-work",
-            "depth": 2,
-            "value": "How does importing work?"
-          },
-          {
-            "slug": "how-does-logging-work",
-            "depth": 2,
-            "value": "How does logging work?"
-          },
-          {
-            "slug": "useful-linksarticles",
-            "depth": 2,
-            "value": "Useful links/articles"
-          },
-          {
-            "slug": "useful-tips-and-tricks",
-            "depth": 2,
-            "value": "Useful tips and tricks"
-          },
-          {
-            "slug": "read-file",
-            "depth": 2,
-            "value": "Read File"
-          },
-          {
-            "slug": "write-file",
-            "depth": 2,
-            "value": "Write File"
-          },
-          {
-            "slug": "walk-through-directory",
-            "depth": 2,
-            "value": "Walk through directory"
-          },
-          {
-            "slug": "check-file-exists",
-            "depth": 2,
-            "value": "Check file exists"
-          },
-          {
-            "slug": "system-calls",
-            "depth": 2,
-            "value": "System calls"
-          },
-          {
-            "slug": "defer",
-            "depth": 2,
-            "value": "Defer"
-          },
-          {
-            "slug": "understanding-through-programs",
-            "depth": 2,
-            "value": "Understanding Through Programs"
           }
         ]
       }
@@ -24422,6 +24422,51 @@
             "slug": "constructing-mental-models",
             "depth": 2,
             "value": "Constructing Mental Models"
+          }
+        ]
+      }
+    },
+    {
+      "key": "manual/Mock-Service-Worker/msw-with-React.md",
+      "value": {
+        "menu": "Mock Service Worker",
+        "name": "msw with React",
+        "id": "e898db8cd412cc0aa7da67950c581aab",
+        "filepath": "manual/Mock-Service-Worker/msw-with-React.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Mock-Service-Worker/msw-with-React.md",
+        "link": "",
+        "slug": "manual-mock-service-worker-msw-with-react",
+        "route": "/manual-mock-service-worker-msw-with-react",
+        "headings": [
+          {
+            "slug": "msw-with-react",
+            "depth": 1,
+            "value": "msw with React"
+          },
+          {
+            "slug": "resources",
+            "depth": 2,
+            "value": "Resources"
+          },
+          {
+            "slug": "setting-up",
+            "depth": 2,
+            "value": "Setting up"
+          },
+          {
+            "slug": "creating-you-mock-handlers",
+            "depth": 2,
+            "value": "Creating you mock handlers"
+          },
+          {
+            "slug": "setting-up-for-the-browser",
+            "depth": 2,
+            "value": "Setting up for the browser"
+          },
+          {
+            "slug": "setting-up-for-node-and-testing",
+            "depth": 2,
+            "value": "Setting up for Node (and testing)"
           }
         ]
       }
@@ -29328,6 +29373,41 @@
       }
     },
     {
+      "key": "manual/React/React-Best-Practices-2021.md",
+      "value": {
+        "menu": "React",
+        "name": "React Best Practices 2021",
+        "id": "45aa4695c27e78c8f6779126cee87e05",
+        "filepath": "manual/React/React-Best-Practices-2021.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/React/React-Best-Practices-2021.md",
+        "link": "",
+        "slug": "manual-react-react-best-practices-2021",
+        "route": "/manual-react-react-best-practices-2021",
+        "headings": [
+          {
+            "slug": "react-best-practices-2021",
+            "depth": 1,
+            "value": "React Best Practices 2021"
+          },
+          {
+            "slug": "rendering",
+            "depth": 2,
+            "value": "Rendering"
+          },
+          {
+            "slug": "hooks",
+            "depth": 2,
+            "value": "Hooks"
+          },
+          {
+            "slug": "testing",
+            "depth": 2,
+            "value": "Testing"
+          }
+        ]
+      }
+    },
+    {
       "key": "manual/React/React-SSR.md",
       "value": {
         "menu": "React",
@@ -30938,6 +31018,51 @@
       }
     },
     {
+      "key": "manual/React-Query/Getting-Started.md",
+      "value": {
+        "menu": "React Query",
+        "name": "Getting Started With React Query",
+        "id": "e264606a09475c62b7b376881259200b",
+        "filepath": "manual/React-Query/Getting-Started.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/React-Query/Getting-Started.md",
+        "link": "",
+        "slug": "manual-react-query-getting-started",
+        "route": "/manual-react-query-getting-started",
+        "headings": [
+          {
+            "slug": "getting-started-with-react-query",
+            "depth": 1,
+            "value": "Getting Started With React Query"
+          },
+          {
+            "slug": "resources",
+            "depth": 2,
+            "value": "Resources"
+          },
+          {
+            "slug": "handling-and-throwing-errors",
+            "depth": 2,
+            "value": "Handling and throwing errors"
+          },
+          {
+            "slug": "setting-up-a-new-project",
+            "depth": 2,
+            "value": "Setting up a new project"
+          },
+          {
+            "slug": "setting-up-for-testing",
+            "depth": 2,
+            "value": "Setting up for testing"
+          },
+          {
+            "slug": "custom-hooks",
+            "depth": 2,
+            "value": "Custom hooks"
+          }
+        ]
+      }
+    },
+    {
       "key": "manual/ReasonML/Reason-Hello-World.md",
       "value": {
         "menu": "ReasonML",
@@ -32269,6 +32394,136 @@
       }
     },
     {
+      "key": "manual/Ruby-On-Rails/Rails-API-From-Scratch.md",
+      "value": {
+        "menu": "Ruby On Rails",
+        "name": "Rails API From Scratch",
+        "id": "62ef4ec19739c104d11773b58b512e6d",
+        "filepath": "manual/Ruby-On-Rails/Rails-API-From-Scratch.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Ruby-On-Rails/Rails-API-From-Scratch.md",
+        "link": "",
+        "slug": "manual-ruby-on-rails-rails-api-from-scratch",
+        "route": "/manual-ruby-on-rails-rails-api-from-scratch",
+        "headings": [
+          {
+            "slug": "rails-api-from-scratch",
+            "depth": 1,
+            "value": "Rails API From Scratch"
+          },
+          {
+            "slug": "new-api-from-the-cli",
+            "depth": 2,
+            "value": "New API from the CLI"
+          },
+          {
+            "slug": "setting-up-the-gems",
+            "depth": 2,
+            "value": "Setting up the gems"
+          },
+          {
+            "slug": "creating-your-models",
+            "depth": 2,
+            "value": "Creating your models"
+          },
+          {
+            "slug": "setting-up-your-controller",
+            "depth": 2,
+            "value": "Setting up your controller"
+          },
+          {
+            "slug": "rescopeing-the-routes",
+            "depth": 2,
+            "value": "Rescopeing the routes"
+          },
+          {
+            "slug": "ui-with-create-react-app",
+            "depth": 2,
+            "value": "UI with Create React App"
+          },
+          {
+            "slug": "running-locally",
+            "depth": 2,
+            "value": "Running locally"
+          }
+        ]
+      }
+    },
+    {
+      "key": "manual/Ruby-On-Rails/Relations.md",
+      "value": {
+        "menu": "Ruby On Rails",
+        "name": "Relations",
+        "id": "8c624b75a11fac41afad2751205ba8b9",
+        "filepath": "manual/Ruby-On-Rails/Relations.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Ruby-On-Rails/Relations.md",
+        "link": "",
+        "slug": "manual-ruby-on-rails-relations",
+        "route": "/manual-ruby-on-rails-relations",
+        "headings": [
+          {
+            "slug": "relations",
+            "depth": 1,
+            "value": "Relations"
+          },
+          {
+            "slug": "resources",
+            "depth": 2,
+            "value": "Resources"
+          }
+        ]
+      }
+    },
+    {
+      "key": "manual/Ruby-On-Rails-Tutorial/1-From-Zero-To-Deploy.md",
+      "value": {
+        "menu": "Ruby On Rails Tutorial",
+        "name": "1) From Zero To Deploy",
+        "id": "4e7a77c512b70b20a322e71583e4450f",
+        "filepath": "manual/Ruby-On-Rails-Tutorial/1-From-Zero-To-Deploy.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Ruby-On-Rails-Tutorial/1-From-Zero-To-Deploy.md",
+        "link": "",
+        "slug": "manual-ruby-on-rails-tutorial-1-from-zero-to-deploy",
+        "route": "/manual-ruby-on-rails-tutorial-1-from-zero-to-deploy",
+        "headings": [
+          {
+            "slug": "1-from-zero-to-deploy",
+            "depth": 1,
+            "value": "1) From Zero To Deploy"
+          },
+          {
+            "slug": "prereq",
+            "depth": 2,
+            "value": "Prereq"
+          },
+          {
+            "slug": "up-and-running",
+            "depth": 2,
+            "value": "Up and Running"
+          },
+          {
+            "slug": "rails-server",
+            "depth": 2,
+            "value": "rails server"
+          },
+          {
+            "slug": "model-view-controller-mvc",
+            "depth": 2,
+            "value": "Model-View-Controller (MVC)"
+          },
+          {
+            "slug": "deploying-on-heroku",
+            "depth": 2,
+            "value": "Deploying on Heroku"
+          },
+          {
+            "slug": "heroku-commands",
+            "depth": 3,
+            "value": "Heroku Commands"
+          }
+        ]
+      }
+    },
+    {
       "key": "manual/Ruby-On-Rails-Tutorial/2-Toy-App.md",
       "value": {
         "menu": "Ruby On Rails Tutorial",
@@ -32494,56 +32749,6 @@
             "slug": "todo-adding-a-secure-password",
             "depth": 2,
             "value": "TODO: Adding a secure password"
-          }
-        ]
-      }
-    },
-    {
-      "key": "manual/Ruby-On-Rails-Tutorial/From-Zero-To-Deploy.md",
-      "value": {
-        "menu": "Ruby On Rails Tutorial",
-        "name": "1) From Zero To Deploy",
-        "id": "be2704e7cef83f1d2be375eca55edbbb",
-        "filepath": "manual/Ruby-On-Rails-Tutorial/From-Zero-To-Deploy.md",
-        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Ruby-On-Rails-Tutorial/From-Zero-To-Deploy.md",
-        "link": "",
-        "slug": "manual-ruby-on-rails-tutorial-from-zero-to-deploy",
-        "route": "/manual-ruby-on-rails-tutorial-from-zero-to-deploy",
-        "headings": [
-          {
-            "slug": "1-from-zero-to-deploy",
-            "depth": 1,
-            "value": "1) From Zero To Deploy"
-          },
-          {
-            "slug": "prereq",
-            "depth": 2,
-            "value": "Prereq"
-          },
-          {
-            "slug": "up-and-running",
-            "depth": 2,
-            "value": "Up and Running"
-          },
-          {
-            "slug": "rails-server",
-            "depth": 2,
-            "value": "rails server"
-          },
-          {
-            "slug": "model-view-controller-mvc",
-            "depth": 2,
-            "value": "Model-View-Controller (MVC)"
-          },
-          {
-            "slug": "deploying-on-heroku",
-            "depth": 2,
-            "value": "Deploying on Heroku"
-          },
-          {
-            "slug": "heroku-commands",
-            "depth": 3,
-            "value": "Heroku Commands"
           }
         ]
       }
@@ -33435,6 +33640,31 @@
       }
     },
     {
+      "key": "manual/Skaffold/Intro.md",
+      "value": {
+        "menu": "Skaffold",
+        "name": "Intro to Skaffold",
+        "id": "c8a00b41296b7593d92c7d87c2f38d6e",
+        "filepath": "manual/Skaffold/Intro.md",
+        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Skaffold/Intro.md",
+        "link": "",
+        "slug": "manual-skaffold-intro",
+        "route": "/manual-skaffold-intro",
+        "headings": [
+          {
+            "slug": "skaffold",
+            "depth": 1,
+            "value": "Skaffold"
+          },
+          {
+            "slug": "resources",
+            "depth": 2,
+            "value": "Resources"
+          }
+        ]
+      }
+    },
+    {
       "key": "manual/Sketch/Principles.md",
       "value": {
         "name": "Principles",
@@ -33465,31 +33695,6 @@
             "slug": "creating-new-symbols",
             "depth": 2,
             "value": "Creating new symbols"
-          }
-        ]
-      }
-    },
-    {
-      "key": "manual/Skaffold/Intro.md",
-      "value": {
-        "menu": "Skaffold",
-        "name": "Intro to Skaffold",
-        "id": "c8a00b41296b7593d92c7d87c2f38d6e",
-        "filepath": "manual/Skaffold/Intro.md",
-        "fullpath": "/Users/dennis.okeeffe/Project-Imposter/developer-notes/manual/Skaffold/Intro.md",
-        "link": "",
-        "slug": "manual-skaffold-intro",
-        "route": "/manual-skaffold-intro",
-        "headings": [
-          {
-            "slug": "skaffold",
-            "depth": 1,
-            "value": "Skaffold"
-          },
-          {
-            "slug": "resources",
-            "depth": 2,
-            "value": "Resources"
           }
         ]
       }

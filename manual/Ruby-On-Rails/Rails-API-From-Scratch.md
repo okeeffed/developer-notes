@@ -79,6 +79,23 @@ class TodosController < ApplicationController
 end
 ```
 
+## Rescopeing the routes
+
+We want to change our resources to be available from
+
+```rb
+Rails.application.routes.draw do
+  # get 'todos/index'
+  # get 'todos/create'
+  # get 'todos/update'
+  # get 'todos/destroy'
+  # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
+  scope "/api/v1" do
+    resources :todos
+  end
+end
+```
+
 ## UI with Create React App
 
 ```s
@@ -91,3 +108,14 @@ Set a proxy value in `package.json` so that we know where the localhost calls wi
 ```json
 "proxy": "http://localhost:3000"
 ```
+
+## Running locally
+
+You can use `heroku local -f Procfile.dev` with the `Procfile.dev` looking like the following:
+
+```js
+web: cd todo-ui && PORT=4000 npm start
+api: cd todo-api && PORT=3000 bin/rails s
+```
+
+Run and begin calling the routes like so `/api/v1/todos` and you will start getting some results! Hooray!
