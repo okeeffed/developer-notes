@@ -48,6 +48,16 @@ export const handlers = [
       ]),
     );
   }),
+
+  rest.post('/api/v1/todos', (req, res, ctx) => {
+    return res(
+      ctx.delay(1500),
+      ctx.json({
+        ...req.body,
+        id: generatedId(),
+      }),
+    );
+  }),
 ];
 ```
 
