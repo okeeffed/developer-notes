@@ -80,10 +80,10 @@ function setup() {
 }
 
 function draw() {
-  const amplitude = 90;
+  const amplitude = y0 / 2;
 
   x2 = x1 + 1;
-  y2 = sin(frameCount / 10) * (y0 / 2) + y0;
+  y2 = amplitude * sin(frameCount / 10) + y0;
 
   line(x1, y1, x2, y2);
 

@@ -1,6 +1,6 @@
 ---
-menu: Architecure Principles
-name: JS/TS Enterprise Architecture Patterns
+menu: Enterprise Architecture Patterns
+name: Intro To Enterprise Architecture Patterns
 ---
 
 # JS/TS Enterprise Architecture Patterns
@@ -82,7 +82,7 @@ Imagine an application now with 50 or 60 of these components. We are not hardwir
 Complexity is broken down into 3 parts:
 
 1. Micro: taking input and managing output.
-2. Mezzo: intra-component/libs interacting within the application.
+2. Meso: intra-component/libs interacting within the application.
 3. Macro: application(s) interacting with each other.
 
 Questions to ask:
