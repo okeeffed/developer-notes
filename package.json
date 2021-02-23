@@ -6,7 +6,6 @@
   "scripts": {
     "start": "docz dev",
     "build": "docz build",
-    "prepush": "yarn build && git add --all",
     "alfred": "bin/alfred",
     "prepush": "bin/prepush"
   },
@@ -20,6 +19,8 @@
     "babel-preset-env": "^1.7.0",
     "docz": "^2.2.0",
     "docz-theme-default": "^1.2.0",
+    "docz-utils": "^2.3.0",
+    "graceful-fs": "^4.2.6",
     "husky": "^4.2.5",
     "lodash.kebabcase": "^4.1.1",
     "lodash.startcase": "^4.4.0",
