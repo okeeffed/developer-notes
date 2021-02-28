@@ -392,6 +392,8 @@ The base code that you get for the `jscodeshift`. This transformer does not use 
 
 Codemods are designed to change the source code it uses as input.
 
+Think of `j` as a jQuery thing.
+
 ```javascript
 // Press ctrl+space for code completion
 export default function transformer(file, api) {
