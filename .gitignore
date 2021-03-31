@@ -1,14 +1,27 @@
-node_modules/
-.env
-# build/ - build now since CI fails on timeout
-cli/
-kratos.json
-stories/
-storybook.js
-*.log
-nodemon.json
-./index.js
-gitall
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
-# Specific markdown to ignore
-manual/Algorithms/ANZ-Algo.md
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+sidebar.json
+
+# testing
+/coverage
+
+# next.js
+/.next/
+/out/
+
+# production
+/build
+
+# misc
+.DS_Store
+.env*
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*

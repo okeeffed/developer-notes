@@ -1,43 +1,27 @@
 {
-  "name": "documentation",
-  "version": "1.0.0",
-  "main": "index.js",
-  "license": "MIT",
-  "scripts": {
-    "start": "docz dev",
-    "build": "docz build",
-    "alfred": "bin/alfred",
-    "prepush": "bin/prepush"
-  },
-  "peerDependencies": {
-    "acorn": "^7.1.1",
-    "minimist": "^1.2.2"
-  },
-  "devDependencies": {
-    "@babel/core": "^7.8.4",
-    "@babel/preset-env": "^7.3.1",
-    "babel-preset-env": "^1.7.0",
-    "docz": "^2.2.0",
-    "docz-theme-default": "^1.2.0",
-    "docz-utils": "^2.3.0",
-    "graceful-fs": "^4.2.6",
-    "husky": "^4.2.5",
-    "lodash.kebabcase": "^4.1.1",
-    "lodash.startcase": "^4.4.0",
-    "prettier": "^1.18.2",
-    "recursive-readdir": "^2.2.2"
-  },
-  "dependencies": {
-    "gatsby-plugin-sass": "^2.1.28",
-    "node-sass": "^4.13.1",
-    "react": "^16.12.0",
-    "react-dom": "^16.12.0",
-    "react-katex": "^2.0.2",
-    "react-latex": "^1.5.0"
-  },
-  "husky": {
-    "hooks": {
-      "pre-push": "bin/prepush"
+    "name": "example",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+        "dev": "next dev",
+        "build": "next build",
+        "start": "next start"
+    },
+    "dependencies": {
+        "@chakra-ui/react": "latest",
+        "@emotion/react": "latest",
+        "@emotion/styled": "latest",
+        "dokz": "latest",
+        "framer-motion": "latest",
+        "next": "latest",
+        "react": "16.13.1",
+        "react-dom": "16.13.1",
+        "react-katex": "^2.0.2",
+        "react-latex": "^2.0.0"
+    },
+    "devDependencies": {
+        "compose-function": "^3.0.3",
+        "fs-extra": "^9.1.0",
+        "recursive-readdir": "^2.2.2"
     }
-  }
 }
