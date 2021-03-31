@@ -22,6 +22,13 @@ export default function App(props) {
                     />,
                     <ColorModeSwitch key='1' />,
                 ]}
+                headerLogo={
+                    <img
+                        src='/dok-icon.png'
+                        height='50px'
+                        width="50px"
+                    />
+                }
                 sidebarOrdering={{
                     'index.mdx': true,
                     Documents_Group: {
