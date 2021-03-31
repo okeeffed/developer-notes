@@ -1,6 +1,0 @@
-[Settings]
-# Note - I believe these are overriden in the UI
-ID = "docs.dennisokeeffe.com"
-
-[build]
-  # command = "yarn build" - build local now since timeout occurs
