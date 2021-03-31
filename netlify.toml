@@ -4,4 +4,3 @@ ID = "docs.dennisokeeffe.com"
 
 [build]
   # command = "yarn build" - build local now since timeout occurs
-  publish = "build"
