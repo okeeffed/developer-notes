@@ -1,27 +1,28 @@
 {
-    "name": "example",
-    "version": "0.1.0",
-    "private": true,
-    "scripts": {
-        "dev": "next dev",
-        "build": "next build",
-        "start": "next start"
-    },
-    "dependencies": {
-        "@chakra-ui/react": "latest",
-        "@emotion/react": "latest",
-        "@emotion/styled": "latest",
-        "dokz": "latest",
-        "framer-motion": "latest",
-        "next": "latest",
-        "react": "16.13.1",
-        "react-dom": "16.13.1",
-        "react-katex": "^2.0.2",
-        "react-latex": "^2.0.0"
-    },
-    "devDependencies": {
-        "compose-function": "^3.0.3",
-        "fs-extra": "^9.1.0",
-        "recursive-readdir": "^2.2.2"
-    }
+  "name": "example",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "NODE_OPTIONS=\"--max_old_space_size=16384\" next build",
+    "start": "next start",
+    "postbuild": "next-on-netlify"
+  },
+  "dependencies": {
+    "@chakra-ui/react": "latest",
+    "@emotion/react": "latest",
+    "@emotion/styled": "latest",
+    "dokz": "latest",
+    "framer-motion": "latest",
+    "next": "latest",
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
+    "react-katex": "^2.0.2",
+    "react-latex": "^2.0.0"
+  },
+  "devDependencies": {
+    "compose-function": "^3.0.3",
+    "fs-extra": "^9.1.0",
+    "recursive-readdir": "^2.2.2"
+  }
 }
