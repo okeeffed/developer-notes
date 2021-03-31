@@ -5,5 +5,5 @@ const composed = compose(withDokz);
 
 module.exports = composed({
   pageExtensions: ["js", "jsx", "md", "mdx", "ts", "tsx"],
-  target: "target",
+  target: "serverless",
 });
