@@ -1,7 +1,8 @@
 ---
 name: Styling
-menu: Principles 
+menu: Principles
 ---
+
 - [Styling](#styling)
   - [Challenges](#challenges)
     - [Current challenges](#current-challenges)
@@ -107,17 +108,17 @@ Predetermined types by level:
 
 ```yml
 body:
-  header: # @classname header
+  header:# @classname header
     # @children
   # Top level for each section
   section: # @classname section-name
     # @children
     container: # @classname container-name
       # Base selection of rules
-      ? block
+      block:
       # @children
       grid:
-        ? grid-item
+        grid-item:
         # @children
       table:
         # @children
@@ -137,10 +138,10 @@ body:
     # Specific component based styling
     # @children
     # Base selection of rules
-    ? block
+    block:
     # @children
     grid:
-      ? grid-item
+      grid-item:
       # @children
     table:
       # @children
@@ -156,7 +157,7 @@ body:
     nav:
       nav-item:
         # @children
-  footer: # @classname footer - but maybe should be more specific
+  footer:# @classname footer - but maybe should be more specific
     # @children
 ```
 
@@ -228,7 +229,7 @@ body:
 
 ## Example layout
 
-![Example layout](../assets/example-layout.png 'Example Layout')
+![Example layout](/example-layout.png)
 
 The aim is that regardless of whether or not we are using a template engine, JSX, html or whatever that uses/doesn't use partials or components of some form that we are able to maintain consistency.
 
@@ -237,27 +238,31 @@ In the above image, let's look at how we would implement in a template engine li
 ```html
 <!-- Section partial ~/partials/page-offers/section-offers.twig (TODO: decide naming strutures?) -->
 <section class="section-offers">
-    <div class="container-content">
-        <div class="block-content"></div>
-        <div class="block-header"></div>
-        <div class="grid-offers">
-            {% for offer in offers %}
-                <div class="grid-offer">
-                    {% include 'partials/component-offer/offer.twig' with {offer: offer} %}
-                </div>
-            {% endfor %}
-        </div>
+  <div class="container-content">
+    <div class="block-content"></div>
+    <div class="block-header"></div>
+    <div class="grid-offers">
+      {% for offer in offers %}
+      <div class="grid-offer">
+        {% include 'partials/component-offer/offer.twig' with {offer: offer} %}
+      </div>
+      {% endfor %}
     </div>
+  </div>
 </section>
 
 <!-- Section partial ~/partials/page-offers/component-offer.twig (TODO: decide naming strutures?) -->
 <div class="component-offer">
-    <div class="block-image">
-        <img src="{{ offer.imgSource }}" alt="{{ offer.alt }}" class="offer-image">
-    </div>
-    <div class="block-title">
-        <h3 class="offer-title">{{ offer.title }}</h3>
-    </div>
+  <div class="block-image">
+    <img
+      src="{{ offer.imgSource }}"
+      alt="{{ offer.alt }}"
+      class="offer-image"
+    />
+  </div>
+  <div class="block-title">
+    <h3 class="offer-title">{{ offer.title }}</h3>
+  </div>
 </div>
 ```
 
@@ -899,19 +904,19 @@ Still to do.
 $mobile-grid: (
   columns: 4,
   gutter: 10px,
-  media: $mobile
+  media: $mobile,
 );
 
 $tablet-p-grid: (
   columns: 4,
   gutter: 50px,
-  media: $tablet-p
+  media: $tablet-p,
 );
 
 $tablet-l-grid: (
   columns: 12,
   gutter: 50px,
-  media: $tablet-l
+  media: $tablet-l,
 );
 
 // Grid
@@ -1186,16 +1191,18 @@ Do this:
 
 ```html
 <div class="block bg-primary">
-    <p>Stuff within div</p>
-<div>
+  <p>Stuff within div</p>
+  <div></div>
+</div>
 ```
 
 Not this:
 
 ```html
 <div class="block">
-    <p>Stuff within div</p>
-<div>
+  <p>Stuff within div</p>
+  <div></div>
+</div>
 ```
 
 ```css
@@ -1316,7 +1323,8 @@ The mixins file is the place to store all of the functional Sass mixins used thr
 ```css
 @mixin background-image($path) {
   background-image: url(../img/#{$path}.png);
-  background-image: linear-gradient(transparent, transparent), url(../img/#{$path}.svg);
+  background-image: linear-gradient(transparent, transparent),
+    url(../img/#{$path}.svg);
 }
 ```
 
@@ -1349,9 +1357,9 @@ Swaps neat 2.0 to desktop first
 ```css
 @function _neat-parse-media($media) {
   @if type-of($media) == number {
-    @return 'only screen and (max-width: #{$media})';
+    @return "only screen and (max-width: #{$media})";
   } @else if type-of($media) == string {
-    @return '#{$media}';
+    @return "#{$media}";
   }
 }
 ```

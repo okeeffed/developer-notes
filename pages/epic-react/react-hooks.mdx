@@ -15,10 +15,10 @@ An example app setting names:
 // useState: greeting
 // http://localhost:3000/isolated/exercise/01.js
 
-import * as React from 'react';
+import * as React from "react";
 
 function Greeting() {
-  const [name, setName] = React.useState('');
+  const [name, setName] = React.useState("");
 
   function handleChange(event) {
     // 🐨 update the name here based on event.target.value
@@ -31,7 +31,7 @@ function Greeting() {
         <label htmlFor="name">Name: </label>
         <input onChange={handleChange} id="name" />
       </form>
-      {name ? <strong>Hello {name}</strong> : 'Please type your name'}
+      {name ? <strong>Hello {name}</strong> : "Please type your name"}
     </div>
   );
 }
@@ -56,7 +56,7 @@ React.useEffect(() => {
 });
 ```
 
-![Hook Flow](./hook-flow.png)
+![Hook Flow](/hook-flow.png)
 
 ### Lazy State Initialization
 
@@ -72,11 +72,11 @@ Make the `React.useState` call use lazy initialization to avoid a performance bo
 // useEffect: persistent state
 // http://localhost:3000/isolated/exercise/02.js
 
-import * as React from 'react';
+import * as React from "react";
 
-function Greeting({ initialName = '' }) {
+function Greeting({ initialName = "" }) {
   const [name, setName] = React.useState(
-    () => window.localStorage.getItem('name') || initialName,
+    () => window.localStorage.getItem("name") || initialName
   );
 
   // ... code omitted
@@ -87,7 +87,7 @@ function Greeting({ initialName = '' }) {
         <label htmlFor="name">Name: </label>
         <input onChange={handleChange} id="name" />
       </form>
-      {name ? <strong>Hello {name}</strong> : 'Please type your name'}
+      {name ? <strong>Hello {name}</strong> : "Please type your name"}
     </div>
   );
 }
@@ -101,12 +101,12 @@ The callback we’re passing to `React.useEffect` is called after every render o
 // useEffect: persistent state
 // http://localhost:3000/isolated/exercise/02.js
 
-import * as React from 'react';
+import * as React from "react";
 
-function Greeting({ initialName = '' }) {
+function Greeting({ initialName = "" }) {
   // Here is our new useEffect callback
   React.useEffect(() => {
-    window.localStorage.setItem('name', name);
+    window.localStorage.setItem("name", name);
   }, [name]);
 
   function handleChange(event) {
@@ -118,7 +118,7 @@ function Greeting({ initialName = '' }) {
         <label htmlFor="name">Name: </label>
         <input onChange={handleChange} id="name" />
       </form>
-      {name ? <strong>Hello {name}</strong> : 'Please type your name'}
+      {name ? <strong>Hello {name}</strong> : "Please type your name"}
     </div>
   );
 }
@@ -138,12 +138,12 @@ If we think this logic will be used elsewhere, we can abstract it into a custom 
 // useEffect: persistent state
 // http://localhost:3000/isolated/exercise/02.js
 
-import * as React from 'react';
+import * as React from "react";
 
 // Here is our new custom hook!
 function useLocalStorageState(key, defaultValue) {
   const [state, setState] = React.useState(
-    () => window.localStorage.getItem(key) || defaultValue,
+    () => window.localStorage.getItem(key) || defaultValue
   );
 
   React.useEffect(() => {
@@ -153,8 +153,8 @@ function useLocalStorageState(key, defaultValue) {
   return [state, setState];
 }
 
-function Greeting({ initialName = '' }) {
-  const [name, setName] = useLocalStorageState('name', initialName);
+function Greeting({ initialName = "" }) {
+  const [name, setName] = useLocalStorageState("name", initialName);
 
   function handleChange(event) {
     setName(event.target.value);
@@ -165,7 +165,7 @@ function Greeting({ initialName = '' }) {
         <label htmlFor="name">Name: </label>
         <input value={name} onChange={handleChange} id="name" />
       </form>
-      {name ? <strong>Hello {name}</strong> : 'Please type your name'}
+      {name ? <strong>Hello {name}</strong> : "Please type your name"}
     </div>
   );
 }
@@ -185,13 +185,13 @@ To make this hook more reuseable, we can make some changes to take any data type
 // useEffect: persistent state
 // http://localhost:3000/isolated/exercise/02.js
 
-import * as React from 'react';
+import * as React from "react";
 
 // Here is our new custom hook!
 function useLocalStorageState(
   key,
   defaultValue,
-  { serialize = JSON.stringify, deserialise = JSON.parse } = {},
+  { serialize = JSON.stringify, deserialise = JSON.parse } = {}
 ) {
   const [state, setState] = React.useState(() => {
     const valueInLocalStorage = window.localStorage.getItem(key);
@@ -201,7 +201,7 @@ function useLocalStorageState(
     }
 
     // can handle function to call to set default value if computationally expensive
-    return typeof defaultValue === 'function' ? defaultValue() : defaultValue;
+    return typeof defaultValue === "function" ? defaultValue() : defaultValue;
   });
 
   const prevKeyRef = React.useRef(key);
@@ -219,8 +219,8 @@ function useLocalStorageState(
   return [state, setState];
 }
 
-function Greeting({ initialName = '' }) {
-  const [name, setName] = useLocalStorageState('name', initialName);
+function Greeting({ initialName = "" }) {
+  const [name, setName] = useLocalStorageState("name", initialName);
 
   function handleChange(event) {
     setName(event.target.value);
@@ -231,7 +231,7 @@ function Greeting({ initialName = '' }) {
         <label htmlFor="name">Name: </label>
         <input value={name} onChange={handleChange} id="name" />
       </form>
-      {name ? <strong>Hello {name}</strong> : 'Please type your name'}
+      {name ? <strong>Hello {name}</strong> : "Please type your name"}
     </div>
   );
 }
@@ -259,16 +259,16 @@ The final code is as so:
 // useState: tic tac toe
 // http://localhost:3000/isolated/exercise/04.js
 
-import * as React from 'react';
+import * as React from "react";
 
 function Board() {
   const [squares, setSquares] = React.useState(
     () =>
-      JSON.parse(window.localStorage.getItem('squares')) || Array(9).fill(null),
+      JSON.parse(window.localStorage.getItem("squares")) || Array(9).fill(null)
   );
 
   React.useEffect(() => {
-    window.localStorage.setItem('squares', JSON.stringify(squares));
+    window.localStorage.setItem("squares", JSON.stringify(squares));
   }, [squares]);
 
   // 🐨 We'll need the following bits of derived state:
@@ -364,9 +364,9 @@ function calculateStatus(winner, squares, nextValue) {
 
 // eslint-disable-next-line no-unused-vars
 function calculateNextValue(squares) {
-  const xSquaresCount = squares.filter(r => r === 'X').length;
-  const oSquaresCount = squares.filter(r => r === 'O').length;
-  return oSquaresCount === xSquaresCount ? 'X' : 'O';
+  const xSquaresCount = squares.filter((r) => r === "X").length;
+  const oSquaresCount = squares.filter((r) => r === "O").length;
+  return oSquaresCount === xSquaresCount ? "X" : "O";
 }
 
 // eslint-disable-next-line no-unused-vars
@@ -433,7 +433,7 @@ Kent mentions that he typically finds it easier to abstract all async code into 
 
 ```js
 React.useEffect(() => {
-  doSomeAsyncThing().then(result => {
+  doSomeAsyncThing().then((result) => {
     // do something with the result
   });
 });
@@ -449,7 +449,7 @@ The solution is as follows:
 // useEffect: HTTP requests
 // http://localhost:3000/isolated/exercise/06.js
 
-import * as React from 'react';
+import * as React from "react";
 // 🐨 you'll want the following additional things from '../pokemon':
 // fetchPokemon: the function we call to get the pokemon info
 // PokemonInfoFallback: the thing we show while we're loading the pokemon info
@@ -459,7 +459,7 @@ import {
   fetchPokemon,
   PokemonInfoFallback,
   PokemonDataView,
-} from '../pokemon';
+} from "../pokemon";
 
 function PokemonInfo({ pokemonName }) {
   // 🐨 Have state for the pokemon (null)
@@ -472,10 +472,10 @@ function PokemonInfo({ pokemonName }) {
     }
 
     fetchPokemon(pokemonName)
-      .then(pokemonData => {
+      .then((pokemonData) => {
         setPokemon(pokemonData);
       })
-      .catch(err => console.dir(err));
+      .catch((err) => console.dir(err));
   }, [pokemonName]);
   // 💰 DON'T FORGET THE DEPENDENCIES ARRAY!
   // 💰 if the pokemonName is falsy (an empty string) then don't bother making the request (exit early).
@@ -502,7 +502,7 @@ function PokemonInfo({ pokemonName }) {
 }
 
 function App() {
-  const [pokemonName, setPokemonName] = React.useState('');
+  const [pokemonName, setPokemonName] = React.useState("");
 
   function handleSubmit(newPokemonName) {
     setPokemonName(newPokemonName);
@@ -530,7 +530,7 @@ The code was updated to handle when an error occurs:
 // useEffect: HTTP requests
 // http://localhost:3000/isolated/exercise/06.js
 
-import * as React from 'react';
+import * as React from "react";
 // 🐨 you'll want the following additional things from '../pokemon':
 // fetchPokemon: the function we call to get the pokemon info
 // PokemonInfoFallback: the thing we show while we're loading the pokemon info
@@ -540,7 +540,7 @@ import {
   fetchPokemon,
   PokemonInfoFallback,
   PokemonDataView,
-} from '../pokemon';
+} from "../pokemon";
 
 function PokemonInfo({ pokemonName }) {
   const [pokemon, setPokemon] = React.useState(null);
@@ -552,20 +552,20 @@ function PokemonInfo({ pokemonName }) {
     }
 
     fetchPokemon(pokemonName)
-      .then(pokemonData => {
+      .then((pokemonData) => {
         setError(null);
         setPokemon(pokemonData);
       })
       // handling of the error
-      .catch(err => setError(err));
+      .catch((err) => setError(err));
   }, [pokemonName]);
 
   const hasPokemonDataAndPokemonName = pokemonName && pokemon;
 
   return error ? (
     <div role="alert">
-      There was an error:{' '}
-      <pre style={{ whiteSpace: 'normal' }}>{error.message}</pre>
+      There was an error:{" "}
+      <pre style={{ whiteSpace: "normal" }}>{error.message}</pre>
     </div>
   ) : (
     <div>
@@ -579,7 +579,7 @@ function PokemonInfo({ pokemonName }) {
 }
 
 function App() {
-  const [pokemonName, setPokemonName] = React.useState('');
+  const [pokemonName, setPokemonName] = React.useState("");
 
   function handleSubmit(newPokemonName) {
     setPokemonName(newPokemonName);
@@ -607,7 +607,7 @@ Instead of relying on booleans, we can use "request state" to help identify what
 // useEffect: HTTP requests
 // http://localhost:3000/isolated/exercise/06.js
 
-import * as React from 'react';
+import * as React from "react";
 // 🐨 you'll want the following additional things from '../pokemon':
 // fetchPokemon: the function we call to get the pokemon info
 // PokemonInfoFallback: the thing we show while we're loading the pokemon info
@@ -617,13 +617,13 @@ import {
   fetchPokemon,
   PokemonInfoFallback,
   PokemonDataView,
-} from '../pokemon';
+} from "../pokemon";
 
 function PokemonInfo({ pokemonName }) {
   // 🐨 Have state for the pokemon (null)
   const [pokemon, setPokemon] = React.useState(null);
   const [error, setError] = React.useState(null);
-  const [state, setState] = React.useState('idle');
+  const [state, setState] = React.useState("idle");
   // 🐨 use React.useEffect where the callback should be called whenever the
   // pokemon name changes.
   React.useEffect(() => {
@@ -631,40 +631,40 @@ function PokemonInfo({ pokemonName }) {
       return;
     }
 
-    setState('pending');
+    setState("pending");
 
     fetchPokemon(pokemonName)
-      .then(pokemonData => {
+      .then((pokemonData) => {
         setError(null);
         setPokemon(pokemonData);
-        setState('resolved');
+        setState("resolved");
       })
-      .catch(err => {
+      .catch((err) => {
         setError(err);
-        setState('rejected');
+        setState("rejected");
       });
   }, [pokemonName]);
 
   switch (state) {
-    case 'resolved':
+    case "resolved":
       return <PokemonDataView pokemon={pokemon} />;
-    case 'rejected':
+    case "rejected":
       return (
         <div role="alert">
-          There was an error:{' '}
-          <pre style={{ whiteSpace: 'normal' }}>{error.message}</pre>
+          There was an error:{" "}
+          <pre style={{ whiteSpace: "normal" }}>{error.message}</pre>
         </div>
       );
-    case 'pending':
+    case "pending":
       return <PokemonInfoFallback name={pokemonName} />;
-    case 'idle':
+    case "idle":
     default:
       return <p>Submit a pokemon</p>;
   }
 }
 
 function App() {
-  const [pokemonName, setPokemonName] = React.useState('');
+  const [pokemonName, setPokemonName] = React.useState("");
 
   function handleSubmit(newPokemonName) {
     setPokemonName(newPokemonName);
@@ -694,7 +694,7 @@ Note: there is a more elegant solution using reducers that will be shown in futu
 // useEffect: HTTP requests
 // http://localhost:3000/isolated/exercise/06.js
 
-import * as React from 'react';
+import * as React from "react";
 // 🐨 you'll want the following additional things from '../pokemon':
 // fetchPokemon: the function we call to get the pokemon info
 // PokemonInfoFallback: the thing we show while we're loading the pokemon info
@@ -704,12 +704,12 @@ import {
   fetchPokemon,
   PokemonInfoFallback,
   PokemonDataView,
-} from '../pokemon';
+} from "../pokemon";
 
 function PokemonInfo({ pokemonName }) {
   // 🐨 Have state for the pokemon (null)
   const [state, setState] = React.useState({
-    status: 'idle',
+    status: "idle",
     error: null,
     pokemon: null,
   });
@@ -723,20 +723,20 @@ function PokemonInfo({ pokemonName }) {
     setState({
       pokemon: null,
       error: null,
-      status: 'pending',
+      status: "pending",
     });
 
     fetchPokemon(pokemonName)
-      .then(pokemonData => {
+      .then((pokemonData) => {
         setState({
-          status: 'resolved',
+          status: "resolved",
           pokemon: pokemonData,
           error: null,
         });
       })
-      .catch(err => {
+      .catch((err) => {
         setState({
-          status: 'rejected',
+          status: "rejected",
           pokemon: null,
           error: err,
         });
@@ -744,25 +744,25 @@ function PokemonInfo({ pokemonName }) {
   }, [pokemonName]);
 
   switch (state.status) {
-    case 'resolved':
+    case "resolved":
       return <PokemonDataView pokemon={state.pokemon} />;
-    case 'rejected':
+    case "rejected":
       return (
         <div role="alert">
-          There was an error:{' '}
-          <pre style={{ whiteSpace: 'normal' }}>{state.error.message}</pre>
+          There was an error:{" "}
+          <pre style={{ whiteSpace: "normal" }}>{state.error.message}</pre>
         </div>
       );
-    case 'pending':
+    case "pending":
       return <PokemonInfoFallback name={pokemonName} />;
-    case 'idle':
+    case "idle":
     default:
       return <p>Submit a pokemon</p>;
   }
 }
 
 function App() {
-  const [pokemonName, setPokemonName] = React.useState('');
+  const [pokemonName, setPokemonName] = React.useState("");
 
   function handleSubmit(newPokemonName) {
     setPokemonName(newPokemonName);
@@ -790,7 +790,7 @@ We can use classes to add an error boundary. The `componentDidCatch` method also
 // useEffect: HTTP requests
 // http://localhost:3000/isolated/exercise/06.js
 
-import * as React from 'react';
+import * as React from "react";
 // 🐨 you'll want the following additional things from '../pokemon':
 // fetchPokemon: the function we call to get the pokemon info
 // PokemonInfoFallback: the thing we show while we're loading the pokemon info
@@ -800,7 +800,7 @@ import {
   fetchPokemon,
   PokemonInfoFallback,
   PokemonDataView,
-} from '../pokemon';
+} from "../pokemon";
 
 class ErrorBoundary extends React.Component {
   constructor(props) {
@@ -815,8 +815,8 @@ class ErrorBoundary extends React.Component {
 
   componentDidCatch(error, errorInfo) {
     // You can also log the error to an error reporting service
-    console.log('error:', error);
-    console.log('errorInfo:', errorInfo);
+    console.log("error:", error);
+    console.log("errorInfo:", errorInfo);
   }
 
   render() {
@@ -832,7 +832,7 @@ class ErrorBoundary extends React.Component {
 function PokemonInfo({ pokemonName }) {
   // 🐨 Have state for the pokemon (null)
   const [state, setState] = React.useState({
-    status: 'idle',
+    status: "idle",
     error: null,
     pokemon: null,
   });
@@ -846,20 +846,20 @@ function PokemonInfo({ pokemonName }) {
     setState({
       pokemon: null,
       error: null,
-      status: 'pending',
+      status: "pending",
     });
 
     fetchPokemon(pokemonName)
-      .then(pokemonData => {
+      .then((pokemonData) => {
         setState({
-          status: 'resolved',
+          status: "resolved",
           pokemon: pokemonData,
           error: null,
         });
       })
-      .catch(err => {
+      .catch((err) => {
         setState({
-          status: 'rejected',
+          status: "rejected",
           pokemon: null,
           error: err,
         });
@@ -867,20 +867,20 @@ function PokemonInfo({ pokemonName }) {
   }, [pokemonName]);
 
   switch (state.status) {
-    case 'resolved':
+    case "resolved":
       return <PokemonDataView pokemon={state.pokemon} />;
-    case 'rejected':
+    case "rejected":
       throw state.error;
-    case 'pending':
+    case "pending":
       return <PokemonInfoFallback name={pokemonName} />;
-    case 'idle':
+    case "idle":
     default:
       return <p>Submit a pokemon</p>;
   }
 }
 
 function App() {
-  const [pokemonName, setPokemonName] = React.useState('');
+  const [pokemonName, setPokemonName] = React.useState("");
 
   function handleSubmit(newPokemonName) {
     setPokemonName(newPokemonName);
@@ -910,7 +910,7 @@ We can clean the state and pass a key to the error boundary to get a way to clea
 // useEffect: HTTP requests
 // http://localhost:3000/isolated/exercise/06.js
 
-import * as React from 'react';
+import * as React from "react";
 // 🐨 you'll want the following additional things from '../pokemon':
 // fetchPokemon: the function we call to get the pokemon info
 // PokemonInfoFallback: the thing we show while we're loading the pokemon info
@@ -920,7 +920,7 @@ import {
   fetchPokemon,
   PokemonInfoFallback,
   PokemonDataView,
-} from '../pokemon';
+} from "../pokemon";
 
 class ErrorBoundary extends React.Component {
   constructor(props) {
@@ -935,8 +935,8 @@ class ErrorBoundary extends React.Component {
 
   componentDidCatch(error, errorInfo) {
     // You can also log the error to an error reporting service
-    console.log('error:', error);
-    console.log('errorInfo:', errorInfo);
+    console.log("error:", error);
+    console.log("errorInfo:", errorInfo);
   }
 
   render() {
@@ -959,7 +959,7 @@ class ErrorBoundary extends React.Component {
 function PokemonInfo({ pokemonName }) {
   // 🐨 Have state for the pokemon (null)
   const [state, setState] = React.useState({
-    status: 'idle',
+    status: "idle",
     error: null,
     pokemon: null,
   });
@@ -973,20 +973,20 @@ function PokemonInfo({ pokemonName }) {
     setState({
       pokemon: null,
       error: null,
-      status: 'pending',
+      status: "pending",
     });
 
     fetchPokemon(pokemonName)
-      .then(pokemonData => {
+      .then((pokemonData) => {
         setState({
-          status: 'resolved',
+          status: "resolved",
           pokemon: pokemonData,
           error: null,
         });
       })
-      .catch(err => {
+      .catch((err) => {
         setState({
-          status: 'rejected',
+          status: "rejected",
           pokemon: null,
           error: err,
         });
@@ -994,20 +994,20 @@ function PokemonInfo({ pokemonName }) {
   }, [pokemonName]);
 
   switch (state.status) {
-    case 'resolved':
+    case "resolved":
       return <PokemonDataView pokemon={state.pokemon} />;
-    case 'rejected':
+    case "rejected":
       throw state.error;
-    case 'pending':
+    case "pending":
       return <PokemonInfoFallback name={pokemonName} />;
-    case 'idle':
+    case "idle":
     default:
       return <p>Submit a pokemon</p>;
   }
 }
 
 function App() {
-  const [pokemonName, setPokemonName] = React.useState('');
+  const [pokemonName, setPokemonName] = React.useState("");
 
   function handleSubmit(newPokemonName) {
     setPokemonName(newPokemonName);
@@ -1032,7 +1032,7 @@ export default App;
 ### using react-error-boundary
 
 ```js
-import * as React from 'react';
+import * as React from "react";
 // 🐨 you'll want the following additional things from '../pokemon':
 // fetchPokemon: the function we call to get the pokemon info
 // PokemonInfoFallback: the thing we show while we're loading the pokemon info
@@ -1042,13 +1042,13 @@ import {
   fetchPokemon,
   PokemonInfoFallback,
   PokemonDataView,
-} from '../pokemon';
-import { resetErrorBoundary, ErrorBoundary } from 'react-error-boundary';
+} from "../pokemon";
+import { resetErrorBoundary, ErrorBoundary } from "react-error-boundary";
 
 function PokemonInfo({ pokemonName }) {
   // 🐨 Have state for the pokemon (null)
   const [state, setState] = React.useState({
-    status: 'idle',
+    status: "idle",
     error: null,
     pokemon: null,
   });
@@ -1062,20 +1062,20 @@ function PokemonInfo({ pokemonName }) {
     setState({
       pokemon: null,
       error: null,
-      status: 'pending',
+      status: "pending",
     });
 
     fetchPokemon(pokemonName)
-      .then(pokemonData => {
+      .then((pokemonData) => {
         setState({
-          status: 'resolved',
+          status: "resolved",
           pokemon: pokemonData,
           error: null,
         });
       })
-      .catch(err => {
+      .catch((err) => {
         setState({
-          status: 'rejected',
+          status: "rejected",
           pokemon: null,
           error: err,
         });
@@ -1083,20 +1083,20 @@ function PokemonInfo({ pokemonName }) {
   }, [pokemonName]);
 
   switch (state.status) {
-    case 'resolved':
+    case "resolved":
       return <PokemonDataView pokemon={state.pokemon} />;
-    case 'rejected':
+    case "rejected":
       throw state.error;
-    case 'pending':
+    case "pending":
       return <PokemonInfoFallback name={pokemonName} />;
-    case 'idle':
+    case "idle":
     default:
       return <p>Submit a pokemon</p>;
   }
 }
 
 function App() {
-  const [pokemonName, setPokemonName] = React.useState('');
+  const [pokemonName, setPokemonName] = React.useState("");
 
   function handleSubmit(newPokemonName) {
     setPokemonName(newPokemonName);
@@ -1138,7 +1138,7 @@ We can fix this by using `resetErrorBoundary` from the `react-error-boundary` li
 // useEffect: HTTP requests
 // http://localhost:3000/isolated/exercise/06.js
 
-import * as React from 'react';
+import * as React from "react";
 // 🐨 you'll want the following additional things from '../pokemon':
 // fetchPokemon: the function we call to get the pokemon info
 // PokemonInfoFallback: the thing we show while we're loading the pokemon info
@@ -1148,13 +1148,13 @@ import {
   fetchPokemon,
   PokemonInfoFallback,
   PokemonDataView,
-} from '../pokemon';
-import { ErrorBoundary } from 'react-error-boundary';
+} from "../pokemon";
+import { ErrorBoundary } from "react-error-boundary";
 
 function PokemonInfo({ pokemonName }) {
   // 🐨 Have state for the pokemon (null)
   const [state, setState] = React.useState({
-    status: pokemonName ? 'pending' : 'idle',
+    status: pokemonName ? "pending" : "idle",
     error: null,
     pokemon: null,
   });
@@ -1168,20 +1168,20 @@ function PokemonInfo({ pokemonName }) {
     setState({
       pokemon: null,
       error: null,
-      status: 'pending',
+      status: "pending",
     });
 
     fetchPokemon(pokemonName)
-      .then(pokemonData => {
+      .then((pokemonData) => {
         setState({
-          status: 'resolved',
+          status: "resolved",
           pokemon: pokemonData,
           error: null,
         });
       })
-      .catch(error => {
+      .catch((error) => {
         setState({
-          status: 'rejected',
+          status: "rejected",
           pokemon: null,
           error: error,
         });
@@ -1189,13 +1189,13 @@ function PokemonInfo({ pokemonName }) {
   }, [pokemonName]);
 
   switch (state.status) {
-    case 'resolved':
+    case "resolved":
       return <PokemonDataView pokemon={state.pokemon} />;
-    case 'rejected':
+    case "rejected":
       throw state.error;
-    case 'pending':
+    case "pending":
       return <PokemonInfoFallback name={pokemonName} />;
-    case 'idle':
+    case "idle":
     default:
       return <p>Submit a pokemon</p>;
   }
@@ -1212,14 +1212,14 @@ function ErrorFallback({ error, resetErrorBoundary }) {
 }
 
 function App() {
-  const [pokemonName, setPokemonName] = React.useState('');
+  const [pokemonName, setPokemonName] = React.useState("");
 
   function handleSubmit(newPokemonName) {
     setPokemonName(newPokemonName);
   }
 
   function handleReset() {
-    setPokemonName('');
+    setPokemonName("");
   }
 
   return (
@@ -1246,7 +1246,7 @@ We can use keys to help the issue where interacting with something outside of th
 // useEffect: HTTP requests
 // http://localhost:3000/isolated/exercise/06.js
 
-import * as React from 'react';
+import * as React from "react";
 // 🐨 you'll want the following additional things from '../pokemon':
 // fetchPokemon: the function we call to get the pokemon info
 // PokemonInfoFallback: the thing we show while we're loading the pokemon info
@@ -1256,13 +1256,13 @@ import {
   fetchPokemon,
   PokemonInfoFallback,
   PokemonDataView,
-} from '../pokemon';
-import { ErrorBoundary } from 'react-error-boundary';
+} from "../pokemon";
+import { ErrorBoundary } from "react-error-boundary";
 
 function PokemonInfo({ pokemonName }) {
   // 🐨 Have state for the pokemon (null)
   const [state, setState] = React.useState({
-    status: pokemonName ? 'pending' : 'idle',
+    status: pokemonName ? "pending" : "idle",
     error: null,
     pokemon: null,
   });
@@ -1276,20 +1276,20 @@ function PokemonInfo({ pokemonName }) {
     setState({
       pokemon: null,
       error: null,
-      status: 'pending',
+      status: "pending",
     });
 
     fetchPokemon(pokemonName)
-      .then(pokemonData => {
+      .then((pokemonData) => {
         setState({
-          status: 'resolved',
+          status: "resolved",
           pokemon: pokemonData,
           error: null,
         });
       })
-      .catch(error => {
+      .catch((error) => {
         setState({
-          status: 'rejected',
+          status: "rejected",
           pokemon: null,
           error: error,
         });
@@ -1297,13 +1297,13 @@ function PokemonInfo({ pokemonName }) {
   }, [pokemonName]);
 
   switch (state.status) {
-    case 'resolved':
+    case "resolved":
       return <PokemonDataView pokemon={state.pokemon} />;
-    case 'rejected':
+    case "rejected":
       throw state.error;
-    case 'pending':
+    case "pending":
       return <PokemonInfoFallback name={pokemonName} />;
-    case 'idle':
+    case "idle":
     default:
       return <p>Submit a pokemon</p>;
   }
@@ -1320,14 +1320,14 @@ function ErrorFallback({ error, resetErrorBoundary }) {
 }
 
 function App() {
-  const [pokemonName, setPokemonName] = React.useState('');
+  const [pokemonName, setPokemonName] = React.useState("");
 
   function handleSubmit(newPokemonName) {
     setPokemonName(newPokemonName);
   }
 
   function handleReset() {
-    setPokemonName('');
+    setPokemonName("");
   }
 
   return (
