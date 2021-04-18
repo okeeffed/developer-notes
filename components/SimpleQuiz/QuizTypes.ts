@@ -1,5 +1,6 @@
 export type Question = {
   text: string
+  description?: string
 }
 
 export type AnswerOption = {

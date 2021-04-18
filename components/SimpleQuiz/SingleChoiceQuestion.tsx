@@ -22,6 +22,9 @@ export function SingleChoiceQuestion({
   return (
     <VStack spacing={2} mb={4}>
       <Heading size="md">{question.text}</Heading>
+      {question.description && (
+        <Text fontStyle="italic">{question.description}</Text>
+      )}
       <Text mb={4} color="gray">
         Select one answer
       </Text>
