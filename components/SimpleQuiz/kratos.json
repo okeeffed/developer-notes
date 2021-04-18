@@ -1,0 +1,5 @@
+{
+  "name": "pkg-react-components-simple-quiz",
+  "version": "0.0.1",
+  "fallback_path": "components"
+}

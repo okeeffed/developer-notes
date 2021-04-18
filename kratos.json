@@ -1,0 +1,16 @@
+{
+  "version": "0.0.1",
+  "dependencies": {
+    "type": {},
+    "react-components": {
+      "SimpleQuiz": "^0.0.1"
+    },
+    "linter-config": {
+      "ts-prettier-eslint-react-recommended": "^0.2.0"
+    }
+  },
+  "storage": {
+    "react-components": "components",
+    "linter-config": "linter-config"
+  }
+}
