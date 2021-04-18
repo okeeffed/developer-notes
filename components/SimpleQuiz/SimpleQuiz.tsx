@@ -1,4 +1,12 @@
-import { Button, Container, Flex, Spacer, Text, VStack } from "@chakra-ui/react"
+import {
+  Button,
+  Center,
+  Container,
+  Flex,
+  Spacer,
+  Text,
+  VStack,
+} from "@chakra-ui/react"
 import React, { useState } from "react"
 import type { CycleStatus, IQuizQuestion, QuizStatus } from "./QuizTypes"
 import {
@@ -71,7 +79,7 @@ export function SimpleQuiz({ questions }: ISimpleQuiz): JSX.Element {
   switch (quizStatus) {
     case "inProgress":
       return (
-        <Container centerContent maxW="container.sm" p={4} boxShadow="lg">
+        <Container w="full" maxW="container.sm" p={4} boxShadow="lg">
           <QuizSection question={questions[index]} cycleStatus={cycleStatus} />
           <Flex>
             <Spacer />
@@ -83,13 +91,15 @@ export function SimpleQuiz({ questions }: ISimpleQuiz): JSX.Element {
       )
     case "complete":
       return (
-        <Container centerContent maxW="container.sm" p={4} boxShadow="lg">
-          <VStack>
-            <Text mb={4}>Quiz complete!</Text>
-            <Button onClick={resetQuiz} colorScheme="gray">
-              Take again
-            </Button>
-          </VStack>
+        <Container w="full" maxW="container.sm" p={4} boxShadow="lg">
+          <Center p={8}>
+            <VStack>
+              <Text mb={4}>Quiz complete!</Text>
+              <Button onClick={resetQuiz} colorScheme="gray">
+                Take again
+              </Button>
+            </VStack>
+          </Center>
         </Container>
       )
     default:

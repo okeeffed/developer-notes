@@ -1,3 +1,4 @@
+import { Center } from "@chakra-ui/react"
 import React from "react"
 import type { IQuizQuestion } from "../../components/SimpleQuiz"
 import { SimpleQuiz } from "../../components/SimpleQuiz"
@@ -144,5 +145,9 @@ const questions: IQuizQuestion[] = [
 ]
 
 export function ThreeApproachesQuiz(): JSX.Element {
-  return <SimpleQuiz questions={questions} />
+  return (
+    <Center>
+      <SimpleQuiz questions={questions} />
+    </Center>
+  )
 }
