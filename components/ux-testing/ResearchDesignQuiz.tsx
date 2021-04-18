@@ -142,6 +142,45 @@ const questions: IQuizQuestion[] = [
       },
     ],
   },
+  {
+    type: "input",
+    question: {
+      text: "Explain Qualitative research?",
+    },
+    options: [
+      {
+        text:
+          "An approach for exploring and understanding the meaning individuals or groups ascribe to a social or human problem",
+        isAnswer: true,
+      },
+    ],
+  },
+  {
+    type: "input",
+    question: {
+      text: "Explain Quantitative research?",
+    },
+    options: [
+      {
+        text:
+          "An approach for testing objective theories by examining the relationship among variables",
+        isAnswer: true,
+      },
+    ],
+  },
+  {
+    type: "input",
+    question: {
+      text: "Explain Mixed Methods Approach?",
+    },
+    options: [
+      {
+        text:
+          "An approach to inquiry involving collecting both quantitative and qualitative data, integrating the two forms of data, and using distinct designs that may involve philosophical assumptions and theoretical frameworks.",
+        isAnswer: true,
+      },
+    ],
+  },
 ]
 
 export function ThreeApproachesQuiz(): JSX.Element {
