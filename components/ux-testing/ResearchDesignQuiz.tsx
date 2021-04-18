@@ -1,4 +1,3 @@
-import { Box } from "@chakra-ui/react"
 import React from "react"
 import type { IQuizQuestion } from "../../components/SimpleQuiz"
 import { SimpleQuiz } from "../../components/SimpleQuiz"
