@@ -145,11 +145,5 @@ const questions: IQuizQuestion[] = [
 ]
 
 export function ThreeApproachesQuiz(): JSX.Element {
-  return (
-    <Box display="flex" alignItems="center" justifyContent="center">
-      <Box boxShadow="lg">
-        <SimpleQuiz questions={questions} />
-      </Box>
-    </Box>
-  )
+  return <SimpleQuiz questions={questions} />
 }

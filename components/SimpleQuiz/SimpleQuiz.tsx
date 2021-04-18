@@ -71,7 +71,7 @@ export function SimpleQuiz({ questions }: ISimpleQuiz): JSX.Element {
   switch (quizStatus) {
     case "inProgress":
       return (
-        <Container maxW="container.sm" p={4}>
+        <Container centerContent maxW="container.sm" p={4} boxShadow="lg">
           <QuizSection question={questions[index]} cycleStatus={cycleStatus} />
           <Flex>
             <Spacer />
@@ -83,7 +83,7 @@ export function SimpleQuiz({ questions }: ISimpleQuiz): JSX.Element {
       )
     case "complete":
       return (
-        <Container maxW="container.sm" p={4}>
+        <Container centerContent maxW="container.sm" p={4} boxShadow="lg">
           <VStack>
             <Text mb={4}>Quiz complete!</Text>
             <Button onClick={resetQuiz} colorScheme="gray">
