@@ -3,7 +3,94 @@ menu: Refactoring UI
 name: Principles
 ---
 
+import { SimpleQuiz } from "../../components/SimpleQuiz"
+
 # Refactoring UI - Principles
+
+<SimpleQuiz
+  questions={[
+    {
+      type: "multiChoice",
+      question: {
+        text: "What are some core principles when starting from scratch?",
+      },
+      options: [
+        {
+          text: "Design most of the specifics",
+          isAnswer: false,
+        },
+        {
+          text: "Choose a personality",
+          isAnswer: true,
+        },
+        {
+          text: "Don't design too much",
+          isAnswer: true,
+        },
+        {
+          text: "Provide enough details for those using your projects",
+          isAnswer: false,
+        },
+        {
+          text: "Details come later",
+          isAnswer: true,
+        },
+        {
+          text: "Start with a feature, not a layout",
+          isAnswer: true,
+        },
+        {
+          text: "Limit your choices",
+          isAnswer: true,
+        },
+        {
+          text: "Don't marginalise with a personality",
+          isAnswer: false,
+        },
+      ],
+    },
+    {
+      type: "multiChoice",
+      question: {
+        text: "What are some core principles for layout and spacing?",
+      },
+      options: [
+        {
+          text: "Start with a lot of white space",
+          isAnswer: true,
+        },
+        {
+          text: "Start with little white space",
+          isAnswer: false,
+        },
+        {
+          text: "Always stick to grids",
+          isAnswer: false,
+        },
+        {
+          text: "Grids are overrated",
+          isAnswer: true,
+        },
+        {
+          text: "Use relative sizing",
+          isAnswer: false,
+        },
+        {
+          text: "Relative sizing does not scale",
+          isAnswer: true,
+        },
+        {
+          text: "Avoid ambiguous spacing",
+          isAnswer: true,
+        },
+        {
+          text: "Use even spacing between all elements",
+          isAnswer: false,
+        },
+      ],
+    },
+  ]}
+/>
 
 ## Startin from scratch
 
