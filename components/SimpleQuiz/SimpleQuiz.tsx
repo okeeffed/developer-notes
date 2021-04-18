@@ -79,28 +79,35 @@ export function SimpleQuiz({ questions }: ISimpleQuiz): JSX.Element {
   switch (quizStatus) {
     case "inProgress":
       return (
-        <Container w="full" maxW="container.sm" p={4} boxShadow="lg">
-          <QuizSection question={questions[index]} cycleStatus={cycleStatus} />
-          <Flex>
-            <Spacer />
-            <Button onClick={handleCycle} colorScheme="gray">
-              {displayText(cycleStatus)}
-            </Button>
-          </Flex>
-        </Container>
+        <Center>
+          <Container w="full" maxW="container.sm" p={4} boxShadow="lg">
+            <QuizSection
+              question={questions[index]}
+              cycleStatus={cycleStatus}
+            />
+            <Flex>
+              <Spacer />
+              <Button onClick={handleCycle} colorScheme="gray">
+                {displayText(cycleStatus)}
+              </Button>
+            </Flex>
+          </Container>
+        </Center>
       )
     case "complete":
       return (
-        <Container w="full" maxW="container.sm" p={4} boxShadow="lg">
-          <Center p={8}>
-            <VStack>
-              <Text mb={4}>Quiz complete!</Text>
-              <Button onClick={resetQuiz} colorScheme="gray">
-                Take again
-              </Button>
-            </VStack>
-          </Center>
-        </Container>
+        <Center>
+          <Container w="full" maxW="container.sm" p={4} boxShadow="lg">
+            <Center p={8}>
+              <VStack>
+                <Text mb={4}>Quiz complete!</Text>
+                <Button onClick={resetQuiz} colorScheme="gray">
+                  Take again
+                </Button>
+              </VStack>
+            </Center>
+          </Container>
+        </Center>
       )
     default:
       throw new Error(`Invalid quiz status: ${quizStatus}`)
