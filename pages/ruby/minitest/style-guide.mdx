@@ -1,8 +1,8 @@
-import { SimpleQuiz } from "../../components/SimpleQuiz"
+import { SimpleQuiz } from "../../../components/SimpleQuiz"
 
 # Minitest Style guide
 
-## Resources 
+## Resources
 
 1. [Rubocop Style Guide](https://github.com/rubocop/minitest-style-guide)
 
@@ -23,7 +23,7 @@ import { SimpleQuiz } from "../../components/SimpleQuiz"
         {
           text: "assert_nil(actual)",
           isAnswer: true,
-        }
+        },
       ],
     },
     {
@@ -39,7 +39,7 @@ import { SimpleQuiz } from "../../components/SimpleQuiz"
         {
           text: `assert_equal("rubocop-minitest", actual)`,
           isAnswer: true,
-        }
+        },
       ],
     },
     {
@@ -55,7 +55,7 @@ import { SimpleQuiz } from "../../components/SimpleQuiz"
         {
           text: `assert_equal(true, actual)`,
           isAnswer: false,
-        }
+        },
       ],
     },
     {
@@ -71,7 +71,7 @@ import { SimpleQuiz } from "../../components/SimpleQuiz"
         {
           text: `refute(actual)`,
           isAnswer: true,
-        }
+        },
       ],
     },
     {
@@ -87,7 +87,7 @@ import { SimpleQuiz } from "../../components/SimpleQuiz"
         {
           text: `assert_includes(collection, object)`,
           isAnswer: true,
-        }
+        },
       ],
     },
     {
@@ -103,7 +103,7 @@ import { SimpleQuiz } from "../../components/SimpleQuiz"
         {
           text: `assert(!collection.include?(object))`,
           isAnswer: false,
-        }
+        },
       ],
     },
     {
@@ -119,7 +119,7 @@ import { SimpleQuiz } from "../../components/SimpleQuiz"
         {
           text: `refute_equal(Math::PI, actual)`,
           isAnswer: false,
-        }
+        },
       ],
     },
     {
@@ -135,7 +135,7 @@ import { SimpleQuiz } from "../../components/SimpleQuiz"
         {
           text: `assert(object.empty?)`,
           isAnswer: false,
-        }
+        },
       ],
     },
     {
@@ -151,7 +151,7 @@ import { SimpleQuiz } from "../../components/SimpleQuiz"
         {
           text: `assert_operator(expected, :<, actual)`,
           isAnswer: true,
-        }
+        },
       ],
     },
     {
@@ -167,7 +167,7 @@ import { SimpleQuiz } from "../../components/SimpleQuiz"
         {
           text: `assert(object.empty?)`,
           isAnswer: false,
-        }
+        },
       ],
     },
     {
@@ -183,7 +183,7 @@ import { SimpleQuiz } from "../../components/SimpleQuiz"
         {
           text: `assert_raises(FooException) { do_something }`,
           isAnswer: true,
-        }
+        },
       ],
     },
   ]}
