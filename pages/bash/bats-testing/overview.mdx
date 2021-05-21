@@ -22,3 +22,15 @@ MULTI_FILE_TYPE="fail.yml test.js fail.rb test.tsx test.ts"
   [ "${lines[2]}" = "test.ts" ]
 }
 ```
+
+## Logging
+
+Use `echo 'text' >&3` and run `bats` with `-t` flag. Must be removed before running without flag:
+
+```sh
+@test "grep_js_files should return empty if no results" {
+  run bash -c "echo $NO_JS_FILE_TYPE | space_to_new_line | grep_js_files | ( [ -n $@ ] && echo empty || echo not_empty)"
+  echo "$output" >&3
+  [ "$output" = "empty" ]
+}
+```
