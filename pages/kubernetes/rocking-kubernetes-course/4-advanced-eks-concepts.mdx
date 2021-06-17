@@ -1,0 +1,110 @@
+# Advanced EKS concepts
+
+## Resources
+
+1. [AWS Load Balancer controller](https://www.eksworkshop.com/beginner/130_exposing-service/ingress_controller_alb/)
+
+## Ingress - What and Why
+
+The example given is what happens when you deploy multiple services under different subdomains.
+
+- If you spin up multiple loadbalancers, it is incredibly expensive.
+- There is also no URL based routing.
+- Maintenance overhead of manageling all separate services.
+
+This can be solved with ingress. It is an API service to help manage internal and external http(s) access to Kubernetes services running in a cluster.
+
+Supports:
+
+1. Host or path based routing.
+2. TLS
+3. Websockets
+4. Http/2
+5. AWS WAF
+
+Find more on ALB [here](https://aws.amazon.com/blogs/opensource/kubernetes-ingress-aws-alb-ingress-controller/).
+
+In the example, we have the following setup:
+
+1. We create a deployment
+2. We create a service (NodePort)
+
+Then we create an ingress controller in two parts:
+
+1. The ingress controller (a type of deployment)
+   - Monitors Ingress Resources
+   - Creates necessary AWS resources for Ingress
+     - Such as ALB for ALB Ingress Controller
+   - One Cluster can have more than one Ingress Controller!
+     - Ingress Resource defines which Ingress Controller to use
+2. The ingress resource\*
+   - Selects which Ingress Controller to use
+   - Defines the URL Path and corresponding backend Service
+
+> Note: as of the time of writing, it looks like we only now need to deploy the `Ingress` resource without another deployment.
+
+An example from the [AWS Load Balancer controller](https://www.eksworkshop.com/beginner/130_exposing-service/ingress_controller_alb/) workshop lesson:
+
+```yaml
+---
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: game-2048
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  namespace: game-2048
+  name: deployment-2048
+spec:
+  selector:
+    matchLabels:
+      app.kubernetes.io/name: app-2048
+  replicas: 5
+  template:
+    metadata:
+      labels:
+        app.kubernetes.io/name: app-2048
+    spec:
+      containers:
+        - image: alexwhen/docker-2048
+          imagePullPolicy: Always
+          name: app-2048
+          ports:
+            - containerPort: 80
+---
+apiVersion: v1
+kind: Service
+metadata:
+  namespace: game-2048
+  name: service-2048
+spec:
+  ports:
+    - port: 80
+      targetPort: 80
+      protocol: TCP
+  type: NodePort
+  selector:
+    app.kubernetes.io/name: app-2048
+---
+apiVersion: networking.k8s.io/v1beta1
+kind: Ingress
+metadata:
+  namespace: game-2048
+  name: ingress-2048
+  annotations:
+    kubernetes.io/ingress.class: alb
+    alb.ingress.kubernetes.io/scheme: internet-facing
+    alb.ingress.kubernetes.io/target-type: ip
+spec:
+  rules:
+    - http:
+        paths:
+          - path: /*
+            backend:
+              serviceName: service-2048
+              servicePort: 80
+```
+
+If we changed the `path`, it would add a rule to the existing `LoadBalancer`.

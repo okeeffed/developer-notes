@@ -1,0 +1,25 @@
+# EKS Basics
+
+## Resources
+
+1. [For EC2 comparison](https://instances.vantage.sh/)
+2. [More comparisons](https://www.parkmycloud.com/blog/ec2-instance-types/)
+3. [Comparing T instances](https://www.learnaws.org/2020/12/19/t3-t3a-t4g/)
+
+## Cost of EKS
+
+| Resource      | Cost             |
+| ------------- | ---------------- |
+| Control plane | USD$73/month     |
+| Per node      | Changes per node |
+
+Note: flat rate is even if there are no nodes.
+
+The best way to calculate is to go to the [AWS calculator](https://calculator.aws/).
+
+Example pricing:
+
+| Resources                         | Calc                                             | Numbers             | Total   |
+| --------------------------------- | ------------------------------------------------ | ------------------- | ------- |
+| EKS with 3 m5.large in us-east-1  | EKS Control Plane + Worker Nodes (m5.large X 3)  | $73 + (3 \* $81.76) | $318.28 |
+| EKS with 3 t4g.large in us-east-1 | EKS Control Plane + Worker Nodes (t4g.large X 3) | $73 + (3 \* $58.4)  | $248.2  |
