@@ -589,3 +589,263 @@ It's probably a good idea to start by searching on the web. Here are some websit
 - poliigon.com
 - 3dtextures.me
 - arroway-textures.ch
+
+## Materials
+
+Materials are used to put a color on each visible pixel of the geometries.
+
+The algorithms that decide on the color of each pixel are written in programs called shaders. Writing shaders is one of the most challenging parts of WebGL and Three.js, but don't worry; Three.js has many built-in materials with pre-made shaders.
+
+This section will just focus on materials for now.
+
+### Preparing the scene
+
+```js
+/**
+ * Objects
+ */
+const material = new THREE.MeshBasicMaterial()
+
+const sphere = new THREE.Mesh(new THREE.SphereGeometry(0.5, 16, 16), material)
+sphere.position.x = -1.5
+
+const plane = new THREE.Mesh(new THREE.PlaneGeometry(1, 1), material)
+
+const torus = new THREE.Mesh(
+  new THREE.TorusGeometry(0.3, 0.2, 16, 32),
+  material
+)
+torus.position.x = 1.5
+
+scene.add(sphere, plane, torus)
+
+/**
+ * Animate to spin the objects slowly
+ */
+const clock = new THREE.Clock()
+
+const tick = () => {
+  const elapsedTime = clock.getElapsedTime()
+
+  // Update objects
+  sphere.rotation.y = 0.1 * elapsedTime
+  plane.rotation.y = 0.1 * elapsedTime
+  torus.rotation.y = 0.1 * elapsedTime
+
+  sphere.rotation.x = 0.15 * elapsedTime
+  plane.rotation.x = 0.15 * elapsedTime
+  torus.rotation.x = 0.15 * elapsedTime
+
+  // ...
+}
+
+tick()
+```
+
+To load the texture onto the objects, we load them and then create the `material` variable:
+
+```js
+/**
+ * Textures
+ */
+const textureLoader = new THREE.TextureLoader()
+
+const doorColorTexture = textureLoader.load("/textures/door/color.jpg")
+const doorAlphaTexture = textureLoader.load("/textures/door/alpha.jpg")
+const doorAmbientOcclusionTexture = textureLoader.load(
+  "/textures/door/ambientOcclusion.jpg"
+)
+const doorHeightTexture = textureLoader.load("/textures/door/height.jpg")
+const doorNormalTexture = textureLoader.load("/textures/door/normal.jpg")
+const doorMetalnessTexture = textureLoader.load("/textures/door/metalness.jpg")
+const doorRoughnessTexture = textureLoader.load("/textures/door/roughness.jpg")
+const matcapTexture = textureLoader.load("/textures/matcaps/1.png")
+const gradientTexture = textureLoader.load("/textures/gradients/3.jpg")
+
+const material = new THREE.MeshBasicMaterial({ map: doorColorTexture })
+```
+
+The color property on the material will apply a unifor color. This can be combined with the `map` property of the texture:
+
+```js
+// Ways to apply the color
+material.color = new THREE.Color("#ff0000")
+material.color = new THREE.Color("#f00")
+material.color = new THREE.Color("red")
+material.color = new THREE.Color("rgb(255, 0, 0)")
+material.color = new THREE.Color(0xff0000)
+```
+
+We can use the `wireframe` property to show the triangles that compose the geometry with `material.wireframe = true`.
+
+There are some other properties explained:
+
+```js
+// opacity
+material.transparent = true
+material.opacity = 0.5
+
+// texture transparency
+material.alphaMap = doorAlphaTexture
+
+// `side` property lets you decide which side of a face is visible (by default is front side)
+material.side = THREE.DoubleSide
+```
+
+### MeshNormalMaterial
+
+```js
+// The MeshNormalMaterial displays a nice purple, blueish, greenish color
+// You can use Normals for many things like calculating how to illuminate the face or how the environment should reflect or refract on the geometries' surface.
+const material = new THREE.MeshNormalMaterial()
+
+// new property we can use - normals won't be interpolated between the vertices
+material.flatShading = true
+```
+
+### MeshMatcapMaterial
+
+MeshMatcapMaterial is a fantastic material because of how great it can look while being very performant.
+
+```js
+const material = new THREE.MeshMatcapMaterial()
+material.matcap = matcapTexture
+```
+
+The meshes will appear illuminated, but it's just a texture that looks like it.
+
+The only problem is that the illusion is the same regardless of the camera orientation. Also, you cannot update the lights because there are none.
+
+### MeshDepthMaterial
+
+The MeshDepthMaterial will simply color the geometry in white if it's close to the camera's near value and in black if it's close to the far value of the camera.
+
+### Materials that need lighting
+
+The following need lights to be scene.
+
+```js
+/**
+ * Lights
+ */
+const ambientLight = new THREE.AmbientLight(0xffffff, 0.5)
+scene.add(ambientLight)
+
+const pointLight = new THREE.PointLight(0xffffff, 0.5)
+pointLight.position.x = 2
+pointLight.position.y = 3
+pointLight.position.z = 4
+scene.add(pointLight)
+```
+
+Those materials are:
+
+- `MeshLambertMaterial`
+- `MeshPhongMaterial`
+- `MeshStandardMaterial`
+- `MeshToonMaterial`
+
+## The `ao` property
+
+The `aoMap` property (literally "ambient occlusion map") will add shadows where the texture is dark. For it to work, you must add what we call a second set of UV (the coordinates that help position the textures on the geometries).
+
+```js
+sphere.geometry.setAttribute(
+  "uv2",
+  new THREE.BufferAttribute(sphere.geometry.attributes.uv.array, 2)
+)
+plane.geometry.setAttribute(
+  "uv2",
+  new THREE.BufferAttribute(plane.geometry.attributes.uv.array, 2)
+)
+torus.geometry.setAttribute(
+  "uv2",
+  new THREE.BufferAttribute(torus.geometry.attributes.uv.array, 2)
+)
+
+material.aoMap = doorAmbientOcclusionTexture
+material.aoMapIntensity = 1
+```
+
+## 3D Text
+
+Three.js already supports 3D text geometries with the `TextGeometry` class. The problem is that you must specify a font, and this font must be in a particular json format called typeface.
+
+> You can use a font converter like [this](https://gero3.github.io/facetype.js/).
+
+```js
+/**
+ * Fonts
+ */
+const fontLoader = new THREE.FontLoader()
+
+fontLoader.load("/fonts/helvetiker_regular.typeface.json", (font) => {
+  const textGeometry = new THREE.TextGeometry("Hello Three.js", {
+    font: font,
+    size: 0.5,
+    height: 0.2,
+    curveSegments: 12,
+    bevelEnabled: true,
+    bevelThickness: 0.03,
+    bevelSize: 0.02,
+    bevelOffset: 0,
+    bevelSegments: 5,
+  })
+  const textMaterial = new THREE.MeshBasicMaterial()
+  const text = new THREE.Mesh(textGeometry, textMaterial)
+  scene.add(text)
+})
+```
+
+### Center the text
+
+```js
+// Computer the bounding box
+textGeometry.computeBoundingBox()
+
+// We can now center it like so (also subtracting bevel or 0.02 to be precise)
+textGeometry.translate(
+  -(textGeometry.boundingBox.max.x - 0.02) * 0.5, // Subtract bevel size
+  -(textGeometry.boundingBox.max.y - 0.02) * 0.5, // Subtract bevel size
+  -(textGeometry.boundingBox.max.z - 0.03) * 0.5 // Subtract bevel thickness
+)
+
+// Or just do it without being ridiculous
+textGeometry.center()
+```
+
+### Adding textures
+
+```js
+const matcapTexture = textureLoader.load("/textures/matcaps/1.png")
+
+const textMaterial = new THREE.MeshMatcapMaterial({ matcap: matcapTexture })
+```
+
+### Adding shapes around the text
+
+```js
+const donutGeometry = new THREE.TorusGeometry(0.3, 0.2, 20, 45)
+
+const material = new THREE.MeshMatcapMaterial({ matcap: matcapTexture })
+
+// ...
+
+const text = new THREE.Mesh(textGeometry, material)
+
+for (let i = 0; i < 100; i++) {
+  const donut = new THREE.Mesh(donutGeometry, donutMaterial)
+
+  donut.position.x = (Math.random() - 0.5) * 10
+  donut.position.y = (Math.random() - 0.5) * 10
+  donut.position.z = (Math.random() - 0.5) * 10
+
+  donut.rotation.x = Math.random() * Math.PI
+  donut.rotation.y = Math.random() * Math.PI
+
+  const scale = Math.random()
+  donut.scale.set(scale, scale, scale)
+
+  scene.add(donut)
+}
+```

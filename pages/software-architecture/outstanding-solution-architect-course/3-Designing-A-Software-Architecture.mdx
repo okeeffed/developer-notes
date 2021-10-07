@@ -1,3 +1,5 @@
+import { SimpleQuiz } from "../../../components/SimpleQuiz"
+
 # 3: Designing A Software Architecture
 
 A structured solution that meets all requirements, while optimizing common quality attributes such as performance, security and manageability.
@@ -197,7 +199,7 @@ An iterative process for your architecture.
 - Identify scope of architecture
 - Estimate time to spend
 - Identify audience
-- Identify tenchical-, usage- and deployment constraints
+- Identify technical-, usage- and deployment constraints
 
 ### Identify key scenarios
 
@@ -256,3 +258,47 @@ During each cycle...
 - Address more key issues
 
 Start communicating architecture when you exceed 50% coverage.
+
+<SimpleQuiz
+  questions={[
+    {
+      type: "input",
+      question: {
+        text: "What are the key principles for software architects?",
+      },
+      options: [
+        {
+          text:
+            "Principle of Least Knowledge, Separation of Concerns, Single responsibility principle, Don't repeat yourself, Minimize upfront design",
+          isAnswer: true,
+        },
+      ],
+    },
+    {
+      type: "input",
+      question: {
+        text: "What are some of the popular UML diagrams?",
+      },
+      options: [
+        {
+          text: "Component, Class, Sequence, State, Activity, Layer, Use Case",
+          isAnswer: true,
+        },
+      ],
+    },
+    {
+      type: "input",
+      question: {
+        text:
+          "What is the iterative process for designing software architectures",
+      },
+      options: [
+        {
+          text:
+            "Create/adjust objectives, Identify key scenarios, Create overview, Identify key issues, Create candidate solution",
+          isAnswer: true,
+        },
+      ],
+    },
+  ]}
+/>
