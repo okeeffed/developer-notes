@@ -1,0 +1,325 @@
+# S3
+
+## Overview
+
+You need to know this service inside and out to pass the exam.
+
+What is S3? It is a storage service that provides a way to store data in the cloud.
+
+- Secure, durable, highly scalable storage.
+- Allows you to store and retrieve any amount of data from anywhere on the web at a very low cost.
+- Simple. Straight-forward web interface.
+
+### Object-based storage
+
+- Manages data as objects rather than in file systems or data blocks.
+- Upload any file type to S3.
+- Cannot be used to run an OS or database.
+- Unlimited storage.
+- Objects up to 5TB in size.
+- Stored in S3 buckets (similar to folders).
+
+Buckets are a universal namespace. All AWS accounts share the namespace. It must be globally unique.
+
+The S3 URL looks like `https://<bucket-name>.s3.<region>.amazonaws.com/<key-name>`.
+
+When you upload a file, a successful upload will get a 200 response.
+
+### Key-Value Store
+
+- Key: name of the object.
+- Value: data itself as a sequence of bytes.
+- Version ID: Import for storing multiple versions of the same object.
+- Metadata: Data about the data you are storing (`content-type`, `last-modified`, etc.)
+
+### Highly Available and Highly Durable
+
+- Built for 99.95% - 99.99% service availability, depending on S3 tier.
+- Design for 99.999999999% (nice 9's) service durability (ie will my data be lost?).
+
+### Standard S3
+
+- High availability and durability. Sotred in > 3 AZs.
+- Design for frequently accessed data.
+- Suitable for most workloads.
+- Default storage class.
+- Use cases: websites, content distribution, mobile and gaming apps, big data analytics.
+
+### Characteristics
+
+- Tiered Storage: S3 offers a range of storage classes for different use cases.
+- Lifecycle management: rules to transition objects to a cheaper storage tier or delete objects that are no longer required after a set period of time.
+- Versioning: all versions of objects are stored and can be retrieved (including deleted objects).
+
+### Securing Your Data
+
+- Server-Side Encryption: you can set default encryption to a bucket to encrypt all new objects when stored. Great for if someone breaks into the data center and steals the hard drive.
+- Access Control Lists (ACLs): define which accounts or groups are granted access and the type of access. You can attach S3 ACLs to invidual objects within a bucket.
+- Bucket policies: specific to actions allowed and denied to the bucket (ie. allow user Alice to PUT but not DELETE objects in the bucket).
+
+### Data consistency
+
+Strong Read-After-Write Consistency.
+
+- After a successful write of a new object (or overwrite), any subsequent read request immediately receives the latest version of the object.
+- Strong consistency for list operations, so after a write, you can immediately perform a listing of the objects in a bucket with all changes reflected.
+
+### What to know
+
+- Object Based
+- Files up to 5TB
+- Unlimited storage
+- Not OS or DB storage
+
+Files are stored in buckets and S3 is a universal namespace. Know the URL build out and 200 response on success.
+
+Four more tips:
+
+- Key: Name of object.
+- Value: The data itself (which is made up of a sequence of bytes).
+- Version ID: Allows you to store multiple versions of the same object.
+- Metadata: Data about the data you are storing (e.g. `content-type`)
+
+## Securing Your Bucket with S3 Block Public Access
+
+- Object ACLs: work on an individual object level.
+- Bucket Policy: work on the entire bucket.
+
+By default, all public access is blocked.
+
+If a bucket is not public, you cannot override the access level of an individual object.
+
+Review on tips:
+
+- Buckets are private by default.
+- Objects ACLs can make individual objects public (require bucket to be public).
+- Bucket policies can make the entire bucket public.
+- HTTP status code: 200 success.
+
+## Hosting a Static Website Using S3
+
+Can host static websites (such as `.html` websites). Cannot do Dynamic websites.
+
+- Scales automatically to meet demand.
+
+The policy required for hosting a static website:
+
+```json
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Sid": "PublicReadGetObject",
+      "Effect": "Allow",
+      "Principal": "*",
+      "Action": ["s3:GetObject"],
+      "Resource": ["arn:aws:s3::BUCKET_NAME/*"]
+    }
+  ]
+}
+```
+
+The resources given are a basic `index.html` page and an `error.html` page.
+
+When creating a new bucket via the console, you specify that you want to host a static website and you set the object entry point and error page.
+
+You could make the files individually public, but that is time consuming. Instead, we edit the bucket policy to allow access.
+
+To recap:
+
+- Bucket policies: make sure entire buckets are public using policies.
+- Static content: use s3 to host static content only (not dynamic).
+- Automatic scaling: S3 scales automatically with demand.
+
+## Versioning Objects in S3
+
+You can enable versioning in S3 to allow multiple versions of objects within a bucket.
+
+- All versions: all versions stored.
+- Can be a great backup tool.
+- Cannot be disabled (can suspend).
+- Lifecycle rules.
+- Supports MFA.
+
+Inside of a bucket, you go to `Properties` and you can edit to enable bucket versioning.
+
+Once on, there will be a toggle to `List Versions` that can show which version of the object is there. The demo itself uploads to new file.
+
+Previous versions do not allow access (even if the policy is for a public policy). You can turn the ACL for that object to be public.
+
+For deleted objects, the versions will still be there (but with a `delete marker`). Once you delete the `delete marker`, it actually reverts to the previous version.
+
+## S3 Storage Classes
+
+For standard:
+
+- High availability and durability. 4 9's availability, 11 9's durability.
+- Designed for Frequent Access.
+- Suitable for Most Workloads.
+
+For Standard-IA (infrequent access):
+
+- Rapid access.
+- You pay to access data (low per-GB storage price) and a per-GB retrieval fee.
+- Use cases: great for long-term storage, backups and as a data store for disaster recovery.
+- 3 9's availability, 9 9's durability.
+
+For S3 One Zone Infrequent Access (1ZIA):
+
+- Like Standard-IA, but data store redundantly within a single AZ.
+- Costs 20% less than regular S3 Standard-IA.
+- 99.% percent availability.
+
+### Glacier
+
+- Cheap storage.
+- Optimized for very infrequently accessed data.
+- Pay for each time you access.
+- Use only for archiving data.
+
+Glacier (cold storage) is the last type and has two options.
+
+- Option 1: Provides long-term data archiving with retrieval times that range from 1 minute to 12 hours (eg historical data only access a few times per year).
+- Option 2: Deep archive. Archiving data rarely access. Access time is 12 hours. Only use if accessed once or twice a year (think financial records).
+
+- Glaciers has 4 9's availbility and 11 9's durability.
+
+### S3 Intelligent-Tiering
+
+- Frequent + infrequent access. It automatically moves your data to the most cost-effective tier based on how frequently you access each object.
+- $0.0025 per 1000 objects per month.
+- 3 9's availability, 11 9's durability.
+
+Be sure to know the different use-cases in S3 storage tiers.
+
+## Lifecycle Management with S3
+
+Automates the moving of objects between different storage tiers.
+
+E.g. you may set S3 Standard object unused for 30 days to S3 IA and 90 days to Glacier.
+
+You can integrate this with versioning too!
+
+In the bucket under `Management`, you can create your Lifecycle rule.
+
+- You can add to all objects.
+- You can add to individual objects.
+
+With versioning turned on, you can also change the rule actions for things such as "transition".
+
+With each action, you can specify which object is transitioned after X amount of days to what class.
+
+Once created, you can also see a `Timeline` summary.
+
+The tips:
+
+- Automates moving of objects between different storage tiers.
+- Can be used in conjunction with versioning.
+- Can be applied to current versions and previous versions.
+
+## S3 Object Lock And Glacier Vault Lock
+
+You can use S3 Object Lock to store objects using a `write once, read many` (WORM) model. It can help prevent objecst from being deleted or modified for a fixed amount of time or indefinitely.
+
+You can use it to meet regulatory requirements that require WORM storage, or to add an extra layer of protection again object changes and deletion.
+
+### Governance mode
+
+Users can't overwrite or delete an object version or alter its lock settings unless they have special permissions.
+
+### Compliance mode
+
+No one can overwrite or delete an object version or alter its lock settings.
+
+### Retention Periods
+
+Protects an object version for a fixed amount of time.
+
+After the period expires, the object version can be overwritten or deleted unless you also placed a legal hold on the object version.
+
+### Legal Holds
+
+S3 Object Lock enables you to place a legal hold on an object version. Like a retention period, it prevents overwrite/deltion, however it doesn't have an associated retention period and remains in effect until removed.
+
+Those with the `s3:PutObjectLegalHold` permission can add/remove.
+
+### Glacier Vault Lock
+
+Allows you to easily deploy and enforce compliance controls for individual Glacier Vaults with a Vault lock policy.
+
+You can specify controls (such as WORM) in a Vault lock policy and lock policy from future edits. Once locked, the policy can no longer be changed.
+
+### S3 Object Lock Exam Tips
+
+- Use `S3 Object Lock` to store objects using a write once, read many (WORM) model.
+- Object locks can be applied to individual objects or applied across the bucket.
+- Object locks come in two modes: governance and compliance.
+
+## Encypting S3 Objects
+
+The types of encryption:
+
+1. Encryption in transit: SSL/TLS, HTTPS.
+2. Encryption at rest (server): SSE-C (Customer provided keys), SSE-KMS, SSE-S3 (S3-managed keys, using AES 256-bit encryption).
+3. Encryption at rest (client): Encypting files before uploading them to S3.
+
+You can enforce server-side encryption:
+
+1. Through the console. This is the easiest way.
+2. Through a bucket policy.
+
+If the file is to be encrypted at upload time, the `x-amz-server-side-encryption` parameter will need to be included in the request header.
+
+There are two options: `AES256` or `aws:kms`.
+
+It is put into the header to tell S3 to encrypt objects during the upload.
+
+To enforce this, you can set a bucket policy to deny any object PUT request that does not include the encryption header.
+
+In the console, there is a `Default Encryption` option when creating a bucket.
+
+## Optimizing S3 Performance
+
+The S3 prefix for `mybucketname/folder1/subfolder1/myfile.jpg` is `folder1/subfolder1`.
+
+- S3 has low latecy (100-200ms for first byte).
+- You can achieve high number of requests: 3500 PUT/COPY/POST/DELETE and 5,500 GET/HEAD requests per second per prefix.
+- You can get better performance by spreadin reads across different prefixes.
+- If we used 4 prefixes as an exampe, we would achieve 22k requests per second.
+
+The limitations with KMS:
+
+- If you use `SSE-KMS`, to encrypt the objects in S3 you must be mindful of KMS limits.
+- When you `upload` a file, you will call `GenerateDataKey` in the KMS API.
+- When you `download` a file, you will call `Decrypt`.
+- The KMS req rate changes per region, however it is either 5.5k, 10k or 30k per second.
+- Currently you cannot request a quota increase for KMS.
+
+### Multipart Uploads
+
+- Recommended for files over 100MB.
+- Required for files over 5GB.
+- Parellelize uploads (increases efficiency).
+
+### S3 Byte-Range Fetches
+
+- Parallelize downloads by specifying byte range.
+- If there's a failure in the download, it's only for a specific byte range.
+
+## Back up Data With S3 Replication
+
+Used to be called cross-region replication, but now can happen in the same region.
+
+- A way of replicating objects from one bucket to another. Versioning must be enabled on both the source and destination buckets.
+- Objects in an existing bucket are not replicated automatically. Once turned on, all subsequent updated objects will be replicated automatically.
+- Delete markers are not replicated by default. You can turn this on.
+
+To demo: you can create replication rules under `Management`. You will need versioning on first. You can select the destination bucket from there.
+
+The tips:
+
+- You can replicate objects from one bucket to another.
+- Existing not replicated automatically.
+- Delete markers are not replicated by default. You can turn this on.
+
+## S3 Exam Tips
