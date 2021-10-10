@@ -1,0 +1,298 @@
+# EC2
+
+One of the most fundamental services of AWS.
+
+## Intro
+
+Secure, resizable compute capacity in the cloud.
+
+- Like a VM hosted in the cloud.
+- Pay for only what you use.
+- No wasted capacity.
+- Wait minutes, not months.
+
+With on-prem, you had to estimate capacity and have a long-term 3-5 years.
+
+Comes in four different pricing options:
+
+- On-Demand: pay by the hour or second.
+- Reserved: a contract with AWS. Up to 72% off.
+- Spot purchase unused capacity on a discount up to 90%. Price fluctuates with supply and demand.
+- Dedicated: a physical EC2 server dedicated for your use. Most expensive option.
+
+### On Demand
+
+- Flexible: low cost and flexibile without upfront payment or commitment.
+- Short-Term: Applications with short-term, spiky or unpredictable workloads that cannot be interrupted.
+- Testing the water: being developed or test for first time.
+
+### Reserved
+
+- Predictable usage.
+- Specific capacity requirements.
+- Pay up front.
+- Standard reserved instance to save money. Up to 72% off.
+- Convertable reserved instance. Up to 54% saved vs on-demand. Has option to change to different RI type of equal or greater value.
+- Scheduled RIs: launch within the time window you define. Match you capacity reservation to a predictable recurring schedule that only requires a fraction of a day, week or month.
+- Not only EC2. Can include serverless technologies such as Lambda and Fargate.
+
+Reserved instances operate at a regional level.
+
+### Spot Instances
+
+When to use spot instances.
+
+- Flexible start and end times. Wouldn't use for web server.
+- Cost sensitive applications.
+- Users with an urgent need for large amounts of additional computing capacity ie image rendering, genomic sequency, algo trading engines.
+
+### Dedicated Hosts
+
+Why dedicated hosts?
+
+- Compliance: regulatory requirement not to support multi-tenant virtualization.
+- On-Demand: Can be purchased on-demand (hourly).
+- Licensing: licenses that don't support multi-tenant virtualization or cloud deployments.
+- Reserved: Can be purchased as a reservation for us to 70% off the on-demand price.
+
+A recommendation is to use the AWS Pricing Calculator.
+
+## Using Roles
+
+- A role is an identity you can create in IAM with specific permissions.
+- Instead of being associated with one person, it is assumable by anyone that uses it.
+- Roles are temporary.
+- Roles can be assumed by people, AWS architecture or other system-level accounts
+- Roles can allow cross-account access. This allows one AWS account the ability to interact with resources in other AWS accounts.
+
+The demonstration is of creating the IAM role for creating an EC2 instance.
+
+Things to remember about roles:
+
+1. The preferred option: roles are preferred from a security perspective.
+2. Avoid Hard-Coding Your Credentials: Roles allow you to provide access without the use of access key IDs and secret key IDs.
+3. Policies: control a role's permissions.
+4. Updates: you can update a policy attached to a role and it will take immediate effect.
+5. Attaching and detaching: you can attach and detach roles to running EC2 instances without having to stop or terminate those instances.
+
+## Security Groups and Bootstrap Scripts
+
+How computers communicate:
+
+- Linux SSH Port 22
+- Windows RPD Port 3389
+- HTTP Port 80
+- HTTPS Port 443
+
+Security Groups are virtual firewalls for your EC2 instance. By default, everything is blocked.
+
+To let everything in `0.0.0.0/0` to the correct port.
+
+Bootstrap scripts are scripts that run when the instance first runs.
+
+The example bootstrap script:
+
+```sh
+#!/bin/bash
+yum update -y
+yum install httpd -y
+# install apache
+service httpd start
+# starts apache
+cd /var/www/html
+echo "<html><body><h1>Hello, world!</h1></body></html>" > index.html
+```
+
+To add in bootstrap scripts, you pass it as `User Data` to the EC2 instance.
+
+Exam tips:
+
+1. Changes to security groups happen immediately.
+2. You can have any number of EC2 instances within a security group.
+3. You can have multiple security groups attached to EC2 instances.
+4. All inbound traffic is blocked by default.
+5. All outbound traffic is allowed.
+
+## EC2 Metadata and User Data
+
+- EC2 metadata is data about your EC2 instance. Info like private IP, public IP, address, hostname, SGs, etc.
+- Using curl, you can query metadata about the EC2 instance.
+- To combine User Data and Metadata, you can curl the metadata and use that within your User Data.
+
+```sh
+#!/bin/bash
+yum update -y
+yum install httpd -y
+service httpd start
+cd /var/www/html
+echo "<html><body><h1>My IP is" > index.html
+curl http://169.254.169.254/latest/meta-data/public-ipv4 >> index.html
+echo "</h1></body></html>" >> index.html
+```
+
+- To see possible metadata options, you can run `curl http://169.254.169.254/latest/meta-data`.
+- If you curl `http://169.254.169.254/latest/user-data`, you will find your user data script!
+
+## Networking with EC2
+
+You can attach 3 different types of virtual networking cards:
+
+- ENI: Elastic Network Interface (for basic, day-to-day networking)
+- EN: Enhanced Networking (users single root I/O virtualization [SR-IOV: Single-root I/O Virtualization] to provide high performance)
+- EFA: Elastic Fabric Adapter (accelerates high performance computing (HPC) amd machine learning applications)
+
+### ENI
+
+- Private IPv4 Address
+- Public IPv4 Address
+- MAC Address
+- Many IPv6 Addresses
+- 1 to Move Security Groups
+
+The common use cases:
+
+- Create a management network.
+- Use network and security appliances in your VPC.
+- Create dual-homed instances with workloads/roles on distinct subnets (private network addresses that are separate).
+- Create low-budget, high-availability solution.
+
+### EN
+
+High-performance networking between 10Gbps-100Gbps.
+
+- Provides higher I/O performance and lower CPU utilization.
+- Provides higher bandwidth, higher packer per second (PPS) and lower inter-instance latencies.
+
+EN comes in two different flavours:
+
+1. ENA: Elastic Network Adapter (supports network speeds up to 100 Gbps for supported instance types).
+2. VF: Intel 82599 Virtual Function (supports network speeds up to 10 Gbps for supported instance types - typically used on older instances).
+
+Study tip: always want to use ENA over VF. Faster and more modern.
+
+### EFA
+
+- Network device to attach to EC2 to accelerate HPC and machine learning applications.
+- Provides lower and more consistent latency and higher throughput than the TCP transport traditionally used in cloud-based HPC systems.
+- EFA can use OS-bypass to make it a lot faster with much lower latency. Bypasses OS kernel and communicate directly with device. Only supported on Linux.
+
+Study tip: anything about HPC and what network adapters to use, think of EFAs.
+
+You don't need to know a heavy amount of networking as there is its own certification.
+
+## EC2 Placement groups
+
+Three types of placement groups:
+
+1. Cluster: low network latecy, high network throughput.
+2. Spread: individual critical EC2 instances.
+3. Partition: multiple EC2 instances; HDFS, HBase and Cassandra.
+
+### Clustered Placement Group
+
+Grouping of instances within a single Availability Zone.
+
+Recommended for applications that need low network latecy, high network throughput, or both.
+
+### Spread Placement Group
+
+A group of instances that are placed on distinct underlying hardware.
+
+Spread placement groups are recommended for applications that have a small number of critical instances that should be kept separate from each other.
+
+Used for individual instances ie. I don't want my primary database to be on the same layer as my secondary database.
+
+### Partition Placement Group
+
+Each placement groups has its own set of racks. Each rack has its own network and power source.
+
+No two partitions within a placement group share the same racks, allowing you to isolate the impact of hardware failure within your application.
+
+Used for multiple instances you want on their own dedicated network.
+
+### Exam tips for placement groups
+
+- A cluster placement group can't span multiple AZs, whereas the others can.
+- Only certain types of instance can be launched in a placement group (compute optimized, GPC, memory optimized, storage optimized).
+- AWS recommends homogenous instances (instances of the same type ie t2.micro) within cluster placement groups.
+- You can't merge placement groups.
+- You can move an existing instance into a placement group. Before you move the instance, the instance must be in the stopped state. You can move or remove an instance using the AWS CLI or an AWS SDK, but you can't do it via the console yet.
+
+Basically, they're a logically way to group instances.
+
+## Solving Licensing Issues with Dedicated Hosts
+
+You may need to use dedicated hosts for compliance or licensing.
+
+- Compliance: Regulatory requirements that may not support multi-tenant virtualization.
+- Licensing: Great for licensing that does not support multi-tenancy or cloud deployments.
+
+Dedicated hosts can be paid on-demand or reserved.
+
+The tip: any question that talks about special licensing requirements: think **dedicated hosts**.
+
+## Timing Workloads and Spot Instances and Spot Fleets
+
+Spot Instances let you take advantage of unused EC2 capacity in the AWS Cloud. Spot Instances are available at up to 90% discount compared to On-Demand prices.
+
+Where to use spot instances? When you need stateless, fault-tolerant or flexible applications such as big data, containerized workloads, CI/CD, high-performance computing (HPC) and other test and development workloads.
+
+- Don't use them for something like web servers.
+- Hourly spot price varies based on capacity and region.
+- If Spot price goes above your max, you have 2 min to choose whether to stop or terminate your instance.
+- You may use a Spot block to stop instances from being terminated even if the Spot price goes over the max Spot price. You can set the blocks for between 1 to 6 hours.
+
+You can get all historical prices for spot instances at [AWS Pricing](https://aws.amazon.com/ec2/spot/pricing/).
+
+Use for:
+
+- Big data and analytics
+- Containerized workloads
+- CI/CD and testing
+- Image and media rendering
+- High-performance computing (mainly comes through)
+
+Not useful for:
+
+- Persistent workloads (like web servers)
+- Critical jobs
+- Databases
+
+When making a Spot request, need to define:
+
+- Max price
+- Desired number of instances
+- Launch spec
+- Request-type: one-time or persistent
+- Valid from/until
+
+To terminate your spot requests, you need to cancel that first before your instance.
+
+### Spot Fleetss
+
+A collection of Spot Instances and (optionally) On-Demand instances.
+
+- The fleet attempts to launch the number of instances to meet the target capacity specified in Spot Fleet request.
+- Request for Spot Instances is fulfilled if there is available capacity and the max price you specified in the req exceeds the current Spot price.
+- Attempts to maintain its target capacity fleet if your Spot Instances are interrupted.
+
+### Launch Pools
+
+Spot fleets try to match the target capacity.
+
+1. Set up different launch pools. Define things like type, OS, AZ.
+2. You can have multiple pools, and the fleet will choose the best way to implement depending on the strategy you define.
+
+### Spot Fleet strategies
+
+- `capacityOptimized`
+- `lowestPrice`
+- `diversified`
+- `InstancePoolsToUseCount`
+
+The exam tips for spot instances:
+
+1. Spot instances save up to 90% of the cost of On-Demand instances.
+2. You can block Spot Instances from terminating using a `Spot Block`.
+3. Useful for any type of computing where you don't ened persistent storage.
+4. A Spot Fleet is a collection of Spot Instances and (optionally) On-Demand instances.
