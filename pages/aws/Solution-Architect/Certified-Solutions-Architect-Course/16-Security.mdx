@@ -12,13 +12,15 @@ Achieved by multiple mechanisms:
 
 ### Layer 4 DDoS Attack
 
-Layer 4 DDoS attack is often referred to as a SYN flood operating at the transport layer (TCP).
+Layer 4 DDoS attack is often referred to as a SYN (synchronization) flood operating at the transport layer (TCP).
 
 - To establish a TCP connection, 3-way handshake takes place.
 - The client sends a SYN packet to the server, the server replies with a SYN-ACK, and client then responds to that with an ACK.
 - Normally after, the TCP connection is established.
 - SYN floods uses the built in patience of the TCP stack to overwhelm a server by sending a large number of SYN packets and then ignoring the the SYN-ACKs returned by the server.
 - There are only a certainly number of concurrent TCP connections that a web or app server can have open, so it eats through the allowed number and prevents legitimate requests from being answered.
+
+> ACK = acknowledgement
 
 ### Amplification attack
 
