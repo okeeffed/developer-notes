@@ -259,3 +259,21 @@ Concepts to remember:
 - Root Zone: points at TLD authoritative servers.
 - gTLD: Generic Top Level Domain.
 - ccTLD: Country Code Top Level Domain.
+
+## DNS Record Types
+
+- NS: As mentioned, they allow delegation to occurs in DNS.
+- A & AAAA: Do the same thing. Given a DNS zone, those records map host names to IP addresses. The A record is for IPv4 and the AAAA record is for IPv6. Generally you'll create two records with the same name.
+- CNAME: Canonical name - let's you create the equivalent of a host-to-host record. They're used to redirect a host name to another host name (like the A or AAAA).
+- MX: Mail Exchange - MX value can be just a host or a fully qualified domain name. Lower values for the priority field is higher priority. You may have an A record pointing to an IP address and a MX record pointing to a host name which it will deliver the email using SMTP.
+- TXT: Allows you to store arbitrary text to a domain. This could be things like proving domain ownership. It can also be used to fight spam.
+
+DNS TTL is a value (in seconds) that can be set on DNS records.
+
+Once you get an "authoritative answer" from walking the tree, you can use the TTL to cache the result of that authoritative answer at the DNS resolver.
+
+If you get a cached answer, this is known as getting back a Non-Authoritative answer from the DNS resolver cached results.
+
+An admin at the DNS resolver can manually set it to bypass/invalidate the cache value.
+
+If doing any work on changing DNS records, then ensure to lower the TTL value.
