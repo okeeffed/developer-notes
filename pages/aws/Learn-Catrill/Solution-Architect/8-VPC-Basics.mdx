@@ -121,7 +121,7 @@ Reserved IP addresses (5 in total).
 
 - Network Address (first IP address)
 - Network+1 Address (second address is for VPC Router)
-- Network+2 Address (Reserverd DNS\*)
+- Network+2 Address (Reserved DNS\*)
 - Network+3 Address (no use yet)
 - Broadcast Address (last IP address)
 
@@ -232,3 +232,37 @@ NACL requires a rule for both the inbound and outbound. This complexity as layer
 - SG as the default almost everything.
 
 ## Network Address Translation
+
+NAT is the process of giving a private resource outgoing-only access to the Internet.
+
+- A set of processes: remapping SRC and DST IPs.
+- When people think of NAT, they generally think of a subset known as dynamic NAT (or IP masquerading).
+- Dynamic NAT gives private CIDR range outgoing Internet access.
+
+AWS has two ways to implement NAT.
+
+1. NAT Instance (NAT running on an EC2 instance). To use this, you must disable source/destination checks.
+2. NAT Gateway. This is NAT-as-a-Service.
+
+We can provision a NAT Gateway to a public subnet that has a public IP.
+
+The private subnet can have its own route translation table with a default route to the NAT Gateway.
+
+That means, when instances in the private subnet send data to any address that isn't inside the VPC, the default route will be used which goes through the NAT Gateway (when configured).
+
+- NAT Gateways run from a public subnet.
+- NAT Gateways use an Elastic IPs (Static IPv4 Public).
+- AZ resilient serve (HA in that AZ).
+- For region resilience, you need a NAT GW per AZ and a Route Table for each AZ with that NATGW as target.
+- Managed service. Scales to 45Gbps.
+- Billed for duration & data volume.
+- NAT Gateways can only used NACLs.
+
+### What about IPv6?
+
+- NAT isn't required for IPv6.
+- All IPv6 addresses in AWS are public routable.
+- The IG works with all IPv6 IPs directly.
+- NAT Gateways don't work with IPv6.
+- `::/0` route pointed to IGW will give that instance bi-directional connectivity.
+- `::/0` + Egress-Only Internet Gateway - Outbound Only.
