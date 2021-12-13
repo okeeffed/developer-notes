@@ -335,3 +335,194 @@ contract ZombieFactory is Ownable {
 
 }
 ```
+
+## Time units
+
+Solidity provides some native units for dealing with time.
+
+The variable `now` will return the current unix timestamp of the latest block (the number of seconds that have passed since January 1st 1970).
+
+Solidity also contains the time units `seconds`, `minutes`, `hours`, `days`, `weeks` and `years`. These will convert to a `uint` of the number of seconds in that length of time. So 1 minutes is 60, 1 hours is 3600 (60 seconds x 60 minutes), 1 days is 86400 (24 hours x 60 minutes x 60 seconds), etc.
+
+```sol
+pragma solidity >=0.5.0 <0.6.0;
+
+import "./ownable.sol";
+
+contract ZombieFactory is Ownable {
+
+    event NewZombie(uint zombieId, string name, uint dna);
+
+    uint dnaDigits = 16;
+    uint dnaModulus = 10 ** dnaDigits;
+    uint cooldownTime = 1 days;
+
+    struct Zombie {
+        string name;
+        uint dna;
+        uint32 level;
+        uint32 readyTime;
+    }
+
+    Zombie[] public zombies;
+
+    mapping (uint => address) public zombieToOwner;
+    mapping (address => uint) ownerZombieCount;
+
+    function _createZombie(string memory _name, uint _dna) internal {
+        uint id = zombies.push(Zombie(_name, _dna, 1, uint32(now + cooldownTime))) - 1;
+        zombieToOwner[id] = msg.sender;
+        ownerZombieCount[msg.sender]++;
+        emit NewZombie(id, _name, _dna);
+    }
+
+    function _generateRandomDna(string memory _str) private view returns (uint) {
+        uint rand = uint(keccak256(abi.encodePacked(_str)));
+        return rand % dnaModulus;
+    }
+
+    function createRandomZombie(string memory _name) public {
+        require(ownerZombieCount[msg.sender] == 0);
+        uint randDna = _generateRandomDna(_name);
+        randDna = randDna - randDna % 100;
+        _createZombie(_name, randDna);
+    }
+
+}
+```
+
+## Passing structs as arguments
+
+You can pass a storage pointer to a struct as an argument to a `private` or `internal` function. This is useful, for example, for passing around our Zombie structs between functions.
+
+The syntax looks like this:
+
+```sol
+function _doStuff(Zombie storage _zombie) internal {
+  // do stuff with _zombie
+}
+```
+
+This way we can pass a reference to our zombie into a function instead of passing in a zombie ID and looking it up.
+
+An example of adding some functions to view if the cooldown is up and the zombie is ready to attack + triggering the cooldown that both accept a pointer to a Zombie.
+
+```sol
+pragma solidity >=0.5.0 <0.6.0;
+
+import "./zombiefactory.sol";
+
+contract KittyInterface {
+  function getKitty(uint256 _id) external view returns (
+    bool isGestating,
+    bool isReady,
+    uint256 cooldownIndex,
+    uint256 nextActionAt,
+    uint256 siringWithId,
+    uint256 birthTime,
+    uint256 matronId,
+    uint256 sireId,
+    uint256 generation,
+    uint256 genes
+  );
+}
+
+contract ZombieFeeding is ZombieFactory {
+
+  KittyInterface kittyContract;
+
+  function setKittyContractAddress(address _address) external onlyOwner {
+    kittyContract = KittyInterface(_address);
+  }
+
+  function _triggerCooldown(Zombie storage _zombie) internal {
+      _zombie.readyTime = uint32(now + cooldownTime);
+  }
+
+  function _isReady(Zombie storage _zombie) internal view returns (bool) {
+      return (_zombie.readyTime <= now);
+  }
+
+  function feedAndMultiply(uint _zombieId, uint _targetDna, string memory _species) public {
+    require(msg.sender == zombieToOwner[_zombieId]);
+    Zombie storage myZombie = zombies[_zombieId];
+    _targetDna = _targetDna % dnaModulus;
+    uint newDna = (myZombie.dna + _targetDna) / 2;
+    if (keccak256(abi.encodePacked(_species)) == keccak256(abi.encodePacked("kitty"))) {
+      newDna = newDna - newDna % 100 + 99;
+    }
+    _createZombie("NoName", newDna);
+  }
+
+  function feedOnKitty(uint _zombieId, uint _kittyId) public {
+    uint kittyDna;
+    (,,,,,,,,,kittyDna) = kittyContract.getKitty(_kittyId);
+    feedAndMultiply(_zombieId, kittyDna, "kitty");
+  }
+
+}
+```
+
+## Public functions and security
+
+An important security practice is to examine all your `public` and `external` functions, and try to think of ways users might abuse them. Remember — unless these functions have a modifier like `onlyOwner`, any user can call them and pass them any data they want to.
+
+We updated our code to ensure `public` functions that do not need to be are changed and updated the contract to check the zombie:
+
+```sol
+pragma solidity >=0.5.0 <0.6.0;
+
+import "./zombiefactory.sol";
+
+contract KittyInterface {
+  function getKitty(uint256 _id) external view returns (
+    bool isGestating,
+    bool isReady,
+    uint256 cooldownIndex,
+    uint256 nextActionAt,
+    uint256 siringWithId,
+    uint256 birthTime,
+    uint256 matronId,
+    uint256 sireId,
+    uint256 generation,
+    uint256 genes
+  );
+}
+
+contract ZombieFeeding is ZombieFactory {
+
+  KittyInterface kittyContract;
+
+  function setKittyContractAddress(address _address) external onlyOwner {
+    kittyContract = KittyInterface(_address);
+  }
+
+  function _triggerCooldown(Zombie storage _zombie) internal {
+    _zombie.readyTime = uint32(now + cooldownTime);
+  }
+
+  function _isReady(Zombie storage _zombie) internal view returns (bool) {
+      return (_zombie.readyTime <= now);
+  }
+
+  function feedAndMultiply(uint _zombieId, uint _targetDna, string memory _species) internal {
+    require(msg.sender == zombieToOwner[_zombieId]);
+    Zombie storage myZombie = zombies[_zombieId];
+    require(_isReady(myZombie));
+    _targetDna = _targetDna % dnaModulus;
+    uint newDna = (myZombie.dna + _targetDna) / 2;
+    if (keccak256(abi.encodePacked(_species)) == keccak256(abi.encodePacked("kitty"))) {
+      newDna = newDna - newDna % 100 + 99;
+    }
+    _createZombie("NoName", newDna);
+    _triggerCooldown(myZombie);
+  }
+
+  function feedOnKitty(uint _zombieId, uint _kittyId) public {
+    uint kittyDna;
+    (,,,,,,,,,kittyDna) = kittyContract.getKitty(_kittyId);
+    feedAndMultiply(_zombieId, kittyDna, "kitty");
+  }
+
+}
+```
