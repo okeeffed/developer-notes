@@ -5,3 +5,335 @@ The first problem that it speaks to is the issues with Kickstarter.
 To "fix" this issue in our current project, we have the idea of contributors donating money to an idea person and then that idea person will have the money controlled about which vendor is goes to.
 
 In our contract, the manager needs to create a "spending request" and that request will be approved by all of the contributors.
+
+For this project, we are going to outline a few required variables and functions.
+
+For the variables:
+
+| Name                | Type      | Does                                                                         |
+| ------------------- | --------- | ---------------------------------------------------------------------------- |
+| manager             | address   | address of person managing campaign                                          |
+| minimumContribution | uint      | minimum amount of ether required to donate to be a contributor or "approver" |
+| approvers           | address[] | list of people who can approve spending requests (!!!)                       |
+| requests            | Request[] | Requests that the manager has made                                           |
+
+As for our functions:
+
+| Name            | Does                                                                             |
+| --------------- | -------------------------------------------------------------------------------- |
+| Campaign        | Constructor to set owner and minimumContribution                                 |
+| contribute      | Called when someone wants to donate money to the campaign and become an approver |
+| createRequest   | Called by the manager to create a request for money to be spent on a vendor      |
+| approveRequest  | Called by contributors to approve a request (!!!)                                |
+| finalizeRequest | Called by the manager to finalize a request and have money sent to vendor        |
+
+> Note: approvers and approvateRequest will be refactored after in order to experience the problem and fix it naturally.
+
+## The Request Struct
+
+This is the first example of creating a struct in this particular course.
+
+I won't outline the table here, but you can see the struct in the contract.
+
+```sol
+pragma solidity ^0.4.17;
+
+contract Campaign {
+    struct Request {
+        string description;
+        uint value;
+        address recipient;
+        bool complete;
+    }
+
+    address public manager;
+    uint public minimumContribution;
+    address[] public approvers;
+    Request[] public requests;
+
+    function Campaign(uint minimum) public {
+        manager = msg.sender;
+        minimumContribution = minimum;
+    }
+
+    function contribute() public payable {
+        require(msg.value > minimumContribution);
+
+        approvers.push(msg.sender);
+    }
+}
+```
+
+## Storage vs Memory
+
+I'll breeze over this, since we have already seen it but essentially `memory` is temporary while `storage` stores against our contracts data and is costly.
+
+There was an interest example of `int[] memory myArray = numbers` vs `int[] storage myArray = numbers` and how the `numbers` value is updated when `myArray` is updated if you use the latter.
+
+The resulting value was the following:
+
+```sol
+pragma solidity ^0.4.17;
+
+contract Campaign {
+    struct Request {
+        string description;
+        uint value;
+        address recipient;
+        bool complete;
+    }
+
+    address public manager;
+    uint public minimumContribution;
+    address[] public approvers;
+    Request[] public requests;
+
+    modifier restricted() {
+        require(msg.sender == manager);
+        _;
+    }
+
+    function Campaign(uint minimum) public {
+        manager = msg.sender;
+        minimumContribution = minimum;
+    }
+
+    function contribute() public payable {
+        require(msg.value > minimumContribution);
+
+        approvers.push(msg.sender);
+    }
+
+    function createRequest(string memory description, uint value, address recipient) public restricted {
+        Request memory newRequest = Request({
+            description: description,
+            value: value,
+            recipient: recipient,
+            complete: false
+        });
+
+        requests.push(newRequest);
+    }
+}
+```
+
+## Voting system requirements
+
+1. Individual contributor cannot vote more than once.
+2. Resilient to many different contributors/approvers.
+
+This will change how we deal with our contract logic.
+
+The following is a **very poor way of writing our contract**:
+
+```sol
+contract Campaign {
+	function approveRequest(Request request) public {
+		bool isApprover = false;
+		for (uint i = 0; i < approvers.length; i++) {
+			if (approvers[i] == msg.sender) {
+				isApprover = true;
+			}
+		}
+		require(isApprover);
+
+		// Make sure they have not yet voted
+		for (uint i = 0; i < request.request.length; i++) {
+			require(request.approvers[i] != msg.sender);
+		}
+	}
+}
+```
+
+This is because there are some issues with arrays.
+
+## Issues with arrays
+
+Assuming our first loop cost 10000 gas per person and the second was 5000 gas per person.
+
+As the array grows, it becomes **unacceptably** expensive to loop through it.
+
+If we assume the array grows unboundedly, then we need to address this issue.
+
+## Mappings vs Arrays
+
+So in our approach, we want to update our approach to make use of mappings.
+
+The search time for a `mapping` is constant.
+
+```sol
+contract Campaign {
+	function approveRequest(Request request) public {
+		bool isApprover = false;
+		for (uint i = 0; i < approvers.length; i++) {
+			if (approvers[i] == msg.sender) {
+				isApprover = true;
+			}
+		}
+		require(isApprover);
+
+		// Make sure they have not yet voted
+		for (uint i = 0; i < request.request.length; i++) {
+			require(request.approvers[i] != msg.sender);
+		}
+	}
+}
+```
+
+## Basics of Mappings
+
+- `keys` are not stored with mappings. Big gotcha to understand. Solidity works with a hash table and a lookup process where the hash function outputs the address to fetch.
+- Values are not iterable (like `Object.values` in JS).
+- We do not get back `undefined` if it does not exist - we get back a default value.
+
+So, we will update our `approvers` to go from an `address[]` to an `approvers` array.
+
+Once we refactor our code, we now have the following contract:
+
+```sol
+pragma solidity ^0.4.17;
+
+contract Campaign {
+    struct Request {
+        string description;
+        uint value;
+        address recipient;
+        bool complete;
+        uint approvalCount;
+        mapping (address => bool) approvals;
+    }
+
+    address public manager;
+    uint public minimumContribution;
+    Request[] public requests;
+
+    mapping (address => bool) public approvers;
+
+    modifier restricted() {
+        require(msg.sender == manager);
+        _;
+    }
+
+    function Campaign(uint minimum) public {
+        manager = msg.sender;
+        minimumContribution = minimum;
+    }
+
+    function contribute() public payable {
+        require(msg.value > minimumContribution);
+
+        approvers[msg.sender] = true;
+    }
+
+    function createRequest(string memory description, uint value, address recipient) public restricted {
+        require(approvers[msg.sender]);
+        // Note: we do not have to initialize a mapping
+        Request memory newRequest = Request({
+            description: description,
+            value: value,
+            recipient: recipient,
+            complete: false,
+            approvalCount: 0
+        });
+
+        requests.push(newRequest);
+    }
+}
+```
+
+## Approving a request
+
+```sol
+function approveRequest(uint index) public {
+		Request storage request = requests[index];
+
+		// check they are an approver that has donated
+		require(approvers[msg.sender]);
+		// check they haven't voted
+		require(!request.approvals[msg.sender]);
+
+		request.approvals[msg.sender] = true;
+		request.approvalCount++;
+}
+```
+
+## Finalizing a request
+
+The last thing we need to do is add the capability to finalise the request.
+
+Note that we needed to add a `uint approversCount` variable to check we have more than 50% approval rate.
+
+```sol
+pragma solidity ^0.4.17;
+
+contract Campaign {
+    struct Request {
+        string description;
+        uint value;
+        address recipient;
+        bool complete;
+        uint approvalCount;
+        mapping (address => bool) approvals;
+    }
+
+    address public manager;
+    uint public minimumContribution;
+    Request[] public requests;
+    uint public approversCount;
+
+    mapping (address => bool) public approvers;
+
+    modifier restricted() {
+        require(msg.sender == manager);
+        _;
+    }
+
+    function Campaign(uint minimum) public {
+        manager = msg.sender;
+        minimumContribution = minimum;
+    }
+
+    function contribute() public payable {
+        require(msg.value > minimumContribution);
+
+        approvers[msg.sender] = true;
+        approversCount++;
+    }
+
+    function createRequest(string memory description, uint value, address recipient) public restricted {
+        require(approvers[msg.sender]);
+        // Note: we do not have to initialize a mapping
+        Request memory newRequest = Request({
+            description: description,
+            value: value,
+            recipient: recipient,
+            complete: false,
+            approvalCount: 0
+        });
+
+        requests.push(newRequest);
+    }
+
+    function approveRequest(uint index) public {
+        Request storage request = requests[index];
+
+        // check they are an approver that has donated
+        require(approvers[msg.sender]);
+        // check they haven't voted
+        require(!request.approvals[msg.sender]);
+
+        request.approvals[msg.sender] = true;
+        request.approvalCount++;
+    }
+
+    function finalizeRequest(uint index) public restricted {
+        Request storage request = requests[index];
+
+        require(request.approvalCount > (approversCount / 2));
+        require(!request.complete);
+
+        request.recipient.transfer(request.value);
+        request.complete = true;
+    }
+}
+```
