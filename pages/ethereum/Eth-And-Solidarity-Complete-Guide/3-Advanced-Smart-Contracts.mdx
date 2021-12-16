@@ -236,3 +236,193 @@ contract Lottery {
     }
 }
 ```
+
+## Requiring managers
+
+At the moment, anyone can call the `pickWinner` function. We need to ensure that the `manager` is the only one who can call this function.
+
+This can be done with a `require` statement:
+
+```sol
+function pickWinner() public {
+		require(msg.sender == manager);
+		uint index = random() % players.length;
+		// `this` is a reference to this contract
+		players[index].transfer(this.balance);
+}
+```
+
+## Function modifiers
+
+We can abstract that previous `require` statement so that it is called when the function requirement is that it is called by the manager.
+
+```sol
+pragma solidity ^0.4.17;
+
+contract Lottery {
+    address public manager;
+    address[] public players;
+
+		modifier isManager {
+			require(msg.sender == manager);
+			_;
+		}
+
+    function Lottery() public {
+        manager = msg.sender;
+    }
+
+    function enter() public payable {
+        require(msg.value > .01 ether);
+
+        players.push(msg.sender);
+    }
+
+    function random() private view returns (uint) {
+        return uint(keccak256(block.difficulty, now, players));
+    }
+
+    function pickWinner() public isManager {
+        uint index = random() % players.length;
+        // `this` is a reference to this contract
+        players[index].transfer(this.balance);
+    }
+}
+```
+
+This new modifier makes a new keyword to ensure that wherever it is used, we check the sender is the manager.
+
+## Returning Players Array
+
+We want to return the players array to the caller.
+
+```sol
+function getPlayers() public view returns (address[]) {
+	return players;
+}
+```
+
+## Writing tests for our contract
+
+Initially, we want to check that player can enter the lottery:
+
+```js
+const assert = require("assert")
+const ganache = require("ganache-cli")
+const Web3 = require("web3")
+const { interface, bytecode } = require("../compile")
+
+// Create the instance of web3 and tells us to connect to our test network
+const web3 = new Web3(ganache.provider())
+
+let accounts
+let lottery
+
+describe("Lottery contract", () => {
+  beforeEach(async () => {
+    // Get a list of all accounts
+    accounts = await web3.eth.getAccounts()
+
+    // Use one of those accounts to deploy contract
+    lottery = await new web3.eth.Contract(JSON.parse(interface))
+      .deploy({
+        data: bytecode,
+      })
+      .send({
+        // Use the first account
+        from: accounts[0],
+        gas: "1000000",
+      })
+  })
+
+  it("deploys a contract", () => {
+    // assert the deployment was successful and there is an address
+    assert.ok(lottery.options.address)
+  })
+
+  it("player can enter the lottery", async () => {
+    await lottery.methods.enter().send({
+      from: accounts[0],
+      value: web3.utils.toWei("0.02", "ether"),
+    })
+
+    const players = await lottery.methods.getPlayers().call({
+      from: accounts[0],
+    })
+
+    assert.equal(accounts[0], players[0])
+    assert.equal(1, players.length)
+  })
+})
+```
+
+Once that is done, we want to know check that multiple accounts can enter.
+
+```js
+it("multiple players can enter the lottery", async () => {
+  await Promise.all([
+    lottery.methods.enter().send({
+      from: accounts[0],
+      value: web3.utils.toWei("0.02", "ether"),
+    }),
+    lottery.methods.enter().send({
+      from: accounts[1],
+      value: web3.utils.toWei("0.02", "ether"),
+    }),
+    lottery.methods.enter().send({
+      from: accounts[2],
+      value: web3.utils.toWei("0.02", "ether"),
+    }),
+  ])
+
+  const players = await lottery.methods.getPlayers().call({
+    from: accounts[0],
+  })
+
+  assert.equal(accounts[0], players[0])
+  assert.equal(accounts[1], players[1])
+  assert.equal(accounts[2], players[2])
+  assert.equal(3, players.length)
+})
+```
+
+Next, we need to run a test to check the `try-catch` example:
+
+```js
+it("requires a minimum amount to enter", async () => {
+  try {
+    await lottery.methods.enter().send({
+      from: accounts[1],
+      // This is not enough to enter
+      value: web3.utils.toWei("0.009", "ether"),
+    })
+    assert(false)
+  } catch (err) {
+    assert(err)
+  }
+})
+```
+
+Finally, we should test the function modifier to ensure that the manager can only call the `pickWinner` function:
+
+```js
+it("sends money to the winner", async () => {
+  await lottery.methods.enter().send({
+    from: accounts[1],
+    value: web3.utils.toWei("2", "ether"),
+  })
+  const initialBalance = await web3.eth.getBalance(accounts[1])
+
+  await lottery.methods.pickWinner().send({
+    from: accounts[0],
+  })
+
+  const finalBalance = await web3.eth.getBalance(accounts[1])
+
+  const difference = finalBalance - initialBalance
+
+  assert(difference > web3.utils.toWei("1.8", "ether"))
+})
+```
+
+That is it for the section, but it is worth noting that you should also ensure that the balance for the contract goes back to zero and that the players are also cleared out after picking a winner.
