@@ -337,3 +337,236 @@ contract Campaign {
     }
 }
 ```
+
+## Thinking about contract deployment
+
+Something to keep in mind is that for each contract that is deployed, we need to keep track of all of the addresses.
+
+We are going to have a "factory" contract as an intermediate step to deploying our Campaign contract.
+
+We are going to have one factory deployment that is going to be in charge of all of our campaigns.
+
+## Adding a Campaign Factory
+
+An outline of the contract `CampaignFactory`.
+
+| Variable          | Type      | Does                                |
+| ----------------- | --------- | ----------------------------------- |
+| deployedCampaigns | address[] | Addresses of all deployed contracts |
+
+| Function             | Does                                                                                 |
+| -------------------- | ------------------------------------------------------------------------------------ |
+| createCampaign       | Creates a new campaign contract instance and stores the address of the new contract. |
+| getDeployedCampaigns | Returns a list of all deployed campaigns                                             |
+
+Ultimately, the two contracts have their code updated to look like the following:
+
+```sol
+pragma solidity ^0.4.17;
+
+contract CampaignFactory {
+    address[] public deployedCampaigns;
+
+    function createCampaign(uint minimum) public {
+        address newCampaign = new Campaign(minimum, msg.sender);
+        deployedCampaigns.push(newCampaign);
+    }
+
+    function getDeployesCampaigns() public view returns (address[]) {
+        return deployedCampaigns;
+    }
+}
+
+contract Campaign {
+    struct Request {
+        string description;
+        uint value;
+        address recipient;
+        bool complete;
+        uint approvalCount;
+        mapping (address => bool) approvals;
+    }
+
+    address public manager;
+    uint public minimumContribution;
+    Request[] public requests;
+    uint public approversCount;
+
+    mapping (address => bool) public approvers;
+
+    modifier restricted() {
+        require(msg.sender == manager);
+        _;
+    }
+
+    function Campaign(uint minimum, address creator) public {
+        manager = creator;
+        minimumContribution = minimum;
+    }
+
+    function contribute() public payable {
+        require(msg.value > minimumContribution);
+
+        approvers[msg.sender] = true;
+        approversCount++;
+    }
+
+    function createRequest(string memory description, uint value, address recipient) public restricted {
+        require(approvers[msg.sender]);
+        // Note: we do not have to initialize a mapping
+        Request memory newRequest = Request({
+            description: description,
+            value: value,
+            recipient: recipient,
+            complete: false,
+            approvalCount: 0
+        });
+
+        requests.push(newRequest);
+    }
+
+    function approveRequest(uint index) public {
+        Request storage request = requests[index];
+
+        // check they are an approver that has donated
+        require(approvers[msg.sender]);
+        // check they haven't voted
+        require(!request.approvals[msg.sender]);
+
+        request.approvals[msg.sender] = true;
+        request.approvalCount++;
+    }
+
+    function finalizeRequest(uint index) public restricted {
+        Request storage request = requests[index];
+
+        require(request.approvalCount > (approversCount / 2));
+        require(!request.complete);
+
+        request.recipient.transfer(request.value);
+        request.complete = true;
+    }
+}
+```
+
+An important gotcha that came up: when using a factory contract, we need to ensure that we pass the address of the sender through from the factory into the constructor function of the new contract.
+
+## Writing the tests
+
+We wrote a compile script which we could then use for our tests:
+
+```js
+const assert = require("assert")
+const ganache = require("ganache-cli")
+const Web3 = require("web3")
+const web3 = new Web3(ganache.provider())
+
+const compiledFactory = require("../ethereum/build/CampaignFactory.json")
+const compiledCampaign = require("../ethereum/build/Campaign.json")
+
+let accounts
+let factory
+let campaignAddress
+let campaign
+
+describe("Campaign + CampaignFactory Contract", () => {
+  beforeEach(async () => {
+    accounts = await web3.eth.getAccounts()
+    factory = await new web3.eth.Contract(JSON.parse(compiledFactory.interface))
+      .deploy({
+        data: compiledFactory.bytecode,
+      })
+      .send({
+        from: accounts[0],
+        gas: "1000000",
+      })
+
+    // accounts[0] is the owner of the factory contract
+    await factory.methods.createCampaign("100").send({
+      from: accounts[0],
+      gas: "1000000",
+    })
+    ;[campaignAddress] = await factory.methods.getDeployedCampaigns().call()
+    campaign = await new web3.eth.Contract(
+      JSON.parse(compiledCampaign.interface),
+      campaignAddress
+    )
+  })
+  describe("Campaigns", () => {
+    it("deploys a factory and a campaign", () => {
+      assert.ok(factory.options.address)
+      assert.ok(campaign.options.address)
+    })
+
+    it("marks caller as the campaign manager", async () => {
+      const manager = await campaign.methods.manager().call()
+      assert.equal(accounts[0], manager)
+    })
+
+    it("allows others to contribute money and marks them as approvers", async () => {
+      await campaign.methods.contribute().send({
+        value: "200",
+        from: accounts[1],
+      })
+
+      const isContributor = await campaign.methods.approvers(accounts[1]).call()
+      assert(isContributor)
+    })
+
+    it("requires a minimum contribution amount", async () => {
+      try {
+        await campaign.methods.contribute().send({
+          value: "1",
+          from: accounts[1],
+        })
+        assert(false)
+      } catch (err) {
+        assert(err)
+      }
+    })
+
+    it("allows a manager to make a payment request", async () => {
+      await campaign.methods
+        .createRequest("Buy batteries", "100", accounts[1])
+        .send({
+          from: accounts[0],
+          gas: "1000000",
+        })
+
+      const request = await campaign.methods.requests(0).call()
+      assert.equal("Buy batteries", request.description)
+    })
+
+    it("processes requests", async () => {
+      await campaign.methods.contribute().send({
+        from: accounts[0],
+        value: web3.utils.toWei("10", "ether"),
+      })
+
+      await campaign.methods
+        .createRequest("A", web3.utils.toWei("5", "ether"), accounts[1])
+        .send({
+          from: accounts[0],
+          gas: "1000000",
+        })
+
+      await campaign.methods.approveRequest(0).send({
+        from: accounts[0],
+        gas: "1000000",
+      })
+
+      await campaign.methods.finalizeRequest(0).send({
+        from: accounts[0],
+        gas: "1000000",
+      })
+
+      let balance = await web3.eth.getBalance(accounts[1])
+      balance = web3.utils.fromWei(balance, "ether")
+      balance = parseFloat(balance)
+
+      // 100 base amount from Ganache + 5 wei we requested
+      assert(balance > 104)
+    })
+  })
+})
+```
