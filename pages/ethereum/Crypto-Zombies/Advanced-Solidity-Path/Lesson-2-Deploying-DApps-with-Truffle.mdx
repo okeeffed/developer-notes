@@ -1,0 +1,18 @@
+# Lesson Two: Deploying DApps with Truffle
+
+## Truffle init
+
+When you run `truffle init` (if you have installed it globally) it will generate a few folders and files for us:
+
+- `contracts` - where Truffle expects to find contracts.
+- `migrations` - a migration is a JS file that tells Truffle how to deploy a smart contract.
+- `truffle.js` and `truffle-config.js` - config files used to store the network settings for deployment.
+
+Since we need Truffle to sign transactions, we need a tool called `truffle-hdwallet-provider`.
+
+It can be installed with the following:
+
+```s
+$ npm install truffle truffle-hdwallet-provider
+# ... install output
+```
