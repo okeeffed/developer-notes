@@ -308,7 +308,7 @@ export default function Blog({
   return (
     <>
       <Head>
-        <title>{`${title} | Dennis O'Keeffe Blog`}</title>
+        <title>{`${mdxFile} | Dennis O'Keeffe Blog`}</title>
         <meta name="description" content={description} key="description"></meta>
         <link
           rel="canonical"
