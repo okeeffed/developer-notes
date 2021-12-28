@@ -45,7 +45,7 @@ ${readme}`;
 function writeReadmeToContent(pkgType, pkgModule, readme) {
   const outputPath = path.resolve(
     __dirname,
-    "../../src/content/packages",
+    "../../content/packages",
     pkgType,
     `${pkgModule}.mdx`
   );

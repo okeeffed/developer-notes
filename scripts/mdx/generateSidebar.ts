@@ -2,7 +2,7 @@ import * as fs from "fs";
 import path from "path";
 import _ from "lodash";
 
-const CONTENT_PATH = path.resolve(__dirname, "../../src/content");
+const CONTENT_PATH = path.resolve(__dirname, "../../content");
 
 const getDirectories = (source) =>
   fs

@@ -303,7 +303,7 @@ export default function Blog({
 
   const headerBgColor = useColorModeValue("white", "gray.800");
   const linkColor = useColorModeValue("blue", "blue.300");
-  const repo = `https://github.com/okeeffed/developer-notes-nextjs/src/content/${mdxFile}`;
+  const repo = `https://github.com/okeeffed/developer-notes-nextjs/content/${mdxFile}`;
 
   return (
     <>
@@ -474,7 +474,7 @@ export const getServerSideProps: GetServerSideProps = async (context) => {
   const mdxFile = arg ? (arg as string[]).join("/") : "index";
 
   const fileContents = fs.readFileSync(
-    path.resolve(process.cwd(), "./src/content/", `${mdxFile}.mdx`),
+    path.resolve(process.cwd(), "./content/", `${mdxFile}.mdx`),
     "utf-8"
   );
 
