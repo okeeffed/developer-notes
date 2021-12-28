@@ -472,8 +472,7 @@ export const getServerSideProps: GetServerSideProps = async (context) => {
   } = context;
 
   const mdxFile = arg ? (arg as string[]).join("/") : "index";
-  const relativePath =
-    process.env.NODE_ENV === "development" ? "./public/content/" : "./content/";
+  const relativePath = "./public/content/";
 
   const fileContents = fs.readFileSync(
     path.resolve(process.cwd(), relativePath, `${mdxFile}.mdx`),
