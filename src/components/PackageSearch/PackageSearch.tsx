@@ -75,7 +75,7 @@ export function PackageSearch() {
           </InputLeftElement>
           <AutoCompleteInput
             variant="filled"
-            placeholder="Type '/' to search packages"
+            placeholder="Type '/' to search files"
             w="full"
             id="search-input"
             ref={inputRef}

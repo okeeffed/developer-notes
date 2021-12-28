@@ -70,7 +70,7 @@ function DirectoryPanel({
 export function Sidebar() {
   return (
     <Accordion allowMultiple allowToggle reduceMotion>
-      <DirectoryPanel panelData={data.sidebar} />
+      <DirectoryPanel panelData={data.sidebar as DirectoryData} />
     </Accordion>
   );
 }
