@@ -1,4 +1,5 @@
 import { ChakraProvider, extendTheme, ThemeConfig } from "@chakra-ui/react";
+import { BuyMeACoffee } from "@components/BuyMeACoffee/BuyMeACoffee";
 import * as React from "react";
 
 import "../styles/code.css";
@@ -17,6 +18,7 @@ export default function MyApp({ Component, pageProps }: AppProps) {
     <>
       <ChakraProvider theme={theme}>
         <Component {...pageProps} />
+        <BuyMeACoffee />
       </ChakraProvider>
     </>
   );
