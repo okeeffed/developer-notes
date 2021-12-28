@@ -287,8 +287,6 @@ export default function Blog({
       ? components.BlockMath
       : null,
   };
-  const [copied, setCopied] = React.useState(false);
-  const [copiedLift, setCopiedLift] = React.useState(false);
 
   React.useEffect(() => {
     if (published === false) {
