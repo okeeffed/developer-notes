@@ -3,7 +3,7 @@ import path from "path";
 import _ from "lodash";
 import recursive from "recursive-readdir";
 
-const CONTENT_PATH = path.resolve(__dirname, "../../content");
+const CONTENT_PATH = path.resolve(__dirname, "../../public/content");
 
 async function main() {
   const files = await recursive(CONTENT_PATH, ["!*.mdx"]);
