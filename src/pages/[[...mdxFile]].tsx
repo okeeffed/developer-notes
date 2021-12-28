@@ -32,7 +32,7 @@ import { Sidebar } from "@components/Sidebar";
 import { ExternalLinkIcon } from "@heroicons/react/outline";
 import kebabCase from "lodash/kebabCase";
 import { TokensList } from "marked";
-import { GetServerSideProps } from "next";
+import { GetStaticPaths, GetStaticProps } from "next";
 import { MDXRemote } from "next-mdx-remote";
 // import { serialize } from "next-mdx-remote/serialize";
 import dynamic from "next/dynamic";
@@ -466,7 +466,7 @@ type Matter = {
 // This function gets called at build time on server-side.
 // It won't be called on client-side, so you can even do
 // direct database queries. See the "Technical details" section.
-export const getServerSideProps: GetServerSideProps = async (context) => {
+export const getStaticProps: GetStaticProps = async (context) => {
   const {
     params: { mdxFile: arg },
   } = context;
@@ -517,5 +517,37 @@ export const getServerSideProps: GetServerSideProps = async (context) => {
       mdxFile,
       recommendations: [] as Post[],
     },
+  };
+};
+
+export const getStaticPaths: GetStaticPaths = async () => {
+  const recursive = await import("recursive-readdir").then(
+    (module) => module.default
+  );
+
+  const files = await recursive(
+    path.resolve(process.cwd(), "./public/content")
+  );
+  const pkgs = files.map((file) => {
+    const relativeFile = file
+      .replace(`${process.cwd()}/public/content/`, "")
+      .replace(".mdx", "");
+
+    return {
+      mdxFile: relativeFile,
+    };
+  });
+
+  const paths = pkgs.map(({ mdxFile }) => {
+    return {
+      params: {
+        mdxFile: mdxFile.split("/"),
+      },
+    };
+  });
+
+  return {
+    paths: paths,
+    fallback: "blocking",
   };
 };
