@@ -1,0 +1,17 @@
+p > code {
+  color: white;
+
+  background-color: #805ad5;
+  border-bottom-width: 4px;
+  border-color: #553c9a;
+
+  padding: 0.1em 0.2em 0.1em;
+
+  font-size: 18px;
+}
+
+/* override math katex */
+.katex {
+  font-size: 24px !important;
+  line-height: 30px !important;
+}

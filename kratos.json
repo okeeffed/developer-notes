@@ -2,15 +2,60 @@
   "version": "0.0.1",
   "dependencies": {
     "type": {},
-    "react-components": {
-      "SimpleQuiz": "^0.0.1"
+    "js-aws-sdk": {
+      "aws-s3": "^0.1.0"
     },
-    "linter-config": {
-      "ts-prettier-eslint-react-recommended": "^0.2.0"
+    "ts-aws-sdk": {
+      "aws-s3": "^0.2.0"
+    },
+    "nextjs-utils": {
+      "amplitude": "^0.0.1",
+      "airtable": "^0.0.1"
+    },
+    "lift": {
+      "lift-templates": "^0.5.4",
+      "minimal": "^0.0.1",
+      "aws-cdk": "^0.1.0",
+      "aws-lambda": "^0.1.2",
+      "blog": "^0.5.0",
+      "circleci": "^0.0.2",
+      "cloudformation": "^0.0.1",
+      "combined-example": "^0.0.1",
+      "detox": "^0.0.10",
+      "example": "^0.2.0",
+      "forge": "^0.8.1",
+      "github-actions": "^0.1.0",
+      "landpad": "^0.3.0",
+      "msw": "^0.0.1",
+      "netlify": "^0.0.1",
+      "nextjs": "^0.0.1",
+      "react": "^0.2.30",
+      "react-hook-form": "^0.1.0",
+      "react-hooks": "^0.2.0",
+      "react-native": "^0.0.25",
+      "redux-toolkit": "^0.0.1",
+      "schematics": "^0.3.0",
+      "serverless": "^0.0.4",
+      "ts-cli-tool": "^0.1.1",
+      "uh": "^0.0.1",
+      "xstate": "^0.0.2"
+    },
+    "react-components": {
+      "SimpleQuiz": "^0.1.0"
+    },
+    "ts-controllers": {
+      "octokit": "^0.6.0"
     }
   },
   "storage": {
+    "aws-js-sdk": "utils",
+    "js-aws-sdk": "utils",
+    "ts-aws-sdk": "utils",
+    "prettier-files": ".",
+    "eslint-files": ".",
+    "nextjs-utils": "utils",
+    "lift": ".lift",
     "react-components": "components",
-    "linter-config": "linter-config"
+    "ts-controllers": "utils"
   }
 }

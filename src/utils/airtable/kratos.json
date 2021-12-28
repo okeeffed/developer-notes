@@ -1,0 +1,5 @@
+{
+  "name": "pkg-nextjs-utils-airtable",
+  "version": "0.0.1",
+  "fallback_path": "utils"
+}

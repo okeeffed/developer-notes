@@ -1,5 +1,0 @@
-{
-  "name": "pkg-linter-config-ts-prettier-eslint-react-recommended",
-  "version": "0.2.0",
-  "fallback_path": "linter-config"
-}

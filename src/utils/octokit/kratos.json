@@ -1,0 +1,5 @@
+{
+  "name": "pkg-ts-controllers-octokit",
+  "version": "0.6.0",
+  "fallback_path": "src/util"
+}

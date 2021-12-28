@@ -1,0 +1,5 @@
+{
+  "name": "pkg-ts-aws-sdk-aws-s3",
+  "version": "0.2.0",
+  "fallback_path": "infra/util"
+}

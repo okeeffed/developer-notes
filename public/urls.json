@@ -1,0 +1,1119 @@
+{
+  "redirects": [
+    {
+      "source": "/6bb0",
+      "destination": "/blog/2018-07-02-hello-world",
+      "permanent": true
+    },
+    {
+      "source": "/c595",
+      "destination": "/blog/2018-07-04-java-fizzbuzz",
+      "permanent": true
+    },
+    {
+      "source": "/f381",
+      "destination": "/blog/2018-07-04-js-fizzbuzz",
+      "permanent": true
+    },
+    {
+      "source": "/6fec",
+      "destination": "/blog/2018-07-12-expo-facebook-login",
+      "permanent": true
+    },
+    {
+      "source": "/2ada",
+      "destination": "/blog/2018-07-04-php-fizzbuzz",
+      "permanent": true
+    },
+    {
+      "source": "/0f97",
+      "destination": "/blog/2018-07-15-php-spiral-matrix",
+      "permanent": true
+    },
+    {
+      "source": "/b6f1",
+      "destination": "/blog/2018-07-15-python-fizzbuzz",
+      "permanent": true
+    },
+    {
+      "source": "/7ae2",
+      "destination": "/blog/2018-07-15-ruby-spiral-matrix",
+      "permanent": true
+    },
+    {
+      "source": "/01d4",
+      "destination": "/blog/2018-07-19-ruby-fizzbuzz",
+      "permanent": true
+    },
+    {
+      "source": "/0686",
+      "destination": "/blog/2018-07-24-kubernetes-healthchecks",
+      "permanent": true
+    },
+    {
+      "source": "/ff19",
+      "destination": "/blog/2018-08-02-php-anagrams",
+      "permanent": true
+    },
+    {
+      "source": "/e90a",
+      "destination": "/blog/2018-08-07-ruby-anagrams",
+      "permanent": true
+    },
+    {
+      "source": "/d0ad",
+      "destination": "/blog/2018-08-12-php-trees",
+      "permanent": true
+    },
+    {
+      "source": "/93f9",
+      "destination": "/blog/2018-08-12-python-linked-list",
+      "permanent": true
+    },
+    {
+      "source": "/d7d8",
+      "destination": "/blog/2018-09-11-python-spiral-matrix",
+      "permanent": true
+    },
+    {
+      "source": "/786a",
+      "destination": "/blog/2018-09-22-depth-sharp-cli",
+      "permanent": true
+    },
+    {
+      "source": "/4941",
+      "destination": "/blog/2018-09-12-react-dynamic-imports",
+      "permanent": true
+    },
+    {
+      "source": "/3f03",
+      "destination": "/blog/2018-09-18-react-context-basics",
+      "permanent": true
+    },
+    {
+      "source": "/3f02",
+      "destination": "/blog/2018-09-22-go-fizzbuzz",
+      "permanent": true
+    },
+    {
+      "source": "/034b",
+      "destination": "/blog/2018-10-09-ruby-linked-list",
+      "permanent": true
+    },
+    {
+      "source": "/03c1",
+      "destination": "/blog/2018-09-22-react-debounce",
+      "permanent": true
+    },
+    {
+      "source": "/6159",
+      "destination": "/blog/2018-10-12-yargs-parser",
+      "permanent": true
+    },
+    {
+      "source": "/8033",
+      "destination": "/blog/2018-10-15-hello-shave",
+      "permanent": true
+    },
+    {
+      "source": "/2edd",
+      "destination": "/blog/2018-10-22-expo-amplify",
+      "permanent": true
+    },
+    {
+      "source": "/8614",
+      "destination": "/blog/2018-10-22-intro-to-myrocks",
+      "permanent": true
+    },
+    {
+      "source": "/e463",
+      "destination": "/blog/2018-10-19-contrast-colors",
+      "permanent": true
+    },
+    {
+      "source": "/7d42",
+      "destination": "/blog/2018-10-22-java-anagrams",
+      "permanent": true
+    },
+    {
+      "source": "/991d",
+      "destination": "/blog/2018-10-22-java-trees",
+      "permanent": true
+    },
+    {
+      "source": "/3caa",
+      "destination": "/blog/2018-10-22-principles",
+      "permanent": true
+    },
+    {
+      "source": "/e99f",
+      "destination": "/blog/2018-10-22-js-naming-conventions",
+      "permanent": true
+    },
+    {
+      "source": "/ae1f",
+      "destination": "/blog/2018-10-22-lsm-tree-basics",
+      "permanent": true
+    },
+    {
+      "source": "/b12c",
+      "destination": "/blog/2018-10-25-ruby-error-handling",
+      "permanent": true
+    },
+    {
+      "source": "/9d18",
+      "destination": "/blog/2018-11-22-go-spiral-matrix",
+      "permanent": true
+    },
+    {
+      "source": "/a85c",
+      "destination": "/blog/2018-12-18-diagrams-with-mermaid",
+      "permanent": true
+    },
+    {
+      "source": "/12e9",
+      "destination": "/blog/2018-12-22-react-portal-basics",
+      "permanent": true
+    },
+    {
+      "source": "/5e7c",
+      "destination": "/blog/2019-01-02-braintree-node-react",
+      "permanent": true
+    },
+    {
+      "source": "/9664",
+      "destination": "/blog/2018-12-25-hello-gin",
+      "permanent": true
+    },
+    {
+      "source": "/cb91",
+      "destination": "/blog/2019-01-03-javascript-logging-conventions",
+      "permanent": true
+    },
+    {
+      "source": "/9155",
+      "destination": "/blog/2019-01-06-java-initialising-arrays",
+      "permanent": true
+    },
+    {
+      "source": "/904b",
+      "destination": "/blog/2019-01-14-java-maps",
+      "permanent": true
+    },
+    {
+      "source": "/b53d",
+      "destination": "/blog/2019-01-17-php-linked-list",
+      "permanent": true
+    },
+    {
+      "source": "/d2c1",
+      "destination": "/blog/2019-01-22-go-basic-strings",
+      "permanent": true
+    },
+    {
+      "source": "/ac7a",
+      "destination": "/blog/2019-01-25-ruby-lambda-functions",
+      "permanent": true
+    },
+    {
+      "source": "/15b8",
+      "destination": "/blog/2019-01-22-php-array-method-applications",
+      "permanent": true
+    },
+    {
+      "source": "/4410",
+      "destination": "/blog/2019-01-29-docker-nginx-nodejs",
+      "permanent": true
+    },
+    {
+      "source": "/34b1",
+      "destination": "/blog/2019-02-05-java-lambda-functions",
+      "permanent": true
+    },
+    {
+      "source": "/135e",
+      "destination": "/blog/2019-02-09-java-spiral-matrix",
+      "permanent": true
+    },
+    {
+      "source": "/2504",
+      "destination": "/blog/2019-02-09-php-unit-testing",
+      "permanent": true
+    },
+    {
+      "source": "/f793",
+      "destination": "/blog/2019-02-12-php-constructors",
+      "permanent": true
+    },
+    {
+      "source": "/b7a5",
+      "destination": "/blog/2019-02-20-ruby-contructors",
+      "permanent": true
+    },
+    {
+      "source": "/b0d3",
+      "destination": "/blog/2019-02-16-python-exceptions",
+      "permanent": true
+    },
+    {
+      "source": "/bba4",
+      "destination": "/blog/2019-02-25-go-basic-slices",
+      "permanent": true
+    },
+    {
+      "source": "/7761",
+      "destination": "/blog/2019-03-01-eksctl",
+      "permanent": true
+    },
+    {
+      "source": "/2a0e",
+      "destination": "/blog/2019-03-07-eks-pulling-from-docker-hub",
+      "permanent": true
+    },
+    {
+      "source": "/c099",
+      "destination": "/blog/2019-03-07-php-anonymous-functions",
+      "permanent": true
+    },
+    {
+      "source": "/2be7",
+      "destination": "/blog/2019-03-09-install-redis-with-helm",
+      "permanent": true
+    },
+    {
+      "source": "/12a6",
+      "destination": "/blog/2019-03-11-python-trees",
+      "permanent": true
+    },
+    {
+      "source": "/f321",
+      "destination": "/blog/2019-03-12-redis-cli-basics",
+      "permanent": true
+    },
+    {
+      "source": "/e269",
+      "destination": "/blog/2019-03-22-python-binary-search-trees",
+      "permanent": true
+    },
+    {
+      "source": "/5a6f",
+      "destination": "/blog/2019-03-18-js-spiral-matrix",
+      "permanent": true
+    },
+    {
+      "source": "/2f52",
+      "destination": "/blog/2019-03-16-mysql-dev-with-docker",
+      "permanent": true
+    },
+    {
+      "source": "/943a",
+      "destination": "/blog/2019-03-30-go-linked-list",
+      "permanent": true
+    },
+    {
+      "source": "/5c11",
+      "destination": "/blog/2019-03-31-js-anagrams",
+      "permanent": true
+    },
+    {
+      "source": "/44e8",
+      "destination": "/blog/2019-04-01-ruby-binary-search-trees",
+      "permanent": true
+    },
+    {
+      "source": "/1ba4",
+      "destination": "/blog/2019-04-08-go-trees",
+      "permanent": true
+    },
+    {
+      "source": "/328e",
+      "destination": "/blog/2019-04-05-java-linked-list",
+      "permanent": true
+    },
+    {
+      "source": "/0758",
+      "destination": "/blog/2019-04-10-php-binary-search-trees",
+      "permanent": true
+    },
+    {
+      "source": "/9ba3",
+      "destination": "/blog/2019-04-11-running-detox-with-expo",
+      "permanent": true
+    },
+    {
+      "source": "/3416",
+      "destination": "/blog/2019-04-12-ruby-trees",
+      "permanent": true
+    },
+    {
+      "source": "/66fb",
+      "destination": "/blog/2019-04-13-rust-fizzbuzz",
+      "permanent": true
+    },
+    {
+      "source": "/22f3",
+      "destination": "/blog/2019-04-15-istio-with-eks",
+      "permanent": true
+    },
+    {
+      "source": "/5f31",
+      "destination": "/blog/2019-04-15-react-hook-basics",
+      "permanent": true
+    },
+    {
+      "source": "/8648",
+      "destination": "/blog/2019-04-19-b-tree-basics",
+      "permanent": true
+    },
+    {
+      "source": "/1907",
+      "destination": "/blog/2019-04-20-thread-basics",
+      "permanent": true
+    },
+    {
+      "source": "/b539",
+      "destination": "/blog/2019-04-22-intro-to-helm",
+      "permanent": true
+    },
+    {
+      "source": "/3331",
+      "destination": "/blog/2019-04-25-python-anagrams",
+      "permanent": true
+    },
+    {
+      "source": "/a22e",
+      "destination": "/blog/2019-04-29-redux-persist-with-react-native",
+      "permanent": true
+    },
+    {
+      "source": "/8c30",
+      "destination": "/blog/2019-05-02-eks-basics",
+      "permanent": true
+    },
+    {
+      "source": "/15c1",
+      "destination": "/blog/2019-05-07-nodejs-redis-kue",
+      "permanent": true
+    },
+    {
+      "source": "/6ad2",
+      "destination": "/blog/2019-05-10-cra-d3-wordcloud",
+      "permanent": true
+    },
+    {
+      "source": "/ec7c",
+      "destination": "/blog/2019-05-17-process-description-and-control",
+      "permanent": true
+    },
+    {
+      "source": "/43a6",
+      "destination": "/blog/2019-05-20-go-binary-search-trees",
+      "permanent": true
+    },
+    {
+      "source": "/ceec",
+      "destination": "/blog/2019-05-22-moving-to-melbourne",
+      "permanent": true
+    },
+    {
+      "source": "/823a",
+      "destination": "/blog/2019-05-25-reselect-quick-and-dirty",
+      "permanent": true
+    },
+    {
+      "source": "/141e",
+      "destination": "/blog/2019-05-28-d3-scale",
+      "permanent": true
+    },
+    {
+      "source": "/bd53",
+      "destination": "/blog/2019-05-31-logistic-regression-basics",
+      "permanent": true
+    },
+    {
+      "source": "/d551",
+      "destination": "/blog/2019-06-01-basics-on-programming-paradigms",
+      "permanent": true
+    },
+    {
+      "source": "/d522",
+      "destination": "/blog/2019-06-04-autocomplete-with-rxjs",
+      "permanent": true
+    },
+    {
+      "source": "/0d8c",
+      "destination": "/blog/2019-06-06-intro-to-cassandra",
+      "permanent": true
+    },
+    {
+      "source": "/7d8d",
+      "destination": "/blog/2019-06-08-intro-to-elasticsearch",
+      "permanent": true
+    },
+    {
+      "source": "/09c4",
+      "destination": "/blog/2019-06-10-kafka-basic-terms",
+      "permanent": true
+    },
+    {
+      "source": "/06c9",
+      "destination": "/blog/2019-06-12-hello-java-streams",
+      "permanent": true
+    },
+    {
+      "source": "/5574",
+      "destination": "/blog/2019-06-14-auxiliary-and-space-complexity",
+      "permanent": true
+    },
+    {
+      "source": "/e95f",
+      "destination": "/blog/2019-06-16-js-fetch-api",
+      "permanent": true
+    },
+    {
+      "source": "/8021",
+      "destination": "/blog/2019-06-18-scala-data-types",
+      "permanent": true
+    },
+    {
+      "source": "/e43c",
+      "destination": "/blog/2019-06-20-write-ahead-log",
+      "permanent": true
+    },
+    {
+      "source": "/0448",
+      "destination": "/blog/2019-06-26-network-addressing",
+      "permanent": true
+    },
+    {
+      "source": "/87e3",
+      "destination": "/blog/2019-06-24-osi-layers",
+      "permanent": true
+    },
+    {
+      "source": "/f183",
+      "destination": "/blog/2020-06-19-converting-blog-to-gatsby",
+      "permanent": true
+    },
+    {
+      "source": "/c346",
+      "destination": "/blog/2020-06-21-deriving-the-quadratic-formula",
+      "permanent": true
+    },
+    {
+      "source": "/2bca",
+      "destination": "/blog/2020-06-21-generating-open-api-yml-from-rails-routes",
+      "permanent": true
+    },
+    {
+      "source": "/f5c9",
+      "destination": "/blog/2020-06-22-cdk-lambda-to-send-slack-message",
+      "permanent": true
+    },
+    {
+      "source": "/9264",
+      "destination": "/blog/2020-06-22-scraping-with-xray",
+      "permanent": true
+    },
+    {
+      "source": "/b98c",
+      "destination": "/blog/2020-06-22-tmuxinator",
+      "permanent": true
+    },
+    {
+      "source": "/79e0",
+      "destination": "/blog/2020-06-22-using-octokit-to-create-files",
+      "permanent": true
+    },
+    {
+      "source": "/fa34",
+      "destination": "/blog/2020-06-23-dead-code-elimination-with-the-babel-ast-parser",
+      "permanent": true
+    },
+    {
+      "source": "/d7b9",
+      "destination": "/blog/2020-06-23-creating-alfred-shortcut-for-dev-notes",
+      "permanent": true
+    },
+    {
+      "source": "/48bc",
+      "destination": "/blog/2020-06-23-electron-with-parcel",
+      "permanent": true
+    },
+    {
+      "source": "/fb94",
+      "destination": "/blog/2020-06-24-next-auth-with-nextjs-docker-mysql",
+      "permanent": true
+    },
+    {
+      "source": "/ecde",
+      "destination": "/blog/2020-06-25-express-redis-rate-limiting",
+      "permanent": true
+    },
+    {
+      "source": "/3588",
+      "destination": "/blog/2020-06-26-hello-stripe-creating-your-first-charge-with-rails-in-five-minutes",
+      "permanent": true
+    },
+    {
+      "source": "/8be8",
+      "destination": "/blog/2020-06-25-seven-things-to-say-right-now-for-an-instant-promotion",
+      "permanent": true
+    },
+    {
+      "source": "/a765",
+      "destination": "/blog/2020-06-27-stripe-with-dotnet-in-five-minutes",
+      "permanent": true
+    },
+    {
+      "source": "/0dad",
+      "destination": "/blog/2020-06-27-stripe-with-flask-in-five-minutes",
+      "permanent": true
+    },
+    {
+      "source": "/303c",
+      "destination": "/blog/2020-06-27-stripe-with-gin-in-five-minutes",
+      "permanent": true
+    },
+    {
+      "source": "/93cf",
+      "destination": "/blog/2020-06-27-stripe-with-slim-in-five-minutes",
+      "permanent": true
+    },
+    {
+      "source": "/aba7",
+      "destination": "/blog/2020-06-27-stripe-with-spring-in-five-minutes",
+      "permanent": true
+    },
+    {
+      "source": "/f232",
+      "destination": "/blog/2020-06-29-resources-for-design-systems",
+      "permanent": true
+    },
+    {
+      "source": "/95a4",
+      "destination": "/blog/2020-06-30-javascript-code-generation",
+      "permanent": true
+    },
+    {
+      "source": "/9f67",
+      "destination": "/blog/2020-07-01-screenshot-anything-with-puppeteer",
+      "permanent": true
+    },
+    {
+      "source": "/36f9",
+      "destination": "/blog/2020-07-02-up-and-running-with-factory-bot",
+      "permanent": true
+    },
+    {
+      "source": "/369e",
+      "destination": "/blog/2020-07-04-abcs-of-pipenv",
+      "permanent": true
+    },
+    {
+      "source": "/0773",
+      "destination": "/blog/2020-07-04-hello-fiber",
+      "permanent": true
+    },
+    {
+      "source": "/ad9d",
+      "destination": "/blog/2020-07-05-learning-a-new-language-tips",
+      "permanent": true
+    },
+    {
+      "source": "/2ff3",
+      "destination": "/blog/2020-07-05-your-first-github-npm-package-in-five-minutes",
+      "permanent": true
+    },
+    {
+      "source": "/bbce",
+      "destination": "/blog/2020-07-06-deploying-a-serverless-go-api",
+      "permanent": true
+    },
+    {
+      "source": "/3787",
+      "destination": "/blog/2020-07-07-css-is-hard",
+      "permanent": true
+    },
+    {
+      "source": "/45cb",
+      "destination": "/blog/2020-07-08-going-back-into-isolation",
+      "permanent": true
+    },
+    {
+      "source": "/1a91",
+      "destination": "/blog/2020-07-09-hello-github-actions",
+      "permanent": true
+    },
+    {
+      "source": "/8f02",
+      "destination": "/blog/2020-07-09-understand-pipe-and-compose-by-implementing-them",
+      "permanent": true
+    },
+    {
+      "source": "/8d4f",
+      "destination": "/blog/2020-07-11-twitter-bot",
+      "permanent": true
+    },
+    {
+      "source": "/c110",
+      "destination": "/blog/2020-07-13-generating-custom-forms-with-react",
+      "permanent": true
+    },
+    {
+      "source": "/51df",
+      "destination": "/blog/2020-07-16-generating-basic-diagrams-with-roughjs",
+      "permanent": true
+    },
+    {
+      "source": "/4312",
+      "destination": "/blog/2020-07-17-what-the-flip-are-unix-pipes",
+      "permanent": true
+    },
+    {
+      "source": "/3b0b",
+      "destination": "/blog/2020-07-19-cra-with-snowpack",
+      "permanent": true
+    },
+    {
+      "source": "/a962",
+      "destination": "/blog/2020-07-22-one-month-of-writing",
+      "permanent": true
+    },
+    {
+      "source": "/58f7",
+      "destination": "/blog/2020-07-23-using-npm-modules-with-deno",
+      "permanent": true
+    },
+    {
+      "source": "/2d96",
+      "destination": "/blog/2020-07-25-cra-tailwind-quickstart",
+      "permanent": true
+    },
+    {
+      "source": "/41d2",
+      "destination": "/blog/2020-07-26-using-tailwind-theme-anywhere",
+      "permanent": true
+    },
+    {
+      "source": "/a174",
+      "destination": "/blog/2020-07-28-redirections-in-c",
+      "permanent": true
+    },
+    {
+      "source": "/d6ca",
+      "destination": "/blog/2020-07-31-d3-heatmap",
+      "permanent": true
+    },
+    {
+      "source": "/ee42",
+      "destination": "/blog/2020-08-07-error-tracing-with-sentry-and-es6-classes",
+      "permanent": true
+    },
+    {
+      "source": "/ca3e",
+      "destination": "/blog/2020-08-08-10-time-management-tips-for-the-developer-who-wants-it-all-know",
+      "permanent": true
+    },
+    {
+      "source": "/cd18",
+      "destination": "/blog/2020-08-15-aws-secrets-manager",
+      "permanent": true
+    },
+    {
+      "source": "/61a1",
+      "destination": "/blog/2020-08-18-push-notifications-with-cra",
+      "permanent": true
+    },
+    {
+      "source": "/b03b",
+      "destination": "/blog/2020-08-18-2020-08-21-creating-eslint-rules",
+      "permanent": true
+    },
+    {
+      "source": "/4b52",
+      "destination": "/blog/2020-09-03-mental-models",
+      "permanent": true
+    },
+    {
+      "source": "/bc18",
+      "destination": "/blog/2020-09-20-generating-types-with-quicktype",
+      "permanent": true
+    },
+    {
+      "source": "/a13d",
+      "destination": "/blog/2020-09-20-json-schema-to-ts",
+      "permanent": true
+    },
+    {
+      "source": "/7117",
+      "destination": "/blog/2020-09-20-openapi-diff",
+      "permanent": true
+    },
+    {
+      "source": "/f7b5",
+      "destination": "/blog/2020-09-20-openapi-validator",
+      "permanent": true
+    },
+    {
+      "source": "/1538",
+      "destination": "/blog/2020-09-30-self-destructing-tweets",
+      "permanent": true
+    },
+    {
+      "source": "/dd30",
+      "destination": "/blog/2020-10-15-webpack-for-lambdas",
+      "permanent": true
+    },
+    {
+      "source": "/5f7c",
+      "destination": "/blog/2020-10-28-updating-snowpack-post-announcement",
+      "permanent": true
+    },
+    {
+      "source": "/ef58",
+      "destination": "/blog/2020-11-04-deploying-websites-to-aws-s3-with-the-cdk",
+      "permanent": true
+    },
+    {
+      "source": "/0b57",
+      "destination": "/blog/2020-11-04-exporting-static-nextjs-10-websites",
+      "permanent": true
+    },
+    {
+      "source": "/64a0",
+      "destination": "/blog/2020-11-05-deploying-with-vercel-cli",
+      "permanent": true
+    },
+    {
+      "source": "/15be",
+      "destination": "/blog/2020-11-06-exploring-vercel-analytics",
+      "permanent": true
+    },
+    {
+      "source": "/c22b",
+      "destination": "/blog/2020-11-08-nextjs-10-image-component",
+      "permanent": true
+    },
+    {
+      "source": "/c0e6",
+      "destination": "/blog/2020-11-07-nextjs-10-with-stripe",
+      "permanent": true
+    },
+    {
+      "source": "/5d9c",
+      "destination": "/blog/2020-11-08-nextjs-intl-with-react-intl",
+      "permanent": true
+    },
+    {
+      "source": "/fb2d",
+      "destination": "/blog/2020-11-16-nextjs-simple-auth",
+      "permanent": true
+    },
+    {
+      "source": "/d522",
+      "destination": "/blog/2020-11-28-gatsby-starter-blog-creating-similar",
+      "permanent": true
+    },
+    {
+      "source": "/61bc",
+      "destination": "/blog/2020-12-02-building-a-ui-component-library-with-react-and-typescript",
+      "permanent": true
+    },
+    {
+      "source": "/29b2",
+      "destination": "/blog/2020-12-09-dynamic-components-nextjs",
+      "permanent": true
+    },
+    {
+      "source": "/5b7d",
+      "destination": "/blog/2020-12-24-setting-up-dynamodb-on-your-local-machine",
+      "permanent": true
+    },
+    {
+      "source": "/d547",
+      "destination": "/blog/2021-01-12-getting-started-with-localstack",
+      "permanent": true
+    },
+    {
+      "source": "/b9ac",
+      "destination": "/blog/2021-01-19-running-cronjobs-on-your-local-mac",
+      "permanent": true
+    },
+    {
+      "source": "/5762",
+      "destination": "/blog/2021-02-02-debugging-nodejs-with-vscode",
+      "permanent": true
+    },
+    {
+      "source": "/aa39",
+      "destination": "/blog/2021-02-12-a-first-look-at-generative-art-with-p5js",
+      "permanent": true
+    },
+    {
+      "source": "/fae2",
+      "destination": "/blog/2021-02-12-debugging-performance-with-ndb",
+      "permanent": true
+    },
+    {
+      "source": "/dae4",
+      "destination": "/blog/2021-07-19-hello-jupyter-notebook",
+      "permanent": true
+    },
+    {
+      "source": "/6901",
+      "destination": "/blog/2021-07-20-python-unsplash",
+      "permanent": true
+    },
+    {
+      "source": "/45b3",
+      "destination": "/blog/2021-07-22-composing-images-and-text-with-python",
+      "permanent": true
+    },
+    {
+      "source": "/2213",
+      "destination": "/blog/2021-07-23-frontmatter-parsing-with-python",
+      "permanent": true
+    },
+    {
+      "source": "/d281",
+      "destination": "/blog/2021-07-24-reading-a-file-directory-with-python",
+      "permanent": true
+    },
+    {
+      "source": "/1a69",
+      "destination": "/blog/2021-07-25-dev-only-nextjs-routes",
+      "permanent": true
+    },
+    {
+      "source": "/1308",
+      "destination": "/blog/2021-07-25-building-clis-with-python-fire",
+      "permanent": true
+    },
+    {
+      "source": "/e4ee",
+      "destination": "/blog/2021-07-25-workingoutloud-dev-released",
+      "permanent": true
+    },
+    {
+      "source": "/92a9",
+      "destination": "/blog/2021-07-26-python-unit-testing-with-pytest",
+      "permanent": true
+    },
+    {
+      "source": "/7926",
+      "destination": "/blog/2021-07-28-interactive-python-notebooks-with-binder",
+      "permanent": true
+    },
+    {
+      "source": "/5705",
+      "destination": "/blog/2021-07-27-making-directories-recursively-with-python",
+      "permanent": true
+    },
+    {
+      "source": "/f75b",
+      "destination": "/blog/2021-07-29-cli-prompts-in-python",
+      "permanent": true
+    },
+    {
+      "source": "/e581",
+      "destination": "/blog/2021-07-30-pretty-error-output-in-python",
+      "permanent": true
+    },
+    {
+      "source": "/d2d6",
+      "destination": "/blog/2021-07-31-annotating-video-clips-with-moviepy",
+      "permanent": true
+    },
+    {
+      "source": "/6969",
+      "destination": "/blog/2021-08-02-working-with-regex-expressions-in-python",
+      "permanent": true
+    },
+    {
+      "source": "/6388",
+      "destination": "/blog/2021-08-01-beautiful-clis-with-the-rich-python-library",
+      "permanent": true
+    },
+    {
+      "source": "/8111",
+      "destination": "/blog/2021-08-03-exceptions-in-python",
+      "permanent": true
+    },
+    {
+      "source": "/15a9",
+      "destination": "/blog/2021-08-04-datetime-in-python",
+      "permanent": true
+    },
+    {
+      "source": "/5b7a",
+      "destination": "/blog/2021-08-05-mocking-python-datetime-in-tests-with-freezegun",
+      "permanent": true
+    },
+    {
+      "source": "/ab82",
+      "destination": "/blog/2021-08-06-aws-cdk-with-typescript-foundations",
+      "permanent": true
+    },
+    {
+      "source": "/390e",
+      "destination": "/blog/2021-08-06-time-functionality-in-python",
+      "permanent": true
+    },
+    {
+      "source": "/4ff5",
+      "destination": "/blog/2021-08-07-how-pydoc-helps-your-python-development",
+      "permanent": true
+    },
+    {
+      "source": "/3626",
+      "destination": "/blog/2021-08-07-using-the-aws-cdk-with-localstack-and-aws-cdk-local",
+      "permanent": true
+    },
+    {
+      "source": "/a3d5",
+      "destination": "/blog/2021-08-08-building-a-cdn-with-s3-cloudfront-and-the-aws-cdk",
+      "permanent": true
+    },
+    {
+      "source": "/ec0f",
+      "destination": "/blog/2021-08-08-pytest-with-github-actions",
+      "permanent": true
+    },
+    {
+      "source": "/7827",
+      "destination": "/blog/2021-08-09-dynamodb-with-localstack-and-the-aws-cdk",
+      "permanent": true
+    },
+    {
+      "source": "/2d0c",
+      "destination": "/blog/2021-08-09-your-first-pip-package-in-python",
+      "permanent": true
+    },
+    {
+      "source": "/a610",
+      "destination": "/blog/2021-08-10-dynamodb-with-localstack-and-the-aws-cdk-part-two",
+      "permanent": true
+    },
+    {
+      "source": "/75bd",
+      "destination": "/blog/2021-08-11-automating-pip-package-deployment-with-github-actions",
+      "permanent": true
+    },
+    {
+      "source": "/95e6",
+      "destination": "/blog/2021-08-10-semantic-versioning-in-python-with-git-hooks",
+      "permanent": true
+    },
+    {
+      "source": "/f137",
+      "destination": "/blog/2021-08-11-deploying-a-fargate-cluster-with-localstack-and-the-aws-cdk",
+      "permanent": true
+    },
+    {
+      "source": "/b67e",
+      "destination": "/blog/2021-08-11-generating-fake-csv-data-with-python",
+      "permanent": true
+    },
+    {
+      "source": "/caf6",
+      "destination": "/blog/2021-08-12-deploying-an-eks-fargate-cluster-with-the-aws-cdk",
+      "permanent": true
+    },
+    {
+      "source": "/6921",
+      "destination": "/blog/2021-08-12-oil-paint-effect-with-open-cv-python",
+      "permanent": true
+    },
+    {
+      "source": "/8739",
+      "destination": "/blog/2021-08-13-python-lambda-functions-deployed-with-the-typescript-aws-cdk",
+      "permanent": true
+    },
+    {
+      "source": "/e529",
+      "destination": "/blog/2021-08-14-first-look-at-supervised-learning-with-classification",
+      "permanent": true
+    },
+    {
+      "source": "/5b6a",
+      "destination": "/blog/2021-08-15-measuring-classifier-model-performance",
+      "permanent": true
+    },
+    {
+      "source": "/c406",
+      "destination": "/blog/2021-08-16-recapping-kubernetes-basics",
+      "permanent": true
+    },
+    {
+      "source": "/ecf7",
+      "destination": "/blog/2021-08-16-regression-with-scikit-learn",
+      "permanent": true
+    },
+    {
+      "source": "/2627",
+      "destination": "/blog/2021-08-17-regression-with-scikit-learn-part-two",
+      "permanent": true
+    },
+    {
+      "source": "/1aae",
+      "destination": "/blog/2021-08-18-regression-with-scikit-learn-part-three",
+      "permanent": true
+    },
+    {
+      "source": "/01b6",
+      "destination": "/blog/2021-08-19-regression-with-scikit-learn-part-four",
+      "permanent": true
+    },
+    {
+      "source": "/271c",
+      "destination": "/blog/2021-08-23-5-handy-python-tips-for-beginners",
+      "permanent": true
+    },
+    {
+      "source": "/976c",
+      "destination": "/blog/2021-09-28-authenticating-use-for-the-swyftx-api-with-nodejs",
+      "permanent": true
+    },
+    {
+      "source": "/2bed",
+      "destination": "/blog/2021-09-28-scraping-the-swyftx-apiary-docs-into-a-json-file-with-puppeteer",
+      "permanent": true
+    },
+    {
+      "source": "/f70f",
+      "destination": "/blog/2021-09-29-converting-the-interim-swyftx-data-structure-into-a-valid-openapi-format",
+      "permanent": true
+    },
+    {
+      "source": "/aa43",
+      "destination": "/blog/2021-09-30-introduction-to-caching-with-nextjs",
+      "permanent": true
+    },
+    {
+      "source": "/4f3f",
+      "destination": "/blog/2021-10-04-locking-redis-transactions-in-nodejs",
+      "permanent": true
+    },
+    {
+      "source": "/9caa",
+      "destination": "/blog/2021-10-15-building-typescript-npm-packages-with-parcel-2",
+      "permanent": true
+    },
+    {
+      "source": "/688e",
+      "destination": "/blog/2021-10-27-jest-with-github-actions",
+      "permanent": true
+    },
+    {
+      "source": "/af82",
+      "destination": "/blog/2021-11-03-in-my-first-5-days-of-nfts-i-minted-2460-collectibles-from-hotel-quarantine",
+      "permanent": true
+    },
+    {
+      "source": "/b7c2",
+      "destination": "/blog/2021-11-04-nextjs-shortened-url-automation",
+      "permanent": true
+    }
+  ]
+}

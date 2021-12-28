@@ -1,0 +1,5 @@
+{
+  "name": "pkg-nextjs-utils-amplitude",
+  "version": "0.0.1",
+  "fallback_path": "utils"
+}

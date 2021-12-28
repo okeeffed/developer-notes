@@ -1,0 +1,5 @@
+{
+  "devDependencies": {
+    "dotenv-flow": "^3.2.0"
+  }
+}

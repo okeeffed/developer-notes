@@ -1,0 +1,4699 @@
+{
+  "sidebar": {
+    "title": "Home",
+    "files": [
+      {
+        "title": "Index",
+        "href": "/index"
+      }
+    ],
+    "dirs": [
+      {
+        "title": "Ableton",
+        "files": [
+          {
+            "title": "Sound production course levels and panning",
+            "href": "/ableton/sound-production-course-levels-and-panning"
+          },
+          {
+            "title": "Sound production course nature of sound",
+            "href": "/ableton/sound-production-course-nature-of-sound"
+          },
+          {
+            "title": "Sound production course",
+            "href": "/ableton/sound-production-course"
+          }
+        ]
+      },
+      {
+        "title": "Accessibility",
+        "files": [
+          {
+            "title": "A11y in javascript",
+            "href": "/accessibility/a11y-in-javascript"
+          }
+        ]
+      },
+      {
+        "title": "Acloudguru",
+        "dirs": [
+          {
+            "title": "Courses",
+            "files": [
+              {
+                "title": "Certified solutions architect professional",
+                "href": "/acloudguru/courses/certified-solutions-architect-professional"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Adobe",
+        "dirs": [
+          {
+            "title": "After effects",
+            "files": [
+              {
+                "title": "Intro to after effects",
+                "href": "/adobe/after-effects/Intro-To-After-Effects"
+              }
+            ],
+            "dirs": [
+              {
+                "title": "The beginners guide to adobe ae",
+                "files": [
+                  {
+                    "title": "1 getting started",
+                    "href": "/adobe/after-effects/The-Beginners-Guide-To-Adobe-AE/1-Getting-Started"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Illustrator",
+            "files": [
+              {
+                "title": "Illustrator essentials",
+                "href": "/adobe/illustrator/illustrator-essentials"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Alexa",
+        "files": [
+          {
+            "title": "Nodejs skill",
+            "href": "/alexa/nodejs-skill"
+          }
+        ]
+      },
+      {
+        "title": "Algebra",
+        "files": [
+          {
+            "title": "Intro",
+            "href": "/algebra/intro"
+          },
+          {
+            "title": "Properties",
+            "href": "/algebra/properties"
+          },
+          {
+            "title": "Shortcuts",
+            "href": "/algebra/shortcuts"
+          },
+          {
+            "title": "Solving linear equations",
+            "href": "/algebra/solving-linear-equations"
+          }
+        ]
+      },
+      {
+        "title": "Algorithms",
+        "files": [
+          {
+            "title": "Abcheck",
+            "href": "/algorithms/abcheck"
+          },
+          {
+            "title": "Alphabet soup",
+            "href": "/algorithms/alphabet-soup"
+          },
+          {
+            "title": "An introduction",
+            "href": "/algorithms/an-introduction"
+          },
+          {
+            "title": "Arith geo",
+            "href": "/algorithms/arith-geo"
+          },
+          {
+            "title": "Array addition",
+            "href": "/algorithms/array-addition"
+          },
+          {
+            "title": "Array manipulation",
+            "href": "/algorithms/array-manipulation"
+          },
+          {
+            "title": "Binary converter",
+            "href": "/algorithms/binary-converter"
+          },
+          {
+            "title": "Bracket matcher",
+            "href": "/algorithms/bracket-matcher"
+          },
+          {
+            "title": "Caesar cipher",
+            "href": "/algorithms/caesar-cipher"
+          },
+          {
+            "title": "Case swap",
+            "href": "/algorithms/case-swap"
+          },
+          {
+            "title": "Check nums",
+            "href": "/algorithms/check-nums"
+          },
+          {
+            "title": "Consecutive",
+            "href": "/algorithms/consecutive"
+          },
+          {
+            "title": "Convert time",
+            "href": "/algorithms/convert-time"
+          },
+          {
+            "title": "Dash insert two",
+            "href": "/algorithms/dash-insert-two"
+          },
+          {
+            "title": "Division",
+            "href": "/algorithms/division"
+          },
+          {
+            "title": "Exoh",
+            "href": "/algorithms/exoh"
+          },
+          {
+            "title": "Fibonnaci checker",
+            "href": "/algorithms/fibonnaci-checker"
+          },
+          {
+            "title": "Find intersection of strings",
+            "href": "/algorithms/find-intersection-of-strings"
+          },
+          {
+            "title": "First factorial",
+            "href": "/algorithms/first-factorial"
+          },
+          {
+            "title": "First reverse",
+            "href": "/algorithms/first-reverse"
+          },
+          {
+            "title": "Letter capitalize",
+            "href": "/algorithms/letter-capitalize"
+          },
+          {
+            "title": "Letter changes",
+            "href": "/algorithms/letter-changes"
+          },
+          {
+            "title": "Letter count",
+            "href": "/algorithms/letter-count"
+          },
+          {
+            "title": "Longest word",
+            "href": "/algorithms/longest-word"
+          },
+          {
+            "title": "Lru caches",
+            "href": "/algorithms/lru-caches"
+          },
+          {
+            "title": "Minimum swaps",
+            "href": "/algorithms/minimum-swaps"
+          },
+          {
+            "title": "Number search",
+            "href": "/algorithms/number-search"
+          },
+          {
+            "title": "Palindrome two",
+            "href": "/algorithms/palindrome-two"
+          },
+          {
+            "title": "Palindrome",
+            "href": "/algorithms/palindrome"
+          },
+          {
+            "title": "Polynomial expression",
+            "href": "/algorithms/polynomial-expression"
+          },
+          {
+            "title": "Prime mover",
+            "href": "/algorithms/prime-mover"
+          },
+          {
+            "title": "Prime time",
+            "href": "/algorithms/prime-time"
+          },
+          {
+            "title": "Question marks",
+            "href": "/algorithms/question-marks"
+          },
+          {
+            "title": "Reduction",
+            "href": "/algorithms/reduction"
+          },
+          {
+            "title": "Run length",
+            "href": "/algorithms/run-length"
+          },
+          {
+            "title": "Simple counting",
+            "href": "/algorithms/simple-counting"
+          },
+          {
+            "title": "Simple mode",
+            "href": "/algorithms/simple-mode"
+          },
+          {
+            "title": "Simple symbols",
+            "href": "/algorithms/simple-symbols"
+          },
+          {
+            "title": "String scramble",
+            "href": "/algorithms/string-scramble"
+          },
+          {
+            "title": "Threefivemultiples",
+            "href": "/algorithms/threefivemultiples"
+          },
+          {
+            "title": "Tree constructor",
+            "href": "/algorithms/tree-constructor"
+          },
+          {
+            "title": "Triple double",
+            "href": "/algorithms/triple-double"
+          },
+          {
+            "title": "Vowel count",
+            "href": "/algorithms/vowel-count"
+          },
+          {
+            "title": "Word count",
+            "href": "/algorithms/word-count"
+          }
+        ]
+      },
+      {
+        "title": "Amplify",
+        "files": [
+          {
+            "title": "Adding storage",
+            "href": "/amplify/adding-storage"
+          },
+          {
+            "title": "Facebook login",
+            "href": "/amplify/facebook-login"
+          },
+          {
+            "title": "Graphql setup",
+            "href": "/amplify/graphql-setup"
+          }
+        ]
+      },
+      {
+        "title": "Android",
+        "files": [
+          {
+            "title": "Lists and adapters",
+            "href": "/android/lists-and-adapters"
+          }
+        ]
+      },
+      {
+        "title": "Angular",
+        "files": [
+          {
+            "title": "Angular basics",
+            "href": "/angular/angular-basics"
+          },
+          {
+            "title": "Angular2 basics",
+            "href": "/angular/angular2-basics"
+          }
+        ]
+      },
+      {
+        "title": "Api design",
+        "files": [
+          {
+            "title": "Status codes",
+            "href": "/api-design/status-codes"
+          }
+        ]
+      },
+      {
+        "title": "Architectural principles",
+        "files": [
+          {
+            "title": "Policy and level",
+            "href": "/architectural-principles/policy-and-level"
+          }
+        ]
+      },
+      {
+        "title": "Art",
+        "files": [
+          {
+            "title": "Drawing",
+            "href": "/art/drawing"
+          }
+        ]
+      },
+      {
+        "title": "Assets"
+      },
+      {
+        "title": "Auth",
+        "files": [
+          {
+            "title": "React auth",
+            "href": "/auth/react-auth"
+          },
+          {
+            "title": "React course auth",
+            "href": "/auth/react-course-auth"
+          }
+        ]
+      },
+      {
+        "title": "Aws",
+        "files": [
+          {
+            "title": "Well architected frameworkd",
+            "href": "/aws/Well-Architected-Frameworkd"
+          },
+          {
+            "title": "Adding role permissions to lambda cdk",
+            "href": "/aws/adding-role-permissions-to-lambda-cdk"
+          },
+          {
+            "title": "Adding secrets via cli or cdk",
+            "href": "/aws/adding-secrets-via-cli-or-cdk"
+          },
+          {
+            "title": "Advanced networking",
+            "href": "/aws/advanced-networking"
+          },
+          {
+            "title": "App mesh",
+            "href": "/aws/app-mesh"
+          },
+          {
+            "title": "Aws cdk",
+            "href": "/aws/aws-cdk"
+          },
+          {
+            "title": "Aws certified big data",
+            "href": "/aws/aws-certified-big-data"
+          },
+          {
+            "title": "Aws certified solutions architect",
+            "href": "/aws/aws-certified-solutions-architect"
+          },
+          {
+            "title": "Aws certified sysops administrator",
+            "href": "/aws/aws-certified-sysops-administrator"
+          },
+          {
+            "title": "Aws cloudformation masterclass",
+            "href": "/aws/aws-cloudformation-masterclass"
+          },
+          {
+            "title": "Aws fargate with ecs",
+            "href": "/aws/aws-fargate-with-ecs"
+          },
+          {
+            "title": "Aws guide",
+            "href": "/aws/aws-guide"
+          },
+          {
+            "title": "Aws iot",
+            "href": "/aws/aws-iot"
+          },
+          {
+            "title": "Aws lex",
+            "href": "/aws/aws-lex"
+          },
+          {
+            "title": "Aws nodesdk",
+            "href": "/aws/aws-nodesdk"
+          },
+          {
+            "title": "Aws transit gateway",
+            "href": "/aws/aws-transit-gateway"
+          },
+          {
+            "title": "Aws vpn",
+            "href": "/aws/aws-vpn"
+          },
+          {
+            "title": "Aws wordpress blog",
+            "href": "/aws/aws-wordpress-blog"
+          },
+          {
+            "title": "Cdk best practices",
+            "href": "/aws/cdk-best-practices"
+          },
+          {
+            "title": "Cloudfront s3 lets encrypt",
+            "href": "/aws/cloudfront-s3-lets-encrypt"
+          },
+          {
+            "title": "Deploying static site with cdk",
+            "href": "/aws/deploying-static-site-with-cdk"
+          },
+          {
+            "title": "Ec2 container service",
+            "href": "/aws/ec2-container-service"
+          },
+          {
+            "title": "Getting account id",
+            "href": "/aws/getting-account-id"
+          },
+          {
+            "title": "Javascript aws",
+            "href": "/aws/javascript-aws"
+          },
+          {
+            "title": "Lambda edge cdk",
+            "href": "/aws/lambda-edge-cdk"
+          },
+          {
+            "title": "Namecheap route 53",
+            "href": "/aws/namecheap-route-53"
+          },
+          {
+            "title": "S3 buckets",
+            "href": "/aws/s3-buckets"
+          },
+          {
+            "title": "S3 lambda subdirectories",
+            "href": "/aws/s3-lambda-subdirectories"
+          },
+          {
+            "title": "Sysops solutions architect",
+            "href": "/aws/sysops-solutions-architect"
+          },
+          {
+            "title": "Vpc setup",
+            "href": "/aws/vpc-setup"
+          }
+        ],
+        "dirs": [
+          {
+            "title": "Learn catrill",
+            "dirs": [
+              {
+                "title": "Solution architect",
+                "files": [
+                  {
+                    "title": "1 introduction",
+                    "href": "/aws/Learn-Catrill/Solution-Architect/1-Introduction"
+                  },
+                  {
+                    "title": "14 network storage",
+                    "href": "/aws/Learn-Catrill/Solution-Architect/14-Network-Storage"
+                  },
+                  {
+                    "title": "15 ha scaling",
+                    "href": "/aws/Learn-Catrill/Solution-Architect/15-HA-Scaling"
+                  },
+                  {
+                    "title": "17 global content delivery and optimization",
+                    "href": "/aws/Learn-Catrill/Solution-Architect/17-Global-Content-Delivery-And-Optimization"
+                  },
+                  {
+                    "title": "18 advanced vpc networking",
+                    "href": "/aws/Learn-Catrill/Solution-Architect/18-Advanced-VPC-Networking"
+                  },
+                  {
+                    "title": "19 hybrid environments and migration",
+                    "href": "/aws/Learn-Catrill/Solution-Architect/19-Hybrid-Environments-And-Migration"
+                  },
+                  {
+                    "title": "20 security deployment operations",
+                    "href": "/aws/Learn-Catrill/Solution-Architect/20-Security-Deployment-Operations"
+                  },
+                  {
+                    "title": "21 nosql dbs and dynamodb",
+                    "href": "/aws/Learn-Catrill/Solution-Architect/21-NoSQL-DBs-and-DynamoDB"
+                  },
+                  {
+                    "title": "3 cloud computing fundamentals",
+                    "href": "/aws/Learn-Catrill/Solution-Architect/3-Cloud-Computing-Fundamentals"
+                  },
+                  {
+                    "title": "4 network starter pack",
+                    "href": "/aws/Learn-Catrill/Solution-Architect/4-Network-Starter-Pack"
+                  },
+                  {
+                    "title": "5 aws fundamentals",
+                    "href": "/aws/Learn-Catrill/Solution-Architect/5-AWS-Fundamentals"
+                  },
+                  {
+                    "title": "6 iam accounts organisations",
+                    "href": "/aws/Learn-Catrill/Solution-Architect/6-IAM-Accounts-Organisations"
+                  },
+                  {
+                    "title": "7 simple storage service",
+                    "href": "/aws/Learn-Catrill/Solution-Architect/7-Simple-Storage-Service"
+                  },
+                  {
+                    "title": "8 vpc basics",
+                    "href": "/aws/Learn-Catrill/Solution-Architect/8-VPC-Basics"
+                  },
+                  {
+                    "title": "9 ec2 basics",
+                    "href": "/aws/Learn-Catrill/Solution-Architect/9-EC2-Basics"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Solution architect",
+            "dirs": [
+              {
+                "title": "Certified developer associate course",
+                "files": [
+                  {
+                    "title": "10 advanced iam",
+                    "href": "/aws/Solution-Architect/Certified-Developer-Associate-Course/10-Advanced-IAM"
+                  },
+                  {
+                    "title": "5 introduction to serverless computing",
+                    "href": "/aws/Solution-Architect/Certified-Developer-Associate-Course/5-Introduction-to-Serverless-Computing"
+                  },
+                  {
+                    "title": "7 kms and encryption on aws",
+                    "href": "/aws/Solution-Architect/Certified-Developer-Associate-Course/7-KMS-and-Encryption-On-AWS"
+                  },
+                  {
+                    "title": "9 developer theory",
+                    "href": "/aws/Solution-Architect/Certified-Developer-Associate-Course/9-Developer-Theory"
+                  },
+                  {
+                    "title": "Elastic compute cloud",
+                    "href": "/aws/Solution-Architect/Certified-Developer-Associate-Course/Elastic-Compute-Cloud"
+                  }
+                ]
+              },
+              {
+                "title": "Certified solutions architect course",
+                "files": [
+                  {
+                    "title": "1 introduction",
+                    "href": "/aws/Solution-Architect/Certified-Solutions-Architect-Course/1-Introduction"
+                  },
+                  {
+                    "title": "10 elb",
+                    "href": "/aws/Solution-Architect/Certified-Solutions-Architect-Course/10-ELB"
+                  },
+                  {
+                    "title": "11 monitoring",
+                    "href": "/aws/Solution-Architect/Certified-Solutions-Architect-Course/11-Monitoring"
+                  },
+                  {
+                    "title": "12 high availability and scaling",
+                    "href": "/aws/Solution-Architect/Certified-Solutions-Architect-Course/12-High-Availability-And-Scaling"
+                  },
+                  {
+                    "title": "13 decoupling workflows",
+                    "href": "/aws/Solution-Architect/Certified-Solutions-Architect-Course/13-Decoupling-Workflows"
+                  },
+                  {
+                    "title": "14 big data",
+                    "href": "/aws/Solution-Architect/Certified-Solutions-Architect-Course/14-Big-Data"
+                  },
+                  {
+                    "title": "15 serverless architecture",
+                    "href": "/aws/Solution-Architect/Certified-Solutions-Architect-Course/15-Serverless-Architecture"
+                  },
+                  {
+                    "title": "16 security",
+                    "href": "/aws/Solution-Architect/Certified-Solutions-Architect-Course/16-Security"
+                  },
+                  {
+                    "title": "17 automation",
+                    "href": "/aws/Solution-Architect/Certified-Solutions-Architect-Course/17-Automation"
+                  },
+                  {
+                    "title": "18 caching",
+                    "href": "/aws/Solution-Architect/Certified-Solutions-Architect-Course/18-Caching"
+                  },
+                  {
+                    "title": "19 governance",
+                    "href": "/aws/Solution-Architect/Certified-Solutions-Architect-Course/19-Governance"
+                  },
+                  {
+                    "title": "2 aws fundamentals",
+                    "href": "/aws/Solution-Architect/Certified-Solutions-Architect-Course/2-AWS-Fundamentals"
+                  },
+                  {
+                    "title": "20 migration",
+                    "href": "/aws/Solution-Architect/Certified-Solutions-Architect-Course/20-Migration"
+                  },
+                  {
+                    "title": "21 exam prep",
+                    "href": "/aws/Solution-Architect/Certified-Solutions-Architect-Course/21-Exam-Prep"
+                  },
+                  {
+                    "title": "3 iam",
+                    "href": "/aws/Solution-Architect/Certified-Solutions-Architect-Course/3-IAM"
+                  },
+                  {
+                    "title": "4 s3",
+                    "href": "/aws/Solution-Architect/Certified-Solutions-Architect-Course/4-S3"
+                  },
+                  {
+                    "title": "5 ec2",
+                    "href": "/aws/Solution-Architect/Certified-Solutions-Architect-Course/5-EC2"
+                  },
+                  {
+                    "title": "6 ebs and efs",
+                    "href": "/aws/Solution-Architect/Certified-Solutions-Architect-Course/6-EBS-and-EFS"
+                  },
+                  {
+                    "title": "7 databases",
+                    "href": "/aws/Solution-Architect/Certified-Solutions-Architect-Course/7-Databases"
+                  },
+                  {
+                    "title": "8 vpc",
+                    "href": "/aws/Solution-Architect/Certified-Solutions-Architect-Course/8-VPC"
+                  },
+                  {
+                    "title": "9 route 53",
+                    "href": "/aws/Solution-Architect/Certified-Solutions-Architect-Course/9-Route-53"
+                  }
+                ]
+              },
+              {
+                "title": "Certified sysops administrator associate",
+                "files": [
+                  {
+                    "title": "3 deployment provisioning automation",
+                    "href": "/aws/Solution-Architect/Certified-SysOps-Administrator-Associate/3-Deployment-Provisioning-Automation"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Aws cdk",
+        "files": [
+          {
+            "title": "Creating your own construct",
+            "href": "/aws-cdk/creating-your-own-construct"
+          },
+          {
+            "title": "Dynamodb stream",
+            "href": "/aws-cdk/dynamodb-stream"
+          },
+          {
+            "title": "Lambda s3 asset with api gw",
+            "href": "/aws-cdk/lambda-s3-asset-with-api-gw"
+          },
+          {
+            "title": "Sqs event source with lambda",
+            "href": "/aws-cdk/sqs-event-source-with-lambda"
+          }
+        ]
+      },
+      {
+        "title": "Bash",
+        "files": [
+          {
+            "title": "Autocompletion",
+            "href": "/bash/autocompletion"
+          }
+        ],
+        "dirs": [
+          {
+            "title": "Bats testing",
+            "files": [
+              {
+                "title": "Overview",
+                "href": "/bash/bats-testing/overview"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Big data",
+        "files": [
+          {
+            "title": "Big data essentials",
+            "href": "/big-data/big-data-essentials"
+          },
+          {
+            "title": "Tools and technologies",
+            "href": "/big-data/tools-and-technologies"
+          }
+        ]
+      },
+      {
+        "title": "Books",
+        "files": [
+          {
+            "title": "Conversation casanova",
+            "href": "/books/conversation-casanova"
+          },
+          {
+            "title": "High performance habits",
+            "href": "/books/high-performance-habits"
+          },
+          {
+            "title": "Intercom on product management",
+            "href": "/books/intercom-on-product-management"
+          },
+          {
+            "title": "Loonshots",
+            "href": "/books/loonshots"
+          },
+          {
+            "title": "Mans search for meaning",
+            "href": "/books/mans-search-for-meaning"
+          },
+          {
+            "title": "Mastering logical fallacies",
+            "href": "/books/mastering-logical-fallacies"
+          },
+          {
+            "title": "Never split the difference",
+            "href": "/books/never-split-the-difference"
+          },
+          {
+            "title": "Strategize",
+            "href": "/books/strategize"
+          },
+          {
+            "title": "The 48 laws of power",
+            "href": "/books/the-48-laws-of-power"
+          },
+          {
+            "title": "The subtle art",
+            "href": "/books/the-subtle-art"
+          }
+        ]
+      },
+      {
+        "title": "Bots",
+        "files": [
+          {
+            "title": "Api ai bot",
+            "href": "/bots/api-ai-bot"
+          }
+        ]
+      },
+      {
+        "title": "Braintree",
+        "files": [
+          {
+            "title": "Sandbox",
+            "href": "/braintree/sandbox"
+          }
+        ]
+      },
+      {
+        "title": "Business",
+        "files": [
+          {
+            "title": "Personal mba",
+            "href": "/business/personal-mba"
+          }
+        ]
+      },
+      {
+        "title": "Chef",
+        "files": [
+          {
+            "title": "Chef cheat sheet",
+            "href": "/chef/chef-cheat-sheet"
+          },
+          {
+            "title": "Chef general",
+            "href": "/chef/chef-general"
+          },
+          {
+            "title": "Chef learning dev ops deployment",
+            "href": "/chef/chef-learning-dev-ops-deployment"
+          },
+          {
+            "title": "Chef udemy",
+            "href": "/chef/chef-udemy"
+          }
+        ]
+      },
+      {
+        "title": "Chrome",
+        "files": [
+          {
+            "title": "Mastering chrome dev tools v2",
+            "href": "/chrome/mastering-chrome-dev-tools-v2"
+          },
+          {
+            "title": "React chrome extensions",
+            "href": "/chrome/react-chrome-extensions"
+          }
+        ]
+      },
+      {
+        "title": "Codemod",
+        "files": [
+          {
+            "title": "Codemod with babel",
+            "href": "/codemod/codemod-with-babel"
+          }
+        ]
+      },
+      {
+        "title": "Communication",
+        "files": [
+          {
+            "title": "Introduction",
+            "href": "/communication/introduction"
+          }
+        ]
+      },
+      {
+        "title": "Comp3306 ai",
+        "files": [
+          {
+            "title": "2 problem solving and search",
+            "href": "/comp3306-ai/2-problem-solving-and-search"
+          },
+          {
+            "title": "3 a* algorithm",
+            "href": "/comp3306-ai/3-a*-algorithm"
+          }
+        ]
+      },
+      {
+        "title": "Comp3520 os",
+        "files": [
+          {
+            "title": "2 process description and control",
+            "href": "/comp3520-os/2-process-description-and-control"
+          },
+          {
+            "title": "3 threads",
+            "href": "/comp3520-os/3-threads"
+          },
+          {
+            "title": "Pthread",
+            "href": "/comp3520-os/pthread"
+          }
+        ]
+      },
+      {
+        "title": "Complete intro to databases",
+        "files": [
+          {
+            "title": "Sql",
+            "href": "/complete-intro-to-databases/sql"
+          }
+        ]
+      },
+      {
+        "title": "Computer science",
+        "files": [
+          {
+            "title": "Communicating sequential processess",
+            "href": "/computer-science/communicating-sequential-processess"
+          },
+          {
+            "title": "Composition",
+            "href": "/computer-science/composition"
+          },
+          {
+            "title": "Single instruction multi data",
+            "href": "/computer-science/single-instruction-multi-data"
+          },
+          {
+            "title": "Space complexity",
+            "href": "/computer-science/space-complexity"
+          },
+          {
+            "title": "Type theory",
+            "href": "/computer-science/type-theory"
+          }
+        ]
+      },
+      {
+        "title": "Consulting",
+        "files": [
+          {
+            "title": "Questions to ask",
+            "href": "/consulting/questions-to-ask"
+          }
+        ]
+      },
+      {
+        "title": "Containers",
+        "files": [
+          {
+            "title": "Containers vs vms",
+            "href": "/containers/containers-vs-vms"
+          }
+        ]
+      },
+      {
+        "title": "Contentful",
+        "files": [
+          {
+            "title": "Contentful js api",
+            "href": "/contentful/contentful-js-api"
+          }
+        ]
+      },
+      {
+        "title": "Conventional commits",
+        "files": [
+          {
+            "title": "Automating versioning",
+            "href": "/conventional-commits/automating-versioning"
+          }
+        ]
+      },
+      {
+        "title": "Cooking",
+        "files": [
+          {
+            "title": "Kitchen essentials",
+            "href": "/cooking/kitchen-essentials"
+          }
+        ]
+      },
+      {
+        "title": "Cpp",
+        "files": [
+          {
+            "title": "Cpp udemy",
+            "href": "/cpp/cpp-udemy"
+          }
+        ]
+      },
+      {
+        "title": "Crontab",
+        "files": [
+          {
+            "title": "Mac crontab",
+            "href": "/crontab/mac-crontab"
+          }
+        ]
+      },
+      {
+        "title": "Css",
+        "files": [
+          {
+            "title": "Css cheat sheet",
+            "href": "/css/css-cheat-sheet"
+          },
+          {
+            "title": "Css gradients cheat sheet",
+            "href": "/css/css-gradients-cheat-sheet"
+          },
+          {
+            "title": "Css specificity",
+            "href": "/css/css-specificity"
+          },
+          {
+            "title": "Css style guide",
+            "href": "/css/css-style-guide"
+          },
+          {
+            "title": "Css transitions transforms cheat sheet",
+            "href": "/css/css-transitions-transforms-cheat-sheet"
+          },
+          {
+            "title": "Flexbox help sheet",
+            "href": "/css/flexbox-help-sheet"
+          },
+          {
+            "title": "Rscss code guide",
+            "href": "/css/rscss-code-guide"
+          }
+        ]
+      },
+      {
+        "title": "Cypress",
+        "files": [
+          {
+            "title": "Handover",
+            "href": "/cypress/handover"
+          }
+        ]
+      },
+      {
+        "title": "D3",
+        "files": [
+          {
+            "title": "D3",
+            "href": "/d3/d3"
+          }
+        ]
+      },
+      {
+        "title": "Data dog",
+        "files": [
+          {
+            "title": "Data dog basics",
+            "href": "/data-dog/data-dog-basics"
+          }
+        ]
+      },
+      {
+        "title": "Data engineering",
+        "files": [
+          {
+            "title": "Intro to data engineering",
+            "href": "/data-engineering/intro-to-data-engineering"
+          }
+        ]
+      },
+      {
+        "title": "Data science",
+        "files": [
+          {
+            "title": "Intermediat ds python",
+            "href": "/data-science/intermediat-ds-python"
+          }
+        ]
+      },
+      {
+        "title": "Data structures",
+        "files": [
+          {
+            "title": "Count vowels",
+            "href": "/data-structures/count-vowels"
+          },
+          {
+            "title": "Go",
+            "href": "/data-structures/go"
+          },
+          {
+            "title": "Javascript",
+            "href": "/data-structures/javascript"
+          },
+          {
+            "title": "Python",
+            "href": "/data-structures/python"
+          },
+          {
+            "title": "Understanding big o notation",
+            "href": "/data-structures/understanding-big-o-notation"
+          },
+          {
+            "title": "Understanding search algorithms",
+            "href": "/data-structures/understanding-search-algorithms"
+          },
+          {
+            "title": "Understanding sorting algorithms",
+            "href": "/data-structures/understanding-sorting-algorithms"
+          }
+        ]
+      },
+      {
+        "title": "Databases",
+        "files": [
+          {
+            "title": "Data warehouses",
+            "href": "/databases/data-warehouses"
+          },
+          {
+            "title": "Etl",
+            "href": "/databases/etl"
+          },
+          {
+            "title": "Intro and overview",
+            "href": "/databases/intro-and-overview"
+          },
+          {
+            "title": "Normalisation",
+            "href": "/databases/normalisation"
+          }
+        ]
+      },
+      {
+        "title": "Dayjs",
+        "files": [
+          {
+            "title": "Sorting iso8601 times",
+            "href": "/dayjs/sorting-iso8601-times"
+          }
+        ]
+      },
+      {
+        "title": "Debugging",
+        "files": [
+          {
+            "title": "Resources",
+            "href": "/debugging/resources"
+          }
+        ]
+      },
+      {
+        "title": "Deno",
+        "files": [
+          {
+            "title": "Using npm packages with deno",
+            "href": "/deno/using-npm-packages-with-deno"
+          }
+        ]
+      },
+      {
+        "title": "Design",
+        "files": [
+          {
+            "title": "Design fundamentals 7 tricks graphic designers dont want you to know",
+            "href": "/design/design-fundamentals-7-tricks-graphic-designers-dont-want-you-to-know"
+          }
+        ]
+      },
+      {
+        "title": "Design patterns",
+        "files": [
+          {
+            "title": "Abstract factory pattern",
+            "href": "/design-patterns/abstract-factory-pattern"
+          },
+          {
+            "title": "Adapter pattern",
+            "href": "/design-patterns/adapter-pattern"
+          },
+          {
+            "title": "Bridge pattern",
+            "href": "/design-patterns/bridge-pattern"
+          },
+          {
+            "title": "Builder pattern",
+            "href": "/design-patterns/builder-pattern"
+          },
+          {
+            "title": "Chain of responsibility",
+            "href": "/design-patterns/chain-of-responsibility"
+          },
+          {
+            "title": "Command",
+            "href": "/design-patterns/command"
+          },
+          {
+            "title": "Composite pattern",
+            "href": "/design-patterns/composite-pattern"
+          },
+          {
+            "title": "Decorator pattern",
+            "href": "/design-patterns/decorator-pattern"
+          },
+          {
+            "title": "Delegation",
+            "href": "/design-patterns/delegation"
+          },
+          {
+            "title": "Design patterns",
+            "href": "/design-patterns/design-patterns"
+          },
+          {
+            "title": "Facade pattern",
+            "href": "/design-patterns/facade-pattern"
+          },
+          {
+            "title": "Factory pattern",
+            "href": "/design-patterns/factory-pattern"
+          },
+          {
+            "title": "Flyweight pattern",
+            "href": "/design-patterns/flyweight-pattern"
+          },
+          {
+            "title": "Interpreter",
+            "href": "/design-patterns/interpreter"
+          },
+          {
+            "title": "Iterator",
+            "href": "/design-patterns/iterator"
+          },
+          {
+            "title": "Mediator",
+            "href": "/design-patterns/mediator"
+          },
+          {
+            "title": "Memento",
+            "href": "/design-patterns/memento"
+          },
+          {
+            "title": "Observer",
+            "href": "/design-patterns/observer"
+          },
+          {
+            "title": "Prototype pattern",
+            "href": "/design-patterns/prototype-pattern"
+          },
+          {
+            "title": "Proxy pattern",
+            "href": "/design-patterns/proxy-pattern"
+          },
+          {
+            "title": "Singleton",
+            "href": "/design-patterns/singleton"
+          },
+          {
+            "title": "State",
+            "href": "/design-patterns/state"
+          },
+          {
+            "title": "Strategy",
+            "href": "/design-patterns/strategy"
+          },
+          {
+            "title": "Template method",
+            "href": "/design-patterns/template-method"
+          },
+          {
+            "title": "Visitor",
+            "href": "/design-patterns/visitor"
+          }
+        ]
+      },
+      {
+        "title": "Design systems",
+        "files": [
+          {
+            "title": "Comparing design systems",
+            "href": "/design-systems/comparing-design-systems"
+          },
+          {
+            "title": "Design systems",
+            "href": "/design-systems/design-systems"
+          },
+          {
+            "title": "Design tokens",
+            "href": "/design-systems/design-tokens"
+          }
+        ]
+      },
+      {
+        "title": "Devops",
+        "files": [
+          {
+            "title": "Caching",
+            "href": "/devops/caching"
+          },
+          {
+            "title": "Config management vs provisioning",
+            "href": "/devops/config-management-vs-provisioning"
+          },
+          {
+            "title": "Dev ops",
+            "href": "/devops/dev-ops"
+          },
+          {
+            "title": "Devops essentials",
+            "href": "/devops/devops-essentials"
+          },
+          {
+            "title": "Observability definitions",
+            "href": "/devops/observability-definitions"
+          },
+          {
+            "title": "Proxies",
+            "href": "/devops/proxies"
+          }
+        ]
+      },
+      {
+        "title": "Digital marketing",
+        "files": [
+          {
+            "title": "Digital marketing course",
+            "href": "/digital-marketing/digital-marketing-course"
+          }
+        ]
+      },
+      {
+        "title": "Distributed file systems",
+        "files": [
+          {
+            "title": "Intro",
+            "href": "/distributed-file-systems/intro"
+          }
+        ]
+      },
+      {
+        "title": "Docker",
+        "files": [
+          {
+            "title": "Docker and elastic beanstalk",
+            "href": "/docker/docker-and-elastic-beanstalk"
+          },
+          {
+            "title": "Docker cheat sheet",
+            "href": "/docker/docker-cheat-sheet"
+          },
+          {
+            "title": "Docker code sheet",
+            "href": "/docker/docker-code-sheet"
+          },
+          {
+            "title": "Docker deep dive",
+            "href": "/docker/docker-deep-dive"
+          },
+          {
+            "title": "Docker ec2",
+            "href": "/docker/docker-ec2"
+          },
+          {
+            "title": "Docker networking",
+            "href": "/docker/docker-networking"
+          },
+          {
+            "title": "Docker quick start",
+            "href": "/docker/docker-quick-start"
+          },
+          {
+            "title": "Docker saving current state",
+            "href": "/docker/docker-saving-current-state"
+          },
+          {
+            "title": "Docker tldr",
+            "href": "/docker/docker-tldr"
+          },
+          {
+            "title": "Mysql development",
+            "href": "/docker/mysql-development"
+          },
+          {
+            "title": "Restart and expose port",
+            "href": "/docker/restart-and-expose-port"
+          }
+        ]
+      },
+      {
+        "title": "Dotnet",
+        "files": [
+          {
+            "title": "Adding models",
+            "href": "/dotnet/adding-models"
+          },
+          {
+            "title": "Getting started",
+            "href": "/dotnet/getting-started"
+          },
+          {
+            "title": "Package management",
+            "href": "/dotnet/package-management"
+          }
+        ]
+      },
+      {
+        "title": "Drawio",
+        "files": [
+          {
+            "title": "Intro",
+            "href": "/drawio/intro"
+          }
+        ]
+      },
+      {
+        "title": "Drupal",
+        "files": [
+          {
+            "title": "Drupal 8 modules",
+            "href": "/drupal/drupal-8-modules"
+          },
+          {
+            "title": "Drupal 8 theming",
+            "href": "/drupal/drupal-8-theming"
+          },
+          {
+            "title": "Drupal 8",
+            "href": "/drupal/drupal-8"
+          }
+        ]
+      },
+      {
+        "title": "Electron",
+        "files": [
+          {
+            "title": "Electron fs",
+            "href": "/electron/electron-fs"
+          },
+          {
+            "title": "Electron udemy",
+            "href": "/electron/electron-udemy"
+          },
+          {
+            "title": "Electron with parcel",
+            "href": "/electron/electron-with-parcel"
+          }
+        ]
+      },
+      {
+        "title": "Elixir",
+        "files": [
+          {
+            "title": "Elixir conditionals",
+            "href": "/elixir/elixir-conditionals"
+          },
+          {
+            "title": "Elixir course repl",
+            "href": "/elixir/elixir-course-repl"
+          },
+          {
+            "title": "Elixir course testing",
+            "href": "/elixir/elixir-course-testing"
+          },
+          {
+            "title": "Elixir debugging",
+            "href": "/elixir/elixir-debugging"
+          },
+          {
+            "title": "Elixir iteration",
+            "href": "/elixir/elixir-iteration"
+          },
+          {
+            "title": "Elixir maps and structs",
+            "href": "/elixir/elixir-maps-and-structs"
+          },
+          {
+            "title": "Elixir school",
+            "href": "/elixir/elixir-school"
+          },
+          {
+            "title": "Elixir sql",
+            "href": "/elixir/elixir-sql"
+          },
+          {
+            "title": "Phoenix routing",
+            "href": "/elixir/phoenix-routing"
+          }
+        ]
+      },
+      {
+        "title": "Elk",
+        "files": [
+          {
+            "title": "Docker elk stack",
+            "href": "/elk/docker-elk-stack"
+          }
+        ]
+      },
+      {
+        "title": "Elm",
+        "files": [
+          {
+            "title": "Advanced elm",
+            "href": "/elm/advanced-elm"
+          },
+          {
+            "title": "Collections",
+            "href": "/elm/collections"
+          },
+          {
+            "title": "Elm architecture",
+            "href": "/elm/elm-architecture"
+          },
+          {
+            "title": "Elm guide",
+            "href": "/elm/elm-guide"
+          },
+          {
+            "title": "Elm types",
+            "href": "/elm/elm-types"
+          },
+          {
+            "title": "Kevin yank talk",
+            "href": "/elm/kevin-yank-talk"
+          },
+          {
+            "title": "Rendering examples",
+            "href": "/elm/rendering-examples"
+          },
+          {
+            "title": "User focused elm",
+            "href": "/elm/user-focused-elm"
+          },
+          {
+            "title": "Webmasters elm",
+            "href": "/elm/webmasters-elm"
+          }
+        ]
+      },
+      {
+        "title": "Emitter",
+        "files": [
+          {
+            "title": "Readme",
+            "href": "/emitter/readme"
+          }
+        ]
+      },
+      {
+        "title": "Enterprise architecture patterns",
+        "files": [
+          {
+            "title": "1 enterprise architecture patterns",
+            "href": "/enterprise-architecture-patterns/1-enterprise-architecture-patterns"
+          },
+          {
+            "title": "2 object oriented programming",
+            "href": "/enterprise-architecture-patterns/2-object-oriented-programming"
+          },
+          {
+            "title": "4 decisions and conditionals",
+            "href": "/enterprise-architecture-patterns/4-decisions-and-conditionals"
+          },
+          {
+            "title": "5 collections and iterators",
+            "href": "/enterprise-architecture-patterns/5-collections-and-iterators"
+          },
+          {
+            "title": "6 time management in applications",
+            "href": "/enterprise-architecture-patterns/6-time-management-in-applications"
+          },
+          {
+            "title": "7 distributed complexity",
+            "href": "/enterprise-architecture-patterns/7-distributed-complexity"
+          }
+        ]
+      },
+      {
+        "title": "Epic react",
+        "files": [
+          {
+            "title": "Advanced react hooks",
+            "href": "/epic-react/advanced-react-hooks"
+          },
+          {
+            "title": "Advanced react patterns",
+            "href": "/epic-react/advanced-react-patterns"
+          },
+          {
+            "title": "React fundamentals",
+            "href": "/epic-react/react-fundamentals"
+          },
+          {
+            "title": "React hooks",
+            "href": "/epic-react/react-hooks"
+          },
+          {
+            "title": "React performance",
+            "href": "/epic-react/react-performance"
+          },
+          {
+            "title": "React suspense",
+            "href": "/epic-react/react-suspense"
+          },
+          {
+            "title": "Testing react apps",
+            "href": "/epic-react/testing-react-apps"
+          },
+          {
+            "title": "Welcome",
+            "href": "/epic-react/welcome"
+          }
+        ]
+      },
+      {
+        "title": "Eslint",
+        "files": [
+          {
+            "title": "Adding a new rule",
+            "href": "/eslint/adding-a-new-rule"
+          }
+        ]
+      },
+      {
+        "title": "Etcd",
+        "files": [
+          {
+            "title": "What is etcd",
+            "href": "/etcd/what-is-etcd"
+          }
+        ]
+      },
+      {
+        "title": "Ethereum",
+        "dirs": [
+          {
+            "title": "Crypto zombies",
+            "dirs": [
+              {
+                "title": "Advanced solidity path",
+                "files": [
+                  {
+                    "title": "Lesson 1 testing smart contracts with truffle",
+                    "href": "/ethereum/Crypto-Zombies/Advanced-Solidity-Path/Lesson-1-Testing-Smart-Contracts-With-Truffle"
+                  },
+                  {
+                    "title": "Lesson 2 deploying dapps with truffle",
+                    "href": "/ethereum/Crypto-Zombies/Advanced-Solidity-Path/Lesson-2-Deploying-DApps-with-Truffle"
+                  }
+                ]
+              },
+              {
+                "title": "Solidity path",
+                "files": [
+                  {
+                    "title": "Lesson 1 making the zombie factory",
+                    "href": "/ethereum/Crypto-Zombies/Solidity-Path/Lesson-1-Making-The-Zombie-Factory"
+                  },
+                  {
+                    "title": "Lesson 2 zombies attack their victims",
+                    "href": "/ethereum/Crypto-Zombies/Solidity-Path/Lesson-2-Zombies-Attack-Their-Victims"
+                  },
+                  {
+                    "title": "Lesson 3 advanced solidity concepts",
+                    "href": "/ethereum/Crypto-Zombies/Solidity-Path/Lesson-3-Advanced-Solidity-Concepts"
+                  },
+                  {
+                    "title": "Lesson 4 zombie battle system",
+                    "href": "/ethereum/Crypto-Zombies/Solidity-Path/Lesson-4-Zombie-Battle-System"
+                  },
+                  {
+                    "title": "Lesson 5 erc721 crypto collectibles",
+                    "href": "/ethereum/Crypto-Zombies/Solidity-Path/Lesson-5-ERC721-Crypto-Collectibles"
+                  },
+                  {
+                    "title": "Lesson 6 app frontends and web3js",
+                    "href": "/ethereum/Crypto-Zombies/Solidity-Path/Lesson-6-App-Frontends-And-Web3js"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Eth and solidarity complete guide",
+            "files": [
+              {
+                "title": "1 what is ethereum",
+                "href": "/ethereum/Eth-And-Solidarity-Complete-Guide/1-What-Is-Ethereum"
+              },
+              {
+                "title": "2 smart contracts with solidity",
+                "href": "/ethereum/Eth-And-Solidarity-Complete-Guide/2-Smart-Contracts-With-Solidity"
+              },
+              {
+                "title": "3 advanced smart contracts",
+                "href": "/ethereum/Eth-And-Solidarity-Complete-Guide/3-Advanced-Smart-Contracts"
+              },
+              {
+                "title": "4 building interactive frontends",
+                "href": "/ethereum/Eth-And-Solidarity-Complete-Guide/4-Building-Interactive-Frontends"
+              },
+              {
+                "title": "5 solving real problems with eth",
+                "href": "/ethereum/Eth-And-Solidarity-Complete-Guide/5-Solving-Real-Problems-With-Eth"
+              },
+              {
+                "title": "7 nextjs frontend application",
+                "href": "/ethereum/Eth-And-Solidarity-Complete-Guide/7-Nextjs-Frontend-Application"
+              }
+            ]
+          },
+          {
+            "title": "Hardhat",
+            "files": [
+              {
+                "title": "Getting started",
+                "href": "/ethereum/Hardhat/Getting-Started"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Event tracking",
+        "files": [
+          {
+            "title": "Naming conventions",
+            "href": "/event-tracking/naming-conventions"
+          }
+        ]
+      },
+      {
+        "title": "Expo",
+        "files": [
+          {
+            "title": "Quick start",
+            "href": "/expo/quick-start"
+          },
+          {
+            "title": "Working with detox",
+            "href": "/expo/working-with-detox"
+          }
+        ]
+      },
+      {
+        "title": "Express",
+        "files": [
+          {
+            "title": "Rate limiting",
+            "href": "/express/rate-limiting"
+          }
+        ]
+      },
+      {
+        "title": "Finance",
+        "dirs": [
+          {
+            "title": "Employee stock options and rsus",
+            "files": [
+              {
+                "title": "Employee stock options and rsus",
+                "href": "/finance/Employee-Stock-Options-And-RSUs/Employee-Stock-Options-And-RSUs"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Finger drumming",
+        "files": [
+          {
+            "title": "Introduction",
+            "href": "/finger-drumming/introduction"
+          }
+        ]
+      },
+      {
+        "title": "Flask",
+        "files": [
+          {
+            "title": "Hello world",
+            "href": "/flask/hello-world"
+          }
+        ]
+      },
+      {
+        "title": "French",
+        "files": [
+          {
+            "title": "Auxiliary verbs",
+            "href": "/french/auxiliary-verbs"
+          },
+          {
+            "title": "Causative construction",
+            "href": "/french/causative-construction"
+          },
+          {
+            "title": "Demonstrative adjectives",
+            "href": "/french/demonstrative-adjectives"
+          },
+          {
+            "title": "Glossary",
+            "href": "/french/glossary"
+          },
+          {
+            "title": "Infinitive verbs",
+            "href": "/french/infinitive-verbs"
+          },
+          {
+            "title": "Regular verb conjugations",
+            "href": "/french/regular-verb-conjugations"
+          },
+          {
+            "title": "Transitive intransitive verbs",
+            "href": "/french/transitive-intransitive-verbs"
+          }
+        ]
+      },
+      {
+        "title": "Functional programming",
+        "files": [
+          {
+            "title": "An example of constrained return types",
+            "href": "/functional-programming/an-example-of-constrained-return-types"
+          },
+          {
+            "title": "An example of hof for entities",
+            "href": "/functional-programming/an-example-of-hof-for-entities"
+          },
+          {
+            "title": "Functional architecture patterns",
+            "href": "/functional-programming/functional-architecture-patterns"
+          },
+          {
+            "title": "Functors and monads",
+            "href": "/functional-programming/functors-and-monads"
+          },
+          {
+            "title": "Hardcore fp in javascript v2",
+            "href": "/functional-programming/hardcore-fp-in-javascript-v2"
+          },
+          {
+            "title": "Hardcore fp in javascript",
+            "href": "/functional-programming/hardcore-fp-in-javascript"
+          },
+          {
+            "title": "Hardcore js patterns",
+            "href": "/functional-programming/hardcore-js-patterns"
+          },
+          {
+            "title": "Intro",
+            "href": "/functional-programming/intro"
+          }
+        ]
+      },
+      {
+        "title": "Generative art",
+        "files": [
+          {
+            "title": "P5 getting started",
+            "href": "/generative-art/p5-getting-started"
+          }
+        ],
+        "dirs": [
+          {
+            "title": "Programming graphics course",
+            "files": [
+              {
+                "title": "3 drawing visual assets",
+                "href": "/generative-art/Programming-Graphics-Course/3-Drawing-Visual-Assets"
+              },
+              {
+                "title": "4 basics",
+                "href": "/generative-art/Programming-Graphics-Course/4-Basics"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Git",
+        "files": [
+          {
+            "title": "Git complete",
+            "href": "/git/git-complete"
+          },
+          {
+            "title": "Git in depth",
+            "href": "/git/git-in-depth"
+          },
+          {
+            "title": "Intermediate git",
+            "href": "/git/intermediate-git"
+          },
+          {
+            "title": "Removing files from repo history",
+            "href": "/git/removing-files-from-repo-history"
+          },
+          {
+            "title": "Setup github ssh",
+            "href": "/git/setup-github-ssh"
+          },
+          {
+            "title": "Squashing commits",
+            "href": "/git/squashing-commits"
+          }
+        ]
+      },
+      {
+        "title": "Github",
+        "files": [
+          {
+            "title": "Npm packages",
+            "href": "/github/npm-packages"
+          },
+          {
+            "title": "Using octokit",
+            "href": "/github/using-octokit"
+          }
+        ]
+      },
+      {
+        "title": "Go",
+        "files": [
+          {
+            "title": "Authentication with goth",
+            "href": "/go/authentication-with-goth"
+          },
+          {
+            "title": "Cheat sheet",
+            "href": "/go/cheat-sheet"
+          },
+          {
+            "title": "Go basic slices",
+            "href": "/go/go-basic-slices"
+          },
+          {
+            "title": "Go basic strings",
+            "href": "/go/go-basic-strings"
+          },
+          {
+            "title": "Go dev guide",
+            "href": "/go/go-dev-guide"
+          },
+          {
+            "title": "Go fizz buzz",
+            "href": "/go/go-fizz-buzz"
+          },
+          {
+            "title": "Go for js devs",
+            "href": "/go/go-for-js-devs"
+          },
+          {
+            "title": "Go interfaces",
+            "href": "/go/go-interfaces"
+          },
+          {
+            "title": "Go lang overview",
+            "href": "/go/go-lang-overview"
+          },
+          {
+            "title": "Go methods and pointers",
+            "href": "/go/go-methods-and-pointers"
+          },
+          {
+            "title": "Go study 5 middleware",
+            "href": "/go/go-study-5-middleware"
+          },
+          {
+            "title": "Go study group",
+            "href": "/go/go-study-group"
+          },
+          {
+            "title": "Go style guide",
+            "href": "/go/go-style-guide"
+          },
+          {
+            "title": "Go tour channels",
+            "href": "/go/go-tour-channels"
+          },
+          {
+            "title": "Go tour go routines",
+            "href": "/go/go-tour-go-routines"
+          },
+          {
+            "title": "Go tour mutexes",
+            "href": "/go/go-tour-mutexes"
+          },
+          {
+            "title": "Go useful links",
+            "href": "/go/go-useful-links"
+          },
+          {
+            "title": "Lambda go servers",
+            "href": "/go/lambda-go-servers"
+          },
+          {
+            "title": "Project layout",
+            "href": "/go/project-layout"
+          },
+          {
+            "title": "Wtf go",
+            "href": "/go/wtf-go"
+          }
+        ]
+      },
+      {
+        "title": "Google cloud platform",
+        "files": [
+          {
+            "title": "Cloud vision nodejs",
+            "href": "/google-cloud-platform/cloud-vision-nodejs"
+          }
+        ]
+      },
+      {
+        "title": "Google play",
+        "files": [
+          {
+            "title": "Google play",
+            "href": "/google-play/google-play"
+          }
+        ]
+      },
+      {
+        "title": "Graphql",
+        "files": [
+          {
+            "title": "Advanced graphql v2",
+            "href": "/graphql/advanced-graphql-v2"
+          },
+          {
+            "title": "Clientside graphql in react",
+            "href": "/graphql/clientside-graphql-in-react"
+          },
+          {
+            "title": "Graphql",
+            "href": "/graphql/graphql"
+          },
+          {
+            "title": "Setting up heuristic matchers",
+            "href": "/graphql/setting-up-heuristic-matchers"
+          }
+        ]
+      },
+      {
+        "title": "Grpc",
+        "files": [
+          {
+            "title": "Grpc with go",
+            "href": "/grpc/grpc-with-go"
+          }
+        ]
+      },
+      {
+        "title": "Haskell",
+        "files": [
+          {
+            "title": "Hackerrank notes",
+            "href": "/haskell/hackerrank-notes"
+          },
+          {
+            "title": "Haskell from first principles",
+            "href": "/haskell/haskell-from-first-principles"
+          },
+          {
+            "title": "Learn you a haskell",
+            "href": "/haskell/learn-you-a-haskell"
+          },
+          {
+            "title": "Syntax in functions",
+            "href": "/haskell/syntax-in-functions"
+          },
+          {
+            "title": "Types and typeclasses",
+            "href": "/haskell/types-and-typeclasses"
+          }
+        ]
+      },
+      {
+        "title": "Hygen",
+        "files": [
+          {
+            "title": "Intro",
+            "href": "/hygen/intro"
+          }
+        ]
+      },
+      {
+        "title": "Images",
+        "files": [
+          {
+            "title": "Image compression",
+            "href": "/images/image-compression"
+          }
+        ]
+      },
+      {
+        "title": "Interactive shells",
+        "files": [
+          {
+            "title": "Accessing",
+            "href": "/interactive-shells/accessing"
+          }
+        ]
+      },
+      {
+        "title": "Ios",
+        "files": [
+          {
+            "title": "Apple watch",
+            "href": "/ios/apple-watch"
+          },
+          {
+            "title": "Ios delegation",
+            "href": "/ios/ios-delegation"
+          },
+          {
+            "title": "Ios gaming intro",
+            "href": "/ios/ios-gaming-intro"
+          },
+          {
+            "title": "Ios objc cheat sheet",
+            "href": "/ios/ios-objc-cheat-sheet"
+          },
+          {
+            "title": "Passkit",
+            "href": "/ios/passkit"
+          }
+        ]
+      },
+      {
+        "title": "Istio",
+        "files": [
+          {
+            "title": "Eks istio",
+            "href": "/istio/eks-istio"
+          }
+        ]
+      },
+      {
+        "title": "Java",
+        "files": [
+          {
+            "title": "Basic imports",
+            "href": "/java/basic-imports"
+          },
+          {
+            "title": "Cheat sheet",
+            "href": "/java/cheat-sheet"
+          },
+          {
+            "title": "Dependency management with gradle",
+            "href": "/java/dependency-management-with-gradle"
+          },
+          {
+            "title": "Gradle intro",
+            "href": "/java/gradle-intro"
+          },
+          {
+            "title": "Java basic tree",
+            "href": "/java/java-basic-tree"
+          },
+          {
+            "title": "Java fizz buzz",
+            "href": "/java/java-fizz-buzz"
+          },
+          {
+            "title": "Java initialising arrays",
+            "href": "/java/java-initialising-arrays"
+          },
+          {
+            "title": "Java iteration",
+            "href": "/java/java-iteration"
+          },
+          {
+            "title": "Java lambda funcs",
+            "href": "/java/java-lambda-funcs"
+          },
+          {
+            "title": "Java packages",
+            "href": "/java/java-packages"
+          },
+          {
+            "title": "Maps in java",
+            "href": "/java/maps-in-java"
+          }
+        ]
+      },
+      {
+        "title": "Javascript",
+        "files": [
+          {
+            "title": "Enzyme testing",
+            "href": "/javascript/enzyme-testing"
+          },
+          {
+            "title": "Es6 fiddle",
+            "href": "/javascript/es6-fiddle"
+          },
+          {
+            "title": "Es6 guide",
+            "href": "/javascript/es6-guide"
+          },
+          {
+            "title": "Express basics",
+            "href": "/javascript/express-basics"
+          },
+          {
+            "title": "Fp composing software",
+            "href": "/javascript/fp-composing-software"
+          },
+          {
+            "title": "Fp js libraries",
+            "href": "/javascript/fp-js-libraries"
+          },
+          {
+            "title": "Functional light javascript v3",
+            "href": "/javascript/functional-light-javascript-v3"
+          },
+          {
+            "title": "Gulp basics th",
+            "href": "/javascript/gulp-basics-th"
+          },
+          {
+            "title": "Javascript performance",
+            "href": "/javascript/javascript-performance"
+          },
+          {
+            "title": "Jquery code guide",
+            "href": "/javascript/jquery-code-guide"
+          },
+          {
+            "title": "Js cheat sheet",
+            "href": "/javascript/js-cheat-sheet"
+          },
+          {
+            "title": "Js d3 udemy",
+            "href": "/javascript/js-d3-udemy"
+          },
+          {
+            "title": "Js express",
+            "href": "/javascript/js-express"
+          },
+          {
+            "title": "Js grid alignment cheat sheet",
+            "href": "/javascript/js-grid-alignment-cheat-sheet"
+          },
+          {
+            "title": "Js interview essentials",
+            "href": "/javascript/js-interview-essentials"
+          },
+          {
+            "title": "Js rxjs",
+            "href": "/javascript/js-rxjs"
+          },
+          {
+            "title": "Js unit testing mocha chai",
+            "href": "/javascript/js-unit-testing-mocha-chai"
+          },
+          {
+            "title": "Js unit testing th",
+            "href": "/javascript/js-unit-testing-th"
+          },
+          {
+            "title": "Mean stack th",
+            "href": "/javascript/mean-stack-th"
+          },
+          {
+            "title": "Mean stack",
+            "href": "/javascript/mean-stack"
+          },
+          {
+            "title": "Mongo db code guide",
+            "href": "/javascript/mongo-db-code-guide"
+          },
+          {
+            "title": "Nightmare",
+            "href": "/javascript/nightmare"
+          },
+          {
+            "title": "O auth with passport",
+            "href": "/javascript/o-auth-with-passport"
+          },
+          {
+            "title": "Resources",
+            "href": "/javascript/resources"
+          },
+          {
+            "title": "Sinon js",
+            "href": "/javascript/sinon-js"
+          },
+          {
+            "title": "Testing cheat sheet",
+            "href": "/javascript/testing-cheat-sheet"
+          },
+          {
+            "title": "The hard parts v2",
+            "href": "/javascript/the-hard-parts-v2"
+          },
+          {
+            "title": "The new hard parts",
+            "href": "/javascript/the-new-hard-parts"
+          },
+          {
+            "title": "Understanding this",
+            "href": "/javascript/understanding-this"
+          },
+          {
+            "title": "User auth th",
+            "href": "/javascript/user-auth-th"
+          },
+          {
+            "title": "Xstate",
+            "href": "/javascript/xstate"
+          },
+          {
+            "title": "Yeoman generator",
+            "href": "/javascript/yeoman-generator"
+          }
+        ]
+      },
+      {
+        "title": "Jest",
+        "files": [
+          {
+            "title": "Extending jest",
+            "href": "/jest/extending-jest"
+          },
+          {
+            "title": "Js testing practices and principles",
+            "href": "/jest/js-testing-practices-and-principles"
+          }
+        ]
+      },
+      {
+        "title": "Jira",
+        "files": [
+          {
+            "title": "Usage",
+            "href": "/jira/usage"
+          }
+        ]
+      },
+      {
+        "title": "Kafka",
+        "files": [
+          {
+            "title": "Clients",
+            "href": "/kafka/clients"
+          },
+          {
+            "title": "Hello kafka",
+            "href": "/kafka/hello-kafka"
+          },
+          {
+            "title": "Kafka admin",
+            "href": "/kafka/kafka-admin"
+          },
+          {
+            "title": "Kafka advanced admin",
+            "href": "/kafka/kafka-advanced-admin"
+          },
+          {
+            "title": "Kafka at a glance",
+            "href": "/kafka/kafka-at-a-glance"
+          },
+          {
+            "title": "Kafka basic terms",
+            "href": "/kafka/kafka-basic-terms"
+          },
+          {
+            "title": "Kafka internals",
+            "href": "/kafka/kafka-internals"
+          }
+        ]
+      },
+      {
+        "title": "Kotlin",
+        "files": [
+          {
+            "title": "Kotlin arrays and lists",
+            "href": "/kotlin/kotlin-arrays-and-lists"
+          },
+          {
+            "title": "Kotlin basics",
+            "href": "/kotlin/kotlin-basics"
+          },
+          {
+            "title": "Kotlin building types",
+            "href": "/kotlin/kotlin-building-types"
+          },
+          {
+            "title": "Kotlin examples",
+            "href": "/kotlin/kotlin-examples"
+          },
+          {
+            "title": "Kotlin from cli",
+            "href": "/kotlin/kotlin-from-cli"
+          },
+          {
+            "title": "Kotlin lambdas",
+            "href": "/kotlin/kotlin-lambdas"
+          },
+          {
+            "title": "Kotlin study group",
+            "href": "/kotlin/kotlin-study-group"
+          }
+        ]
+      },
+      {
+        "title": "Kubernetes",
+        "files": [
+          {
+            "title": "Advanced topics",
+            "href": "/kubernetes/advanced-topics"
+          },
+          {
+            "title": "Aws eks starter",
+            "href": "/kubernetes/aws-eks-starter"
+          },
+          {
+            "title": "Eks ctl",
+            "href": "/kubernetes/eks-ctl"
+          },
+          {
+            "title": "Eks deploy stateful ebs app",
+            "href": "/kubernetes/eks-deploy-stateful-ebs-app"
+          },
+          {
+            "title": "Eks deploy stateful efs app",
+            "href": "/kubernetes/eks-deploy-stateful-efs-app"
+          },
+          {
+            "title": "Eks deploy stateless app",
+            "href": "/kubernetes/eks-deploy-stateless-app"
+          },
+          {
+            "title": "Eks docker setup",
+            "href": "/kubernetes/eks-docker-setup"
+          },
+          {
+            "title": "Eks in depth",
+            "href": "/kubernetes/eks-in-depth"
+          },
+          {
+            "title": "Eks kubernetes dashboard",
+            "href": "/kubernetes/eks-kubernetes-dashboard"
+          },
+          {
+            "title": "Helm redis",
+            "href": "/kubernetes/helm-redis"
+          },
+          {
+            "title": "Helm",
+            "href": "/kubernetes/helm"
+          },
+          {
+            "title": "Kops getting started",
+            "href": "/kubernetes/kops-getting-started"
+          },
+          {
+            "title": "Kubectl overview",
+            "href": "/kubernetes/kubectl-overview"
+          },
+          {
+            "title": "Kubeless",
+            "href": "/kubernetes/kubeless"
+          },
+          {
+            "title": "Kubernetes admin",
+            "href": "/kubernetes/kubernetes-admin"
+          },
+          {
+            "title": "Kubernetes basics",
+            "href": "/kubernetes/kubernetes-basics"
+          },
+          {
+            "title": "Kubernetes clusters",
+            "href": "/kubernetes/kubernetes-clusters"
+          },
+          {
+            "title": "Kubernetes course",
+            "href": "/kubernetes/kubernetes-course"
+          },
+          {
+            "title": "Kubernetes udacity",
+            "href": "/kubernetes/kubernetes-udacity"
+          },
+          {
+            "title": "Microservices",
+            "href": "/kubernetes/microservices"
+          },
+          {
+            "title": "Pulling from docker hub",
+            "href": "/kubernetes/pulling-from-docker-hub"
+          },
+          {
+            "title": "Skaffold local development",
+            "href": "/kubernetes/skaffold-local-development"
+          }
+        ],
+        "dirs": [
+          {
+            "title": "Cdk8s",
+            "files": [
+              {
+                "title": "Getting started with cdk8s",
+                "href": "/kubernetes/cdk8s/getting-started-with-cdk8s"
+              }
+            ]
+          },
+          {
+            "title": "Helm",
+            "files": [
+              {
+                "title": "Getting started with helm",
+                "href": "/kubernetes/helm/getting-started-with-helm"
+              }
+            ]
+          },
+          {
+            "title": "Rocking kubernetes course",
+            "files": [
+              {
+                "title": "1 kubernetes basics",
+                "href": "/kubernetes/rocking-kubernetes-course/1-kubernetes-basics"
+              },
+              {
+                "title": "2 eks basics",
+                "href": "/kubernetes/rocking-kubernetes-course/2-eks-basics"
+              },
+              {
+                "title": "3 logging and monitoring eks",
+                "href": "/kubernetes/rocking-kubernetes-course/3-logging-and-monitoring-eks"
+              },
+              {
+                "title": "4 advanced eks concepts",
+                "href": "/kubernetes/rocking-kubernetes-course/4-advanced-eks-concepts"
+              },
+              {
+                "title": "6 eks fargate",
+                "href": "/kubernetes/rocking-kubernetes-course/6-eks-fargate"
+              }
+            ]
+          },
+          {
+            "title": "Setup",
+            "files": [
+              {
+                "title": "Setup k8s locally",
+                "href": "/kubernetes/setup/Setup-k8s-locally"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Language learning",
+        "files": [
+          {
+            "title": "Approach to learning software languages",
+            "href": "/language-learning/approach-to-learning-software-languages"
+          },
+          {
+            "title": "Golang",
+            "href": "/language-learning/golang"
+          }
+        ]
+      },
+      {
+        "title": "Laravel",
+        "files": [
+          {
+            "title": "Laravel 5.4",
+            "href": "/laravel/laravel-5.4"
+          },
+          {
+            "title": "Laravel artisan",
+            "href": "/laravel/laravel-artisan"
+          },
+          {
+            "title": "Laravel basics th",
+            "href": "/laravel/laravel-basics-th"
+          }
+        ]
+      },
+      {
+        "title": "Lean product",
+        "files": [
+          {
+            "title": "Design system considerations",
+            "href": "/lean-product/design-system-considerations"
+          },
+          {
+            "title": "Product considerations",
+            "href": "/lean-product/product-considerations"
+          }
+        ]
+      },
+      {
+        "title": "Learn ruby the hard way",
+        "files": [
+          {
+            "title": "Learn ruby the hard way",
+            "href": "/learn-ruby-the-hard-way/learn-ruby-the-hard-way"
+          }
+        ]
+      },
+      {
+        "title": "Lerna",
+        "files": [
+          {
+            "title": "Getting started",
+            "href": "/lerna/getting-started"
+          }
+        ]
+      },
+      {
+        "title": "Linguistics",
+        "files": [
+          {
+            "title": "Conjugations",
+            "href": "/linguistics/conjugations"
+          },
+          {
+            "title": "Elements of style",
+            "href": "/linguistics/elements-of-style"
+          },
+          {
+            "title": "Regular and irregular verbs",
+            "href": "/linguistics/regular-and-irregular-verbs"
+          },
+          {
+            "title": "The art of language invention",
+            "href": "/linguistics/the-art-of-language-invention"
+          }
+        ]
+      },
+      {
+        "title": "Linkedin",
+        "files": [
+          {
+            "title": "Linkedin api cheat sheet",
+            "href": "/linkedin/linkedin-api-cheat-sheet"
+          }
+        ]
+      },
+      {
+        "title": "Linux",
+        "files": [
+          {
+            "title": "Linux essentials",
+            "href": "/linux/linux-essentials"
+          },
+          {
+            "title": "Managing ubuntu help sheet",
+            "href": "/linux/managing-ubuntu-help-sheet"
+          },
+          {
+            "title": "Ssh intro",
+            "href": "/linux/ssh-intro"
+          },
+          {
+            "title": "Writing bash scripts",
+            "href": "/linux/writing-bash-scripts"
+          }
+        ]
+      },
+      {
+        "title": "Machine learning",
+        "files": [
+          {
+            "title": "100 page ml book",
+            "href": "/machine-learning/100-page-ml-book"
+          },
+          {
+            "title": "Cl classification intro",
+            "href": "/machine-learning/cl-classification-intro"
+          },
+          {
+            "title": "Cl logistic regression",
+            "href": "/machine-learning/cl-logistic-regression"
+          },
+          {
+            "title": "Machine learning intro",
+            "href": "/machine-learning/machine-learning-intro"
+          },
+          {
+            "title": "Machine learning stanford",
+            "href": "/machine-learning/machine-learning-stanford"
+          },
+          {
+            "title": "Ml decision trees",
+            "href": "/machine-learning/ml-decision-trees"
+          },
+          {
+            "title": "Ml random forest regression",
+            "href": "/machine-learning/ml-random-forest-regression"
+          },
+          {
+            "title": "Ml regression model performance",
+            "href": "/machine-learning/ml-regression-model-performance"
+          },
+          {
+            "title": "Ml udemy",
+            "href": "/machine-learning/ml-udemy"
+          },
+          {
+            "title": "Practical deep learning",
+            "href": "/machine-learning/practical-deep-learning"
+          }
+        ]
+      },
+      {
+        "title": "Machine learning algos",
+        "files": [
+          {
+            "title": "K nearest neighbours",
+            "href": "/machine-learning-algos/k-nearest-neighbours"
+          }
+        ]
+      },
+      {
+        "title": "Maildev",
+        "files": [
+          {
+            "title": "Getting started with nodemailer",
+            "href": "/maildev/getting-started-with-nodemailer"
+          }
+        ]
+      },
+      {
+        "title": "Mathematics",
+        "files": [
+          {
+            "title": "Mathematics introduction",
+            "href": "/mathematics/mathematics-introduction"
+          },
+          {
+            "title": "Polynomials",
+            "href": "/mathematics/polynomials"
+          }
+        ]
+      },
+      {
+        "title": "Mental models",
+        "files": [
+          {
+            "title": "Intro to mental models",
+            "href": "/mental-models/intro-to-mental-models"
+          }
+        ]
+      },
+      {
+        "title": "Mermaid",
+        "files": [
+          {
+            "title": "Sequence diagram",
+            "href": "/mermaid/sequence-diagram"
+          }
+        ]
+      },
+      {
+        "title": "Mock service worker",
+        "files": [
+          {
+            "title": "Msw hotloading",
+            "href": "/mock-service-worker/msw-hotloading"
+          },
+          {
+            "title": "Msw with graphql",
+            "href": "/mock-service-worker/msw-with-graphql"
+          },
+          {
+            "title": "Msw with react",
+            "href": "/mock-service-worker/msw-with-react"
+          }
+        ]
+      },
+      {
+        "title": "Momentjs",
+        "files": [
+          {
+            "title": "Handling diff in days",
+            "href": "/momentjs/handling-diff-in-days"
+          }
+        ]
+      },
+      {
+        "title": "Music",
+        "files": [
+          {
+            "title": "Equipment",
+            "href": "/music/equipment"
+          }
+        ]
+      },
+      {
+        "title": "Music production",
+        "dirs": [
+          {
+            "title": "Lofi",
+            "files": [
+              {
+                "title": "Making lofi beats",
+                "href": "/music-production/lofi/Making-Lofi-Beats"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Mysql",
+        "files": [
+          {
+            "title": "Mysql",
+            "href": "/mysql/mysql"
+          }
+        ]
+      },
+      {
+        "title": "Ndb",
+        "files": [
+          {
+            "title": "Ndb overview",
+            "href": "/ndb/ndb-overview"
+          }
+        ]
+      },
+      {
+        "title": "Networking",
+        "files": [
+          {
+            "title": "Firewall",
+            "href": "/networking/firewall"
+          },
+          {
+            "title": "Network address translation",
+            "href": "/networking/network-address-translation"
+          },
+          {
+            "title": "Network protocol fundamentals",
+            "href": "/networking/network-protocol-fundamentals"
+          },
+          {
+            "title": "Routing fundamentals",
+            "href": "/networking/routing-fundamentals"
+          },
+          {
+            "title": "Secure sockets layer",
+            "href": "/networking/secure-sockets-layer"
+          },
+          {
+            "title": "Subnetting fundamentals",
+            "href": "/networking/subnetting-fundamentals"
+          }
+        ]
+      },
+      {
+        "title": "Next",
+        "files": [
+          {
+            "title": "Hello next",
+            "href": "/next/hello-next"
+          },
+          {
+            "title": "Next auth",
+            "href": "/next/next-auth"
+          },
+          {
+            "title": "Nextjs lamda with custom server",
+            "href": "/next/nextjs-lamda-with-custom-server"
+          },
+          {
+            "title": "Production nextjs",
+            "href": "/next/production-nextjs"
+          }
+        ]
+      },
+      {
+        "title": "Nginx",
+        "files": [
+          {
+            "title": "Nginx nodejs docker",
+            "href": "/nginx/nginx-nodejs-docker"
+          }
+        ]
+      },
+      {
+        "title": "Nodejs",
+        "files": [
+          {
+            "title": "Async hooks",
+            "href": "/nodejs/async-hooks"
+          },
+          {
+            "title": "Digging into nodejs",
+            "href": "/nodejs/digging-into-nodejs"
+          },
+          {
+            "title": "Enhancing node performance",
+            "href": "/nodejs/enhancing-node-performance"
+          },
+          {
+            "title": "Hard parts of nodejs",
+            "href": "/nodejs/hard-parts-of-nodejs"
+          },
+          {
+            "title": "Microservices with nodejs react",
+            "href": "/nodejs/microservices-with-nodejs-react"
+          },
+          {
+            "title": "Node internals",
+            "href": "/nodejs/node-internals"
+          },
+          {
+            "title": "Nodebots",
+            "href": "/nodejs/nodebots"
+          }
+        ]
+      },
+      {
+        "title": "Npm",
+        "files": [
+          {
+            "title": "Building react libraries",
+            "href": "/npm/building-react-libraries"
+          },
+          {
+            "title": "Npm as a task runner",
+            "href": "/npm/npm-as-a-task-runner"
+          },
+          {
+            "title": "Npm cheat sheet",
+            "href": "/npm/npm-cheat-sheet"
+          },
+          {
+            "title": "Npm create package",
+            "href": "/npm/npm-create-package"
+          }
+        ]
+      },
+      {
+        "title": "Osi model",
+        "files": [
+          {
+            "title": "What is osi",
+            "href": "/osi-model/what-is-osi"
+          }
+        ]
+      },
+      {
+        "title": "P5js",
+        "files": [
+          {
+            "title": "Intro to p5js",
+            "href": "/p5js/intro-to-p5js"
+          }
+        ]
+      },
+      {
+        "title": "Parcel",
+        "files": [
+          {
+            "title": "Parcel react",
+            "href": "/parcel/parcel-react"
+          }
+        ]
+      },
+      {
+        "title": "Personal",
+        "files": [
+          {
+            "title": "Job preparation examples",
+            "href": "/personal/job-preparation-examples"
+          }
+        ]
+      },
+      {
+        "title": "Php",
+        "files": [
+          {
+            "title": "Pdo cheat sheet",
+            "href": "/php/pdo-cheat-sheet"
+          },
+          {
+            "title": "Php anon funcs",
+            "href": "/php/php-anon-funcs"
+          },
+          {
+            "title": "Php arrays",
+            "href": "/php/php-arrays"
+          },
+          {
+            "title": "Php basics",
+            "href": "/php/php-basics"
+          },
+          {
+            "title": "Php cheat sheet",
+            "href": "/php/php-cheat-sheet"
+          },
+          {
+            "title": "Php constructors",
+            "href": "/php/php-constructors"
+          },
+          {
+            "title": "Php unit tests",
+            "href": "/php/php-unit-tests"
+          }
+        ]
+      },
+      {
+        "title": "Posix",
+        "files": [
+          {
+            "title": "Posix intro",
+            "href": "/posix/posix-intro"
+          }
+        ]
+      },
+      {
+        "title": "Postgressql",
+        "files": [
+          {
+            "title": "Psql tips",
+            "href": "/postgressql/psql-tips"
+          }
+        ]
+      },
+      {
+        "title": "Principles",
+        "files": [
+          {
+            "title": "Communications",
+            "href": "/principles/communications"
+          },
+          {
+            "title": "Components",
+            "href": "/principles/components"
+          },
+          {
+            "title": "Copy",
+            "href": "/principles/copy"
+          },
+          {
+            "title": "Events",
+            "href": "/principles/events"
+          },
+          {
+            "title": "Fileslayout",
+            "href": "/principles/fileslayout"
+          },
+          {
+            "title": "Motion",
+            "href": "/principles/motion"
+          },
+          {
+            "title": "Naming",
+            "href": "/principles/naming"
+          },
+          {
+            "title": "Patterns",
+            "href": "/principles/patterns"
+          },
+          {
+            "title": "Principles",
+            "href": "/principles/principles"
+          },
+          {
+            "title": "Resources",
+            "href": "/principles/resources"
+          },
+          {
+            "title": "Software first principles",
+            "href": "/principles/software-first-principles"
+          },
+          {
+            "title": "Structures",
+            "href": "/principles/structures"
+          },
+          {
+            "title": "Styling",
+            "href": "/principles/styling"
+          },
+          {
+            "title": "Typography",
+            "href": "/principles/typography"
+          },
+          {
+            "title": "Web checklist",
+            "href": "/principles/web-checklist"
+          }
+        ]
+      },
+      {
+        "title": "Product discovery",
+        "files": [
+          {
+            "title": "Best continous discovery mindsets",
+            "href": "/product-discovery/best-continous-discovery-mindsets"
+          },
+          {
+            "title": "Intro to modern product discovery",
+            "href": "/product-discovery/intro-to-modern-product-discovery"
+          },
+          {
+            "title": "Keystone habit",
+            "href": "/product-discovery/keystone-habit"
+          },
+          {
+            "title": "Lean canvas",
+            "href": "/product-discovery/lean-canvas"
+          },
+          {
+            "title": "Opportunity solution tree",
+            "href": "/product-discovery/opportunity-solution-tree"
+          },
+          {
+            "title": "Product discovery case study",
+            "href": "/product-discovery/product-discovery-case-study"
+          },
+          {
+            "title": "Product discovery principles",
+            "href": "/product-discovery/product-discovery-principles"
+          },
+          {
+            "title": "Story mapping",
+            "href": "/product-discovery/story-mapping"
+          }
+        ]
+      },
+      {
+        "title": "Productivity",
+        "files": [
+          {
+            "title": "Productivity",
+            "href": "/productivity/productivity"
+          }
+        ]
+      },
+      {
+        "title": "Productivity engineering.md",
+        "files": [
+          {
+            "title": "Tappable configurations",
+            "href": "/productivity-engineering.md/tappable-configurations"
+          }
+        ]
+      },
+      {
+        "title": "Programming languages",
+        "files": [
+          {
+            "title": "Code transformation and linting with asts",
+            "href": "/programming-languages/code-transformation-and-linting-with-asts"
+          },
+          {
+            "title": "Creating your own language",
+            "href": "/programming-languages/creating-your-own-language"
+          }
+        ]
+      },
+      {
+        "title": "Protocols",
+        "files": [
+          {
+            "title": "Address resolution protocol",
+            "href": "/protocols/address-resolution-protocol"
+          },
+          {
+            "title": "Border gateway protocol",
+            "href": "/protocols/border-gateway-protocol"
+          },
+          {
+            "title": "File transfer protocol",
+            "href": "/protocols/file-transfer-protocol"
+          },
+          {
+            "title": "Hypertext transfer protocol",
+            "href": "/protocols/hypertext-transfer-protocol"
+          },
+          {
+            "title": "Path vector protocol",
+            "href": "/protocols/path-vector-protocol"
+          },
+          {
+            "title": "Secure shell",
+            "href": "/protocols/secure-shell"
+          },
+          {
+            "title": "Simple mail transfer protocol",
+            "href": "/protocols/simple-mail-transfer-protocol"
+          }
+        ]
+      },
+      {
+        "title": "Puppeteer",
+        "files": [
+          {
+            "title": "Dev tool assertions",
+            "href": "/puppeteer/dev-tool-assertions"
+          },
+          {
+            "title": "Recorder",
+            "href": "/puppeteer/recorder"
+          },
+          {
+            "title": "Screenshot anything",
+            "href": "/puppeteer/screenshot-anything"
+          }
+        ]
+      },
+      {
+        "title": "Python",
+        "files": [
+          {
+            "title": "Examples",
+            "href": "/python/examples"
+          },
+          {
+            "title": "Mutex locks",
+            "href": "/python/mutex-locks"
+          },
+          {
+            "title": "Package management",
+            "href": "/python/package-management"
+          },
+          {
+            "title": "Python collections",
+            "href": "/python/python-collections"
+          },
+          {
+            "title": "Python data structures",
+            "href": "/python/python-data-structures"
+          },
+          {
+            "title": "Python exceptions",
+            "href": "/python/python-exceptions"
+          },
+          {
+            "title": "Python intermediate data science",
+            "href": "/python/python-intermediate-data-science"
+          },
+          {
+            "title": "Python intro to data science",
+            "href": "/python/python-intro-to-data-science"
+          },
+          {
+            "title": "Python object orientated",
+            "href": "/python/python-object-orientated"
+          },
+          {
+            "title": "Python slack bot",
+            "href": "/python/python-slack-bot"
+          },
+          {
+            "title": "Thread pool usage",
+            "href": "/python/thread-pool-usage"
+          },
+          {
+            "title": "Writing csv files",
+            "href": "/python/writing-csv-files"
+          },
+          {
+            "title": "Wtf python",
+            "href": "/python/wtf-python"
+          }
+        ]
+      },
+      {
+        "title": "Quick start",
+        "files": [
+          {
+            "title": "Golang",
+            "href": "/quick-start/golang"
+          },
+          {
+            "title": "Ruby",
+            "href": "/quick-start/ruby"
+          }
+        ]
+      },
+      {
+        "title": "R",
+        "files": [
+          {
+            "title": "R intermediate",
+            "href": "/r/r-intermediate"
+          },
+          {
+            "title": "R intro",
+            "href": "/r/r-intro"
+          }
+        ]
+      },
+      {
+        "title": "Raspberry pi",
+        "files": [
+          {
+            "title": "Setting up wifi",
+            "href": "/raspberry-pi/setting-up-wifi"
+          }
+        ]
+      },
+      {
+        "title": "React",
+        "files": [
+          {
+            "title": "Advanced react patterns",
+            "href": "/react/advanced-react-patterns"
+          },
+          {
+            "title": "Context api",
+            "href": "/react/context-api"
+          },
+          {
+            "title": "Data vis for react developers",
+            "href": "/react/data-vis-for-react-developers"
+          },
+          {
+            "title": "Dynamic imports",
+            "href": "/react/dynamic-imports"
+          },
+          {
+            "title": "Guidelines",
+            "href": "/react/guidelines"
+          },
+          {
+            "title": "Implementing use context with typescript",
+            "href": "/react/implementing-use-context-with-typescript"
+          },
+          {
+            "title": "Intro",
+            "href": "/react/intro"
+          },
+          {
+            "title": "Lead debouncing with hooks",
+            "href": "/react/lead-debouncing-with-hooks"
+          },
+          {
+            "title": "React best practices 2021",
+            "href": "/react/react-best-practices-2021"
+          },
+          {
+            "title": "React ssr",
+            "href": "/react/react-ssr"
+          },
+          {
+            "title": "React testing library",
+            "href": "/react/react-testing-library"
+          },
+          {
+            "title": "Simplest react setup",
+            "href": "/react/simplest-react-setup"
+          },
+          {
+            "title": "State management in pure react",
+            "href": "/react/state-management-in-pure-react"
+          },
+          {
+            "title": "Structure",
+            "href": "/react/structure"
+          },
+          {
+            "title": "Testing react applications",
+            "href": "/react/testing-react-applications"
+          },
+          {
+            "title": "Webpack federaton with react",
+            "href": "/react/webpack-federaton-with-react"
+          }
+        ],
+        "dirs": [
+          {
+            "title": "React remotion",
+            "files": [
+              {
+                "title": "Getting started",
+                "href": "/react/react-remotion/getting-started"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "React native",
+        "files": [
+          {
+            "title": "React native cheat sheet",
+            "href": "/react-native/react-native-cheat-sheet"
+          },
+          {
+            "title": "React native code guide",
+            "href": "/react-native/react-native-code-guide"
+          },
+          {
+            "title": "React native for ios devs",
+            "href": "/react-native/react-native-for-ios-devs"
+          },
+          {
+            "title": "React native ibeacon",
+            "href": "/react-native/react-native-ibeacon"
+          },
+          {
+            "title": "React native redux",
+            "href": "/react-native/react-native-redux"
+          },
+          {
+            "title": "React native with scss",
+            "href": "/react-native/react-native-with-scss"
+          },
+          {
+            "title": "Setting up expo redux saga",
+            "href": "/react-native/setting-up-expo-redux-saga"
+          }
+        ]
+      },
+      {
+        "title": "React notes",
+        "files": [
+          {
+            "title": "Advanced react redux",
+            "href": "/react-notes/advanced-react-redux"
+          },
+          {
+            "title": "Flux basics",
+            "href": "/react-notes/flux-basics"
+          },
+          {
+            "title": "React animations",
+            "href": "/react-notes/react-animations"
+          },
+          {
+            "title": "React context",
+            "href": "/react-notes/react-context"
+          },
+          {
+            "title": "React hooks",
+            "href": "/react-notes/react-hooks"
+          },
+          {
+            "title": "React portals",
+            "href": "/react-notes/react-portals"
+          },
+          {
+            "title": "React redux middleware",
+            "href": "/react-notes/react-redux-middleware"
+          },
+          {
+            "title": "React style guide",
+            "href": "/react-notes/react-style-guide"
+          },
+          {
+            "title": "React testing enzyme",
+            "href": "/react-notes/react-testing-enzyme"
+          },
+          {
+            "title": "React with redux",
+            "href": "/react-notes/react-with-redux"
+          },
+          {
+            "title": "Th react basics",
+            "href": "/react-notes/th-react-basics"
+          }
+        ]
+      },
+      {
+        "title": "React query",
+        "files": [
+          {
+            "title": "Getting started",
+            "href": "/react-query/getting-started"
+          },
+          {
+            "title": "Invalidations course",
+            "href": "/react-query/invalidations-course"
+          },
+          {
+            "title": "Mutations course",
+            "href": "/react-query/mutations-course"
+          },
+          {
+            "title": "Optimistic updates course",
+            "href": "/react-query/optimistic-updates-course"
+          },
+          {
+            "title": "Paginated queries course",
+            "href": "/react-query/paginated-queries-course"
+          },
+          {
+            "title": "Prefetching course",
+            "href": "/react-query/prefetching-course"
+          },
+          {
+            "title": "Queries course",
+            "href": "/react-query/queries-course"
+          },
+          {
+            "title": "Use mutation",
+            "href": "/react-query/use-mutation"
+          },
+          {
+            "title": "V2 vs v3",
+            "href": "/react-query/v2-vs-v3"
+          },
+          {
+            "title": "With nextjs",
+            "href": "/react-query/with-nextjs"
+          }
+        ]
+      },
+      {
+        "title": "React router",
+        "files": [
+          {
+            "title": "React router v5 quickstart",
+            "href": "/react-router/react-router-v5-quickstart"
+          }
+        ]
+      },
+      {
+        "title": "Reasonml",
+        "files": [
+          {
+            "title": "Reason hello world",
+            "href": "/reasonml/reason-hello-world"
+          }
+        ]
+      },
+      {
+        "title": "Redis",
+        "files": [
+          {
+            "title": "Redis kue nodejs",
+            "href": "/redis/redis-kue-nodejs"
+          },
+          {
+            "title": "Redis nodejs",
+            "href": "/redis/redis-nodejs"
+          },
+          {
+            "title": "Redis",
+            "href": "/redis/redis"
+          }
+        ]
+      },
+      {
+        "title": "Redux",
+        "files": [
+          {
+            "title": "Intro to reselect",
+            "href": "/redux/intro-to-reselect"
+          },
+          {
+            "title": "Reduxpersist",
+            "href": "/redux/reduxpersist"
+          }
+        ],
+        "dirs": [
+          {
+            "title": "Redux toolkit",
+            "files": [
+              {
+                "title": "Usage with react context",
+                "href": "/redux/redux-toolkit/usage-with-react-context"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Roadmaps",
+        "files": [
+          {
+            "title": "Roadmaps intro",
+            "href": "/roadmaps/roadmaps-intro"
+          }
+        ]
+      },
+      {
+        "title": "Rspec",
+        "files": [
+          {
+            "title": "Rspec intro",
+            "href": "/rspec/rspec-intro"
+          },
+          {
+            "title": "Ruby best practices",
+            "href": "/rspec/ruby-best-practices"
+          },
+          {
+            "title": "Working with dates",
+            "href": "/rspec/working-with-dates"
+          }
+        ]
+      },
+      {
+        "title": "Ruby",
+        "files": [
+          {
+            "title": "Cocoapods workshop",
+            "href": "/ruby/cocoapods-workshop"
+          },
+          {
+            "title": "How does the ruby interpreter work",
+            "href": "/ruby/how-does-the-ruby-interpreter-work"
+          },
+          {
+            "title": "Intro",
+            "href": "/ruby/intro"
+          },
+          {
+            "title": "Metaprogramming ruby 2",
+            "href": "/ruby/metaprogramming-ruby-2"
+          },
+          {
+            "title": "Quick start",
+            "href": "/ruby/quick-start"
+          },
+          {
+            "title": "Rails useful tidbits",
+            "href": "/ruby/rails-useful-tidbits"
+          },
+          {
+            "title": "Ruby arrays",
+            "href": "/ruby/ruby-arrays"
+          },
+          {
+            "title": "Ruby blocks procs lambdas",
+            "href": "/ruby/ruby-blocks-procs-lambdas"
+          },
+          {
+            "title": "Ruby cheat sheet",
+            "href": "/ruby/ruby-cheat-sheet"
+          },
+          {
+            "title": "Ruby code guide",
+            "href": "/ruby/ruby-code-guide"
+          },
+          {
+            "title": "Ruby constructors",
+            "href": "/ruby/ruby-constructors"
+          },
+          {
+            "title": "Ruby currying",
+            "href": "/ruby/ruby-currying"
+          },
+          {
+            "title": "Ruby debugging",
+            "href": "/ruby/ruby-debugging"
+          },
+          {
+            "title": "Ruby double pipe operator",
+            "href": "/ruby/ruby-double-pipe-operator"
+          },
+          {
+            "title": "Ruby error handling",
+            "href": "/ruby/ruby-error-handling"
+          },
+          {
+            "title": "Ruby lambda funcs",
+            "href": "/ruby/ruby-lambda-funcs"
+          },
+          {
+            "title": "Ruby methods",
+            "href": "/ruby/ruby-methods"
+          },
+          {
+            "title": "Ruby modules",
+            "href": "/ruby/ruby-modules"
+          },
+          {
+            "title": "Ruby nil",
+            "href": "/ruby/ruby-nil"
+          },
+          {
+            "title": "Ruby on rails",
+            "href": "/ruby/ruby-on-rails"
+          },
+          {
+            "title": "Ruby symbols",
+            "href": "/ruby/ruby-symbols"
+          },
+          {
+            "title": "Ruby version manager",
+            "href": "/ruby/ruby-version-manager"
+          },
+          {
+            "title": "Safe navigation operator",
+            "href": "/ruby/safe-navigation-operator"
+          }
+        ],
+        "dirs": [
+          {
+            "title": "Minitest",
+            "files": [
+              {
+                "title": "Style guide",
+                "href": "/ruby/minitest/style-guide"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Ruby on rails",
+        "files": [
+          {
+            "title": "Factory bot rails",
+            "href": "/ruby-on-rails/factory-bot-rails"
+          },
+          {
+            "title": "Introduction",
+            "href": "/ruby-on-rails/introduction"
+          },
+          {
+            "title": "Rails api from scratch",
+            "href": "/ruby-on-rails/rails-api-from-scratch"
+          },
+          {
+            "title": "Relations",
+            "href": "/ruby-on-rails/relations"
+          }
+        ]
+      },
+      {
+        "title": "Ruby on rails tutorial",
+        "dirs": [
+          {
+            "title": "Chapters",
+            "files": [
+              {
+                "title": "1 from zero to deploy",
+                "href": "/ruby-on-rails-tutorial/chapters/1-from-zero-to-deploy"
+              },
+              {
+                "title": "10 updating showing deleting users",
+                "href": "/ruby-on-rails-tutorial/chapters/10-updating-showing-deleting-users"
+              },
+              {
+                "title": "13 user microposts",
+                "href": "/ruby-on-rails-tutorial/chapters/13-user-microposts"
+              },
+              {
+                "title": "14 following users",
+                "href": "/ruby-on-rails-tutorial/chapters/14-following-users"
+              },
+              {
+                "title": "2 toy app",
+                "href": "/ruby-on-rails-tutorial/chapters/2-toy-app"
+              },
+              {
+                "title": "3 mostly static pages",
+                "href": "/ruby-on-rails-tutorial/chapters/3-mostly-static-pages"
+              },
+              {
+                "title": "4 rails flavoured ruby",
+                "href": "/ruby-on-rails-tutorial/chapters/4-rails-flavoured-ruby"
+              },
+              {
+                "title": "6 modelling users",
+                "href": "/ruby-on-rails-tutorial/chapters/6-modelling-users"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Rust",
+        "files": [
+          {
+            "title": "Building rust clis",
+            "href": "/rust/building-rust-clis"
+          },
+          {
+            "title": "Learning rust",
+            "href": "/rust/learning-rust"
+          },
+          {
+            "title": "Quickstart",
+            "href": "/rust/quickstart"
+          },
+          {
+            "title": "Redirection in rust",
+            "href": "/rust/redirection-in-rust"
+          },
+          {
+            "title": "Rust lang org book",
+            "href": "/rust/rust-lang-org-book"
+          },
+          {
+            "title": "Rust useful tidbits",
+            "href": "/rust/rust-useful-tidbits"
+          }
+        ],
+        "dirs": [
+          {
+            "title": "The rust programming language course",
+            "files": [
+              {
+                "title": "1 introduction",
+                "href": "/rust/The-Rust-Programming-Language-Course/1-Introduction"
+              },
+              {
+                "title": "2 primitives",
+                "href": "/rust/The-Rust-Programming-Language-Course/2-Primitives"
+              },
+              {
+                "title": "3 collections",
+                "href": "/rust/The-Rust-Programming-Language-Course/3-Collections"
+              },
+              {
+                "title": "4 pattern matching",
+                "href": "/rust/The-Rust-Programming-Language-Course/4-Pattern-Matching"
+              },
+              {
+                "title": "5 vectors",
+                "href": "/rust/The-Rust-Programming-Language-Course/5-Vectors"
+              },
+              {
+                "title": "6 ownership",
+                "href": "/rust/The-Rust-Programming-Language-Course/6-Ownership"
+              },
+              {
+                "title": "7 borrowing",
+                "href": "/rust/The-Rust-Programming-Language-Course/7-Borrowing"
+              },
+              {
+                "title": "8 lifetimes",
+                "href": "/rust/The-Rust-Programming-Language-Course/8-Lifetimes"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Scala",
+        "files": [
+          {
+            "title": "Intro to scala",
+            "href": "/scala/intro-to-scala"
+          },
+          {
+            "title": "Scala expressions",
+            "href": "/scala/scala-expressions"
+          },
+          {
+            "title": "Scala values variables types",
+            "href": "/scala/scala-values-variables-types"
+          }
+        ]
+      },
+      {
+        "title": "Security",
+        "files": [
+          {
+            "title": "Owasp top ten",
+            "href": "/security/owasp-top-ten"
+          },
+          {
+            "title": "Security intro",
+            "href": "/security/security-intro"
+          }
+        ]
+      },
+      {
+        "title": "Segment",
+        "files": [
+          {
+            "title": "Intro",
+            "href": "/segment/intro"
+          }
+        ]
+      },
+      {
+        "title": "Seo",
+        "files": [
+          {
+            "title": "Seo for beginners",
+            "href": "/seo/seo-for-beginners"
+          }
+        ]
+      },
+      {
+        "title": "Server side react",
+        "files": [
+          {
+            "title": "Create react app server side",
+            "href": "/server-side-react/create-react-app-server-side"
+          },
+          {
+            "title": "Server side rendering with react and redux",
+            "href": "/server-side-react/server-side-rendering-with-react-and-redux"
+          }
+        ]
+      },
+      {
+        "title": "Shape up",
+        "files": [
+          {
+            "title": "Hill charts",
+            "href": "/shape-up/hill-charts"
+          }
+        ]
+      },
+      {
+        "title": "Shopify",
+        "dirs": [
+          {
+            "title": "Development",
+            "files": [
+              {
+                "title": "Setting up a dev store",
+                "href": "/shopify/development/setting-up-a-dev-store"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Site reliability engineering",
+        "files": [
+          {
+            "title": "Glossary",
+            "href": "/site-reliability-engineering/glossary"
+          },
+          {
+            "title": "Service level objectives",
+            "href": "/site-reliability-engineering/service-level-objectives"
+          },
+          {
+            "title": "Toil",
+            "href": "/site-reliability-engineering/toil"
+          }
+        ]
+      },
+      {
+        "title": "Skaffold",
+        "files": [
+          {
+            "title": "Intro",
+            "href": "/skaffold/intro"
+          }
+        ]
+      },
+      {
+        "title": "Sketch",
+        "files": [
+          {
+            "title": "Principles",
+            "href": "/sketch/principles"
+          }
+        ]
+      },
+      {
+        "title": "Smartling",
+        "files": [
+          {
+            "title": "Smartling cli",
+            "href": "/smartling/smartling-cli"
+          },
+          {
+            "title": "Working with smartling",
+            "href": "/smartling/working-with-smartling"
+          }
+        ]
+      },
+      {
+        "title": "Snowpack",
+        "files": [
+          {
+            "title": "Snowpack with create react app",
+            "href": "/snowpack/snowpack-with-create-react-app"
+          }
+        ]
+      },
+      {
+        "title": "Software architecture",
+        "dirs": [
+          {
+            "title": "Outstanding solution architect course",
+            "files": [
+              {
+                "title": "1 the architect and the team",
+                "href": "/software-architecture/outstanding-solution-architect-course/1-The-Architect-And-The-Team"
+              },
+              {
+                "title": "2 what makes a great architect",
+                "href": "/software-architecture/outstanding-solution-architect-course/2-What-Makes-A-Great-Architect"
+              },
+              {
+                "title": "3 designing a software architecture",
+                "href": "/software-architecture/outstanding-solution-architect-course/3-Designing-A-Software-Architecture"
+              },
+              {
+                "title": "4 architectural design patterns",
+                "href": "/software-architecture/outstanding-solution-architect-course/4-Architectural-Design-Patterns"
+              },
+              {
+                "title": "5 designing layers components and services",
+                "href": "/software-architecture/outstanding-solution-architect-course/5-Designing-Layers-Components-And-Services"
+              },
+              {
+                "title": "6 architecture considerations",
+                "href": "/software-architecture/outstanding-solution-architect-course/6-Architecture-Considerations"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Sql",
+        "files": [
+          {
+            "title": "Indexing example",
+            "href": "/sql/indexing-example"
+          },
+          {
+            "title": "Indexing resources",
+            "href": "/sql/indexing-resources"
+          },
+          {
+            "title": "Sql tuning",
+            "href": "/sql/sql-tuning"
+          },
+          {
+            "title": "Sql window functions",
+            "href": "/sql/sql-window-functions"
+          }
+        ]
+      },
+      {
+        "title": "Storybook",
+        "files": [
+          {
+            "title": "Adding docs",
+            "href": "/storybook/adding-docs"
+          },
+          {
+            "title": "Adding knobs",
+            "href": "/storybook/adding-knobs"
+          },
+          {
+            "title": "Integrating redux",
+            "href": "/storybook/integrating-redux"
+          },
+          {
+            "title": "Intro",
+            "href": "/storybook/intro"
+          },
+          {
+            "title": "Storybook sass",
+            "href": "/storybook/storybook-sass"
+          },
+          {
+            "title": "Webpack sass",
+            "href": "/storybook/webpack-sass"
+          }
+        ]
+      },
+      {
+        "title": "Stripe",
+        "files": [
+          {
+            "title": "Charges vs payment intent",
+            "href": "/stripe/charges-vs-payment-intent"
+          },
+          {
+            "title": "Stripe api integrations",
+            "href": "/stripe/stripe-api-integrations"
+          },
+          {
+            "title": "Stripe cli",
+            "href": "/stripe/stripe-cli"
+          },
+          {
+            "title": "Stripe node deprecated",
+            "href": "/stripe/stripe-node-deprecated"
+          },
+          {
+            "title": "Stripe node react",
+            "href": "/stripe/stripe-node-react"
+          },
+          {
+            "title": "Stripe product line",
+            "href": "/stripe/stripe-product-line"
+          },
+          {
+            "title": "Stripe samples",
+            "href": "/stripe/stripe-samples"
+          }
+        ],
+        "dirs": [
+          {
+            "title": "Configuration",
+            "files": [
+              {
+                "title": "Dotnet stripe configuration",
+                "href": "/stripe/configuration/dotnet-stripe-configuration"
+              },
+              {
+                "title": "Flask stripe configuration",
+                "href": "/stripe/configuration/flask-stripe-configuration"
+              },
+              {
+                "title": "Gin stripe configuration",
+                "href": "/stripe/configuration/gin-stripe-configuration"
+              },
+              {
+                "title": "Node saas with stripe",
+                "href": "/stripe/configuration/node-saas-with-stripe"
+              },
+              {
+                "title": "Rails stripe configuration",
+                "href": "/stripe/configuration/rails-stripe-configuration"
+              },
+              {
+                "title": "React stripe elements",
+                "href": "/stripe/configuration/react-stripe-elements"
+              },
+              {
+                "title": "Slim stripe configuration",
+                "href": "/stripe/configuration/slim-stripe-configuration"
+              },
+              {
+                "title": "Spring stripe configuration",
+                "href": "/stripe/configuration/spring-stripe-configuration"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Style",
+        "files": [
+          {
+            "title": "Base animations",
+            "href": "/style/base-animations"
+          },
+          {
+            "title": "Base mixins",
+            "href": "/style/base-mixins"
+          },
+          {
+            "title": "Base",
+            "href": "/style/base"
+          },
+          {
+            "title": "Style",
+            "href": "/style/style"
+          }
+        ]
+      },
+      {
+        "title": "Styled components",
+        "files": [
+          {
+            "title": "Intro with styled systems",
+            "href": "/styled-components/intro-with-styled-systems"
+          }
+        ]
+      },
+      {
+        "title": "Supervised learning with scikit learn",
+        "files": [
+          {
+            "title": "1 classification",
+            "href": "/supervised-learning-with-scikit-learn/1-Classification"
+          },
+          {
+            "title": "2 regression",
+            "href": "/supervised-learning-with-scikit-learn/2-Regression"
+          },
+          {
+            "title": "3 fine tuning your model",
+            "href": "/supervised-learning-with-scikit-learn/3-Fine-Tuning-Your-Model"
+          },
+          {
+            "title": "4 preprocessing data",
+            "href": "/supervised-learning-with-scikit-learn/4-Preprocessing-Data"
+          }
+        ]
+      },
+      {
+        "title": "Swift",
+        "files": [
+          {
+            "title": "Swift 3 api design guidelines",
+            "href": "/swift/swift-3-api-design-guidelines"
+          },
+          {
+            "title": "Swift 3 extensions",
+            "href": "/swift/swift-3-extensions"
+          },
+          {
+            "title": "Swift 3 methods",
+            "href": "/swift/swift-3-methods"
+          },
+          {
+            "title": "Swift 3 oop",
+            "href": "/swift/swift-3-oop"
+          },
+          {
+            "title": "Swift 3 protocols",
+            "href": "/swift/swift-3-protocols"
+          },
+          {
+            "title": "Swift package manager",
+            "href": "/swift/swift-package-manager"
+          }
+        ]
+      },
+      {
+        "title": "System design",
+        "files": [
+          {
+            "title": "Data systems",
+            "href": "/system-design/data-systems"
+          },
+          {
+            "title": "Distributed data",
+            "href": "/system-design/distributed-data"
+          },
+          {
+            "title": "Glossary",
+            "href": "/system-design/glossary"
+          },
+          {
+            "title": "Interviews",
+            "href": "/system-design/interviews"
+          }
+        ]
+      },
+      {
+        "title": "Tableau",
+        "files": [
+          {
+            "title": "Tableau live talk",
+            "href": "/tableau/tableau-live-talk"
+          }
+        ]
+      },
+      {
+        "title": "Tailwind",
+        "files": [
+          {
+            "title": "Quickstart",
+            "href": "/tailwind/quickstart"
+          },
+          {
+            "title": "Tailwind socketio example",
+            "href": "/tailwind/tailwind-socketio-example"
+          },
+          {
+            "title": "Using with css variables",
+            "href": "/tailwind/using-with-css-variables"
+          }
+        ]
+      },
+      {
+        "title": "Tensorflow",
+        "files": [
+          {
+            "title": "Tensorflow js",
+            "href": "/tensorflow/tensorflow-js"
+          }
+        ]
+      },
+      {
+        "title": "Terminal",
+        "files": [
+          {
+            "title": "Tips and tricks",
+            "href": "/terminal/tips-and-tricks"
+          }
+        ]
+      },
+      {
+        "title": "Terraform",
+        "files": [
+          {
+            "title": "Terraform",
+            "href": "/terraform/terraform"
+          }
+        ]
+      },
+      {
+        "title": "Testing",
+        "files": [
+          {
+            "title": "Enzyme",
+            "href": "/testing/enzyme"
+          },
+          {
+            "title": "Intro",
+            "href": "/testing/intro"
+          },
+          {
+            "title": "Mocha and chai",
+            "href": "/testing/mocha-and-chai"
+          },
+          {
+            "title": "Puppeteer",
+            "href": "/testing/puppeteer"
+          },
+          {
+            "title": "Regression testing",
+            "href": "/testing/regression-testing"
+          },
+          {
+            "title": "Ui testing web",
+            "href": "/testing/ui-testing-web"
+          }
+        ]
+      },
+      {
+        "title": "Threejs",
+        "dirs": [
+          {
+            "title": "Journey",
+            "files": [
+              {
+                "title": "1 introduction",
+                "href": "/threejs/journey/1-Introduction"
+              },
+              {
+                "title": "3 advanced techniques",
+                "href": "/threejs/journey/3-Advanced-Techniques"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Timber",
+        "files": [
+          {
+            "title": "Timber cheat sheet",
+            "href": "/timber/timber-cheat-sheet"
+          }
+        ]
+      },
+      {
+        "title": "Tooling",
+        "files": [
+          {
+            "title": "Awesome cli tools",
+            "href": "/tooling/awesome-cli-tools"
+          }
+        ]
+      },
+      {
+        "title": "Treat",
+        "files": [
+          {
+            "title": "Index",
+            "href": "/treat/index"
+          },
+          {
+            "title": "Playroom with treat",
+            "href": "/treat/playroom-with-treat"
+          },
+          {
+            "title": "Storybook with treat",
+            "href": "/treat/storybook-with-treat"
+          }
+        ]
+      },
+      {
+        "title": "Twig",
+        "files": [
+          {
+            "title": "Twig cheat sheet",
+            "href": "/twig/twig-cheat-sheet"
+          }
+        ]
+      },
+      {
+        "title": "Typescript",
+        "files": [
+          {
+            "title": "Developers guide",
+            "href": "/typescript/developers-guide"
+          },
+          {
+            "title": "Duck typing",
+            "href": "/typescript/duck-typing"
+          },
+          {
+            "title": "Enforcing prop names",
+            "href": "/typescript/enforcing-prop-names"
+          },
+          {
+            "title": "Getting started",
+            "href": "/typescript/getting-started"
+          },
+          {
+            "title": "Production typescript course",
+            "href": "/typescript/production-typescript-course"
+          },
+          {
+            "title": "Ts fundamentals v2",
+            "href": "/typescript/ts-fundamentals-v2"
+          }
+        ]
+      },
+      {
+        "title": "Ui",
+        "dirs": [
+          {
+            "title": "Refactoring ui",
+            "files": [
+              {
+                "title": "Principles",
+                "href": "/ui/refactoring-ui/principles"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Unity",
+        "files": [
+          {
+            "title": "How to make a video game",
+            "href": "/unity/how-to-make-a-video-game"
+          },
+          {
+            "title": "Unity basics",
+            "href": "/unity/unity-basics"
+          }
+        ]
+      },
+      {
+        "title": "Unix",
+        "files": [
+          {
+            "title": "Appending files",
+            "href": "/unix/appending-files"
+          },
+          {
+            "title": "Redirection",
+            "href": "/unix/redirection"
+          },
+          {
+            "title": "Unix command line",
+            "href": "/unix/unix-command-line"
+          }
+        ]
+      },
+      {
+        "title": "Ux testing",
+        "files": [
+          {
+            "title": "Research design",
+            "href": "/ux-testing/research-design"
+          }
+        ]
+      },
+      {
+        "title": "Vagrant",
+        "files": [
+          {
+            "title": "Vagrant overview",
+            "href": "/vagrant/vagrant-overview"
+          }
+        ]
+      },
+      {
+        "title": "Vim",
+        "files": [
+          {
+            "title": "Intermediate vim",
+            "href": "/vim/intermediate-vim"
+          },
+          {
+            "title": "Neovim",
+            "href": "/vim/neovim"
+          },
+          {
+            "title": "Vim",
+            "href": "/vim/vim"
+          }
+        ]
+      },
+      {
+        "title": "Virtual file systems",
+        "files": [
+          {
+            "title": "Intro",
+            "href": "/virtual-file-systems/intro"
+          }
+        ]
+      },
+      {
+        "title": "Vscode",
+        "files": [
+          {
+            "title": "Debugging react chrome vscode settings",
+            "href": "/vscode/debugging-react-chrome-vscode-settings"
+          },
+          {
+            "title": "Vscode can do that",
+            "href": "/vscode/vscode-can-do-that"
+          },
+          {
+            "title": "Your first vscode extension",
+            "href": "/vscode/your-first-vscode-extension"
+          }
+        ]
+      },
+      {
+        "title": "Web",
+        "files": [
+          {
+            "title": "Accessibility course",
+            "href": "/web/accessibility-course"
+          },
+          {
+            "title": "Aria tags",
+            "href": "/web/aria-tags"
+          },
+          {
+            "title": "Exploring service workers",
+            "href": "/web/exploring-service-workers"
+          },
+          {
+            "title": "Web apis",
+            "href": "/web/web-apis"
+          },
+          {
+            "title": "Web concepts",
+            "href": "/web/web-concepts"
+          }
+        ],
+        "dirs": [
+          {
+            "title": "Web performance fundamentals",
+            "files": [
+              {
+                "title": "1 elements of performance",
+                "href": "/web/web-performance-fundamentals/1-elements-of-performance"
+              },
+              {
+                "title": "2 metrics",
+                "href": "/web/web-performance-fundamentals/2-metrics"
+              },
+              {
+                "title": "3 improving performance",
+                "href": "/web/web-performance-fundamentals/3-improving-performance"
+              },
+              {
+                "title": "4 optimizing metrics",
+                "href": "/web/web-performance-fundamentals/4-optimizing-metrics"
+              },
+              {
+                "title": "5 planning",
+                "href": "/web/web-performance-fundamentals/5-planning"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Web assembly",
+        "files": [
+          {
+            "title": "1 web assembly basics",
+            "href": "/web-assembly/1-web-assembly-basics"
+          },
+          {
+            "title": "2 web assembly",
+            "href": "/web-assembly/2-web-assembly"
+          },
+          {
+            "title": "3 assembly script",
+            "href": "/web-assembly/3-assembly-script"
+          }
+        ]
+      },
+      {
+        "title": "Web servers",
+        "files": [
+          {
+            "title": "Resources",
+            "href": "/web-servers/resources"
+          }
+        ]
+      },
+      {
+        "title": "Webpack",
+        "files": [
+          {
+            "title": "Building a webpack plugin",
+            "href": "/webpack/building-a-webpack-plugin"
+          },
+          {
+            "title": "Webpack 2",
+            "href": "/webpack/webpack-2"
+          },
+          {
+            "title": "Webpack 4 fundamentals",
+            "href": "/webpack/webpack-4-fundamentals"
+          },
+          {
+            "title": "Webpack 5 federation",
+            "href": "/webpack/webpack-5-federation"
+          },
+          {
+            "title": "Webpack optimisation",
+            "href": "/webpack/webpack-optimisation"
+          },
+          {
+            "title": "Webpack performance",
+            "href": "/webpack/webpack-performance"
+          },
+          {
+            "title": "Webpack plugins",
+            "href": "/webpack/webpack-plugins"
+          },
+          {
+            "title": "Webpack",
+            "href": "/webpack/webpack"
+          }
+        ]
+      },
+      {
+        "title": "Wordpress",
+        "files": [
+          {
+            "title": "Wordpress cheat sheet",
+            "href": "/wordpress/wordpress-cheat-sheet"
+          },
+          {
+            "title": "Wp pc cheat sheet",
+            "href": "/wordpress/wp-pc-cheat-sheet"
+          },
+          {
+            "title": "Wp pc setup cheat sheet",
+            "href": "/wordpress/wp-pc-setup-cheat-sheet"
+          }
+        ]
+      },
+      {
+        "title": "Writing",
+        "files": [
+          {
+            "title": "Writing with flair",
+            "href": "/writing/writing-with-flair"
+          }
+        ]
+      },
+      {
+        "title": "Xstate",
+        "files": [
+          {
+            "title": "State machines in js",
+            "href": "/xstate/state-machines-in-js"
+          }
+        ],
+        "dirs": [
+          {
+            "title": "Xstate with react",
+            "files": [
+              {
+                "title": "Xstate with react",
+                "href": "/xstate/xstate-with-react/xstate-with-react"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Yarn",
+        "files": [
+          {
+            "title": "Workspaces in yarn",
+            "href": "/yarn/workspaces-in-yarn"
+          }
+        ]
+      },
+      {
+        "title": "Zeit now",
+        "files": [
+          {
+            "title": "Typescript github example",
+            "href": "/zeit-now/typescript-github-example"
+          }
+        ]
+      }
+    ]
+  }
+}

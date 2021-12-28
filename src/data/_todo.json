@@ -1,0 +1,19 @@
+{
+  "posts": [
+    "content/blog/2020-12-09-dynamic-components-nextjs.mdx",
+    "content/blog/2020-11-28-gatsby-starter-blog-creating-similar.mdx",
+    "content/blog/2020-07-19-cra-with-snowpack.mdx",
+    "content/blog/2020-07-07-css-is-hard.mdx",
+    "content/blog/2020-07-06-deploying-a-serverless-go-api.mdx",
+    "content/blog/2020-07-05-learning-a-new-language-tips.mdx",
+    "content/blog/2020-07-05-your-first-github-npm-package-in-five-minutes.mdx",
+    "content/blog/2020-07-04-hello-fiber.mdx",
+    "content/blog/2020-07-04-abcs-of-pipenv.mdx",
+    "content/blog/2020-07-02-up-and-running-with-factory-bot.mdx",
+    "content/blog/2020-07-01-screenshot-anything-with-puppeteer.mdx",
+    "content/blog/2020-06-24-next-auth-with-nextjs-docker-mysql.mdx",
+    "content/blog/2020-06-23-creating-alfred-shortcut-for-dev-notes.mdx",
+    "content/blog/2020-06-23-dead-code-elimination-with-the-babel-ast-parser.mdx",
+    "content/blog/2020-06-23-electron-with-parcel.mdx"
+  ]
+}

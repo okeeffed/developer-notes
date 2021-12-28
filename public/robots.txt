@@ -1,1 +1,6 @@
-Disallow: *
+Sitemap: https://blog.dennisokeeffe.com/sitemap.xml
+
+User-agent: *
+Allow: /*
+
+Disallow: /api/*
