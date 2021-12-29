@@ -1,25 +1,25 @@
 const { BundleAnalyzerPlugin } = require("webpack-bundle-analyzer");
 // const DuplicatePackageCheckerPlugin = require("duplicate-package-checker-webpack-plugin");
-const urlPaths = require("./public/urls.json");
+// const urlPaths = require("./public/urls.json");
 
 module.exports = {
-  async redirects() {
-    return urlPaths.redirects;
-  },
-  async headers() {
-    return [
-      {
-        source: "/blog/:slug*(svg|jpg|png)",
-        locale: false,
-        headers: [
-          {
-            key: "Cache-Control",
-            value: "public, max-age=2592000, must-revalidate",
-          },
-        ],
-      },
-    ];
-  },
+  // async redirects() {
+  //   return urlPaths.redirects;
+  // },
+  // async headers() {
+  //   return [
+  //     {
+  //       source: "/blog/:slug*(svg|jpg|png)",
+  //       locale: false,
+  //       headers: [
+  //         {
+  //           key: "Cache-Control",
+  //           value: "public, max-age=2592000, must-revalidate",
+  //         },
+  //       ],
+  //     },
+  //   ];
+  // },
   images: {
     domains: ["dtyyfw8oh5wdw.cloudfront.net", "cdn.dennisokeeffe.com"],
   },
