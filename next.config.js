@@ -23,10 +23,6 @@ module.exports = {
   images: {
     domains: ["dtyyfw8oh5wdw.cloudfront.net", "cdn.dennisokeeffe.com"],
   },
-  i18n: {
-    locales: ["en"],
-    defaultLocale: "en",
-  },
   webpack: (config, { isServer }) => {
     // config.plugins.push(new DuplicatePackageCheckerPlugin());
     if (process.env.ANALYZE) {
