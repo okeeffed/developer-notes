@@ -48,8 +48,8 @@ import { Waypoint } from "react-waypoint";
 
 import { DarkModeToggle } from "../../components/DarkModeToggle";
 import { useSelectedImage } from "../../hooks/useSelectedImage";
+import DOKIcon from "../../icons/dok.png";
 import { logEvent } from "../../utils/amplitude/amplitude";
-import DOKIcon from "../icons/dok.png";
 
 const CodeBlock = dynamic(() =>
   import("../../components/CodeBlock").then((mod) => mod.CodeBlock)
