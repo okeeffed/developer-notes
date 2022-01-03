@@ -59,6 +59,11 @@ const CodeBlock = dynamic(() =>
 const CodeBlockTabs = dynamic(() =>
   import("../components/CodeBlockTabs").then((mod) => mod.CodeBlockTabs)
 );
+
+// @ts-expect-error: props required
+const SimpleQuiz = dynamic(() =>
+  import("../components/SimpleQuiz").then((mod) => mod.SimpleQuiz)
+);
 const BlockMath = dynamic(() => import("../components/BlockMath/BlockMath"));
 const ImageModal = dynamic(() =>
   import("src/components/ImageModal/ImageModal").then((mod) => mod.ImageModal)
@@ -226,6 +231,7 @@ const components: Record<string, React.FC<HTMLProps>> = {
     <BlockMath title={title} {...props} />
   ),
   CodeBlockTabs: (props) => <CodeBlockTabs {...props} />,
+  SimpleQuiz: (props) => <SimpleQuiz {...props} />,
 };
 
 components.h1.displayName = "h1";
@@ -248,6 +254,7 @@ components.thead.displayName = "thead";
 components.tfoot.displayName = "tfoot";
 components.BlockMath.displayName = "BlockMath";
 components.CodeBlockTabs.displayName = "CodeBlockTabs";
+components.SimpleQuiz.displayName = "SimpleQuiz";
 
 type FrontMatter = {
   title: string;
@@ -510,6 +517,7 @@ export const getStaticProps: GetStaticProps = async (context) => {
   const componentNames = [
     /<BlockMath/.test(content) ? "BlockMath" : null,
     /<CodeBlockTabs/.test(content) ? "CodeBlockTabs" : null,
+    /<SimpleQuiz/.test(content) ? "SimpleQuiz" : null,
   ].filter(Boolean);
 
   return {
