@@ -18,7 +18,28 @@ class MyDocument extends Document {
   render() {
     return (
       <Html lang={this.props.locale}>
-        <Head />
+        <Head>
+          <meta
+            name="google-site-verification"
+            content="rF9T3lHvmMrLF2AA1DpzkyZUJ6MZCKYvXAtxpuRyhL8"
+          ></meta>
+          {/* google adsense */}
+          <script
+            data-ad-client="ca-pub-3242257428325939"
+            async
+            src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
+          ></script>
+          {/* <script
+            dangerouslySetInnerHTML={{
+              __html: `
+        (adsbygoogle = window.adsbygoogle || []).push({
+            google_ad_client: "ca-pub-3242257428325939",
+            enable_page_level_ads: true
+            });
+            `,
+            }}
+          /> */}
+        </Head>
         <body>
           <ColorModeScript initialColorMode={theme.config.initialColorMode} />
           <Main />

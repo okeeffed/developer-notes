@@ -501,6 +501,15 @@
         ],
         "dirs": [
           {
+            "title": "Ec2",
+            "files": [
+              {
+                "title": "Remembering ec2 instances",
+                "href": "/aws/EC2/Remembering-EC2-Instances"
+              }
+            ]
+          },
+          {
             "title": "Learn catrill",
             "dirs": [
               {
@@ -2949,6 +2958,10 @@
       {
         "title": "Osi model",
         "files": [
+          {
+            "title": "Mnemonic for osi model",
+            "href": "/osi-model/Mnemonic-for-OSI-Model"
+          },
           {
             "title": "What is osi",
             "href": "/osi-model/what-is-osi"

@@ -27,6 +27,7 @@ import {
   useColorModeValue,
   VStack,
 } from "@chakra-ui/react";
+import { Adsense } from "@components/Adsense";
 import { PackageSearch } from "@components/PackageSearch";
 import { Sidebar } from "@components/Sidebar";
 import { ExternalLinkIcon } from "@heroicons/react/outline";
@@ -400,6 +401,7 @@ export default function Blog({
                   }
                 />
               )}
+              <Adsense />
 
               <div className="wrapper">
                 {/* @ts-expect-error: untyped MDXRemote file */}
@@ -442,6 +444,8 @@ export default function Blog({
                   </NextLink>
                 </Box>
               ))}
+              <Divider />
+              <Adsense />
             </VStack>
           </GridItem>
         </Grid>
