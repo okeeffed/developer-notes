@@ -21,34 +21,14 @@
       "label": "sound-production-course"
     },
     {
-      "url": "/alexa/nodejs-skill",
-      "tag": "alexa",
-      "label": "nodejs-skill"
-    },
-    {
       "url": "/accessibility/a11y-in-javascript",
       "tag": "accessibility",
       "label": "a11y-in-javascript"
     },
     {
-      "url": "/algebra/intro",
-      "tag": "algebra",
-      "label": "intro"
-    },
-    {
-      "url": "/algebra/properties",
-      "tag": "algebra",
-      "label": "properties"
-    },
-    {
-      "url": "/algebra/shortcuts",
-      "tag": "algebra",
-      "label": "shortcuts"
-    },
-    {
-      "url": "/algebra/solving-linear-equations",
-      "tag": "algebra",
-      "label": "solving-linear-equations"
+      "url": "/alexa/nodejs-skill",
+      "tag": "alexa",
+      "label": "nodejs-skill"
     },
     {
       "url": "/amplify/adding-storage",
@@ -66,19 +46,14 @@
       "label": "graphql-setup"
     },
     {
-      "url": "/algorithms/abcheck",
-      "tag": "algorithms",
-      "label": "abcheck"
-    },
-    {
       "url": "/algorithms/alphabet-soup",
       "tag": "algorithms",
       "label": "alphabet-soup"
     },
     {
-      "url": "/algorithms/an-introduction",
+      "url": "/algorithms/abcheck",
       "tag": "algorithms",
-      "label": "an-introduction"
+      "label": "abcheck"
     },
     {
       "url": "/algorithms/arith-geo",
@@ -86,14 +61,9 @@
       "label": "arith-geo"
     },
     {
-      "url": "/algorithms/array-addition",
+      "url": "/algorithms/an-introduction",
       "tag": "algorithms",
-      "label": "array-addition"
-    },
-    {
-      "url": "/algorithms/array-manipulation",
-      "tag": "algorithms",
-      "label": "array-manipulation"
+      "label": "an-introduction"
     },
     {
       "url": "/algorithms/binary-converter",
@@ -101,9 +71,19 @@
       "label": "binary-converter"
     },
     {
+      "url": "/algorithms/array-manipulation",
+      "tag": "algorithms",
+      "label": "array-manipulation"
+    },
+    {
       "url": "/algorithms/bracket-matcher",
       "tag": "algorithms",
       "label": "bracket-matcher"
+    },
+    {
+      "url": "/algorithms/array-addition",
+      "tag": "algorithms",
+      "label": "array-addition"
     },
     {
       "url": "/algorithms/caesar-cipher",
@@ -116,14 +96,14 @@
       "label": "case-swap"
     },
     {
-      "url": "/algorithms/check-nums",
-      "tag": "algorithms",
-      "label": "check-nums"
-    },
-    {
       "url": "/algorithms/consecutive",
       "tag": "algorithms",
       "label": "consecutive"
+    },
+    {
+      "url": "/algorithms/check-nums",
+      "tag": "algorithms",
+      "label": "check-nums"
     },
     {
       "url": "/algorithms/convert-time",
@@ -136,11 +116,6 @@
       "label": "dash-insert-two"
     },
     {
-      "url": "/algorithms/division",
-      "tag": "algorithms",
-      "label": "division"
-    },
-    {
       "url": "/algorithms/exoh",
       "tag": "algorithms",
       "label": "exoh"
@@ -151,14 +126,14 @@
       "label": "fibonnaci-checker"
     },
     {
+      "url": "/algorithms/division",
+      "tag": "algorithms",
+      "label": "division"
+    },
+    {
       "url": "/algorithms/find-intersection-of-strings",
       "tag": "algorithms",
       "label": "find-intersection-of-strings"
-    },
-    {
-      "url": "/algorithms/first-factorial",
-      "tag": "algorithms",
-      "label": "first-factorial"
     },
     {
       "url": "/algorithms/first-reverse",
@@ -286,6 +261,31 @@
       "label": "word-count"
     },
     {
+      "url": "/algorithms/first-factorial",
+      "tag": "algorithms",
+      "label": "first-factorial"
+    },
+    {
+      "url": "/algebra/properties",
+      "tag": "algebra",
+      "label": "properties"
+    },
+    {
+      "url": "/algebra/intro",
+      "tag": "algebra",
+      "label": "intro"
+    },
+    {
+      "url": "/algebra/shortcuts",
+      "tag": "algebra",
+      "label": "shortcuts"
+    },
+    {
+      "url": "/algebra/solving-linear-equations",
+      "tag": "algebra",
+      "label": "solving-linear-equations"
+    },
+    {
       "url": "/android/lists-and-adapters",
       "tag": "android",
       "label": "lists-and-adapters"
@@ -346,61 +346,6 @@
       "label": "sqs-event-source-with-lambda"
     },
     {
-      "url": "/books/conversation-casanova",
-      "tag": "books",
-      "label": "conversation-casanova"
-    },
-    {
-      "url": "/books/high-performance-habits",
-      "tag": "books",
-      "label": "high-performance-habits"
-    },
-    {
-      "url": "/books/intercom-on-product-management",
-      "tag": "books",
-      "label": "intercom-on-product-management"
-    },
-    {
-      "url": "/books/loonshots",
-      "tag": "books",
-      "label": "loonshots"
-    },
-    {
-      "url": "/books/mans-search-for-meaning",
-      "tag": "books",
-      "label": "mans-search-for-meaning"
-    },
-    {
-      "url": "/books/mastering-logical-fallacies",
-      "tag": "books",
-      "label": "mastering-logical-fallacies"
-    },
-    {
-      "url": "/books/never-split-the-difference",
-      "tag": "books",
-      "label": "never-split-the-difference"
-    },
-    {
-      "url": "/books/strategize",
-      "tag": "books",
-      "label": "strategize"
-    },
-    {
-      "url": "/books/the-48-laws-of-power",
-      "tag": "books",
-      "label": "the-48-laws-of-power"
-    },
-    {
-      "url": "/books/the-subtle-art",
-      "tag": "books",
-      "label": "the-subtle-art"
-    },
-    {
-      "url": "/bots/api-ai-bot",
-      "tag": "bots",
-      "label": "api-ai-bot"
-    },
-    {
       "url": "/big-data/big-data-essentials",
       "tag": "big-data",
       "label": "big-data-essentials"
@@ -414,6 +359,11 @@
       "url": "/braintree/sandbox",
       "tag": "braintree",
       "label": "sandbox"
+    },
+    {
+      "url": "/bots/api-ai-bot",
+      "tag": "bots",
+      "label": "api-ai-bot"
     },
     {
       "url": "/business/personal-mba",
@@ -451,14 +401,14 @@
       "label": "react-chrome-extensions"
     },
     {
-      "url": "/communication/introduction",
-      "tag": "communication",
-      "label": "introduction"
-    },
-    {
       "url": "/codemod/codemod-with-babel",
       "tag": "codemod",
       "label": "codemod-with-babel"
+    },
+    {
+      "url": "/communication/introduction",
+      "tag": "communication",
+      "label": "introduction"
     },
     {
       "url": "/comp3306-ai/2-problem-solving-and-search",
@@ -471,14 +421,64 @@
       "label": "3-a*-algorithm"
     },
     {
-      "url": "/comp3520-os/2-process-description-and-control",
-      "tag": "comp3520-os",
-      "label": "2-process-description-and-control"
+      "url": "/books/conversation-casanova",
+      "tag": "books",
+      "label": "conversation-casanova"
+    },
+    {
+      "url": "/books/high-performance-habits",
+      "tag": "books",
+      "label": "high-performance-habits"
+    },
+    {
+      "url": "/books/intercom-on-product-management",
+      "tag": "books",
+      "label": "intercom-on-product-management"
+    },
+    {
+      "url": "/books/loonshots",
+      "tag": "books",
+      "label": "loonshots"
+    },
+    {
+      "url": "/books/mans-search-for-meaning",
+      "tag": "books",
+      "label": "mans-search-for-meaning"
+    },
+    {
+      "url": "/books/mastering-logical-fallacies",
+      "tag": "books",
+      "label": "mastering-logical-fallacies"
+    },
+    {
+      "url": "/books/never-split-the-difference",
+      "tag": "books",
+      "label": "never-split-the-difference"
+    },
+    {
+      "url": "/books/the-48-laws-of-power",
+      "tag": "books",
+      "label": "the-48-laws-of-power"
+    },
+    {
+      "url": "/books/the-subtle-art",
+      "tag": "books",
+      "label": "the-subtle-art"
+    },
+    {
+      "url": "/books/strategize",
+      "tag": "books",
+      "label": "strategize"
     },
     {
       "url": "/comp3520-os/3-threads",
       "tag": "comp3520-os",
       "label": "3-threads"
+    },
+    {
+      "url": "/comp3520-os/2-process-description-and-control",
+      "tag": "comp3520-os",
+      "label": "2-process-description-and-control"
     },
     {
       "url": "/comp3520-os/pthread",
@@ -506,19 +506,14 @@
       "label": "single-instruction-multi-data"
     },
     {
-      "url": "/computer-science/space-complexity",
-      "tag": "computer-science",
-      "label": "space-complexity"
-    },
-    {
       "url": "/computer-science/type-theory",
       "tag": "computer-science",
       "label": "type-theory"
     },
     {
-      "url": "/consulting/questions-to-ask",
-      "tag": "consulting",
-      "label": "questions-to-ask"
+      "url": "/computer-science/space-complexity",
+      "tag": "computer-science",
+      "label": "space-complexity"
     },
     {
       "url": "/containers/containers-vs-vms",
@@ -526,14 +521,24 @@
       "label": "containers-vs-vms"
     },
     {
+      "url": "/consulting/questions-to-ask",
+      "tag": "consulting",
+      "label": "questions-to-ask"
+    },
+    {
       "url": "/conventional-commits/automating-versioning",
       "tag": "conventional-commits",
       "label": "automating-versioning"
     },
     {
-      "url": "/cpp/cpp-udemy",
-      "tag": "cpp",
-      "label": "cpp-udemy"
+      "url": "/contentful/contentful-js-api",
+      "tag": "contentful",
+      "label": "contentful-js-api"
+    },
+    {
+      "url": "/cooking/kitchen-essentials",
+      "tag": "cooking",
+      "label": "kitchen-essentials"
     },
     {
       "url": "/crontab/mac-crontab",
@@ -566,29 +571,24 @@
       "label": "css-transitions-transforms-cheat-sheet"
     },
     {
-      "url": "/css/flexbox-help-sheet",
-      "tag": "css",
-      "label": "flexbox-help-sheet"
-    },
-    {
       "url": "/css/rscss-code-guide",
       "tag": "css",
       "label": "rscss-code-guide"
     },
     {
-      "url": "/cooking/kitchen-essentials",
-      "tag": "cooking",
-      "label": "kitchen-essentials"
+      "url": "/css/flexbox-help-sheet",
+      "tag": "css",
+      "label": "flexbox-help-sheet"
+    },
+    {
+      "url": "/cpp/cpp-udemy",
+      "tag": "cpp",
+      "label": "cpp-udemy"
     },
     {
       "url": "/cypress/handover",
       "tag": "cypress",
       "label": "handover"
-    },
-    {
-      "url": "/contentful/contentful-js-api",
-      "tag": "contentful",
-      "label": "contentful-js-api"
     },
     {
       "url": "/d3/d3",
@@ -606,14 +606,39 @@
       "label": "intro-to-data-engineering"
     },
     {
+      "url": "/data-science/intermediat-ds-python",
+      "tag": "data-science",
+      "label": "intermediat-ds-python"
+    },
+    {
+      "url": "/databases/data-warehouses",
+      "tag": "databases",
+      "label": "data-warehouses"
+    },
+    {
+      "url": "/databases/etl",
+      "tag": "databases",
+      "label": "etl"
+    },
+    {
+      "url": "/databases/normalisation",
+      "tag": "databases",
+      "label": "normalisation"
+    },
+    {
+      "url": "/databases/intro-and-overview",
+      "tag": "databases",
+      "label": "intro-and-overview"
+    },
+    {
+      "url": "/dayjs/sorting-iso8601-times",
+      "tag": "dayjs",
+      "label": "sorting-iso8601-times"
+    },
+    {
       "url": "/data-structures/count-vowels",
       "tag": "data-structures",
       "label": "count-vowels"
-    },
-    {
-      "url": "/data-structures/go",
-      "tag": "data-structures",
-      "label": "go"
     },
     {
       "url": "/data-structures/javascript",
@@ -631,9 +656,9 @@
       "label": "understanding-big-o-notation"
     },
     {
-      "url": "/data-structures/understanding-search-algorithms",
+      "url": "/data-structures/go",
       "tag": "data-structures",
-      "label": "understanding-search-algorithms"
+      "label": "go"
     },
     {
       "url": "/data-structures/understanding-sorting-algorithms",
@@ -641,34 +666,9 @@
       "label": "understanding-sorting-algorithms"
     },
     {
-      "url": "/data-science/intermediat-ds-python",
-      "tag": "data-science",
-      "label": "intermediat-ds-python"
-    },
-    {
-      "url": "/databases/data-warehouses",
-      "tag": "databases",
-      "label": "data-warehouses"
-    },
-    {
-      "url": "/databases/etl",
-      "tag": "databases",
-      "label": "etl"
-    },
-    {
-      "url": "/databases/intro-and-overview",
-      "tag": "databases",
-      "label": "intro-and-overview"
-    },
-    {
-      "url": "/databases/normalisation",
-      "tag": "databases",
-      "label": "normalisation"
-    },
-    {
-      "url": "/dayjs/sorting-iso8601-times",
-      "tag": "dayjs",
-      "label": "sorting-iso8601-times"
+      "url": "/data-structures/understanding-search-algorithms",
+      "tag": "data-structures",
+      "label": "understanding-search-algorithms"
     },
     {
       "url": "/debugging/resources",
@@ -684,21 +684,6 @@
       "url": "/design/design-fundamentals-7-tricks-graphic-designers-dont-want-you-to-know",
       "tag": "design",
       "label": "design-fundamentals-7-tricks-graphic-designers-dont-want-you-to-know"
-    },
-    {
-      "url": "/design-systems/comparing-design-systems",
-      "tag": "design-systems",
-      "label": "comparing-design-systems"
-    },
-    {
-      "url": "/design-systems/design-systems",
-      "tag": "design-systems",
-      "label": "design-systems"
-    },
-    {
-      "url": "/design-systems/design-tokens",
-      "tag": "design-systems",
-      "label": "design-tokens"
     },
     {
       "url": "/design-patterns/abstract-factory-pattern",
@@ -816,34 +801,34 @@
       "label": "strategy"
     },
     {
-      "url": "/design-patterns/visitor",
-      "tag": "design-patterns",
-      "label": "visitor"
-    },
-    {
       "url": "/design-patterns/template-method",
       "tag": "design-patterns",
       "label": "template-method"
     },
     {
-      "url": "/distributed-file-systems/intro",
-      "tag": "distributed-file-systems",
-      "label": "intro"
+      "url": "/design-patterns/visitor",
+      "tag": "design-patterns",
+      "label": "visitor"
     },
     {
-      "url": "/digital-marketing/digital-marketing-course",
-      "tag": "digital-marketing",
-      "label": "digital-marketing-course"
+      "url": "/design-systems/comparing-design-systems",
+      "tag": "design-systems",
+      "label": "comparing-design-systems"
+    },
+    {
+      "url": "/design-systems/design-systems",
+      "tag": "design-systems",
+      "label": "design-systems"
+    },
+    {
+      "url": "/design-systems/design-tokens",
+      "tag": "design-systems",
+      "label": "design-tokens"
     },
     {
       "url": "/devops/caching",
       "tag": "devops",
       "label": "caching"
-    },
-    {
-      "url": "/devops/devops-essentials",
-      "tag": "devops",
-      "label": "devops-essentials"
     },
     {
       "url": "/devops/config-management-vs-provisioning",
@@ -856,6 +841,11 @@
       "label": "dev-ops"
     },
     {
+      "url": "/devops/devops-essentials",
+      "tag": "devops",
+      "label": "devops-essentials"
+    },
+    {
       "url": "/devops/observability-definitions",
       "tag": "devops",
       "label": "observability-definitions"
@@ -866,9 +856,14 @@
       "label": "proxies"
     },
     {
-      "url": "/docker/docker-and-elastic-beanstalk",
-      "tag": "docker",
-      "label": "docker-and-elastic-beanstalk"
+      "url": "/distributed-file-systems/intro",
+      "tag": "distributed-file-systems",
+      "label": "intro"
+    },
+    {
+      "url": "/digital-marketing/digital-marketing-course",
+      "tag": "digital-marketing",
+      "label": "digital-marketing-course"
     },
     {
       "url": "/docker/docker-cheat-sheet",
@@ -879,6 +874,11 @@
       "url": "/docker/docker-code-sheet",
       "tag": "docker",
       "label": "docker-code-sheet"
+    },
+    {
+      "url": "/docker/docker-and-elastic-beanstalk",
+      "tag": "docker",
+      "label": "docker-and-elastic-beanstalk"
     },
     {
       "url": "/docker/docker-deep-dive",
@@ -901,14 +901,14 @@
       "label": "docker-quick-start"
     },
     {
-      "url": "/docker/docker-tldr",
-      "tag": "docker",
-      "label": "docker-tldr"
-    },
-    {
       "url": "/docker/docker-saving-current-state",
       "tag": "docker",
       "label": "docker-saving-current-state"
+    },
+    {
+      "url": "/docker/docker-tldr",
+      "tag": "docker",
+      "label": "docker-tldr"
     },
     {
       "url": "/docker/mysql-development",
@@ -921,21 +921,6 @@
       "label": "restart-and-expose-port"
     },
     {
-      "url": "/dotnet/adding-models",
-      "tag": "dotnet",
-      "label": "adding-models"
-    },
-    {
-      "url": "/dotnet/getting-started",
-      "tag": "dotnet",
-      "label": "getting-started"
-    },
-    {
-      "url": "/dotnet/package-management",
-      "tag": "dotnet",
-      "label": "package-management"
-    },
-    {
       "url": "/drawio/intro",
       "tag": "drawio",
       "label": "intro"
@@ -946,14 +931,14 @@
       "label": "drupal-8-modules"
     },
     {
-      "url": "/drupal/drupal-8",
-      "tag": "drupal",
-      "label": "drupal-8"
-    },
-    {
       "url": "/drupal/drupal-8-theming",
       "tag": "drupal",
       "label": "drupal-8-theming"
+    },
+    {
+      "url": "/drupal/drupal-8",
+      "tag": "drupal",
+      "label": "drupal-8"
     },
     {
       "url": "/electron/electron-fs",
@@ -969,6 +954,21 @@
       "url": "/electron/electron-with-parcel",
       "tag": "electron",
       "label": "electron-with-parcel"
+    },
+    {
+      "url": "/dotnet/adding-models",
+      "tag": "dotnet",
+      "label": "adding-models"
+    },
+    {
+      "url": "/dotnet/getting-started",
+      "tag": "dotnet",
+      "label": "getting-started"
+    },
+    {
+      "url": "/dotnet/package-management",
+      "tag": "dotnet",
+      "label": "package-management"
     },
     {
       "url": "/elixir/elixir-conditionals",
@@ -1006,19 +1006,24 @@
       "label": "elixir-school"
     },
     {
-      "url": "/elixir/phoenix-routing",
-      "tag": "elixir",
-      "label": "phoenix-routing"
-    },
-    {
       "url": "/elixir/elixir-sql",
       "tag": "elixir",
       "label": "elixir-sql"
     },
     {
+      "url": "/elixir/phoenix-routing",
+      "tag": "elixir",
+      "label": "phoenix-routing"
+    },
+    {
       "url": "/elk/docker-elk-stack",
       "tag": "elk",
       "label": "docker-elk-stack"
+    },
+    {
+      "url": "/emitter/readme",
+      "tag": "emitter",
+      "label": "readme"
     },
     {
       "url": "/elm/advanced-elm",
@@ -1046,19 +1051,14 @@
       "label": "elm-types"
     },
     {
-      "url": "/elm/user-focused-elm",
-      "tag": "elm",
-      "label": "user-focused-elm"
-    },
-    {
       "url": "/elm/kevin-yank-talk",
       "tag": "elm",
       "label": "kevin-yank-talk"
     },
     {
-      "url": "/elm/rendering-examples",
+      "url": "/elm/user-focused-elm",
       "tag": "elm",
-      "label": "rendering-examples"
+      "label": "user-focused-elm"
     },
     {
       "url": "/elm/webmasters-elm",
@@ -1066,9 +1066,14 @@
       "label": "webmasters-elm"
     },
     {
-      "url": "/emitter/readme",
-      "tag": "emitter",
-      "label": "readme"
+      "url": "/elm/rendering-examples",
+      "tag": "elm",
+      "label": "rendering-examples"
+    },
+    {
+      "url": "/enterprise-architecture-patterns/1-enterprise-architecture-patterns",
+      "tag": "enterprise-architecture-patterns",
+      "label": "1-enterprise-architecture-patterns"
     },
     {
       "url": "/enterprise-architecture-patterns/2-object-oriented-programming",
@@ -1096,19 +1101,9 @@
       "label": "7-distributed-complexity"
     },
     {
-      "url": "/enterprise-architecture-patterns/1-enterprise-architecture-patterns",
-      "tag": "enterprise-architecture-patterns",
-      "label": "1-enterprise-architecture-patterns"
-    },
-    {
       "url": "/eslint/adding-a-new-rule",
       "tag": "eslint",
       "label": "adding-a-new-rule"
-    },
-    {
-      "url": "/etcd/what-is-etcd",
-      "tag": "etcd",
-      "label": "what-is-etcd"
     },
     {
       "url": "/epic-react/advanced-react-hooks",
@@ -1116,14 +1111,14 @@
       "label": "advanced-react-hooks"
     },
     {
-      "url": "/epic-react/react-fundamentals",
-      "tag": "epic-react",
-      "label": "react-fundamentals"
-    },
-    {
       "url": "/epic-react/advanced-react-patterns",
       "tag": "epic-react",
       "label": "advanced-react-patterns"
+    },
+    {
+      "url": "/epic-react/react-fundamentals",
+      "tag": "epic-react",
+      "label": "react-fundamentals"
     },
     {
       "url": "/epic-react/react-hooks",
@@ -1151,6 +1146,11 @@
       "label": "welcome"
     },
     {
+      "url": "/etcd/what-is-etcd",
+      "tag": "etcd",
+      "label": "what-is-etcd"
+    },
+    {
       "url": "/expo/quick-start",
       "tag": "expo",
       "label": "quick-start"
@@ -1169,6 +1169,16 @@
       "url": "/event-tracking/naming-conventions",
       "tag": "event-tracking",
       "label": "naming-conventions"
+    },
+    {
+      "url": "/finger-drumming/introduction",
+      "tag": "finger-drumming",
+      "label": "introduction"
+    },
+    {
+      "url": "/flask/hello-world",
+      "tag": "flask",
+      "label": "hello-world"
     },
     {
       "url": "/french/auxiliary-verbs",
@@ -1204,16 +1214,6 @@
       "url": "/french/transitive-intransitive-verbs",
       "tag": "french",
       "label": "transitive-intransitive-verbs"
-    },
-    {
-      "url": "/finger-drumming/introduction",
-      "tag": "finger-drumming",
-      "label": "introduction"
-    },
-    {
-      "url": "/flask/hello-world",
-      "tag": "flask",
-      "label": "hello-world"
     },
     {
       "url": "/functional-programming/an-example-of-constrained-return-types",
@@ -1294,11 +1294,6 @@
       "url": "/github/using-octokit",
       "tag": "github",
       "label": "using-octokit"
-    },
-    {
-      "url": "/google-play/google-play",
-      "tag": "google-play",
-      "label": "google-play"
     },
     {
       "url": "/go/authentication-with-goth",
@@ -1406,6 +1401,16 @@
       "label": "cloud-vision-nodejs"
     },
     {
+      "url": "/google-play/google-play",
+      "tag": "google-play",
+      "label": "google-play"
+    },
+    {
+      "url": "/grpc/grpc-with-go",
+      "tag": "grpc",
+      "label": "grpc-with-go"
+    },
+    {
       "url": "/graphql/advanced-graphql-v2",
       "tag": "graphql",
       "label": "advanced-graphql-v2"
@@ -1424,16 +1429,6 @@
       "url": "/graphql/setting-up-heuristic-matchers",
       "tag": "graphql",
       "label": "setting-up-heuristic-matchers"
-    },
-    {
-      "url": "/grpc/grpc-with-go",
-      "tag": "grpc",
-      "label": "grpc-with-go"
-    },
-    {
-      "url": "/images/image-compression",
-      "tag": "images",
-      "label": "image-compression"
     },
     {
       "url": "/haskell/hackerrank-notes",
@@ -1466,6 +1461,11 @@
       "label": "intro"
     },
     {
+      "url": "/images/image-compression",
+      "tag": "images",
+      "label": "image-compression"
+    },
+    {
       "url": "/interactive-shells/accessing",
       "tag": "interactive-shells",
       "label": "accessing"
@@ -1474,6 +1474,31 @@
       "url": "/istio/eks-istio",
       "tag": "istio",
       "label": "eks-istio"
+    },
+    {
+      "url": "/ios/apple-watch",
+      "tag": "ios",
+      "label": "apple-watch"
+    },
+    {
+      "url": "/ios/ios-delegation",
+      "tag": "ios",
+      "label": "ios-delegation"
+    },
+    {
+      "url": "/ios/ios-gaming-intro",
+      "tag": "ios",
+      "label": "ios-gaming-intro"
+    },
+    {
+      "url": "/ios/ios-objc-cheat-sheet",
+      "tag": "ios",
+      "label": "ios-objc-cheat-sheet"
+    },
+    {
+      "url": "/ios/passkit",
+      "tag": "ios",
+      "label": "passkit"
     },
     {
       "url": "/java/basic-imports",
@@ -1531,29 +1556,14 @@
       "label": "maps-in-java"
     },
     {
-      "url": "/ios/apple-watch",
-      "tag": "ios",
-      "label": "apple-watch"
+      "url": "/jest/extending-jest",
+      "tag": "jest",
+      "label": "extending-jest"
     },
     {
-      "url": "/ios/ios-delegation",
-      "tag": "ios",
-      "label": "ios-delegation"
-    },
-    {
-      "url": "/ios/ios-gaming-intro",
-      "tag": "ios",
-      "label": "ios-gaming-intro"
-    },
-    {
-      "url": "/ios/ios-objc-cheat-sheet",
-      "tag": "ios",
-      "label": "ios-objc-cheat-sheet"
-    },
-    {
-      "url": "/ios/passkit",
-      "tag": "ios",
-      "label": "passkit"
+      "url": "/jest/js-testing-practices-and-principles",
+      "tag": "jest",
+      "label": "js-testing-practices-and-principles"
     },
     {
       "url": "/javascript/enzyme-testing",
@@ -1716,16 +1726,6 @@
       "label": "yeoman-generator"
     },
     {
-      "url": "/jest/extending-jest",
-      "tag": "jest",
-      "label": "extending-jest"
-    },
-    {
-      "url": "/jest/js-testing-practices-and-principles",
-      "tag": "jest",
-      "label": "js-testing-practices-and-principles"
-    },
-    {
       "url": "/jira/usage",
       "tag": "jira",
       "label": "usage"
@@ -1766,14 +1766,14 @@
       "label": "kafka-internals"
     },
     {
-      "url": "/kotlin/kotlin-basics",
-      "tag": "kotlin",
-      "label": "kotlin-basics"
-    },
-    {
       "url": "/kotlin/kotlin-arrays-and-lists",
       "tag": "kotlin",
       "label": "kotlin-arrays-and-lists"
+    },
+    {
+      "url": "/kotlin/kotlin-basics",
+      "tag": "kotlin",
+      "label": "kotlin-basics"
     },
     {
       "url": "/kotlin/kotlin-building-types",
@@ -2001,11 +2001,6 @@
       "label": "mysql"
     },
     {
-      "url": "/ndb/ndb-overview",
-      "tag": "ndb",
-      "label": "ndb-overview"
-    },
-    {
       "url": "/networking/firewall",
       "tag": "networking",
       "label": "firewall"
@@ -2034,6 +2029,11 @@
       "url": "/networking/subnetting-fundamentals",
       "tag": "networking",
       "label": "subnetting-fundamentals"
+    },
+    {
+      "url": "/ndb/ndb-overview",
+      "tag": "ndb",
+      "label": "ndb-overview"
     },
     {
       "url": "/next/hello-next",
@@ -2096,26 +2096,6 @@
       "label": "nodebots"
     },
     {
-      "url": "/npm/building-react-libraries",
-      "tag": "npm",
-      "label": "building-react-libraries"
-    },
-    {
-      "url": "/npm/npm-as-a-task-runner",
-      "tag": "npm",
-      "label": "npm-as-a-task-runner"
-    },
-    {
-      "url": "/npm/npm-cheat-sheet",
-      "tag": "npm",
-      "label": "npm-cheat-sheet"
-    },
-    {
-      "url": "/npm/npm-create-package",
-      "tag": "npm",
-      "label": "npm-create-package"
-    },
-    {
       "url": "/osi-model/Mnemonic-for-OSI-Model",
       "tag": "osi-model",
       "label": "Mnemonic-for-OSI-Model"
@@ -2136,14 +2116,29 @@
       "label": "parcel-react"
     },
     {
+      "url": "/npm/building-react-libraries",
+      "tag": "npm",
+      "label": "building-react-libraries"
+    },
+    {
+      "url": "/npm/npm-as-a-task-runner",
+      "tag": "npm",
+      "label": "npm-as-a-task-runner"
+    },
+    {
+      "url": "/npm/npm-cheat-sheet",
+      "tag": "npm",
+      "label": "npm-cheat-sheet"
+    },
+    {
+      "url": "/npm/npm-create-package",
+      "tag": "npm",
+      "label": "npm-create-package"
+    },
+    {
       "url": "/personal/job-preparation-examples",
       "tag": "personal",
       "label": "job-preparation-examples"
-    },
-    {
-      "url": "/posix/posix-intro",
-      "tag": "posix",
-      "label": "posix-intro"
     },
     {
       "url": "/php/pdo-cheat-sheet",
@@ -2179,6 +2174,11 @@
       "url": "/php/php-unit-tests",
       "tag": "php",
       "label": "php-unit-tests"
+    },
+    {
+      "url": "/posix/posix-intro",
+      "tag": "posix",
+      "label": "posix-intro"
     },
     {
       "url": "/postgressql/psql-tips",
@@ -2371,6 +2371,16 @@
       "label": "screenshot-anything"
     },
     {
+      "url": "/quick-start/golang",
+      "tag": "quick-start",
+      "label": "golang"
+    },
+    {
+      "url": "/quick-start/ruby",
+      "tag": "quick-start",
+      "label": "ruby"
+    },
+    {
       "url": "/python/examples",
       "tag": "python",
       "label": "examples"
@@ -2436,14 +2446,9 @@
       "label": "wtf-python"
     },
     {
-      "url": "/quick-start/golang",
-      "tag": "quick-start",
-      "label": "golang"
-    },
-    {
-      "url": "/quick-start/ruby",
-      "tag": "quick-start",
-      "label": "ruby"
+      "url": "/raspberry-pi/setting-up-wifi",
+      "tag": "raspberry-pi",
+      "label": "setting-up-wifi"
     },
     {
       "url": "/r/r-intermediate",
@@ -2454,11 +2459,6 @@
       "url": "/r/r-intro",
       "tag": "r",
       "label": "r-intro"
-    },
-    {
-      "url": "/raspberry-pi/setting-up-wifi",
-      "tag": "raspberry-pi",
-      "label": "setting-up-wifi"
     },
     {
       "url": "/react-native/react-native-cheat-sheet",
@@ -2516,14 +2516,14 @@
       "label": "react-context"
     },
     {
-      "url": "/react-notes/react-portals",
-      "tag": "react-notes",
-      "label": "react-portals"
-    },
-    {
       "url": "/react-notes/react-hooks",
       "tag": "react-notes",
       "label": "react-hooks"
+    },
+    {
+      "url": "/react-notes/react-portals",
+      "tag": "react-notes",
+      "label": "react-portals"
     },
     {
       "url": "/react-notes/react-redux-middleware",
@@ -2551,19 +2551,9 @@
       "label": "th-react-basics"
     },
     {
-      "url": "/react-router/react-router-v5-quickstart",
-      "tag": "react-router",
-      "label": "react-router-v5-quickstart"
-    },
-    {
-      "url": "/reasonml/reason-hello-world",
-      "tag": "reasonml",
-      "label": "reason-hello-world"
-    },
-    {
-      "url": "/react-query/mutations-course",
+      "url": "/react-query/getting-started",
       "tag": "react-query",
-      "label": "mutations-course"
+      "label": "getting-started"
     },
     {
       "url": "/react-query/invalidations-course",
@@ -2571,9 +2561,9 @@
       "label": "invalidations-course"
     },
     {
-      "url": "/react-query/getting-started",
+      "url": "/react-query/mutations-course",
       "tag": "react-query",
-      "label": "getting-started"
+      "label": "mutations-course"
     },
     {
       "url": "/react-query/optimistic-updates-course",
@@ -2611,19 +2601,29 @@
       "label": "with-nextjs"
     },
     {
+      "url": "/react-router/react-router-v5-quickstart",
+      "tag": "react-router",
+      "label": "react-router-v5-quickstart"
+    },
+    {
+      "url": "/reasonml/reason-hello-world",
+      "tag": "reasonml",
+      "label": "reason-hello-world"
+    },
+    {
       "url": "/redis/redis-kue-nodejs",
       "tag": "redis",
       "label": "redis-kue-nodejs"
     },
     {
-      "url": "/redis/redis",
-      "tag": "redis",
-      "label": "redis"
-    },
-    {
       "url": "/redis/redis-nodejs",
       "tag": "redis",
       "label": "redis-nodejs"
+    },
+    {
+      "url": "/redis/redis",
+      "tag": "redis",
+      "label": "redis"
     },
     {
       "url": "/roadmaps/roadmaps-intro",
@@ -2691,14 +2691,14 @@
       "label": "security-intro"
     },
     {
-      "url": "/segment/intro",
-      "tag": "segment",
-      "label": "intro"
-    },
-    {
       "url": "/seo/seo-for-beginners",
       "tag": "seo",
       "label": "seo-for-beginners"
+    },
+    {
+      "url": "/segment/intro",
+      "tag": "segment",
+      "label": "intro"
     },
     {
       "url": "/server-side-react/create-react-app-server-side",
@@ -2716,6 +2716,11 @@
       "label": "hill-charts"
     },
     {
+      "url": "/skaffold/intro",
+      "tag": "skaffold",
+      "label": "intro"
+    },
+    {
       "url": "/site-reliability-engineering/glossary",
       "tag": "site-reliability-engineering",
       "label": "glossary"
@@ -2729,11 +2734,6 @@
       "url": "/site-reliability-engineering/toil",
       "tag": "site-reliability-engineering",
       "label": "toil"
-    },
-    {
-      "url": "/skaffold/intro",
-      "tag": "skaffold",
-      "label": "intro"
     },
     {
       "url": "/sketch/principles",
@@ -2754,26 +2754,6 @@
       "url": "/snowpack/snowpack-with-create-react-app",
       "tag": "snowpack",
       "label": "snowpack-with-create-react-app"
-    },
-    {
-      "url": "/sql/indexing-example",
-      "tag": "sql",
-      "label": "indexing-example"
-    },
-    {
-      "url": "/sql/indexing-resources",
-      "tag": "sql",
-      "label": "indexing-resources"
-    },
-    {
-      "url": "/sql/sql-tuning",
-      "tag": "sql",
-      "label": "sql-tuning"
-    },
-    {
-      "url": "/sql/sql-window-functions",
-      "tag": "sql",
-      "label": "sql-window-functions"
     },
     {
       "url": "/storybook/adding-docs",
@@ -2806,6 +2786,26 @@
       "label": "webpack-sass"
     },
     {
+      "url": "/sql/indexing-example",
+      "tag": "sql",
+      "label": "indexing-example"
+    },
+    {
+      "url": "/sql/indexing-resources",
+      "tag": "sql",
+      "label": "indexing-resources"
+    },
+    {
+      "url": "/sql/sql-tuning",
+      "tag": "sql",
+      "label": "sql-tuning"
+    },
+    {
+      "url": "/sql/sql-window-functions",
+      "tag": "sql",
+      "label": "sql-window-functions"
+    },
+    {
       "url": "/style/base-animations",
       "tag": "style",
       "label": "base-animations"
@@ -2829,26 +2829,6 @@
       "url": "/styled-components/intro-with-styled-systems",
       "tag": "styled-components",
       "label": "intro-with-styled-systems"
-    },
-    {
-      "url": "/supervised-learning-with-scikit-learn/1-Classification",
-      "tag": "supervised-learning-with-scikit-learn",
-      "label": "1-Classification"
-    },
-    {
-      "url": "/supervised-learning-with-scikit-learn/2-Regression",
-      "tag": "supervised-learning-with-scikit-learn",
-      "label": "2-Regression"
-    },
-    {
-      "url": "/supervised-learning-with-scikit-learn/3-Fine-Tuning-Your-Model",
-      "tag": "supervised-learning-with-scikit-learn",
-      "label": "3-Fine-Tuning-Your-Model"
-    },
-    {
-      "url": "/supervised-learning-with-scikit-learn/4-Preprocessing-Data",
-      "tag": "supervised-learning-with-scikit-learn",
-      "label": "4-Preprocessing-Data"
     },
     {
       "url": "/swift/swift-3-api-design-guidelines",
@@ -2881,6 +2861,31 @@
       "label": "swift-package-manager"
     },
     {
+      "url": "/supervised-learning-with-scikit-learn/1-Classification",
+      "tag": "supervised-learning-with-scikit-learn",
+      "label": "1-Classification"
+    },
+    {
+      "url": "/supervised-learning-with-scikit-learn/2-Regression",
+      "tag": "supervised-learning-with-scikit-learn",
+      "label": "2-Regression"
+    },
+    {
+      "url": "/supervised-learning-with-scikit-learn/3-Fine-Tuning-Your-Model",
+      "tag": "supervised-learning-with-scikit-learn",
+      "label": "3-Fine-Tuning-Your-Model"
+    },
+    {
+      "url": "/supervised-learning-with-scikit-learn/4-Preprocessing-Data",
+      "tag": "supervised-learning-with-scikit-learn",
+      "label": "4-Preprocessing-Data"
+    },
+    {
+      "url": "/tableau/tableau-live-talk",
+      "tag": "tableau",
+      "label": "tableau-live-talk"
+    },
+    {
       "url": "/system-design/data-systems",
       "tag": "system-design",
       "label": "data-systems"
@@ -2901,11 +2906,6 @@
       "label": "interviews"
     },
     {
-      "url": "/tableau/tableau-live-talk",
-      "tag": "tableau",
-      "label": "tableau-live-talk"
-    },
-    {
       "url": "/tailwind/quickstart",
       "tag": "tailwind",
       "label": "quickstart"
@@ -2924,11 +2924,6 @@
       "url": "/tensorflow/tensorflow-js",
       "tag": "tensorflow",
       "label": "tensorflow-js"
-    },
-    {
-      "url": "/terminal/tips-and-tricks",
-      "tag": "terminal",
-      "label": "tips-and-tricks"
     },
     {
       "url": "/terraform/terraform",
@@ -2971,6 +2966,11 @@
       "label": "timber-cheat-sheet"
     },
     {
+      "url": "/terminal/tips-and-tricks",
+      "tag": "terminal",
+      "label": "tips-and-tricks"
+    },
+    {
       "url": "/tooling/awesome-cli-tools",
       "tag": "tooling",
       "label": "awesome-cli-tools"
@@ -2989,11 +2989,6 @@
       "url": "/treat/storybook-with-treat",
       "tag": "treat",
       "label": "storybook-with-treat"
-    },
-    {
-      "url": "/twig/twig-cheat-sheet",
-      "tag": "twig",
-      "label": "twig-cheat-sheet"
     },
     {
       "url": "/typescript/developers-guide",
@@ -3024,6 +3019,11 @@
       "url": "/typescript/ts-fundamentals-v2",
       "tag": "typescript",
       "label": "ts-fundamentals-v2"
+    },
+    {
+      "url": "/twig/twig-cheat-sheet",
+      "tag": "twig",
+      "label": "twig-cheat-sheet"
     },
     {
       "url": "/unity/how-to-make-a-video-game",
@@ -3116,21 +3116,6 @@
       "label": "resources"
     },
     {
-      "url": "/wordpress/wordpress-cheat-sheet",
-      "tag": "wordpress",
-      "label": "wordpress-cheat-sheet"
-    },
-    {
-      "url": "/wordpress/wp-pc-cheat-sheet",
-      "tag": "wordpress",
-      "label": "wp-pc-cheat-sheet"
-    },
-    {
-      "url": "/wordpress/wp-pc-setup-cheat-sheet",
-      "tag": "wordpress",
-      "label": "wp-pc-setup-cheat-sheet"
-    },
-    {
       "url": "/webpack/building-a-webpack-plugin",
       "tag": "webpack",
       "label": "building-a-webpack-plugin"
@@ -3169,6 +3154,21 @@
       "url": "/webpack/webpack",
       "tag": "webpack",
       "label": "webpack"
+    },
+    {
+      "url": "/wordpress/wordpress-cheat-sheet",
+      "tag": "wordpress",
+      "label": "wordpress-cheat-sheet"
+    },
+    {
+      "url": "/wordpress/wp-pc-cheat-sheet",
+      "tag": "wordpress",
+      "label": "wp-pc-cheat-sheet"
+    },
+    {
+      "url": "/wordpress/wp-pc-setup-cheat-sheet",
+      "tag": "wordpress",
+      "label": "wp-pc-setup-cheat-sheet"
     },
     {
       "url": "/writing/writing-with-flair",
@@ -3221,6 +3221,96 @@
       "label": "Programming-Graphics-Course"
     },
     {
+      "url": "/music-production/lofi/Making-Lofi-Beats",
+      "tag": "music-production",
+      "label": "lofi"
+    },
+    {
+      "url": "/react/advanced-react-patterns",
+      "tag": "react",
+      "label": "advanced-react-patterns"
+    },
+    {
+      "url": "/react/context-api",
+      "tag": "react",
+      "label": "context-api"
+    },
+    {
+      "url": "/react/data-vis-for-react-developers",
+      "tag": "react",
+      "label": "data-vis-for-react-developers"
+    },
+    {
+      "url": "/react/dynamic-imports",
+      "tag": "react",
+      "label": "dynamic-imports"
+    },
+    {
+      "url": "/react/guidelines",
+      "tag": "react",
+      "label": "guidelines"
+    },
+    {
+      "url": "/react/implementing-use-context-with-typescript",
+      "tag": "react",
+      "label": "implementing-use-context-with-typescript"
+    },
+    {
+      "url": "/react/intro",
+      "tag": "react",
+      "label": "intro"
+    },
+    {
+      "url": "/react/lead-debouncing-with-hooks",
+      "tag": "react",
+      "label": "lead-debouncing-with-hooks"
+    },
+    {
+      "url": "/react/react-best-practices-2021",
+      "tag": "react",
+      "label": "react-best-practices-2021"
+    },
+    {
+      "url": "/react/react-ssr",
+      "tag": "react",
+      "label": "react-ssr"
+    },
+    {
+      "url": "/react/react-testing-library",
+      "tag": "react",
+      "label": "react-testing-library"
+    },
+    {
+      "url": "/react/simplest-react-setup",
+      "tag": "react",
+      "label": "simplest-react-setup"
+    },
+    {
+      "url": "/react/state-management-in-pure-react",
+      "tag": "react",
+      "label": "state-management-in-pure-react"
+    },
+    {
+      "url": "/react/structure",
+      "tag": "react",
+      "label": "structure"
+    },
+    {
+      "url": "/react/testing-react-applications",
+      "tag": "react",
+      "label": "testing-react-applications"
+    },
+    {
+      "url": "/react/webpack-federaton-with-react",
+      "tag": "react",
+      "label": "webpack-federaton-with-react"
+    },
+    {
+      "url": "/react/react-remotion/getting-started",
+      "tag": "react",
+      "label": "react-remotion"
+    },
+    {
       "url": "/kubernetes/advanced-topics",
       "tag": "kubernetes",
       "label": "advanced-topics"
@@ -3271,14 +3361,14 @@
       "label": "helm-redis"
     },
     {
-      "url": "/kubernetes/kops-getting-started",
-      "tag": "kubernetes",
-      "label": "kops-getting-started"
-    },
-    {
       "url": "/kubernetes/helm",
       "tag": "kubernetes",
       "label": "helm"
+    },
+    {
+      "url": "/kubernetes/kops-getting-started",
+      "tag": "kubernetes",
+      "label": "kops-getting-started"
     },
     {
       "url": "/kubernetes/kubectl-overview",
@@ -3346,17 +3436,17 @@
       "label": "rocking-kubernetes-course"
     },
     {
-      "url": "/kubernetes/rocking-kubernetes-course/2-eks-basics",
-      "tag": "kubernetes",
-      "label": "rocking-kubernetes-course"
-    },
-    {
       "url": "/kubernetes/rocking-kubernetes-course/3-logging-and-monitoring-eks",
       "tag": "kubernetes",
       "label": "rocking-kubernetes-course"
     },
     {
       "url": "/kubernetes/rocking-kubernetes-course/4-advanced-eks-concepts",
+      "tag": "kubernetes",
+      "label": "rocking-kubernetes-course"
+    },
+    {
+      "url": "/kubernetes/rocking-kubernetes-course/2-eks-basics",
       "tag": "kubernetes",
       "label": "rocking-kubernetes-course"
     },
@@ -3369,96 +3459,6 @@
       "url": "/kubernetes/setup/Setup-k8s-locally",
       "tag": "kubernetes",
       "label": "setup"
-    },
-    {
-      "url": "/music-production/lofi/Making-Lofi-Beats",
-      "tag": "music-production",
-      "label": "lofi"
-    },
-    {
-      "url": "/react/advanced-react-patterns",
-      "tag": "react",
-      "label": "advanced-react-patterns"
-    },
-    {
-      "url": "/react/context-api",
-      "tag": "react",
-      "label": "context-api"
-    },
-    {
-      "url": "/react/data-vis-for-react-developers",
-      "tag": "react",
-      "label": "data-vis-for-react-developers"
-    },
-    {
-      "url": "/react/dynamic-imports",
-      "tag": "react",
-      "label": "dynamic-imports"
-    },
-    {
-      "url": "/react/guidelines",
-      "tag": "react",
-      "label": "guidelines"
-    },
-    {
-      "url": "/react/implementing-use-context-with-typescript",
-      "tag": "react",
-      "label": "implementing-use-context-with-typescript"
-    },
-    {
-      "url": "/react/intro",
-      "tag": "react",
-      "label": "intro"
-    },
-    {
-      "url": "/react/lead-debouncing-with-hooks",
-      "tag": "react",
-      "label": "lead-debouncing-with-hooks"
-    },
-    {
-      "url": "/react/react-best-practices-2021",
-      "tag": "react",
-      "label": "react-best-practices-2021"
-    },
-    {
-      "url": "/react/react-testing-library",
-      "tag": "react",
-      "label": "react-testing-library"
-    },
-    {
-      "url": "/react/simplest-react-setup",
-      "tag": "react",
-      "label": "simplest-react-setup"
-    },
-    {
-      "url": "/react/react-ssr",
-      "tag": "react",
-      "label": "react-ssr"
-    },
-    {
-      "url": "/react/state-management-in-pure-react",
-      "tag": "react",
-      "label": "state-management-in-pure-react"
-    },
-    {
-      "url": "/react/structure",
-      "tag": "react",
-      "label": "structure"
-    },
-    {
-      "url": "/react/testing-react-applications",
-      "tag": "react",
-      "label": "testing-react-applications"
-    },
-    {
-      "url": "/react/webpack-federaton-with-react",
-      "tag": "react",
-      "label": "webpack-federaton-with-react"
-    },
-    {
-      "url": "/react/react-remotion/getting-started",
-      "tag": "react",
-      "label": "react-remotion"
     },
     {
       "url": "/redux/intro-to-reselect",
@@ -3474,46 +3474,6 @@
       "url": "/redux/redux-toolkit/usage-with-react-context",
       "tag": "redux",
       "label": "redux-toolkit"
-    },
-    {
-      "url": "/ruby-on-rails-tutorial/chapters/1-from-zero-to-deploy",
-      "tag": "ruby-on-rails-tutorial",
-      "label": "chapters"
-    },
-    {
-      "url": "/ruby-on-rails-tutorial/chapters/10-updating-showing-deleting-users",
-      "tag": "ruby-on-rails-tutorial",
-      "label": "chapters"
-    },
-    {
-      "url": "/ruby-on-rails-tutorial/chapters/13-user-microposts",
-      "tag": "ruby-on-rails-tutorial",
-      "label": "chapters"
-    },
-    {
-      "url": "/ruby-on-rails-tutorial/chapters/14-following-users",
-      "tag": "ruby-on-rails-tutorial",
-      "label": "chapters"
-    },
-    {
-      "url": "/ruby-on-rails-tutorial/chapters/2-toy-app",
-      "tag": "ruby-on-rails-tutorial",
-      "label": "chapters"
-    },
-    {
-      "url": "/ruby-on-rails-tutorial/chapters/3-mostly-static-pages",
-      "tag": "ruby-on-rails-tutorial",
-      "label": "chapters"
-    },
-    {
-      "url": "/ruby-on-rails-tutorial/chapters/4-rails-flavoured-ruby",
-      "tag": "ruby-on-rails-tutorial",
-      "label": "chapters"
-    },
-    {
-      "url": "/ruby-on-rails-tutorial/chapters/6-modelling-users",
-      "tag": "ruby-on-rails-tutorial",
-      "label": "chapters"
     },
     {
       "url": "/ruby/cocoapods-workshop",
@@ -3636,9 +3596,44 @@
       "label": "minitest"
     },
     {
-      "url": "/shopify/development/setting-up-a-dev-store",
-      "tag": "shopify",
-      "label": "development"
+      "url": "/ruby-on-rails-tutorial/chapters/1-from-zero-to-deploy",
+      "tag": "ruby-on-rails-tutorial",
+      "label": "chapters"
+    },
+    {
+      "url": "/ruby-on-rails-tutorial/chapters/10-updating-showing-deleting-users",
+      "tag": "ruby-on-rails-tutorial",
+      "label": "chapters"
+    },
+    {
+      "url": "/ruby-on-rails-tutorial/chapters/14-following-users",
+      "tag": "ruby-on-rails-tutorial",
+      "label": "chapters"
+    },
+    {
+      "url": "/ruby-on-rails-tutorial/chapters/13-user-microposts",
+      "tag": "ruby-on-rails-tutorial",
+      "label": "chapters"
+    },
+    {
+      "url": "/ruby-on-rails-tutorial/chapters/2-toy-app",
+      "tag": "ruby-on-rails-tutorial",
+      "label": "chapters"
+    },
+    {
+      "url": "/ruby-on-rails-tutorial/chapters/3-mostly-static-pages",
+      "tag": "ruby-on-rails-tutorial",
+      "label": "chapters"
+    },
+    {
+      "url": "/ruby-on-rails-tutorial/chapters/4-rails-flavoured-ruby",
+      "tag": "ruby-on-rails-tutorial",
+      "label": "chapters"
+    },
+    {
+      "url": "/ruby-on-rails-tutorial/chapters/6-modelling-users",
+      "tag": "ruby-on-rails-tutorial",
+      "label": "chapters"
     },
     {
       "url": "/rust/building-rust-clis",
@@ -3676,7 +3671,7 @@
       "label": "The-Rust-Programming-Language-Course"
     },
     {
-      "url": "/rust/The-Rust-Programming-Language-Course/2-Primitives",
+      "url": "/rust/The-Rust-Programming-Language-Course/4-Pattern-Matching",
       "tag": "rust",
       "label": "The-Rust-Programming-Language-Course"
     },
@@ -3686,7 +3681,7 @@
       "label": "The-Rust-Programming-Language-Course"
     },
     {
-      "url": "/rust/The-Rust-Programming-Language-Course/4-Pattern-Matching",
+      "url": "/rust/The-Rust-Programming-Language-Course/6-Ownership",
       "tag": "rust",
       "label": "The-Rust-Programming-Language-Course"
     },
@@ -3701,14 +3696,19 @@
       "label": "The-Rust-Programming-Language-Course"
     },
     {
+      "url": "/rust/The-Rust-Programming-Language-Course/2-Primitives",
+      "tag": "rust",
+      "label": "The-Rust-Programming-Language-Course"
+    },
+    {
       "url": "/rust/The-Rust-Programming-Language-Course/8-Lifetimes",
       "tag": "rust",
       "label": "The-Rust-Programming-Language-Course"
     },
     {
-      "url": "/rust/The-Rust-Programming-Language-Course/6-Ownership",
-      "tag": "rust",
-      "label": "The-Rust-Programming-Language-Course"
+      "url": "/shopify/development/setting-up-a-dev-store",
+      "tag": "shopify",
+      "label": "development"
     },
     {
       "url": "/software-architecture/outstanding-solution-architect-course/1-The-Architect-And-The-Team",
@@ -3726,6 +3726,11 @@
       "label": "outstanding-solution-architect-course"
     },
     {
+      "url": "/software-architecture/outstanding-solution-architect-course/5-Designing-Layers-Components-And-Services",
+      "tag": "software-architecture",
+      "label": "outstanding-solution-architect-course"
+    },
+    {
       "url": "/software-architecture/outstanding-solution-architect-course/4-Architectural-Design-Patterns",
       "tag": "software-architecture",
       "label": "outstanding-solution-architect-course"
@@ -3736,9 +3741,14 @@
       "label": "outstanding-solution-architect-course"
     },
     {
-      "url": "/software-architecture/outstanding-solution-architect-course/5-Designing-Layers-Components-And-Services",
-      "tag": "software-architecture",
-      "label": "outstanding-solution-architect-course"
+      "url": "/threejs/journey/3-Advanced-Techniques",
+      "tag": "threejs",
+      "label": "journey"
+    },
+    {
+      "url": "/threejs/journey/1-Introduction",
+      "tag": "threejs",
+      "label": "journey"
     },
     {
       "url": "/stripe/charges-vs-payment-intent",
@@ -3776,12 +3786,12 @@
       "label": "stripe-samples"
     },
     {
-      "url": "/stripe/configuration/flask-stripe-configuration",
+      "url": "/stripe/configuration/dotnet-stripe-configuration",
       "tag": "stripe",
       "label": "configuration"
     },
     {
-      "url": "/stripe/configuration/dotnet-stripe-configuration",
+      "url": "/stripe/configuration/flask-stripe-configuration",
       "tag": "stripe",
       "label": "configuration"
     },
@@ -3791,17 +3801,12 @@
       "label": "configuration"
     },
     {
-      "url": "/stripe/configuration/rails-stripe-configuration",
-      "tag": "stripe",
-      "label": "configuration"
-    },
-    {
       "url": "/stripe/configuration/gin-stripe-configuration",
       "tag": "stripe",
       "label": "configuration"
     },
     {
-      "url": "/stripe/configuration/slim-stripe-configuration",
+      "url": "/stripe/configuration/rails-stripe-configuration",
       "tag": "stripe",
       "label": "configuration"
     },
@@ -3816,14 +3821,9 @@
       "label": "configuration"
     },
     {
-      "url": "/threejs/journey/1-Introduction",
-      "tag": "threejs",
-      "label": "journey"
-    },
-    {
-      "url": "/threejs/journey/3-Advanced-Techniques",
-      "tag": "threejs",
-      "label": "journey"
+      "url": "/stripe/configuration/slim-stripe-configuration",
+      "tag": "stripe",
+      "label": "configuration"
     },
     {
       "url": "/ui/refactoring-ui/principles",
@@ -3856,22 +3856,22 @@
       "label": "web-concepts"
     },
     {
-      "url": "/web/web-performance-fundamentals/2-metrics",
-      "tag": "web",
-      "label": "web-performance-fundamentals"
-    },
-    {
       "url": "/web/web-performance-fundamentals/1-elements-of-performance",
       "tag": "web",
       "label": "web-performance-fundamentals"
     },
     {
-      "url": "/web/web-performance-fundamentals/4-optimizing-metrics",
+      "url": "/web/web-performance-fundamentals/2-metrics",
       "tag": "web",
       "label": "web-performance-fundamentals"
     },
     {
       "url": "/web/web-performance-fundamentals/3-improving-performance",
+      "tag": "web",
+      "label": "web-performance-fundamentals"
+    },
+    {
+      "url": "/web/web-performance-fundamentals/4-optimizing-metrics",
       "tag": "web",
       "label": "web-performance-fundamentals"
     },
@@ -3906,6 +3906,11 @@
       "label": "after-effects"
     },
     {
+      "url": "/ethereum/Hardhat/Getting-Started",
+      "tag": "ethereum",
+      "label": "Hardhat"
+    },
+    {
       "url": "/ethereum/Eth-And-Solidarity-Complete-Guide/1-What-Is-Ethereum",
       "tag": "ethereum",
       "label": "Eth-And-Solidarity-Complete-Guide"
@@ -3926,27 +3931,32 @@
       "label": "Eth-And-Solidarity-Complete-Guide"
     },
     {
-      "url": "/ethereum/Eth-And-Solidarity-Complete-Guide/5-Solving-Real-Problems-With-Eth",
-      "tag": "ethereum",
-      "label": "Eth-And-Solidarity-Complete-Guide"
-    },
-    {
       "url": "/ethereum/Eth-And-Solidarity-Complete-Guide/7-Nextjs-Frontend-Application",
       "tag": "ethereum",
       "label": "Eth-And-Solidarity-Complete-Guide"
     },
     {
-      "url": "/ethereum/Hardhat/Getting-Started",
+      "url": "/ethereum/Eth-And-Solidarity-Complete-Guide/5-Solving-Real-Problems-With-Eth",
       "tag": "ethereum",
-      "label": "Hardhat"
+      "label": "Eth-And-Solidarity-Complete-Guide"
     },
     {
-      "url": "/ethereum/Crypto-Zombies/Solidity-Path/Lesson-2-Zombies-Attack-Their-Victims",
+      "url": "/ethereum/Crypto-Zombies/Advanced-Solidity-Path/Lesson-2-Deploying-DApps-with-Truffle",
+      "tag": "ethereum",
+      "label": "Crypto-Zombies"
+    },
+    {
+      "url": "/ethereum/Crypto-Zombies/Advanced-Solidity-Path/Lesson-1-Testing-Smart-Contracts-With-Truffle",
       "tag": "ethereum",
       "label": "Crypto-Zombies"
     },
     {
       "url": "/ethereum/Crypto-Zombies/Solidity-Path/Lesson-1-Making-The-Zombie-Factory",
+      "tag": "ethereum",
+      "label": "Crypto-Zombies"
+    },
+    {
+      "url": "/ethereum/Crypto-Zombies/Solidity-Path/Lesson-2-Zombies-Attack-Their-Victims",
       "tag": "ethereum",
       "label": "Crypto-Zombies"
     },
@@ -3971,16 +3981,6 @@
       "label": "Crypto-Zombies"
     },
     {
-      "url": "/ethereum/Crypto-Zombies/Advanced-Solidity-Path/Lesson-1-Testing-Smart-Contracts-With-Truffle",
-      "tag": "ethereum",
-      "label": "Crypto-Zombies"
-    },
-    {
-      "url": "/ethereum/Crypto-Zombies/Advanced-Solidity-Path/Lesson-2-Deploying-DApps-with-Truffle",
-      "tag": "ethereum",
-      "label": "Crypto-Zombies"
-    },
-    {
       "url": "/aws/Well-Architected-Frameworkd",
       "tag": "aws",
       "label": "Well-Architected-Frameworkd"
@@ -4001,19 +4001,14 @@
       "label": "advanced-networking"
     },
     {
-      "url": "/aws/app-mesh",
-      "tag": "aws",
-      "label": "app-mesh"
-    },
-    {
       "url": "/aws/aws-cdk",
       "tag": "aws",
       "label": "aws-cdk"
     },
     {
-      "url": "/aws/aws-certified-big-data",
+      "url": "/aws/app-mesh",
       "tag": "aws",
-      "label": "aws-certified-big-data"
+      "label": "app-mesh"
     },
     {
       "url": "/aws/aws-certified-solutions-architect",
@@ -4026,19 +4021,24 @@
       "label": "aws-certified-sysops-administrator"
     },
     {
-      "url": "/aws/aws-cloudformation-masterclass",
-      "tag": "aws",
-      "label": "aws-cloudformation-masterclass"
-    },
-    {
       "url": "/aws/aws-fargate-with-ecs",
       "tag": "aws",
       "label": "aws-fargate-with-ecs"
     },
     {
+      "url": "/aws/aws-certified-big-data",
+      "tag": "aws",
+      "label": "aws-certified-big-data"
+    },
+    {
       "url": "/aws/aws-guide",
       "tag": "aws",
       "label": "aws-guide"
+    },
+    {
+      "url": "/aws/aws-cloudformation-masterclass",
+      "tag": "aws",
+      "label": "aws-cloudformation-masterclass"
     },
     {
       "url": "/aws/aws-iot",
@@ -4081,14 +4081,14 @@
       "label": "cloudfront-s3-lets-encrypt"
     },
     {
-      "url": "/aws/deploying-static-site-with-cdk",
-      "tag": "aws",
-      "label": "deploying-static-site-with-cdk"
-    },
-    {
       "url": "/aws/ec2-container-service",
       "tag": "aws",
       "label": "ec2-container-service"
+    },
+    {
+      "url": "/aws/deploying-static-site-with-cdk",
+      "tag": "aws",
+      "label": "deploying-static-site-with-cdk"
     },
     {
       "url": "/aws/getting-account-id",
@@ -4151,12 +4151,12 @@
       "label": "Learn-Catrill"
     },
     {
-      "url": "/aws/Learn-Catrill/Solution-Architect/18-Advanced-VPC-Networking",
+      "url": "/aws/Learn-Catrill/Solution-Architect/17-Global-Content-Delivery-And-Optimization",
       "tag": "aws",
       "label": "Learn-Catrill"
     },
     {
-      "url": "/aws/Learn-Catrill/Solution-Architect/17-Global-Content-Delivery-And-Optimization",
+      "url": "/aws/Learn-Catrill/Solution-Architect/18-Advanced-VPC-Networking",
       "tag": "aws",
       "label": "Learn-Catrill"
     },
@@ -4166,12 +4166,12 @@
       "label": "Learn-Catrill"
     },
     {
-      "url": "/aws/Learn-Catrill/Solution-Architect/21-NoSQL-DBs-and-DynamoDB",
+      "url": "/aws/Learn-Catrill/Solution-Architect/19-Hybrid-Environments-And-Migration",
       "tag": "aws",
       "label": "Learn-Catrill"
     },
     {
-      "url": "/aws/Learn-Catrill/Solution-Architect/19-Hybrid-Environments-And-Migration",
+      "url": "/aws/Learn-Catrill/Solution-Architect/21-NoSQL-DBs-and-DynamoDB",
       "tag": "aws",
       "label": "Learn-Catrill"
     },
@@ -4181,17 +4181,7 @@
       "label": "Learn-Catrill"
     },
     {
-      "url": "/aws/Learn-Catrill/Solution-Architect/7-Simple-Storage-Service",
-      "tag": "aws",
-      "label": "Learn-Catrill"
-    },
-    {
       "url": "/aws/Learn-Catrill/Solution-Architect/4-Network-Starter-Pack",
-      "tag": "aws",
-      "label": "Learn-Catrill"
-    },
-    {
-      "url": "/aws/Learn-Catrill/Solution-Architect/6-IAM-Accounts-Organisations",
       "tag": "aws",
       "label": "Learn-Catrill"
     },
@@ -4201,7 +4191,12 @@
       "label": "Learn-Catrill"
     },
     {
-      "url": "/aws/Learn-Catrill/Solution-Architect/8-VPC-Basics",
+      "url": "/aws/Learn-Catrill/Solution-Architect/7-Simple-Storage-Service",
+      "tag": "aws",
+      "label": "Learn-Catrill"
+    },
+    {
+      "url": "/aws/Learn-Catrill/Solution-Architect/6-IAM-Accounts-Organisations",
       "tag": "aws",
       "label": "Learn-Catrill"
     },
@@ -4211,7 +4206,12 @@
       "label": "Learn-Catrill"
     },
     {
-      "url": "/aws/Solution-Architect/Certified-Developer-Associate-Course/10-Advanced-IAM",
+      "url": "/aws/Learn-Catrill/Solution-Architect/8-VPC-Basics",
+      "tag": "aws",
+      "label": "Learn-Catrill"
+    },
+    {
+      "url": "/aws/Solution-Architect/Certified-SysOps-Administrator-Associate/3-Deployment-Provisioning-Automation",
       "tag": "aws",
       "label": "Solution-Architect"
     },
@@ -4236,12 +4236,7 @@
       "label": "Solution-Architect"
     },
     {
-      "url": "/aws/Solution-Architect/Certified-SysOps-Administrator-Associate/3-Deployment-Provisioning-Automation",
-      "tag": "aws",
-      "label": "Solution-Architect"
-    },
-    {
-      "url": "/aws/Solution-Architect/Certified-Solutions-Architect-Course/10-ELB",
+      "url": "/aws/Solution-Architect/Certified-Developer-Associate-Course/10-Advanced-IAM",
       "tag": "aws",
       "label": "Solution-Architect"
     },
@@ -4251,7 +4246,7 @@
       "label": "Solution-Architect"
     },
     {
-      "url": "/aws/Solution-Architect/Certified-Solutions-Architect-Course/12-High-Availability-And-Scaling",
+      "url": "/aws/Solution-Architect/Certified-Solutions-Architect-Course/10-ELB",
       "tag": "aws",
       "label": "Solution-Architect"
     },
@@ -4261,7 +4256,17 @@
       "label": "Solution-Architect"
     },
     {
+      "url": "/aws/Solution-Architect/Certified-Solutions-Architect-Course/12-High-Availability-And-Scaling",
+      "tag": "aws",
+      "label": "Solution-Architect"
+    },
+    {
       "url": "/aws/Solution-Architect/Certified-Solutions-Architect-Course/13-Decoupling-Workflows",
+      "tag": "aws",
+      "label": "Solution-Architect"
+    },
+    {
+      "url": "/aws/Solution-Architect/Certified-Solutions-Architect-Course/14-Big-Data",
       "tag": "aws",
       "label": "Solution-Architect"
     },
@@ -4276,17 +4281,7 @@
       "label": "Solution-Architect"
     },
     {
-      "url": "/aws/Solution-Architect/Certified-Solutions-Architect-Course/14-Big-Data",
-      "tag": "aws",
-      "label": "Solution-Architect"
-    },
-    {
       "url": "/aws/Solution-Architect/Certified-Solutions-Architect-Course/17-Automation",
-      "tag": "aws",
-      "label": "Solution-Architect"
-    },
-    {
-      "url": "/aws/Solution-Architect/Certified-Solutions-Architect-Course/18-Caching",
       "tag": "aws",
       "label": "Solution-Architect"
     },
@@ -4296,7 +4291,7 @@
       "label": "Solution-Architect"
     },
     {
-      "url": "/aws/Solution-Architect/Certified-Solutions-Architect-Course/20-Migration",
+      "url": "/aws/Solution-Architect/Certified-Solutions-Architect-Course/18-Caching",
       "tag": "aws",
       "label": "Solution-Architect"
     },
@@ -4306,7 +4301,7 @@
       "label": "Solution-Architect"
     },
     {
-      "url": "/aws/Solution-Architect/Certified-Solutions-Architect-Course/21-Exam-Prep",
+      "url": "/aws/Solution-Architect/Certified-Solutions-Architect-Course/20-Migration",
       "tag": "aws",
       "label": "Solution-Architect"
     },
@@ -4316,17 +4311,17 @@
       "label": "Solution-Architect"
     },
     {
-      "url": "/aws/Solution-Architect/Certified-Solutions-Architect-Course/4-S3",
-      "tag": "aws",
-      "label": "Solution-Architect"
-    },
-    {
-      "url": "/aws/Solution-Architect/Certified-Solutions-Architect-Course/6-EBS-and-EFS",
+      "url": "/aws/Solution-Architect/Certified-Solutions-Architect-Course/21-Exam-Prep",
       "tag": "aws",
       "label": "Solution-Architect"
     },
     {
       "url": "/aws/Solution-Architect/Certified-Solutions-Architect-Course/5-EC2",
+      "tag": "aws",
+      "label": "Solution-Architect"
+    },
+    {
+      "url": "/aws/Solution-Architect/Certified-Solutions-Architect-Course/4-S3",
       "tag": "aws",
       "label": "Solution-Architect"
     },
@@ -4342,6 +4337,11 @@
     },
     {
       "url": "/aws/Solution-Architect/Certified-Solutions-Architect-Course/9-Route-53",
+      "tag": "aws",
+      "label": "Solution-Architect"
+    },
+    {
+      "url": "/aws/Solution-Architect/Certified-Solutions-Architect-Course/6-EBS-and-EFS",
       "tag": "aws",
       "label": "Solution-Architect"
     }
