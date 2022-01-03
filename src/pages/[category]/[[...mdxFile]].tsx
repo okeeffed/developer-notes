@@ -542,7 +542,10 @@ export const getStaticPaths: GetStaticPaths = async () => {
   const files = await recursive(
     path.resolve(process.cwd(), "./public/content")
   );
-  const pkgs = files.map((file) => {
+
+  const filesWithoutIndex = files.filter((file) => !file.includes("index.mdx"));
+
+  const pkgs = filesWithoutIndex.map((file) => {
     const relativeFile = file
       .replace(`${process.cwd()}/public/content/`, "")
       .replace(".mdx", "");
