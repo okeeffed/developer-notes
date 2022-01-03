@@ -553,9 +553,11 @@ export const getStaticPaths: GetStaticPaths = async () => {
   });
 
   const paths = pkgs.map(({ mdxFile }) => {
+    const [category, ...mdxFileParts] = mdxFile.split("/");
     return {
       params: {
-        mdxFile: mdxFile.split("/"),
+        category: category,
+        mdxFile: mdxFileParts,
       },
     };
   });
