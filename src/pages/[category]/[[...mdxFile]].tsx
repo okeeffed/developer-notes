@@ -482,7 +482,7 @@ export const getStaticProps: GetStaticProps = async (context) => {
     params: { mdxFile: arg, category },
   } = context;
 
-  const fileArgs = [category, ...arg];
+  const fileArgs = [category, ...(arg as string[])];
 
   const mdxFile = fileArgs.join("/");
   const relativePath = "./public/content/";
