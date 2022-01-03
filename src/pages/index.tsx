@@ -477,12 +477,8 @@ type Matter = {
 // This function gets called at build time on server-side.
 // It won't be called on client-side, so you can even do
 // direct database queries. See the "Technical details" section.
-export const getStaticProps: GetStaticProps = async (context) => {
-  const {
-    params: { mdxFile: arg },
-  } = context;
-
-  const mdxFile = arg ? (arg as string[]).join("/") : "index";
+export const getStaticProps: GetStaticProps = async () => {
+  const mdxFile = "index";
   const relativePath = "./public/content/";
 
   const fileContents = fs.readFileSync(
@@ -529,37 +525,5 @@ export const getStaticProps: GetStaticProps = async (context) => {
       mdxFile,
       recommendations: [] as Post[],
     },
-  };
-};
-
-export const getStaticPaths: GetStaticPaths = async () => {
-  const recursive = await import("recursive-readdir").then(
-    (module) => module.default
-  );
-
-  const files = await recursive(
-    path.resolve(process.cwd(), "./public/content")
-  );
-  const pkgs = files.map((file) => {
-    const relativeFile = file
-      .replace(`${process.cwd()}/public/content/`, "")
-      .replace(".mdx", "");
-
-    return {
-      mdxFile: relativeFile,
-    };
-  });
-
-  const paths = pkgs.map(({ mdxFile }) => {
-    return {
-      params: {
-        mdxFile: mdxFile.split("/"),
-      },
-    };
-  });
-
-  return {
-    paths: paths,
-    fallback: "blocking",
   };
 };
