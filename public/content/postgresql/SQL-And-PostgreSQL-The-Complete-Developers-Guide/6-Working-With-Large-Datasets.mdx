@@ -736,3 +736,105 @@ VALUES
   (36, 95, false),
   (3, 32, true);
 ```
+
+## Applying a Null Constraint
+
+2 ways to add a null constraint:
+
+1. When creating the table.
+2. After the table was created.
+
+```sql
+ALTER TABLE products
+ALTER COLUMN price SET NOT NULL;
+```
+
+If there are already null values, we will need to deal with those values first.
+
+We can either remove the rows with null, or update that values.
+
+The update could be done like so:
+
+```sql
+UPDATE products
+SET price = 9999
+WHERE price IS NULL;
+```
+
+## Default column values
+
+When creating a table, we can provide a default value for a column.
+
+```sql
+CREATE TABLE products (
+  id SERIAL PRIMARY KEY,
+  name TEXT NOT NULL,
+  price INTEGER DEFAULT 9999,
+  user_id REFERENCES users(id)
+);
+```
+
+## Applying a unique constraint to one column
+
+You can use the `UNIQUE` keyword to keep all values different.
+
+```sql
+CREATE TABLE products (
+  id SERIAL PRIMARY KEY,
+  name VARCHAR(50) NOT NULL UNIQUE,
+  price INTEGER DEFAULT 9999,
+  user_id REFERENCES users(id)
+);
+```
+
+You can also alter the table after creation.
+
+```sql
+ALTER TABLE products
+ADD UNIQUE (name);
+```
+
+## Multi-column uniqueness
+
+This enables use to keep uniqueness across two different columns.
+
+```sql
+ALTER TABLE products
+ADD UNIQUE (name, department);
+```
+
+This means that the name and department must be unique together.
+
+If you want to drop a constraint, you could run the following:
+
+```sql
+ALTER TABLE products
+DROP CONSTRAINT products_name_department_key;
+```
+
+## Adding a Validation Check
+
+A validation check is a check that is run on the data before it is inserted into the database or updated.
+
+```sql
+-- when creating
+CREATE TABLE products (
+  price INTEGER CHECK (price > 0);
+)
+
+-- adding later (if condition already satisfied)
+ALTER TABLE products
+ADD CHECK (price > 0);
+```
+
+## Checks over multiple columns
+
+```sql
+CREATE TABLE orders (
+  id SERIAL PRIMARY KEY,
+  name VARCHAR(40) NOT NULL,
+  created_at TIMESTAMP NOT NULL,
+  est_delivery TIMESTAMP NOT NULL,
+  CHECK (est_delivery > created_at)
+);
+```
