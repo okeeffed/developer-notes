@@ -38,10 +38,35 @@ If we find the `oid` that matches our `users` table, then we know that file cont
 - Heap data structure is very different to a heap file.
 - Each block/page is 8kB large.
 
-## Block Data Layout
+## Block data layout
 
 Each block has information about the block, then after is the pointers for each data stored within the block eg. item 1, 2, etc. After is some free space, then at the end is the data for the tuple items.
 
-## Heap file layout.
+## Heap file layout
 
-COME BACK TO THIS.
+There is a [database page layout](https://www.postgresql.org/docs/8.0/storage-page-layout.html) that tells more about this.
+
+This lesson uses the hex editor extension in VSCode to demonstrate the files.
+
+An overview of the page layout:
+
+| Item           | Description                                                                                                 |
+| -------------- | ----------------------------------------------------------------------------------------------------------- |
+| PageHeaderData | 20 bytes long. Contains general information about the page, including free space pointers.                  |
+| ItemIdData     | Array of (offset,length) pairs pointing to the actual items. 4 bytes per item.                              |
+| Free space     | The unallocated space. New item pointers are allocated from the start of this area, new items from the end. |
+| Items          | The actual items themselves.                                                                                |
+| Special space  | Index access method specific data. Different methods store different data. Empty in ordinary tables.        |
+
+Within the `PageHeaderData` is the following layout:
+
+| Field               | Type          | Length  | Description                                                                |
+| ------------------- | ------------- | ------- | -------------------------------------------------------------------------- |
+| pd_lsn              | XLogRecPtr    | 8 bytes | LSN: next byte after last byte of xlog record for last change to this page |
+| pd_tli              | TimeLineID    | 4 bytes | TLI of last change                                                         |
+| pd_lower            | LocationIndex | 2 bytes | Offset to start of free space                                              |
+| pd_upper            | LocationIndex | 2 bytes | Offset to end of free space                                                |
+| pd_special          | LocationIndex | 2 bytes | Offset to start of special space                                           |
+| pd_pagesize_version | uint16        | 2 bytes | Page size and layout version number information                            |
+
+The first important thing to note is that the `pd_lower` and `pd_upper` fields are the offset to the start and end of the free space.

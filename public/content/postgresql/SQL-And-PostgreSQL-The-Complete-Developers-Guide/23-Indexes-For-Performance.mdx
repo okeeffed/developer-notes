@@ -108,4 +108,29 @@ Note: These don't get listed under `indexes` in PGAdmin. To see them, you will t
 
 ## Behind the scene of indexes
 
-TODO: Still watch this https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22802683#overview
+The order in memory of our B-Tree goes:
+
+1. Meta Page
+2. Root Block/Page
+3. Leaf Block(s)/Page(s)
+
+If you want to inspect some extra information about indexes, you can run the following:
+
+```sql
+CREATE EXTENSION pageinspect;
+```
+
+Afterwards, we could do the following to get info about the index `users_username_idx`:
+
+```sql
+SELECT *
+FROM bt_metap('users_username_idx'); -- bt_metap = B-Tree Metapage
+```
+
+Within the results, there is a `data` column where in our actual index, if we satisfy the data within, then we go to the value at column `ctid`.
+
+In the root node, we go through a comparison process of checking the data and then if satisfied following the `ctid` to the leaf node.
+
+The `ctid` for a leaf node is a little different. It tells us what page and what index within the page to find the data (in tuple format `(uint, uint)`).
+
+When you get to a particular size, then you may have additional layers where there are parent nodes in between the root node and the leaf nodes.
