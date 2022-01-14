@@ -32,6 +32,7 @@ import { PackageSearch } from "@components/PackageSearch";
 import { Sidebar } from "@components/Sidebar";
 import { ExternalLinkIcon } from "@heroicons/react/outline";
 import kebabCase from "lodash/kebabCase";
+import startCase from "lodash/startCase";
 import { TokensList } from "marked";
 import { GetStaticPaths, GetStaticProps } from "next";
 import { MDXRemote } from "next-mdx-remote";
@@ -316,17 +317,20 @@ export default function Blog({
   const headerBgColor = useColorModeValue("white", "gray.800");
   const linkColor = useColorModeValue("blue", "blue.300");
   const repo = `https://github.com/okeeffed/developer-notes-nextjs/content/${mdxFile}`;
+  const metaTitle = startCase(
+    mdxFile.split("/").pop().replace(".mdx", "") ?? "Docs"
+  );
 
   return (
     <>
       <Head>
-        <title>{`${title} | Dennis O'Keeffe Notes`}</title>
+        <title>{`${metaTitle} | Dennis O'Keeffe Notes`}</title>
         <meta name="description" content={description} key="description"></meta>
         <link
           rel="canonical"
           href={`https://docs.dennisokeeffe.com/${mdxFile}`}
         ></link>
-        <meta property="og:title" content={title} key="title"></meta>
+        <meta property="og:title" content={metaTitle} key="title"></meta>
         <meta
           property="og:url"
           content={`https://docs.dennisokeeffe.com/${mdxFile}`}
@@ -339,7 +343,11 @@ export default function Blog({
           key="og:description"
         ></meta>
         <meta property="og:image" content={image} key="og:image"></meta>
-        <meta name="twitter:title" content={title} key="twitter:title"></meta>
+        <meta
+          name="twitter:title"
+          content={metaTitle}
+          key="twitter:title"
+        ></meta>
         <meta
           name="twitter:description"
           content={description}

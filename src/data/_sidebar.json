@@ -3,8 +3,8 @@
     "title": "Home",
     "files": [
       {
-        "title": "Index",
-        "href": "/index"
+        "title": "Home",
+        "href": "/"
       }
     ],
     "dirs": [

@@ -316,13 +316,13 @@ export default function Blog({
   return (
     <>
       <Head>
-        <title>{`${title} | Dennis O'Keeffe Notes`}</title>
+        <title>{`Home | Dennis O'Keeffe Notes`}</title>
         <meta name="description" content={description} key="description"></meta>
         <link
           rel="canonical"
           href={`https://docs.dennisokeeffe.com/${mdxFile}`}
         ></link>
-        <meta property="og:title" content={title} key="title"></meta>
+        <meta property="og:title" content={"Home"} key="title"></meta>
         <meta
           property="og:url"
           content={`https://docs.dennisokeeffe.com/${mdxFile}`}
@@ -335,7 +335,7 @@ export default function Blog({
           key="og:description"
         ></meta>
         <meta property="og:image" content={image} key="og:image"></meta>
-        <meta name="twitter:title" content={title} key="twitter:title"></meta>
+        <meta name="twitter:title" content={"Home"} key="twitter:title"></meta>
         <meta
           name="twitter:description"
           content={description}

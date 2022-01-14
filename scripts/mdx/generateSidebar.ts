@@ -20,7 +20,8 @@ function recursiveSidebar(
   sidebarJson,
   targetPath,
   key = "sidebar",
-  title = "Home"
+  title = "Home",
+  level = 0
 ) {
   const relativePath = targetPath.replace(CONTENT_PATH, "");
   const files = getDirectoryFiles(targetPath);
@@ -33,8 +34,14 @@ function recursiveSidebar(
   });
 
   files.forEach((file, index) => {
-    // base case: ensure it is mdx file
-    if (/\.mdx$/.test(file)) {
+    if (level === 0) {
+      _.set(sidebarJson, `${key}.files.${index}`, {
+        title: "Home",
+        // isDirectory: false,
+        href: `/`,
+      });
+    } else if (/\.mdx$/.test(file)) {
+      // base case: ensure it is mdx file
       _.set(sidebarJson, `${key}.files.${index}`, {
         title: _.capitalize(file.replace(/\.mdx$/, "").replace(/-/g, " ")),
         // isDirectory: false,
@@ -48,7 +55,8 @@ function recursiveSidebar(
       sidebarJson,
       path.resolve(targetPath, dir),
       `${key}.dirs.${index}`,
-      dir
+      dir,
+      level + 1
     );
   });
 }
