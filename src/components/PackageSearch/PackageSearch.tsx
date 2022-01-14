@@ -32,10 +32,8 @@ export function PackageSearch() {
   const inputRef = React.useRef<HTMLInputElement>(null);
 
   const handleKeyDown = React.useCallback(
-    (event: any) => {
-      if (event.key === "/") {
-        event.preventDefault();
-
+    ({ metaKey, key }: any) => {
+      if (metaKey && key === "k") {
         // @ts-expect-error: this is correct
         inputRef?.current?.querySelector("#search-input")?.focus();
       }
@@ -75,7 +73,7 @@ export function PackageSearch() {
           </InputLeftElement>
           <AutoCompleteInput
             variant="filled"
-            placeholder="Type '/' to search files"
+            placeholder="Type ⌘K to search files"
             w="full"
             id="search-input"
             ref={inputRef}
@@ -87,10 +85,11 @@ export function PackageSearch() {
           )}
         </InputGroup>
         <AutoCompleteList>
-          {data.metadata.map(({ url, tag, label }) => (
+          {data.metadata.map(({ url, tag, label, folder }) => (
             <AutoCompleteItem key={url} label={label} value={url}>
               <HStack w="full">
                 <Tag>{tag}</Tag>
+                {folder && <Tag>{folder}</Tag>}
                 <Text>{label}</Text>
               </HStack>
             </AutoCompleteItem>

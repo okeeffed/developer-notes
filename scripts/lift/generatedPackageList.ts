@@ -1,5 +1,4 @@
 import fs from "fs";
-import { version } from "os";
 import path from "path";
 import kratosJson from "../../kratos.json";
 

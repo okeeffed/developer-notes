@@ -271,7 +271,10 @@ interface IBlog {
   mdxFile: string;
   version: string;
   lastUpdated: string;
-  recommendations: Post[];
+  recommendations: {
+    title: string;
+    url: string;
+  }[];
   componentNames: string[];
 }
 
@@ -281,6 +284,7 @@ export default function Blog({
   headings,
   mdxFile,
   componentNames,
+  recommendations,
 }: IBlog) {
   const { push } = useRouter();
   const { src, isOpen, onClose } = useSelectedImage((state: any) => ({
@@ -452,6 +456,21 @@ export default function Blog({
                 </Box>
               ))}
               <Divider />
+              <Heading as="h2" fontSize="lg">
+                Related
+              </Heading>
+              {recommendations.map(({ title, url }) => (
+                <Box key={title}>
+                  <NextLink href={url} passHref>
+                    <Link variant="ghost" color={linkColor}>
+                      {title}
+                    </Link>
+                  </NextLink>
+                </Box>
+              ))}
+              <Divider />
+              <Adsense />
+              <Adsense />
               <Adsense />
             </VStack>
           </GridItem>
@@ -478,6 +497,12 @@ type Matter = {
 // It won't be called on client-side, so you can even do
 // direct database queries. See the "Technical details" section.
 export const getStaticProps: GetStaticProps = async (context) => {
+  const getDirectoryFiles = (source) =>
+    fs
+      .readdirSync(source, { withFileTypes: true })
+      .filter((dirent) => !dirent.isDirectory())
+      .map((dirent) => dirent.name);
+
   const {
     params: { mdxFile: arg, category },
   } = context;
@@ -485,7 +510,21 @@ export const getStaticProps: GetStaticProps = async (context) => {
   const fileArgs = Array.isArray(arg) ? [category, ...arg] : [category, arg];
 
   const mdxFile = fileArgs.join("/");
+  const mdxFileFolderArr = mdxFile.split("/");
+  // remove the file name
+  mdxFileFolderArr.pop();
+  const mdxFileFolder = mdxFileFolderArr.join("/");
   const relativePath = "./public/content/";
+
+  const recommendations = getDirectoryFiles(
+    path.resolve(process.cwd(), relativePath, mdxFileFolder)
+  ).map((file) => {
+    const fileWithoutExt = file.replace(".mdx", "");
+    return {
+      title: fileWithoutExt,
+      url: `/${mdxFileFolder}/${fileWithoutExt}`,
+    };
+  });
 
   const fileContents = fs.readFileSync(
     path.resolve(process.cwd(), relativePath, `${mdxFile}.mdx`),
@@ -529,7 +568,7 @@ export const getStaticProps: GetStaticProps = async (context) => {
       componentNames,
       headings,
       mdxFile,
-      recommendations: [] as Post[],
+      recommendations,
     },
   };
 };

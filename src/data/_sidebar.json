@@ -3038,11 +3038,138 @@
         ]
       },
       {
-        "title": "Postgressql",
+        "title": "Postgresql",
         "files": [
           {
             "title": "Psql tips",
-            "href": "/postgressql/psql-tips"
+            "href": "/postgresql/psql-tips"
+          }
+        ],
+        "dirs": [
+          {
+            "title": "Sql and postgresql the complete developers guide",
+            "files": [
+              {
+                "title": "1 simple but powerful sql statements",
+                "href": "/postgresql/SQL-And-PostgreSQL-The-Complete-Developers-Guide/1-Simple-But-Powerful-SQL-Statements"
+              },
+              {
+                "title": "10 selecting distinct records",
+                "href": "/postgresql/SQL-And-PostgreSQL-The-Complete-Developers-Guide/10-Selecting-Distinct-Records"
+              },
+              {
+                "title": "11 utility operators keywords and functions",
+                "href": "/postgresql/SQL-And-PostgreSQL-The-Complete-Developers-Guide/11-Utility-Operators-Keywords-And-Functions"
+              },
+              {
+                "title": "13 postgresql complex datatypes",
+                "href": "/postgresql/SQL-And-PostgreSQL-The-Complete-Developers-Guide/13-PostgreSQL-Complex-Datatypes"
+              },
+              {
+                "title": "14 database side validation and constraints",
+                "href": "/postgresql/SQL-And-PostgreSQL-The-Complete-Developers-Guide/14-Database-Side-Validation-And-Constraints"
+              },
+              {
+                "title": "15 database structure design patterns",
+                "href": "/postgresql/SQL-And-PostgreSQL-The-Complete-Developers-Guide/15-Database-Structure-Design-Patterns"
+              },
+              {
+                "title": "16 building a like system",
+                "href": "/postgresql/SQL-And-PostgreSQL-The-Complete-Developers-Guide/16-Building-A-Like-System"
+              },
+              {
+                "title": "17 building a mention system",
+                "href": "/postgresql/SQL-And-PostgreSQL-The-Complete-Developers-Guide/17-Building-A-Mention-System"
+              },
+              {
+                "title": "2 filtering records",
+                "href": "/postgresql/SQL-And-PostgreSQL-The-Complete-Developers-Guide/2-Filtering-Records"
+              },
+              {
+                "title": "22 understanding the internals of postgresql",
+                "href": "/postgresql/SQL-And-PostgreSQL-The-Complete-Developers-Guide/22-Understanding-The-Internals-Of-PostgreSQL"
+              },
+              {
+                "title": "23 indexes for performance",
+                "href": "/postgresql/SQL-And-PostgreSQL-The-Complete-Developers-Guide/23-Indexes-For-Performance"
+              },
+              {
+                "title": "24 basic query tuning",
+                "href": "/postgresql/SQL-And-PostgreSQL-The-Complete-Developers-Guide/24-Basic-Query-Tuning"
+              },
+              {
+                "title": "25 advanced query tuning",
+                "href": "/postgresql/SQL-And-PostgreSQL-The-Complete-Developers-Guide/25-Advanced-Query-Tuning"
+              },
+              {
+                "title": "26 common table expressions",
+                "href": "/postgresql/SQL-And-PostgreSQL-The-Complete-Developers-Guide/26-Common-Table-Expressions"
+              },
+              {
+                "title": "27 recursive common table expressions",
+                "href": "/postgresql/SQL-And-PostgreSQL-The-Complete-Developers-Guide/27-Recursive-Common-Table-Expressions"
+              },
+              {
+                "title": "28 simplifying queries with views",
+                "href": "/postgresql/SQL-And-PostgreSQL-The-Complete-Developers-Guide/28-Simplifying-Queries-With-Views"
+              },
+              {
+                "title": "29 optimizing queries with materialized views",
+                "href": "/postgresql/SQL-And-PostgreSQL-The-Complete-Developers-Guide/29-Optimizing-Queries-With-Materialized-Views"
+              },
+              {
+                "title": "3 working with tables",
+                "href": "/postgresql/SQL-And-PostgreSQL-The-Complete-Developers-Guide/3-Working-With-Tables"
+              },
+              {
+                "title": "30 handling concurrency and reversibility with transactions",
+                "href": "/postgresql/SQL-And-PostgreSQL-The-Complete-Developers-Guide/30-Handling-Concurrency-And-Reversibility-With-Transactions"
+              },
+              {
+                "title": "31 managing database design with schema migrations",
+                "href": "/postgresql/SQL-And-PostgreSQL-The-Complete-Developers-Guide/31-Managing-Database-Design-With-Schema-Migrations"
+              },
+              {
+                "title": "32 schema vs data migrations",
+                "href": "/postgresql/SQL-And-PostgreSQL-The-Complete-Developers-Guide/32-Schema-Vs-Data-Migrations"
+              },
+              {
+                "title": "34 data access patterns repositories",
+                "href": "/postgresql/SQL-And-PostgreSQL-The-Complete-Developers-Guide/34-Data-Access-Patterns-Repositories"
+              },
+              {
+                "title": "35 security around postgresql",
+                "href": "/postgresql/SQL-And-PostgreSQL-The-Complete-Developers-Guide/35-Security-Around-PostgreSQL"
+              },
+              {
+                "title": "36 fast parallel testing",
+                "href": "/postgresql/SQL-And-PostgreSQL-The-Complete-Developers-Guide/36-Fast-Parallel-Testing"
+              },
+              {
+                "title": "4 relating records with joins",
+                "href": "/postgresql/SQL-And-PostgreSQL-The-Complete-Developers-Guide/4-Relating-Records-With-Joins"
+              },
+              {
+                "title": "5 aggregation of records",
+                "href": "/postgresql/SQL-And-PostgreSQL-The-Complete-Developers-Guide/5-Aggregation-Of-Records"
+              },
+              {
+                "title": "6 working with large datasets",
+                "href": "/postgresql/SQL-And-PostgreSQL-The-Complete-Developers-Guide/6-Working-With-Large-Datasets"
+              },
+              {
+                "title": "7 sorting records",
+                "href": "/postgresql/SQL-And-PostgreSQL-The-Complete-Developers-Guide/7-Sorting-Records"
+              },
+              {
+                "title": "8 unions and intersections with sets",
+                "href": "/postgresql/SQL-And-PostgreSQL-The-Complete-Developers-Guide/8-Unions-And-Intersections-With-Sets"
+              },
+              {
+                "title": "9 assembling queries with subqueries",
+                "href": "/postgresql/SQL-And-PostgreSQL-The-Complete-Developers-Guide/9-Assembling-Queries-With-Subqueries"
+              }
+            ]
           }
         ]
       },
@@ -3283,6 +3410,37 @@
           {
             "title": "Wtf python",
             "href": "/python/wtf-python"
+          }
+        ],
+        "dirs": [
+          {
+            "title": "Learn to code with python course",
+            "files": [
+              {
+                "title": "11 modules in python",
+                "href": "/python/Learn-To-Code-With-Python-Course/11-Modules-In-Python"
+              },
+              {
+                "title": "12 debugging in python",
+                "href": "/python/Learn-To-Code-With-Python-Course/12-Debugging-In-Python"
+              },
+              {
+                "title": "6 object oriented programming python",
+                "href": "/python/Learn-To-Code-With-Python-Course/6-Object-Oriented-Programming-Python"
+              },
+              {
+                "title": "7 functional programming",
+                "href": "/python/Learn-To-Code-With-Python-Course/7-Functional-Programming"
+              },
+              {
+                "title": "8 decorators",
+                "href": "/python/Learn-To-Code-With-Python-Course/8-Decorators"
+              },
+              {
+                "title": "9 error handling",
+                "href": "/python/Learn-To-Code-With-Python-Course/9-Error-Handling"
+              }
+            ]
           }
         ]
       },

@@ -10,12 +10,17 @@ async function main() {
 
   const data = files.map((file) => {
     const relativePath = file.replace(CONTENT_PATH, "");
-    const [, tag, label] = relativePath.split("/");
+    const relativePathParts = relativePath.split("/");
+    const [, tag, tempFolder] = relativePathParts;
+    const label = relativePathParts[relativePathParts.length - 1];
+
+    const folder = tempFolder === label ? null : tempFolder;
 
     return {
       url: relativePath.replace(".mdx", ""),
       tag: tag,
       label: label ? label.replace(".mdx", "") : "home",
+      folder: folder,
     };
   });
 
