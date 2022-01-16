@@ -132,3 +132,153 @@ $ bundler exec -- rspec ./spec/card_spec.rb
 Finished in 0.01458 seconds (files took 0.195 seconds to load)
 2 examples, 0 failures
 ```
+
+We can also refactor our code to describe the specific class and not just a string:
+
+```rb
+require_relative '../lib/card'
+
+RSpec.describe Card do
+  it 'has a type' do
+    card = Card.new('Ace', 'Spades')
+    expect(card.type).to eq('Ace')
+  end
+
+  it 'has a suit' do
+    card = Card.new('Ace', 'Spades')
+    expect(card.suit).to eq('Spades')
+  end
+end
+```
+
+## Reducing duplication: before hooks and instance variables
+
+We can use before hooks and instance variables. These examples are not necessarily the best way (there will be other ways explored later).
+
+```rb
+require_relative '../lib/card'
+
+RSpec.describe Card do
+  before do
+    @card = Card.new('Ace', 'Spades')
+  end
+
+  it 'has a type' do
+    expect(@card.type).to eq('Ace')
+  end
+
+  it 'has a suit' do
+    expect(@card.suit).to eq('Spades')
+  end
+end
+```
+
+> Note: instance variables can be more prone to error, so there are generally other design patterns.
+
+## Reducing duplication: helper methods
+
+We can define the helper method to define the value to return to the test example.
+
+```rb
+require_relative '../lib/card'
+
+RSpec.describe Card do
+	def card
+		Card.new('Ace', 'Spades')
+	end
+
+  it 'has a type' do
+    expect(card.type).to eq('Ace')
+  end
+
+  it 'has a suit' do
+    expect(card.suit).to eq('Spades')
+  end
+end
+```
+
+The one big drawback for this approach: there can be mutations.
+
+Say the class was change so that the attributes `type` and `suit` can both be read and write.
+
+If we then updated the test to be the following:
+
+```rb
+it 'has a type' do
+	expect(card.type).to eq('Ace')
+	card.rank = 'Queen'
+	expect(card.type).to eq('Queen') # FAILS
+end
+```
+
+The test will fail because of our helper method as it returns a new instance on each invocation of card.
+
+We can get around this with our next approach with the `let` helper method.
+
+## Reducing duplication: the `let` method
+
+Our new method is like so:
+
+```rb
+require_relative '../lib/card'
+
+RSpec.describe Card do
+	let(:card) {
+		Card.new('Ace', 'Spades')
+	}
+
+  it 'has a type' do
+    expect(card.type).to eq('Ace')
+  end
+
+  it 'has a suit' do
+    expect(card.suit).to eq('Spades')
+  end
+end
+```
+
+The `let` method takes an argument of a symbol and then within the block, we write the representation of what that symbol will equal.
+
+The block is evaluated between each example. This is a good thing for test isolation.
+
+The first the `let` block is run, it will assign what is executed in the block to the symbol provided - in our particular example `card`.
+
+Another benefit of the `let` approach is that it utilizes lazy loading: the symbol is not instantiated until it is used.
+
+## Custom error messages
+
+In an example, we can pass in a custom error message to the `expect` method.
+
+```rb
+it 'has a custom error message' do
+	comparison = 'Spades'
+	expect(card.suit).to eq(comparison), "Hey! I expected #{card.suit} to equal #{comparison}"
+end
+```
+
+## The `context` method and nested describes
+
+Our descriptions should not be complex but we should nest our examples.
+
+```rb
+
+RSpec.describe "#even? method" do
+	# Don't do:
+	# it 'should return true if number is even'
+	# it 'should return false if number is odd'
+
+	describe 'with even number' do
+		it 'should return true' do
+			expect(4.even?).to eq(true)
+		end
+	end
+
+	describe 'with odd number' do
+		it 'should return false' do
+			expect(5.even?).to eq(false)
+		end
+	end
+end
+```
+
+Note: some people prefer the alternative `context` keyword. It is equal to `describe` but it is a preference to how it read semantically.
