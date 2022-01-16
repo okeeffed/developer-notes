@@ -1,0 +1,134 @@
+# Introduction
+
+```s
+$ bundler init
+$ bundler add rspec
+$ bundler exec -- rspec --init
+# Creates a .rspec and spec file
+```
+
+The `.rspec` file we have:
+
+```txt
+--require spec_helper
+```
+
+This will ensure the `spec_helper.rb` file is loaded before the tests are run.
+
+The `spec_helper.rb` file should be used to configure the global macros for the RSpec environment.
+
+Some of the things from the default setup:
+
+- The expectation and mock are configured to use the RSpec lib for both by default.
+- There are some commented code at the bottom which are a recommended standard to start. It will be explored later in the course.
+
+## The `describe` Method
+
+We are building a basic card as an object for the basis to test on.
+
+`describe` takes an argument and within the `do-end` block we can write our tests.
+
+The example group will group a set of related examples (which are our tests).
+
+```rb
+# Example group
+RSpec.describe 'Card' do
+	# Still todo
+end
+```
+
+## The `it` Method
+
+We don't want to describe how this card is built, but rather what it is doing. We don't want to card about implementation details.
+
+```rb
+RSpec.describe 'Card' do
+  it 'has a type' do
+		# TODO
+	end
+
+	it 'has a suit' do
+		# TODO
+	end
+end
+```
+
+## The `expect` and `eq` Methods
+
+```rb
+RSpec.describe 'Card' do
+  it 'has a type' do
+		card = Card.new('Ace', 'Spades')
+		expect(card.type).to eq('Ace')
+	end
+
+	it 'has a suit' do
+		card = Card.new('Ace', 'Spades')
+		expect(card.suit).to eq('Spades')
+	end
+end
+```
+
+Note that `expect(1 + 1).to(eq(2))` is the same as `expect(1 + 1).to eq(2)`.
+
+## Reading failures
+
+If we run this now, we get:
+
+```s
+$ bundler exec -- rspec spec/card_spec.rb
+FF
+
+Failures:
+
+  1) Card has a type
+     Failure/Error: card = Card.new('Ace', 'Spades')
+
+     NameError:
+       uninitialized constant Card
+     # ./spec/card_spec.rb:3:in `block (2 levels) in <top (required)>'
+
+  2) Card has a suit
+     Failure/Error: card = Card.new('Ace', 'Spades')
+
+     NameError:
+       uninitialized constant Card
+     # ./spec/card_spec.rb:8:in `block (2 levels) in <top (required)>'
+
+Finished in 0.00446 seconds (files took 0.15174 seconds to load)
+2 examples, 2 failures
+
+Failed examples:
+
+rspec ./spec/card_spec.rb:2 # Card has a type
+rspec ./spec/card_spec.rb:7 # Card has a suit
+```
+
+We get details about the spec that fails, the reason it failed and which line within the spec file caused the failure.
+
+Down the bottom of a failure, it gives us the code required to run the failing spec. For example, to run the first test that failed, we can run `rspec ./spec/card_spec.rb:2`.
+
+## Making the tests pass
+
+For us to fix the failing specs, we need to write our actually card.
+
+```rb
+class Card
+  attr_reader :type, :suit
+
+  def initialize(type, suit)
+    @type = type
+    @suit = suit
+  end
+end
+```
+
+After requiring in that code, we can re-run our failing specs and they should pass.
+
+```s
+$ bundler exec -- rspec ./spec/card_spec.rb
+..
+
+Finished in 0.01458 seconds (files took 0.195 seconds to load)
+2 examples, 0 failures
+```
