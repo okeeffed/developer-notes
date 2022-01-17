@@ -282,3 +282,160 @@ end
 ```
 
 Note: some people prefer the alternative `context` keyword. It is equal to `describe` but it is a preference to how it read semantically.
+
+## `before` and `after` hooks
+
+Similar to the before and after hooks of other languages.
+
+```rb
+RSpec.describle 'before and after hooks' do
+  # Runs before each example.
+  before(:example) do
+    puts 'Before example'
+  end
+
+	# Runs after each example.
+  before(:example) do
+    puts 'Ater example'
+  end
+
+  it 'is just a random example' do
+    expect(5 + 4).to eq(9)
+  end
+
+  it 'is just anoter random example' do
+    expect(5 + 2).to eq(7)
+  end
+end
+```
+
+Some before can use these hooks for mutating state and cleaning up.
+
+There is also the ability to run before and after once for each describe or context block.
+
+```rb
+RSpec.describe 'before and after hooks' do
+	# Only runs within a describe or context block that it is denoted in.
+  before(:context) do
+    puts 'Before context'
+  end
+
+  after(:context) do
+    puts 'After context'
+  end
+
+  # Runs before each example.
+  before(:example) do
+    puts 'Before example'
+  end
+
+  # Runs after each example.
+  before(:example) do
+    puts 'Ater example'
+  end
+
+  it 'is just a random example' do
+    expect(5 + 4).to eq(9)
+  end
+
+  it 'is just anoter random example' do
+    expect(5 + 2).to eq(7)
+  end
+end
+```
+
+## Nested logic: hooks
+
+Take the following:
+
+```rb
+RSpec.describe 'before and after hooks' do
+  # Only runs within a describe or context block that it is denoted in.
+  before(:context) do
+    puts 'Outer before context'
+  end
+
+  # Runs before each example.
+  before(:example) do
+    puts 'Outer before example'
+  end
+
+  # after(:context) do
+  #   puts 'After context'
+  # end
+
+  # # Runs after each example.
+  # before(:example) do
+  #   puts 'Ater example'
+  # end
+
+  it 'does basic math' do
+    puts 'You are in the outer it block'
+    expect(5 + 4).to eq(9)
+  end
+
+  context 'with condition A' do
+    before(:context) do
+      puts 'Inner before context'
+    end
+
+    # Runs before each example.
+    before(:example) do
+      puts 'Inner before example'
+    end
+
+    it 'does more basic math' do
+      puts 'You are in the inner it block'
+      expect(5 + 4).to eq(9)
+    end
+  end
+end
+```
+
+What order does it happen? When we run the test we get:
+
+```s
+$ bundler exec -- rspec ./spec/nested_hooks_spec.rb
+Outer before context
+Outer before example
+You are in the outer it block
+.
+Inner before context
+Outer before example
+Inner before example
+You are in the inner it block
+.
+
+Finished in 0.00475 seconds (files took 0.1518 seconds to load)
+2 examples, 0 failures
+```
+
+## Nested Logic: Overwriting Let Variables
+
+We can re-declare a let variable within the current context (or recursively search up for it).
+
+```rb
+class ProgrammingLanguage
+  attr_reader :name
+
+  def initialize(name = 'Ruby')
+    @name = name
+  end
+end
+
+RSpec.describe ProgrammingLanguage do
+  let(:language) { ProgrammingLanguage.new('Python') }
+
+  it 'should store the name of the language' do
+    expect(language.name).to eq('Python')
+  end
+
+  context 'with no argument' do
+		let(:language) { ProgrammingLanguage.new }
+
+    it 'should default to Ruby as the name of the language' do
+      expect(language.name).to eq('Ruby')
+    end
+  end
+end
+```
