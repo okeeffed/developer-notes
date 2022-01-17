@@ -1,0 +1,103 @@
+# 5: The Meat of Rust
+
+## Structs
+
+```rs
+struct RedFox {
+	enemy: bool,
+	life: u8,
+}
+```
+
+To instantiate:
+
+```rs
+let fox = RedFox {
+	enemy: true,
+	life: 5,
+};
+```
+
+You need to specify all the fields, which can be verbose.
+
+You can specify an association function to provide default values:
+
+```rs
+impl RedFox {
+	// Note: instead of `Self`, we could use the name of the struct `RedFox`
+	// but recommended this way.
+	fn new() -> Self {
+		Self {
+			enemy: true,
+			life: 5,
+		}
+	}
+}
+
+let fox = RedFox::new();
+```
+
+The implementation block is separate from the `struct` declaration.
+
+Associated functions are used like constructors in other languages.
+
+Methods are also defined within the implementation block:
+
+```rs
+impl RedFox {
+	// associated function
+	fn function() ...
+	// methods
+	fn move(self) ...
+	fn borrow(&self) ...
+	fn mut_borrow(&mut self) ...
+}
+```
+
+You can implement a "get" or "set" method like the following example:
+
+```rs
+// This stub file contains items which aren't used yet; feel free to remove this module attribute
+// to enable stricter warnings.
+#![allow(unused)]
+
+pub struct User {
+    name: String,
+    age: u32,
+    weight: f32,
+}
+
+impl User {
+    pub fn new(name: String, age: u32, weight: f32) -> Self {
+        Self {
+            name: name,
+            age: age,
+            weight: weight,
+        }
+    }
+
+    pub fn name(&self) -> &str {
+        &self.name
+    }
+
+    pub fn age(&self) -> u32 {
+        self.age
+    }
+
+    pub fn weight(&self) -> f32 {
+        self.weight
+    }
+
+    pub fn set_age(&mut self, new_age: u32) {
+        self.age = new_age;
+    }
+
+    pub fn set_weight(&mut self, new_weight: f32) {
+        self.weight = new_weight;
+    }
+}
+```
+
+Note at this point: there is no struct inheritance in Rust.
+
+So why doesn't struct use inheritance? Because we have `traits`.
