@@ -1,0 +1,73 @@
+# 3: Built-In Matchers
+
+A matcher is a type of assertion or expectation.
+
+## The `not_to` method
+
+```rb
+RSpec.describe 'not_to method' do
+	it 'checks that two values do not match' do
+		expect(5).not_to eq(4)
+	end
+end
+```
+
+## Equality matches
+
+The matcher to use depends on how strict you want the cmparison.
+
+| Matcher | Does                                  |
+| ------- | ------------------------------------- |
+| `eq`    | Tests for value and ignores type.     |
+| `eql`   | Tests for value AND strict type.      |
+| `equal` | Checks exact identity ie. same memory |
+| `be`    | Alias for `equal`                     |
+
+## Comparison matchers
+
+| Matcher  | Does                |
+| -------- | ------------------- |
+| `be > 5` | Comparison operator |
+
+The usual comparison operators can be used within here.
+
+## Predicate matchers
+
+A predicate method is a method with a `?` at the end which should return a boolean.
+
+Some examples:
+
+```rb
+puts 0.zero?
+puts 2.even?
+puts 11.odd?
+puts [].empty?
+```
+
+In our tests, we could do the following for predicate methods:
+
+```rb
+it 'can be tested with predicate matchers' do
+	expect(16 / 2).to be_even
+end
+```
+
+Basically we can use the `be_<predicate_method>` syntax.
+
+## `all` matcher
+
+Say we want `[5,7,9]` to check if all values are odd.
+
+```rb
+it 'allows for aggregate checks' do
+	expect([5,7,9]).to all(be_odd)
+end
+```
+
+## `be` matcher
+
+`false` and `nil` are the only falsy values.
+
+This section had the `be_falsy` and `be_truthy` methods.
+
+There is also a `be_nil` check.
