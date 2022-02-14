@@ -71,3 +71,172 @@ end
 This section had the `be_falsy` and `be_truthy` methods.
 
 There is also a `be_nil` check.
+
+## `change` matcher
+
+We can use this to track changes over time.
+
+```rb
+RSpec.describe 'change matcher' do
+	subject { [1, 2, 3] }
+
+	it 'checks that a method changes object state' do
+		expect { subject.push(4) }.to change { subject.length }.from(3).to(4)
+	end
+end
+```
+
+At the moment it is too strongly tied to the subject as it is defined when writing the test. We can instead check the length changes by 1 with the following:
+
+```rb
+RSpec.describe 'change matcher' do
+	subject { [1, 2, 3] }
+
+	it 'checks that a method changes object state' do
+		expect { subject.push(4) }.to change { subject.length }.by(1)
+	end
+end
+```
+
+It can also accept negative arguments.
+
+```rb
+RSpec.describe 'change matcher' do
+	subject { [1, 2, 3] }
+
+	it 'checks that a method changes object state' do
+		expect { subject.pop }.to change { subject.length }.by(-1)
+	end
+end
+```
+
+## `contain_exactly` Matcher
+
+This doesn't concern itself about the order, only that they are contained.
+
+```rb
+RSpec.describe 'change matcher' do
+	subject { [1, 2, 3] }
+
+	it 'long form syntax' do
+		expect(subject).to contain_exactly(1, 2, 3)
+		expect(subject).to contain_exactly(3, 1, 2) # still valid as order doesn't matter
+	end
+
+	it { is_expected.to contain_exactly(1, 2, 3) } # short form syntax
+end
+```
+
+## `start_with` and `end_with` matchers
+
+Note: will be case sensitive and order will matter.
+
+```rb
+RSpec.describe 'change matcher' do
+	describe 'caterpillar' do
+		it 'should check for substring at the beginning or end' do
+			expect(subject).to start_with('cat')
+			expect(subject).to end_with('pillar')
+		end
+
+		it { is_expected.to start_with('cat') }
+		it { is_expected.to end_with('pillar') }
+	end
+
+	describe [:a, :b, :c, :d] do
+		it 'should check for elements at the beginning of the array' do
+			expect(subject).to start_with(:a) # valid
+			expect(subject).to start_with(:a, :b) # also valid
+		end
+	end
+end
+```
+
+## `have_attributes` matcher
+
+```rb
+class Wrestler
+	attr_reader :name, :finishing_move
+
+	def initialize(name, finishing_move)
+		@name = name
+		@finishing_move = finishing_move
+	end
+end
+
+RSpec.describe 'have_attributes matcher' do
+	describe Wrestler.new('Stone Cold Steve Austin', 'Stunner') do
+		# Long form
+		it 'checks for object attribute and proper values' do
+			expect(subject).to have_attributes(name: 'Stone Cold Steve Austin', finishing_move: 'Stunner')
+		end
+
+		# Short form
+		it { is_expected.to have_attributes(name: 'Stone Cold Steve Austin', finishing_move: 'Stunner') }
+	end
+end
+```
+
+## `include` matcher
+
+Helps us check substring, or if an array has a value, or a hash has a key (or key/value), etc.
+
+```rb
+RSpec.describe 'include matcher' do
+	describe 'hot chocolate' do
+		it 'checks for substring' do
+			# All value
+			expect(subject).to include('choc')
+			expect(subject).to include('ate')
+			expect(subject).to include('hot')
+		end
+
+		# Short form
+		it { is_expected.to include('choc') }
+	end
+
+	describe [10,20,30] do
+		it 'checks for inclusing in the array, regardless of order' do
+			expect(subject).to include(10, 30)
+		end
+	end
+
+	# Can check for key or key/value pair
+	describe { name: 'Steve Austin', finishing_move: 'Stunner' } do
+		it 'checks for inclusing in the hash, regardless of order' do
+			# Can check for key/value pair
+			expect(subject).to include(name: 'Steve Austin', finishing_move: 'Stunner')
+			# Can check for key only
+			expect(subject).to include(:name)
+		end
+	end
+end
+```
+
+## `raise_error` Matcher
+
+```rb
+RSpec.describe 'raise_error matcher' do
+	def some_method
+		x
+	end
+
+	class CustomError < StandardError; end
+
+	def raise_custom_error
+		raise CustomError
+	end
+
+	it 'checks for raising an error' do
+		expect { some_method }.to raise_error
+	end
+
+	it 'checks for raising a NameError' do
+		expect { some_method }.to raise_error(NameError)
+	end
+
+	it 'checks for raising a CustomError' do
+		expect { raise_custom_error }.to raise_error(CustomError)
+	end
+end
+```
