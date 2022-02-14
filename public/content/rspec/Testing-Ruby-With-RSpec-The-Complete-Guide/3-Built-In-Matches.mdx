@@ -240,3 +240,102 @@ RSpec.describe 'raise_error matcher' do
 	end
 end
 ```
+
+## `respond_to` matcher
+
+Expects that an object can respond to a given method.
+
+```rb
+class HotChocolate
+	def drink
+		'Delicious'
+	end
+
+	def purchase(number)
+		"You bought #{number} hot chocolate(s)"
+	end
+end
+
+RSpec.describe 'respond_to matcher' do
+	describe HotChocolate.new do
+		it 'checks for responding to a method' do
+			expect(subject).to respond_to(:drink)
+			expect(subject).to respond_to(:purchase)
+		end
+	end
+end
+```
+
+We can also test that it expects it will respond to a number of arguments:
+
+```rb
+RSpec.describe 'respond_to matcher' do
+	describe HotChocolate.new do
+		it 'checks for responding to a method' do
+			expect(subject).to respond_to(:purchase).with(1).arguments
+		end
+	end
+end
+```
+
+## `satisfy` matcher
+
+```rb
+RSpec.describe 'satisfy matcher' do
+	subject { 'racecar' }
+
+	it 'is a palindrome' do
+		expect(subject).to satisfy { |word| word == word.reverse }
+	end
+end
+```
+
+We can make the error more descriptive:
+
+```rb
+RSpec.describe 'satisfy matcher' do
+	subject { 'racecar' }
+
+	it 'can accept a custom error message' do
+		expect(subject).to satisfy('be a palindrome') { |word| word == word.reverse }
+	end
+end
+```
+
+## `not_to` method
+
+Checks for the inverse or negative affirmation.
+
+```rb
+RSpec.describe 'not_to method' do
+	it 'checks for inverse of a matcher' do
+		expect(5).not_to eq(10)
+
+		# This does memory
+		expect([1,2,3]).not_to equal([1,2,3])
+
+		expect(10).not_to be_odd
+	end
+end
+```
+
+> Note: the teacher admits that most of the time you will use the positive affirmation unless it is obvious when to use it.
+
+## Compound expectations
+
+Allow us to combine more than one matcher on a line.
+
+```rb
+RSpec.describe 25 do
+	it 'can test for multiple matchers' do
+		# Not using compound expectations
+		expect(subject).to be_odd
+		expect(subject).to be > 20
+
+		# Using both matches
+		expect(subject).to be_odd.and be > 20
+	end
+end
+```
+
+There is also the `or` chainable matcher.
