@@ -548,7 +548,14 @@ export const getStaticProps: GetStaticProps = async (context) => {
   const unwrapImages = await import("remark-unwrap-images").then(
     (mod) => mod.default
   );
-  const mdxSource = await serialize(content, {
+
+  // Enforce source to replace [[(.+)]] with actual links.
+  const filteredSrc = content.replace(
+    /\[\[(.+)\]\]/g,
+    `[$1](/${mdxFileFolder}/$1)`
+  );
+
+  const mdxSource = await serialize(filteredSrc, {
     scope: data,
     mdxOptions: {
       // @ts-expect-error: VFile type error
@@ -587,7 +594,8 @@ export const getStaticPaths: GetStaticPaths = async () => {
   );
 
   const files = await recursive(
-    path.resolve(process.cwd(), "./public/content"), ['!*.md']
+    path.resolve(process.cwd(), "./public/content"),
+    ["!*.md"]
   );
 
   const filesWithoutIndex = files.filter((file) => !file.includes("index.md"));

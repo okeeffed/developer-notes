@@ -8,6 +8,8 @@ const getDirectories = (source) =>
   fs
     .readdirSync(source, { withFileTypes: true })
     .filter((dirent) => dirent.isDirectory())
+    // No hidden folders
+    .filter((dirent) => !/^\.(.+)/.test(dirent.name))
     .map((dirent) => dirent.name);
 
 const getDirectoryFiles = (source) =>

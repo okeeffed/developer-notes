@@ -12,6 +12,10 @@
         "title": "Ableton",
         "files": [
           {
+            "title": "Ableton",
+            "href": "/ableton/Ableton"
+          },
+          {
             "title": "Sound production course levels and panning",
             "href": "/ableton/sound-production-course-levels-and-panning"
           },
@@ -29,6 +33,10 @@
         "title": "Accessibility",
         "files": [
           {
+            "title": "Accessibility",
+            "href": "/accessibility/Accessibility"
+          },
+          {
             "title": "A11y in javascript",
             "href": "/accessibility/a11y-in-javascript"
           }
@@ -36,10 +44,20 @@
       },
       {
         "title": "Acloudguru",
+        "files": [
+          {
+            "title": "Acloudguru",
+            "href": "/acloudguru/Acloudguru"
+          }
+        ],
         "dirs": [
           {
             "title": "Courses",
             "files": [
+              {
+                "title": "Courses",
+                "href": "/acloudguru/courses/Courses"
+              },
               {
                 "title": "Certified solutions architect professional",
                 "href": "/acloudguru/courses/certified-solutions-architect-professional"
@@ -50,10 +68,20 @@
       },
       {
         "title": "Adobe",
+        "files": [
+          {
+            "title": "Adobe",
+            "href": "/adobe/Adobe"
+          }
+        ],
         "dirs": [
           {
             "title": "After effects",
             "files": [
+              {
+                "title": "After effects",
+                "href": "/adobe/after-effects/After-Effects"
+              },
               {
                 "title": "Intro to after effects",
                 "href": "/adobe/after-effects/Intro-To-After-Effects"
@@ -66,6 +94,10 @@
                   {
                     "title": "1 getting started",
                     "href": "/adobe/after-effects/The-Beginners-Guide-To-Adobe-AE/1-Getting-Started"
+                  },
+                  {
+                    "title": "The beginners guide to adobe ae",
+                    "href": "/adobe/after-effects/The-Beginners-Guide-To-Adobe-AE/The-Beginners-Guide-To-Adobe-AE"
                   }
                 ]
               }
@@ -74,6 +106,10 @@
           {
             "title": "Illustrator",
             "files": [
+              {
+                "title": "Illustrator",
+                "href": "/adobe/illustrator/Illustrator"
+              },
               {
                 "title": "Illustrator essentials",
                 "href": "/adobe/illustrator/illustrator-essentials"
@@ -86,6 +122,10 @@
         "title": "Alexa",
         "files": [
           {
+            "title": "Alexa",
+            "href": "/alexa/Alexa"
+          },
+          {
             "title": "Nodejs skill",
             "href": "/alexa/nodejs-skill"
           }
@@ -94,6 +134,10 @@
       {
         "title": "Algebra",
         "files": [
+          {
+            "title": "Algebra",
+            "href": "/algebra/Algebra"
+          },
           {
             "title": "Intro",
             "href": "/algebra/intro"
@@ -115,6 +159,10 @@
       {
         "title": "Algorithms",
         "files": [
+          {
+            "title": "Algorithms",
+            "href": "/algorithms/Algorithms"
+          },
           {
             "title": "Abcheck",
             "href": "/algorithms/abcheck"
@@ -297,6 +345,10 @@
         "title": "Amplify",
         "files": [
           {
+            "title": "Amplify",
+            "href": "/amplify/Amplify"
+          },
+          {
             "title": "Adding storage",
             "href": "/amplify/adding-storage"
           },
@@ -314,6 +366,10 @@
         "title": "Android",
         "files": [
           {
+            "title": "Android",
+            "href": "/android/Android"
+          },
+          {
             "title": "Lists and adapters",
             "href": "/android/lists-and-adapters"
           }
@@ -322,6 +378,10 @@
       {
         "title": "Angular",
         "files": [
+          {
+            "title": "Angular",
+            "href": "/angular/Angular"
+          },
           {
             "title": "Angular basics",
             "href": "/angular/angular-basics"
@@ -336,6 +396,10 @@
         "title": "Api design",
         "files": [
           {
+            "title": "Api design",
+            "href": "/api-design/Api-Design"
+          },
+          {
             "title": "Status codes",
             "href": "/api-design/status-codes"
           }
@@ -344,6 +408,10 @@
       {
         "title": "Architectural principles",
         "files": [
+          {
+            "title": "Architectural principles",
+            "href": "/architectural-principles/Architectural-Principles"
+          },
           {
             "title": "Policy and level",
             "href": "/architectural-principles/policy-and-level"
@@ -354,17 +422,22 @@
         "title": "Art",
         "files": [
           {
+            "title": "Art",
+            "href": "/art/Art"
+          },
+          {
             "title": "Drawing",
             "href": "/art/drawing"
           }
         ]
       },
       {
-        "title": "Assets"
-      },
-      {
         "title": "Auth",
         "files": [
+          {
+            "title": "Auth",
+            "href": "/auth/Auth"
+          },
           {
             "title": "React auth",
             "href": "/auth/react-auth"
@@ -378,6 +451,10 @@
       {
         "title": "Aws",
         "files": [
+          {
+            "title": "Aws",
+            "href": "/aws/Aws"
+          },
           {
             "title": "Well architected frameworkd",
             "href": "/aws/Well-Architected-Frameworkd"
@@ -504,6 +581,10 @@
             "title": "Ec2",
             "files": [
               {
+                "title": "Ec2",
+                "href": "/aws/EC2/EC2"
+              },
+              {
                 "title": "Remembering ec2 instances",
                 "href": "/aws/EC2/Remembering-EC2-Instances"
               }
@@ -511,6 +592,12 @@
           },
           {
             "title": "Learn catrill",
+            "files": [
+              {
+                "title": "Learn catrill",
+                "href": "/aws/Learn-Catrill/Learn-Catrill"
+              }
+            ],
             "dirs": [
               {
                 "title": "Solution architect",
@@ -574,6 +661,10 @@
                   {
                     "title": "9 ec2 basics",
                     "href": "/aws/Learn-Catrill/Solution-Architect/9-EC2-Basics"
+                  },
+                  {
+                    "title": "Solution architect",
+                    "href": "/aws/Learn-Catrill/Solution-Architect/Solution-Architect"
                   }
                 ]
               }
@@ -581,6 +672,12 @@
           },
           {
             "title": "Solution architect",
+            "files": [
+              {
+                "title": "Solution architect",
+                "href": "/aws/Solution-Architect/Solution-Architect"
+              }
+            ],
             "dirs": [
               {
                 "title": "Certified developer associate course",
@@ -600,6 +697,10 @@
                   {
                     "title": "9 developer theory",
                     "href": "/aws/Solution-Architect/Certified-Developer-Associate-Course/9-Developer-Theory"
+                  },
+                  {
+                    "title": "Certified developer associate course",
+                    "href": "/aws/Solution-Architect/Certified-Developer-Associate-Course/Certified-Developer-Associate-Course"
                   },
                   {
                     "title": "Elastic compute cloud",
@@ -693,6 +794,10 @@
                   {
                     "title": "9 route 53",
                     "href": "/aws/Solution-Architect/Certified-Solutions-Architect-Course/9-Route-53"
+                  },
+                  {
+                    "title": "Certified solutions architect course",
+                    "href": "/aws/Solution-Architect/Certified-Solutions-Architect-Course/Certified-Solutions-Architect-Course"
                   }
                 ]
               },
@@ -702,6 +807,10 @@
                   {
                     "title": "3 deployment provisioning automation",
                     "href": "/aws/Solution-Architect/Certified-SysOps-Administrator-Associate/3-Deployment-Provisioning-Automation"
+                  },
+                  {
+                    "title": "Certified sysops administrator associate",
+                    "href": "/aws/Solution-Architect/Certified-SysOps-Administrator-Associate/Certified-SysOps-Administrator-Associate"
                   }
                 ]
               }
@@ -712,6 +821,10 @@
       {
         "title": "Aws cdk",
         "files": [
+          {
+            "title": "Aws cdk",
+            "href": "/aws-cdk/Aws-Cdk"
+          },
           {
             "title": "Creating your own construct",
             "href": "/aws-cdk/creating-your-own-construct"
@@ -734,6 +847,10 @@
         "title": "Bash",
         "files": [
           {
+            "title": "Bash",
+            "href": "/bash/Bash"
+          },
+          {
             "title": "Autocompletion",
             "href": "/bash/autocompletion"
           }
@@ -742,6 +859,10 @@
           {
             "title": "Bats testing",
             "files": [
+              {
+                "title": "Bats testing",
+                "href": "/bash/bats-testing/Bats-Testing"
+              },
               {
                 "title": "Overview",
                 "href": "/bash/bats-testing/overview"
@@ -753,6 +874,10 @@
       {
         "title": "Big data",
         "files": [
+          {
+            "title": "Big data",
+            "href": "/big-data/Big-Data"
+          },
           {
             "title": "Big data essentials",
             "href": "/big-data/big-data-essentials"
@@ -766,6 +891,10 @@
       {
         "title": "Books",
         "files": [
+          {
+            "title": "Books",
+            "href": "/books/Books"
+          },
           {
             "title": "Conversation casanova",
             "href": "/books/conversation-casanova"
@@ -812,6 +941,10 @@
         "title": "Bots",
         "files": [
           {
+            "title": "Bots",
+            "href": "/bots/Bots"
+          },
+          {
             "title": "Api ai bot",
             "href": "/bots/api-ai-bot"
           }
@@ -820,6 +953,10 @@
       {
         "title": "Braintree",
         "files": [
+          {
+            "title": "Braintree",
+            "href": "/braintree/Braintree"
+          },
           {
             "title": "Sandbox",
             "href": "/braintree/sandbox"
@@ -830,6 +967,10 @@
         "title": "Business",
         "files": [
           {
+            "title": "Business",
+            "href": "/business/Business"
+          },
+          {
             "title": "Personal mba",
             "href": "/business/personal-mba"
           }
@@ -838,6 +979,10 @@
       {
         "title": "Chef",
         "files": [
+          {
+            "title": "Chef",
+            "href": "/chef/Chef"
+          },
           {
             "title": "Chef cheat sheet",
             "href": "/chef/chef-cheat-sheet"
@@ -860,6 +1005,10 @@
         "title": "Chrome",
         "files": [
           {
+            "title": "Chrome",
+            "href": "/chrome/Chrome"
+          },
+          {
             "title": "Mastering chrome dev tools v2",
             "href": "/chrome/mastering-chrome-dev-tools-v2"
           },
@@ -873,6 +1022,10 @@
         "title": "Codemod",
         "files": [
           {
+            "title": "Codemod",
+            "href": "/codemod/Codemod"
+          },
+          {
             "title": "Codemod with babel",
             "href": "/codemod/codemod-with-babel"
           }
@@ -881,6 +1034,10 @@
       {
         "title": "Communication",
         "files": [
+          {
+            "title": "Communication",
+            "href": "/communication/Communication"
+          },
           {
             "title": "Introduction",
             "href": "/communication/introduction"
@@ -897,6 +1054,10 @@
           {
             "title": "3 a* algorithm",
             "href": "/comp3306-ai/3-a*-algorithm"
+          },
+          {
+            "title": "Comp3306 ai",
+            "href": "/comp3306-ai/Comp3306-Ai"
           }
         ]
       },
@@ -912,6 +1073,10 @@
             "href": "/comp3520-os/3-threads"
           },
           {
+            "title": "Comp3520 os",
+            "href": "/comp3520-os/Comp3520-Os"
+          },
+          {
             "title": "Pthread",
             "href": "/comp3520-os/pthread"
           }
@@ -921,6 +1086,10 @@
         "title": "Complete intro to databases",
         "files": [
           {
+            "title": "Complete intro to databases",
+            "href": "/complete-intro-to-databases/Complete-Intro-To-Databases"
+          },
+          {
             "title": "Sql",
             "href": "/complete-intro-to-databases/sql"
           }
@@ -929,6 +1098,10 @@
       {
         "title": "Computer science",
         "files": [
+          {
+            "title": "Computer science",
+            "href": "/computer-science/Computer-Science"
+          },
           {
             "title": "Communicating sequential processess",
             "href": "/computer-science/communicating-sequential-processess"
@@ -952,8 +1125,36 @@
         ]
       },
       {
+        "title": "Computer systems",
+        "files": [
+          {
+            "title": "Computer systems",
+            "href": "/computer-systems/Computer-Systems"
+          }
+        ],
+        "dirs": [
+          {
+            "title": "A programmers perspective",
+            "files": [
+              {
+                "title": "A programmers perspective",
+                "href": "/computer-systems/a-programmers-perspective/A-Programmers-Perspective"
+              },
+              {
+                "title": "Buses",
+                "href": "/computer-systems/a-programmers-perspective/Buses"
+              }
+            ]
+          }
+        ]
+      },
+      {
         "title": "Consulting",
         "files": [
+          {
+            "title": "Consulting",
+            "href": "/consulting/Consulting"
+          },
           {
             "title": "Questions to ask",
             "href": "/consulting/questions-to-ask"
@@ -964,6 +1165,10 @@
         "title": "Containers",
         "files": [
           {
+            "title": "Containers",
+            "href": "/containers/Containers"
+          },
+          {
             "title": "Containers vs vms",
             "href": "/containers/containers-vs-vms"
           }
@@ -972,6 +1177,10 @@
       {
         "title": "Contentful",
         "files": [
+          {
+            "title": "Contentful",
+            "href": "/contentful/Contentful"
+          },
           {
             "title": "Contentful js api",
             "href": "/contentful/contentful-js-api"
@@ -982,6 +1191,10 @@
         "title": "Conventional commits",
         "files": [
           {
+            "title": "Conventional commits",
+            "href": "/conventional-commits/Conventional-Commits"
+          },
+          {
             "title": "Automating versioning",
             "href": "/conventional-commits/automating-versioning"
           }
@@ -990,6 +1203,10 @@
       {
         "title": "Cooking",
         "files": [
+          {
+            "title": "Cooking",
+            "href": "/cooking/Cooking"
+          },
           {
             "title": "Kitchen essentials",
             "href": "/cooking/kitchen-essentials"
@@ -1000,6 +1217,10 @@
         "title": "Cpp",
         "files": [
           {
+            "title": "Cpp",
+            "href": "/cpp/Cpp"
+          },
+          {
             "title": "Cpp udemy",
             "href": "/cpp/cpp-udemy"
           }
@@ -1009,6 +1230,10 @@
         "title": "Crontab",
         "files": [
           {
+            "title": "Crontab",
+            "href": "/crontab/Crontab"
+          },
+          {
             "title": "Mac crontab",
             "href": "/crontab/mac-crontab"
           }
@@ -1017,6 +1242,10 @@
       {
         "title": "Css",
         "files": [
+          {
+            "title": "Css",
+            "href": "/css/Css"
+          },
           {
             "title": "Css cheat sheet",
             "href": "/css/css-cheat-sheet"
@@ -1051,6 +1280,10 @@
         "title": "Cypress",
         "files": [
           {
+            "title": "Cypress",
+            "href": "/cypress/Cypress"
+          },
+          {
             "title": "Handover",
             "href": "/cypress/handover"
           }
@@ -1069,6 +1302,10 @@
         "title": "Data dog",
         "files": [
           {
+            "title": "Data dog",
+            "href": "/data-dog/Data-Dog"
+          },
+          {
             "title": "Data dog basics",
             "href": "/data-dog/data-dog-basics"
           }
@@ -1077,6 +1314,10 @@
       {
         "title": "Data engineering",
         "files": [
+          {
+            "title": "Data engineering",
+            "href": "/data-engineering/Data-Engineering"
+          },
           {
             "title": "Intro to data engineering",
             "href": "/data-engineering/intro-to-data-engineering"
@@ -1087,6 +1328,10 @@
         "title": "Data science",
         "files": [
           {
+            "title": "Data science",
+            "href": "/data-science/Data-Science"
+          },
+          {
             "title": "Intermediat ds python",
             "href": "/data-science/intermediat-ds-python"
           }
@@ -1095,6 +1340,10 @@
       {
         "title": "Data structures",
         "files": [
+          {
+            "title": "Data structures",
+            "href": "/data-structures/Data-Structures"
+          },
           {
             "title": "Count vowels",
             "href": "/data-structures/count-vowels"
@@ -1129,6 +1378,10 @@
         "title": "Databases",
         "files": [
           {
+            "title": "Databases",
+            "href": "/databases/Databases"
+          },
+          {
             "title": "Data warehouses",
             "href": "/databases/data-warehouses"
           },
@@ -1150,6 +1403,10 @@
         "title": "Dayjs",
         "files": [
           {
+            "title": "Dayjs",
+            "href": "/dayjs/Dayjs"
+          },
+          {
             "title": "Sorting iso8601 times",
             "href": "/dayjs/sorting-iso8601-times"
           }
@@ -1158,6 +1415,10 @@
       {
         "title": "Debugging",
         "files": [
+          {
+            "title": "Debugging",
+            "href": "/debugging/Debugging"
+          },
           {
             "title": "Resources",
             "href": "/debugging/resources"
@@ -1168,6 +1429,10 @@
         "title": "Deno",
         "files": [
           {
+            "title": "Deno",
+            "href": "/deno/Deno"
+          },
+          {
             "title": "Using npm packages with deno",
             "href": "/deno/using-npm-packages-with-deno"
           }
@@ -1176,6 +1441,10 @@
       {
         "title": "Design",
         "files": [
+          {
+            "title": "Design",
+            "href": "/design/Design"
+          },
           {
             "title": "Design fundamentals 7 tricks graphic designers dont want you to know",
             "href": "/design/design-fundamentals-7-tricks-graphic-designers-dont-want-you-to-know"
@@ -1308,6 +1577,10 @@
         "title": "Devops",
         "files": [
           {
+            "title": "Devops",
+            "href": "/devops/Devops"
+          },
+          {
             "title": "Caching",
             "href": "/devops/caching"
           },
@@ -1337,6 +1610,10 @@
         "title": "Digital marketing",
         "files": [
           {
+            "title": "Digital marketing",
+            "href": "/digital-marketing/Digital-Marketing"
+          },
+          {
             "title": "Digital marketing course",
             "href": "/digital-marketing/digital-marketing-course"
           }
@@ -1346,6 +1623,10 @@
         "title": "Distributed file systems",
         "files": [
           {
+            "title": "Distributed file systems",
+            "href": "/distributed-file-systems/Distributed-File-Systems"
+          },
+          {
             "title": "Intro",
             "href": "/distributed-file-systems/intro"
           }
@@ -1354,6 +1635,10 @@
       {
         "title": "Docker",
         "files": [
+          {
+            "title": "Docker",
+            "href": "/docker/Docker"
+          },
           {
             "title": "Docker and elastic beanstalk",
             "href": "/docker/docker-and-elastic-beanstalk"
@@ -1404,6 +1689,10 @@
         "title": "Dotnet",
         "files": [
           {
+            "title": "Dotnet",
+            "href": "/dotnet/Dotnet"
+          },
+          {
             "title": "Adding models",
             "href": "/dotnet/adding-models"
           },
@@ -1421,6 +1710,10 @@
         "title": "Drawio",
         "files": [
           {
+            "title": "Drawio",
+            "href": "/drawio/Drawio"
+          },
+          {
             "title": "Intro",
             "href": "/drawio/intro"
           }
@@ -1429,6 +1722,10 @@
       {
         "title": "Drupal",
         "files": [
+          {
+            "title": "Drupal",
+            "href": "/drupal/Drupal"
+          },
           {
             "title": "Drupal 8 modules",
             "href": "/drupal/drupal-8-modules"
@@ -1447,6 +1744,10 @@
         "title": "Electron",
         "files": [
           {
+            "title": "Electron",
+            "href": "/electron/Electron"
+          },
+          {
             "title": "Electron fs",
             "href": "/electron/electron-fs"
           },
@@ -1463,6 +1764,10 @@
       {
         "title": "Elixir",
         "files": [
+          {
+            "title": "Elixir",
+            "href": "/elixir/Elixir"
+          },
           {
             "title": "Elixir conditionals",
             "href": "/elixir/elixir-conditionals"
@@ -1505,6 +1810,10 @@
         "title": "Elk",
         "files": [
           {
+            "title": "Elk",
+            "href": "/elk/Elk"
+          },
+          {
             "title": "Docker elk stack",
             "href": "/elk/docker-elk-stack"
           }
@@ -1513,6 +1822,10 @@
       {
         "title": "Elm",
         "files": [
+          {
+            "title": "Elm",
+            "href": "/elm/Elm"
+          },
           {
             "title": "Advanced elm",
             "href": "/elm/advanced-elm"
@@ -1555,6 +1868,10 @@
         "title": "Emitter",
         "files": [
           {
+            "title": "Emitter",
+            "href": "/emitter/Emitter"
+          },
+          {
             "title": "Readme",
             "href": "/emitter/readme"
           }
@@ -1586,12 +1903,20 @@
           {
             "title": "7 distributed complexity",
             "href": "/enterprise-architecture-patterns/7-distributed-complexity"
+          },
+          {
+            "title": "Enterprise architecture patterns",
+            "href": "/enterprise-architecture-patterns/Enterprise-Architecture-Patterns"
           }
         ]
       },
       {
         "title": "Epic react",
         "files": [
+          {
+            "title": "Epic react",
+            "href": "/epic-react/Epic-React"
+          },
           {
             "title": "Advanced react hooks",
             "href": "/epic-react/advanced-react-hooks"
@@ -1630,6 +1955,10 @@
         "title": "Eslint",
         "files": [
           {
+            "title": "Eslint",
+            "href": "/eslint/Eslint"
+          },
+          {
             "title": "Adding a new rule",
             "href": "/eslint/adding-a-new-rule"
           }
@@ -1639,6 +1968,10 @@
         "title": "Etcd",
         "files": [
           {
+            "title": "Etcd",
+            "href": "/etcd/Etcd"
+          },
+          {
             "title": "What is etcd",
             "href": "/etcd/what-is-etcd"
           }
@@ -1646,13 +1979,29 @@
       },
       {
         "title": "Ethereum",
+        "files": [
+          {
+            "title": "Ethereum",
+            "href": "/ethereum/Ethereum"
+          }
+        ],
         "dirs": [
           {
             "title": "Crypto zombies",
+            "files": [
+              {
+                "title": "Crypto zombies",
+                "href": "/ethereum/Crypto-Zombies/Crypto-Zombies"
+              }
+            ],
             "dirs": [
               {
                 "title": "Advanced solidity path",
                 "files": [
+                  {
+                    "title": "Advanced solidity path",
+                    "href": "/ethereum/Crypto-Zombies/Advanced-Solidity-Path/Advanced-Solidity-Path"
+                  },
                   {
                     "title": "Lesson 1 testing smart contracts with truffle",
                     "href": "/ethereum/Crypto-Zombies/Advanced-Solidity-Path/Lesson-1-Testing-Smart-Contracts-With-Truffle"
@@ -1689,6 +2038,10 @@
                   {
                     "title": "Lesson 6 app frontends and web3js",
                     "href": "/ethereum/Crypto-Zombies/Solidity-Path/Lesson-6-App-Frontends-And-Web3js"
+                  },
+                  {
+                    "title": "Solidity path",
+                    "href": "/ethereum/Crypto-Zombies/Solidity-Path/Solidity-Path"
                   }
                 ]
               }
@@ -1720,6 +2073,10 @@
               {
                 "title": "7 nextjs frontend application",
                 "href": "/ethereum/Eth-And-Solidarity-Complete-Guide/7-Nextjs-Frontend-Application"
+              },
+              {
+                "title": "Eth and solidarity complete guide",
+                "href": "/ethereum/Eth-And-Solidarity-Complete-Guide/Eth-And-Solidarity-Complete-Guide"
               }
             ]
           },
@@ -1729,6 +2086,10 @@
               {
                 "title": "Getting started",
                 "href": "/ethereum/Hardhat/Getting-Started"
+              },
+              {
+                "title": "Hardhat",
+                "href": "/ethereum/Hardhat/Hardhat"
               }
             ]
           }
@@ -1738,6 +2099,10 @@
         "title": "Event tracking",
         "files": [
           {
+            "title": "Event tracking",
+            "href": "/event-tracking/Event-Tracking"
+          },
+          {
             "title": "Naming conventions",
             "href": "/event-tracking/naming-conventions"
           }
@@ -1746,6 +2111,10 @@
       {
         "title": "Expo",
         "files": [
+          {
+            "title": "Expo",
+            "href": "/expo/Expo"
+          },
           {
             "title": "Quick start",
             "href": "/expo/quick-start"
@@ -1760,6 +2129,10 @@
         "title": "Express",
         "files": [
           {
+            "title": "Express",
+            "href": "/express/Express"
+          },
+          {
             "title": "Rate limiting",
             "href": "/express/rate-limiting"
           }
@@ -1767,6 +2140,12 @@
       },
       {
         "title": "Finance",
+        "files": [
+          {
+            "title": "Finance",
+            "href": "/finance/Finance"
+          }
+        ],
         "dirs": [
           {
             "title": "Employee stock options and rsus",
@@ -1783,6 +2162,10 @@
         "title": "Finger drumming",
         "files": [
           {
+            "title": "Finger drumming",
+            "href": "/finger-drumming/Finger-Drumming"
+          },
+          {
             "title": "Introduction",
             "href": "/finger-drumming/introduction"
           }
@@ -1792,6 +2175,10 @@
         "title": "Flask",
         "files": [
           {
+            "title": "Flask",
+            "href": "/flask/Flask"
+          },
+          {
             "title": "Hello world",
             "href": "/flask/hello-world"
           }
@@ -1800,6 +2187,10 @@
       {
         "title": "French",
         "files": [
+          {
+            "title": "French",
+            "href": "/french/French"
+          },
           {
             "title": "Auxiliary verbs",
             "href": "/french/auxiliary-verbs"
@@ -1833,6 +2224,10 @@
       {
         "title": "Functional programming",
         "files": [
+          {
+            "title": "Functional programming",
+            "href": "/functional-programming/Functional-Programming"
+          },
           {
             "title": "An example of constrained return types",
             "href": "/functional-programming/an-example-of-constrained-return-types"
@@ -1871,6 +2266,10 @@
         "title": "Generative art",
         "files": [
           {
+            "title": "Generative art",
+            "href": "/generative-art/Generative-Art"
+          },
+          {
             "title": "P5 getting started",
             "href": "/generative-art/p5-getting-started"
           }
@@ -1886,6 +2285,10 @@
               {
                 "title": "4 basics",
                 "href": "/generative-art/Programming-Graphics-Course/4-Basics"
+              },
+              {
+                "title": "Programming graphics course",
+                "href": "/generative-art/Programming-Graphics-Course/Programming-Graphics-Course"
               }
             ]
           }
@@ -1894,6 +2297,10 @@
       {
         "title": "Git",
         "files": [
+          {
+            "title": "Git",
+            "href": "/git/Git"
+          },
           {
             "title": "Git complete",
             "href": "/git/git-complete"
@@ -1924,6 +2331,10 @@
         "title": "Github",
         "files": [
           {
+            "title": "Github",
+            "href": "/github/Github"
+          },
+          {
             "title": "Npm packages",
             "href": "/github/npm-packages"
           },
@@ -1936,6 +2347,10 @@
       {
         "title": "Go",
         "files": [
+          {
+            "title": "Go",
+            "href": "/go/Go"
+          },
           {
             "title": "Authentication with goth",
             "href": "/go/authentication-with-goth"
@@ -2022,6 +2437,10 @@
         "title": "Google cloud platform",
         "files": [
           {
+            "title": "Google cloud platform",
+            "href": "/google-cloud-platform/Google-Cloud-Platform"
+          },
+          {
             "title": "Cloud vision nodejs",
             "href": "/google-cloud-platform/cloud-vision-nodejs"
           }
@@ -2061,6 +2480,10 @@
         "title": "Grpc",
         "files": [
           {
+            "title": "Grpc",
+            "href": "/grpc/Grpc"
+          },
+          {
             "title": "Grpc with go",
             "href": "/grpc/grpc-with-go"
           }
@@ -2069,6 +2492,10 @@
       {
         "title": "Haskell",
         "files": [
+          {
+            "title": "Haskell",
+            "href": "/haskell/Haskell"
+          },
           {
             "title": "Hackerrank notes",
             "href": "/haskell/hackerrank-notes"
@@ -2095,6 +2522,10 @@
         "title": "Hygen",
         "files": [
           {
+            "title": "Hygen",
+            "href": "/hygen/Hygen"
+          },
+          {
             "title": "Intro",
             "href": "/hygen/intro"
           }
@@ -2103,6 +2534,10 @@
       {
         "title": "Images",
         "files": [
+          {
+            "title": "Images",
+            "href": "/images/Images"
+          },
           {
             "title": "Image compression",
             "href": "/images/image-compression"
@@ -2113,6 +2548,10 @@
         "title": "Interactive shells",
         "files": [
           {
+            "title": "Interactive shells",
+            "href": "/interactive-shells/Interactive-Shells"
+          },
+          {
             "title": "Accessing",
             "href": "/interactive-shells/accessing"
           }
@@ -2121,6 +2560,10 @@
       {
         "title": "Ios",
         "files": [
+          {
+            "title": "Ios",
+            "href": "/ios/Ios"
+          },
           {
             "title": "Apple watch",
             "href": "/ios/apple-watch"
@@ -2147,6 +2590,10 @@
         "title": "Istio",
         "files": [
           {
+            "title": "Istio",
+            "href": "/istio/Istio"
+          },
+          {
             "title": "Eks istio",
             "href": "/istio/eks-istio"
           }
@@ -2155,6 +2602,10 @@
       {
         "title": "Java",
         "files": [
+          {
+            "title": "Java",
+            "href": "/java/Java"
+          },
           {
             "title": "Basic imports",
             "href": "/java/basic-imports"
@@ -2204,6 +2655,10 @@
       {
         "title": "Javascript",
         "files": [
+          {
+            "title": "Javascript",
+            "href": "/javascript/Javascript"
+          },
           {
             "title": "Enzyme testing",
             "href": "/javascript/enzyme-testing"
@@ -2338,6 +2793,10 @@
         "title": "Jest",
         "files": [
           {
+            "title": "Jest",
+            "href": "/jest/Jest"
+          },
+          {
             "title": "Extending jest",
             "href": "/jest/extending-jest"
           },
@@ -2351,6 +2810,10 @@
         "title": "Jira",
         "files": [
           {
+            "title": "Jira",
+            "href": "/jira/Jira"
+          },
+          {
             "title": "Usage",
             "href": "/jira/usage"
           }
@@ -2359,6 +2822,10 @@
       {
         "title": "Kafka",
         "files": [
+          {
+            "title": "Kafka",
+            "href": "/kafka/Kafka"
+          },
           {
             "title": "Clients",
             "href": "/kafka/clients"
@@ -2393,6 +2860,10 @@
         "title": "Kotlin",
         "files": [
           {
+            "title": "Kotlin",
+            "href": "/kotlin/Kotlin"
+          },
+          {
             "title": "Kotlin arrays and lists",
             "href": "/kotlin/kotlin-arrays-and-lists"
           },
@@ -2425,6 +2896,10 @@
       {
         "title": "Kubernetes",
         "files": [
+          {
+            "title": "Kubernetes",
+            "href": "/kubernetes/Kubernetes"
+          },
           {
             "title": "Advanced topics",
             "href": "/kubernetes/advanced-topics"
@@ -2519,6 +2994,10 @@
             "title": "Cdk8s",
             "files": [
               {
+                "title": "Cdk8s",
+                "href": "/kubernetes/cdk8s/Cdk8s"
+              },
+              {
                 "title": "Getting started with cdk8s",
                 "href": "/kubernetes/cdk8s/getting-started-with-cdk8s"
               }
@@ -2527,6 +3006,10 @@
           {
             "title": "Helm",
             "files": [
+              {
+                "title": "Helm",
+                "href": "/kubernetes/helm/Helm"
+              },
               {
                 "title": "Getting started with helm",
                 "href": "/kubernetes/helm/getting-started-with-helm"
@@ -2555,6 +3038,10 @@
               {
                 "title": "6 eks fargate",
                 "href": "/kubernetes/rocking-kubernetes-course/6-eks-fargate"
+              },
+              {
+                "title": "Rocking kubernetes course",
+                "href": "/kubernetes/rocking-kubernetes-course/Rocking-Kubernetes-Course"
               }
             ]
           },
@@ -2564,6 +3051,10 @@
               {
                 "title": "Setup k8s locally",
                 "href": "/kubernetes/setup/Setup-k8s-locally"
+              },
+              {
+                "title": "Setup",
+                "href": "/kubernetes/setup/Setup"
               }
             ]
           }
@@ -2572,6 +3063,10 @@
       {
         "title": "Language learning",
         "files": [
+          {
+            "title": "Language learning",
+            "href": "/language-learning/Language-Learning"
+          },
           {
             "title": "Approach to learning software languages",
             "href": "/language-learning/approach-to-learning-software-languages"
@@ -2585,6 +3080,10 @@
       {
         "title": "Laravel",
         "files": [
+          {
+            "title": "Laravel",
+            "href": "/laravel/Laravel"
+          },
           {
             "title": "Laravel 5.4",
             "href": "/laravel/laravel-5.4"
@@ -2602,6 +3101,10 @@
       {
         "title": "Lean product",
         "files": [
+          {
+            "title": "Lean product",
+            "href": "/lean-product/Lean-Product"
+          },
           {
             "title": "Design system considerations",
             "href": "/lean-product/design-system-considerations"
@@ -2625,6 +3128,10 @@
         "title": "Lerna",
         "files": [
           {
+            "title": "Lerna",
+            "href": "/lerna/Lerna"
+          },
+          {
             "title": "Getting started",
             "href": "/lerna/getting-started"
           }
@@ -2633,6 +3140,10 @@
       {
         "title": "Linguistics",
         "files": [
+          {
+            "title": "Linguistics",
+            "href": "/linguistics/Linguistics"
+          },
           {
             "title": "Conjugations",
             "href": "/linguistics/conjugations"
@@ -2655,6 +3166,10 @@
         "title": "Linkedin",
         "files": [
           {
+            "title": "Linkedin",
+            "href": "/linkedin/Linkedin"
+          },
+          {
             "title": "Linkedin api cheat sheet",
             "href": "/linkedin/linkedin-api-cheat-sheet"
           }
@@ -2663,6 +3178,10 @@
       {
         "title": "Linux",
         "files": [
+          {
+            "title": "Linux",
+            "href": "/linux/Linux"
+          },
           {
             "title": "Linux essentials",
             "href": "/linux/linux-essentials"
@@ -2687,6 +3206,10 @@
           {
             "title": "100 page ml book",
             "href": "/machine-learning/100-page-ml-book"
+          },
+          {
+            "title": "Machine learning",
+            "href": "/machine-learning/Machine-Learning"
           },
           {
             "title": "Cl classification intro",
@@ -2730,6 +3253,10 @@
         "title": "Machine learning algos",
         "files": [
           {
+            "title": "Machine learning algos",
+            "href": "/machine-learning-algos/Machine-Learning-Algos"
+          },
+          {
             "title": "K nearest neighbours",
             "href": "/machine-learning-algos/k-nearest-neighbours"
           }
@@ -2739,6 +3266,10 @@
         "title": "Maildev",
         "files": [
           {
+            "title": "Maildev",
+            "href": "/maildev/Maildev"
+          },
+          {
             "title": "Getting started with nodemailer",
             "href": "/maildev/getting-started-with-nodemailer"
           }
@@ -2747,6 +3278,10 @@
       {
         "title": "Mathematics",
         "files": [
+          {
+            "title": "Mathematics",
+            "href": "/mathematics/Mathematics"
+          },
           {
             "title": "Mathematics introduction",
             "href": "/mathematics/mathematics-introduction"
@@ -2761,6 +3296,10 @@
         "title": "Mental models",
         "files": [
           {
+            "title": "Mental models",
+            "href": "/mental-models/Mental-Models"
+          },
+          {
             "title": "Intro to mental models",
             "href": "/mental-models/intro-to-mental-models"
           }
@@ -2770,6 +3309,10 @@
         "title": "Mermaid",
         "files": [
           {
+            "title": "Mermaid",
+            "href": "/mermaid/Mermaid"
+          },
+          {
             "title": "Sequence diagram",
             "href": "/mermaid/sequence-diagram"
           }
@@ -2778,6 +3321,10 @@
       {
         "title": "Mock service worker",
         "files": [
+          {
+            "title": "Mock service worker",
+            "href": "/mock-service-worker/Mock-Service-Worker"
+          },
           {
             "title": "Msw hotloading",
             "href": "/mock-service-worker/msw-hotloading"
@@ -2796,6 +3343,10 @@
         "title": "Momentjs",
         "files": [
           {
+            "title": "Momentjs",
+            "href": "/momentjs/Momentjs"
+          },
+          {
             "title": "Handling diff in days",
             "href": "/momentjs/handling-diff-in-days"
           }
@@ -2805,6 +3356,10 @@
         "title": "Music",
         "files": [
           {
+            "title": "Music",
+            "href": "/music/Music"
+          },
+          {
             "title": "Equipment",
             "href": "/music/equipment"
           }
@@ -2812,10 +3367,20 @@
       },
       {
         "title": "Music production",
+        "files": [
+          {
+            "title": "Music production",
+            "href": "/music-production/Music-Production"
+          }
+        ],
         "dirs": [
           {
             "title": "Lofi",
             "files": [
+              {
+                "title": "Lofi",
+                "href": "/music-production/lofi/Lofi"
+              },
               {
                 "title": "Making lofi beats",
                 "href": "/music-production/lofi/Making-Lofi-Beats"
@@ -2837,6 +3402,10 @@
         "title": "Ndb",
         "files": [
           {
+            "title": "Ndb",
+            "href": "/ndb/Ndb"
+          },
+          {
             "title": "Ndb overview",
             "href": "/ndb/ndb-overview"
           }
@@ -2845,6 +3414,10 @@
       {
         "title": "Networking",
         "files": [
+          {
+            "title": "Networking",
+            "href": "/networking/Networking"
+          },
           {
             "title": "Firewall",
             "href": "/networking/firewall"
@@ -2875,6 +3448,10 @@
         "title": "Next",
         "files": [
           {
+            "title": "Next",
+            "href": "/next/Next"
+          },
+          {
             "title": "Hello next",
             "href": "/next/hello-next"
           },
@@ -2896,6 +3473,10 @@
         "title": "Nginx",
         "files": [
           {
+            "title": "Nginx",
+            "href": "/nginx/Nginx"
+          },
+          {
             "title": "Nginx nodejs docker",
             "href": "/nginx/nginx-nodejs-docker"
           }
@@ -2904,6 +3485,10 @@
       {
         "title": "Nodejs",
         "files": [
+          {
+            "title": "Nodejs",
+            "href": "/nodejs/Nodejs"
+          },
           {
             "title": "Async hooks",
             "href": "/nodejs/async-hooks"
@@ -2938,6 +3523,10 @@
         "title": "Npm",
         "files": [
           {
+            "title": "Npm",
+            "href": "/npm/Npm"
+          },
+          {
             "title": "Building react libraries",
             "href": "/npm/building-react-libraries"
           },
@@ -2963,6 +3552,10 @@
             "href": "/osi-model/Mnemonic-for-OSI-Model"
           },
           {
+            "title": "Osi model",
+            "href": "/osi-model/Osi-Model"
+          },
+          {
             "title": "What is osi",
             "href": "/osi-model/what-is-osi"
           }
@@ -2971,6 +3564,10 @@
       {
         "title": "P5js",
         "files": [
+          {
+            "title": "P5js",
+            "href": "/p5js/P5js"
+          },
           {
             "title": "Intro to p5js",
             "href": "/p5js/intro-to-p5js"
@@ -2981,6 +3578,10 @@
         "title": "Parcel",
         "files": [
           {
+            "title": "Parcel",
+            "href": "/parcel/Parcel"
+          },
+          {
             "title": "Parcel react",
             "href": "/parcel/parcel-react"
           }
@@ -2990,6 +3591,10 @@
         "title": "Personal",
         "files": [
           {
+            "title": "Personal",
+            "href": "/personal/Personal"
+          },
+          {
             "title": "Job preparation examples",
             "href": "/personal/job-preparation-examples"
           }
@@ -2998,6 +3603,10 @@
       {
         "title": "Php",
         "files": [
+          {
+            "title": "Php",
+            "href": "/php/Php"
+          },
           {
             "title": "Pdo cheat sheet",
             "href": "/php/pdo-cheat-sheet"
@@ -3032,6 +3641,10 @@
         "title": "Posix",
         "files": [
           {
+            "title": "Posix",
+            "href": "/posix/Posix"
+          },
+          {
             "title": "Posix intro",
             "href": "/posix/posix-intro"
           }
@@ -3040,6 +3653,10 @@
       {
         "title": "Postgresql",
         "files": [
+          {
+            "title": "Postgresql",
+            "href": "/postgresql/Postgresql"
+          },
           {
             "title": "Psql tips",
             "href": "/postgresql/psql-tips"
@@ -3168,6 +3785,10 @@
               {
                 "title": "9 assembling queries with subqueries",
                 "href": "/postgresql/SQL-And-PostgreSQL-The-Complete-Developers-Guide/9-Assembling-Queries-With-Subqueries"
+              },
+              {
+                "title": "Sql and postgresql the complete developers guide",
+                "href": "/postgresql/SQL-And-PostgreSQL-The-Complete-Developers-Guide/SQL-And-PostgreSQL-The-Complete-Developers-Guide"
               }
             ]
           }
@@ -3242,6 +3863,10 @@
         "title": "Product discovery",
         "files": [
           {
+            "title": "Product discovery",
+            "href": "/product-discovery/Product-Discovery"
+          },
+          {
             "title": "Best continous discovery mindsets",
             "href": "/product-discovery/best-continous-discovery-mindsets"
           },
@@ -3285,17 +3910,25 @@
         ]
       },
       {
-        "title": "Productivity engineering.md",
+        "title": "Productivity engineering",
         "files": [
           {
+            "title": "Productivity engineering",
+            "href": "/productivity-engineering/Productivity-Engineering"
+          },
+          {
             "title": "Tappable configurations",
-            "href": "/productivity-engineering.md/tappable-configurations"
+            "href": "/productivity-engineering/tappable-configurations"
           }
         ]
       },
       {
         "title": "Programming languages",
         "files": [
+          {
+            "title": "Programming languages",
+            "href": "/programming-languages/Programming-Languages"
+          },
           {
             "title": "Code transformation and linting with asts",
             "href": "/programming-languages/code-transformation-and-linting-with-asts"
@@ -3309,6 +3942,10 @@
       {
         "title": "Protocols",
         "files": [
+          {
+            "title": "Protocols",
+            "href": "/protocols/Protocols"
+          },
           {
             "title": "Address resolution protocol",
             "href": "/protocols/address-resolution-protocol"
@@ -3343,6 +3980,10 @@
         "title": "Puppeteer",
         "files": [
           {
+            "title": "Puppeteer",
+            "href": "/puppeteer/Puppeteer"
+          },
+          {
             "title": "Dev tool assertions",
             "href": "/puppeteer/dev-tool-assertions"
           },
@@ -3359,6 +4000,10 @@
       {
         "title": "Python",
         "files": [
+          {
+            "title": "Python",
+            "href": "/python/Python"
+          },
           {
             "title": "Examples",
             "href": "/python/examples"
@@ -3439,6 +4084,10 @@
               {
                 "title": "9 error handling",
                 "href": "/python/Learn-To-Code-With-Python-Course/9-Error-Handling"
+              },
+              {
+                "title": "Learn to code with python course",
+                "href": "/python/Learn-To-Code-With-Python-Course/Learn-To-Code-With-Python-Course"
               }
             ]
           }
@@ -3447,6 +4096,10 @@
       {
         "title": "Quick start",
         "files": [
+          {
+            "title": "Quick start",
+            "href": "/quick-start/Quick-Start"
+          },
           {
             "title": "Golang",
             "href": "/quick-start/golang"
@@ -3461,6 +4114,10 @@
         "title": "R",
         "files": [
           {
+            "title": "R",
+            "href": "/r/R"
+          },
+          {
             "title": "R intermediate",
             "href": "/r/r-intermediate"
           },
@@ -3474,6 +4131,10 @@
         "title": "Raspberry pi",
         "files": [
           {
+            "title": "Raspberry pi",
+            "href": "/raspberry-pi/Raspberry-Pi"
+          },
+          {
             "title": "Setting up wifi",
             "href": "/raspberry-pi/setting-up-wifi"
           }
@@ -3482,6 +4143,10 @@
       {
         "title": "React",
         "files": [
+          {
+            "title": "React",
+            "href": "/react/React"
+          },
           {
             "title": "Advanced react patterns",
             "href": "/react/advanced-react-patterns"
@@ -3552,6 +4217,10 @@
             "title": "React remotion",
             "files": [
               {
+                "title": "React remotion",
+                "href": "/react/react-remotion/React-Remotion"
+              },
+              {
                 "title": "Getting started",
                 "href": "/react/react-remotion/getting-started"
               }
@@ -3562,6 +4231,10 @@
       {
         "title": "React native",
         "files": [
+          {
+            "title": "React native",
+            "href": "/react-native/React-Native"
+          },
           {
             "title": "React native cheat sheet",
             "href": "/react-native/react-native-cheat-sheet"
@@ -3595,6 +4268,10 @@
       {
         "title": "React notes",
         "files": [
+          {
+            "title": "React notes",
+            "href": "/react-notes/React-Notes"
+          },
           {
             "title": "Advanced react redux",
             "href": "/react-notes/advanced-react-redux"
@@ -3645,6 +4322,10 @@
         "title": "React query",
         "files": [
           {
+            "title": "React query",
+            "href": "/react-query/React-Query"
+          },
+          {
             "title": "Getting started",
             "href": "/react-query/getting-started"
           },
@@ -3690,6 +4371,10 @@
         "title": "React router",
         "files": [
           {
+            "title": "React router",
+            "href": "/react-router/React-Router"
+          },
+          {
             "title": "React router v5 quickstart",
             "href": "/react-router/react-router-v5-quickstart"
           }
@@ -3698,6 +4383,10 @@
       {
         "title": "Reasonml",
         "files": [
+          {
+            "title": "Reasonml",
+            "href": "/reasonml/Reasonml"
+          },
           {
             "title": "Reason hello world",
             "href": "/reasonml/reason-hello-world"
@@ -3725,6 +4414,10 @@
         "title": "Redux",
         "files": [
           {
+            "title": "Redux",
+            "href": "/redux/Redux"
+          },
+          {
             "title": "Intro to reselect",
             "href": "/redux/intro-to-reselect"
           },
@@ -3738,6 +4431,10 @@
             "title": "Redux toolkit",
             "files": [
               {
+                "title": "Redux toolkit",
+                "href": "/redux/redux-toolkit/Redux-Toolkit"
+              },
+              {
                 "title": "Usage with react context",
                 "href": "/redux/redux-toolkit/usage-with-react-context"
               }
@@ -3749,6 +4446,10 @@
         "title": "Roadmaps",
         "files": [
           {
+            "title": "Roadmaps",
+            "href": "/roadmaps/Roadmaps"
+          },
+          {
             "title": "Roadmaps intro",
             "href": "/roadmaps/roadmaps-intro"
           }
@@ -3757,6 +4458,10 @@
       {
         "title": "Rspec",
         "files": [
+          {
+            "title": "Rspec",
+            "href": "/rspec/Rspec"
+          },
           {
             "title": "Rspec intro",
             "href": "/rspec/rspec-intro"
@@ -3789,6 +4494,10 @@
               {
                 "title": "4 mocks in rspec",
                 "href": "/rspec/Testing-Ruby-With-RSpec-The-Complete-Guide/4-Mocks-In-RSpec"
+              },
+              {
+                "title": "Testing ruby with rspec the complete guide",
+                "href": "/rspec/Testing-Ruby-With-RSpec-The-Complete-Guide/Testing-Ruby-With-RSpec-The-Complete-Guide"
               }
             ]
           }
@@ -3797,6 +4506,10 @@
       {
         "title": "Ruby",
         "files": [
+          {
+            "title": "Ruby",
+            "href": "/ruby/Ruby"
+          },
           {
             "title": "Cocoapods workshop",
             "href": "/ruby/cocoapods-workshop"
@@ -3897,12 +4610,20 @@
               {
                 "title": "72 functional core imperative shell",
                 "href": "/ruby/Destroy-All-Software/72-Functional-Core-Imperative-Shell"
+              },
+              {
+                "title": "Destroy all software",
+                "href": "/ruby/Destroy-All-Software/Destroy-All-Software"
               }
             ]
           },
           {
             "title": "Minitest",
             "files": [
+              {
+                "title": "Minitest",
+                "href": "/ruby/minitest/Minitest"
+              },
               {
                 "title": "Style guide",
                 "href": "/ruby/minitest/style-guide"
@@ -3914,6 +4635,10 @@
       {
         "title": "Ruby on rails",
         "files": [
+          {
+            "title": "Ruby on rails",
+            "href": "/ruby-on-rails/Ruby-On-Rails"
+          },
           {
             "title": "Factory bot rails",
             "href": "/ruby-on-rails/factory-bot-rails"
@@ -3934,6 +4659,12 @@
       },
       {
         "title": "Ruby on rails tutorial",
+        "files": [
+          {
+            "title": "Ruby on rails tutorial",
+            "href": "/ruby-on-rails-tutorial/Ruby-On-Rails-Tutorial"
+          }
+        ],
         "dirs": [
           {
             "title": "Chapters",
@@ -3969,6 +4700,10 @@
               {
                 "title": "6 modelling users",
                 "href": "/ruby-on-rails-tutorial/chapters/6-modelling-users"
+              },
+              {
+                "title": "Chapters",
+                "href": "/ruby-on-rails-tutorial/chapters/Chapters"
               }
             ]
           }
@@ -3977,6 +4712,10 @@
       {
         "title": "Rust",
         "files": [
+          {
+            "title": "Rust",
+            "href": "/rust/Rust"
+          },
           {
             "title": "Building rust clis",
             "href": "/rust/building-rust-clis"
@@ -4037,6 +4776,10 @@
               {
                 "title": "8 lifetimes",
                 "href": "/rust/The-Rust-Programming-Language-Course/8-Lifetimes"
+              },
+              {
+                "title": "The rust programming language course",
+                "href": "/rust/The-Rust-Programming-Language-Course/The-Rust-Programming-Language-Course"
               }
             ]
           },
@@ -4062,6 +4805,10 @@
               {
                 "title": "6 final lectures",
                 "href": "/rust/Ultimate-Rust-Crash-Course/6-Final-Lectures"
+              },
+              {
+                "title": "Ultimate rust crash course",
+                "href": "/rust/Ultimate-Rust-Crash-Course/Ultimate-Rust-Crash-Course"
               }
             ]
           }
@@ -4070,6 +4817,10 @@
       {
         "title": "Scala",
         "files": [
+          {
+            "title": "Scala",
+            "href": "/scala/Scala"
+          },
           {
             "title": "Intro to scala",
             "href": "/scala/intro-to-scala"
@@ -4088,6 +4839,10 @@
         "title": "Security",
         "files": [
           {
+            "title": "Security",
+            "href": "/security/Security"
+          },
+          {
             "title": "Owasp top ten",
             "href": "/security/owasp-top-ten"
           },
@@ -4101,6 +4856,10 @@
         "title": "Segment",
         "files": [
           {
+            "title": "Segment",
+            "href": "/segment/Segment"
+          },
+          {
             "title": "Intro",
             "href": "/segment/intro"
           }
@@ -4110,6 +4869,10 @@
         "title": "Seo",
         "files": [
           {
+            "title": "Seo",
+            "href": "/seo/Seo"
+          },
+          {
             "title": "Seo for beginners",
             "href": "/seo/seo-for-beginners"
           }
@@ -4118,6 +4881,10 @@
       {
         "title": "Server side react",
         "files": [
+          {
+            "title": "Server side react",
+            "href": "/server-side-react/Server-Side-React"
+          },
           {
             "title": "Create react app server side",
             "href": "/server-side-react/create-react-app-server-side"
@@ -4132,6 +4899,10 @@
         "title": "Shape up",
         "files": [
           {
+            "title": "Shape up",
+            "href": "/shape-up/Shape-Up"
+          },
+          {
             "title": "Hill charts",
             "href": "/shape-up/hill-charts"
           }
@@ -4139,10 +4910,20 @@
       },
       {
         "title": "Shopify",
+        "files": [
+          {
+            "title": "Shopify",
+            "href": "/shopify/Shopify"
+          }
+        ],
         "dirs": [
           {
             "title": "Development",
             "files": [
+              {
+                "title": "Development",
+                "href": "/shopify/development/Development"
+              },
               {
                 "title": "Setting up a dev store",
                 "href": "/shopify/development/setting-up-a-dev-store"
@@ -4154,6 +4935,10 @@
       {
         "title": "Site reliability engineering",
         "files": [
+          {
+            "title": "Site reliability engineering",
+            "href": "/site-reliability-engineering/Site-Reliability-Engineering"
+          },
           {
             "title": "Glossary",
             "href": "/site-reliability-engineering/glossary"
@@ -4172,6 +4957,10 @@
         "title": "Skaffold",
         "files": [
           {
+            "title": "Skaffold",
+            "href": "/skaffold/Skaffold"
+          },
+          {
             "title": "Intro",
             "href": "/skaffold/intro"
           }
@@ -4181,6 +4970,10 @@
         "title": "Sketch",
         "files": [
           {
+            "title": "Sketch",
+            "href": "/sketch/Sketch"
+          },
+          {
             "title": "Principles",
             "href": "/sketch/principles"
           }
@@ -4189,6 +4982,10 @@
       {
         "title": "Smartling",
         "files": [
+          {
+            "title": "Smartling",
+            "href": "/smartling/Smartling"
+          },
           {
             "title": "Smartling cli",
             "href": "/smartling/smartling-cli"
@@ -4203,6 +5000,10 @@
         "title": "Snowpack",
         "files": [
           {
+            "title": "Snowpack",
+            "href": "/snowpack/Snowpack"
+          },
+          {
             "title": "Snowpack with create react app",
             "href": "/snowpack/snowpack-with-create-react-app"
           }
@@ -4210,6 +5011,12 @@
       },
       {
         "title": "Software architecture",
+        "files": [
+          {
+            "title": "Software architecture",
+            "href": "/software-architecture/Software-Architecture"
+          }
+        ],
         "dirs": [
           {
             "title": "Outstanding solution architect course",
@@ -4237,6 +5044,10 @@
               {
                 "title": "6 architecture considerations",
                 "href": "/software-architecture/outstanding-solution-architect-course/6-Architecture-Considerations"
+              },
+              {
+                "title": "Outstanding solution architect course",
+                "href": "/software-architecture/outstanding-solution-architect-course/Outstanding-Solution-Architect-Course"
               }
             ]
           }
@@ -4245,6 +5056,10 @@
       {
         "title": "Sql",
         "files": [
+          {
+            "title": "Sql",
+            "href": "/sql/Sql"
+          },
           {
             "title": "Indexing example",
             "href": "/sql/indexing-example"
@@ -4266,6 +5081,10 @@
       {
         "title": "Storybook",
         "files": [
+          {
+            "title": "Storybook",
+            "href": "/storybook/Storybook"
+          },
           {
             "title": "Adding docs",
             "href": "/storybook/adding-docs"
@@ -4295,6 +5114,10 @@
       {
         "title": "Stripe",
         "files": [
+          {
+            "title": "Stripe",
+            "href": "/stripe/Stripe"
+          },
           {
             "title": "Charges vs payment intent",
             "href": "/stripe/charges-vs-payment-intent"
@@ -4328,6 +5151,10 @@
           {
             "title": "Configuration",
             "files": [
+              {
+                "title": "Configuration",
+                "href": "/stripe/configuration/Configuration"
+              },
               {
                 "title": "Dotnet stripe configuration",
                 "href": "/stripe/configuration/dotnet-stripe-configuration"
@@ -4389,6 +5216,10 @@
         "title": "Styled components",
         "files": [
           {
+            "title": "Styled components",
+            "href": "/styled-components/Styled-Components"
+          },
+          {
             "title": "Intro with styled systems",
             "href": "/styled-components/intro-with-styled-systems"
           }
@@ -4412,12 +5243,20 @@
           {
             "title": "4 preprocessing data",
             "href": "/supervised-learning-with-scikit-learn/4-Preprocessing-Data"
+          },
+          {
+            "title": "Supervised learning with scikit learn",
+            "href": "/supervised-learning-with-scikit-learn/Supervised-Learning-With-Scikit-Learn"
           }
         ]
       },
       {
         "title": "Swift",
         "files": [
+          {
+            "title": "Swift",
+            "href": "/swift/Swift"
+          },
           {
             "title": "Swift 3 api design guidelines",
             "href": "/swift/swift-3-api-design-guidelines"
@@ -4448,6 +5287,10 @@
         "title": "System design",
         "files": [
           {
+            "title": "System design",
+            "href": "/system-design/System-Design"
+          },
+          {
             "title": "Data systems",
             "href": "/system-design/data-systems"
           },
@@ -4469,6 +5312,10 @@
         "title": "Tableau",
         "files": [
           {
+            "title": "Tableau",
+            "href": "/tableau/Tableau"
+          },
+          {
             "title": "Tableau live talk",
             "href": "/tableau/tableau-live-talk"
           }
@@ -4477,6 +5324,10 @@
       {
         "title": "Tailwind",
         "files": [
+          {
+            "title": "Tailwind",
+            "href": "/tailwind/Tailwind"
+          },
           {
             "title": "Quickstart",
             "href": "/tailwind/quickstart"
@@ -4495,6 +5346,10 @@
         "title": "Tensorflow",
         "files": [
           {
+            "title": "Tensorflow",
+            "href": "/tensorflow/Tensorflow"
+          },
+          {
             "title": "Tensorflow js",
             "href": "/tensorflow/tensorflow-js"
           }
@@ -4503,6 +5358,10 @@
       {
         "title": "Terminal",
         "files": [
+          {
+            "title": "Terminal",
+            "href": "/terminal/Terminal"
+          },
           {
             "title": "Tips and tricks",
             "href": "/terminal/tips-and-tricks"
@@ -4521,6 +5380,10 @@
       {
         "title": "Testing",
         "files": [
+          {
+            "title": "Testing",
+            "href": "/testing/Testing"
+          },
           {
             "title": "Enzyme",
             "href": "/testing/enzyme"
@@ -4549,6 +5412,12 @@
       },
       {
         "title": "Threejs",
+        "files": [
+          {
+            "title": "Threejs",
+            "href": "/threejs/Threejs"
+          }
+        ],
         "dirs": [
           {
             "title": "Journey",
@@ -4560,6 +5429,10 @@
               {
                 "title": "3 advanced techniques",
                 "href": "/threejs/journey/3-Advanced-Techniques"
+              },
+              {
+                "title": "Journey",
+                "href": "/threejs/journey/Journey"
               }
             ]
           }
@@ -4568,6 +5441,10 @@
       {
         "title": "Timber",
         "files": [
+          {
+            "title": "Timber",
+            "href": "/timber/Timber"
+          },
           {
             "title": "Timber cheat sheet",
             "href": "/timber/timber-cheat-sheet"
@@ -4578,6 +5455,10 @@
         "title": "Tooling",
         "files": [
           {
+            "title": "Tooling",
+            "href": "/tooling/Tooling"
+          },
+          {
             "title": "Awesome cli tools",
             "href": "/tooling/awesome-cli-tools"
           }
@@ -4586,6 +5467,10 @@
       {
         "title": "Treat",
         "files": [
+          {
+            "title": "Treat",
+            "href": "/treat/Treat"
+          },
           {
             "title": "Index",
             "href": "/treat/index"
@@ -4604,6 +5489,10 @@
         "title": "Twig",
         "files": [
           {
+            "title": "Twig",
+            "href": "/twig/Twig"
+          },
+          {
             "title": "Twig cheat sheet",
             "href": "/twig/twig-cheat-sheet"
           }
@@ -4612,6 +5501,10 @@
       {
         "title": "Typescript",
         "files": [
+          {
+            "title": "Typescript",
+            "href": "/typescript/Typescript"
+          },
           {
             "title": "Developers guide",
             "href": "/typescript/developers-guide"
@@ -4640,10 +5533,20 @@
       },
       {
         "title": "Ui",
+        "files": [
+          {
+            "title": "Ui",
+            "href": "/ui/Ui"
+          }
+        ],
         "dirs": [
           {
             "title": "Refactoring ui",
             "files": [
+              {
+                "title": "Refactoring ui",
+                "href": "/ui/refactoring-ui/Refactoring-Ui"
+              },
               {
                 "title": "Principles",
                 "href": "/ui/refactoring-ui/principles"
@@ -4655,6 +5558,10 @@
       {
         "title": "Unity",
         "files": [
+          {
+            "title": "Unity",
+            "href": "/unity/Unity"
+          },
           {
             "title": "How to make a video game",
             "href": "/unity/how-to-make-a-video-game"
@@ -4668,6 +5575,10 @@
       {
         "title": "Unix",
         "files": [
+          {
+            "title": "Unix",
+            "href": "/unix/Unix"
+          },
           {
             "title": "Appending files",
             "href": "/unix/appending-files"
@@ -4686,6 +5597,10 @@
         "title": "Ux testing",
         "files": [
           {
+            "title": "Ux testing",
+            "href": "/ux-testing/Ux-Testing"
+          },
+          {
             "title": "Research design",
             "href": "/ux-testing/research-design"
           }
@@ -4694,6 +5609,10 @@
       {
         "title": "Vagrant",
         "files": [
+          {
+            "title": "Vagrant",
+            "href": "/vagrant/Vagrant"
+          },
           {
             "title": "Vagrant overview",
             "href": "/vagrant/vagrant-overview"
@@ -4721,6 +5640,10 @@
         "title": "Virtual file systems",
         "files": [
           {
+            "title": "Virtual file systems",
+            "href": "/virtual-file-systems/Virtual-File-Systems"
+          },
+          {
             "title": "Intro",
             "href": "/virtual-file-systems/intro"
           }
@@ -4729,6 +5652,10 @@
       {
         "title": "Vscode",
         "files": [
+          {
+            "title": "Vscode",
+            "href": "/vscode/Vscode"
+          },
           {
             "title": "Debugging react chrome vscode settings",
             "href": "/vscode/debugging-react-chrome-vscode-settings"
@@ -4746,6 +5673,10 @@
       {
         "title": "Web",
         "files": [
+          {
+            "title": "Web",
+            "href": "/web/Web"
+          },
           {
             "title": "Accessibility course",
             "href": "/web/accessibility-course"
@@ -4790,6 +5721,10 @@
               {
                 "title": "5 planning",
                 "href": "/web/web-performance-fundamentals/5-planning"
+              },
+              {
+                "title": "Web performance fundamentals",
+                "href": "/web/web-performance-fundamentals/Web-Performance-Fundamentals"
               }
             ]
           }
@@ -4809,12 +5744,20 @@
           {
             "title": "3 assembly script",
             "href": "/web-assembly/3-assembly-script"
+          },
+          {
+            "title": "Web assembly",
+            "href": "/web-assembly/Web-Assembly"
           }
         ]
       },
       {
         "title": "Web servers",
         "files": [
+          {
+            "title": "Web servers",
+            "href": "/web-servers/Web-Servers"
+          },
           {
             "title": "Resources",
             "href": "/web-servers/resources"
@@ -4862,6 +5805,10 @@
         "title": "Wordpress",
         "files": [
           {
+            "title": "Wordpress",
+            "href": "/wordpress/Wordpress"
+          },
+          {
             "title": "Wordpress cheat sheet",
             "href": "/wordpress/wordpress-cheat-sheet"
           },
@@ -4879,6 +5826,10 @@
         "title": "Writing",
         "files": [
           {
+            "title": "Writing",
+            "href": "/writing/Writing"
+          },
+          {
             "title": "Writing with flair",
             "href": "/writing/writing-with-flair"
           }
@@ -4887,6 +5838,10 @@
       {
         "title": "Xstate",
         "files": [
+          {
+            "title": "Xstate",
+            "href": "/xstate/Xstate"
+          },
           {
             "title": "State machines in js",
             "href": "/xstate/state-machines-in-js"
@@ -4908,6 +5863,10 @@
         "title": "Yarn",
         "files": [
           {
+            "title": "Yarn",
+            "href": "/yarn/Yarn"
+          },
+          {
             "title": "Workspaces in yarn",
             "href": "/yarn/workspaces-in-yarn"
           }
@@ -4916,6 +5875,10 @@
       {
         "title": "Zeit now",
         "files": [
+          {
+            "title": "Zeit now",
+            "href": "/zeit-now/Zeit-Now"
+          },
           {
             "title": "Typescript github example",
             "href": "/zeit-now/typescript-github-example"

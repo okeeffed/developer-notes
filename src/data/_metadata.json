@@ -6,6 +6,12 @@
       "label": "index"
     },
     {
+      "url": "/ableton/Ableton",
+      "tag": "ableton",
+      "label": "Ableton",
+      "folder": null
+    },
+    {
       "url": "/ableton/sound-production-course-levels-and-panning",
       "tag": "ableton",
       "label": "sound-production-course-levels-and-panning",
@@ -24,9 +30,21 @@
       "folder": null
     },
     {
+      "url": "/accessibility/Accessibility",
+      "tag": "accessibility",
+      "label": "Accessibility",
+      "folder": null
+    },
+    {
       "url": "/accessibility/a11y-in-javascript",
       "tag": "accessibility",
       "label": "a11y-in-javascript",
+      "folder": null
+    },
+    {
+      "url": "/alexa/Alexa",
+      "tag": "alexa",
+      "label": "Alexa",
       "folder": null
     },
     {
@@ -36,15 +54,21 @@
       "folder": null
     },
     {
-      "url": "/algebra/intro",
+      "url": "/algebra/Algebra",
       "tag": "algebra",
-      "label": "intro",
+      "label": "Algebra",
       "folder": null
     },
     {
       "url": "/algebra/properties",
       "tag": "algebra",
       "label": "properties",
+      "folder": null
+    },
+    {
+      "url": "/algebra/intro",
+      "tag": "algebra",
+      "label": "intro",
       "folder": null
     },
     {
@@ -57,6 +81,12 @@
       "url": "/algebra/solving-linear-equations",
       "tag": "algebra",
       "label": "solving-linear-equations",
+      "folder": null
+    },
+    {
+      "url": "/algorithms/Algorithms",
+      "tag": "algorithms",
+      "label": "Algorithms",
       "folder": null
     },
     {
@@ -84,9 +114,9 @@
       "folder": null
     },
     {
-      "url": "/algorithms/array-addition",
+      "url": "/algorithms/array-manipulation",
       "tag": "algorithms",
-      "label": "array-addition",
+      "label": "array-manipulation",
       "folder": null
     },
     {
@@ -96,15 +126,15 @@
       "folder": null
     },
     {
-      "url": "/algorithms/array-manipulation",
-      "tag": "algorithms",
-      "label": "array-manipulation",
-      "folder": null
-    },
-    {
       "url": "/algorithms/bracket-matcher",
       "tag": "algorithms",
       "label": "bracket-matcher",
+      "folder": null
+    },
+    {
+      "url": "/algorithms/array-addition",
+      "tag": "algorithms",
+      "label": "array-addition",
       "folder": null
     },
     {
@@ -126,15 +156,15 @@
       "folder": null
     },
     {
-      "url": "/algorithms/convert-time",
-      "tag": "algorithms",
-      "label": "convert-time",
-      "folder": null
-    },
-    {
       "url": "/algorithms/consecutive",
       "tag": "algorithms",
       "label": "consecutive",
+      "folder": null
+    },
+    {
+      "url": "/algorithms/convert-time",
+      "tag": "algorithms",
+      "label": "convert-time",
       "folder": null
     },
     {
@@ -168,15 +198,15 @@
       "folder": null
     },
     {
-      "url": "/algorithms/first-reverse",
-      "tag": "algorithms",
-      "label": "first-reverse",
-      "folder": null
-    },
-    {
       "url": "/algorithms/first-factorial",
       "tag": "algorithms",
       "label": "first-factorial",
+      "folder": null
+    },
+    {
+      "url": "/algorithms/first-reverse",
+      "tag": "algorithms",
+      "label": "first-reverse",
       "folder": null
     },
     {
@@ -324,6 +354,12 @@
       "folder": null
     },
     {
+      "url": "/amplify/Amplify",
+      "tag": "amplify",
+      "label": "Amplify",
+      "folder": null
+    },
+    {
       "url": "/amplify/adding-storage",
       "tag": "amplify",
       "label": "adding-storage",
@@ -342,9 +378,9 @@
       "folder": null
     },
     {
-      "url": "/android/lists-and-adapters",
-      "tag": "android",
-      "label": "lists-and-adapters",
+      "url": "/angular/Angular",
+      "tag": "angular",
+      "label": "Angular",
       "folder": null
     },
     {
@@ -360,21 +396,45 @@
       "folder": null
     },
     {
+      "url": "/android/Android",
+      "tag": "android",
+      "label": "Android",
+      "folder": null
+    },
+    {
+      "url": "/android/lists-and-adapters",
+      "tag": "android",
+      "label": "lists-and-adapters",
+      "folder": null
+    },
+    {
+      "url": "/api-design/Api-Design",
+      "tag": "api-design",
+      "label": "Api-Design",
+      "folder": null
+    },
+    {
       "url": "/api-design/status-codes",
       "tag": "api-design",
       "label": "status-codes",
       "folder": null
     },
     {
-      "url": "/architectural-principles/policy-and-level",
-      "tag": "architectural-principles",
-      "label": "policy-and-level",
+      "url": "/art/Art",
+      "tag": "art",
+      "label": "Art",
       "folder": null
     },
     {
       "url": "/art/drawing",
       "tag": "art",
       "label": "drawing",
+      "folder": null
+    },
+    {
+      "url": "/auth/Auth",
+      "tag": "auth",
+      "label": "Auth",
       "folder": null
     },
     {
@@ -390,15 +450,27 @@
       "folder": null
     },
     {
-      "url": "/aws-cdk/creating-your-own-construct",
-      "tag": "aws-cdk",
-      "label": "creating-your-own-construct",
+      "url": "/architectural-principles/Architectural-Principles",
+      "tag": "architectural-principles",
+      "label": "Architectural-Principles",
       "folder": null
     },
     {
-      "url": "/aws-cdk/lambda-s3-asset-with-api-gw",
+      "url": "/architectural-principles/policy-and-level",
+      "tag": "architectural-principles",
+      "label": "policy-and-level",
+      "folder": null
+    },
+    {
+      "url": "/aws-cdk/Aws-Cdk",
       "tag": "aws-cdk",
-      "label": "lambda-s3-asset-with-api-gw",
+      "label": "Aws-Cdk",
+      "folder": null
+    },
+    {
+      "url": "/aws-cdk/creating-your-own-construct",
+      "tag": "aws-cdk",
+      "label": "creating-your-own-construct",
       "folder": null
     },
     {
@@ -408,9 +480,21 @@
       "folder": null
     },
     {
+      "url": "/aws-cdk/lambda-s3-asset-with-api-gw",
+      "tag": "aws-cdk",
+      "label": "lambda-s3-asset-with-api-gw",
+      "folder": null
+    },
+    {
       "url": "/aws-cdk/sqs-event-source-with-lambda",
       "tag": "aws-cdk",
       "label": "sqs-event-source-with-lambda",
+      "folder": null
+    },
+    {
+      "url": "/big-data/Big-Data",
+      "tag": "big-data",
+      "label": "Big-Data",
       "folder": null
     },
     {
@@ -423,6 +507,12 @@
       "url": "/big-data/tools-and-technologies",
       "tag": "big-data",
       "label": "tools-and-technologies",
+      "folder": null
+    },
+    {
+      "url": "/books/Books",
+      "tag": "books",
+      "label": "Books",
       "folder": null
     },
     {
@@ -486,9 +576,9 @@
       "folder": null
     },
     {
-      "url": "/bots/api-ai-bot",
-      "tag": "bots",
-      "label": "api-ai-bot",
+      "url": "/braintree/Braintree",
+      "tag": "braintree",
+      "label": "Braintree",
       "folder": null
     },
     {
@@ -498,9 +588,9 @@
       "folder": null
     },
     {
-      "url": "/business/personal-mba",
-      "tag": "business",
-      "label": "personal-mba",
+      "url": "/chef/Chef",
+      "tag": "chef",
+      "label": "Chef",
       "folder": null
     },
     {
@@ -516,15 +606,57 @@
       "folder": null
     },
     {
+      "url": "/chef/chef-learning-dev-ops-deployment",
+      "tag": "chef",
+      "label": "chef-learning-dev-ops-deployment",
+      "folder": null
+    },
+    {
       "url": "/chef/chef-udemy",
       "tag": "chef",
       "label": "chef-udemy",
       "folder": null
     },
     {
-      "url": "/chef/chef-learning-dev-ops-deployment",
-      "tag": "chef",
-      "label": "chef-learning-dev-ops-deployment",
+      "url": "/bots/Bots",
+      "tag": "bots",
+      "label": "Bots",
+      "folder": null
+    },
+    {
+      "url": "/bots/api-ai-bot",
+      "tag": "bots",
+      "label": "api-ai-bot",
+      "folder": null
+    },
+    {
+      "url": "/business/Business",
+      "tag": "business",
+      "label": "Business",
+      "folder": null
+    },
+    {
+      "url": "/business/personal-mba",
+      "tag": "business",
+      "label": "personal-mba",
+      "folder": null
+    },
+    {
+      "url": "/codemod/Codemod",
+      "tag": "codemod",
+      "label": "Codemod",
+      "folder": null
+    },
+    {
+      "url": "/codemod/codemod-with-babel",
+      "tag": "codemod",
+      "label": "codemod-with-babel",
+      "folder": null
+    },
+    {
+      "url": "/chrome/Chrome",
+      "tag": "chrome",
+      "label": "Chrome",
       "folder": null
     },
     {
@@ -540,9 +672,9 @@
       "folder": null
     },
     {
-      "url": "/codemod/codemod-with-babel",
-      "tag": "codemod",
-      "label": "codemod-with-babel",
+      "url": "/communication/Communication",
+      "tag": "communication",
+      "label": "Communication",
       "folder": null
     },
     {
@@ -564,6 +696,24 @@
       "folder": null
     },
     {
+      "url": "/comp3306-ai/Comp3306-Ai",
+      "tag": "comp3306-ai",
+      "label": "Comp3306-Ai",
+      "folder": null
+    },
+    {
+      "url": "/complete-intro-to-databases/Complete-Intro-To-Databases",
+      "tag": "complete-intro-to-databases",
+      "label": "Complete-Intro-To-Databases",
+      "folder": null
+    },
+    {
+      "url": "/complete-intro-to-databases/sql",
+      "tag": "complete-intro-to-databases",
+      "label": "sql",
+      "folder": null
+    },
+    {
       "url": "/comp3520-os/2-process-description-and-control",
       "tag": "comp3520-os",
       "label": "2-process-description-and-control",
@@ -582,9 +732,15 @@
       "folder": null
     },
     {
-      "url": "/complete-intro-to-databases/sql",
-      "tag": "complete-intro-to-databases",
-      "label": "sql",
+      "url": "/comp3520-os/Comp3520-Os",
+      "tag": "comp3520-os",
+      "label": "Comp3520-Os",
+      "folder": null
+    },
+    {
+      "url": "/computer-science/Computer-Science",
+      "tag": "computer-science",
+      "label": "Computer-Science",
       "folder": null
     },
     {
@@ -618,9 +774,21 @@
       "folder": null
     },
     {
+      "url": "/consulting/Consulting",
+      "tag": "consulting",
+      "label": "Consulting",
+      "folder": null
+    },
+    {
       "url": "/consulting/questions-to-ask",
       "tag": "consulting",
       "label": "questions-to-ask",
+      "folder": null
+    },
+    {
+      "url": "/containers/Containers",
+      "tag": "containers",
+      "label": "Containers",
       "folder": null
     },
     {
@@ -630,9 +798,21 @@
       "folder": null
     },
     {
+      "url": "/contentful/Contentful",
+      "tag": "contentful",
+      "label": "Contentful",
+      "folder": null
+    },
+    {
       "url": "/contentful/contentful-js-api",
       "tag": "contentful",
       "label": "contentful-js-api",
+      "folder": null
+    },
+    {
+      "url": "/conventional-commits/Conventional-Commits",
+      "tag": "conventional-commits",
+      "label": "Conventional-Commits",
       "folder": null
     },
     {
@@ -642,9 +822,21 @@
       "folder": null
     },
     {
+      "url": "/cooking/Cooking",
+      "tag": "cooking",
+      "label": "Cooking",
+      "folder": null
+    },
+    {
       "url": "/cooking/kitchen-essentials",
       "tag": "cooking",
       "label": "kitchen-essentials",
+      "folder": null
+    },
+    {
+      "url": "/cpp/Cpp",
+      "tag": "cpp",
+      "label": "Cpp",
       "folder": null
     },
     {
@@ -654,9 +846,21 @@
       "folder": null
     },
     {
+      "url": "/crontab/Crontab",
+      "tag": "crontab",
+      "label": "Crontab",
+      "folder": null
+    },
+    {
       "url": "/crontab/mac-crontab",
       "tag": "crontab",
       "label": "mac-crontab",
+      "folder": null
+    },
+    {
+      "url": "/css/Css",
+      "tag": "css",
+      "label": "Css",
       "folder": null
     },
     {
@@ -702,9 +906,27 @@
       "folder": null
     },
     {
+      "url": "/d3/d3",
+      "tag": "d3",
+      "label": "d3",
+      "folder": null
+    },
+    {
+      "url": "/cypress/Cypress",
+      "tag": "cypress",
+      "label": "Cypress",
+      "folder": null
+    },
+    {
       "url": "/cypress/handover",
       "tag": "cypress",
       "label": "handover",
+      "folder": null
+    },
+    {
+      "url": "/data-dog/Data-Dog",
+      "tag": "data-dog",
+      "label": "Data-Dog",
       "folder": null
     },
     {
@@ -714,9 +936,9 @@
       "folder": null
     },
     {
-      "url": "/d3/d3",
-      "tag": "d3",
-      "label": "d3",
+      "url": "/data-engineering/Data-Engineering",
+      "tag": "data-engineering",
+      "label": "Data-Engineering",
       "folder": null
     },
     {
@@ -726,9 +948,21 @@
       "folder": null
     },
     {
+      "url": "/data-science/Data-Science",
+      "tag": "data-science",
+      "label": "Data-Science",
+      "folder": null
+    },
+    {
       "url": "/data-science/intermediat-ds-python",
       "tag": "data-science",
       "label": "intermediat-ds-python",
+      "folder": null
+    },
+    {
+      "url": "/databases/Databases",
+      "tag": "databases",
+      "label": "Databases",
       "folder": null
     },
     {
@@ -756,9 +990,9 @@
       "folder": null
     },
     {
-      "url": "/data-structures/count-vowels",
+      "url": "/data-structures/Data-Structures",
       "tag": "data-structures",
-      "label": "count-vowels",
+      "label": "Data-Structures",
       "folder": null
     },
     {
@@ -768,21 +1002,27 @@
       "folder": null
     },
     {
+      "url": "/data-structures/count-vowels",
+      "tag": "data-structures",
+      "label": "count-vowels",
+      "folder": null
+    },
+    {
       "url": "/data-structures/javascript",
       "tag": "data-structures",
       "label": "javascript",
       "folder": null
     },
     {
-      "url": "/data-structures/python",
-      "tag": "data-structures",
-      "label": "python",
-      "folder": null
-    },
-    {
       "url": "/data-structures/understanding-big-o-notation",
       "tag": "data-structures",
       "label": "understanding-big-o-notation",
+      "folder": null
+    },
+    {
+      "url": "/data-structures/python",
+      "tag": "data-structures",
+      "label": "python",
       "folder": null
     },
     {
@@ -798,9 +1038,9 @@
       "folder": null
     },
     {
-      "url": "/dayjs/sorting-iso8601-times",
-      "tag": "dayjs",
-      "label": "sorting-iso8601-times",
+      "url": "/debugging/Debugging",
+      "tag": "debugging",
+      "label": "Debugging",
       "folder": null
     },
     {
@@ -810,27 +1050,57 @@
       "folder": null
     },
     {
+      "url": "/dayjs/Dayjs",
+      "tag": "dayjs",
+      "label": "Dayjs",
+      "folder": null
+    },
+    {
+      "url": "/dayjs/sorting-iso8601-times",
+      "tag": "dayjs",
+      "label": "sorting-iso8601-times",
+      "folder": null
+    },
+    {
+      "url": "/design-systems/comparing-design-systems",
+      "tag": "design-systems",
+      "label": "comparing-design-systems",
+      "folder": null
+    },
+    {
+      "url": "/design-systems/design-systems",
+      "tag": "design-systems",
+      "label": "design-systems",
+      "folder": null
+    },
+    {
+      "url": "/design-systems/design-tokens",
+      "tag": "design-systems",
+      "label": "design-tokens",
+      "folder": null
+    },
+    {
+      "url": "/deno/Deno",
+      "tag": "deno",
+      "label": "Deno",
+      "folder": null
+    },
+    {
       "url": "/deno/using-npm-packages-with-deno",
       "tag": "deno",
       "label": "using-npm-packages-with-deno",
       "folder": null
     },
     {
-      "url": "/design/design-fundamentals-7-tricks-graphic-designers-dont-want-you-to-know",
-      "tag": "design",
-      "label": "design-fundamentals-7-tricks-graphic-designers-dont-want-you-to-know",
+      "url": "/design-patterns/abstract-factory-pattern",
+      "tag": "design-patterns",
+      "label": "abstract-factory-pattern",
       "folder": null
     },
     {
       "url": "/design-patterns/adapter-pattern",
       "tag": "design-patterns",
       "label": "adapter-pattern",
-      "folder": null
-    },
-    {
-      "url": "/design-patterns/abstract-factory-pattern",
-      "tag": "design-patterns",
-      "label": "abstract-factory-pattern",
       "folder": null
     },
     {
@@ -858,15 +1128,15 @@
       "folder": null
     },
     {
-      "url": "/design-patterns/decorator-pattern",
-      "tag": "design-patterns",
-      "label": "decorator-pattern",
-      "folder": null
-    },
-    {
       "url": "/design-patterns/composite-pattern",
       "tag": "design-patterns",
       "label": "composite-pattern",
+      "folder": null
+    },
+    {
+      "url": "/design-patterns/decorator-pattern",
+      "tag": "design-patterns",
+      "label": "decorator-pattern",
       "folder": null
     },
     {
@@ -972,21 +1242,9 @@
       "folder": null
     },
     {
-      "url": "/design-systems/comparing-design-systems",
-      "tag": "design-systems",
-      "label": "comparing-design-systems",
-      "folder": null
-    },
-    {
-      "url": "/design-systems/design-tokens",
-      "tag": "design-systems",
-      "label": "design-tokens",
-      "folder": null
-    },
-    {
-      "url": "/design-systems/design-systems",
-      "tag": "design-systems",
-      "label": "design-systems",
+      "url": "/devops/Devops",
+      "tag": "devops",
+      "label": "Devops",
       "folder": null
     },
     {
@@ -1014,15 +1272,21 @@
       "folder": null
     },
     {
+      "url": "/devops/proxies",
+      "tag": "devops",
+      "label": "proxies",
+      "folder": null
+    },
+    {
       "url": "/devops/observability-definitions",
       "tag": "devops",
       "label": "observability-definitions",
       "folder": null
     },
     {
-      "url": "/devops/proxies",
-      "tag": "devops",
-      "label": "proxies",
+      "url": "/digital-marketing/Digital-Marketing",
+      "tag": "digital-marketing",
+      "label": "Digital-Marketing",
       "folder": null
     },
     {
@@ -1032,27 +1296,45 @@
       "folder": null
     },
     {
+      "url": "/design/design-fundamentals-7-tricks-graphic-designers-dont-want-you-to-know",
+      "tag": "design",
+      "label": "design-fundamentals-7-tricks-graphic-designers-dont-want-you-to-know",
+      "folder": null
+    },
+    {
+      "url": "/design/Design",
+      "tag": "design",
+      "label": "Design",
+      "folder": null
+    },
+    {
+      "url": "/distributed-file-systems/Distributed-File-Systems",
+      "tag": "distributed-file-systems",
+      "label": "Distributed-File-Systems",
+      "folder": null
+    },
+    {
       "url": "/distributed-file-systems/intro",
       "tag": "distributed-file-systems",
       "label": "intro",
       "folder": null
     },
     {
-      "url": "/dotnet/adding-models",
-      "tag": "dotnet",
-      "label": "adding-models",
+      "url": "/drawio/Drawio",
+      "tag": "drawio",
+      "label": "Drawio",
       "folder": null
     },
     {
-      "url": "/dotnet/getting-started",
-      "tag": "dotnet",
-      "label": "getting-started",
+      "url": "/drawio/intro",
+      "tag": "drawio",
+      "label": "intro",
       "folder": null
     },
     {
-      "url": "/dotnet/package-management",
-      "tag": "dotnet",
-      "label": "package-management",
+      "url": "/docker/Docker",
+      "tag": "docker",
+      "label": "Docker",
       "folder": null
     },
     {
@@ -1122,9 +1404,33 @@
       "folder": null
     },
     {
-      "url": "/drawio/intro",
-      "tag": "drawio",
-      "label": "intro",
+      "url": "/dotnet/Dotnet",
+      "tag": "dotnet",
+      "label": "Dotnet",
+      "folder": null
+    },
+    {
+      "url": "/dotnet/adding-models",
+      "tag": "dotnet",
+      "label": "adding-models",
+      "folder": null
+    },
+    {
+      "url": "/dotnet/getting-started",
+      "tag": "dotnet",
+      "label": "getting-started",
+      "folder": null
+    },
+    {
+      "url": "/dotnet/package-management",
+      "tag": "dotnet",
+      "label": "package-management",
+      "folder": null
+    },
+    {
+      "url": "/drupal/Drupal",
+      "tag": "drupal",
+      "label": "Drupal",
       "folder": null
     },
     {
@@ -1146,6 +1452,12 @@
       "folder": null
     },
     {
+      "url": "/electron/Electron",
+      "tag": "electron",
+      "label": "Electron",
+      "folder": null
+    },
+    {
       "url": "/electron/electron-fs",
       "tag": "electron",
       "label": "electron-fs",
@@ -1164,63 +1476,9 @@
       "folder": null
     },
     {
-      "url": "/elixir/elixir-conditionals",
-      "tag": "elixir",
-      "label": "elixir-conditionals",
-      "folder": null
-    },
-    {
-      "url": "/elixir/elixir-course-repl",
-      "tag": "elixir",
-      "label": "elixir-course-repl",
-      "folder": null
-    },
-    {
-      "url": "/elixir/elixir-course-testing",
-      "tag": "elixir",
-      "label": "elixir-course-testing",
-      "folder": null
-    },
-    {
-      "url": "/elixir/elixir-debugging",
-      "tag": "elixir",
-      "label": "elixir-debugging",
-      "folder": null
-    },
-    {
-      "url": "/elixir/elixir-maps-and-structs",
-      "tag": "elixir",
-      "label": "elixir-maps-and-structs",
-      "folder": null
-    },
-    {
-      "url": "/elixir/elixir-iteration",
-      "tag": "elixir",
-      "label": "elixir-iteration",
-      "folder": null
-    },
-    {
-      "url": "/elixir/elixir-school",
-      "tag": "elixir",
-      "label": "elixir-school",
-      "folder": null
-    },
-    {
-      "url": "/elixir/elixir-sql",
-      "tag": "elixir",
-      "label": "elixir-sql",
-      "folder": null
-    },
-    {
-      "url": "/elixir/phoenix-routing",
-      "tag": "elixir",
-      "label": "phoenix-routing",
-      "folder": null
-    },
-    {
-      "url": "/elk/docker-elk-stack",
-      "tag": "elk",
-      "label": "docker-elk-stack",
+      "url": "/elm/Elm",
+      "tag": "elm",
+      "label": "Elm",
       "folder": null
     },
     {
@@ -1278,45 +1536,105 @@
       "folder": null
     },
     {
+      "url": "/elixir/Elixir",
+      "tag": "elixir",
+      "label": "Elixir",
+      "folder": null
+    },
+    {
+      "url": "/elixir/elixir-conditionals",
+      "tag": "elixir",
+      "label": "elixir-conditionals",
+      "folder": null
+    },
+    {
+      "url": "/elixir/elixir-course-repl",
+      "tag": "elixir",
+      "label": "elixir-course-repl",
+      "folder": null
+    },
+    {
+      "url": "/elixir/elixir-course-testing",
+      "tag": "elixir",
+      "label": "elixir-course-testing",
+      "folder": null
+    },
+    {
+      "url": "/elixir/elixir-debugging",
+      "tag": "elixir",
+      "label": "elixir-debugging",
+      "folder": null
+    },
+    {
+      "url": "/elixir/elixir-iteration",
+      "tag": "elixir",
+      "label": "elixir-iteration",
+      "folder": null
+    },
+    {
+      "url": "/elixir/elixir-maps-and-structs",
+      "tag": "elixir",
+      "label": "elixir-maps-and-structs",
+      "folder": null
+    },
+    {
+      "url": "/elixir/elixir-school",
+      "tag": "elixir",
+      "label": "elixir-school",
+      "folder": null
+    },
+    {
+      "url": "/elixir/elixir-sql",
+      "tag": "elixir",
+      "label": "elixir-sql",
+      "folder": null
+    },
+    {
+      "url": "/elixir/phoenix-routing",
+      "tag": "elixir",
+      "label": "phoenix-routing",
+      "folder": null
+    },
+    {
+      "url": "/elk/Elk",
+      "tag": "elk",
+      "label": "Elk",
+      "folder": null
+    },
+    {
+      "url": "/elk/docker-elk-stack",
+      "tag": "elk",
+      "label": "docker-elk-stack",
+      "folder": null
+    },
+    {
+      "url": "/emitter/Emitter",
+      "tag": "emitter",
+      "label": "Emitter",
+      "folder": null
+    },
+    {
       "url": "/emitter/readme",
       "tag": "emitter",
       "label": "readme",
       "folder": null
     },
     {
-      "url": "/enterprise-architecture-patterns/1-enterprise-architecture-patterns",
-      "tag": "enterprise-architecture-patterns",
-      "label": "1-enterprise-architecture-patterns",
+      "url": "/eslint/Eslint",
+      "tag": "eslint",
+      "label": "Eslint",
       "folder": null
     },
     {
-      "url": "/enterprise-architecture-patterns/4-decisions-and-conditionals",
-      "tag": "enterprise-architecture-patterns",
-      "label": "4-decisions-and-conditionals",
+      "url": "/eslint/adding-a-new-rule",
+      "tag": "eslint",
+      "label": "adding-a-new-rule",
       "folder": null
     },
     {
-      "url": "/enterprise-architecture-patterns/5-collections-and-iterators",
-      "tag": "enterprise-architecture-patterns",
-      "label": "5-collections-and-iterators",
-      "folder": null
-    },
-    {
-      "url": "/enterprise-architecture-patterns/6-time-management-in-applications",
-      "tag": "enterprise-architecture-patterns",
-      "label": "6-time-management-in-applications",
-      "folder": null
-    },
-    {
-      "url": "/enterprise-architecture-patterns/2-object-oriented-programming",
-      "tag": "enterprise-architecture-patterns",
-      "label": "2-object-oriented-programming",
-      "folder": null
-    },
-    {
-      "url": "/enterprise-architecture-patterns/7-distributed-complexity",
-      "tag": "enterprise-architecture-patterns",
-      "label": "7-distributed-complexity",
+      "url": "/epic-react/Epic-React",
+      "tag": "epic-react",
+      "label": "Epic-React",
       "folder": null
     },
     {
@@ -1368,9 +1686,9 @@
       "folder": null
     },
     {
-      "url": "/eslint/adding-a-new-rule",
-      "tag": "eslint",
-      "label": "adding-a-new-rule",
+      "url": "/etcd/Etcd",
+      "tag": "etcd",
+      "label": "Etcd",
       "folder": null
     },
     {
@@ -1380,21 +1698,21 @@
       "folder": null
     },
     {
+      "url": "/event-tracking/Event-Tracking",
+      "tag": "event-tracking",
+      "label": "Event-Tracking",
+      "folder": null
+    },
+    {
       "url": "/event-tracking/naming-conventions",
       "tag": "event-tracking",
       "label": "naming-conventions",
       "folder": null
     },
     {
-      "url": "/expo/quick-start",
-      "tag": "expo",
-      "label": "quick-start",
-      "folder": null
-    },
-    {
-      "url": "/expo/working-with-detox",
-      "tag": "expo",
-      "label": "working-with-detox",
+      "url": "/express/Express",
+      "tag": "express",
+      "label": "Express",
       "folder": null
     },
     {
@@ -1404,9 +1722,135 @@
       "folder": null
     },
     {
+      "url": "/enterprise-architecture-patterns/1-enterprise-architecture-patterns",
+      "tag": "enterprise-architecture-patterns",
+      "label": "1-enterprise-architecture-patterns",
+      "folder": null
+    },
+    {
+      "url": "/enterprise-architecture-patterns/2-object-oriented-programming",
+      "tag": "enterprise-architecture-patterns",
+      "label": "2-object-oriented-programming",
+      "folder": null
+    },
+    {
+      "url": "/enterprise-architecture-patterns/5-collections-and-iterators",
+      "tag": "enterprise-architecture-patterns",
+      "label": "5-collections-and-iterators",
+      "folder": null
+    },
+    {
+      "url": "/enterprise-architecture-patterns/4-decisions-and-conditionals",
+      "tag": "enterprise-architecture-patterns",
+      "label": "4-decisions-and-conditionals",
+      "folder": null
+    },
+    {
+      "url": "/enterprise-architecture-patterns/6-time-management-in-applications",
+      "tag": "enterprise-architecture-patterns",
+      "label": "6-time-management-in-applications",
+      "folder": null
+    },
+    {
+      "url": "/enterprise-architecture-patterns/7-distributed-complexity",
+      "tag": "enterprise-architecture-patterns",
+      "label": "7-distributed-complexity",
+      "folder": null
+    },
+    {
+      "url": "/enterprise-architecture-patterns/Enterprise-Architecture-Patterns",
+      "tag": "enterprise-architecture-patterns",
+      "label": "Enterprise-Architecture-Patterns",
+      "folder": null
+    },
+    {
+      "url": "/expo/Expo",
+      "tag": "expo",
+      "label": "Expo",
+      "folder": null
+    },
+    {
+      "url": "/expo/working-with-detox",
+      "tag": "expo",
+      "label": "working-with-detox",
+      "folder": null
+    },
+    {
+      "url": "/expo/quick-start",
+      "tag": "expo",
+      "label": "quick-start",
+      "folder": null
+    },
+    {
+      "url": "/finger-drumming/Finger-Drumming",
+      "tag": "finger-drumming",
+      "label": "Finger-Drumming",
+      "folder": null
+    },
+    {
       "url": "/finger-drumming/introduction",
       "tag": "finger-drumming",
       "label": "introduction",
+      "folder": null
+    },
+    {
+      "url": "/functional-programming/Functional-Programming",
+      "tag": "functional-programming",
+      "label": "Functional-Programming",
+      "folder": null
+    },
+    {
+      "url": "/functional-programming/an-example-of-constrained-return-types",
+      "tag": "functional-programming",
+      "label": "an-example-of-constrained-return-types",
+      "folder": null
+    },
+    {
+      "url": "/functional-programming/an-example-of-hof-for-entities",
+      "tag": "functional-programming",
+      "label": "an-example-of-hof-for-entities",
+      "folder": null
+    },
+    {
+      "url": "/functional-programming/functors-and-monads",
+      "tag": "functional-programming",
+      "label": "functors-and-monads",
+      "folder": null
+    },
+    {
+      "url": "/functional-programming/hardcore-fp-in-javascript",
+      "tag": "functional-programming",
+      "label": "hardcore-fp-in-javascript",
+      "folder": null
+    },
+    {
+      "url": "/functional-programming/functional-architecture-patterns",
+      "tag": "functional-programming",
+      "label": "functional-architecture-patterns",
+      "folder": null
+    },
+    {
+      "url": "/functional-programming/hardcore-fp-in-javascript-v2",
+      "tag": "functional-programming",
+      "label": "hardcore-fp-in-javascript-v2",
+      "folder": null
+    },
+    {
+      "url": "/functional-programming/hardcore-js-patterns",
+      "tag": "functional-programming",
+      "label": "hardcore-js-patterns",
+      "folder": null
+    },
+    {
+      "url": "/functional-programming/intro",
+      "tag": "functional-programming",
+      "label": "intro",
+      "folder": null
+    },
+    {
+      "url": "/flask/Flask",
+      "tag": "flask",
+      "label": "Flask",
       "folder": null
     },
     {
@@ -1416,9 +1860,33 @@
       "folder": null
     },
     {
+      "url": "/github/Github",
+      "tag": "github",
+      "label": "Github",
+      "folder": null
+    },
+    {
+      "url": "/github/npm-packages",
+      "tag": "github",
+      "label": "npm-packages",
+      "folder": null
+    },
+    {
+      "url": "/github/using-octokit",
+      "tag": "github",
+      "label": "using-octokit",
+      "folder": null
+    },
+    {
       "url": "/french/auxiliary-verbs",
       "tag": "french",
       "label": "auxiliary-verbs",
+      "folder": null
+    },
+    {
+      "url": "/french/French",
+      "tag": "french",
+      "label": "French",
       "folder": null
     },
     {
@@ -1440,15 +1908,15 @@
       "folder": null
     },
     {
-      "url": "/french/infinitive-verbs",
-      "tag": "french",
-      "label": "infinitive-verbs",
-      "folder": null
-    },
-    {
       "url": "/french/regular-verb-conjugations",
       "tag": "french",
       "label": "regular-verb-conjugations",
+      "folder": null
+    },
+    {
+      "url": "/french/infinitive-verbs",
+      "tag": "french",
+      "label": "infinitive-verbs",
       "folder": null
     },
     {
@@ -1458,51 +1926,9 @@
       "folder": null
     },
     {
-      "url": "/functional-programming/an-example-of-constrained-return-types",
-      "tag": "functional-programming",
-      "label": "an-example-of-constrained-return-types",
-      "folder": null
-    },
-    {
-      "url": "/functional-programming/an-example-of-hof-for-entities",
-      "tag": "functional-programming",
-      "label": "an-example-of-hof-for-entities",
-      "folder": null
-    },
-    {
-      "url": "/functional-programming/functional-architecture-patterns",
-      "tag": "functional-programming",
-      "label": "functional-architecture-patterns",
-      "folder": null
-    },
-    {
-      "url": "/functional-programming/functors-and-monads",
-      "tag": "functional-programming",
-      "label": "functors-and-monads",
-      "folder": null
-    },
-    {
-      "url": "/functional-programming/hardcore-fp-in-javascript-v2",
-      "tag": "functional-programming",
-      "label": "hardcore-fp-in-javascript-v2",
-      "folder": null
-    },
-    {
-      "url": "/functional-programming/hardcore-fp-in-javascript",
-      "tag": "functional-programming",
-      "label": "hardcore-fp-in-javascript",
-      "folder": null
-    },
-    {
-      "url": "/functional-programming/hardcore-js-patterns",
-      "tag": "functional-programming",
-      "label": "hardcore-js-patterns",
-      "folder": null
-    },
-    {
-      "url": "/functional-programming/intro",
-      "tag": "functional-programming",
-      "label": "intro",
+      "url": "/git/Git",
+      "tag": "git",
+      "label": "Git",
       "folder": null
     },
     {
@@ -1542,15 +1968,15 @@
       "folder": null
     },
     {
-      "url": "/github/npm-packages",
-      "tag": "github",
-      "label": "npm-packages",
+      "url": "/google-play/google-play",
+      "tag": "google-play",
+      "label": "google-play",
       "folder": null
     },
     {
-      "url": "/github/using-octokit",
-      "tag": "github",
-      "label": "using-octokit",
+      "url": "/go/Go",
+      "tag": "go",
+      "label": "Go",
       "folder": null
     },
     {
@@ -1602,12 +2028,6 @@
       "folder": null
     },
     {
-      "url": "/go/go-lang-overview",
-      "tag": "go",
-      "label": "go-lang-overview",
-      "folder": null
-    },
-    {
       "url": "/go/go-methods-and-pointers",
       "tag": "go",
       "label": "go-methods-and-pointers",
@@ -1620,15 +2040,15 @@
       "folder": null
     },
     {
-      "url": "/go/go-study-group",
+      "url": "/go/go-lang-overview",
       "tag": "go",
-      "label": "go-study-group",
+      "label": "go-lang-overview",
       "folder": null
     },
     {
-      "url": "/go/go-style-guide",
+      "url": "/go/go-study-group",
       "tag": "go",
-      "label": "go-style-guide",
+      "label": "go-study-group",
       "folder": null
     },
     {
@@ -1674,15 +2094,21 @@
       "folder": null
     },
     {
-      "url": "/google-cloud-platform/cloud-vision-nodejs",
-      "tag": "google-cloud-platform",
-      "label": "cloud-vision-nodejs",
+      "url": "/go/go-style-guide",
+      "tag": "go",
+      "label": "go-style-guide",
       "folder": null
     },
     {
-      "url": "/google-play/google-play",
-      "tag": "google-play",
-      "label": "google-play",
+      "url": "/google-cloud-platform/Google-Cloud-Platform",
+      "tag": "google-cloud-platform",
+      "label": "Google-Cloud-Platform",
+      "folder": null
+    },
+    {
+      "url": "/google-cloud-platform/cloud-vision-nodejs",
+      "tag": "google-cloud-platform",
+      "label": "cloud-vision-nodejs",
       "folder": null
     },
     {
@@ -1710,9 +2136,45 @@
       "folder": null
     },
     {
+      "url": "/grpc/Grpc",
+      "tag": "grpc",
+      "label": "Grpc",
+      "folder": null
+    },
+    {
       "url": "/grpc/grpc-with-go",
       "tag": "grpc",
       "label": "grpc-with-go",
+      "folder": null
+    },
+    {
+      "url": "/hygen/Hygen",
+      "tag": "hygen",
+      "label": "Hygen",
+      "folder": null
+    },
+    {
+      "url": "/hygen/intro",
+      "tag": "hygen",
+      "label": "intro",
+      "folder": null
+    },
+    {
+      "url": "/images/Images",
+      "tag": "images",
+      "label": "Images",
+      "folder": null
+    },
+    {
+      "url": "/images/image-compression",
+      "tag": "images",
+      "label": "image-compression",
+      "folder": null
+    },
+    {
+      "url": "/haskell/Haskell",
+      "tag": "haskell",
+      "label": "Haskell",
       "folder": null
     },
     {
@@ -1722,15 +2184,15 @@
       "folder": null
     },
     {
-      "url": "/haskell/haskell-from-first-principles",
-      "tag": "haskell",
-      "label": "haskell-from-first-principles",
-      "folder": null
-    },
-    {
       "url": "/haskell/learn-you-a-haskell",
       "tag": "haskell",
       "label": "learn-you-a-haskell",
+      "folder": null
+    },
+    {
+      "url": "/haskell/haskell-from-first-principles",
+      "tag": "haskell",
+      "label": "haskell-from-first-principles",
       "folder": null
     },
     {
@@ -1746,15 +2208,9 @@
       "folder": null
     },
     {
-      "url": "/hygen/intro",
-      "tag": "hygen",
-      "label": "intro",
-      "folder": null
-    },
-    {
-      "url": "/images/image-compression",
-      "tag": "images",
-      "label": "image-compression",
+      "url": "/interactive-shells/Interactive-Shells",
+      "tag": "interactive-shells",
+      "label": "Interactive-Shells",
       "folder": null
     },
     {
@@ -1764,21 +2220,27 @@
       "folder": null
     },
     {
+      "url": "/ios/Ios",
+      "tag": "ios",
+      "label": "Ios",
+      "folder": null
+    },
+    {
       "url": "/ios/apple-watch",
       "tag": "ios",
       "label": "apple-watch",
       "folder": null
     },
     {
-      "url": "/ios/ios-gaming-intro",
-      "tag": "ios",
-      "label": "ios-gaming-intro",
-      "folder": null
-    },
-    {
       "url": "/ios/ios-delegation",
       "tag": "ios",
       "label": "ios-delegation",
+      "folder": null
+    },
+    {
+      "url": "/ios/ios-gaming-intro",
+      "tag": "ios",
+      "label": "ios-gaming-intro",
       "folder": null
     },
     {
@@ -1794,93 +2256,21 @@
       "folder": null
     },
     {
+      "url": "/istio/Istio",
+      "tag": "istio",
+      "label": "Istio",
+      "folder": null
+    },
+    {
       "url": "/istio/eks-istio",
       "tag": "istio",
       "label": "eks-istio",
       "folder": null
     },
     {
-      "url": "/java/basic-imports",
-      "tag": "java",
-      "label": "basic-imports",
-      "folder": null
-    },
-    {
-      "url": "/java/cheat-sheet",
-      "tag": "java",
-      "label": "cheat-sheet",
-      "folder": null
-    },
-    {
-      "url": "/java/dependency-management-with-gradle",
-      "tag": "java",
-      "label": "dependency-management-with-gradle",
-      "folder": null
-    },
-    {
-      "url": "/java/gradle-intro",
-      "tag": "java",
-      "label": "gradle-intro",
-      "folder": null
-    },
-    {
-      "url": "/java/java-basic-tree",
-      "tag": "java",
-      "label": "java-basic-tree",
-      "folder": null
-    },
-    {
-      "url": "/java/java-fizz-buzz",
-      "tag": "java",
-      "label": "java-fizz-buzz",
-      "folder": null
-    },
-    {
-      "url": "/java/java-initialising-arrays",
-      "tag": "java",
-      "label": "java-initialising-arrays",
-      "folder": null
-    },
-    {
-      "url": "/java/java-iteration",
-      "tag": "java",
-      "label": "java-iteration",
-      "folder": null
-    },
-    {
-      "url": "/java/java-lambda-funcs",
-      "tag": "java",
-      "label": "java-lambda-funcs",
-      "folder": null
-    },
-    {
-      "url": "/java/java-packages",
-      "tag": "java",
-      "label": "java-packages",
-      "folder": null
-    },
-    {
-      "url": "/java/maps-in-java",
-      "tag": "java",
-      "label": "maps-in-java",
-      "folder": null
-    },
-    {
-      "url": "/jest/extending-jest",
-      "tag": "jest",
-      "label": "extending-jest",
-      "folder": null
-    },
-    {
-      "url": "/jest/js-testing-practices-and-principles",
-      "tag": "jest",
-      "label": "js-testing-practices-and-principles",
-      "folder": null
-    },
-    {
-      "url": "/jira/usage",
-      "tag": "jira",
-      "label": "usage",
+      "url": "/javascript/Javascript",
+      "tag": "javascript",
+      "label": "Javascript",
       "folder": null
     },
     {
@@ -1890,15 +2280,15 @@
       "folder": null
     },
     {
-      "url": "/javascript/es6-guide",
-      "tag": "javascript",
-      "label": "es6-guide",
-      "folder": null
-    },
-    {
       "url": "/javascript/es6-fiddle",
       "tag": "javascript",
       "label": "es6-fiddle",
+      "folder": null
+    },
+    {
+      "url": "/javascript/es6-guide",
+      "tag": "javascript",
+      "label": "es6-guide",
       "folder": null
     },
     {
@@ -2076,15 +2466,117 @@
       "folder": null
     },
     {
+      "url": "/jest/Jest",
+      "tag": "jest",
+      "label": "Jest",
+      "folder": null
+    },
+    {
+      "url": "/jest/extending-jest",
+      "tag": "jest",
+      "label": "extending-jest",
+      "folder": null
+    },
+    {
+      "url": "/jest/js-testing-practices-and-principles",
+      "tag": "jest",
+      "label": "js-testing-practices-and-principles",
+      "folder": null
+    },
+    {
+      "url": "/java/Java",
+      "tag": "java",
+      "label": "Java",
+      "folder": null
+    },
+    {
+      "url": "/java/basic-imports",
+      "tag": "java",
+      "label": "basic-imports",
+      "folder": null
+    },
+    {
+      "url": "/java/cheat-sheet",
+      "tag": "java",
+      "label": "cheat-sheet",
+      "folder": null
+    },
+    {
+      "url": "/java/dependency-management-with-gradle",
+      "tag": "java",
+      "label": "dependency-management-with-gradle",
+      "folder": null
+    },
+    {
+      "url": "/java/gradle-intro",
+      "tag": "java",
+      "label": "gradle-intro",
+      "folder": null
+    },
+    {
+      "url": "/java/java-basic-tree",
+      "tag": "java",
+      "label": "java-basic-tree",
+      "folder": null
+    },
+    {
+      "url": "/java/java-fizz-buzz",
+      "tag": "java",
+      "label": "java-fizz-buzz",
+      "folder": null
+    },
+    {
+      "url": "/java/java-initialising-arrays",
+      "tag": "java",
+      "label": "java-initialising-arrays",
+      "folder": null
+    },
+    {
+      "url": "/java/java-iteration",
+      "tag": "java",
+      "label": "java-iteration",
+      "folder": null
+    },
+    {
+      "url": "/java/java-lambda-funcs",
+      "tag": "java",
+      "label": "java-lambda-funcs",
+      "folder": null
+    },
+    {
+      "url": "/java/java-packages",
+      "tag": "java",
+      "label": "java-packages",
+      "folder": null
+    },
+    {
+      "url": "/java/maps-in-java",
+      "tag": "java",
+      "label": "maps-in-java",
+      "folder": null
+    },
+    {
+      "url": "/jira/Jira",
+      "tag": "jira",
+      "label": "Jira",
+      "folder": null
+    },
+    {
+      "url": "/jira/usage",
+      "tag": "jira",
+      "label": "usage",
+      "folder": null
+    },
+    {
       "url": "/kafka/clients",
       "tag": "kafka",
       "label": "clients",
       "folder": null
     },
     {
-      "url": "/kafka/hello-kafka",
+      "url": "/kafka/Kafka",
       "tag": "kafka",
-      "label": "hello-kafka",
+      "label": "Kafka",
       "folder": null
     },
     {
@@ -2094,9 +2586,9 @@
       "folder": null
     },
     {
-      "url": "/kafka/kafka-advanced-admin",
+      "url": "/kafka/hello-kafka",
       "tag": "kafka",
-      "label": "kafka-advanced-admin",
+      "label": "hello-kafka",
       "folder": null
     },
     {
@@ -2106,9 +2598,9 @@
       "folder": null
     },
     {
-      "url": "/kafka/kafka-basic-terms",
+      "url": "/kafka/kafka-advanced-admin",
       "tag": "kafka",
-      "label": "kafka-basic-terms",
+      "label": "kafka-advanced-admin",
       "folder": null
     },
     {
@@ -2118,21 +2610,69 @@
       "folder": null
     },
     {
+      "url": "/kafka/kafka-basic-terms",
+      "tag": "kafka",
+      "label": "kafka-basic-terms",
+      "folder": null
+    },
+    {
+      "url": "/language-learning/approach-to-learning-software-languages",
+      "tag": "language-learning",
+      "label": "approach-to-learning-software-languages",
+      "folder": null
+    },
+    {
+      "url": "/language-learning/golang",
+      "tag": "language-learning",
+      "label": "golang",
+      "folder": null
+    },
+    {
+      "url": "/language-learning/Language-Learning",
+      "tag": "language-learning",
+      "label": "Language-Learning",
+      "folder": null
+    },
+    {
+      "url": "/laravel/laravel-5.4",
+      "tag": "laravel",
+      "label": "laravel-5.4",
+      "folder": null
+    },
+    {
+      "url": "/laravel/laravel-artisan",
+      "tag": "laravel",
+      "label": "laravel-artisan",
+      "folder": null
+    },
+    {
+      "url": "/laravel/laravel-basics-th",
+      "tag": "laravel",
+      "label": "laravel-basics-th",
+      "folder": null
+    },
+    {
+      "url": "/laravel/Laravel",
+      "tag": "laravel",
+      "label": "Laravel",
+      "folder": null
+    },
+    {
       "url": "/kotlin/kotlin-arrays-and-lists",
       "tag": "kotlin",
       "label": "kotlin-arrays-and-lists",
       "folder": null
     },
     {
-      "url": "/kotlin/kotlin-basics",
-      "tag": "kotlin",
-      "label": "kotlin-basics",
-      "folder": null
-    },
-    {
       "url": "/kotlin/kotlin-building-types",
       "tag": "kotlin",
       "label": "kotlin-building-types",
+      "folder": null
+    },
+    {
+      "url": "/kotlin/kotlin-basics",
+      "tag": "kotlin",
+      "label": "kotlin-basics",
       "folder": null
     },
     {
@@ -2160,33 +2700,21 @@
       "folder": null
     },
     {
-      "url": "/language-learning/approach-to-learning-software-languages",
-      "tag": "language-learning",
-      "label": "approach-to-learning-software-languages",
+      "url": "/kotlin/Kotlin",
+      "tag": "kotlin",
+      "label": "Kotlin",
       "folder": null
     },
     {
-      "url": "/language-learning/golang",
-      "tag": "language-learning",
-      "label": "golang",
+      "url": "/learn-ruby-the-hard-way/learn-ruby-the-hard-way",
+      "tag": "learn-ruby-the-hard-way",
+      "label": "learn-ruby-the-hard-way",
       "folder": null
     },
     {
-      "url": "/laravel/laravel-5.4",
-      "tag": "laravel",
-      "label": "laravel-5.4",
-      "folder": null
-    },
-    {
-      "url": "/laravel/laravel-artisan",
-      "tag": "laravel",
-      "label": "laravel-artisan",
-      "folder": null
-    },
-    {
-      "url": "/laravel/laravel-basics-th",
-      "tag": "laravel",
-      "label": "laravel-basics-th",
+      "url": "/lean-product/Lean-Product",
+      "tag": "lean-product",
+      "label": "Lean-Product",
       "folder": null
     },
     {
@@ -2202,15 +2730,9 @@
       "folder": null
     },
     {
-      "url": "/learn-ruby-the-hard-way/learn-ruby-the-hard-way",
-      "tag": "learn-ruby-the-hard-way",
-      "label": "learn-ruby-the-hard-way",
-      "folder": null
-    },
-    {
-      "url": "/lerna/getting-started",
-      "tag": "lerna",
-      "label": "getting-started",
+      "url": "/linguistics/Linguistics",
+      "tag": "linguistics",
+      "label": "Linguistics",
       "folder": null
     },
     {
@@ -2238,9 +2760,33 @@
       "folder": null
     },
     {
+      "url": "/lerna/Lerna",
+      "tag": "lerna",
+      "label": "Lerna",
+      "folder": null
+    },
+    {
+      "url": "/lerna/getting-started",
+      "tag": "lerna",
+      "label": "getting-started",
+      "folder": null
+    },
+    {
+      "url": "/linkedin/Linkedin",
+      "tag": "linkedin",
+      "label": "Linkedin",
+      "folder": null
+    },
+    {
       "url": "/linkedin/linkedin-api-cheat-sheet",
       "tag": "linkedin",
       "label": "linkedin-api-cheat-sheet",
+      "folder": null
+    },
+    {
+      "url": "/linux/Linux",
+      "tag": "linux",
+      "label": "Linux",
       "folder": null
     },
     {
@@ -2274,6 +2820,12 @@
       "folder": null
     },
     {
+      "url": "/machine-learning/Machine-Learning",
+      "tag": "machine-learning",
+      "label": "Machine-Learning",
+      "folder": null
+    },
+    {
       "url": "/machine-learning/cl-classification-intro",
       "tag": "machine-learning",
       "label": "cl-classification-intro",
@@ -2286,15 +2838,15 @@
       "folder": null
     },
     {
-      "url": "/machine-learning/machine-learning-stanford",
-      "tag": "machine-learning",
-      "label": "machine-learning-stanford",
-      "folder": null
-    },
-    {
       "url": "/machine-learning/machine-learning-intro",
       "tag": "machine-learning",
       "label": "machine-learning-intro",
+      "folder": null
+    },
+    {
+      "url": "/machine-learning/machine-learning-stanford",
+      "tag": "machine-learning",
+      "label": "machine-learning-stanford",
       "folder": null
     },
     {
@@ -2328,9 +2880,21 @@
       "folder": null
     },
     {
+      "url": "/machine-learning-algos/Machine-Learning-Algos",
+      "tag": "machine-learning-algos",
+      "label": "Machine-Learning-Algos",
+      "folder": null
+    },
+    {
       "url": "/machine-learning-algos/k-nearest-neighbours",
       "tag": "machine-learning-algos",
       "label": "k-nearest-neighbours",
+      "folder": null
+    },
+    {
+      "url": "/maildev/Maildev",
+      "tag": "maildev",
+      "label": "Maildev",
       "folder": null
     },
     {
@@ -2340,15 +2904,27 @@
       "folder": null
     },
     {
-      "url": "/mathematics/polynomials",
+      "url": "/mathematics/Mathematics",
       "tag": "mathematics",
-      "label": "polynomials",
+      "label": "Mathematics",
       "folder": null
     },
     {
       "url": "/mathematics/mathematics-introduction",
       "tag": "mathematics",
       "label": "mathematics-introduction",
+      "folder": null
+    },
+    {
+      "url": "/mathematics/polynomials",
+      "tag": "mathematics",
+      "label": "polynomials",
+      "folder": null
+    },
+    {
+      "url": "/mental-models/Mental-Models",
+      "tag": "mental-models",
+      "label": "Mental-Models",
       "folder": null
     },
     {
@@ -2364,9 +2940,21 @@
       "folder": null
     },
     {
+      "url": "/mermaid/Mermaid",
+      "tag": "mermaid",
+      "label": "Mermaid",
+      "folder": null
+    },
+    {
       "url": "/mock-service-worker/msw-hotloading",
       "tag": "mock-service-worker",
       "label": "msw-hotloading",
+      "folder": null
+    },
+    {
+      "url": "/mock-service-worker/Mock-Service-Worker",
+      "tag": "mock-service-worker",
+      "label": "Mock-Service-Worker",
       "folder": null
     },
     {
@@ -2382,9 +2970,21 @@
       "folder": null
     },
     {
+      "url": "/momentjs/Momentjs",
+      "tag": "momentjs",
+      "label": "Momentjs",
+      "folder": null
+    },
+    {
       "url": "/momentjs/handling-diff-in-days",
       "tag": "momentjs",
       "label": "handling-diff-in-days",
+      "folder": null
+    },
+    {
+      "url": "/music/Music",
+      "tag": "music",
+      "label": "Music",
       "folder": null
     },
     {
@@ -2400,9 +3000,21 @@
       "folder": null
     },
     {
+      "url": "/ndb/Ndb",
+      "tag": "ndb",
+      "label": "Ndb",
+      "folder": null
+    },
+    {
       "url": "/ndb/ndb-overview",
       "tag": "ndb",
       "label": "ndb-overview",
+      "folder": null
+    },
+    {
+      "url": "/networking/Networking",
+      "tag": "networking",
+      "label": "Networking",
       "folder": null
     },
     {
@@ -2430,15 +3042,33 @@
       "folder": null
     },
     {
+      "url": "/networking/subnetting-fundamentals",
+      "tag": "networking",
+      "label": "subnetting-fundamentals",
+      "folder": null
+    },
+    {
       "url": "/networking/secure-sockets-layer",
       "tag": "networking",
       "label": "secure-sockets-layer",
       "folder": null
     },
     {
-      "url": "/networking/subnetting-fundamentals",
-      "tag": "networking",
-      "label": "subnetting-fundamentals",
+      "url": "/nginx/nginx-nodejs-docker",
+      "tag": "nginx",
+      "label": "nginx-nodejs-docker",
+      "folder": null
+    },
+    {
+      "url": "/nginx/Nginx",
+      "tag": "nginx",
+      "label": "Nginx",
+      "folder": null
+    },
+    {
+      "url": "/next/Next",
+      "tag": "next",
+      "label": "Next",
       "folder": null
     },
     {
@@ -2466,9 +3096,9 @@
       "folder": null
     },
     {
-      "url": "/nginx/nginx-nodejs-docker",
-      "tag": "nginx",
-      "label": "nginx-nodejs-docker",
+      "url": "/nodejs/Nodejs",
+      "tag": "nodejs",
+      "label": "Nodejs",
       "folder": null
     },
     {
@@ -2490,15 +3120,15 @@
       "folder": null
     },
     {
-      "url": "/nodejs/hard-parts-of-nodejs",
-      "tag": "nodejs",
-      "label": "hard-parts-of-nodejs",
-      "folder": null
-    },
-    {
       "url": "/nodejs/microservices-with-nodejs-react",
       "tag": "nodejs",
       "label": "microservices-with-nodejs-react",
+      "folder": null
+    },
+    {
+      "url": "/nodejs/hard-parts-of-nodejs",
+      "tag": "nodejs",
+      "label": "hard-parts-of-nodejs",
       "folder": null
     },
     {
@@ -2514,15 +3144,21 @@
       "folder": null
     },
     {
-      "url": "/npm/building-react-libraries",
+      "url": "/npm/Npm",
       "tag": "npm",
-      "label": "building-react-libraries",
+      "label": "Npm",
       "folder": null
     },
     {
       "url": "/npm/npm-as-a-task-runner",
       "tag": "npm",
       "label": "npm-as-a-task-runner",
+      "folder": null
+    },
+    {
+      "url": "/npm/building-react-libraries",
+      "tag": "npm",
+      "label": "building-react-libraries",
       "folder": null
     },
     {
@@ -2538,15 +3174,9 @@
       "folder": null
     },
     {
-      "url": "/osi-model/Mnemonic-for-OSI-Model",
-      "tag": "osi-model",
-      "label": "Mnemonic-for-OSI-Model",
-      "folder": null
-    },
-    {
-      "url": "/osi-model/what-is-osi",
-      "tag": "osi-model",
-      "label": "what-is-osi",
+      "url": "/p5js/P5js",
+      "tag": "p5js",
+      "label": "P5js",
       "folder": null
     },
     {
@@ -2556,15 +3186,63 @@
       "folder": null
     },
     {
+      "url": "/parcel/Parcel",
+      "tag": "parcel",
+      "label": "Parcel",
+      "folder": null
+    },
+    {
       "url": "/parcel/parcel-react",
       "tag": "parcel",
       "label": "parcel-react",
       "folder": null
     },
     {
+      "url": "/osi-model/Mnemonic-for-OSI-Model",
+      "tag": "osi-model",
+      "label": "Mnemonic-for-OSI-Model",
+      "folder": null
+    },
+    {
+      "url": "/osi-model/Osi-Model",
+      "tag": "osi-model",
+      "label": "Osi-Model",
+      "folder": null
+    },
+    {
+      "url": "/osi-model/what-is-osi",
+      "tag": "osi-model",
+      "label": "what-is-osi",
+      "folder": null
+    },
+    {
+      "url": "/personal/Personal",
+      "tag": "personal",
+      "label": "Personal",
+      "folder": null
+    },
+    {
       "url": "/personal/job-preparation-examples",
       "tag": "personal",
       "label": "job-preparation-examples",
+      "folder": null
+    },
+    {
+      "url": "/posix/Posix",
+      "tag": "posix",
+      "label": "Posix",
+      "folder": null
+    },
+    {
+      "url": "/posix/posix-intro",
+      "tag": "posix",
+      "label": "posix-intro",
+      "folder": null
+    },
+    {
+      "url": "/php/Php",
+      "tag": "php",
+      "label": "Php",
       "folder": null
     },
     {
@@ -2607,12 +3285,6 @@
       "url": "/php/php-unit-tests",
       "tag": "php",
       "label": "php-unit-tests",
-      "folder": null
-    },
-    {
-      "url": "/posix/posix-intro",
-      "tag": "posix",
-      "label": "posix-intro",
       "folder": null
     },
     {
@@ -2706,15 +3378,21 @@
       "folder": null
     },
     {
-      "url": "/product-discovery/intro-to-modern-product-discovery",
+      "url": "/product-discovery/Product-Discovery",
       "tag": "product-discovery",
-      "label": "intro-to-modern-product-discovery",
+      "label": "Product-Discovery",
       "folder": null
     },
     {
       "url": "/product-discovery/best-continous-discovery-mindsets",
       "tag": "product-discovery",
       "label": "best-continous-discovery-mindsets",
+      "folder": null
+    },
+    {
+      "url": "/product-discovery/intro-to-modern-product-discovery",
+      "tag": "product-discovery",
+      "label": "intro-to-modern-product-discovery",
       "folder": null
     },
     {
@@ -2760,9 +3438,9 @@
       "folder": null
     },
     {
-      "url": "/productivity-engineering/tappable-configurations.md",
-      "tag": "productivity-engineering.md",
-      "label": "tappable-configurations",
+      "url": "/programming-languages/Programming-Languages",
+      "tag": "programming-languages",
+      "label": "Programming-Languages",
       "folder": null
     },
     {
@@ -2778,15 +3456,27 @@
       "folder": null
     },
     {
-      "url": "/protocols/address-resolution-protocol",
-      "tag": "protocols",
-      "label": "address-resolution-protocol",
+      "url": "/productivity-engineering/Productivity-Engineering",
+      "tag": "productivity-engineering",
+      "label": "Productivity-Engineering",
       "folder": null
     },
     {
-      "url": "/protocols/border-gateway-protocol",
+      "url": "/productivity-engineering/tappable-configurations",
+      "tag": "productivity-engineering",
+      "label": "tappable-configurations",
+      "folder": null
+    },
+    {
+      "url": "/protocols/Protocols",
       "tag": "protocols",
-      "label": "border-gateway-protocol",
+      "label": "Protocols",
+      "folder": null
+    },
+    {
+      "url": "/protocols/address-resolution-protocol",
+      "tag": "protocols",
+      "label": "address-resolution-protocol",
       "folder": null
     },
     {
@@ -2808,6 +3498,12 @@
       "folder": null
     },
     {
+      "url": "/protocols/border-gateway-protocol",
+      "tag": "protocols",
+      "label": "border-gateway-protocol",
+      "folder": null
+    },
+    {
       "url": "/protocols/secure-shell",
       "tag": "protocols",
       "label": "secure-shell",
@@ -2817,6 +3513,12 @@
       "url": "/protocols/simple-mail-transfer-protocol",
       "tag": "protocols",
       "label": "simple-mail-transfer-protocol",
+      "folder": null
+    },
+    {
+      "url": "/puppeteer/Puppeteer",
+      "tag": "puppeteer",
+      "label": "Puppeteer",
       "folder": null
     },
     {
@@ -2838,15 +3540,9 @@
       "folder": null
     },
     {
-      "url": "/quick-start/golang",
-      "tag": "quick-start",
-      "label": "golang",
-      "folder": null
-    },
-    {
-      "url": "/quick-start/ruby",
-      "tag": "quick-start",
-      "label": "ruby",
+      "url": "/r/R",
+      "tag": "r",
+      "label": "R",
       "folder": null
     },
     {
@@ -2862,15 +3558,27 @@
       "folder": null
     },
     {
-      "url": "/raspberry-pi/setting-up-wifi",
-      "tag": "raspberry-pi",
-      "label": "setting-up-wifi",
+      "url": "/quick-start/Quick-Start",
+      "tag": "quick-start",
+      "label": "Quick-Start",
       "folder": null
     },
     {
-      "url": "/react-native/react-native-cheat-sheet",
+      "url": "/quick-start/golang",
+      "tag": "quick-start",
+      "label": "golang",
+      "folder": null
+    },
+    {
+      "url": "/quick-start/ruby",
+      "tag": "quick-start",
+      "label": "ruby",
+      "folder": null
+    },
+    {
+      "url": "/react-native/React-Native",
       "tag": "react-native",
-      "label": "react-native-cheat-sheet",
+      "label": "React-Native",
       "folder": null
     },
     {
@@ -2880,21 +3588,27 @@
       "folder": null
     },
     {
+      "url": "/react-native/react-native-cheat-sheet",
+      "tag": "react-native",
+      "label": "react-native-cheat-sheet",
+      "folder": null
+    },
+    {
       "url": "/react-native/react-native-for-ios-devs",
       "tag": "react-native",
       "label": "react-native-for-ios-devs",
       "folder": null
     },
     {
-      "url": "/react-native/react-native-ibeacon",
-      "tag": "react-native",
-      "label": "react-native-ibeacon",
-      "folder": null
-    },
-    {
       "url": "/react-native/react-native-redux",
       "tag": "react-native",
       "label": "react-native-redux",
+      "folder": null
+    },
+    {
+      "url": "/react-native/react-native-ibeacon",
+      "tag": "react-native",
+      "label": "react-native-ibeacon",
       "folder": null
     },
     {
@@ -2907,6 +3621,78 @@
       "url": "/react-native/setting-up-expo-redux-saga",
       "tag": "react-native",
       "label": "setting-up-expo-redux-saga",
+      "folder": null
+    },
+    {
+      "url": "/react-query/React-Query",
+      "tag": "react-query",
+      "label": "React-Query",
+      "folder": null
+    },
+    {
+      "url": "/react-query/getting-started",
+      "tag": "react-query",
+      "label": "getting-started",
+      "folder": null
+    },
+    {
+      "url": "/react-query/invalidations-course",
+      "tag": "react-query",
+      "label": "invalidations-course",
+      "folder": null
+    },
+    {
+      "url": "/react-query/mutations-course",
+      "tag": "react-query",
+      "label": "mutations-course",
+      "folder": null
+    },
+    {
+      "url": "/react-query/optimistic-updates-course",
+      "tag": "react-query",
+      "label": "optimistic-updates-course",
+      "folder": null
+    },
+    {
+      "url": "/react-query/paginated-queries-course",
+      "tag": "react-query",
+      "label": "paginated-queries-course",
+      "folder": null
+    },
+    {
+      "url": "/react-query/prefetching-course",
+      "tag": "react-query",
+      "label": "prefetching-course",
+      "folder": null
+    },
+    {
+      "url": "/react-query/queries-course",
+      "tag": "react-query",
+      "label": "queries-course",
+      "folder": null
+    },
+    {
+      "url": "/react-query/use-mutation",
+      "tag": "react-query",
+      "label": "use-mutation",
+      "folder": null
+    },
+    {
+      "url": "/react-query/v2-vs-v3",
+      "tag": "react-query",
+      "label": "v2-vs-v3",
+      "folder": null
+    },
+    {
+      "url": "/react-query/with-nextjs",
+      "tag": "react-query",
+      "label": "with-nextjs",
+      "folder": null
+    },
+    {
+      "url": "/react-notes/React-Notes",
+      "tag": "react-notes",
+      "label": "React-Notes",
       "folder": null
     },
     {
@@ -2976,75 +3762,27 @@
       "folder": null
     },
     {
-      "url": "/react-query/getting-started",
-      "tag": "react-query",
-      "label": "getting-started",
+      "url": "/raspberry-pi/Raspberry-Pi",
+      "tag": "raspberry-pi",
+      "label": "Raspberry-Pi",
       "folder": null
     },
     {
-      "url": "/react-query/mutations-course",
-      "tag": "react-query",
-      "label": "mutations-course",
+      "url": "/raspberry-pi/setting-up-wifi",
+      "tag": "raspberry-pi",
+      "label": "setting-up-wifi",
       "folder": null
     },
     {
-      "url": "/react-query/invalidations-course",
-      "tag": "react-query",
-      "label": "invalidations-course",
-      "folder": null
-    },
-    {
-      "url": "/react-query/optimistic-updates-course",
-      "tag": "react-query",
-      "label": "optimistic-updates-course",
-      "folder": null
-    },
-    {
-      "url": "/react-query/paginated-queries-course",
-      "tag": "react-query",
-      "label": "paginated-queries-course",
-      "folder": null
-    },
-    {
-      "url": "/react-query/prefetching-course",
-      "tag": "react-query",
-      "label": "prefetching-course",
-      "folder": null
-    },
-    {
-      "url": "/react-query/queries-course",
-      "tag": "react-query",
-      "label": "queries-course",
-      "folder": null
-    },
-    {
-      "url": "/react-query/use-mutation",
-      "tag": "react-query",
-      "label": "use-mutation",
-      "folder": null
-    },
-    {
-      "url": "/react-query/v2-vs-v3",
-      "tag": "react-query",
-      "label": "v2-vs-v3",
-      "folder": null
-    },
-    {
-      "url": "/react-query/with-nextjs",
-      "tag": "react-query",
-      "label": "with-nextjs",
+      "url": "/react-router/React-Router",
+      "tag": "react-router",
+      "label": "React-Router",
       "folder": null
     },
     {
       "url": "/react-router/react-router-v5-quickstart",
       "tag": "react-router",
       "label": "react-router-v5-quickstart",
-      "folder": null
-    },
-    {
-      "url": "/reasonml/reason-hello-world",
-      "tag": "reasonml",
-      "label": "reason-hello-world",
       "folder": null
     },
     {
@@ -3066,9 +3804,33 @@
       "folder": null
     },
     {
+      "url": "/reasonml/Reasonml",
+      "tag": "reasonml",
+      "label": "Reasonml",
+      "folder": null
+    },
+    {
+      "url": "/reasonml/reason-hello-world",
+      "tag": "reasonml",
+      "label": "reason-hello-world",
+      "folder": null
+    },
+    {
+      "url": "/roadmaps/Roadmaps",
+      "tag": "roadmaps",
+      "label": "Roadmaps",
+      "folder": null
+    },
+    {
       "url": "/roadmaps/roadmaps-intro",
       "tag": "roadmaps",
       "label": "roadmaps-intro",
+      "folder": null
+    },
+    {
+      "url": "/ruby-on-rails/Ruby-On-Rails",
+      "tag": "ruby-on-rails",
+      "label": "Ruby-On-Rails",
       "folder": null
     },
     {
@@ -3096,6 +3858,12 @@
       "folder": null
     },
     {
+      "url": "/scala/Scala",
+      "tag": "scala",
+      "label": "Scala",
+      "folder": null
+    },
+    {
       "url": "/scala/intro-to-scala",
       "tag": "scala",
       "label": "intro-to-scala",
@@ -3114,6 +3882,12 @@
       "folder": null
     },
     {
+      "url": "/security/Security",
+      "tag": "security",
+      "label": "Security",
+      "folder": null
+    },
+    {
       "url": "/security/owasp-top-ten",
       "tag": "security",
       "label": "owasp-top-ten",
@@ -3126,15 +3900,45 @@
       "folder": null
     },
     {
-      "url": "/seo/seo-for-beginners",
-      "tag": "seo",
-      "label": "seo-for-beginners",
+      "url": "/segment/Segment",
+      "tag": "segment",
+      "label": "Segment",
       "folder": null
     },
     {
       "url": "/segment/intro",
       "tag": "segment",
       "label": "intro",
+      "folder": null
+    },
+    {
+      "url": "/seo/Seo",
+      "tag": "seo",
+      "label": "Seo",
+      "folder": null
+    },
+    {
+      "url": "/seo/seo-for-beginners",
+      "tag": "seo",
+      "label": "seo-for-beginners",
+      "folder": null
+    },
+    {
+      "url": "/skaffold/Skaffold",
+      "tag": "skaffold",
+      "label": "Skaffold",
+      "folder": null
+    },
+    {
+      "url": "/skaffold/intro",
+      "tag": "skaffold",
+      "label": "intro",
+      "folder": null
+    },
+    {
+      "url": "/server-side-react/Server-Side-React",
+      "tag": "server-side-react",
+      "label": "Server-Side-React",
       "folder": null
     },
     {
@@ -3156,9 +3960,21 @@
       "folder": null
     },
     {
+      "url": "/shape-up/Shape-Up",
+      "tag": "shape-up",
+      "label": "Shape-Up",
+      "folder": null
+    },
+    {
       "url": "/site-reliability-engineering/glossary",
       "tag": "site-reliability-engineering",
       "label": "glossary",
+      "folder": null
+    },
+    {
+      "url": "/site-reliability-engineering/Site-Reliability-Engineering",
+      "tag": "site-reliability-engineering",
+      "label": "Site-Reliability-Engineering",
       "folder": null
     },
     {
@@ -3174,21 +3990,9 @@
       "folder": null
     },
     {
-      "url": "/skaffold/intro",
-      "tag": "skaffold",
-      "label": "intro",
-      "folder": null
-    },
-    {
-      "url": "/smartling/smartling-cli",
-      "tag": "smartling",
-      "label": "smartling-cli",
-      "folder": null
-    },
-    {
-      "url": "/smartling/working-with-smartling",
-      "tag": "smartling",
-      "label": "working-with-smartling",
+      "url": "/sketch/Sketch",
+      "tag": "sketch",
+      "label": "Sketch",
       "folder": null
     },
     {
@@ -3198,9 +4002,105 @@
       "folder": null
     },
     {
+      "url": "/smartling/smartling-cli",
+      "tag": "smartling",
+      "label": "smartling-cli",
+      "folder": null
+    },
+    {
+      "url": "/smartling/Smartling",
+      "tag": "smartling",
+      "label": "Smartling",
+      "folder": null
+    },
+    {
+      "url": "/smartling/working-with-smartling",
+      "tag": "smartling",
+      "label": "working-with-smartling",
+      "folder": null
+    },
+    {
+      "url": "/snowpack/Snowpack",
+      "tag": "snowpack",
+      "label": "Snowpack",
+      "folder": null
+    },
+    {
       "url": "/snowpack/snowpack-with-create-react-app",
       "tag": "snowpack",
       "label": "snowpack-with-create-react-app",
+      "folder": null
+    },
+    {
+      "url": "/style/base-animations",
+      "tag": "style",
+      "label": "base-animations",
+      "folder": null
+    },
+    {
+      "url": "/style/base-mixins",
+      "tag": "style",
+      "label": "base-mixins",
+      "folder": null
+    },
+    {
+      "url": "/style/base",
+      "tag": "style",
+      "label": "base",
+      "folder": null
+    },
+    {
+      "url": "/style/style",
+      "tag": "style",
+      "label": "style",
+      "folder": null
+    },
+    {
+      "url": "/storybook/Storybook",
+      "tag": "storybook",
+      "label": "Storybook",
+      "folder": null
+    },
+    {
+      "url": "/storybook/adding-docs",
+      "tag": "storybook",
+      "label": "adding-docs",
+      "folder": null
+    },
+    {
+      "url": "/storybook/integrating-redux",
+      "tag": "storybook",
+      "label": "integrating-redux",
+      "folder": null
+    },
+    {
+      "url": "/storybook/adding-knobs",
+      "tag": "storybook",
+      "label": "adding-knobs",
+      "folder": null
+    },
+    {
+      "url": "/storybook/intro",
+      "tag": "storybook",
+      "label": "intro",
+      "folder": null
+    },
+    {
+      "url": "/storybook/storybook-sass",
+      "tag": "storybook",
+      "label": "storybook-sass",
+      "folder": null
+    },
+    {
+      "url": "/storybook/webpack-sass",
+      "tag": "storybook",
+      "label": "webpack-sass",
+      "folder": null
+    },
+    {
+      "url": "/sql/Sql",
+      "tag": "sql",
+      "label": "Sql",
       "folder": null
     },
     {
@@ -3228,63 +4128,9 @@
       "folder": null
     },
     {
-      "url": "/storybook/adding-docs",
-      "tag": "storybook",
-      "label": "adding-docs",
-      "folder": null
-    },
-    {
-      "url": "/storybook/adding-knobs",
-      "tag": "storybook",
-      "label": "adding-knobs",
-      "folder": null
-    },
-    {
-      "url": "/storybook/integrating-redux",
-      "tag": "storybook",
-      "label": "integrating-redux",
-      "folder": null
-    },
-    {
-      "url": "/storybook/intro",
-      "tag": "storybook",
-      "label": "intro",
-      "folder": null
-    },
-    {
-      "url": "/storybook/storybook-sass",
-      "tag": "storybook",
-      "label": "storybook-sass",
-      "folder": null
-    },
-    {
-      "url": "/storybook/webpack-sass",
-      "tag": "storybook",
-      "label": "webpack-sass",
-      "folder": null
-    },
-    {
-      "url": "/style/base-animations",
-      "tag": "style",
-      "label": "base-animations",
-      "folder": null
-    },
-    {
-      "url": "/style/base-mixins",
-      "tag": "style",
-      "label": "base-mixins",
-      "folder": null
-    },
-    {
-      "url": "/style/base",
-      "tag": "style",
-      "label": "base",
-      "folder": null
-    },
-    {
-      "url": "/style/style",
-      "tag": "style",
-      "label": "style",
+      "url": "/styled-components/Styled-Components",
+      "tag": "styled-components",
+      "label": "Styled-Components",
       "folder": null
     },
     {
@@ -3318,6 +4164,18 @@
       "folder": null
     },
     {
+      "url": "/supervised-learning-with-scikit-learn/Supervised-Learning-With-Scikit-Learn",
+      "tag": "supervised-learning-with-scikit-learn",
+      "label": "Supervised-Learning-With-Scikit-Learn",
+      "folder": null
+    },
+    {
+      "url": "/system-design/System-Design",
+      "tag": "system-design",
+      "label": "System-Design",
+      "folder": null
+    },
+    {
       "url": "/system-design/data-systems",
       "tag": "system-design",
       "label": "data-systems",
@@ -3339,6 +4197,12 @@
       "url": "/system-design/interviews",
       "tag": "system-design",
       "label": "interviews",
+      "folder": null
+    },
+    {
+      "url": "/swift/Swift",
+      "tag": "swift",
+      "label": "Swift",
       "folder": null
     },
     {
@@ -3378,9 +4242,21 @@
       "folder": null
     },
     {
+      "url": "/tableau/Tableau",
+      "tag": "tableau",
+      "label": "Tableau",
+      "folder": null
+    },
+    {
       "url": "/tableau/tableau-live-talk",
       "tag": "tableau",
       "label": "tableau-live-talk",
+      "folder": null
+    },
+    {
+      "url": "/tailwind/Tailwind",
+      "tag": "tailwind",
+      "label": "Tailwind",
       "folder": null
     },
     {
@@ -3402,21 +4278,27 @@
       "folder": null
     },
     {
+      "url": "/tensorflow/Tensorflow",
+      "tag": "tensorflow",
+      "label": "Tensorflow",
+      "folder": null
+    },
+    {
       "url": "/tensorflow/tensorflow-js",
       "tag": "tensorflow",
       "label": "tensorflow-js",
       "folder": null
     },
     {
-      "url": "/terminal/tips-and-tricks",
-      "tag": "terminal",
-      "label": "tips-and-tricks",
-      "folder": null
-    },
-    {
       "url": "/terraform/terraform",
       "tag": "terraform",
       "label": "terraform",
+      "folder": null
+    },
+    {
+      "url": "/testing/Testing",
+      "tag": "testing",
+      "label": "Testing",
       "folder": null
     },
     {
@@ -3456,15 +4338,57 @@
       "folder": null
     },
     {
+      "url": "/terminal/Terminal",
+      "tag": "terminal",
+      "label": "Terminal",
+      "folder": null
+    },
+    {
+      "url": "/terminal/tips-and-tricks",
+      "tag": "terminal",
+      "label": "tips-and-tricks",
+      "folder": null
+    },
+    {
+      "url": "/timber/Timber",
+      "tag": "timber",
+      "label": "Timber",
+      "folder": null
+    },
+    {
       "url": "/timber/timber-cheat-sheet",
       "tag": "timber",
       "label": "timber-cheat-sheet",
       "folder": null
     },
     {
+      "url": "/tooling/Tooling",
+      "tag": "tooling",
+      "label": "Tooling",
+      "folder": null
+    },
+    {
       "url": "/tooling/awesome-cli-tools",
       "tag": "tooling",
       "label": "awesome-cli-tools",
+      "folder": null
+    },
+    {
+      "url": "/twig/Twig",
+      "tag": "twig",
+      "label": "Twig",
+      "folder": null
+    },
+    {
+      "url": "/twig/twig-cheat-sheet",
+      "tag": "twig",
+      "label": "twig-cheat-sheet",
+      "folder": null
+    },
+    {
+      "url": "/treat/Treat",
+      "tag": "treat",
+      "label": "Treat",
       "folder": null
     },
     {
@@ -3486,9 +4410,141 @@
       "folder": null
     },
     {
-      "url": "/twig/twig-cheat-sheet",
-      "tag": "twig",
-      "label": "twig-cheat-sheet",
+      "url": "/unity/Unity",
+      "tag": "unity",
+      "label": "Unity",
+      "folder": null
+    },
+    {
+      "url": "/unity/how-to-make-a-video-game",
+      "tag": "unity",
+      "label": "how-to-make-a-video-game",
+      "folder": null
+    },
+    {
+      "url": "/unity/unity-basics",
+      "tag": "unity",
+      "label": "unity-basics",
+      "folder": null
+    },
+    {
+      "url": "/unix/Unix",
+      "tag": "unix",
+      "label": "Unix",
+      "folder": null
+    },
+    {
+      "url": "/unix/appending-files",
+      "tag": "unix",
+      "label": "appending-files",
+      "folder": null
+    },
+    {
+      "url": "/unix/redirection",
+      "tag": "unix",
+      "label": "redirection",
+      "folder": null
+    },
+    {
+      "url": "/unix/unix-command-line",
+      "tag": "unix",
+      "label": "unix-command-line",
+      "folder": null
+    },
+    {
+      "url": "/vim/intermediate-vim",
+      "tag": "vim",
+      "label": "intermediate-vim",
+      "folder": null
+    },
+    {
+      "url": "/vim/neovim",
+      "tag": "vim",
+      "label": "neovim",
+      "folder": null
+    },
+    {
+      "url": "/vim/vim",
+      "tag": "vim",
+      "label": "vim",
+      "folder": null
+    },
+    {
+      "url": "/vagrant/Vagrant",
+      "tag": "vagrant",
+      "label": "Vagrant",
+      "folder": null
+    },
+    {
+      "url": "/vagrant/vagrant-overview",
+      "tag": "vagrant",
+      "label": "vagrant-overview",
+      "folder": null
+    },
+    {
+      "url": "/virtual-file-systems/Virtual-File-Systems",
+      "tag": "virtual-file-systems",
+      "label": "Virtual-File-Systems",
+      "folder": null
+    },
+    {
+      "url": "/virtual-file-systems/intro",
+      "tag": "virtual-file-systems",
+      "label": "intro",
+      "folder": null
+    },
+    {
+      "url": "/ux-testing/Ux-Testing",
+      "tag": "ux-testing",
+      "label": "Ux-Testing",
+      "folder": null
+    },
+    {
+      "url": "/ux-testing/research-design",
+      "tag": "ux-testing",
+      "label": "research-design",
+      "folder": null
+    },
+    {
+      "url": "/vscode/Vscode",
+      "tag": "vscode",
+      "label": "Vscode",
+      "folder": null
+    },
+    {
+      "url": "/vscode/debugging-react-chrome-vscode-settings",
+      "tag": "vscode",
+      "label": "debugging-react-chrome-vscode-settings",
+      "folder": null
+    },
+    {
+      "url": "/vscode/vscode-can-do-that",
+      "tag": "vscode",
+      "label": "vscode-can-do-that",
+      "folder": null
+    },
+    {
+      "url": "/vscode/your-first-vscode-extension",
+      "tag": "vscode",
+      "label": "your-first-vscode-extension",
+      "folder": null
+    },
+    {
+      "url": "/web-servers/Web-Servers",
+      "tag": "web-servers",
+      "label": "Web-Servers",
+      "folder": null
+    },
+    {
+      "url": "/web-servers/resources",
+      "tag": "web-servers",
+      "label": "resources",
+      "folder": null
+    },
+    {
+      "url": "/typescript/Typescript",
+      "tag": "typescript",
+      "label": "Typescript",
       "folder": null
     },
     {
@@ -3528,114 +4584,6 @@
       "folder": null
     },
     {
-      "url": "/unity/how-to-make-a-video-game",
-      "tag": "unity",
-      "label": "how-to-make-a-video-game",
-      "folder": null
-    },
-    {
-      "url": "/unity/unity-basics",
-      "tag": "unity",
-      "label": "unity-basics",
-      "folder": null
-    },
-    {
-      "url": "/ux-testing/research-design",
-      "tag": "ux-testing",
-      "label": "research-design",
-      "folder": null
-    },
-    {
-      "url": "/unix/appending-files",
-      "tag": "unix",
-      "label": "appending-files",
-      "folder": null
-    },
-    {
-      "url": "/unix/redirection",
-      "tag": "unix",
-      "label": "redirection",
-      "folder": null
-    },
-    {
-      "url": "/unix/unix-command-line",
-      "tag": "unix",
-      "label": "unix-command-line",
-      "folder": null
-    },
-    {
-      "url": "/vagrant/vagrant-overview",
-      "tag": "vagrant",
-      "label": "vagrant-overview",
-      "folder": null
-    },
-    {
-      "url": "/vim/intermediate-vim",
-      "tag": "vim",
-      "label": "intermediate-vim",
-      "folder": null
-    },
-    {
-      "url": "/vim/neovim",
-      "tag": "vim",
-      "label": "neovim",
-      "folder": null
-    },
-    {
-      "url": "/vim/vim",
-      "tag": "vim",
-      "label": "vim",
-      "folder": null
-    },
-    {
-      "url": "/virtual-file-systems/intro",
-      "tag": "virtual-file-systems",
-      "label": "intro",
-      "folder": null
-    },
-    {
-      "url": "/vscode/debugging-react-chrome-vscode-settings",
-      "tag": "vscode",
-      "label": "debugging-react-chrome-vscode-settings",
-      "folder": null
-    },
-    {
-      "url": "/vscode/vscode-can-do-that",
-      "tag": "vscode",
-      "label": "vscode-can-do-that",
-      "folder": null
-    },
-    {
-      "url": "/vscode/your-first-vscode-extension",
-      "tag": "vscode",
-      "label": "your-first-vscode-extension",
-      "folder": null
-    },
-    {
-      "url": "/web-assembly/1-web-assembly-basics",
-      "tag": "web-assembly",
-      "label": "1-web-assembly-basics",
-      "folder": null
-    },
-    {
-      "url": "/web-assembly/2-web-assembly",
-      "tag": "web-assembly",
-      "label": "2-web-assembly",
-      "folder": null
-    },
-    {
-      "url": "/web-assembly/3-assembly-script",
-      "tag": "web-assembly",
-      "label": "3-assembly-script",
-      "folder": null
-    },
-    {
-      "url": "/web-servers/resources",
-      "tag": "web-servers",
-      "label": "resources",
-      "folder": null
-    },
-    {
       "url": "/webpack/building-a-webpack-plugin",
       "tag": "webpack",
       "label": "building-a-webpack-plugin",
@@ -3654,15 +4602,15 @@
       "folder": null
     },
     {
-      "url": "/webpack/webpack-5-federation",
-      "tag": "webpack",
-      "label": "webpack-5-federation",
-      "folder": null
-    },
-    {
       "url": "/webpack/webpack-optimisation",
       "tag": "webpack",
       "label": "webpack-optimisation",
+      "folder": null
+    },
+    {
+      "url": "/webpack/webpack-5-federation",
+      "tag": "webpack",
+      "label": "webpack-5-federation",
       "folder": null
     },
     {
@@ -3684,21 +4632,9 @@
       "folder": null
     },
     {
-      "url": "/wordpress/wordpress-cheat-sheet",
-      "tag": "wordpress",
-      "label": "wordpress-cheat-sheet",
-      "folder": null
-    },
-    {
-      "url": "/wordpress/wp-pc-cheat-sheet",
-      "tag": "wordpress",
-      "label": "wp-pc-cheat-sheet",
-      "folder": null
-    },
-    {
-      "url": "/wordpress/wp-pc-setup-cheat-sheet",
-      "tag": "wordpress",
-      "label": "wp-pc-setup-cheat-sheet",
+      "url": "/writing/Writing",
+      "tag": "writing",
+      "label": "Writing",
       "folder": null
     },
     {
@@ -3708,9 +4644,63 @@
       "folder": null
     },
     {
+      "url": "/wordpress/Wordpress",
+      "tag": "wordpress",
+      "label": "Wordpress",
+      "folder": null
+    },
+    {
+      "url": "/wordpress/wp-pc-cheat-sheet",
+      "tag": "wordpress",
+      "label": "wp-pc-cheat-sheet",
+      "folder": null
+    },
+    {
+      "url": "/wordpress/wordpress-cheat-sheet",
+      "tag": "wordpress",
+      "label": "wordpress-cheat-sheet",
+      "folder": null
+    },
+    {
+      "url": "/wordpress/wp-pc-setup-cheat-sheet",
+      "tag": "wordpress",
+      "label": "wp-pc-setup-cheat-sheet",
+      "folder": null
+    },
+    {
+      "url": "/yarn/Yarn",
+      "tag": "yarn",
+      "label": "Yarn",
+      "folder": null
+    },
+    {
       "url": "/yarn/workspaces-in-yarn",
       "tag": "yarn",
       "label": "workspaces-in-yarn",
+      "folder": null
+    },
+    {
+      "url": "/web-assembly/2-web-assembly",
+      "tag": "web-assembly",
+      "label": "2-web-assembly",
+      "folder": null
+    },
+    {
+      "url": "/web-assembly/3-assembly-script",
+      "tag": "web-assembly",
+      "label": "3-assembly-script",
+      "folder": null
+    },
+    {
+      "url": "/web-assembly/1-web-assembly-basics",
+      "tag": "web-assembly",
+      "label": "1-web-assembly-basics",
+      "folder": null
+    },
+    {
+      "url": "/web-assembly/Web-Assembly",
+      "tag": "web-assembly",
+      "label": "Web-Assembly",
       "folder": null
     },
     {
@@ -3720,10 +4710,34 @@
       "folder": null
     },
     {
+      "url": "/zeit-now/Zeit-Now",
+      "tag": "zeit-now",
+      "label": "Zeit-Now",
+      "folder": null
+    },
+    {
+      "url": "/acloudguru/Acloudguru",
+      "tag": "acloudguru",
+      "label": "Acloudguru",
+      "folder": null
+    },
+    {
+      "url": "/acloudguru/courses/Courses",
+      "tag": "acloudguru",
+      "label": "Courses",
+      "folder": "courses"
+    },
+    {
       "url": "/acloudguru/courses/certified-solutions-architect-professional",
       "tag": "acloudguru",
       "label": "certified-solutions-architect-professional",
       "folder": "courses"
+    },
+    {
+      "url": "/bash/Bash",
+      "tag": "bash",
+      "label": "Bash",
+      "folder": null
     },
     {
       "url": "/bash/autocompletion",
@@ -3738,10 +4752,46 @@
       "folder": "bats-testing"
     },
     {
+      "url": "/bash/bats-testing/Bats-Testing",
+      "tag": "bash",
+      "label": "Bats-Testing",
+      "folder": "bats-testing"
+    },
+    {
+      "url": "/computer-systems/Computer-Systems",
+      "tag": "computer-systems",
+      "label": "Computer-Systems",
+      "folder": null
+    },
+    {
+      "url": "/computer-systems/a-programmers-perspective/Buses",
+      "tag": "computer-systems",
+      "label": "Buses",
+      "folder": "a-programmers-perspective"
+    },
+    {
+      "url": "/computer-systems/a-programmers-perspective/A-Programmers-Perspective",
+      "tag": "computer-systems",
+      "label": "A-Programmers-Perspective",
+      "folder": "a-programmers-perspective"
+    },
+    {
+      "url": "/finance/Finance",
+      "tag": "finance",
+      "label": "Finance",
+      "folder": null
+    },
+    {
       "url": "/finance/Employee-Stock-Options-And-RSUs/Employee-Stock-Options-And-RSUs",
       "tag": "finance",
       "label": "Employee-Stock-Options-And-RSUs",
       "folder": "Employee-Stock-Options-And-RSUs"
+    },
+    {
+      "url": "/generative-art/Generative-Art",
+      "tag": "generative-art",
+      "label": "Generative-Art",
+      "folder": null
     },
     {
       "url": "/generative-art/p5-getting-started",
@@ -3762,15 +4812,27 @@
       "folder": "Programming-Graphics-Course"
     },
     {
-      "url": "/kubernetes/advanced-topics",
+      "url": "/generative-art/Programming-Graphics-Course/Programming-Graphics-Course",
+      "tag": "generative-art",
+      "label": "Programming-Graphics-Course",
+      "folder": "Programming-Graphics-Course"
+    },
+    {
+      "url": "/kubernetes/Kubernetes",
       "tag": "kubernetes",
-      "label": "advanced-topics",
+      "label": "Kubernetes",
       "folder": null
     },
     {
       "url": "/kubernetes/aws-eks-starter",
       "tag": "kubernetes",
       "label": "aws-eks-starter",
+      "folder": null
+    },
+    {
+      "url": "/kubernetes/advanced-topics",
+      "tag": "kubernetes",
+      "label": "advanced-topics",
       "folder": null
     },
     {
@@ -3786,15 +4848,15 @@
       "folder": null
     },
     {
-      "url": "/kubernetes/eks-deploy-stateful-efs-app",
-      "tag": "kubernetes",
-      "label": "eks-deploy-stateful-efs-app",
-      "folder": null
-    },
-    {
       "url": "/kubernetes/eks-deploy-stateless-app",
       "tag": "kubernetes",
       "label": "eks-deploy-stateless-app",
+      "folder": null
+    },
+    {
+      "url": "/kubernetes/eks-deploy-stateful-efs-app",
+      "tag": "kubernetes",
+      "label": "eks-deploy-stateful-efs-app",
       "folder": null
     },
     {
@@ -3840,21 +4902,15 @@
       "folder": null
     },
     {
-      "url": "/kubernetes/kubernetes-admin",
-      "tag": "kubernetes",
-      "label": "kubernetes-admin",
-      "folder": null
-    },
-    {
       "url": "/kubernetes/kubeless",
       "tag": "kubernetes",
       "label": "kubeless",
       "folder": null
     },
     {
-      "url": "/kubernetes/kubernetes-basics",
+      "url": "/kubernetes/kubernetes-admin",
       "tag": "kubernetes",
-      "label": "kubernetes-basics",
+      "label": "kubernetes-admin",
       "folder": null
     },
     {
@@ -3867,6 +4923,12 @@
       "url": "/kubernetes/kubernetes-course",
       "tag": "kubernetes",
       "label": "kubernetes-course",
+      "folder": null
+    },
+    {
+      "url": "/kubernetes/kubernetes-basics",
+      "tag": "kubernetes",
+      "label": "kubernetes-basics",
       "folder": null
     },
     {
@@ -3894,10 +4956,22 @@
       "folder": null
     },
     {
+      "url": "/kubernetes/cdk8s/Cdk8s",
+      "tag": "kubernetes",
+      "label": "Cdk8s",
+      "folder": "cdk8s"
+    },
+    {
       "url": "/kubernetes/cdk8s/getting-started-with-cdk8s",
       "tag": "kubernetes",
       "label": "getting-started-with-cdk8s",
       "folder": "cdk8s"
+    },
+    {
+      "url": "/kubernetes/helm/Helm",
+      "tag": "kubernetes",
+      "label": "Helm",
+      "folder": "helm"
     },
     {
       "url": "/kubernetes/helm/getting-started-with-helm",
@@ -3906,21 +4980,15 @@
       "folder": "helm"
     },
     {
-      "url": "/kubernetes/rocking-kubernetes-course/1-kubernetes-basics",
-      "tag": "kubernetes",
-      "label": "1-kubernetes-basics",
-      "folder": "rocking-kubernetes-course"
-    },
-    {
       "url": "/kubernetes/rocking-kubernetes-course/2-eks-basics",
       "tag": "kubernetes",
       "label": "2-eks-basics",
       "folder": "rocking-kubernetes-course"
     },
     {
-      "url": "/kubernetes/rocking-kubernetes-course/3-logging-and-monitoring-eks",
+      "url": "/kubernetes/rocking-kubernetes-course/1-kubernetes-basics",
       "tag": "kubernetes",
-      "label": "3-logging-and-monitoring-eks",
+      "label": "1-kubernetes-basics",
       "folder": "rocking-kubernetes-course"
     },
     {
@@ -3930,10 +4998,28 @@
       "folder": "rocking-kubernetes-course"
     },
     {
+      "url": "/kubernetes/rocking-kubernetes-course/3-logging-and-monitoring-eks",
+      "tag": "kubernetes",
+      "label": "3-logging-and-monitoring-eks",
+      "folder": "rocking-kubernetes-course"
+    },
+    {
       "url": "/kubernetes/rocking-kubernetes-course/6-eks-fargate",
       "tag": "kubernetes",
       "label": "6-eks-fargate",
       "folder": "rocking-kubernetes-course"
+    },
+    {
+      "url": "/kubernetes/rocking-kubernetes-course/Rocking-Kubernetes-Course",
+      "tag": "kubernetes",
+      "label": "Rocking-Kubernetes-Course",
+      "folder": "rocking-kubernetes-course"
+    },
+    {
+      "url": "/kubernetes/setup/Setup",
+      "tag": "kubernetes",
+      "label": "Setup",
+      "folder": "setup"
     },
     {
       "url": "/kubernetes/setup/Setup-k8s-locally",
@@ -3942,10 +5028,28 @@
       "folder": "setup"
     },
     {
+      "url": "/music-production/Music-Production",
+      "tag": "music-production",
+      "label": "Music-Production",
+      "folder": null
+    },
+    {
       "url": "/music-production/lofi/Making-Lofi-Beats",
       "tag": "music-production",
       "label": "Making-Lofi-Beats",
       "folder": "lofi"
+    },
+    {
+      "url": "/music-production/lofi/Lofi",
+      "tag": "music-production",
+      "label": "Lofi",
+      "folder": "lofi"
+    },
+    {
+      "url": "/postgresql/Postgresql",
+      "tag": "postgresql",
+      "label": "Postgresql",
+      "folder": null
     },
     {
       "url": "/postgresql/psql-tips",
@@ -3966,33 +5070,21 @@
       "folder": "SQL-And-PostgreSQL-The-Complete-Developers-Guide"
     },
     {
-      "url": "/postgresql/SQL-And-PostgreSQL-The-Complete-Developers-Guide/13-PostgreSQL-Complex-Datatypes",
-      "tag": "postgresql",
-      "label": "13-PostgreSQL-Complex-Datatypes",
-      "folder": "SQL-And-PostgreSQL-The-Complete-Developers-Guide"
-    },
-    {
       "url": "/postgresql/SQL-And-PostgreSQL-The-Complete-Developers-Guide/11-Utility-Operators-Keywords-And-Functions",
       "tag": "postgresql",
       "label": "11-Utility-Operators-Keywords-And-Functions",
       "folder": "SQL-And-PostgreSQL-The-Complete-Developers-Guide"
     },
     {
-      "url": "/postgresql/SQL-And-PostgreSQL-The-Complete-Developers-Guide/14-Database-Side-Validation-And-Constraints",
+      "url": "/postgresql/SQL-And-PostgreSQL-The-Complete-Developers-Guide/13-PostgreSQL-Complex-Datatypes",
       "tag": "postgresql",
-      "label": "14-Database-Side-Validation-And-Constraints",
+      "label": "13-PostgreSQL-Complex-Datatypes",
       "folder": "SQL-And-PostgreSQL-The-Complete-Developers-Guide"
     },
     {
       "url": "/postgresql/SQL-And-PostgreSQL-The-Complete-Developers-Guide/15-Database-Structure-Design-Patterns",
       "tag": "postgresql",
       "label": "15-Database-Structure-Design-Patterns",
-      "folder": "SQL-And-PostgreSQL-The-Complete-Developers-Guide"
-    },
-    {
-      "url": "/postgresql/SQL-And-PostgreSQL-The-Complete-Developers-Guide/16-Building-A-Like-System",
-      "tag": "postgresql",
-      "label": "16-Building-A-Like-System",
       "folder": "SQL-And-PostgreSQL-The-Complete-Developers-Guide"
     },
     {
@@ -4008,9 +5100,15 @@
       "folder": "SQL-And-PostgreSQL-The-Complete-Developers-Guide"
     },
     {
-      "url": "/postgresql/SQL-And-PostgreSQL-The-Complete-Developers-Guide/22-Understanding-The-Internals-Of-PostgreSQL",
+      "url": "/postgresql/SQL-And-PostgreSQL-The-Complete-Developers-Guide/16-Building-A-Like-System",
       "tag": "postgresql",
-      "label": "22-Understanding-The-Internals-Of-PostgreSQL",
+      "label": "16-Building-A-Like-System",
+      "folder": "SQL-And-PostgreSQL-The-Complete-Developers-Guide"
+    },
+    {
+      "url": "/postgresql/SQL-And-PostgreSQL-The-Complete-Developers-Guide/14-Database-Side-Validation-And-Constraints",
+      "tag": "postgresql",
+      "label": "14-Database-Side-Validation-And-Constraints",
       "folder": "SQL-And-PostgreSQL-The-Complete-Developers-Guide"
     },
     {
@@ -4020,9 +5118,9 @@
       "folder": "SQL-And-PostgreSQL-The-Complete-Developers-Guide"
     },
     {
-      "url": "/postgresql/SQL-And-PostgreSQL-The-Complete-Developers-Guide/24-Basic-Query-Tuning",
+      "url": "/postgresql/SQL-And-PostgreSQL-The-Complete-Developers-Guide/26-Common-Table-Expressions",
       "tag": "postgresql",
-      "label": "24-Basic-Query-Tuning",
+      "label": "26-Common-Table-Expressions",
       "folder": "SQL-And-PostgreSQL-The-Complete-Developers-Guide"
     },
     {
@@ -4032,9 +5130,15 @@
       "folder": "SQL-And-PostgreSQL-The-Complete-Developers-Guide"
     },
     {
-      "url": "/postgresql/SQL-And-PostgreSQL-The-Complete-Developers-Guide/26-Common-Table-Expressions",
+      "url": "/postgresql/SQL-And-PostgreSQL-The-Complete-Developers-Guide/22-Understanding-The-Internals-Of-PostgreSQL",
       "tag": "postgresql",
-      "label": "26-Common-Table-Expressions",
+      "label": "22-Understanding-The-Internals-Of-PostgreSQL",
+      "folder": "SQL-And-PostgreSQL-The-Complete-Developers-Guide"
+    },
+    {
+      "url": "/postgresql/SQL-And-PostgreSQL-The-Complete-Developers-Guide/24-Basic-Query-Tuning",
+      "tag": "postgresql",
+      "label": "24-Basic-Query-Tuning",
       "folder": "SQL-And-PostgreSQL-The-Complete-Developers-Guide"
     },
     {
@@ -4062,15 +5166,15 @@
       "folder": "SQL-And-PostgreSQL-The-Complete-Developers-Guide"
     },
     {
-      "url": "/postgresql/SQL-And-PostgreSQL-The-Complete-Developers-Guide/30-Handling-Concurrency-And-Reversibility-With-Transactions",
-      "tag": "postgresql",
-      "label": "30-Handling-Concurrency-And-Reversibility-With-Transactions",
-      "folder": "SQL-And-PostgreSQL-The-Complete-Developers-Guide"
-    },
-    {
       "url": "/postgresql/SQL-And-PostgreSQL-The-Complete-Developers-Guide/31-Managing-Database-Design-With-Schema-Migrations",
       "tag": "postgresql",
       "label": "31-Managing-Database-Design-With-Schema-Migrations",
+      "folder": "SQL-And-PostgreSQL-The-Complete-Developers-Guide"
+    },
+    {
+      "url": "/postgresql/SQL-And-PostgreSQL-The-Complete-Developers-Guide/30-Handling-Concurrency-And-Reversibility-With-Transactions",
+      "tag": "postgresql",
+      "label": "30-Handling-Concurrency-And-Reversibility-With-Transactions",
       "folder": "SQL-And-PostgreSQL-The-Complete-Developers-Guide"
     },
     {
@@ -4092,15 +5196,15 @@
       "folder": "SQL-And-PostgreSQL-The-Complete-Developers-Guide"
     },
     {
-      "url": "/postgresql/SQL-And-PostgreSQL-The-Complete-Developers-Guide/36-Fast-Parallel-Testing",
-      "tag": "postgresql",
-      "label": "36-Fast-Parallel-Testing",
-      "folder": "SQL-And-PostgreSQL-The-Complete-Developers-Guide"
-    },
-    {
       "url": "/postgresql/SQL-And-PostgreSQL-The-Complete-Developers-Guide/4-Relating-Records-With-Joins",
       "tag": "postgresql",
       "label": "4-Relating-Records-With-Joins",
+      "folder": "SQL-And-PostgreSQL-The-Complete-Developers-Guide"
+    },
+    {
+      "url": "/postgresql/SQL-And-PostgreSQL-The-Complete-Developers-Guide/36-Fast-Parallel-Testing",
+      "tag": "postgresql",
+      "label": "36-Fast-Parallel-Testing",
       "folder": "SQL-And-PostgreSQL-The-Complete-Developers-Guide"
     },
     {
@@ -4128,10 +5232,136 @@
       "folder": "SQL-And-PostgreSQL-The-Complete-Developers-Guide"
     },
     {
+      "url": "/postgresql/SQL-And-PostgreSQL-The-Complete-Developers-Guide/SQL-And-PostgreSQL-The-Complete-Developers-Guide",
+      "tag": "postgresql",
+      "label": "SQL-And-PostgreSQL-The-Complete-Developers-Guide",
+      "folder": "SQL-And-PostgreSQL-The-Complete-Developers-Guide"
+    },
+    {
       "url": "/postgresql/SQL-And-PostgreSQL-The-Complete-Developers-Guide/9-Assembling-Queries-With-Subqueries",
       "tag": "postgresql",
       "label": "9-Assembling-Queries-With-Subqueries",
       "folder": "SQL-And-PostgreSQL-The-Complete-Developers-Guide"
+    },
+    {
+      "url": "/react/React",
+      "tag": "react",
+      "label": "React",
+      "folder": null
+    },
+    {
+      "url": "/react/advanced-react-patterns",
+      "tag": "react",
+      "label": "advanced-react-patterns",
+      "folder": null
+    },
+    {
+      "url": "/react/context-api",
+      "tag": "react",
+      "label": "context-api",
+      "folder": null
+    },
+    {
+      "url": "/react/data-vis-for-react-developers",
+      "tag": "react",
+      "label": "data-vis-for-react-developers",
+      "folder": null
+    },
+    {
+      "url": "/react/dynamic-imports",
+      "tag": "react",
+      "label": "dynamic-imports",
+      "folder": null
+    },
+    {
+      "url": "/react/guidelines",
+      "tag": "react",
+      "label": "guidelines",
+      "folder": null
+    },
+    {
+      "url": "/react/implementing-use-context-with-typescript",
+      "tag": "react",
+      "label": "implementing-use-context-with-typescript",
+      "folder": null
+    },
+    {
+      "url": "/react/intro",
+      "tag": "react",
+      "label": "intro",
+      "folder": null
+    },
+    {
+      "url": "/react/lead-debouncing-with-hooks",
+      "tag": "react",
+      "label": "lead-debouncing-with-hooks",
+      "folder": null
+    },
+    {
+      "url": "/react/react-best-practices-2021",
+      "tag": "react",
+      "label": "react-best-practices-2021",
+      "folder": null
+    },
+    {
+      "url": "/react/react-ssr",
+      "tag": "react",
+      "label": "react-ssr",
+      "folder": null
+    },
+    {
+      "url": "/react/react-testing-library",
+      "tag": "react",
+      "label": "react-testing-library",
+      "folder": null
+    },
+    {
+      "url": "/react/simplest-react-setup",
+      "tag": "react",
+      "label": "simplest-react-setup",
+      "folder": null
+    },
+    {
+      "url": "/react/state-management-in-pure-react",
+      "tag": "react",
+      "label": "state-management-in-pure-react",
+      "folder": null
+    },
+    {
+      "url": "/react/structure",
+      "tag": "react",
+      "label": "structure",
+      "folder": null
+    },
+    {
+      "url": "/react/testing-react-applications",
+      "tag": "react",
+      "label": "testing-react-applications",
+      "folder": null
+    },
+    {
+      "url": "/react/webpack-federaton-with-react",
+      "tag": "react",
+      "label": "webpack-federaton-with-react",
+      "folder": null
+    },
+    {
+      "url": "/react/react-remotion/React-Remotion",
+      "tag": "react",
+      "label": "React-Remotion",
+      "folder": "react-remotion"
+    },
+    {
+      "url": "/react/react-remotion/getting-started",
+      "tag": "react",
+      "label": "getting-started",
+      "folder": "react-remotion"
+    },
+    {
+      "url": "/python/Python",
+      "tag": "python",
+      "label": "Python",
+      "folder": null
     },
     {
       "url": "/python/examples",
@@ -4230,9 +5460,15 @@
       "folder": "Learn-To-Code-With-Python-Course"
     },
     {
-      "url": "/python/Learn-To-Code-With-Python-Course/7-Functional-Programming",
+      "url": "/python/Learn-To-Code-With-Python-Course/9-Error-Handling",
       "tag": "python",
-      "label": "7-Functional-Programming",
+      "label": "9-Error-Handling",
+      "folder": "Learn-To-Code-With-Python-Course"
+    },
+    {
+      "url": "/python/Learn-To-Code-With-Python-Course/Learn-To-Code-With-Python-Course",
+      "tag": "python",
+      "label": "Learn-To-Code-With-Python-Course",
       "folder": "Learn-To-Code-With-Python-Course"
     },
     {
@@ -4242,112 +5478,16 @@
       "folder": "Learn-To-Code-With-Python-Course"
     },
     {
-      "url": "/python/Learn-To-Code-With-Python-Course/9-Error-Handling",
+      "url": "/python/Learn-To-Code-With-Python-Course/7-Functional-Programming",
       "tag": "python",
-      "label": "9-Error-Handling",
+      "label": "7-Functional-Programming",
       "folder": "Learn-To-Code-With-Python-Course"
     },
     {
-      "url": "/react/advanced-react-patterns",
-      "tag": "react",
-      "label": "advanced-react-patterns",
+      "url": "/redux/Redux",
+      "tag": "redux",
+      "label": "Redux",
       "folder": null
-    },
-    {
-      "url": "/react/data-vis-for-react-developers",
-      "tag": "react",
-      "label": "data-vis-for-react-developers",
-      "folder": null
-    },
-    {
-      "url": "/react/context-api",
-      "tag": "react",
-      "label": "context-api",
-      "folder": null
-    },
-    {
-      "url": "/react/dynamic-imports",
-      "tag": "react",
-      "label": "dynamic-imports",
-      "folder": null
-    },
-    {
-      "url": "/react/guidelines",
-      "tag": "react",
-      "label": "guidelines",
-      "folder": null
-    },
-    {
-      "url": "/react/implementing-use-context-with-typescript",
-      "tag": "react",
-      "label": "implementing-use-context-with-typescript",
-      "folder": null
-    },
-    {
-      "url": "/react/intro",
-      "tag": "react",
-      "label": "intro",
-      "folder": null
-    },
-    {
-      "url": "/react/lead-debouncing-with-hooks",
-      "tag": "react",
-      "label": "lead-debouncing-with-hooks",
-      "folder": null
-    },
-    {
-      "url": "/react/react-best-practices-2021",
-      "tag": "react",
-      "label": "react-best-practices-2021",
-      "folder": null
-    },
-    {
-      "url": "/react/react-ssr",
-      "tag": "react",
-      "label": "react-ssr",
-      "folder": null
-    },
-    {
-      "url": "/react/react-testing-library",
-      "tag": "react",
-      "label": "react-testing-library",
-      "folder": null
-    },
-    {
-      "url": "/react/simplest-react-setup",
-      "tag": "react",
-      "label": "simplest-react-setup",
-      "folder": null
-    },
-    {
-      "url": "/react/state-management-in-pure-react",
-      "tag": "react",
-      "label": "state-management-in-pure-react",
-      "folder": null
-    },
-    {
-      "url": "/react/structure",
-      "tag": "react",
-      "label": "structure",
-      "folder": null
-    },
-    {
-      "url": "/react/testing-react-applications",
-      "tag": "react",
-      "label": "testing-react-applications",
-      "folder": null
-    },
-    {
-      "url": "/react/webpack-federaton-with-react",
-      "tag": "react",
-      "label": "webpack-federaton-with-react",
-      "folder": null
-    },
-    {
-      "url": "/react/react-remotion/getting-started",
-      "tag": "react",
-      "label": "getting-started",
-      "folder": "react-remotion"
     },
     {
       "url": "/redux/intro-to-reselect",
@@ -4362,10 +5502,22 @@
       "folder": null
     },
     {
+      "url": "/redux/redux-toolkit/Redux-Toolkit",
+      "tag": "redux",
+      "label": "Redux-Toolkit",
+      "folder": "redux-toolkit"
+    },
+    {
       "url": "/redux/redux-toolkit/usage-with-react-context",
       "tag": "redux",
       "label": "usage-with-react-context",
       "folder": "redux-toolkit"
+    },
+    {
+      "url": "/rspec/Rspec",
+      "tag": "rspec",
+      "label": "Rspec",
+      "folder": null
     },
     {
       "url": "/rspec/rspec-intro",
@@ -4386,15 +5538,21 @@
       "folder": null
     },
     {
+      "url": "/rspec/Testing-Ruby-With-RSpec-The-Complete-Guide/2-Subjects-Shared-Examples-And-Shared-Context",
+      "tag": "rspec",
+      "label": "2-Subjects-Shared-Examples-And-Shared-Context",
+      "folder": "Testing-Ruby-With-RSpec-The-Complete-Guide"
+    },
+    {
       "url": "/rspec/Testing-Ruby-With-RSpec-The-Complete-Guide/1-Introduction",
       "tag": "rspec",
       "label": "1-Introduction",
       "folder": "Testing-Ruby-With-RSpec-The-Complete-Guide"
     },
     {
-      "url": "/rspec/Testing-Ruby-With-RSpec-The-Complete-Guide/2-Subjects-Shared-Examples-And-Shared-Context",
+      "url": "/rspec/Testing-Ruby-With-RSpec-The-Complete-Guide/4-Mocks-In-RSpec",
       "tag": "rspec",
-      "label": "2-Subjects-Shared-Examples-And-Shared-Context",
+      "label": "4-Mocks-In-RSpec",
       "folder": "Testing-Ruby-With-RSpec-The-Complete-Guide"
     },
     {
@@ -4404,10 +5562,226 @@
       "folder": "Testing-Ruby-With-RSpec-The-Complete-Guide"
     },
     {
-      "url": "/rspec/Testing-Ruby-With-RSpec-The-Complete-Guide/4-Mocks-In-RSpec",
+      "url": "/rspec/Testing-Ruby-With-RSpec-The-Complete-Guide/Testing-Ruby-With-RSpec-The-Complete-Guide",
       "tag": "rspec",
-      "label": "4-Mocks-In-RSpec",
+      "label": "Testing-Ruby-With-RSpec-The-Complete-Guide",
       "folder": "Testing-Ruby-With-RSpec-The-Complete-Guide"
+    },
+    {
+      "url": "/ruby-on-rails-tutorial/Ruby-On-Rails-Tutorial",
+      "tag": "ruby-on-rails-tutorial",
+      "label": "Ruby-On-Rails-Tutorial",
+      "folder": null
+    },
+    {
+      "url": "/ruby-on-rails-tutorial/chapters/10-updating-showing-deleting-users",
+      "tag": "ruby-on-rails-tutorial",
+      "label": "10-updating-showing-deleting-users",
+      "folder": "chapters"
+    },
+    {
+      "url": "/ruby-on-rails-tutorial/chapters/1-from-zero-to-deploy",
+      "tag": "ruby-on-rails-tutorial",
+      "label": "1-from-zero-to-deploy",
+      "folder": "chapters"
+    },
+    {
+      "url": "/ruby-on-rails-tutorial/chapters/14-following-users",
+      "tag": "ruby-on-rails-tutorial",
+      "label": "14-following-users",
+      "folder": "chapters"
+    },
+    {
+      "url": "/ruby-on-rails-tutorial/chapters/13-user-microposts",
+      "tag": "ruby-on-rails-tutorial",
+      "label": "13-user-microposts",
+      "folder": "chapters"
+    },
+    {
+      "url": "/ruby-on-rails-tutorial/chapters/2-toy-app",
+      "tag": "ruby-on-rails-tutorial",
+      "label": "2-toy-app",
+      "folder": "chapters"
+    },
+    {
+      "url": "/ruby-on-rails-tutorial/chapters/3-mostly-static-pages",
+      "tag": "ruby-on-rails-tutorial",
+      "label": "3-mostly-static-pages",
+      "folder": "chapters"
+    },
+    {
+      "url": "/ruby-on-rails-tutorial/chapters/Chapters",
+      "tag": "ruby-on-rails-tutorial",
+      "label": "Chapters",
+      "folder": "chapters"
+    },
+    {
+      "url": "/ruby-on-rails-tutorial/chapters/6-modelling-users",
+      "tag": "ruby-on-rails-tutorial",
+      "label": "6-modelling-users",
+      "folder": "chapters"
+    },
+    {
+      "url": "/ruby-on-rails-tutorial/chapters/4-rails-flavoured-ruby",
+      "tag": "ruby-on-rails-tutorial",
+      "label": "4-rails-flavoured-ruby",
+      "folder": "chapters"
+    },
+    {
+      "url": "/rust/Rust",
+      "tag": "rust",
+      "label": "Rust",
+      "folder": null
+    },
+    {
+      "url": "/rust/building-rust-clis",
+      "tag": "rust",
+      "label": "building-rust-clis",
+      "folder": null
+    },
+    {
+      "url": "/rust/learning-rust",
+      "tag": "rust",
+      "label": "learning-rust",
+      "folder": null
+    },
+    {
+      "url": "/rust/quickstart",
+      "tag": "rust",
+      "label": "quickstart",
+      "folder": null
+    },
+    {
+      "url": "/rust/redirection-in-rust",
+      "tag": "rust",
+      "label": "redirection-in-rust",
+      "folder": null
+    },
+    {
+      "url": "/rust/rust-lang-org-book",
+      "tag": "rust",
+      "label": "rust-lang-org-book",
+      "folder": null
+    },
+    {
+      "url": "/rust/rust-useful-tidbits",
+      "tag": "rust",
+      "label": "rust-useful-tidbits",
+      "folder": null
+    },
+    {
+      "url": "/rust/The-Rust-Programming-Language-Course/1-Introduction",
+      "tag": "rust",
+      "label": "1-Introduction",
+      "folder": "The-Rust-Programming-Language-Course"
+    },
+    {
+      "url": "/rust/The-Rust-Programming-Language-Course/2-Primitives",
+      "tag": "rust",
+      "label": "2-Primitives",
+      "folder": "The-Rust-Programming-Language-Course"
+    },
+    {
+      "url": "/rust/The-Rust-Programming-Language-Course/3-Collections",
+      "tag": "rust",
+      "label": "3-Collections",
+      "folder": "The-Rust-Programming-Language-Course"
+    },
+    {
+      "url": "/rust/The-Rust-Programming-Language-Course/6-Ownership",
+      "tag": "rust",
+      "label": "6-Ownership",
+      "folder": "The-Rust-Programming-Language-Course"
+    },
+    {
+      "url": "/rust/The-Rust-Programming-Language-Course/4-Pattern-Matching",
+      "tag": "rust",
+      "label": "4-Pattern-Matching",
+      "folder": "The-Rust-Programming-Language-Course"
+    },
+    {
+      "url": "/rust/The-Rust-Programming-Language-Course/5-Vectors",
+      "tag": "rust",
+      "label": "5-Vectors",
+      "folder": "The-Rust-Programming-Language-Course"
+    },
+    {
+      "url": "/rust/The-Rust-Programming-Language-Course/7-Borrowing",
+      "tag": "rust",
+      "label": "7-Borrowing",
+      "folder": "The-Rust-Programming-Language-Course"
+    },
+    {
+      "url": "/rust/The-Rust-Programming-Language-Course/8-Lifetimes",
+      "tag": "rust",
+      "label": "8-Lifetimes",
+      "folder": "The-Rust-Programming-Language-Course"
+    },
+    {
+      "url": "/rust/The-Rust-Programming-Language-Course/The-Rust-Programming-Language-Course",
+      "tag": "rust",
+      "label": "The-Rust-Programming-Language-Course",
+      "folder": "The-Rust-Programming-Language-Course"
+    },
+    {
+      "url": "/rust/Ultimate-Rust-Crash-Course/3-Primitive-Types-And-Control-Flow",
+      "tag": "rust",
+      "label": "3-Primitive-Types-And-Control-Flow",
+      "folder": "Ultimate-Rust-Crash-Course"
+    },
+    {
+      "url": "/rust/Ultimate-Rust-Crash-Course/2-Fundamentals",
+      "tag": "rust",
+      "label": "2-Fundamentals",
+      "folder": "Ultimate-Rust-Crash-Course"
+    },
+    {
+      "url": "/rust/Ultimate-Rust-Crash-Course/4-The-Heart-Of-Rust",
+      "tag": "rust",
+      "label": "4-The-Heart-Of-Rust",
+      "folder": "Ultimate-Rust-Crash-Course"
+    },
+    {
+      "url": "/rust/Ultimate-Rust-Crash-Course/6-Final-Lectures",
+      "tag": "rust",
+      "label": "6-Final-Lectures",
+      "folder": "Ultimate-Rust-Crash-Course"
+    },
+    {
+      "url": "/rust/Ultimate-Rust-Crash-Course/5-The-Meat-Of-Rust",
+      "tag": "rust",
+      "label": "5-The-Meat-Of-Rust",
+      "folder": "Ultimate-Rust-Crash-Course"
+    },
+    {
+      "url": "/rust/Ultimate-Rust-Crash-Course/Ultimate-Rust-Crash-Course",
+      "tag": "rust",
+      "label": "Ultimate-Rust-Crash-Course",
+      "folder": "Ultimate-Rust-Crash-Course"
+    },
+    {
+      "url": "/shopify/Shopify",
+      "tag": "shopify",
+      "label": "Shopify",
+      "folder": null
+    },
+    {
+      "url": "/shopify/development/Development",
+      "tag": "shopify",
+      "label": "Development",
+      "folder": "development"
+    },
+    {
+      "url": "/shopify/development/setting-up-a-dev-store",
+      "tag": "shopify",
+      "label": "setting-up-a-dev-store",
+      "folder": "development"
+    },
+    {
+      "url": "/ruby/Ruby",
+      "tag": "ruby",
+      "label": "Ruby",
+      "folder": null
     },
     {
       "url": "/ruby/cocoapods-workshop",
@@ -4554,178 +5928,28 @@
       "folder": "Destroy-All-Software"
     },
     {
+      "url": "/ruby/Destroy-All-Software/Destroy-All-Software",
+      "tag": "ruby",
+      "label": "Destroy-All-Software",
+      "folder": "Destroy-All-Software"
+    },
+    {
+      "url": "/ruby/minitest/Minitest",
+      "tag": "ruby",
+      "label": "Minitest",
+      "folder": "minitest"
+    },
+    {
       "url": "/ruby/minitest/style-guide",
       "tag": "ruby",
       "label": "style-guide",
       "folder": "minitest"
     },
     {
-      "url": "/ruby-on-rails-tutorial/chapters/1-from-zero-to-deploy",
-      "tag": "ruby-on-rails-tutorial",
-      "label": "1-from-zero-to-deploy",
-      "folder": "chapters"
-    },
-    {
-      "url": "/ruby-on-rails-tutorial/chapters/10-updating-showing-deleting-users",
-      "tag": "ruby-on-rails-tutorial",
-      "label": "10-updating-showing-deleting-users",
-      "folder": "chapters"
-    },
-    {
-      "url": "/ruby-on-rails-tutorial/chapters/13-user-microposts",
-      "tag": "ruby-on-rails-tutorial",
-      "label": "13-user-microposts",
-      "folder": "chapters"
-    },
-    {
-      "url": "/ruby-on-rails-tutorial/chapters/14-following-users",
-      "tag": "ruby-on-rails-tutorial",
-      "label": "14-following-users",
-      "folder": "chapters"
-    },
-    {
-      "url": "/ruby-on-rails-tutorial/chapters/2-toy-app",
-      "tag": "ruby-on-rails-tutorial",
-      "label": "2-toy-app",
-      "folder": "chapters"
-    },
-    {
-      "url": "/ruby-on-rails-tutorial/chapters/3-mostly-static-pages",
-      "tag": "ruby-on-rails-tutorial",
-      "label": "3-mostly-static-pages",
-      "folder": "chapters"
-    },
-    {
-      "url": "/ruby-on-rails-tutorial/chapters/4-rails-flavoured-ruby",
-      "tag": "ruby-on-rails-tutorial",
-      "label": "4-rails-flavoured-ruby",
-      "folder": "chapters"
-    },
-    {
-      "url": "/ruby-on-rails-tutorial/chapters/6-modelling-users",
-      "tag": "ruby-on-rails-tutorial",
-      "label": "6-modelling-users",
-      "folder": "chapters"
-    },
-    {
-      "url": "/rust/building-rust-clis",
-      "tag": "rust",
-      "label": "building-rust-clis",
+      "url": "/software-architecture/Software-Architecture",
+      "tag": "software-architecture",
+      "label": "Software-Architecture",
       "folder": null
-    },
-    {
-      "url": "/rust/learning-rust",
-      "tag": "rust",
-      "label": "learning-rust",
-      "folder": null
-    },
-    {
-      "url": "/rust/quickstart",
-      "tag": "rust",
-      "label": "quickstart",
-      "folder": null
-    },
-    {
-      "url": "/rust/redirection-in-rust",
-      "tag": "rust",
-      "label": "redirection-in-rust",
-      "folder": null
-    },
-    {
-      "url": "/rust/rust-lang-org-book",
-      "tag": "rust",
-      "label": "rust-lang-org-book",
-      "folder": null
-    },
-    {
-      "url": "/rust/rust-useful-tidbits",
-      "tag": "rust",
-      "label": "rust-useful-tidbits",
-      "folder": null
-    },
-    {
-      "url": "/rust/The-Rust-Programming-Language-Course/2-Primitives",
-      "tag": "rust",
-      "label": "2-Primitives",
-      "folder": "The-Rust-Programming-Language-Course"
-    },
-    {
-      "url": "/rust/The-Rust-Programming-Language-Course/1-Introduction",
-      "tag": "rust",
-      "label": "1-Introduction",
-      "folder": "The-Rust-Programming-Language-Course"
-    },
-    {
-      "url": "/rust/The-Rust-Programming-Language-Course/3-Collections",
-      "tag": "rust",
-      "label": "3-Collections",
-      "folder": "The-Rust-Programming-Language-Course"
-    },
-    {
-      "url": "/rust/The-Rust-Programming-Language-Course/4-Pattern-Matching",
-      "tag": "rust",
-      "label": "4-Pattern-Matching",
-      "folder": "The-Rust-Programming-Language-Course"
-    },
-    {
-      "url": "/rust/The-Rust-Programming-Language-Course/5-Vectors",
-      "tag": "rust",
-      "label": "5-Vectors",
-      "folder": "The-Rust-Programming-Language-Course"
-    },
-    {
-      "url": "/rust/The-Rust-Programming-Language-Course/6-Ownership",
-      "tag": "rust",
-      "label": "6-Ownership",
-      "folder": "The-Rust-Programming-Language-Course"
-    },
-    {
-      "url": "/rust/The-Rust-Programming-Language-Course/7-Borrowing",
-      "tag": "rust",
-      "label": "7-Borrowing",
-      "folder": "The-Rust-Programming-Language-Course"
-    },
-    {
-      "url": "/rust/The-Rust-Programming-Language-Course/8-Lifetimes",
-      "tag": "rust",
-      "label": "8-Lifetimes",
-      "folder": "The-Rust-Programming-Language-Course"
-    },
-    {
-      "url": "/rust/Ultimate-Rust-Crash-Course/2-Fundamentals",
-      "tag": "rust",
-      "label": "2-Fundamentals",
-      "folder": "Ultimate-Rust-Crash-Course"
-    },
-    {
-      "url": "/rust/Ultimate-Rust-Crash-Course/3-Primitive-Types-And-Control-Flow",
-      "tag": "rust",
-      "label": "3-Primitive-Types-And-Control-Flow",
-      "folder": "Ultimate-Rust-Crash-Course"
-    },
-    {
-      "url": "/rust/Ultimate-Rust-Crash-Course/5-The-Meat-Of-Rust",
-      "tag": "rust",
-      "label": "5-The-Meat-Of-Rust",
-      "folder": "Ultimate-Rust-Crash-Course"
-    },
-    {
-      "url": "/rust/Ultimate-Rust-Crash-Course/4-The-Heart-Of-Rust",
-      "tag": "rust",
-      "label": "4-The-Heart-Of-Rust",
-      "folder": "Ultimate-Rust-Crash-Course"
-    },
-    {
-      "url": "/rust/Ultimate-Rust-Crash-Course/6-Final-Lectures",
-      "tag": "rust",
-      "label": "6-Final-Lectures",
-      "folder": "Ultimate-Rust-Crash-Course"
-    },
-    {
-      "url": "/shopify/development/setting-up-a-dev-store",
-      "tag": "shopify",
-      "label": "setting-up-a-dev-store",
-      "folder": "development"
     },
     {
       "url": "/software-architecture/outstanding-solution-architect-course/2-What-Makes-A-Great-Architect",
@@ -4740,15 +5964,15 @@
       "folder": "outstanding-solution-architect-course"
     },
     {
-      "url": "/software-architecture/outstanding-solution-architect-course/3-Designing-A-Software-Architecture",
-      "tag": "software-architecture",
-      "label": "3-Designing-A-Software-Architecture",
-      "folder": "outstanding-solution-architect-course"
-    },
-    {
       "url": "/software-architecture/outstanding-solution-architect-course/4-Architectural-Design-Patterns",
       "tag": "software-architecture",
       "label": "4-Architectural-Design-Patterns",
+      "folder": "outstanding-solution-architect-course"
+    },
+    {
+      "url": "/software-architecture/outstanding-solution-architect-course/3-Designing-A-Software-Architecture",
+      "tag": "software-architecture",
+      "label": "3-Designing-A-Software-Architecture",
       "folder": "outstanding-solution-architect-course"
     },
     {
@@ -4758,10 +5982,154 @@
       "folder": "outstanding-solution-architect-course"
     },
     {
+      "url": "/software-architecture/outstanding-solution-architect-course/Outstanding-Solution-Architect-Course",
+      "tag": "software-architecture",
+      "label": "Outstanding-Solution-Architect-Course",
+      "folder": "outstanding-solution-architect-course"
+    },
+    {
       "url": "/software-architecture/outstanding-solution-architect-course/6-Architecture-Considerations",
       "tag": "software-architecture",
       "label": "6-Architecture-Considerations",
       "folder": "outstanding-solution-architect-course"
+    },
+    {
+      "url": "/threejs/Threejs",
+      "tag": "threejs",
+      "label": "Threejs",
+      "folder": null
+    },
+    {
+      "url": "/threejs/journey/3-Advanced-Techniques",
+      "tag": "threejs",
+      "label": "3-Advanced-Techniques",
+      "folder": "journey"
+    },
+    {
+      "url": "/threejs/journey/1-Introduction",
+      "tag": "threejs",
+      "label": "1-Introduction",
+      "folder": "journey"
+    },
+    {
+      "url": "/threejs/journey/Journey",
+      "tag": "threejs",
+      "label": "Journey",
+      "folder": "journey"
+    },
+    {
+      "url": "/ui/Ui",
+      "tag": "ui",
+      "label": "Ui",
+      "folder": null
+    },
+    {
+      "url": "/ui/refactoring-ui/Refactoring-Ui",
+      "tag": "ui",
+      "label": "Refactoring-Ui",
+      "folder": "refactoring-ui"
+    },
+    {
+      "url": "/ui/refactoring-ui/principles",
+      "tag": "ui",
+      "label": "principles",
+      "folder": "refactoring-ui"
+    },
+    {
+      "url": "/xstate/Xstate",
+      "tag": "xstate",
+      "label": "Xstate",
+      "folder": null
+    },
+    {
+      "url": "/xstate/state-machines-in-js",
+      "tag": "xstate",
+      "label": "state-machines-in-js",
+      "folder": null
+    },
+    {
+      "url": "/xstate/xstate-with-react/xstate-with-react",
+      "tag": "xstate",
+      "label": "xstate-with-react",
+      "folder": "xstate-with-react"
+    },
+    {
+      "url": "/web/Web",
+      "tag": "web",
+      "label": "Web",
+      "folder": null
+    },
+    {
+      "url": "/web/accessibility-course",
+      "tag": "web",
+      "label": "accessibility-course",
+      "folder": null
+    },
+    {
+      "url": "/web/aria-tags",
+      "tag": "web",
+      "label": "aria-tags",
+      "folder": null
+    },
+    {
+      "url": "/web/exploring-service-workers",
+      "tag": "web",
+      "label": "exploring-service-workers",
+      "folder": null
+    },
+    {
+      "url": "/web/web-apis",
+      "tag": "web",
+      "label": "web-apis",
+      "folder": null
+    },
+    {
+      "url": "/web/web-concepts",
+      "tag": "web",
+      "label": "web-concepts",
+      "folder": null
+    },
+    {
+      "url": "/web/web-performance-fundamentals/2-metrics",
+      "tag": "web",
+      "label": "2-metrics",
+      "folder": "web-performance-fundamentals"
+    },
+    {
+      "url": "/web/web-performance-fundamentals/3-improving-performance",
+      "tag": "web",
+      "label": "3-improving-performance",
+      "folder": "web-performance-fundamentals"
+    },
+    {
+      "url": "/web/web-performance-fundamentals/4-optimizing-metrics",
+      "tag": "web",
+      "label": "4-optimizing-metrics",
+      "folder": "web-performance-fundamentals"
+    },
+    {
+      "url": "/web/web-performance-fundamentals/5-planning",
+      "tag": "web",
+      "label": "5-planning",
+      "folder": "web-performance-fundamentals"
+    },
+    {
+      "url": "/web/web-performance-fundamentals/Web-Performance-Fundamentals",
+      "tag": "web",
+      "label": "Web-Performance-Fundamentals",
+      "folder": "web-performance-fundamentals"
+    },
+    {
+      "url": "/web/web-performance-fundamentals/1-elements-of-performance",
+      "tag": "web",
+      "label": "1-elements-of-performance",
+      "folder": "web-performance-fundamentals"
+    },
+    {
+      "url": "/stripe/Stripe",
+      "tag": "stripe",
+      "label": "Stripe",
+      "folder": null
     },
     {
       "url": "/stripe/charges-vs-payment-intent",
@@ -4806,9 +6174,9 @@
       "folder": null
     },
     {
-      "url": "/stripe/configuration/dotnet-stripe-configuration",
+      "url": "/stripe/configuration/Configuration",
       "tag": "stripe",
-      "label": "dotnet-stripe-configuration",
+      "label": "Configuration",
       "folder": "configuration"
     },
     {
@@ -4818,15 +6186,15 @@
       "folder": "configuration"
     },
     {
-      "url": "/stripe/configuration/gin-stripe-configuration",
-      "tag": "stripe",
-      "label": "gin-stripe-configuration",
-      "folder": "configuration"
-    },
-    {
       "url": "/stripe/configuration/node-saas-with-stripe",
       "tag": "stripe",
       "label": "node-saas-with-stripe",
+      "folder": "configuration"
+    },
+    {
+      "url": "/stripe/configuration/gin-stripe-configuration",
+      "tag": "stripe",
+      "label": "gin-stripe-configuration",
       "folder": "configuration"
     },
     {
@@ -4842,106 +6210,28 @@
       "folder": "configuration"
     },
     {
-      "url": "/stripe/configuration/slim-stripe-configuration",
-      "tag": "stripe",
-      "label": "slim-stripe-configuration",
-      "folder": "configuration"
-    },
-    {
       "url": "/stripe/configuration/spring-stripe-configuration",
       "tag": "stripe",
       "label": "spring-stripe-configuration",
       "folder": "configuration"
     },
     {
-      "url": "/threejs/journey/1-Introduction",
-      "tag": "threejs",
-      "label": "1-Introduction",
-      "folder": "journey"
+      "url": "/stripe/configuration/slim-stripe-configuration",
+      "tag": "stripe",
+      "label": "slim-stripe-configuration",
+      "folder": "configuration"
     },
     {
-      "url": "/threejs/journey/3-Advanced-Techniques",
-      "tag": "threejs",
-      "label": "3-Advanced-Techniques",
-      "folder": "journey"
+      "url": "/stripe/configuration/dotnet-stripe-configuration",
+      "tag": "stripe",
+      "label": "dotnet-stripe-configuration",
+      "folder": "configuration"
     },
     {
-      "url": "/ui/refactoring-ui/principles",
-      "tag": "ui",
-      "label": "principles",
-      "folder": "refactoring-ui"
-    },
-    {
-      "url": "/web/accessibility-course",
-      "tag": "web",
-      "label": "accessibility-course",
+      "url": "/adobe/Adobe",
+      "tag": "adobe",
+      "label": "Adobe",
       "folder": null
-    },
-    {
-      "url": "/web/aria-tags",
-      "tag": "web",
-      "label": "aria-tags",
-      "folder": null
-    },
-    {
-      "url": "/web/exploring-service-workers",
-      "tag": "web",
-      "label": "exploring-service-workers",
-      "folder": null
-    },
-    {
-      "url": "/web/web-concepts",
-      "tag": "web",
-      "label": "web-concepts",
-      "folder": null
-    },
-    {
-      "url": "/web/web-apis",
-      "tag": "web",
-      "label": "web-apis",
-      "folder": null
-    },
-    {
-      "url": "/web/web-performance-fundamentals/1-elements-of-performance",
-      "tag": "web",
-      "label": "1-elements-of-performance",
-      "folder": "web-performance-fundamentals"
-    },
-    {
-      "url": "/web/web-performance-fundamentals/2-metrics",
-      "tag": "web",
-      "label": "2-metrics",
-      "folder": "web-performance-fundamentals"
-    },
-    {
-      "url": "/web/web-performance-fundamentals/3-improving-performance",
-      "tag": "web",
-      "label": "3-improving-performance",
-      "folder": "web-performance-fundamentals"
-    },
-    {
-      "url": "/web/web-performance-fundamentals/4-optimizing-metrics",
-      "tag": "web",
-      "label": "4-optimizing-metrics",
-      "folder": "web-performance-fundamentals"
-    },
-    {
-      "url": "/web/web-performance-fundamentals/5-planning",
-      "tag": "web",
-      "label": "5-planning",
-      "folder": "web-performance-fundamentals"
-    },
-    {
-      "url": "/xstate/state-machines-in-js",
-      "tag": "xstate",
-      "label": "state-machines-in-js",
-      "folder": null
-    },
-    {
-      "url": "/xstate/xstate-with-react/xstate-with-react",
-      "tag": "xstate",
-      "label": "xstate-with-react",
-      "folder": "xstate-with-react"
     },
     {
       "url": "/adobe/illustrator/illustrator-essentials",
@@ -4950,9 +6240,27 @@
       "folder": "illustrator"
     },
     {
+      "url": "/adobe/illustrator/Illustrator",
+      "tag": "adobe",
+      "label": "Illustrator",
+      "folder": "illustrator"
+    },
+    {
+      "url": "/adobe/after-effects/After-Effects",
+      "tag": "adobe",
+      "label": "After-Effects",
+      "folder": "after-effects"
+    },
+    {
       "url": "/adobe/after-effects/Intro-To-After-Effects",
       "tag": "adobe",
       "label": "Intro-To-After-Effects",
+      "folder": "after-effects"
+    },
+    {
+      "url": "/adobe/after-effects/The-Beginners-Guide-To-Adobe-AE/The-Beginners-Guide-To-Adobe-AE",
+      "tag": "adobe",
+      "label": "The-Beginners-Guide-To-Adobe-AE",
       "folder": "after-effects"
     },
     {
@@ -4960,6 +6268,18 @@
       "tag": "adobe",
       "label": "1-Getting-Started",
       "folder": "after-effects"
+    },
+    {
+      "url": "/aws/Aws",
+      "tag": "aws",
+      "label": "Aws",
+      "folder": null
+    },
+    {
+      "url": "/aws/adding-secrets-via-cli-or-cdk",
+      "tag": "aws",
+      "label": "adding-secrets-via-cli-or-cdk",
+      "folder": null
     },
     {
       "url": "/aws/Well-Architected-Frameworkd",
@@ -4971,12 +6291,6 @@
       "url": "/aws/adding-role-permissions-to-lambda-cdk",
       "tag": "aws",
       "label": "adding-role-permissions-to-lambda-cdk",
-      "folder": null
-    },
-    {
-      "url": "/aws/adding-secrets-via-cli-or-cdk",
-      "tag": "aws",
-      "label": "adding-secrets-via-cli-or-cdk",
       "folder": null
     },
     {
@@ -5148,105 +6462,15 @@
       "folder": "EC2"
     },
     {
-      "url": "/aws/Learn-Catrill/Solution-Architect/1-Introduction",
+      "url": "/aws/EC2/EC2",
       "tag": "aws",
-      "label": "1-Introduction",
-      "folder": "Learn-Catrill"
+      "label": "EC2",
+      "folder": "EC2"
     },
     {
-      "url": "/aws/Learn-Catrill/Solution-Architect/14-Network-Storage",
+      "url": "/aws/Solution-Architect/Solution-Architect",
       "tag": "aws",
-      "label": "14-Network-Storage",
-      "folder": "Learn-Catrill"
-    },
-    {
-      "url": "/aws/Learn-Catrill/Solution-Architect/15-HA-Scaling",
-      "tag": "aws",
-      "label": "15-HA-Scaling",
-      "folder": "Learn-Catrill"
-    },
-    {
-      "url": "/aws/Learn-Catrill/Solution-Architect/17-Global-Content-Delivery-And-Optimization",
-      "tag": "aws",
-      "label": "17-Global-Content-Delivery-And-Optimization",
-      "folder": "Learn-Catrill"
-    },
-    {
-      "url": "/aws/Learn-Catrill/Solution-Architect/18-Advanced-VPC-Networking",
-      "tag": "aws",
-      "label": "18-Advanced-VPC-Networking",
-      "folder": "Learn-Catrill"
-    },
-    {
-      "url": "/aws/Learn-Catrill/Solution-Architect/19-Hybrid-Environments-And-Migration",
-      "tag": "aws",
-      "label": "19-Hybrid-Environments-And-Migration",
-      "folder": "Learn-Catrill"
-    },
-    {
-      "url": "/aws/Learn-Catrill/Solution-Architect/20-Security-Deployment-Operations",
-      "tag": "aws",
-      "label": "20-Security-Deployment-Operations",
-      "folder": "Learn-Catrill"
-    },
-    {
-      "url": "/aws/Learn-Catrill/Solution-Architect/3-Cloud-Computing-Fundamentals",
-      "tag": "aws",
-      "label": "3-Cloud-Computing-Fundamentals",
-      "folder": "Learn-Catrill"
-    },
-    {
-      "url": "/aws/Learn-Catrill/Solution-Architect/21-NoSQL-DBs-and-DynamoDB",
-      "tag": "aws",
-      "label": "21-NoSQL-DBs-and-DynamoDB",
-      "folder": "Learn-Catrill"
-    },
-    {
-      "url": "/aws/Learn-Catrill/Solution-Architect/4-Network-Starter-Pack",
-      "tag": "aws",
-      "label": "4-Network-Starter-Pack",
-      "folder": "Learn-Catrill"
-    },
-    {
-      "url": "/aws/Learn-Catrill/Solution-Architect/5-AWS-Fundamentals",
-      "tag": "aws",
-      "label": "5-AWS-Fundamentals",
-      "folder": "Learn-Catrill"
-    },
-    {
-      "url": "/aws/Learn-Catrill/Solution-Architect/6-IAM-Accounts-Organisations",
-      "tag": "aws",
-      "label": "6-IAM-Accounts-Organisations",
-      "folder": "Learn-Catrill"
-    },
-    {
-      "url": "/aws/Learn-Catrill/Solution-Architect/7-Simple-Storage-Service",
-      "tag": "aws",
-      "label": "7-Simple-Storage-Service",
-      "folder": "Learn-Catrill"
-    },
-    {
-      "url": "/aws/Learn-Catrill/Solution-Architect/8-VPC-Basics",
-      "tag": "aws",
-      "label": "8-VPC-Basics",
-      "folder": "Learn-Catrill"
-    },
-    {
-      "url": "/aws/Learn-Catrill/Solution-Architect/9-EC2-Basics",
-      "tag": "aws",
-      "label": "9-EC2-Basics",
-      "folder": "Learn-Catrill"
-    },
-    {
-      "url": "/aws/Solution-Architect/Certified-Developer-Associate-Course/10-Advanced-IAM",
-      "tag": "aws",
-      "label": "10-Advanced-IAM",
-      "folder": "Solution-Architect"
-    },
-    {
-      "url": "/aws/Solution-Architect/Certified-Developer-Associate-Course/5-Introduction-to-Serverless-Computing",
-      "tag": "aws",
-      "label": "5-Introduction-to-Serverless-Computing",
+      "label": "Solution-Architect",
       "folder": "Solution-Architect"
     },
     {
@@ -5256,9 +6480,27 @@
       "folder": "Solution-Architect"
     },
     {
+      "url": "/aws/Solution-Architect/Certified-Developer-Associate-Course/5-Introduction-to-Serverless-Computing",
+      "tag": "aws",
+      "label": "5-Introduction-to-Serverless-Computing",
+      "folder": "Solution-Architect"
+    },
+    {
       "url": "/aws/Solution-Architect/Certified-Developer-Associate-Course/9-Developer-Theory",
       "tag": "aws",
       "label": "9-Developer-Theory",
+      "folder": "Solution-Architect"
+    },
+    {
+      "url": "/aws/Solution-Architect/Certified-Developer-Associate-Course/10-Advanced-IAM",
+      "tag": "aws",
+      "label": "10-Advanced-IAM",
+      "folder": "Solution-Architect"
+    },
+    {
+      "url": "/aws/Solution-Architect/Certified-Developer-Associate-Course/Certified-Developer-Associate-Course",
+      "tag": "aws",
+      "label": "Certified-Developer-Associate-Course",
       "folder": "Solution-Architect"
     },
     {
@@ -5268,27 +6510,21 @@
       "folder": "Solution-Architect"
     },
     {
-      "url": "/aws/Solution-Architect/Certified-SysOps-Administrator-Associate/3-Deployment-Provisioning-Automation",
-      "tag": "aws",
-      "label": "3-Deployment-Provisioning-Automation",
-      "folder": "Solution-Architect"
-    },
-    {
       "url": "/aws/Solution-Architect/Certified-Solutions-Architect-Course/1-Introduction",
       "tag": "aws",
       "label": "1-Introduction",
       "folder": "Solution-Architect"
     },
     {
-      "url": "/aws/Solution-Architect/Certified-Solutions-Architect-Course/10-ELB",
-      "tag": "aws",
-      "label": "10-ELB",
-      "folder": "Solution-Architect"
-    },
-    {
       "url": "/aws/Solution-Architect/Certified-Solutions-Architect-Course/11-Monitoring",
       "tag": "aws",
       "label": "11-Monitoring",
+      "folder": "Solution-Architect"
+    },
+    {
+      "url": "/aws/Solution-Architect/Certified-Solutions-Architect-Course/10-ELB",
+      "tag": "aws",
+      "label": "10-ELB",
       "folder": "Solution-Architect"
     },
     {
@@ -5394,10 +6630,148 @@
       "folder": "Solution-Architect"
     },
     {
+      "url": "/aws/Solution-Architect/Certified-Solutions-Architect-Course/Certified-Solutions-Architect-Course",
+      "tag": "aws",
+      "label": "Certified-Solutions-Architect-Course",
+      "folder": "Solution-Architect"
+    },
+    {
       "url": "/aws/Solution-Architect/Certified-Solutions-Architect-Course/9-Route-53",
       "tag": "aws",
       "label": "9-Route-53",
       "folder": "Solution-Architect"
+    },
+    {
+      "url": "/aws/Solution-Architect/Certified-SysOps-Administrator-Associate/Certified-SysOps-Administrator-Associate",
+      "tag": "aws",
+      "label": "Certified-SysOps-Administrator-Associate",
+      "folder": "Solution-Architect"
+    },
+    {
+      "url": "/aws/Solution-Architect/Certified-SysOps-Administrator-Associate/3-Deployment-Provisioning-Automation",
+      "tag": "aws",
+      "label": "3-Deployment-Provisioning-Automation",
+      "folder": "Solution-Architect"
+    },
+    {
+      "url": "/aws/Learn-Catrill/Learn-Catrill",
+      "tag": "aws",
+      "label": "Learn-Catrill",
+      "folder": "Learn-Catrill"
+    },
+    {
+      "url": "/aws/Learn-Catrill/Solution-Architect/1-Introduction",
+      "tag": "aws",
+      "label": "1-Introduction",
+      "folder": "Learn-Catrill"
+    },
+    {
+      "url": "/aws/Learn-Catrill/Solution-Architect/14-Network-Storage",
+      "tag": "aws",
+      "label": "14-Network-Storage",
+      "folder": "Learn-Catrill"
+    },
+    {
+      "url": "/aws/Learn-Catrill/Solution-Architect/17-Global-Content-Delivery-And-Optimization",
+      "tag": "aws",
+      "label": "17-Global-Content-Delivery-And-Optimization",
+      "folder": "Learn-Catrill"
+    },
+    {
+      "url": "/aws/Learn-Catrill/Solution-Architect/15-HA-Scaling",
+      "tag": "aws",
+      "label": "15-HA-Scaling",
+      "folder": "Learn-Catrill"
+    },
+    {
+      "url": "/aws/Learn-Catrill/Solution-Architect/18-Advanced-VPC-Networking",
+      "tag": "aws",
+      "label": "18-Advanced-VPC-Networking",
+      "folder": "Learn-Catrill"
+    },
+    {
+      "url": "/aws/Learn-Catrill/Solution-Architect/19-Hybrid-Environments-And-Migration",
+      "tag": "aws",
+      "label": "19-Hybrid-Environments-And-Migration",
+      "folder": "Learn-Catrill"
+    },
+    {
+      "url": "/aws/Learn-Catrill/Solution-Architect/20-Security-Deployment-Operations",
+      "tag": "aws",
+      "label": "20-Security-Deployment-Operations",
+      "folder": "Learn-Catrill"
+    },
+    {
+      "url": "/aws/Learn-Catrill/Solution-Architect/21-NoSQL-DBs-and-DynamoDB",
+      "tag": "aws",
+      "label": "21-NoSQL-DBs-and-DynamoDB",
+      "folder": "Learn-Catrill"
+    },
+    {
+      "url": "/aws/Learn-Catrill/Solution-Architect/3-Cloud-Computing-Fundamentals",
+      "tag": "aws",
+      "label": "3-Cloud-Computing-Fundamentals",
+      "folder": "Learn-Catrill"
+    },
+    {
+      "url": "/aws/Learn-Catrill/Solution-Architect/4-Network-Starter-Pack",
+      "tag": "aws",
+      "label": "4-Network-Starter-Pack",
+      "folder": "Learn-Catrill"
+    },
+    {
+      "url": "/aws/Learn-Catrill/Solution-Architect/5-AWS-Fundamentals",
+      "tag": "aws",
+      "label": "5-AWS-Fundamentals",
+      "folder": "Learn-Catrill"
+    },
+    {
+      "url": "/aws/Learn-Catrill/Solution-Architect/6-IAM-Accounts-Organisations",
+      "tag": "aws",
+      "label": "6-IAM-Accounts-Organisations",
+      "folder": "Learn-Catrill"
+    },
+    {
+      "url": "/aws/Learn-Catrill/Solution-Architect/7-Simple-Storage-Service",
+      "tag": "aws",
+      "label": "7-Simple-Storage-Service",
+      "folder": "Learn-Catrill"
+    },
+    {
+      "url": "/aws/Learn-Catrill/Solution-Architect/Solution-Architect",
+      "tag": "aws",
+      "label": "Solution-Architect",
+      "folder": "Learn-Catrill"
+    },
+    {
+      "url": "/aws/Learn-Catrill/Solution-Architect/8-VPC-Basics",
+      "tag": "aws",
+      "label": "8-VPC-Basics",
+      "folder": "Learn-Catrill"
+    },
+    {
+      "url": "/aws/Learn-Catrill/Solution-Architect/9-EC2-Basics",
+      "tag": "aws",
+      "label": "9-EC2-Basics",
+      "folder": "Learn-Catrill"
+    },
+    {
+      "url": "/ethereum/Ethereum",
+      "tag": "ethereum",
+      "label": "Ethereum",
+      "folder": null
+    },
+    {
+      "url": "/ethereum/Hardhat/Getting-Started",
+      "tag": "ethereum",
+      "label": "Getting-Started",
+      "folder": "Hardhat"
+    },
+    {
+      "url": "/ethereum/Hardhat/Hardhat",
+      "tag": "ethereum",
+      "label": "Hardhat",
+      "folder": "Hardhat"
     },
     {
       "url": "/ethereum/Eth-And-Solidarity-Complete-Guide/1-What-Is-Ethereum",
@@ -5406,15 +6780,15 @@
       "folder": "Eth-And-Solidarity-Complete-Guide"
     },
     {
-      "url": "/ethereum/Eth-And-Solidarity-Complete-Guide/2-Smart-Contracts-With-Solidity",
-      "tag": "ethereum",
-      "label": "2-Smart-Contracts-With-Solidity",
-      "folder": "Eth-And-Solidarity-Complete-Guide"
-    },
-    {
       "url": "/ethereum/Eth-And-Solidarity-Complete-Guide/3-Advanced-Smart-Contracts",
       "tag": "ethereum",
       "label": "3-Advanced-Smart-Contracts",
+      "folder": "Eth-And-Solidarity-Complete-Guide"
+    },
+    {
+      "url": "/ethereum/Eth-And-Solidarity-Complete-Guide/2-Smart-Contracts-With-Solidity",
+      "tag": "ethereum",
+      "label": "2-Smart-Contracts-With-Solidity",
       "folder": "Eth-And-Solidarity-Complete-Guide"
     },
     {
@@ -5436,10 +6810,22 @@
       "folder": "Eth-And-Solidarity-Complete-Guide"
     },
     {
-      "url": "/ethereum/Hardhat/Getting-Started",
+      "url": "/ethereum/Eth-And-Solidarity-Complete-Guide/Eth-And-Solidarity-Complete-Guide",
       "tag": "ethereum",
-      "label": "Getting-Started",
-      "folder": "Hardhat"
+      "label": "Eth-And-Solidarity-Complete-Guide",
+      "folder": "Eth-And-Solidarity-Complete-Guide"
+    },
+    {
+      "url": "/ethereum/Crypto-Zombies/Crypto-Zombies",
+      "tag": "ethereum",
+      "label": "Crypto-Zombies",
+      "folder": "Crypto-Zombies"
+    },
+    {
+      "url": "/ethereum/Crypto-Zombies/Advanced-Solidity-Path/Advanced-Solidity-Path",
+      "tag": "ethereum",
+      "label": "Advanced-Solidity-Path",
+      "folder": "Crypto-Zombies"
     },
     {
       "url": "/ethereum/Crypto-Zombies/Advanced-Solidity-Path/Lesson-1-Testing-Smart-Contracts-With-Truffle",
@@ -5454,15 +6840,15 @@
       "folder": "Crypto-Zombies"
     },
     {
-      "url": "/ethereum/Crypto-Zombies/Solidity-Path/Lesson-1-Making-The-Zombie-Factory",
-      "tag": "ethereum",
-      "label": "Lesson-1-Making-The-Zombie-Factory",
-      "folder": "Crypto-Zombies"
-    },
-    {
       "url": "/ethereum/Crypto-Zombies/Solidity-Path/Lesson-2-Zombies-Attack-Their-Victims",
       "tag": "ethereum",
       "label": "Lesson-2-Zombies-Attack-Their-Victims",
+      "folder": "Crypto-Zombies"
+    },
+    {
+      "url": "/ethereum/Crypto-Zombies/Solidity-Path/Lesson-1-Making-The-Zombie-Factory",
+      "tag": "ethereum",
+      "label": "Lesson-1-Making-The-Zombie-Factory",
       "folder": "Crypto-Zombies"
     },
     {
@@ -5478,15 +6864,21 @@
       "folder": "Crypto-Zombies"
     },
     {
+      "url": "/ethereum/Crypto-Zombies/Solidity-Path/Lesson-6-App-Frontends-And-Web3js",
+      "tag": "ethereum",
+      "label": "Lesson-6-App-Frontends-And-Web3js",
+      "folder": "Crypto-Zombies"
+    },
+    {
       "url": "/ethereum/Crypto-Zombies/Solidity-Path/Lesson-5-ERC721-Crypto-Collectibles",
       "tag": "ethereum",
       "label": "Lesson-5-ERC721-Crypto-Collectibles",
       "folder": "Crypto-Zombies"
     },
     {
-      "url": "/ethereum/Crypto-Zombies/Solidity-Path/Lesson-6-App-Frontends-And-Web3js",
+      "url": "/ethereum/Crypto-Zombies/Solidity-Path/Solidity-Path",
       "tag": "ethereum",
-      "label": "Lesson-6-App-Frontends-And-Web3js",
+      "label": "Solidity-Path",
       "folder": "Crypto-Zombies"
     }
   ]

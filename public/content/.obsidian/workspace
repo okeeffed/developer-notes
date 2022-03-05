@@ -8,58 +8,58 @@
         "type": "split",
         "children": [
           {
-            "id": "3a333b41dd0ae6c0",
+            "id": "3f9263b38d5627ee",
             "type": "split",
-            "dimension": 79.61264016309887,
+            "dimension": 66.13039796782388,
             "children": [
               {
-                "id": "819b16b31201a741",
+                "id": "cc8ece2407e339fc",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "aws/Aws.md",
+                    "file": "aws/Learn-Catrill/Solution-Architect/5-AWS-Fundamentals.md",
                     "mode": "source",
                     "source": false
                   }
                 },
-                "group": "c319c72e6e91d336"
+                "group": "0a1b1b1e153db2f5"
               },
               {
-                "id": "f77d3b4acc3a88f8",
+                "id": "460ba8eb351c8078",
                 "type": "leaf",
                 "state": {
                   "type": "localgraph",
                   "state": {
-                    "file": "aws/Aws.md",
+                    "file": "aws/Learn-Catrill/Solution-Architect/5-AWS-Fundamentals.md",
                     "options": {
-                      "collapse-filter": false,
+                      "collapse-filter": true,
                       "search": "",
-                      "localJumps": 3,
+                      "localJumps": 1,
                       "localBacklinks": true,
                       "localForelinks": true,
                       "localInterlinks": false,
                       "showTags": false,
                       "showAttachments": false,
                       "hideUnresolved": false,
-                      "collapse-color-groups": false,
+                      "collapse-color-groups": true,
                       "colorGroups": [],
-                      "collapse-display": false,
+                      "collapse-display": true,
                       "showArrow": false,
                       "textFadeMultiplier": 0,
-                      "nodeSizeMultiplier": 1.01244485294118,
-                      "lineSizeMultiplier": 0.997132352941176,
-                      "collapse-forces": false,
-                      "centerStrength": 0.564981617647059,
-                      "repelStrength": 14.9007352941176,
+                      "nodeSizeMultiplier": 1,
+                      "lineSizeMultiplier": 1,
+                      "collapse-forces": true,
+                      "centerStrength": 0.518713248970312,
+                      "repelStrength": 10,
                       "linkStrength": 1,
-                      "linkDistance": 131,
-                      "scale": 0.5526239391794728,
-                      "close": true
+                      "linkDistance": 250,
+                      "scale": 0.9932650304550719,
+                      "close": false
                     }
                   }
                 },
-                "group": "c319c72e6e91d336"
+                "group": "0a1b1b1e153db2f5"
               }
             ],
             "direction": "vertical"
@@ -67,7 +67,7 @@
           {
             "id": "4ddedb191ebee436",
             "type": "leaf",
-            "dimension": 20.38735983690112,
+            "dimension": 33.86960203217612,
             "state": {
               "type": "mindmap",
               "state": {}
@@ -130,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "aws/Aws.md",
+                "file": "aws/Learn-Catrill/Solution-Architect/5-AWS-Fundamentals.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "aws/Aws.md",
+                "file": "aws/Learn-Catrill/Solution-Architect/5-AWS-Fundamentals.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "aws/Aws.md"
+                "file": "aws/Learn-Catrill/Solution-Architect/5-AWS-Fundamentals.md"
               }
             }
           }
@@ -181,17 +181,17 @@
     "direction": "horizontal",
     "width": 300
   },
-  "active": "f77d3b4acc3a88f8",
+  "active": "cc8ece2407e339fc",
   "lastOpenFiles": [
-    "aws/Aws.md",
+    "aws/Learn-Catrill/Solution-Architect/5-AWS-Fundamentals.md",
     "aws/Learn-Catrill/Solution-Architect/Solution-Architect.md",
+    "aws/Aws.md",
     "aws/Learn-Catrill/Learn-Catrill.md",
     "aws/Solution-Architect/Solution-Architect.md",
     "aws/aws-iot.md",
     "aws/Learn-Catrill/Solution-Architect/4-Network-Starter-Pack.md",
     "aws/Learn-Catrill/Solution-Architect/3-Cloud-Computing-Fundamentals.md",
     "aws/Learn-Catrill/Solution-Architect/1-Introduction.md",
-    "typescript/production-typescript-course.md",
-    "typescript/Typescript.md"
+    "typescript/production-typescript-course.md"
   ]
 }
