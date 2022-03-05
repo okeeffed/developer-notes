@@ -587,7 +587,7 @@ export const getStaticPaths: GetStaticPaths = async () => {
   );
 
   const files = await recursive(
-    path.resolve(process.cwd(), "./public/content")
+    path.resolve(process.cwd(), "./public/content"), ['!*.md']
   );
 
   const filesWithoutIndex = files.filter((file) => !file.includes("index.md"));
