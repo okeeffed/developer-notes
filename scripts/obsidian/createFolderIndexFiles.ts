@@ -63,7 +63,7 @@ async function main({ folderPath }: { folderPath: string }) {
 
   for (const folder of folders) {
     const childFolderPath = path.resolve(folderPath, folder);
-    const result = generateIndexFileForFolder(childFolderPath);
+    const result = await generateIndexFileForFolder(childFolderPath);
 
     switch (result.code) {
       case 0:
@@ -73,8 +73,6 @@ async function main({ folderPath }: { folderPath: string }) {
         console.log("Index file already exists:", result.fileName);
         break;
     }
-
-    process.exit(0);
 
     // recurisvely check children folders
     main({ folderPath: childFolderPath });
