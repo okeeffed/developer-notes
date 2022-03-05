@@ -36,7 +36,11 @@ ${folders.map((folder) => `- [[${folder.replace(".md", "")}]]`).join("\n")}
 
 const generateIndexFileForFolder = async (folder) => {
   // const files = getDirectoryFiles(folder).filter((file) => /\.md$/.test(file));
-  const files = await recursive(folder, ["!*.md"]);
+  const filesFullPath = await recursive(folder, ["!*.md"]);
+  const files = filesFullPath.map((file) =>
+    file.replace(path.resolve(folder), "")
+  );
+
   const folderName = folder.split("/").pop();
   const indexFileName = generateIndexFileName(folderName);
   const indexFilePath = path.resolve(folder, indexFileName);
