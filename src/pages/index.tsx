@@ -482,7 +482,7 @@ export const getStaticProps: GetStaticProps = async () => {
   const relativePath = "./public/content/";
 
   const fileContents = fs.readFileSync(
-    path.resolve(process.cwd(), relativePath, `${mdxFile}.mdx`),
+    path.resolve(process.cwd(), relativePath, `${mdxFile}.md`),
     "utf-8"
   );
 

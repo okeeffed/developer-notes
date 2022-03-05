@@ -318,7 +318,7 @@ export default function Blog({
   const linkColor = useColorModeValue("blue", "blue.300");
   const repo = `https://github.com/okeeffed/developer-notes-nextjs/content/${mdxFile}`;
   const metaTitle = startCase(
-    mdxFile.split("/").pop().replace(".mdx", "") ?? "Docs"
+    mdxFile.split("/").pop().replace(".md", "") ?? "Docs"
   );
 
   return (
@@ -590,7 +590,7 @@ export const getStaticPaths: GetStaticPaths = async () => {
     path.resolve(process.cwd(), "./public/content")
   );
 
-  const filesWithoutIndex = files.filter((file) => !file.includes("index.mdx"));
+  const filesWithoutIndex = files.filter((file) => !file.includes("index.md"));
 
   const pkgs = filesWithoutIndex.map((file) => {
     const relativeFile = file

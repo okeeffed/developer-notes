@@ -3769,6 +3769,29 @@
             "title": "Working with dates",
             "href": "/rspec/working-with-dates"
           }
+        ],
+        "dirs": [
+          {
+            "title": "Testing ruby with rspec the complete guide",
+            "files": [
+              {
+                "title": "1 introduction",
+                "href": "/rspec/Testing-Ruby-With-RSpec-The-Complete-Guide/1-Introduction"
+              },
+              {
+                "title": "2 subjects shared examples and shared context",
+                "href": "/rspec/Testing-Ruby-With-RSpec-The-Complete-Guide/2-Subjects-Shared-Examples-And-Shared-Context"
+              },
+              {
+                "title": "3 built in matches",
+                "href": "/rspec/Testing-Ruby-With-RSpec-The-Complete-Guide/3-Built-In-Matches"
+              },
+              {
+                "title": "4 mocks in rspec",
+                "href": "/rspec/Testing-Ruby-With-RSpec-The-Complete-Guide/4-Mocks-In-RSpec"
+              }
+            ]
+          }
         ]
       },
       {
@@ -3868,6 +3891,15 @@
           }
         ],
         "dirs": [
+          {
+            "title": "Destroy all software",
+            "files": [
+              {
+                "title": "72 functional core imperative shell",
+                "href": "/ruby/Destroy-All-Software/72-Functional-Core-Imperative-Shell"
+              }
+            ]
+          },
           {
             "title": "Minitest",
             "files": [
@@ -4005,6 +4037,31 @@
               {
                 "title": "8 lifetimes",
                 "href": "/rust/The-Rust-Programming-Language-Course/8-Lifetimes"
+              }
+            ]
+          },
+          {
+            "title": "Ultimate rust crash course",
+            "files": [
+              {
+                "title": "2 fundamentals",
+                "href": "/rust/Ultimate-Rust-Crash-Course/2-Fundamentals"
+              },
+              {
+                "title": "3 primitive types and control flow",
+                "href": "/rust/Ultimate-Rust-Crash-Course/3-Primitive-Types-And-Control-Flow"
+              },
+              {
+                "title": "4 the heart of rust",
+                "href": "/rust/Ultimate-Rust-Crash-Course/4-The-Heart-Of-Rust"
+              },
+              {
+                "title": "5 the meat of rust",
+                "href": "/rust/Ultimate-Rust-Crash-Course/5-The-Meat-Of-Rust"
+              },
+              {
+                "title": "6 final lectures",
+                "href": "/rust/Ultimate-Rust-Crash-Course/6-Final-Lectures"
               }
             ]
           }

@@ -11,6 +11,7 @@
     "ts": "node --require @swc-node/register",
     "gen:data": "npm run ts -- scripts/mdx/generateMetadata.ts",
     "gen:sidebar": "npm run ts -- scripts/mdx/generateSidebar.ts",
+    "ext:convert": "npm run ts -- scripts/mdx/convertFileExt.ts",
     "s3": "aws s3 sync ./public/assets s3://dennisokeeffe-cdn-assets-bucket/assets --cache-control max-age=31536000",
     "imagemin": "imagemin raw-assets/* --out-dir=public/assets",
     "squoosh": "npm run ts -- scripts/images/squoosh.ts",

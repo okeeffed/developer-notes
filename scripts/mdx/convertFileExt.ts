@@ -6,7 +6,7 @@ import recursive from "recursive-readdir";
 const CONTENT_PATH = path.resolve(__dirname, "../../public/content");
 
 async function main({ fromExt, toExt }: { fromExt: string; toExt: string }) {
-  const files = await recursive(CONTENT_PATH, ["!*.md"]);
+  const files = await recursive(CONTENT_PATH, [`!*${fromExt}`]);
 
   for (const file of files) {
     const content = fs.readFileSync(file, "utf-8");
