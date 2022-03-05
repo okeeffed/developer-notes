@@ -40,12 +40,12 @@ function recursiveSidebar(
         // isDirectory: false,
         href: `/`,
       });
-    } else if (/\.mdx$/.test(file)) {
-      // base case: ensure it is mdx file
+    } else if (/\.md$/.test(file)) {
+      // base case: ensure it is md file
       _.set(sidebarJson, `${key}.files.${index}`, {
-        title: _.capitalize(file.replace(/\.mdx$/, "").replace(/-/g, " ")),
+        title: _.capitalize(file.replace(/\.md$/, "").replace(/-/g, " ")),
         // isDirectory: false,
-        href: `${relativePath}/${file.replace(/\.mdx$/, "")}`,
+        href: `${relativePath}/${file.replace(/\.md$/, "")}`,
       });
     }
   });

@@ -527,7 +527,7 @@ export const getStaticProps: GetStaticProps = async (context) => {
   const recommendations = getDirectoryFiles(
     path.resolve(process.cwd(), relativePath, mdxFileFolder)
   ).map((file) => {
-    const fileWithoutExt = file.replace(".mdx", "");
+    const fileWithoutExt = file.replace(".md", "");
     return {
       title: fileWithoutExt,
       url: `/${mdxFileFolder}/${fileWithoutExt}`,
@@ -535,7 +535,7 @@ export const getStaticProps: GetStaticProps = async (context) => {
   });
 
   const fileContents = fs.readFileSync(
-    path.resolve(process.cwd(), relativePath, `${mdxFile}.mdx`),
+    path.resolve(process.cwd(), relativePath, `${mdxFile}.md`),
     "utf-8"
   );
 
@@ -595,7 +595,7 @@ export const getStaticPaths: GetStaticPaths = async () => {
   const pkgs = filesWithoutIndex.map((file) => {
     const relativeFile = file
       .replace(`${process.cwd()}/public/content/`, "")
-      .replace(".mdx", "");
+      .replace(".md", "");
 
     return {
       mdxFile: relativeFile,

@@ -6,7 +6,7 @@ import recursive from "recursive-readdir";
 const CONTENT_PATH = path.resolve(__dirname, "../../public/content");
 
 async function main() {
-  const files = await recursive(CONTENT_PATH, ["!*.mdx"]);
+  const files = await recursive(CONTENT_PATH, ["!*.md"]);
 
   const data = files.map((file) => {
     const relativePath = file.replace(CONTENT_PATH, "");
@@ -17,9 +17,9 @@ async function main() {
     const folder = tempFolder === label ? null : tempFolder;
 
     return {
-      url: relativePath.replace(".mdx", ""),
+      url: relativePath.replace(".md", ""),
       tag: tag,
-      label: label ? label.replace(".mdx", "") : "home",
+      label: label ? label.replace(".md", "") : "home",
       folder: folder,
     };
   });
