@@ -1,0 +1,12 @@
+#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
+
+npm run gen:folderIndex
+
+if [ -n "$(git status --porcelain)" ]; then
+	# There are changes
+	git add --all
+	git commit -m "chore: updated folder index files"
+else
+	echo "No changes from gen:folderIndex. Exiting."
+fi

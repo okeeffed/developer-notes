@@ -16,7 +16,8 @@
     "s3": "aws s3 sync ./public/assets s3://dennisokeeffe-cdn-assets-bucket/assets --cache-control max-age=31536000",
     "imagemin": "imagemin raw-assets/* --out-dir=public/assets",
     "squoosh": "npm run ts -- scripts/images/squoosh.ts",
-    "mypy": "pipenv run mypy --install-types"
+    "mypy": "pipenv run mypy --install-types",
+    "prepare": "husky install"
   },
   "dependencies": {
     "@babel/core": "^7.15.0",
@@ -84,6 +85,7 @@
     "eslint-plugin-react-hooks": "^4.2.0",
     "feed": "^4.2.2",
     "fs-extra": "^10.0.0",
+    "husky": "^7.0.4",
     "imagemin": "^8.0.1",
     "imagemin-cli": "^7.0.0",
     "imagemin-jpegtran": "^7.0.0",
