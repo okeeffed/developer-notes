@@ -8,16 +8,68 @@
         "type": "split",
         "children": [
           {
-            "id": "819b16b31201a741",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "aws/Aws.md",
-                "mode": "source",
-                "source": false
+            "id": "3a333b41dd0ae6c0",
+            "type": "split",
+            "children": [
+              {
+                "id": "819b16b31201a741",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "aws/Learn-Catrill/Learn-Catrill.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                },
+                "group": "c319c72e6e91d336"
+              },
+              {
+                "id": "f77d3b4acc3a88f8",
+                "type": "leaf",
+                "state": {
+                  "type": "localgraph",
+                  "state": {
+                    "file": "aws/Learn-Catrill/Learn-Catrill.md",
+                    "options": {
+                      "collapse-filter": true,
+                      "search": "",
+                      "localJumps": 1,
+                      "localBacklinks": true,
+                      "localForelinks": true,
+                      "localInterlinks": false,
+                      "showTags": false,
+                      "showAttachments": false,
+                      "hideUnresolved": false,
+                      "collapse-color-groups": false,
+                      "colorGroups": [
+                        {
+                          "query": "line:(Catrill)",
+                          "color": {
+                            "a": 1,
+                            "rgb": 14701138
+                          }
+                        }
+                      ],
+                      "collapse-display": true,
+                      "showArrow": false,
+                      "textFadeMultiplier": 0,
+                      "nodeSizeMultiplier": 1,
+                      "lineSizeMultiplier": 1,
+                      "collapse-forces": true,
+                      "centerStrength": 0.518713248970312,
+                      "repelStrength": 10,
+                      "linkStrength": 1,
+                      "linkDistance": 250,
+                      "scale": 1.2532876353557536,
+                      "close": true
+                    }
+                  }
+                },
+                "group": "c319c72e6e91d336"
               }
-            }
+            ],
+            "direction": "vertical"
           },
           {
             "id": "4ddedb191ebee436",
@@ -84,7 +136,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "aws/Aws.md",
+                "file": "aws/Learn-Catrill/Learn-Catrill.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -101,7 +153,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "aws/Aws.md",
+                "file": "aws/Learn-Catrill/Learn-Catrill.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,7 +176,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "aws/Aws.md"
+                "file": "aws/Learn-Catrill/Learn-Catrill.md"
               }
             }
           }
@@ -135,8 +187,9 @@
     "direction": "horizontal",
     "width": 300
   },
-  "active": "819b16b31201a741",
+  "active": "f77d3b4acc3a88f8",
   "lastOpenFiles": [
+    "aws/Learn-Catrill/Learn-Catrill.md",
     "aws/Aws.md",
     "aws/aws-iot.md",
     "aws/Learn-Catrill/Solution-Architect/4-Network-Starter-Pack.md",
@@ -145,7 +198,6 @@
     "typescript/production-typescript-course.md",
     "typescript/Typescript.md",
     "typescript/duck-typing.md",
-    "xstate/state-machines-in-js.md",
-    "xstate/Xstate.md"
+    "xstate/state-machines-in-js.md"
   ]
 }

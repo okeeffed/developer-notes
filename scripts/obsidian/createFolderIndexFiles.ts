@@ -18,11 +18,8 @@ const getDirectories = (source) =>
     .filter((dirent) => !/^\.(.+)/.test(dirent.name))
     .map((dirent) => dirent.name);
 
-// const getDirectoryFiles = (source) =>
-//   fs
-//     .readdirSync(source, { withFileTypes: true })
-//     .filter((dirent) => !dirent.isDirectory())
-//     .map((dirent) => dirent.name);
+const getDirectoryFilesAndFolder = (source) =>
+  fs.readdirSync(source, { withFileTypes: true }).map((dirent) => dirent.name);
 
 const generateIndexFileContent = (
   folderName: string,
@@ -36,21 +33,23 @@ ${folders.map((folder) => `- [[${folder.replace(".md", "")}]]`).join("\n")}
 
 const generateIndexFileForFolder = async (folder) => {
   // const files = getDirectoryFiles(folder).filter((file) => /\.md$/.test(file));
-  const filesFullPath = await recursive(folder, ["!*.md"]);
-  const files = filesFullPath.map((file) =>
-    file.replace(`${path.resolve(folder)}/`, "")
-  );
+  // const filesFullPath = await recursive(folder, ["!*.md"]);
+  // const files = filesFullPath.map((file) =>
+  //   file.replace(`${path.resolve(folder)}/`, "")
+  // );
+
+  const files = getDirectoryFilesAndFolder(folder);
 
   const folderName = folder.split("/").pop();
   const indexFileName = generateIndexFileName(folderName);
   const indexFilePath = path.resolve(folder, indexFileName);
 
-  if (fs.existsSync(indexFilePath)) {
-    return {
-      code: -1,
-      fileName: indexFileName,
-    };
-  }
+  // if (fs.existsSync(indexFilePath)) {
+  //   return {
+  //     code: -1,
+  //     fileName: indexFileName,
+  //   };
+  // }
 
   // generate the markdown content
   const content = generateIndexFileContent(_.startCase(folderName), files);
