@@ -16,12 +16,8 @@
                 "id": "cc8ece2407e339fc",
                 "type": "leaf",
                 "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "aws/Learn-Catrill/Solution-Architect/5-AWS-Fundamentals.md",
-                    "mode": "source",
-                    "source": false
-                  }
+                  "type": "empty",
+                  "state": {}
                 },
                 "group": "0a1b1b1e153db2f5"
               },
@@ -31,7 +27,6 @@
                 "state": {
                   "type": "localgraph",
                   "state": {
-                    "file": "aws/Learn-Catrill/Solution-Architect/5-AWS-Fundamentals.md",
                     "options": {
                       "collapse-filter": true,
                       "search": "",
@@ -130,7 +125,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "aws/Learn-Catrill/Solution-Architect/5-AWS-Fundamentals.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +141,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "aws/Learn-Catrill/Solution-Architect/5-AWS-Fundamentals.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -169,9 +162,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "aws/Learn-Catrill/Solution-Architect/5-AWS-Fundamentals.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -183,15 +174,15 @@
   },
   "active": "cc8ece2407e339fc",
   "lastOpenFiles": [
+    "webpack/webpack.md",
+    "webpack/webpack-2.md",
+    "webpack/Webpack.md",
     "aws/Learn-Catrill/Solution-Architect/5-AWS-Fundamentals.md",
     "aws/Learn-Catrill/Solution-Architect/Solution-Architect.md",
     "aws/Aws.md",
     "aws/Learn-Catrill/Learn-Catrill.md",
     "aws/Solution-Architect/Solution-Architect.md",
     "aws/aws-iot.md",
-    "aws/Learn-Catrill/Solution-Architect/4-Network-Starter-Pack.md",
-    "aws/Learn-Catrill/Solution-Architect/3-Cloud-Computing-Fundamentals.md",
-    "aws/Learn-Catrill/Solution-Architect/1-Introduction.md",
-    "typescript/production-typescript-course.md"
+    "aws/Learn-Catrill/Solution-Architect/4-Network-Starter-Pack.md"
   ]
 }
