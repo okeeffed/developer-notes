@@ -2,9 +2,10 @@
 
 ## Material
 
+- [[Storybook]]
+- [[adding-docs]]
 - [[adding-knobs]]
-- [[intro]]
 - [[integrating-redux]]
+- [[intro]]
 - [[storybook-sass]]
 - [[webpack-sass]]
-- [[adding-docs]]

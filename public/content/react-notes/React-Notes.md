@@ -2,6 +2,7 @@
 
 ## Material
 
+- [[React-Notes]]
 - [[advanced-react-redux]]
 - [[flux-basics]]
 - [[react-animations]]

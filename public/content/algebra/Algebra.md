@@ -2,7 +2,8 @@
 
 ## Material
 
+- [[Algebra]]
+- [[intro]]
 - [[properties]]
 - [[shortcuts]]
 - [[solving-linear-equations]]
-- [[intro]]

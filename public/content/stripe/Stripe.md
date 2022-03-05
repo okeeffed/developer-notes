@@ -2,18 +2,12 @@
 
 ## Material
 
+- [[Stripe]]
 - [[charges-vs-payment-intent]]
+- [[configuration]]
 - [[stripe-api-integrations]]
-- [[stripe-node-deprecated]]
 - [[stripe-cli]]
+- [[stripe-node-deprecated]]
 - [[stripe-node-react]]
-- [[stripe-samples]]
 - [[stripe-product-line]]
-- [[configuration/dotnet-stripe-configuration]]
-- [[configuration/flask-stripe-configuration]]
-- [[configuration/gin-stripe-configuration]]
-- [[configuration/node-saas-with-stripe]]
-- [[configuration/rails-stripe-configuration]]
-- [[configuration/slim-stripe-configuration]]
-- [[configuration/react-stripe-elements]]
-- [[configuration/spring-stripe-configuration]]
+- [[stripe-samples]]

@@ -2,4 +2,5 @@
 
 ## Material
 
+- [[Mermaid]]
 - [[sequence-diagram]]

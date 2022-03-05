@@ -2,4 +2,5 @@
 
 ## Material
 
+- [[Images]]
 - [[image-compression]]

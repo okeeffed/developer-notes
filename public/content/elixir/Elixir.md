@@ -2,10 +2,11 @@
 
 ## Material
 
+- [[Elixir]]
 - [[elixir-conditionals]]
 - [[elixir-course-repl]]
-- [[elixir-debugging]]
 - [[elixir-course-testing]]
+- [[elixir-debugging]]
 - [[elixir-iteration]]
 - [[elixir-maps-and-structs]]
 - [[elixir-school]]

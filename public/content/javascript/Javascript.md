@@ -2,9 +2,10 @@
 
 ## Material
 
+- [[Javascript]]
 - [[enzyme-testing]]
-- [[es6-guide]]
 - [[es6-fiddle]]
+- [[es6-guide]]
 - [[express-basics]]
 - [[fp-composing-software]]
 - [[fp-js-libraries]]

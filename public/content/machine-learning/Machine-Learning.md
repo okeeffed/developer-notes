@@ -3,6 +3,7 @@
 ## Material
 
 - [[100-page-ml-book]]
+- [[Machine-Learning]]
 - [[cl-classification-intro]]
 - [[cl-logistic-regression]]
 - [[machine-learning-intro]]

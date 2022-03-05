@@ -2,6 +2,7 @@
 
 ## Material
 
+- [[Kafka]]
 - [[clients]]
 - [[hello-kafka]]
 - [[kafka-admin]]

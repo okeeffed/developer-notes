@@ -2,4 +2,5 @@
 
 ## Material
 
+- [[Google-Cloud-Platform]]
 - [[cloud-vision-nodejs]]

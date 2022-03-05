@@ -7,3 +7,4 @@
 - [[3-improving-performance]]
 - [[4-optimizing-metrics]]
 - [[5-planning]]
+- [[Web-Performance-Fundamentals]]

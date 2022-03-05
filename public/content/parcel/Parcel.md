@@ -2,4 +2,5 @@
 
 ## Material
 
+- [[Parcel]]
 - [[parcel-react]]

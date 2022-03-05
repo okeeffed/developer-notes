@@ -2,6 +2,7 @@
 
 ## Material
 
+- [[Haskell]]
 - [[hackerrank-notes]]
 - [[haskell-from-first-principles]]
 - [[learn-you-a-haskell]]

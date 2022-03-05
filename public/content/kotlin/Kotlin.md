@@ -2,6 +2,7 @@
 
 ## Material
 
+- [[Kotlin]]
 - [[kotlin-arrays-and-lists]]
 - [[kotlin-basics]]
 - [[kotlin-building-types]]

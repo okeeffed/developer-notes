@@ -10,3 +10,4 @@
 - [[3-mostly-static-pages]]
 - [[4-rails-flavoured-ruby]]
 - [[6-modelling-users]]
+- [[Chapters]]

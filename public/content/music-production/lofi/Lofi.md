@@ -2,4 +2,5 @@
 
 ## Material
 
+- [[Lofi]]
 - [[Making-Lofi-Beats]]

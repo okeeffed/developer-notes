@@ -2,10 +2,11 @@
 
 ## Material
 
+- [[Data-Structures]]
 - [[count-vowels]]
-- [[javascript]]
 - [[go]]
+- [[javascript]]
+- [[python]]
 - [[understanding-big-o-notation]]
 - [[understanding-search-algorithms]]
-- [[python]]
 - [[understanding-sorting-algorithms]]

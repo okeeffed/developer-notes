@@ -2,4 +2,5 @@
 
 ## Material
 
+- [[Segment]]
 - [[intro]]

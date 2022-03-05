@@ -2,11 +2,12 @@
 
 ## Material
 
+- [[Elm]]
 - [[advanced-elm]]
 - [[collections]]
 - [[elm-architecture]]
-- [[elm-types]]
 - [[elm-guide]]
+- [[elm-types]]
 - [[kevin-yank-talk]]
 - [[rendering-examples]]
 - [[user-focused-elm]]

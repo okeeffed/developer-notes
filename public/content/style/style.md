@@ -1,17 +1,8 @@
----
-name: Style
-menu: Style 
----
 # Style
 
-## Colours
+## Material
 
-## Grids
-
-We use `Neat` at version 2.0 or higher.
-
-## Iconography
-
-## Layer
-
-## Typography
+- [[base-animations]]
+- [[base-mixins]]
+- [[base]]
+- [[style]]

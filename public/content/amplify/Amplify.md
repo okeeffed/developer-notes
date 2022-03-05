@@ -2,6 +2,7 @@
 
 ## Material
 
-- [[graphql-setup]]
-- [[facebook-login]]
+- [[Amplify]]
 - [[adding-storage]]
+- [[facebook-login]]
+- [[graphql-setup]]

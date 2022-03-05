@@ -2,6 +2,7 @@
 
 ## Material
 
+- [[Go]]
 - [[authentication-with-goth]]
 - [[cheat-sheet]]
 - [[go-basic-slices]]

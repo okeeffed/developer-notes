@@ -2,6 +2,7 @@
 
 ## Material
 
+- [[Typescript]]
 - [[developers-guide]]
 - [[duck-typing]]
 - [[enforcing-prop-names]]

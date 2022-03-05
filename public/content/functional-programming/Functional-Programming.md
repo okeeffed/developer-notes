@@ -2,11 +2,12 @@
 
 ## Material
 
+- [[Functional-Programming]]
 - [[an-example-of-constrained-return-types]]
 - [[an-example-of-hof-for-entities]]
-- [[functors-and-monads]]
 - [[functional-architecture-patterns]]
+- [[functors-and-monads]]
 - [[hardcore-fp-in-javascript-v2]]
-- [[hardcore-js-patterns]]
 - [[hardcore-fp-in-javascript]]
+- [[hardcore-js-patterns]]
 - [[intro]]

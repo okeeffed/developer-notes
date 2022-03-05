@@ -1,10 +1,5 @@
----
-title: Learn Ruby The Hard Way
-menu: Ruby
----
-
 # Learn Ruby The Hard Way
 
-General notes discovered while working through:
+## Material
 
-1. `ri "<module>#<method>"` will open docs on the method.
+- [[learn-ruby-the-hard-way]]

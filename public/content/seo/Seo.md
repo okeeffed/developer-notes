@@ -2,4 +2,5 @@
 
 ## Material
 
+- [[Seo]]
 - [[seo-for-beginners]]

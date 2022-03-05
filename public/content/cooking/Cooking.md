@@ -2,4 +2,5 @@
 
 ## Material
 
+- [[Cooking]]
 - [[kitchen-essentials]]

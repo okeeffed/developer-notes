@@ -2,13 +2,14 @@
 
 ## Material
 
+- [[Books]]
 - [[conversation-casanova]]
 - [[high-performance-habits]]
 - [[intercom-on-product-management]]
 - [[loonshots]]
-- [[mastering-logical-fallacies]]
 - [[mans-search-for-meaning]]
-- [[the-48-laws-of-power]]
-- [[strategize]]
-- [[the-subtle-art]]
+- [[mastering-logical-fallacies]]
 - [[never-split-the-difference]]
+- [[strategize]]
+- [[the-48-laws-of-power]]
+- [[the-subtle-art]]

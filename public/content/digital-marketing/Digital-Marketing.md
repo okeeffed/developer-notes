@@ -2,4 +2,5 @@
 
 ## Material
 
+- [[Digital-Marketing]]
 - [[digital-marketing-course]]

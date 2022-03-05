@@ -2,4 +2,5 @@
 
 ## Material
 
+- [[Terminal]]
 - [[tips-and-tricks]]

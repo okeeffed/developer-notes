@@ -4,6 +4,7 @@
 
 - [[10-Advanced-IAM]]
 - [[5-Introduction-to-Serverless-Computing]]
-- [[9-Developer-Theory]]
 - [[7-KMS-and-Encryption-On-AWS]]
+- [[9-Developer-Theory]]
+- [[Certified-Developer-Associate-Course]]
 - [[Elastic-Compute-Cloud]]

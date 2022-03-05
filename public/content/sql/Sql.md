@@ -2,7 +2,8 @@
 
 ## Material
 
+- [[Sql]]
 - [[indexing-example]]
 - [[indexing-resources]]
-- [[sql-window-functions]]
 - [[sql-tuning]]
+- [[sql-window-functions]]

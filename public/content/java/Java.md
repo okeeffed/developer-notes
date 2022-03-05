@@ -2,10 +2,11 @@
 
 ## Material
 
+- [[Java]]
 - [[basic-imports]]
 - [[cheat-sheet]]
-- [[gradle-intro]]
 - [[dependency-management-with-gradle]]
+- [[gradle-intro]]
 - [[java-basic-tree]]
 - [[java-fizz-buzz]]
 - [[java-initialising-arrays]]

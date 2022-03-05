@@ -2,6 +2,7 @@
 
 ## Material
 
+- [[Redux]]
 - [[intro-to-reselect]]
+- [[redux-toolkit]]
 - [[reduxpersist]]
-- [[redux-toolkit/usage-with-react-context]]

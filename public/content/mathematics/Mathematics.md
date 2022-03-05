@@ -2,5 +2,6 @@
 
 ## Material
 
+- [[Mathematics]]
 - [[mathematics-introduction]]
 - [[polynomials]]

@@ -2,6 +2,7 @@
 
 ## Material
 
+- [[Epic-React]]
 - [[advanced-react-hooks]]
 - [[advanced-react-patterns]]
 - [[react-fundamentals]]

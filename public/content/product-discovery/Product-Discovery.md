@@ -2,6 +2,7 @@
 
 ## Material
 
+- [[Product-Discovery]]
 - [[best-continous-discovery-mindsets]]
 - [[intro-to-modern-product-discovery]]
 - [[keystone-habit]]

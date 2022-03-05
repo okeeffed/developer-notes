@@ -3,3 +3,4 @@
 ## Material
 
 - [[3-Deployment-Provisioning-Automation]]
+- [[Certified-SysOps-Administrator-Associate]]

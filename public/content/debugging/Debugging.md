@@ -2,4 +2,5 @@
 
 ## Material
 
+- [[Debugging]]
 - [[resources]]

@@ -2,16 +2,19 @@
 
 ## Material
 
-- [[how-does-the-ruby-interpreter-work]]
+- [[Destroy-All-Software]]
+- [[Ruby]]
 - [[cocoapods-workshop]]
+- [[how-does-the-ruby-interpreter-work]]
 - [[intro]]
 - [[metaprogramming-ruby-2]]
+- [[minitest]]
 - [[quick-start]]
 - [[rails-useful-tidbits]]
 - [[ruby-arrays]]
 - [[ruby-blocks-procs-lambdas]]
-- [[ruby-code-guide]]
 - [[ruby-cheat-sheet]]
+- [[ruby-code-guide]]
 - [[ruby-constructors]]
 - [[ruby-currying]]
 - [[ruby-debugging]]
@@ -25,5 +28,3 @@
 - [[ruby-symbols]]
 - [[ruby-version-manager]]
 - [[safe-navigation-operator]]
-- [[Destroy-All-Software/72-Functional-Core-Imperative-Shell]]
-- [[minitest/style-guide]]

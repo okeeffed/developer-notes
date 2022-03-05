@@ -8,3 +8,4 @@
 - [[4-Building-Interactive-Frontends]]
 - [[5-Solving-Real-Problems-With-Eth]]
 - [[7-Nextjs-Frontend-Application]]
+- [[Eth-And-Solidarity-Complete-Guide]]

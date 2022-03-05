@@ -2,6 +2,7 @@
 
 ## Material
 
+- [[React-Query]]
 - [[getting-started]]
 - [[invalidations-course]]
 - [[mutations-course]]

@@ -2,5 +2,6 @@
 
 ## Material
 
+- [[Xstate]]
 - [[state-machines-in-js]]
-- [[xstate-with-react/xstate-with-react]]
+- [[xstate-with-react]]

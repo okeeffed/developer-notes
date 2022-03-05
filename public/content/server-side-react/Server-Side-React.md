@@ -2,5 +2,6 @@
 
 ## Material
 
-- [[server-side-rendering-with-react-and-redux]]
+- [[Server-Side-React]]
 - [[create-react-app-server-side]]
+- [[server-side-rendering-with-react-and-redux]]

@@ -6,3 +6,4 @@
 - [[2-Subjects-Shared-Examples-And-Shared-Context]]
 - [[3-Built-In-Matches]]
 - [[4-Mocks-In-RSpec]]
+- [[Testing-Ruby-With-RSpec-The-Complete-Guide]]

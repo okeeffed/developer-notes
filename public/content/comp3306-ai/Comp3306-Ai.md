@@ -4,3 +4,4 @@
 
 - [[2-problem-solving-and-search]]
 - [[3-a*-algorithm]]
+- [[Comp3306-Ai]]

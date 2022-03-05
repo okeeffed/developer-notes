@@ -10,6 +10,7 @@
           {
             "id": "3a333b41dd0ae6c0",
             "type": "split",
+            "dimension": 79.61264016309887,
             "children": [
               {
                 "id": "819b16b31201a741",
@@ -17,7 +18,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "aws/Learn-Catrill/Learn-Catrill.md",
+                    "file": "aws/Aws.md",
                     "mode": "source",
                     "source": false
                   }
@@ -30,11 +31,11 @@
                 "state": {
                   "type": "localgraph",
                   "state": {
-                    "file": "aws/Learn-Catrill/Learn-Catrill.md",
+                    "file": "aws/Aws.md",
                     "options": {
-                      "collapse-filter": true,
+                      "collapse-filter": false,
                       "search": "",
-                      "localJumps": 1,
+                      "localJumps": 3,
                       "localBacklinks": true,
                       "localForelinks": true,
                       "localInterlinks": false,
@@ -42,26 +43,18 @@
                       "showAttachments": false,
                       "hideUnresolved": false,
                       "collapse-color-groups": false,
-                      "colorGroups": [
-                        {
-                          "query": "line:(Catrill)",
-                          "color": {
-                            "a": 1,
-                            "rgb": 14701138
-                          }
-                        }
-                      ],
-                      "collapse-display": true,
+                      "colorGroups": [],
+                      "collapse-display": false,
                       "showArrow": false,
                       "textFadeMultiplier": 0,
-                      "nodeSizeMultiplier": 1,
-                      "lineSizeMultiplier": 1,
-                      "collapse-forces": true,
-                      "centerStrength": 0.518713248970312,
-                      "repelStrength": 10,
+                      "nodeSizeMultiplier": 1.01244485294118,
+                      "lineSizeMultiplier": 0.997132352941176,
+                      "collapse-forces": false,
+                      "centerStrength": 0.564981617647059,
+                      "repelStrength": 14.9007352941176,
                       "linkStrength": 1,
-                      "linkDistance": 250,
-                      "scale": 1.2532876353557536,
+                      "linkDistance": 131,
+                      "scale": 0.5526239391794728,
                       "close": true
                     }
                   }
@@ -74,6 +67,7 @@
           {
             "id": "4ddedb191ebee436",
             "type": "leaf",
+            "dimension": 20.38735983690112,
             "state": {
               "type": "mindmap",
               "state": {}
@@ -120,7 +114,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 415
+    "width": 232
   },
   "right": {
     "id": "7af2073755a9070d",
@@ -136,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "aws/Learn-Catrill/Learn-Catrill.md",
+                "file": "aws/Aws.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -153,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "aws/Learn-Catrill/Learn-Catrill.md",
+                "file": "aws/Aws.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -176,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "aws/Learn-Catrill/Learn-Catrill.md"
+                "file": "aws/Aws.md"
               }
             }
           }
@@ -189,15 +183,15 @@
   },
   "active": "f77d3b4acc3a88f8",
   "lastOpenFiles": [
-    "aws/Learn-Catrill/Learn-Catrill.md",
     "aws/Aws.md",
+    "aws/Learn-Catrill/Solution-Architect/Solution-Architect.md",
+    "aws/Learn-Catrill/Learn-Catrill.md",
+    "aws/Solution-Architect/Solution-Architect.md",
     "aws/aws-iot.md",
     "aws/Learn-Catrill/Solution-Architect/4-Network-Starter-Pack.md",
     "aws/Learn-Catrill/Solution-Architect/3-Cloud-Computing-Fundamentals.md",
     "aws/Learn-Catrill/Solution-Architect/1-Introduction.md",
     "typescript/production-typescript-course.md",
-    "typescript/Typescript.md",
-    "typescript/duck-typing.md",
-    "xstate/state-machines-in-js.md"
+    "typescript/Typescript.md"
   ]
 }
