@@ -4,50 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "58e0cee08beaad75",
+        "id": "98a50982d4987839",
         "type": "leaf",
-        "dimension": 73.78768020969856,
         "state": {
-          "type": "empty",
+          "type": "graph",
           "state": {}
-        },
-        "group": "a40088eaccd75708"
-      },
-      {
-        "id": "d716973deaa34fa5",
-        "type": "leaf",
-        "dimension": 26.212319790301443,
-        "state": {
-          "type": "localgraph",
-          "state": {
-            "options": {
-              "collapse-filter": true,
-              "search": "",
-              "localJumps": 1,
-              "localBacklinks": true,
-              "localForelinks": true,
-              "localInterlinks": false,
-              "showTags": false,
-              "showAttachments": false,
-              "hideUnresolved": false,
-              "collapse-color-groups": true,
-              "colorGroups": [],
-              "collapse-display": true,
-              "showArrow": false,
-              "textFadeMultiplier": 0,
-              "nodeSizeMultiplier": 1,
-              "lineSizeMultiplier": 1,
-              "collapse-forces": true,
-              "centerStrength": 0.518713248970312,
-              "repelStrength": 10,
-              "linkStrength": 1,
-              "linkDistance": 250,
-              "scale": 1.0067806369281345,
-              "close": false
-            }
-          }
-        },
-        "group": "a40088eaccd75708"
+        }
       }
     ],
     "direction": "vertical"
@@ -142,8 +104,10 @@
     "direction": "horizontal",
     "width": 300
   },
-  "active": "58e0cee08beaad75",
+  "active": "98a50982d4987839",
   "lastOpenFiles": [
+    "ableton/Ableton-Index.md",
+    "ableton/Ableton.md",
     "cmd/README.md",
     "index.md",
     "enterprise-architecture-patterns/Enterprise-Architecture-Patterns.md",
@@ -151,8 +115,6 @@
     "complete-intro-to-databases/sql.md",
     "go/project-layout.md",
     "computer-systems/a-programmers-perspective/Buses.md",
-    "ruby-on-rails-tutorial/chapters/1-from-zero-to-deploy.md",
-    "rspec/ruby-best-practices.md",
-    "ruby/cocoapods-workshop.md"
+    "ruby-on-rails-tutorial/chapters/1-from-zero-to-deploy.md"
   ]
 }
