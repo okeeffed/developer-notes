@@ -1,6 +1,7 @@
 import * as fs from "fs";
 import path from "path";
 import _ from "lodash";
+import recursive from "recursive-readdir";
 
 const CONTENT_PATH = path.resolve(__dirname, "../../public/content");
 
@@ -17,11 +18,11 @@ const getDirectories = (source) =>
     .filter((dirent) => !/^\.(.+)/.test(dirent.name))
     .map((dirent) => dirent.name);
 
-const getDirectoryFiles = (source) =>
-  fs
-    .readdirSync(source, { withFileTypes: true })
-    .filter((dirent) => !dirent.isDirectory())
-    .map((dirent) => dirent.name);
+// const getDirectoryFiles = (source) =>
+//   fs
+//     .readdirSync(source, { withFileTypes: true })
+//     .filter((dirent) => !dirent.isDirectory())
+//     .map((dirent) => dirent.name);
 
 const generateIndexFileContent = (
   folderName: string,
@@ -33,8 +34,9 @@ const generateIndexFileContent = (
 ${folders.map((folder) => `- [[${folder.replace(".md", "")}]]`).join("\n")}
 `;
 
-const generateIndexFileForFolder = (folder) => {
-  const files = getDirectoryFiles(folder).filter((file) => /\.md$/.test(file));
+const generateIndexFileForFolder = async (folder) => {
+  // const files = getDirectoryFiles(folder).filter((file) => /\.md$/.test(file));
+  const files = await recursive(folder, ["!*.md"]);
   const folderName = folder.split("/").pop();
   const indexFileName = generateIndexFileName(folderName);
   const indexFilePath = path.resolve(folder, indexFileName);
