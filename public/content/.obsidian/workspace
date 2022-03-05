@@ -6,10 +6,48 @@
       {
         "id": "58e0cee08beaad75",
         "type": "leaf",
+        "dimension": 73.78768020969856,
         "state": {
           "type": "empty",
           "state": {}
-        }
+        },
+        "group": "a40088eaccd75708"
+      },
+      {
+        "id": "d716973deaa34fa5",
+        "type": "leaf",
+        "dimension": 26.212319790301443,
+        "state": {
+          "type": "localgraph",
+          "state": {
+            "options": {
+              "collapse-filter": true,
+              "search": "",
+              "localJumps": 1,
+              "localBacklinks": true,
+              "localForelinks": true,
+              "localInterlinks": false,
+              "showTags": false,
+              "showAttachments": false,
+              "hideUnresolved": false,
+              "collapse-color-groups": true,
+              "colorGroups": [],
+              "collapse-display": true,
+              "showArrow": false,
+              "textFadeMultiplier": 0,
+              "nodeSizeMultiplier": 1,
+              "lineSizeMultiplier": 1,
+              "collapse-forces": true,
+              "centerStrength": 0.518713248970312,
+              "repelStrength": 10,
+              "linkStrength": 1,
+              "linkDistance": 250,
+              "scale": 1.0067806369281345,
+              "close": false
+            }
+          }
+        },
+        "group": "a40088eaccd75708"
       }
     ],
     "direction": "vertical"
@@ -49,7 +87,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 415
   },
   "right": {
     "id": "7af2073755a9070d",
@@ -71,17 +109,50 @@
                 "showSearch": false,
                 "searchQuery": "",
                 "backlinkCollapsed": false,
+                "unlinkedCollapsed": false
+              }
+            }
+          },
+          {
+            "id": "62d006fd5d1f1c77",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
+          },
+          {
+            "id": "8aad5b2f9d2ce7f1",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "active": "58e0cee08beaad75",
-  "lastOpenFiles": []
+  "lastOpenFiles": [
+    "cmd/README.md",
+    "index.md",
+    "enterprise-architecture-patterns/Enterprise-Architecture-Patterns.md",
+    "enterprise-architecture-patterns/1-enterprise-architecture-patterns.md",
+    "complete-intro-to-databases/sql.md",
+    "go/project-layout.md",
+    "computer-systems/a-programmers-perspective/Buses.md",
+    "ruby-on-rails-tutorial/chapters/1-from-zero-to-deploy.md",
+    "rspec/ruby-best-practices.md",
+    "ruby/cocoapods-workshop.md"
+  ]
 }

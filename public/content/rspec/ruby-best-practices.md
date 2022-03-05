@@ -20,7 +20,7 @@ The following guidelines codify conventions, thus increasing clarity through con
 
 ### describe
 
-describe should explain which method is under test, not the behaviour. #method for instance methods, .method for class methods.
+describe should explain which method is under test, not the behaviour. `#method` for instance methods, .method for class methods.
 
 ```rb
 # Bad

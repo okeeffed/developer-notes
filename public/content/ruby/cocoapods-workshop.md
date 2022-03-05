@@ -13,7 +13,7 @@ open -a Xcode Podfile
 
 Remove the pounds sign that sets the platform.
 
-Then under the #Pod for..., you can add your pods!
+Then under the `#Pod` for..., you can add your pods!
 
 Check cocoapods website for pods.
 

@@ -175,7 +175,7 @@ Now that we have the action to return the desired stringm we need to tell Rails 
 
 We will need to head to `config/routes.rb` where it can direct us to the [routing guide](https://guides.rubyonrails.org/routing.html) on the Rails website to learn more about routing.
 
-On the webpage under [#using-root](https://guides.rubyonrails.org/routing.html#using-root), it informs us that you can specify where `/` should route to with the `root` method.
+On the webpage under [``#using-root`](https://guides.rubyonrails.org/routing.html#using-root), it informs us that you can specify where `/` should route to with the `root` method.
 
 We can do this with `root to: 'controller_name#action_name` which in shorthand is `root 'controller_name#action_name'`.
 
