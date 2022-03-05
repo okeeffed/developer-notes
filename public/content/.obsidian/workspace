@@ -4,12 +4,31 @@
     "type": "split",
     "children": [
       {
-        "id": "98a50982d4987839",
-        "type": "leaf",
-        "state": {
-          "type": "graph",
-          "state": {}
-        }
+        "id": "eba351e92e56b424",
+        "type": "split",
+        "children": [
+          {
+            "id": "819b16b31201a741",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "aws/Aws.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4ddedb191ebee436",
+            "type": "leaf",
+            "state": {
+              "type": "mindmap",
+              "state": {}
+            }
+          }
+        ],
+        "direction": "horizontal"
       }
     ],
     "direction": "vertical"
@@ -65,6 +84,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "aws/Aws.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -81,6 +101,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "aws/Aws.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -96,25 +117,35 @@
                 "useHierarchy": true
               }
             }
+          },
+          {
+            "id": "ba1623fb0390f1d1",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "aws/Aws.md"
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
     "width": 300
   },
-  "active": "98a50982d4987839",
+  "active": "819b16b31201a741",
   "lastOpenFiles": [
-    "ableton/Ableton-Index.md",
-    "ableton/Ableton.md",
-    "cmd/README.md",
-    "index.md",
-    "enterprise-architecture-patterns/Enterprise-Architecture-Patterns.md",
-    "enterprise-architecture-patterns/1-enterprise-architecture-patterns.md",
-    "complete-intro-to-databases/sql.md",
-    "go/project-layout.md",
-    "computer-systems/a-programmers-perspective/Buses.md",
-    "ruby-on-rails-tutorial/chapters/1-from-zero-to-deploy.md"
+    "aws/Aws.md",
+    "aws/aws-iot.md",
+    "aws/Learn-Catrill/Solution-Architect/4-Network-Starter-Pack.md",
+    "aws/Learn-Catrill/Solution-Architect/3-Cloud-Computing-Fundamentals.md",
+    "aws/Learn-Catrill/Solution-Architect/1-Introduction.md",
+    "typescript/production-typescript-course.md",
+    "typescript/Typescript.md",
+    "typescript/duck-typing.md",
+    "xstate/state-machines-in-js.md",
+    "xstate/Xstate.md"
   ]
 }

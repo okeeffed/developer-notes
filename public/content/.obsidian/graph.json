@@ -29,17 +29,17 @@
       }
     },
     {
-      "query": "path:aws",
-      "color": {
-        "a": 1,
-        "rgb": 5431378
-      }
-    },
-    {
       "query": "path:python",
       "color": {
         "a": 1,
         "rgb": 5431473
+      }
+    },
+    {
+      "query": "path:aws",
+      "color": {
+        "a": 1,
+        "rgb": 11499820
       }
     }
   ],
@@ -53,6 +53,6 @@
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 0.8897383983458149,
+  "scale": 0.1603478023000956,
   "close": false
 }

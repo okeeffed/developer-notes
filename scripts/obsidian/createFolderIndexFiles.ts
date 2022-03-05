@@ -38,7 +38,7 @@ const generateIndexFileForFolder = async (folder) => {
   // const files = getDirectoryFiles(folder).filter((file) => /\.md$/.test(file));
   const filesFullPath = await recursive(folder, ["!*.md"]);
   const files = filesFullPath.map((file) =>
-    file.replace(path.resolve(folder), "")
+    file.replace(`${path.resolve(folder)}/`, "")
   );
 
   const folderName = folder.split("/").pop();

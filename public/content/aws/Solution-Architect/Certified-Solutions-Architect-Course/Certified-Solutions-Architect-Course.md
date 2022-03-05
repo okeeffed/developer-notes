@@ -1,0 +1,25 @@
+# Certified Solutions Architect Course
+
+## Material
+
+- [[1-Introduction]]
+- [[10-ELB]]
+- [[11-Monitoring]]
+- [[12-High-Availability-And-Scaling]]
+- [[13-Decoupling-Workflows]]
+- [[14-Big-Data]]
+- [[15-Serverless-Architecture]]
+- [[16-Security]]
+- [[18-Caching]]
+- [[17-Automation]]
+- [[19-Governance]]
+- [[2-AWS-Fundamentals]]
+- [[21-Exam-Prep]]
+- [[20-Migration]]
+- [[3-IAM]]
+- [[4-S3]]
+- [[5-EC2]]
+- [[6-EBS-and-EFS]]
+- [[8-VPC]]
+- [[7-Databases]]
+- [[9-Route-53]]
