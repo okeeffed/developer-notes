@@ -2,6 +2,7 @@
 
 ## Material
 
+- [[Design-Patterns]]
 - [[abstract-factory-pattern]]
 - [[adapter-pattern]]
 - [[bridge-pattern]]

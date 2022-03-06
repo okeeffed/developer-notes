@@ -3,4 +3,4 @@
 ## Material
 
 - [[Bats-Testing]]
-- [[bash/bats-testing/overview]]
+- [[overview]]

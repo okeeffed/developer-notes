@@ -2,6 +2,7 @@
 
 ## Material
 
+- [[Principles]]
 - [[communications]]
 - [[components]]
 - [[copy]]
