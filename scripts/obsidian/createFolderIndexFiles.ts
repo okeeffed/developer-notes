@@ -93,6 +93,7 @@ async function main({ folderPath }: { folderPath: string }) {
         break;
       case -2:
         console.log("[WARN] No changes to file", result.fileName);
+        break;
       default:
         console.log("[WARN] Index file overwritten:", result.fileName);
         break;
