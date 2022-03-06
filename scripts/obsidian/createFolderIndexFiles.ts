@@ -1,7 +1,11 @@
 import * as fs from "fs";
 import path from "path";
 import _ from "lodash";
-import recursive from "recursive-readdir";
+// import recursive from "recursive-readdir";
+import crypto from "crypto";
+
+const hash = (str: string) =>
+  crypto.createHash("sha256").update(str, "utf8").digest("hex");
 
 const CONTENT_PATH = path.resolve(__dirname, "../../public/content");
 
@@ -48,6 +52,19 @@ const generateIndexFileForFolder = async (folder) => {
   const content = generateIndexFileContent(_.startCase(folderName), files);
   const doesFileAlreadyExist = fs.existsSync(indexFilePath);
 
+  if (doesFileAlreadyExist) {
+    const existingContent = fs.readFileSync(indexFilePath, "utf8");
+    const oldHash = hash(existingContent);
+    const newHash = hash(content);
+
+    if (oldHash === newHash) {
+      return {
+        code: -2,
+        fileName: indexFileName,
+      };
+    }
+  }
+
   fs.writeFileSync(indexFilePath, content, "utf-8");
 
   if (doesFileAlreadyExist) {
@@ -74,6 +91,8 @@ async function main({ folderPath }: { folderPath: string }) {
       case 0:
         console.log("Index file created:", result.fileName);
         break;
+      case -2:
+        console.log("[WARN] No changes to file", result.fileName);
       default:
         console.log("[WARN] Index file overwritten:", result.fileName);
         break;

@@ -182,6 +182,7 @@
   "active": "06d31638674673a5",
   "lastOpenFiles": [
     "computer-systems/Computer-Systems.md",
+    "computer-systems/a-programmers-perspective/A-Programmers-Perspective.md",
     "computer-systems/a-programmers-perspective/1-A-Tour-Of-Computer-Systems/Buses.md",
     "computer-systems/a-programmers-perspective/1-A-Tour-Of-Computer-Systems/Kernel.md",
     "computer-systems/a-programmers-perspective/1-A-Tour-Of-Computer-Systems/Virtual-Memory.md",
@@ -189,7 +190,6 @@
     "computer-systems/a-programmers-perspective/1-A-Tour-Of-Computer-Systems/Processors.md",
     "computer-systems/a-programmers-perspective/1-A-Tour-Of-Computer-Systems/Processes.md",
     "computer-systems/a-programmers-perspective/1-A-Tour-Of-Computer-Systems/Caches.md",
-    "computer-systems/a-programmers-perspective/1-A-Tour-Of-Computer-Systems/Main Memory.md",
-    "computer-systems/a-programmers-perspective/1-A-Tour-Of-Computer-Systems/IO-Devices.md"
+    "computer-systems/a-programmers-perspective/1-A-Tour-Of-Computer-Systems/Main Memory.md"
   ]
 }
