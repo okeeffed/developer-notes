@@ -7,6 +7,7 @@ if [ -n "$(git status --porcelain)" ]; then
 	# There are changes
 	git add --all
 	git commit -m "chore: updated folder index files"
+	echo "\n[Husky] Committed changes to folder index files. You will need to push new changes."
 else
-	echo "No changes from gen:folderIndex. Exiting."
+	echo "\nNo changes from gen:folderIndex. Exiting."
 fi
