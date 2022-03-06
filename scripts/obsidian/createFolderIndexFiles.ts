@@ -44,17 +44,19 @@ const generateIndexFileForFolder = async (folder) => {
   const indexFileName = generateIndexFileName(folderName);
   const indexFilePath = path.resolve(folder, indexFileName);
 
-  if (fs.existsSync(indexFilePath)) {
+  // generate the markdown content
+  const content = generateIndexFileContent(_.startCase(folderName), files);
+  const doesFileAlreadyExist = fs.existsSync(indexFilePath);
+
+  fs.writeFileSync(indexFilePath, content, "utf-8");
+
+  if (doesFileAlreadyExist) {
     return {
       code: -1,
       fileName: indexFileName,
     };
   }
 
-  // generate the markdown content
-  const content = generateIndexFileContent(_.startCase(folderName), files);
-
-  fs.writeFileSync(indexFilePath, content, "utf-8");
   return {
     code: 0,
     fileName: indexFileName,
@@ -73,7 +75,7 @@ async function main({ folderPath }: { folderPath: string }) {
         console.log("Index file created:", result.fileName);
         break;
       default:
-        console.log("Index file already exists:", result.fileName);
+        console.log("[WARN] Index file overwritten:", result.fileName);
         break;
     }
 
