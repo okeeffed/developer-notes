@@ -44,12 +44,12 @@ const generateIndexFileForFolder = async (folder) => {
   const indexFileName = generateIndexFileName(folderName);
   const indexFilePath = path.resolve(folder, indexFileName);
 
-  // if (fs.existsSync(indexFilePath)) {
-  //   return {
-  //     code: -1,
-  //     fileName: indexFileName,
-  //   };
-  // }
+  if (fs.existsSync(indexFilePath)) {
+    return {
+      code: -1,
+      fileName: indexFileName,
+    };
+  }
 
   // generate the markdown content
   const content = generateIndexFileContent(_.startCase(folderName), files);
