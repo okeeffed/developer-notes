@@ -1,5 +1,0 @@
-# Terraform
-
-## Material
-
-- [[terraform]]
