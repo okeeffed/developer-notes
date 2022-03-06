@@ -3,4 +3,3 @@
 ## Material
 
 - [[Computer-Systems]]
-- [[a-programmers-perspective]]
