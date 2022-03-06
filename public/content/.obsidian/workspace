@@ -4,33 +4,37 @@
     "type": "split",
     "children": [
       {
-        "id": "eba351e92e56b424",
+        "id": "71c1788c002cbb98",
         "type": "split",
         "children": [
           {
-            "id": "3f9263b38d5627ee",
+            "id": "ead1018e80fc9431",
             "type": "split",
-            "dimension": 66.13039796782388,
             "children": [
               {
-                "id": "cc8ece2407e339fc",
+                "id": "4ddedb191ebee436",
                 "type": "leaf",
                 "state": {
-                  "type": "empty",
-                  "state": {}
+                  "type": "markdown",
+                  "state": {
+                    "file": "computer-systems/a-programmers-perspective/1-A-Tour-Of-Computer-Systems/Virtual-Memory.md",
+                    "mode": "source",
+                    "source": false
+                  }
                 },
-                "group": "0a1b1b1e153db2f5"
+                "group": "c7c16052922d539d"
               },
               {
-                "id": "460ba8eb351c8078",
+                "id": "06d31638674673a5",
                 "type": "leaf",
                 "state": {
                   "type": "localgraph",
                   "state": {
+                    "file": "computer-systems/a-programmers-perspective/1-A-Tour-Of-Computer-Systems/Virtual-Memory.md",
                     "options": {
-                      "collapse-filter": true,
+                      "collapse-filter": false,
                       "search": "",
-                      "localJumps": 1,
+                      "localJumps": 2,
                       "localBacklinks": true,
                       "localForelinks": true,
                       "localInterlinks": false,
@@ -49,20 +53,19 @@
                       "repelStrength": 10,
                       "linkStrength": 1,
                       "linkDistance": 250,
-                      "scale": 0.9932650304550719,
+                      "scale": 1,
                       "close": false
                     }
                   }
                 },
-                "group": "0a1b1b1e153db2f5"
+                "group": "c7c16052922d539d"
               }
             ],
             "direction": "vertical"
           },
           {
-            "id": "4ddedb191ebee436",
+            "id": "4f152815397381bf",
             "type": "leaf",
-            "dimension": 33.86960203217612,
             "state": {
               "type": "mindmap",
               "state": {}
@@ -125,6 +128,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "computer-systems/a-programmers-perspective/1-A-Tour-Of-Computer-Systems/Virtual-Memory.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -141,6 +145,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "computer-systems/a-programmers-perspective/1-A-Tour-Of-Computer-Systems/Virtual-Memory.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +167,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "computer-systems/a-programmers-perspective/1-A-Tour-Of-Computer-Systems/Virtual-Memory.md"
+              }
             }
           }
         ],
@@ -172,17 +179,17 @@
     "direction": "horizontal",
     "width": 300
   },
-  "active": "cc8ece2407e339fc",
+  "active": "06d31638674673a5",
   "lastOpenFiles": [
-    "xstate/xstate-with-react/xstate-with-react.md",
-    "productivity/productivity.md",
-    "webpack/webpack.md",
-    "webpack/webpack-2.md",
-    "webpack/Webpack.md",
-    "aws/Learn-Catrill/Solution-Architect/5-AWS-Fundamentals.md",
-    "aws/Learn-Catrill/Solution-Architect/Solution-Architect.md",
-    "aws/Aws.md",
-    "aws/Learn-Catrill/Learn-Catrill.md",
-    "aws/Solution-Architect/Solution-Architect.md"
+    "computer-systems/a-programmers-perspective/1-A-Tour-Of-Computer-Systems/Virtual-Memory.md",
+    "computer-systems/a-programmers-perspective/1-A-Tour-Of-Computer-Systems/Threads.md",
+    "computer-systems/a-programmers-perspective/1-A-Tour-Of-Computer-Systems/Processors.md",
+    "computer-systems/a-programmers-perspective/1-A-Tour-Of-Computer-Systems/Processes.md",
+    "computer-systems/a-programmers-perspective/1-A-Tour-Of-Computer-Systems/Caches.md",
+    "computer-systems/a-programmers-perspective/1-A-Tour-Of-Computer-Systems/Main Memory.md",
+    "computer-systems/a-programmers-perspective/1-A-Tour-Of-Computer-Systems/Kernel.md",
+    "computer-systems/a-programmers-perspective/1-A-Tour-Of-Computer-Systems/IO-Devices.md",
+    "computer-systems/a-programmers-perspective/1-A-Tour-Of-Computer-Systems/Buses.md",
+    "computer-systems/a-programmers-perspective/1-A-Tour-Of-Computer-Systems/Overview.md"
   ]
 }
