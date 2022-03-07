@@ -92,11 +92,13 @@ async function main({ folderPath }: { folderPath: string }) {
         console.log("Index file created:", result.fileName);
         break;
       case -2:
-        console.log("[WARN] No changes to file", result.fileName);
+        // console.log("[WARN] No changes to file", result.fileName);
         break;
-      default:
+      case -1:
         console.log("[WARN] Index file overwritten:", result.fileName);
         break;
+      default:
+        throw new Error("Unknown code");
     }
 
     // recurisvely check children folders
