@@ -4,75 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "71c1788c002cbb98",
-        "type": "split",
-        "children": [
-          {
-            "id": "ead1018e80fc9431",
-            "type": "split",
-            "children": [
-              {
-                "id": "4ddedb191ebee436",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "computer-systems/Computer-Systems.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                },
-                "group": "c7c16052922d539d"
-              },
-              {
-                "id": "06d31638674673a5",
-                "type": "leaf",
-                "state": {
-                  "type": "localgraph",
-                  "state": {
-                    "file": "computer-systems/Computer-Systems.md",
-                    "options": {
-                      "collapse-filter": true,
-                      "search": "",
-                      "localJumps": 2,
-                      "localBacklinks": true,
-                      "localForelinks": true,
-                      "localInterlinks": false,
-                      "showTags": false,
-                      "showAttachments": false,
-                      "hideUnresolved": false,
-                      "collapse-color-groups": true,
-                      "colorGroups": [],
-                      "collapse-display": true,
-                      "showArrow": false,
-                      "textFadeMultiplier": 0,
-                      "nodeSizeMultiplier": 1,
-                      "lineSizeMultiplier": 1,
-                      "collapse-forces": true,
-                      "centerStrength": 0.518713248970312,
-                      "repelStrength": 10,
-                      "linkStrength": 1,
-                      "linkDistance": 250,
-                      "scale": 0.9667757057270668,
-                      "close": false
-                    }
-                  }
-                },
-                "group": "c7c16052922d539d"
-              }
-            ],
-            "direction": "vertical"
-          },
-          {
-            "id": "4f152815397381bf",
-            "type": "leaf",
-            "state": {
-              "type": "mindmap",
-              "state": {}
-            }
+        "id": "4ddedb191ebee436",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "javascript/testing-javascript/2-JavaScript-Mocking-Fundamentals.md",
+            "mode": "source",
+            "source": false
           }
-        ],
-        "direction": "horizontal"
+        }
       }
     ],
     "direction": "vertical"
@@ -128,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "computer-systems/Computer-Systems.md",
+                "file": "javascript/testing-javascript/2-JavaScript-Mocking-Fundamentals.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -145,7 +86,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "computer-systems/Computer-Systems.md",
+                "file": "javascript/testing-javascript/2-JavaScript-Mocking-Fundamentals.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -168,7 +109,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "computer-systems/Computer-Systems.md"
+                "file": "javascript/testing-javascript/2-JavaScript-Mocking-Fundamentals.md"
               }
             }
           }
@@ -181,6 +122,7 @@
   },
   "active": "4ddedb191ebee436",
   "lastOpenFiles": [
+    "javascript/testing-javascript/2-JavaScript-Mocking-Fundamentals.md",
     "computer-systems/Computer-Systems.md",
     "computer-systems/a-programmers-perspective/A-Programmers-Perspective.md",
     "computer-systems/a-programmers-perspective/1-A-Tour-Of-Computer-Systems/Buses.md",
@@ -189,7 +131,6 @@
     "computer-systems/a-programmers-perspective/1-A-Tour-Of-Computer-Systems/Threads.md",
     "computer-systems/a-programmers-perspective/1-A-Tour-Of-Computer-Systems/Processors.md",
     "computer-systems/a-programmers-perspective/1-A-Tour-Of-Computer-Systems/Processes.md",
-    "computer-systems/a-programmers-perspective/1-A-Tour-Of-Computer-Systems/Caches.md",
-    "computer-systems/a-programmers-perspective/1-A-Tour-Of-Computer-Systems/Main Memory.md"
+    "computer-systems/a-programmers-perspective/1-A-Tour-Of-Computer-Systems/Caches.md"
   ]
 }
