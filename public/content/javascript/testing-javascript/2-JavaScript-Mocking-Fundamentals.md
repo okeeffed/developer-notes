@@ -173,3 +173,151 @@ assert.deepStrictEqual(utils.getWinner.mock.calls, [
 // Cleaning up the monkey patch
 utils.getWinner.mockRestore();
 ```
+
+## Mock a JavaScript module in a test
+In an ESModule situation, monkey patching does not work. We can use the `jest.mock` API to help us in these situations.
+
+```js
+const thumbWar = require("../thumb-war");
+const utils = require("../utils");
+
+jest.mock('../path/to/module', () => {
+	return {
+		getWinner: jest.fn((p1, p2) => p1)
+	}
+})
+
+test("returns winner", () => {
+  const original = utils.getWinner;
+  utils.getWinner = jest.fn((p1, p2) => p1);
+
+  const winner = thumbWar("Kent C. Dodds", "Ken Wheeler");
+  expect(winner).toBe("Kent C. Dodds");
+  expect(utils.getWinner.mock.calls).toEqual([
+    ["Kent C. Dodds", "Ken Wheeler"],
+    ["Kent C. Dodds", "Ken Wheeler"],
+  ]);
+
+  // cleanup
+  utils.getWinner.mockReset();
+});
+```
+
+How can we implement this ourselves? We can make use of the `require.cache` value (log it out to see all the paths and modules).
+
+```js
+function fn(impl = () => {}) {
+  const mockFn = (...args) => {
+    mockFn.mock.calls.push(args);
+    return impl(...args);
+  };
+  mockFn.mock = { calls: [] };
+  mockFn.mockImplementation = (newImpl) => (impl = newImpl);
+  return mockFn;
+}
+
+const utilsPath = require.resolve('../utils')
+require.cache[utilsPath] = {
+	id: utilsPath,
+	filename: utilsPath,
+	loaded: true,
+	exports {
+		getWinner: fn((p1, p2) => p2)
+	}
+}
+
+const assert = require("assert");
+const thumbWar = require("../thumb-war");
+const utils = require("../utils");
+
+const winner = thumbWar("Kent C. Dodds", "Ken Wheeler");
+assert.strictEqual(winner, "Kent C. Dodds");
+assert.deepStrictEqual(utils.getWinner.mock.calls, [
+  ["Kent C. Dodds", "Ken Wheeler"],
+  ["Kent C. Dodds", "Ken Wheeler"],
+]);
+
+// Cleaning up the monkey patch
+delete require.cache[utilsPath]
+```
+
+Fun fact: `jest.mock` calls are always hoisted to the top of the file.
+
+## Make a shared JavaScript mock module
+
+Files you mock once, you'll probably want to mock multiple times.
+
+To do some create a folder `__mocks__/path/to/module.js`.
+
+```js
+// __mock__/fileToMock.js
+module.exports = {
+	getWinner: jest.fn((p1, p2) => p1)
+}
+
+// Back in test file 
+const thumbWar = require("../thumb-war");
+const utils = require("../utils");
+
+jest.mock('../path/to/module')
+
+test("returns winner", () => {
+  const original = utils.getWinner;
+  utils.getWinner = jest.fn((p1, p2) => p1);
+
+  const winner = thumbWar("Kent C. Dodds", "Ken Wheeler");
+  expect(winner).toBe("Kent C. Dodds");
+  expect(utils.getWinner.mock.calls).toEqual([
+    ["Kent C. Dodds", "Ken Wheeler"],
+    ["Kent C. Dodds", "Ken Wheeler"],
+  ]);
+
+  // cleanup
+  utils.getWinner.mockReset();
+});
+```
+
+To implement this ourselves...
+
+Create a `__no-framework-works__/utils.js`:
+
+```js
+function fn(impl = () => {}) {
+  const mockFn = (...args) => {
+    mockFn.mock.calls.push(args);
+    return impl(...args);
+  };
+  mockFn.mock = { calls: [] };
+  mockFn.mockImplementation = (newImpl) => (impl = newImpl);
+  return mockFn;
+}
+
+module.exports = {
+	getWinner: fn((p1, p2) => p2)
+}
+```
+
+Now for the test file:
+
+```js
+require('../__no-framework-mocks__/utils')
+const utilsPath = require.resolve('../utils')
+const mockUtilsPath = require.resolve('../__no-framework-mocks__/utils')
+require.cache[utilsPath] = require.cache(mockUtilsPath)
+
+const assert = require("assert");
+const thumbWar = require("../thumb-war");
+const utils = require("../utils");
+
+const winner = thumbWar("Kent C. Dodds", "Ken Wheeler");
+assert.strictEqual(winner, "Kent C. Dodds");
+assert.deepStrictEqual(utils.getWinner.mock.calls, [
+  ["Kent C. Dodds", "Ken Wheeler"],
+  ["Kent C. Dodds", "Ken Wheeler"],
+]);
+
+// Cleaning up the monkey patch
+delete require.cache[utilsPath]
+```
+
+The above isn't exactly what Jest is doing, but it gives an idea of doing something similar.

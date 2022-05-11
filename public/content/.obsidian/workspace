@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "javascript/testing-javascript/2-JavaScript-Mocking-Fundamentals.md",
+            "file": "books/Four-Thousand-Weeks.md",
             "mode": "source",
             "source": false
           }
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "perennial",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -49,11 +49,12 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 371
+    "width": 100
   },
   "right": {
     "id": "7af2073755a9070d",
@@ -69,7 +70,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "javascript/testing-javascript/2-JavaScript-Mocking-Fundamentals.md",
+                "file": "books/Four-Thousand-Weeks.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -86,7 +87,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "javascript/testing-javascript/2-JavaScript-Mocking-Fundamentals.md",
+                "file": "books/Four-Thousand-Weeks.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -109,7 +110,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "javascript/testing-javascript/2-JavaScript-Mocking-Fundamentals.md"
+                "file": "books/Four-Thousand-Weeks.md"
               }
             }
           }
@@ -118,19 +119,20 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "active": "4ddedb191ebee436",
   "lastOpenFiles": [
+    "books/Four-Thousand-Weeks.md",
+    "books/Books.md",
+    "javascript/testing-javascript/5-Configure-Jest-For-Testing-JS-Apps.md",
+    "javascript/testing-javascript/4-Using-DOM-Testing-Library-to-test-any-JS-framework.md",
+    "javascript/testing-javascript/3-Static-Analysis-Testing-JavaScript-Applications.md",
     "javascript/testing-javascript/2-JavaScript-Mocking-Fundamentals.md",
     "computer-systems/Computer-Systems.md",
     "computer-systems/a-programmers-perspective/A-Programmers-Perspective.md",
     "computer-systems/a-programmers-perspective/1-A-Tour-Of-Computer-Systems/Buses.md",
-    "computer-systems/a-programmers-perspective/1-A-Tour-Of-Computer-Systems/Kernel.md",
-    "computer-systems/a-programmers-perspective/1-A-Tour-Of-Computer-Systems/Virtual-Memory.md",
-    "computer-systems/a-programmers-perspective/1-A-Tour-Of-Computer-Systems/Threads.md",
-    "computer-systems/a-programmers-perspective/1-A-Tour-Of-Computer-Systems/Processors.md",
-    "computer-systems/a-programmers-perspective/1-A-Tour-Of-Computer-Systems/Processes.md",
-    "computer-systems/a-programmers-perspective/1-A-Tour-Of-Computer-Systems/Caches.md"
+    "computer-systems/a-programmers-perspective/1-A-Tour-Of-Computer-Systems/Kernel.md"
   ]
 }
