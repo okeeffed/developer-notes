@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "books/Four-Thousand-Weeks.md",
+            "file": "javascript/testing-javascript/6-Testing-React-Components-With-Jest-And-React-Testing-Library.md",
             "mode": "source",
             "source": false
           }
@@ -49,12 +49,11 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 100
+    "width": 242
   },
   "right": {
     "id": "7af2073755a9070d",
@@ -70,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "books/Four-Thousand-Weeks.md",
+                "file": "javascript/testing-javascript/6-Testing-React-Components-With-Jest-And-React-Testing-Library.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -87,7 +86,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "books/Four-Thousand-Weeks.md",
+                "file": "javascript/testing-javascript/6-Testing-React-Components-With-Jest-And-React-Testing-Library.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -110,7 +109,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "books/Four-Thousand-Weeks.md"
+                "file": "javascript/testing-javascript/6-Testing-React-Components-With-Jest-And-React-Testing-Library.md"
               }
             }
           }
@@ -124,15 +123,15 @@
   },
   "active": "4ddedb191ebee436",
   "lastOpenFiles": [
+    "javascript/testing-javascript/6-Testing-React-Components-With-Jest-And-React-Testing-Library.md",
+    "javascript/testing-javascript/5-Configure-Jest-For-Testing-JS-Apps.md",
     "books/Four-Thousand-Weeks.md",
     "books/Books.md",
-    "javascript/testing-javascript/5-Configure-Jest-For-Testing-JS-Apps.md",
     "javascript/testing-javascript/4-Using-DOM-Testing-Library-to-test-any-JS-framework.md",
     "javascript/testing-javascript/3-Static-Analysis-Testing-JavaScript-Applications.md",
     "javascript/testing-javascript/2-JavaScript-Mocking-Fundamentals.md",
     "computer-systems/Computer-Systems.md",
     "computer-systems/a-programmers-perspective/A-Programmers-Perspective.md",
-    "computer-systems/a-programmers-perspective/1-A-Tour-Of-Computer-Systems/Buses.md",
-    "computer-systems/a-programmers-perspective/1-A-Tour-Of-Computer-Systems/Kernel.md"
+    "computer-systems/a-programmers-perspective/1-A-Tour-Of-Computer-Systems/Buses.md"
   ]
 }
