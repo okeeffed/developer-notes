@@ -25,17 +25,17 @@ All lessons will be following the repository. It uses a unique Jest configuratio
 ## Render a React component for testing
 
 ```jsx
-import React from "react";
-import ReactDOM from "react-dom";
-import FirstTest from "./path/to/FirstTest";
+import React from 'react'
+import ReactDOM from 'react-dom'
+import FirstTest from './path/to/FirstTest'
 
-describe("<FirstTest />", () => {
-  test('renders a number input with label "Favorite Number"', () => {
-    const div = document.createElement("div");
-    ReactDOM.render(<FirstTest />, div);
-    expect(div.querySelector("input").textContent).toBe("Favorite number");
-  });
-});
+describe('<FirstTest />', () => {
+    test('renders a number input with label "Favorite Number"', () => {
+        const div = document.createElement('div')
+        ReactDOM.render(<FirstTest />, div)
+        expect(div.querySelector('input').textContent).toBe('Favorite number')
+    })
+})
 ```
 
 ## Using Jest DOM for improved assertions
@@ -43,40 +43,40 @@ describe("<FirstTest />", () => {
 We can use Jest DOM for some custom test matchers.
 
 ```jsx
-import React from "react";
-import ReactDOM from "react-dom";
-import FirstTest from "./path/to/FirstTest";
+import React from 'react'
+import ReactDOM from 'react-dom'
+import FirstTest from './path/to/FirstTest'
 
-expect.extend({ toHaveAttribute });
+expect.extend({ toHaveAttribute })
 
-describe("<FirstTest />", () => {
-  test('renders a number input with label "Favorite Number"', () => {
-    const div = document.createElement("div");
-    ReactDOM.render(<FirstTest />, div);
-    expect(div.querySelector("input")).toHaveTextContent("Favorite number");
-  });
-});
+describe('<FirstTest />', () => {
+    test('renders a number input with label "Favorite Number"', () => {
+        const div = document.createElement('div')
+        ReactDOM.render(<FirstTest />, div)
+        expect(div.querySelector('input')).toHaveTextContent('Favorite number')
+    })
+})
 ```
 
 ## Use DOM Testing Library to write more maintainable React tests
 
 ```jsx
-import React from "react";
-import ReactDOM from "react-dom";
-import FirstTest from "./path/to/FirstTest";
-import { queries, getQueriesForElement } from "@testing-library/dom";
+import React from 'react'
+import ReactDOM from 'react-dom'
+import FirstTest from './path/to/FirstTest'
+import { queries, getQueriesForElement } from '@testing-library/dom'
 
-describe("<FirstTest />", () => {
-  test('renders a number input with label "Favorite Number"', () => {
-    const div = document.createElement("div");
-    ReactDOM.render(<FirstTest />, div);
+describe('<FirstTest />', () => {
+    test('renders a number input with label "Favorite Number"', () => {
+        const div = document.createElement('div')
+        ReactDOM.render(<FirstTest />, div)
 
-    const { getByLabelText } = getQueriesForElement(div);
-    const input = getByLabelText(/favourite number/i);
-    // This is a redundant assertion
-    expect(input).toHaveTextContent("Favorite number");
-  });
-});
+        const { getByLabelText } = getQueriesForElement(div)
+        const input = getByLabelText(/favourite number/i)
+        // This is a redundant assertion
+        expect(input).toHaveTextContent('Favorite number')
+    })
+})
 ```
 
 ## Use React Testing Library to render and test React components
@@ -84,64 +84,64 @@ describe("<FirstTest />", () => {
 This section effectively shows us the nice-to-haves we would want from this:
 
 ```jsx
-import React from "react";
-import ReactDOM from "react-dom";
-import FirstTest from "./path/to/FirstTest";
-import { queries, getQueriesForElement } from "@testing-library/dom";
+import React from 'react'
+import ReactDOM from 'react-dom'
+import FirstTest from './path/to/FirstTest'
+import { queries, getQueriesForElement } from '@testing-library/dom'
 
 function render(ui) {
-  const container = document.createElement("div");
-  ReactDOM.render(ui, container);
-  const queries = getQueriesForElement(container);
+    const container = document.createElement('div')
+    ReactDOM.render(ui, container)
+    const queries = getQueriesForElement(container)
 
-  return { ...queries, container };
+    return { ...queries, container }
 }
 
-describe("<FirstTest />", () => {
-  test('renders a number input with label "Favorite Number"', () => {
-    const { getByLabelText } = render(<FirstTest />);
+describe('<FirstTest />', () => {
+    test('renders a number input with label "Favorite Number"', () => {
+        const { getByLabelText } = render(<FirstTest />)
 
-    const input = getByLabelText(/favourite number/i);
-    // This is a redundant assertion
-    expect(input).toHaveTextContent("Favorite number");
-  });
-});
+        const input = getByLabelText(/favourite number/i)
+        // This is a redundant assertion
+        expect(input).toHaveTextContent('Favorite number')
+    })
+})
 ```
 
 This is effectively what is being done by the testing library.
 
 ```jsx
-import React from "react";
-import ReactDOM from "react-dom";
-import FirstTest from "./path/to/FirstTest";
-import { render } from "@testing-library/react";
+import React from 'react'
+import ReactDOM from 'react-dom'
+import FirstTest from './path/to/FirstTest'
+import { render } from '@testing-library/react'
 
-describe("<FirstTest />", () => {
-  test('renders a number input with label "Favorite Number"', () => {
-    const { getByLabelText } = render(<FirstTest />);
+describe('<FirstTest />', () => {
+    test('renders a number input with label "Favorite Number"', () => {
+        const { getByLabelText } = render(<FirstTest />)
 
-    const input = getByLabelText(/favourite number/i);
-    // This is a redundant assertion
-    expect(input).toHaveTextContent("Favorite number");
-  });
-});
+        const input = getByLabelText(/favourite number/i)
+        // This is a redundant assertion
+        expect(input).toHaveTextContent('Favorite number')
+    })
+})
 ```
 
 In general, instead of abstracting the `getByLabelText`, we would now use `screen` to do so.
 
 ```jsx
-import React from "react";
-import ReactDOM from "react-dom";
-import FirstTest from "./path/to/FirstTest";
-import { render, screen } from "@testing-library/react";
+import React from 'react'
+import ReactDOM from 'react-dom'
+import FirstTest from './path/to/FirstTest'
+import { render, screen } from '@testing-library/react'
 
-describe("<FirstTest />", () => {
-  test('renders a number input with label "Favorite Number"', () => {
-    render(<FirstTest />);
+describe('<FirstTest />', () => {
+    test('renders a number input with label "Favorite Number"', () => {
+        render(<FirstTest />)
 
-    const input = screen.getByLabelText(/favourite number/i);
-    // This is a redundant assertion
-    expect(input).toHaveTextContent("Favorite number");
-  });
-});
+        const input = screen.getByLabelText(/favourite number/i)
+        // This is a redundant assertion
+        expect(input).toHaveTextContent('Favorite number')
+    })
+})
 ```
