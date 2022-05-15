@@ -29,6 +29,7 @@
 - [[resources]]
 - [[sinon-js]]
 - [[testing-cheat-sheet]]
+- [[testing-javascript]]
 - [[the-hard-parts-v2]]
 - [[the-new-hard-parts]]
 - [[understanding-this]]
