@@ -1,0 +1,137 @@
+{
+  "main": {
+    "id": "05143f35c712309f",
+    "type": "split",
+    "children": [
+      {
+        "id": "4ddedb191ebee436",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "javascript/testing-javascript/6-Testing-React-Components-With-Jest-And-React-Testing-Library.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "8ec45541307f5ef4",
+    "type": "split",
+    "children": [
+      {
+        "id": "f4fe7402e8a59e81",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "923a99897950ccc0",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "0934f83fb030564f",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "perennial",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 242
+  },
+  "right": {
+    "id": "7af2073755a9070d",
+    "type": "split",
+    "children": [
+      {
+        "id": "b94dd857eff32eec",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7df5605f17477e7d",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "javascript/testing-javascript/6-Testing-React-Components-With-Jest-And-React-Testing-Library.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": false
+              }
+            }
+          },
+          {
+            "id": "62d006fd5d1f1c77",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "javascript/testing-javascript/6-Testing-React-Components-With-Jest-And-React-Testing-Library.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "8aad5b2f9d2ce7f1",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "ba1623fb0390f1d1",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "javascript/testing-javascript/6-Testing-React-Components-With-Jest-And-React-Testing-Library.md"
+              }
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "4ddedb191ebee436",
+  "lastOpenFiles": [
+    "javascript/testing-javascript/6-Testing-React-Components-With-Jest-And-React-Testing-Library.md",
+    "javascript/testing-javascript/5-Configure-Jest-For-Testing-JS-Apps.md",
+    "books/Four-Thousand-Weeks.md",
+    "books/Books.md",
+    "javascript/testing-javascript/4-Using-DOM-Testing-Library-to-test-any-JS-framework.md",
+    "javascript/testing-javascript/3-Static-Analysis-Testing-JavaScript-Applications.md",
+    "javascript/testing-javascript/2-JavaScript-Mocking-Fundamentals.md",
+    "computer-systems/Computer-Systems.md",
+    "computer-systems/a-programmers-perspective/A-Programmers-Perspective.md",
+    "computer-systems/a-programmers-perspective/1-A-Tour-Of-Computer-Systems/Buses.md"
+  ]
+}
