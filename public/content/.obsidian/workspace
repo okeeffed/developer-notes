@@ -10,6 +10,7 @@
           {
             "id": "07cc6cb884be25a2",
             "type": "split",
+            "dimension": 60.59009483667019,
             "children": [
               {
                 "id": "4ddedb191ebee436",
@@ -17,7 +18,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "git/git-in-depth.md",
+                    "file": "ruby-on-rails/relations.md",
                     "mode": "source",
                     "source": false
                   }
@@ -38,10 +39,11 @@
           {
             "id": "06d31638674673a5",
             "type": "leaf",
+            "dimension": 39.409905163329825,
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "git/git-in-depth.md",
+                "file": "ruby-on-rails/relations.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -108,12 +110,11 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 371
+    "width": 279
   },
   "right": {
     "id": "7af2073755a9070d",
@@ -129,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "git/git-in-depth.md",
+                "file": "ruby-on-rails/relations.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -146,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "git/git-in-depth.md",
+                "file": "ruby-on-rails/relations.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -169,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "git/git-in-depth.md"
+                "file": "ruby-on-rails/relations.md"
               }
             }
           }
@@ -182,6 +183,7 @@
   },
   "active": "4ddedb191ebee436",
   "lastOpenFiles": [
+    "ruby-on-rails/relations.md",
     "git/git-in-depth.md",
     "computer-systems/Computer-Systems.md",
     "computer-systems/a-programmers-perspective/A-Programmers-Perspective.md",
@@ -190,7 +192,6 @@
     "computer-systems/a-programmers-perspective/1-A-Tour-Of-Computer-Systems/Virtual-Memory.md",
     "computer-systems/a-programmers-perspective/1-A-Tour-Of-Computer-Systems/Threads.md",
     "computer-systems/a-programmers-perspective/1-A-Tour-Of-Computer-Systems/Processors.md",
-    "computer-systems/a-programmers-perspective/1-A-Tour-Of-Computer-Systems/Processes.md",
-    "computer-systems/a-programmers-perspective/1-A-Tour-Of-Computer-Systems/Caches.md"
+    "computer-systems/a-programmers-perspective/1-A-Tour-Of-Computer-Systems/Processes.md"
   ]
 }
