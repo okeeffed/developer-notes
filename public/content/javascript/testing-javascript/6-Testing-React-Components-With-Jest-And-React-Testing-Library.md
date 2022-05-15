@@ -145,3 +145,119 @@ describe('<FirstTest />', () => {
   })
 })
 ```
+
+## Test Prop Updates with React Testing Library
+
+You can use the `rerender` if you need to rerender props. Personally, there may be a different test for me.
+
+## Test Accessibility of Rendered React Components with jest-axe
+
+This helps with getting low-hanging fruit for accessibility issues.
+
+```jsx
+import 'jest-axe/extend-expect'
+import React from 'react'
+import { render, screen } from '@testing-library/react'
+import { axe, toHaveNoViolations } from 'jest-axe'
+
+function Form() {
+  return (
+    <form>
+      <input placeholder="email" />
+    </form>
+  )
+}
+
+test('the form is accessible', async () => {
+  const { container } = render(<Form />)
+  console.log(container.innerHTML)
+  const results = await axe(container)
+  expect(results).toHaveNoViolations()
+})
+```
+
+## Test componentDidCatch Handler Error Boundaries
+
+```jsx
+// other imports omitted
+import { ErrorBoundary } from '../error-boundary'
+
+function Bomb({ shouldThrow }) {
+  if (shouldThrow) {
+    throw new Error('BOOM')
+  } else {
+    return null
+  }
+}
+
+test('calls reportError and reders that there was a problem', () => {
+  const { rerender } = render(
+    <ErrorBoundary>
+      <Bomb />
+    </ErrorBoundary>
+  )
+
+  render(
+    <ErrorBoundary>
+      <Bomb shouldThrow />
+    </ErrorBoundary>
+  )
+  const error = expect.any(error)
+  const info = { componentStack: expect.stringContaining('BOOM') }
+  expect(mockReportError).toHaveBeenCalledWith(error, info)
+  expect(mockReportError).toHaveBeenCalledTimes(1)
+})
+```
+
+## Hide console.error logs when testing Error Boundaries
+
+```jsx
+// other imports omitted
+import { ErrorBoundary } from '../error-boundary'
+
+function Bomb({ shouldThrow }) {
+  if (shouldThrow) {
+    throw new Error('BOOM')
+  } else {
+    return null
+  }
+}
+
+beforeAll(() => {
+  const consoleMock = jest.spyOn(console, 'error').mockImplementation(() => {})
+})
+
+afterAll(() => {
+  jest.clearAllMocks()
+})
+
+test('calls reportError and reders that there was a problem', () => {
+  const { rerender } = render(
+    <ErrorBoundary>
+      <Bomb />
+    </ErrorBoundary>
+  )
+
+  render(
+    <ErrorBoundary>
+      <Bomb shouldThrow />
+    </ErrorBoundary>
+  )
+  const error = expect.any(error)
+  const info = { componentStack: expect.stringContaining('BOOM') }
+  expect(mockReportError).toHaveBeenCalledWith(error, info)
+  expect(mockReportError).toHaveBeenCalledTimes(1)
+})
+```
+
+If you are expecteding `console.error` to be called, then you need to ensure that you assert it was called a certain amount of times.
+
+## Ensure Error Boundaries can successfully recover from errors
+
+Effectively the componenet error boundary being tested had a `Try again` button, so the idea was that the test was re-rendered without an error and then clicking try again to see what happens.
+
+Worth noting that this all happened within one test, so the interesting learn was the `toHaveBeenCalled` type of functions were reset between each assertion.
+
+## Use Generated Data in Test with tests-data-bot
+
+References usage of [this](https://github.com/jackfranklin/test-data-bot) library.
