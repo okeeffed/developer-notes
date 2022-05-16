@@ -29,25 +29,25 @@ The common configuration was put in a file `test/jest-common.js` while new files
 In `test/jest.server.js`:
 
 ```js
-const path = require("path");
+const path = require('path')
 module.exports = {
-  ...require("./jest-common"),
-  coverageDirectory: path.join(__dirname, "../coverage/server"),
-  testEnvironment: "test-environment-node",
-  testMath: ["**/__server_tests__/**/*.js"],
-};
+  ...require('./jest-common'),
+  coverageDirectory: path.join(__dirname, '../coverage/server'),
+  testEnvironment: 'test-environment-node',
+  testMath: ['**/__server_tests__/**/*.js'],
+}
 ```
 
 In `test/jest.client.js`:
 
 ```js
-const path = require("path");
+const path = require('path')
 module.exports = {
-  ...require("./jest-common"),
-  testEnvironment: "jest-environment-jsdom",
-  setupFilesAfterEnv: ["..."],
+  ...require('./jest-common'),
+  testEnvironment: 'jest-environment-jsdom',
+  setupFilesAfterEnv: ['...'],
   // ... The rest is added
-};
+}
 ```
 
 Now when running tests, you need to specify the path to the correct config.
@@ -67,11 +67,11 @@ Inside of this, we can add the following:
 
 ```js
 module.exports = {
-  ...require("./test/jest-common"),
+  ...require('./test/jest-common'),
   // ... other configuration standards
   // ...
-  projects: ["./test/jest.client.js", "./test/jest.server.js"],
-};
+  projects: ['./test/jest.client.js', './test/jest.server.js'],
+}
 ```
 
 This will run all the tests from the different projects with totally different configurations.
@@ -101,9 +101,9 @@ This needs to be added to the watch plugins:
 ```js
 watchPlugins: [
   // others ...
-  "jest-watch-typeahead/filename",
-  "jest-watch-typeahead/testname",
-];
+  'jest-watch-typeahead/filename',
+  'jest-watch-typeahead/testname',
+]
 ```
 
 We then get a list of the files that match the output and we can head type and run those specific files. The same can be for the names of the tests.

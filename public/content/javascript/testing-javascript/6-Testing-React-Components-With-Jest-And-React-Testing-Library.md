@@ -30,11 +30,11 @@ import ReactDOM from 'react-dom'
 import FirstTest from './path/to/FirstTest'
 
 describe('<FirstTest />', () => {
-    test('renders a number input with label "Favorite Number"', () => {
-        const div = document.createElement('div')
-        ReactDOM.render(<FirstTest />, div)
-        expect(div.querySelector('input').textContent).toBe('Favorite number')
-    })
+  test('renders a number input with label "Favorite Number"', () => {
+    const div = document.createElement('div')
+    ReactDOM.render(<FirstTest />, div)
+    expect(div.querySelector('input').textContent).toBe('Favorite number')
+  })
 })
 ```
 
@@ -50,11 +50,11 @@ import FirstTest from './path/to/FirstTest'
 expect.extend({ toHaveAttribute })
 
 describe('<FirstTest />', () => {
-    test('renders a number input with label "Favorite Number"', () => {
-        const div = document.createElement('div')
-        ReactDOM.render(<FirstTest />, div)
-        expect(div.querySelector('input')).toHaveTextContent('Favorite number')
-    })
+  test('renders a number input with label "Favorite Number"', () => {
+    const div = document.createElement('div')
+    ReactDOM.render(<FirstTest />, div)
+    expect(div.querySelector('input')).toHaveTextContent('Favorite number')
+  })
 })
 ```
 
@@ -67,15 +67,15 @@ import FirstTest from './path/to/FirstTest'
 import { queries, getQueriesForElement } from '@testing-library/dom'
 
 describe('<FirstTest />', () => {
-    test('renders a number input with label "Favorite Number"', () => {
-        const div = document.createElement('div')
-        ReactDOM.render(<FirstTest />, div)
+  test('renders a number input with label "Favorite Number"', () => {
+    const div = document.createElement('div')
+    ReactDOM.render(<FirstTest />, div)
 
-        const { getByLabelText } = getQueriesForElement(div)
-        const input = getByLabelText(/favourite number/i)
-        // This is a redundant assertion
-        expect(input).toHaveTextContent('Favorite number')
-    })
+    const { getByLabelText } = getQueriesForElement(div)
+    const input = getByLabelText(/favourite number/i)
+    // This is a redundant assertion
+    expect(input).toHaveTextContent('Favorite number')
+  })
 })
 ```
 
@@ -90,21 +90,21 @@ import FirstTest from './path/to/FirstTest'
 import { queries, getQueriesForElement } from '@testing-library/dom'
 
 function render(ui) {
-    const container = document.createElement('div')
-    ReactDOM.render(ui, container)
-    const queries = getQueriesForElement(container)
+  const container = document.createElement('div')
+  ReactDOM.render(ui, container)
+  const queries = getQueriesForElement(container)
 
-    return { ...queries, container }
+  return { ...queries, container }
 }
 
 describe('<FirstTest />', () => {
-    test('renders a number input with label "Favorite Number"', () => {
-        const { getByLabelText } = render(<FirstTest />)
+  test('renders a number input with label "Favorite Number"', () => {
+    const { getByLabelText } = render(<FirstTest />)
 
-        const input = getByLabelText(/favourite number/i)
-        // This is a redundant assertion
-        expect(input).toHaveTextContent('Favorite number')
-    })
+    const input = getByLabelText(/favourite number/i)
+    // This is a redundant assertion
+    expect(input).toHaveTextContent('Favorite number')
+  })
 })
 ```
 
@@ -117,13 +117,13 @@ import FirstTest from './path/to/FirstTest'
 import { render } from '@testing-library/react'
 
 describe('<FirstTest />', () => {
-    test('renders a number input with label "Favorite Number"', () => {
-        const { getByLabelText } = render(<FirstTest />)
+  test('renders a number input with label "Favorite Number"', () => {
+    const { getByLabelText } = render(<FirstTest />)
 
-        const input = getByLabelText(/favourite number/i)
-        // This is a redundant assertion
-        expect(input).toHaveTextContent('Favorite number')
-    })
+    const input = getByLabelText(/favourite number/i)
+    // This is a redundant assertion
+    expect(input).toHaveTextContent('Favorite number')
+  })
 })
 ```
 
@@ -136,12 +136,128 @@ import FirstTest from './path/to/FirstTest'
 import { render, screen } from '@testing-library/react'
 
 describe('<FirstTest />', () => {
-    test('renders a number input with label "Favorite Number"', () => {
-        render(<FirstTest />)
+  test('renders a number input with label "Favorite Number"', () => {
+    render(<FirstTest />)
 
-        const input = screen.getByLabelText(/favourite number/i)
-        // This is a redundant assertion
-        expect(input).toHaveTextContent('Favorite number')
-    })
+    const input = screen.getByLabelText(/favourite number/i)
+    // This is a redundant assertion
+    expect(input).toHaveTextContent('Favorite number')
+  })
 })
 ```
+
+## Test Prop Updates with React Testing Library
+
+You can use the `rerender` if you need to rerender props. Personally, there may be a different test for me.
+
+## Test Accessibility of Rendered React Components with jest-axe
+
+This helps with getting low-hanging fruit for accessibility issues.
+
+```jsx
+import 'jest-axe/extend-expect'
+import React from 'react'
+import { render, screen } from '@testing-library/react'
+import { axe, toHaveNoViolations } from 'jest-axe'
+
+function Form() {
+  return (
+    <form>
+      <input placeholder="email" />
+    </form>
+  )
+}
+
+test('the form is accessible', async () => {
+  const { container } = render(<Form />)
+  console.log(container.innerHTML)
+  const results = await axe(container)
+  expect(results).toHaveNoViolations()
+})
+```
+
+## Test componentDidCatch Handler Error Boundaries
+
+```jsx
+// other imports omitted
+import { ErrorBoundary } from '../error-boundary'
+
+function Bomb({ shouldThrow }) {
+  if (shouldThrow) {
+    throw new Error('BOOM')
+  } else {
+    return null
+  }
+}
+
+test('calls reportError and reders that there was a problem', () => {
+  const { rerender } = render(
+    <ErrorBoundary>
+      <Bomb />
+    </ErrorBoundary>
+  )
+
+  render(
+    <ErrorBoundary>
+      <Bomb shouldThrow />
+    </ErrorBoundary>
+  )
+  const error = expect.any(error)
+  const info = { componentStack: expect.stringContaining('BOOM') }
+  expect(mockReportError).toHaveBeenCalledWith(error, info)
+  expect(mockReportError).toHaveBeenCalledTimes(1)
+})
+```
+
+## Hide console.error logs when testing Error Boundaries
+
+```jsx
+// other imports omitted
+import { ErrorBoundary } from '../error-boundary'
+
+function Bomb({ shouldThrow }) {
+  if (shouldThrow) {
+    throw new Error('BOOM')
+  } else {
+    return null
+  }
+}
+
+beforeAll(() => {
+  const consoleMock = jest.spyOn(console, 'error').mockImplementation(() => {})
+})
+
+afterAll(() => {
+  jest.clearAllMocks()
+})
+
+test('calls reportError and reders that there was a problem', () => {
+  const { rerender } = render(
+    <ErrorBoundary>
+      <Bomb />
+    </ErrorBoundary>
+  )
+
+  render(
+    <ErrorBoundary>
+      <Bomb shouldThrow />
+    </ErrorBoundary>
+  )
+  const error = expect.any(error)
+  const info = { componentStack: expect.stringContaining('BOOM') }
+  expect(mockReportError).toHaveBeenCalledWith(error, info)
+  expect(mockReportError).toHaveBeenCalledTimes(1)
+})
+```
+
+If you are expecteding `console.error` to be called, then you need to ensure that you assert it was called a certain amount of times.
+
+## Ensure Error Boundaries can successfully recover from errors
+
+Effectively the componenet error boundary being tested had a `Try again` button, so the idea was that the test was re-rendered without an error and then clicking try again to see what happens.
+
+Worth noting that this all happened within one test, so the interesting learn was the `toHaveBeenCalled` type of functions were reset between each assertion.
+
+## Use Generated Data in Test with tests-data-bot
+
+References usage of [this](https://github.com/jackfranklin/test-data-bot) library.
