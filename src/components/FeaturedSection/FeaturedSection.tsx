@@ -12,37 +12,37 @@ import {
   Text,
   useBreakpointValue,
   Wrap,
-} from "@chakra-ui/react";
-import Image from "next/image";
-import { BsClockFill } from "react-icons/bs";
+} from '@chakra-ui/react'
+import Image from 'next/image'
+import { BsClockFill } from 'react-icons/bs'
 
 interface BlogProps {
-  title: string;
-  href: string;
-  media?: string;
-  description: string;
-  readingTime: string;
+  title: string
+  href: string
+  media?: string
+  description: string
+  readingTime: string
   author?: {
-    name: string;
-    href: string;
-  };
-  tags?: string[];
-  blurHash?: string;
-  isPriority?: boolean;
-  index?: number;
+    name: string
+    href: string
+  }
+  tags?: string[]
+  blurHash?: string
+  isPriority?: boolean
+  index?: number
 }
 
 interface FeaturedSectionProps {
-  posts: BlogProps[];
+  posts: BlogProps[]
 }
 
 export const FeaturedSection = ({ posts }: FeaturedSectionProps) => {
-  const isMobile = useBreakpointValue({ sm: true, md: false });
+  const isMobile = useBreakpointValue({ sm: true, md: false })
 
-  const [featured, ...rest] = posts;
+  const [featured, ...rest] = posts
 
   if (isMobile) {
-    return null;
+    return null
   }
 
   return (
@@ -56,12 +56,12 @@ export const FeaturedSection = ({ posts }: FeaturedSectionProps) => {
         <LinkBox
           as="article"
           h="full"
-          bg={{ sm: mode("white", "gray.700") }}
-          shadow={{ sm: "base" }}
-          rounded={{ sm: "md" }}
+          bg={{ sm: mode('white', 'gray.700') }}
+          shadow={{ sm: 'base' }}
+          rounded={{ sm: 'md' }}
           overflow="hidden"
           transition="all 0.2s"
-          _hover={{ shadow: { sm: "lg" } }}
+          _hover={{ shadow: { sm: 'lg' } }}
         >
           <Box position="relative">
             <Box minHeight="360px">
@@ -74,19 +74,19 @@ export const FeaturedSection = ({ posts }: FeaturedSectionProps) => {
                   quality={72}
                   priority
                   placeholder={
-                    process.env.NODE_ENV === "production" ? "blur" : "empty"
+                    process.env.NODE_ENV === 'production' ? 'blur' : 'empty'
                   }
                 />
               )}
             </Box>
           </Box>
-          <Flex direction="column" px={{ sm: "6" }} py="5" h="full">
+          <Flex direction="column" px={{ sm: '6' }} py="5" h="full">
             <Heading as="h3" size="sm" mb="2" lineHeight="base">
               <LinkOverlay href={featured.href}>{featured.title}</LinkOverlay>
             </Heading>
             {featured.tags && (
               <Box mb={4}>
-                <Wrap shouldWrapChildren wrap="wrap">
+                <Wrap shouldWrapChildren>
                   {featured.tags.map((tag) => (
                     <Tag fontSize="xs" key={tag}>
                       {tag}
@@ -95,7 +95,7 @@ export const FeaturedSection = ({ posts }: FeaturedSectionProps) => {
                 </Wrap>
               </Box>
             )}
-            <Text noOfLines={1} mb="4" color={mode("gray.600", "gray.400")}>
+            <Text noOfLines={1} mb="4" color={mode('gray.600', 'gray.400')}>
               {featured.description}
             </Text>
             <Flex>
@@ -118,12 +118,12 @@ export const FeaturedSection = ({ posts }: FeaturedSectionProps) => {
           <LinkBox
             as="article"
             h="full"
-            bg={{ sm: mode("white", "gray.700") }}
-            shadow={{ sm: "base" }}
-            rounded={{ sm: "md" }}
+            bg={{ sm: mode('white', 'gray.700') }}
+            shadow={{ sm: 'base' }}
+            rounded={{ sm: 'md' }}
             overflow="hidden"
             transition="all 0.2s"
-            _hover={{ shadow: { sm: "lg" } }}
+            _hover={{ shadow: { sm: 'lg' } }}
           >
             <Box position="relative">
               <Box height="120px">
@@ -138,14 +138,14 @@ export const FeaturedSection = ({ posts }: FeaturedSectionProps) => {
                     priority
                     sizes="342px"
                     placeholder={
-                      process.env.NODE_ENV === "production" ? "blur" : "empty"
+                      process.env.NODE_ENV === 'production' ? 'blur' : 'empty'
                     }
                   />
                 )}
               </Box>
             </Box>
-            <Flex direction="column" px={{ sm: "3" }} py="5" h="full">
-              <Text noOfLines={3} mb="2" color={mode("gray.600", "gray.400")}>
+            <Flex direction="column" px={{ sm: '3' }} py="5" h="full">
+              <Text noOfLines={3} mb="2" color={mode('gray.600', 'gray.400')}>
                 {post.description}
               </Text>
               <Flex>
@@ -165,5 +165,5 @@ export const FeaturedSection = ({ posts }: FeaturedSectionProps) => {
         </GridItem>
       ))}
     </Grid>
-  );
-};
+  )
+}
