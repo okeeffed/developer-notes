@@ -70,7 +70,7 @@ printColor({
 
 This section was a typing challenge.
 
-## Type Challenges
+## Beginner Type Challenges
 
 This is a [repo](https://github.com/type-challenges/type-challenges) to practice your typing.
 
@@ -153,4 +153,82 @@ The answer:
 // Implement this type
 
 type LengthOfTuple<T> = T extends readonly any[] ? T['length'] : never
+```
+
+Challenge 3:
+
+```ts
+// @errors: 2344
+
+type Expect<T extends true> = T
+
+type Equal<X, Y> = (<T>() => T extends X ? 1 : 2) extends <T>() => T extends Y
+  ? 1
+  : 2
+  ? true
+  : false
+
+type NotEqual<X, Y> = true extends Equal<X, Y> ? false : true
+
+// ---cut---
+
+// Implement this type
+
+type EndsWith<A, B> = any
+
+// Tests
+
+type cases = [
+  Expect<Equal<EndsWith<'ice cream', 'cream'>, true>>,
+
+  Expect<Equal<EndsWith<'ice cream', 'chocolate'>, false>>
+]
+```
+
+The answer:
+
+```ts
+type EndsWith<A, B extends string> = A extends `${any}${B}` ? true : false
+```
+
+Challenge 4:
+
+```ts
+// @errors: 2344
+
+type Expect<T extends true> = T
+
+type Equal<X, Y> = (<T>() => T extends X ? 1 : 2) extends <T>() => T extends Y
+  ? 1
+  : 2
+  ? true
+  : false
+
+type NotEqual<X, Y> = true extends Equal<X, Y> ? false : true
+
+// ---cut---
+
+// Implement this type
+
+type Concat<A, B> = any
+
+// Tests
+
+type cases = [
+  Expect<Equal<Concat<[], []>, []>>,
+  Expect<Equal<Concat<[], ['hello']>, ['hello']>>,
+  Expect<Equal<Concat<[18, 19], [20, 21]>, [18, 19, 20, 21]>>,
+  Expect<
+    Equal<
+      Concat<[42, 'a', 'b'], [Promise<boolean>]>,
+      [42, 'a', 'b', Promise<boolean>]
+    >
+  >
+]
+```
+
+The answer:
+
+```ts
+type Concat<A extends any[], B extends any[]> = [...A, ...B]
 ```
