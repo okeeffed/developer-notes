@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "javascript/testing-javascript/6-Testing-React-Components-With-Jest-And-React-Testing-Library.md",
+            "file": "typescript/Noted-To-Merge.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "javascript/testing-javascript/6-Testing-React-Components-With-Jest-And-React-Testing-Library.md",
+                "file": "typescript/Noted-To-Merge.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -86,7 +86,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "javascript/testing-javascript/6-Testing-React-Components-With-Jest-And-React-Testing-Library.md",
+                "file": "typescript/Noted-To-Merge.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -109,7 +109,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "javascript/testing-javascript/6-Testing-React-Components-With-Jest-And-React-Testing-Library.md"
+                "file": "typescript/Noted-To-Merge.md"
               }
             }
           }
@@ -122,6 +122,13 @@
   },
   "active": "81afcea829cb47b4",
   "lastOpenFiles": [
+    "typescript/ts-fundamentals-v2.md",
+    "typescript/production-typescript-course.md",
+    "typescript/getting-started.md",
+    "typescript/enforcing-prop-names.md",
+    "typescript/developers-guide.md",
+    "typescript/duck-typing.md",
+    "typescript/Typescript.md",
     "javascript/testing-javascript/6-Testing-React-Components-With-Jest-And-React-Testing-Library.md",
     "javascript/testing-javascript/5-Configure-Jest-For-Testing-JS-Apps.md"
   ]
