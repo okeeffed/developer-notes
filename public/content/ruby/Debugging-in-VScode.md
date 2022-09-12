@@ -35,7 +35,7 @@ Make a new launch config in VSCode:
   "version": "0.2.0",
   "configurations": [
     {
-      "type": "rdgb",
+      "type": "rdbg",
       "name": "Attach with rdbg",
       "request": "attach"
     }

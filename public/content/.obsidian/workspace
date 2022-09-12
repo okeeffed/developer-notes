@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "ruby/Debugging-in-VScode.md",
+            "file": "design/Mastering-The-Design-Process-Course.md",
             "mode": "source",
             "source": false
           }
@@ -53,7 +53,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 239.5
+    "width": 272.5
   },
   "right": {
     "id": "61a0a2678a769da1",
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ruby/Debugging-in-VScode.md",
+                "file": "design/Mastering-The-Design-Process-Course.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -86,7 +86,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ruby/Debugging-in-VScode.md",
+                "file": "design/Mastering-The-Design-Process-Course.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -109,7 +109,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ruby/Debugging-in-VScode.md"
+                "file": "design/Mastering-The-Design-Process-Course.md"
               }
             }
           }
@@ -122,15 +122,15 @@
   },
   "active": "655bd9bac7b6ddd1",
   "lastOpenFiles": [
+    "customer-success/CX-For-Growth-Talk.md",
+    "books/intercom-on-product-management.md",
+    "ruby/Debugging-in-VScode.md",
     "ableton/Your-First-Arel-Query.md",
     "system-design/interviews.md",
     "system-design/distributed-data.md",
     "system-design/data-systems.md",
     "system-design/System-Design.md",
     "comp3520-os/2-process-description-and-control.md",
-    "typescript/Noted-To-Merge.md",
-    "typescript/ts-fundamentals-v2.md",
-    "typescript/production-typescript-course.md",
-    "typescript/getting-started.md"
+    "typescript/Noted-To-Merge.md"
   ]
 }
