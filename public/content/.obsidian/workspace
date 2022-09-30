@@ -4,15 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "655bd9bac7b6ddd1",
+        "id": "9f3f14eb2c6e343e",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "design/Mastering-The-Design-Process-Course.md",
-            "mode": "source",
-            "source": false
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -69,7 +65,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "design/Mastering-The-Design-Process-Course.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -86,7 +81,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "design/Mastering-The-Design-Process-Course.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -108,9 +102,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "design/Mastering-The-Design-Process-Course.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -120,8 +112,10 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "655bd9bac7b6ddd1",
+  "active": "9f3f14eb2c6e343e",
   "lastOpenFiles": [
+    "Untitled.md",
+    "design/Mastering-The-Design-Process-Course.md",
     "customer-success/CX-For-Growth-Talk.md",
     "books/intercom-on-product-management.md",
     "ruby/Debugging-in-VScode.md",
@@ -129,8 +123,6 @@
     "system-design/interviews.md",
     "system-design/distributed-data.md",
     "system-design/data-systems.md",
-    "system-design/System-Design.md",
-    "comp3520-os/2-process-description-and-control.md",
-    "typescript/Noted-To-Merge.md"
+    "system-design/System-Design.md"
   ]
 }
