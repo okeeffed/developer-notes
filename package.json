@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "predev": "npm run gen:sidebar && npm run gen:data",
+    "predev": "npm run gen:sidebar && npm run gen:data && npm run gen:folderIndex",
     "dev": "next dev",
     "prebuild": "npm run gen:sidebar && npm run gen:data && npm run gen:folderIndex",
     "build": "next build",

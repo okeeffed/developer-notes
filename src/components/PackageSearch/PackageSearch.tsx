@@ -84,12 +84,11 @@ export function PackageSearch() {
           )}
         </InputGroup>
         <AutoCompleteList>
-          {data.metadata?.map(({ url, tag, label }) => (
+          {data.metadata?.map(({ url, tag, label, ...rest }) => (
             <AutoCompleteItem key={url} label={label} value={url}>
               <HStack w="full">
                 <Tag>{tag}</Tag>
-                {/* TODO: Fix folder value issue */}
-                {/* {folder && <Tag>{folder}</Tag>} */}
+                {rest.folder && <Tag>{rest.folder}</Tag>}
                 <Text>{label}</Text>
               </HStack>
             </AutoCompleteItem>
