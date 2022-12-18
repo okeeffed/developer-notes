@@ -171,6 +171,8 @@
   },
   "active": "677339594d6a8775",
   "lastOpenFiles": [
+    "japanese/Genki-1/Genki-1.md",
+    "japanese/Genki-1/2-Shopping.md",
     "ableton/sound-production-course-levels-and-panning.md",
     "Untitled.md",
     "design/Mastering-The-Design-Process-Course.md",
@@ -178,8 +180,6 @@
     "books/intercom-on-product-management.md",
     "ruby/Debugging-in-VScode.md",
     "ableton/Your-First-Arel-Query.md",
-    "system-design/interviews.md",
-    "system-design/distributed-data.md",
-    "system-design/data-systems.md"
+    "system-design/interviews.md"
   ]
 }
