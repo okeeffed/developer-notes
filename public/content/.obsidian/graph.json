@@ -1,6 +1,6 @@
 {
   "collapse-filter": false,
-  "search": "computer-systems",
+  "search": "ruby",
   "showTags": true,
   "showAttachments": false,
   "hideUnresolved": false,
@@ -53,6 +53,6 @@
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 3.106063874617953,
+  "scale": 1.2815762983848142,
   "close": false
 }

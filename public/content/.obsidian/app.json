@@ -1,5 +1,8 @@
 {
   "legacyEditor": false,
-  "livePreview": true,
-  "alwaysUpdateLinks": true
+  "livePreview": false,
+  "alwaysUpdateLinks": true,
+  "vimMode": true,
+  "spellcheck": true,
+  "promptDelete": false
 }

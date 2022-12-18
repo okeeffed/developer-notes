@@ -17,7 +17,8 @@
     "imagemin": "imagemin raw-assets/* --out-dir=public/assets",
     "squoosh": "npm run ts -- scripts/images/squoosh.ts",
     "mypy": "pipenv run mypy --install-types",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "lint-staged": "npx lint-staged"
   },
   "dependencies": {
     "@babel/core": "^7.15.0",

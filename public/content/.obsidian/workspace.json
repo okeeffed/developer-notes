@@ -1,0 +1,185 @@
+{
+  "main": {
+    "id": "6380036d60ed8668",
+    "type": "split",
+    "children": [
+      {
+        "id": "2a5d2a97ddc17a93",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9f3f14eb2c6e343e",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "3e7249853b49b142",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ruby/Debugging-in-VScode.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "0bdefabd653f1b94",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ableton/sound-production-course-levels-and-panning.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "677339594d6a8775",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "japanese/Genki-1/2-Shopping.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "7480b54147d61cf1",
+    "type": "split",
+    "children": [
+      {
+        "id": "0889bfef5a669ba4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "debda34d105c3236",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "c8e33c270b4c2eb8",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "system design",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "9354070510388436",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 272.5
+  },
+  "right": {
+    "id": "61a0a2678a769da1",
+    "type": "split",
+    "children": [
+      {
+        "id": "1e946925308e5563",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c8e5d13edaaa6afd",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "japanese/Genki-1/2-Shopping.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "28097daee73bfd71",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "japanese/Genki-1/2-Shopping.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "9e5be617c000e515",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "81085b5b8b930f83",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "japanese/Genki-1/2-Shopping.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "677339594d6a8775",
+  "lastOpenFiles": [
+    "ableton/sound-production-course-levels-and-panning.md",
+    "Untitled.md",
+    "design/Mastering-The-Design-Process-Course.md",
+    "customer-success/CX-For-Growth-Talk.md",
+    "books/intercom-on-product-management.md",
+    "ruby/Debugging-in-VScode.md",
+    "ableton/Your-First-Arel-Query.md",
+    "system-design/interviews.md",
+    "system-design/distributed-data.md",
+    "system-design/data-systems.md"
+  ]
+}
