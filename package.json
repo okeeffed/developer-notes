@@ -37,7 +37,7 @@
     "js-base64": "^3.6.1",
     "lodash": "^4.17.21",
     "lunr": "^2.3.9",
-    "marked": "^3.0.0",
+    "marked": "^4.0.10",
     "md5": "^2.3.0",
     "next": "latest",
     "next-mdx-remote": "^3.0.4",
