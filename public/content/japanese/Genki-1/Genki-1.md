@@ -3,3 +3,4 @@
 ## Material
 
 - [[2-Shopping]]
+- [[Genki-1]]

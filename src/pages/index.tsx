@@ -51,19 +51,20 @@ import { useSelectedImage } from '../hooks/useSelectedImage'
 import DOKIcon from '../icons/dok.png'
 import { logEvent } from '../utils/amplitude/amplitude'
 
-const CodeBlock = dynamic(() =>
+const CodeBlock = dynamic<any>(() =>
   import('../components/CodeBlock').then((mod) => mod.CodeBlock)
 )
 
-const CodeBlockTabs = dynamic(() =>
+// Typecast to any to prevent ts error
+const CodeBlockTabs = dynamic<any>(() =>
   import('../components/CodeBlockTabs').then((mod) => mod.CodeBlockTabs)
 )
 
-const SimpleQuiz = dynamic(() =>
+const SimpleQuiz = dynamic<any>(() =>
   import('../components/SimpleQuiz').then((mod) => mod.SimpleQuiz)
 )
 const BlockMath = dynamic(() => import('../components/BlockMath/BlockMath'))
-const ImageModal = dynamic(() =>
+const ImageModal = dynamic<any>(() =>
   import('src/components/ImageModal/ImageModal').then((mod) => mod.ImageModal)
 )
 
@@ -180,7 +181,7 @@ const components: Record<string, React.FC<HTMLProps>> = {
       </Icon>
     </Link>
   ),
-  code: (props) => {
+  code: (props: any) => {
     // eslint-disable-next-line react-hooks/rules-of-hooks
     const [displayCode, setDisplayCode] = React.useState(false)
     return (

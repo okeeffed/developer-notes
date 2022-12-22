@@ -2713,6 +2713,15 @@
                 "href": "/japanese/Genki-1/Genki-1"
               }
             ]
+          },
+          {
+            "title": "Survival kit",
+            "files": [
+              {
+                "title": "Survival kit",
+                "href": "/japanese/Survival kit/Survival kit"
+              }
+            ]
           }
         ]
       },
@@ -5843,6 +5852,19 @@
           {
             "title": "Intro",
             "href": "/virtual-file-systems/intro"
+          }
+        ]
+      },
+      {
+        "title": "Visibuild",
+        "files": [
+          {
+            "title": "Testing hooks requiring apollo mocks",
+            "href": "/visibuild/Testing-Hooks-Requiring-Apollo-Mocks"
+          },
+          {
+            "title": "Visibuild",
+            "href": "/visibuild/Visibuild"
           }
         ]
       },
