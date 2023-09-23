@@ -4,5 +4,6 @@
 
 - [[Vim]]
 - [[intermediate-vim]]
+- [[lazyvim]]
 - [[neovim]]
 - [[vim-overview]]

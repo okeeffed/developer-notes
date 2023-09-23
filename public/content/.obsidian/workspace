@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "81afcea829cb47b4",
+        "id": "9f3f14eb2c6e343e",
         "type": "leaf",
         "state": {
           "type": "markdown",
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "system design",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -53,7 +53,11 @@
       }
     ],
     "direction": "horizontal",
+<<<<<<< HEAD
     "width": 538.5
+=======
+    "width": 272.5
+>>>>>>> ff1a74a42cffea5a81e818b54a5ebf4cb8d1410a
   },
   "right": {
     "id": "61a0a2678a769da1",
@@ -69,7 +73,10 @@
             "state": {
               "type": "backlink",
               "state": {
+<<<<<<< HEAD
                 "file": "postgresql/SQL-A-Z-Postgres-Track-SQL-Basics/2-Querying-Multiple-Tables.md",
+=======
+>>>>>>> ff1a74a42cffea5a81e818b54a5ebf4cb8d1410a
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -86,7 +93,10 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+<<<<<<< HEAD
                 "file": "postgresql/SQL-A-Z-Postgres-Track-SQL-Basics/2-Querying-Multiple-Tables.md",
+=======
+>>>>>>> ff1a74a42cffea5a81e818b54a5ebf4cb8d1410a
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -108,9 +118,13 @@
             "type": "leaf",
             "state": {
               "type": "outline",
+<<<<<<< HEAD
               "state": {
                 "file": "postgresql/SQL-A-Z-Postgres-Track-SQL-Basics/2-Querying-Multiple-Tables.md"
               }
+=======
+              "state": {}
+>>>>>>> ff1a74a42cffea5a81e818b54a5ebf4cb8d1410a
             }
           }
         ]
@@ -120,8 +134,9 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "81afcea829cb47b4",
+  "active": "9f3f14eb2c6e343e",
   "lastOpenFiles": [
+<<<<<<< HEAD
     "postgresql/SQL-A-Z-Postgres-Track-SQL-Basics/1-SQL-Basics-In-Postgres.md",
     "postgresql/SQL-A-Z-Postgres-Track-SQL-Basics/2-Querying-Multiple-Tables.md",
     "postgresql/Reading-PostgreSQL-Documentation.md",
@@ -132,5 +147,17 @@
     "typescript/enforcing-prop-names.md",
     "javascript/testing-javascript/6-Testing-React-Components-With-Jest-And-React-Testing-Library.md",
     "javascript/testing-javascript/5-Configure-Jest-For-Testing-JS-Apps.md"
+=======
+    "Untitled.md",
+    "design/Mastering-The-Design-Process-Course.md",
+    "customer-success/CX-For-Growth-Talk.md",
+    "books/intercom-on-product-management.md",
+    "ruby/Debugging-in-VScode.md",
+    "ableton/Your-First-Arel-Query.md",
+    "system-design/interviews.md",
+    "system-design/distributed-data.md",
+    "system-design/data-systems.md",
+    "system-design/System-Design.md"
+>>>>>>> ff1a74a42cffea5a81e818b54a5ebf4cb8d1410a
   ]
 }

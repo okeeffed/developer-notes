@@ -1,5 +1,5 @@
-import fs from "fs";
-import path from "path";
+import fs from 'fs'
+import path from 'path'
 
 import {
   Box,
@@ -26,83 +26,83 @@ import {
   useBreakpointValue,
   useColorModeValue,
   VStack,
-} from "@chakra-ui/react";
-import { Adsense } from "@components/Adsense";
-import { PackageSearch } from "@components/PackageSearch";
-import { Sidebar } from "@components/Sidebar";
-import { ExternalLinkIcon } from "@heroicons/react/outline";
-import kebabCase from "lodash/kebabCase";
-import startCase from "lodash/startCase";
-import { TokensList } from "marked";
-import { GetStaticPaths, GetStaticProps } from "next";
-import { MDXRemote } from "next-mdx-remote";
+} from '@chakra-ui/react'
+import { Adsense } from '@components/Adsense'
+import { PackageSearch } from '@components/PackageSearch'
+import { Sidebar } from '@components/Sidebar'
+import { ExternalLinkIcon } from '@heroicons/react/outline'
+import kebabCase from 'lodash/kebabCase'
+import startCase from 'lodash/startCase'
+import { TokensList } from 'marked'
+import { GetStaticPaths, GetStaticProps } from 'next'
+import { MDXRemote } from 'next-mdx-remote'
 // import { serialize } from "next-mdx-remote/serialize";
-import dynamic from "next/dynamic";
-import Head from "next/head";
-import NextImage from "next/image";
-import NextLink from "next/link";
-import { useRouter } from "next/router";
-import React from "react";
-import { Waypoint } from "react-waypoint";
+import dynamic from 'next/dynamic'
+import Head from 'next/head'
+import NextImage from 'next/image'
+import NextLink from 'next/link'
+import { useRouter } from 'next/router'
+import React from 'react'
+import { Waypoint } from 'react-waypoint'
 // import recursive from "recursive-readdir";
 // import unwrapImages from "remark-unwrap-images";
 
-import { DarkModeToggle } from "../../components/DarkModeToggle";
-import { useSelectedImage } from "../../hooks/useSelectedImage";
-import DOKIcon from "../../icons/dok.png";
-import { logEvent } from "../../utils/amplitude/amplitude";
+import { DarkModeToggle } from '../../components/DarkModeToggle'
+import { useSelectedImage } from '../../hooks/useSelectedImage'
+import DOKIcon from '../../icons/dok.png'
+import { logEvent } from '../../utils/amplitude/amplitude'
 
 const CodeBlock = dynamic(() =>
-  import("../../components/CodeBlock").then((mod) => mod.CodeBlock)
-);
+  import('../../components/CodeBlock').then((mod) => mod.CodeBlock)
+)
 
 // @ts-expect-error: props required
 const CodeBlockTabs = dynamic(() =>
-  import("../../components/CodeBlockTabs").then((mod) => mod.CodeBlockTabs)
-);
+  import('../../components/CodeBlockTabs').then((mod) => mod.CodeBlockTabs)
+)
 
 // @ts-expect-error: props required
 const SimpleQuiz = dynamic(() =>
-  import("../../components/SimpleQuiz").then((mod) => mod.SimpleQuiz)
-);
-const BlockMath = dynamic(() => import("../../components/BlockMath/BlockMath"));
+  import('../../components/SimpleQuiz').then((mod) => mod.SimpleQuiz)
+)
+const BlockMath = dynamic(() => import('../../components/BlockMath/BlockMath'))
 const ImageModal = dynamic(() =>
-  import("src/components/ImageModal/ImageModal").then((mod) => mod.ImageModal)
-);
+  import('src/components/ImageModal/ImageModal').then((mod) => mod.ImageModal)
+)
 
 function defineSrc(src: string) {
-  return src.replace("..", "");
+  return src.replace('..', '')
 }
 
 function getLanguage(className: string) {
   switch (className) {
-    case "language-s":
-    case "language-bash":
-    case "language-shell":
-      return "language-shell";
+    case 'language-s':
+    case 'language-bash':
+    case 'language-shell':
+      return 'language-shell'
     default:
-      return className;
+      return className
   }
 }
 
 type Post = {
-  title: string;
-  description: string;
-  href: string;
-  readingTime: string;
-  tags: string[];
-  date: string;
-  media: string;
-};
+  title: string
+  description: string
+  href: string
+  readingTime: string
+  tags: string[]
+  date: string
+  media: string
+}
 
 type HTMLProps = React.HTMLAttributes<HTMLElement> & {
   // used for MathBlock
-  title?: string;
-};
+  title?: string
+}
 const components: Record<string, React.FC<HTMLProps>> = {
   h1: (props) => <Heading fontWeight="bold" size="3xl" mb={8} {...props} />,
   h2: (props) => {
-    const id = kebabCase(props.children as string);
+    const id = kebabCase(props.children as string)
     return (
       <Heading
         fontWeight="bold"
@@ -112,33 +112,33 @@ const components: Record<string, React.FC<HTMLProps>> = {
         mb={8}
         {...props}
       />
-    );
+    )
   },
   h3: (props) => <Heading fontWeight="bold" size="xl" mb={8} {...props} />,
   p: (props) => (
-    <Text fontSize={["lg", "xl"]} mb={8} lineHeight="tall" {...props} />
+    <Text fontSize={['lg', 'xl']} mb={8} lineHeight="tall" {...props} />
   ),
   img: (props) => {
     //
     const { onOpen, setImage } = useSelectedImage((state: any) => ({
       onOpen: state.onOpen,
       setImage: state.setImage,
-    }));
+    }))
 
     // @ts-expect-error: src added on
-    const src = defineSrc(props.src);
+    const src = defineSrc(props.src)
     return (
       <VStack
         justifyContent="center"
         _hover={{
           cursor: {
-            sm: "initial",
-            md: "pointer",
+            sm: 'initial',
+            md: 'pointer',
           },
         }}
         onClick={() => {
-          setImage(src);
-          onOpen();
+          setImage(src)
+          onOpen()
         }}
         mb={8}
       >
@@ -156,24 +156,24 @@ const components: Record<string, React.FC<HTMLProps>> = {
           {props.alt}
         </Text>
       </VStack>
-    );
+    )
   },
   a: ({ children, ...rest }) => (
     <Link
-      color={useColorModeValue("blue.600", "blue.300")}
+      color={useColorModeValue('blue.600', 'blue.300')}
       fontWeight="bold"
       rel="noreferrer noopener"
       target="_blank"
       textDecoration="none"
       borderBottomWidth="6px"
-      borderBottomColor={useColorModeValue("blue.100", "blue.600")}
+      borderBottomColor={useColorModeValue('blue.100', 'blue.600')}
       _hover={{
-        borderBottomColor: useColorModeValue("blue.300", "blue.400"),
-        color: useColorModeValue("blue.900", "blue.100"),
+        borderBottomColor: useColorModeValue('blue.300', 'blue.400'),
+        color: useColorModeValue('blue.900', 'blue.100'),
       }}
       _focus={{
-        borderBottomColor: useColorModeValue("blue.300", "blue.400"),
-        color: useColorModeValue("blue.900", "blue.100"),
+        borderBottomColor: useColorModeValue('blue.300', 'blue.400'),
+        color: useColorModeValue('blue.900', 'blue.100'),
       }}
       {...rest}
     >
@@ -185,7 +185,7 @@ const components: Record<string, React.FC<HTMLProps>> = {
   ),
   code: (props) => {
     // eslint-disable-next-line react-hooks/rules-of-hooks
-    const [displayCode, setDisplayCode] = React.useState(false);
+    const [displayCode, setDisplayCode] = React.useState(false)
     return (
       <div>
         <Waypoint onEnter={() => setDisplayCode(true)} topOffset="-400px" />
@@ -196,7 +196,7 @@ const components: Record<string, React.FC<HTMLProps>> = {
           displayCode={displayCode}
         />
       </div>
-    );
+    )
   },
   ul: (props) => (
     <Box px={6} mb={8}>
@@ -215,7 +215,7 @@ const components: Record<string, React.FC<HTMLProps>> = {
         {React.Children.map(props.children, (child) =>
           React.cloneElement(child as React.ReactElement<any, string>, {
             py: 2,
-            fontSize: "2xl",
+            fontSize: '2xl',
           })
         )}
       </Text>
@@ -228,55 +228,55 @@ const components: Record<string, React.FC<HTMLProps>> = {
   th: (props) => <Th bgColor="gray.100" {...props} />,
   thead: (props) => <Thead {...props} />,
   tfoot: (props) => <Tfoot {...props} />,
-  BlockMath: ({ title = "Math block", ...props }) => (
+  BlockMath: ({ title = 'Math block', ...props }) => (
     <BlockMath title={title} {...props} />
   ),
   CodeBlockTabs: (props) => <CodeBlockTabs {...props} />,
   SimpleQuiz: (props) => <SimpleQuiz {...props} />,
-};
+}
 
-components.h1.displayName = "h1";
-components.h2.displayName = "h2";
-components.h3.displayName = "h3";
-components.p.displayName = "p";
-components.img.displayName = "img";
-components.a.displayName = "a";
-components.code.displayName = "code";
-components.ul.displayName = "ul";
-components.li.displayName = "li";
-components.ol.displayName = "ol";
-components.blockquote.displayName = "blockquote";
-components.table.displayName = "table";
-components.tbody.displayName = "tbody";
-components.td.displayName = "td";
-components.tr.displayName = "tr";
-components.th.displayName = "th";
-components.thead.displayName = "thead";
-components.tfoot.displayName = "tfoot";
-components.BlockMath.displayName = "BlockMath";
-components.CodeBlockTabs.displayName = "CodeBlockTabs";
-components.SimpleQuiz.displayName = "SimpleQuiz";
+components.h1.displayName = 'h1'
+components.h2.displayName = 'h2'
+components.h3.displayName = 'h3'
+components.p.displayName = 'p'
+components.img.displayName = 'img'
+components.a.displayName = 'a'
+components.code.displayName = 'code'
+components.ul.displayName = 'ul'
+components.li.displayName = 'li'
+components.ol.displayName = 'ol'
+components.blockquote.displayName = 'blockquote'
+components.table.displayName = 'table'
+components.tbody.displayName = 'tbody'
+components.td.displayName = 'td'
+components.tr.displayName = 'tr'
+components.th.displayName = 'th'
+components.thead.displayName = 'thead'
+components.tfoot.displayName = 'tfoot'
+components.BlockMath.displayName = 'BlockMath'
+components.CodeBlockTabs.displayName = 'CodeBlockTabs'
+components.SimpleQuiz.displayName = 'SimpleQuiz'
 
 type FrontMatter = {
-  title: string;
-  tags: string;
-  image: string;
-  description: string;
-  published?: boolean;
-};
+  title: string
+  tags: string
+  image: string
+  description: string
+  published?: boolean
+}
 
 interface IBlog {
-  source: string;
-  frontMatter: FrontMatter;
-  headings: string[];
-  mdxFile: string;
-  version: string;
-  lastUpdated: string;
+  source: string
+  frontMatter: FrontMatter
+  headings: string[]
+  mdxFile: string
+  version: string
+  lastUpdated: string
   recommendations: {
-    title: string;
-    url: string;
-  }[];
-  componentNames: string[];
+    title: string
+    url: string
+  }[]
+  componentNames: string[]
 }
 
 export default function Blog({
@@ -287,39 +287,39 @@ export default function Blog({
   componentNames,
   recommendations,
 }: IBlog) {
-  const { push } = useRouter();
+  const { push } = useRouter()
   const { src, isOpen, onClose } = useSelectedImage((state: any) => ({
     src: state.src,
     isOpen: state.isOpen,
     onClose: state.onClose,
-  }));
-  const isModalDisplayed = useBreakpointValue({ md: true, sm: false });
+  }))
+  const isModalDisplayed = useBreakpointValue({ md: true, sm: false })
   const allComponents = {
     ...components,
-    BlockMath: componentNames.includes("BlockMath")
+    BlockMath: componentNames.includes('BlockMath')
       ? components.BlockMath
       : null,
-  };
+  }
 
   React.useEffect(() => {
     if (published === false) {
-      void push("/");
+      void push('/')
     }
-  }, [push, published]);
+  }, [push, published])
 
   React.useEffect(() => {
-    void logEvent("Blog post viewed", {
+    void logEvent('Blog post viewed', {
       title,
       tags,
-    });
-  }, [title, tags]);
+    })
+  }, [title, tags])
 
-  const headerBgColor = useColorModeValue("white", "gray.800");
-  const linkColor = useColorModeValue("blue", "blue.300");
-  const repo = `https://github.com/okeeffed/developer-notes-nextjs/content/${mdxFile}`;
+  const headerBgColor = useColorModeValue('white', 'gray.800')
+  const linkColor = useColorModeValue('blue', 'blue.300')
+  const repo = `https://github.com/okeeffed/developer-notes-nextjs/content/${mdxFile}`
   const metaTitle = startCase(
-    mdxFile.split("/").pop().replace(".md", "") ?? "Docs"
-  );
+    mdxFile.split('/').pop().replace('.md', '') ?? 'Docs'
+  )
 
   return (
     <>
@@ -393,8 +393,8 @@ export default function Blog({
           <GridItem
             colSpan={1}
             display={{
-              sm: "none",
-              md: "block",
+              sm: 'none',
+              md: 'block',
             }}
           >
             <Sidebar />
@@ -416,7 +416,7 @@ export default function Blog({
                   quality={72}
                   priority
                   placeholder={
-                    process.env.NODE_ENV === "production" ? "blur" : "empty"
+                    process.env.NODE_ENV === 'production' ? 'blur' : 'empty'
                   }
                 />
               )}
@@ -431,9 +431,9 @@ export default function Blog({
           <GridItem
             colSpan={1}
             display={{
-              sm: "none",
-              md: "none",
-              lg: "block",
+              sm: 'none',
+              md: 'none',
+              lg: 'block',
             }}
           >
             <VStack pt={0} spacing={4} alignItems="flex-start">
@@ -493,13 +493,13 @@ export default function Blog({
         />
       )}
     </>
-  );
+  )
 }
 
 type Matter = {
-  content: string;
-  data: Record<string, unknown>;
-};
+  content: string
+  data: Record<string, unknown>
+}
 
 // This function gets called at build time on server-side.
 // It won't be called on client-side, so you can even do
@@ -509,51 +509,51 @@ export const getStaticProps: GetStaticProps = async (context) => {
     fs
       .readdirSync(source, { withFileTypes: true })
       .filter((dirent) => !dirent.isDirectory())
-      .map((dirent) => dirent.name);
+      .map((dirent) => dirent.name)
 
   const {
     params: { mdxFile: arg, category },
-  } = context;
+  } = context
 
-  const fileArgs = Array.isArray(arg) ? [category, ...arg] : [category, arg];
+  const fileArgs = Array.isArray(arg) ? [category, ...arg] : [category, arg]
 
-  const mdxFile = fileArgs.join("/");
-  const mdxFileFolderArr = mdxFile.split("/");
+  const mdxFile = fileArgs.join('/')
+  const mdxFileFolderArr = mdxFile.split('/')
   // remove the file name
-  mdxFileFolderArr.pop();
-  const mdxFileFolder = mdxFileFolderArr.join("/");
-  const relativePath = "./public/content/";
+  mdxFileFolderArr.pop()
+  const mdxFileFolder = mdxFileFolderArr.join('/')
+  const relativePath = './public/content/'
 
   const recommendations = getDirectoryFiles(
     path.resolve(process.cwd(), relativePath, mdxFileFolder)
   ).map((file) => {
-    const fileWithoutExt = file.replace(".md", "");
+    const fileWithoutExt = file.replace('.md', '')
     return {
       title: fileWithoutExt,
       url: `/${mdxFileFolder}/${fileWithoutExt}`,
-    };
-  });
+    }
+  })
 
   const fileContents = fs.readFileSync(
     path.resolve(process.cwd(), relativePath, `${mdxFile}.md`),
-    "utf-8"
-  );
+    'utf-8'
+  )
 
-  const matter = await import("gray-matter").then((mod) => mod.default);
-  const { content, data } = matter(fileContents) as Matter;
+  const matter = await import('gray-matter').then((mod) => mod.default)
+  const { content, data } = matter(fileContents) as Matter
 
-  const serialize = await import("next-mdx-remote/serialize").then(
+  const serialize = await import('next-mdx-remote/serialize').then(
     (mod) => mod.serialize
-  );
-  const unwrapImages = await import("remark-unwrap-images").then(
+  )
+  const unwrapImages = await import('remark-unwrap-images').then(
     (mod) => mod.default
-  );
+  )
 
   // Enforce source to replace [[(.+)]] with actual links.
   const filteredSrc = content.replace(
     /\[\[(.+)\]\]/g,
     `[$1](/${mdxFileFolder}/$1)`
-  );
+  )
 
   const mdxSource = await serialize(filteredSrc, {
     scope: data,
@@ -561,20 +561,20 @@ export const getStaticProps: GetStaticProps = async (context) => {
       // @ts-expect-error: VFile type error
       remarkPlugins: [unwrapImages],
     },
-  });
+  })
 
-  const marked = await import("marked").then((mod) => mod.default);
-  const tokens: TokensList = marked.lexer(content);
+  const marked = await import('marked').then((mod) => mod.default)
+  const tokens: TokensList = marked.lexer(content)
   const headings = tokens
-    .filter((token) => token.type === "heading" && token.depth === 2)
+    .filter((token) => token.type === 'heading' && token.depth === 2)
     // @ts-expect-error: text does exist
-    .map((token) => token.text as string);
+    .map((token) => token.text as string)
 
   const componentNames = [
-    /<BlockMath/.test(content) ? "BlockMath" : null,
-    /<CodeBlockTabs/.test(content) ? "CodeBlockTabs" : null,
-    /<SimpleQuiz/.test(content) ? "SimpleQuiz" : null,
-  ].filter(Boolean);
+    /<BlockMath/.test(content) ? 'BlockMath' : null,
+    /<CodeBlockTabs/.test(content) ? 'CodeBlockTabs' : null,
+    /<SimpleQuiz/.test(content) ? 'SimpleQuiz' : null,
+  ].filter(Boolean)
 
   return {
     props: {
@@ -585,43 +585,43 @@ export const getStaticProps: GetStaticProps = async (context) => {
       mdxFile,
       recommendations,
     },
-  };
-};
+  }
+}
 
 export const getStaticPaths: GetStaticPaths = async () => {
-  const recursive = await import("recursive-readdir").then(
+  const recursive = await import('recursive-readdir').then(
     (module) => module.default
-  );
+  )
 
   const files = await recursive(
-    path.resolve(process.cwd(), "./public/content"),
-    ["!*.md"]
-  );
+    path.resolve(process.cwd(), './public/content'),
+    ['!*.md']
+  )
 
-  const filesWithoutIndex = files.filter((file) => !file.includes("index.md"));
+  const filesWithoutIndex = files.filter((file) => !file.includes('index.md'))
 
   const pkgs = filesWithoutIndex.map((file) => {
     const relativeFile = file
-      .replace(`${process.cwd()}/public/content/`, "")
-      .replace(".md", "");
+      .replace(`${process.cwd()}/public/content/`, '')
+      .replace('.md', '')
 
     return {
       mdxFile: relativeFile,
-    };
-  });
+    }
+  })
 
   const paths = pkgs.map(({ mdxFile }) => {
-    const [category, ...mdxFileParts] = mdxFile.split("/");
+    const [category, ...mdxFileParts] = mdxFile.split('/')
     return {
       params: {
         category: category,
         mdxFile: mdxFileParts,
       },
-    };
-  });
+    }
+  })
 
   return {
     paths: paths,
-    fallback: "blocking",
-  };
-};
+    fallback: 'blocking',
+  }
+}

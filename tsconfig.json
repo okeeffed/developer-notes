@@ -1,7 +1,11 @@
 {
   "compilerOptions": {
     "target": "es5",
-    "lib": ["dom", "dom.iterable", "esnext"],
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
     "allowJs": true,
     "skipLibCheck": true,
     "strict": false,
@@ -15,10 +19,22 @@
     "jsx": "preserve",
     "baseUrl": ".",
     "paths": {
-      "@quiz/*": ["src/components/quiz/*"],
-      "@components/*": ["src/components/*"]
-    }
+      "@quiz/*": [
+        "src/components/quiz/*"
+      ],
+      "@components/*": [
+        "src/components/*"
+      ]
+    },
+    "incremental": true
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
-  "exclude": ["node_modules", "infra"]
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx"
+  ],
+  "exclude": [
+    "node_modules",
+    "infra"
+  ]
 }

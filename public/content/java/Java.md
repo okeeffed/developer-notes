@@ -2,6 +2,7 @@
 
 ## Material
 
+- [[Helsinki-MOOC]]
 - [[Java]]
 - [[basic-imports]]
 - [[cheat-sheet]]

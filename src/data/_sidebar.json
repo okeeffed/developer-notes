@@ -16,6 +16,10 @@
             "href": "/ableton/Ableton"
           },
           {
+            "title": "Your first arel query",
+            "href": "/ableton/Your-First-Arel-Query"
+          },
+          {
             "title": "Sound production course levels and panning",
             "href": "/ableton/sound-production-course-levels-and-panning"
           },
@@ -415,6 +419,15 @@
           {
             "title": "Policy and level",
             "href": "/architectural-principles/policy-and-level"
+          }
+        ]
+      },
+      {
+        "title": "Arel",
+        "files": [
+          {
+            "title": "Arel",
+            "href": "/arel/Arel"
           }
         ]
       },
@@ -896,6 +909,10 @@
             "href": "/books/Books"
           },
           {
+            "title": "Four thousand weeks",
+            "href": "/books/Four-Thousand-Weeks"
+          },
+          {
             "title": "Conversation casanova",
             "href": "/books/conversation-casanova"
           },
@@ -1139,10 +1156,57 @@
               {
                 "title": "A programmers perspective",
                 "href": "/computer-systems/a-programmers-perspective/A-Programmers-Perspective"
-              },
+              }
+            ],
+            "dirs": [
               {
-                "title": "Buses",
-                "href": "/computer-systems/a-programmers-perspective/Buses"
+                "title": "1 a tour of computer systems",
+                "files": [
+                  {
+                    "title": "1 a tour of computer systems",
+                    "href": "/computer-systems/a-programmers-perspective/1-A-Tour-Of-Computer-Systems/1-A-Tour-Of-Computer-Systems"
+                  },
+                  {
+                    "title": "Buses",
+                    "href": "/computer-systems/a-programmers-perspective/1-A-Tour-Of-Computer-Systems/Buses"
+                  },
+                  {
+                    "title": "Caches",
+                    "href": "/computer-systems/a-programmers-perspective/1-A-Tour-Of-Computer-Systems/Caches"
+                  },
+                  {
+                    "title": "Io devices",
+                    "href": "/computer-systems/a-programmers-perspective/1-A-Tour-Of-Computer-Systems/IO-Devices"
+                  },
+                  {
+                    "title": "Kernel",
+                    "href": "/computer-systems/a-programmers-perspective/1-A-Tour-Of-Computer-Systems/Kernel"
+                  },
+                  {
+                    "title": "Main memory",
+                    "href": "/computer-systems/a-programmers-perspective/1-A-Tour-Of-Computer-Systems/Main Memory"
+                  },
+                  {
+                    "title": "Overview",
+                    "href": "/computer-systems/a-programmers-perspective/1-A-Tour-Of-Computer-Systems/Overview"
+                  },
+                  {
+                    "title": "Processes",
+                    "href": "/computer-systems/a-programmers-perspective/1-A-Tour-Of-Computer-Systems/Processes"
+                  },
+                  {
+                    "title": "Processors",
+                    "href": "/computer-systems/a-programmers-perspective/1-A-Tour-Of-Computer-Systems/Processors"
+                  },
+                  {
+                    "title": "Threads",
+                    "href": "/computer-systems/a-programmers-perspective/1-A-Tour-Of-Computer-Systems/Threads"
+                  },
+                  {
+                    "title": "Virtual memory",
+                    "href": "/computer-systems/a-programmers-perspective/1-A-Tour-Of-Computer-Systems/Virtual-Memory"
+                  }
+                ]
               }
             ]
           }
@@ -1277,6 +1341,19 @@
         ]
       },
       {
+        "title": "Customer success",
+        "files": [
+          {
+            "title": "Cx for growth talk",
+            "href": "/customer-success/CX-For-Growth-Talk"
+          },
+          {
+            "title": "Customer success",
+            "href": "/customer-success/Customer-Success"
+          }
+        ]
+      },
+      {
         "title": "Cypress",
         "files": [
           {
@@ -1294,7 +1371,11 @@
         "files": [
           {
             "title": "D3",
-            "href": "/d3/d3"
+            "href": "/d3/D3"
+          },
+          {
+            "title": "D3 notes",
+            "href": "/d3/d3-notes"
           }
         ]
       },
@@ -1446,6 +1527,10 @@
             "href": "/design/Design"
           },
           {
+            "title": "Mastering the design process course",
+            "href": "/design/Mastering-The-Design-Process-Course"
+          },
+          {
             "title": "Design fundamentals 7 tricks graphic designers dont want you to know",
             "href": "/design/design-fundamentals-7-tricks-graphic-designers-dont-want-you-to-know"
           }
@@ -1454,6 +1539,10 @@
       {
         "title": "Design patterns",
         "files": [
+          {
+            "title": "Design patterns",
+            "href": "/design-patterns/Design-Patterns"
+          },
           {
             "title": "Abstract factory pattern",
             "href": "/design-patterns/abstract-factory-pattern"
@@ -1491,8 +1580,8 @@
             "href": "/design-patterns/delegation"
           },
           {
-            "title": "Design patterns",
-            "href": "/design-patterns/design-patterns"
+            "title": "Design patterns overview",
+            "href": "/design-patterns/design-patterns-overview"
           },
           {
             "title": "Facade pattern",
@@ -1560,12 +1649,16 @@
         "title": "Design systems",
         "files": [
           {
+            "title": "Design systems",
+            "href": "/design-systems/Design-Systems"
+          },
+          {
             "title": "Comparing design systems",
             "href": "/design-systems/comparing-design-systems"
           },
           {
-            "title": "Design systems",
-            "href": "/design-systems/design-systems"
+            "title": "Design systems overview",
+            "href": "/design-systems/design-systems-overview"
           },
           {
             "title": "Design tokens",
@@ -2600,6 +2693,39 @@
         ]
       },
       {
+        "title": "Japanese",
+        "files": [
+          {
+            "title": "Japanese",
+            "href": "/japanese/Japanese"
+          }
+        ],
+        "dirs": [
+          {
+            "title": "Genki 1",
+            "files": [
+              {
+                "title": "2 shopping",
+                "href": "/japanese/Genki-1/2-Shopping"
+              },
+              {
+                "title": "Genki 1",
+                "href": "/japanese/Genki-1/Genki-1"
+              }
+            ]
+          },
+          {
+            "title": "Survival kit",
+            "files": [
+              {
+                "title": "Survival kit",
+                "href": "/japanese/Survival kit/Survival kit"
+              }
+            ]
+          }
+        ]
+      },
+      {
         "title": "Java",
         "files": [
           {
@@ -2787,6 +2913,37 @@
             "title": "Yeoman generator",
             "href": "/javascript/yeoman-generator"
           }
+        ],
+        "dirs": [
+          {
+            "title": "Testing javascript",
+            "files": [
+              {
+                "title": "2 javascript mocking fundamentals",
+                "href": "/javascript/testing-javascript/2-JavaScript-Mocking-Fundamentals"
+              },
+              {
+                "title": "3 static analysis testing javascript applications",
+                "href": "/javascript/testing-javascript/3-Static-Analysis-Testing-JavaScript-Applications"
+              },
+              {
+                "title": "4 using dom testing library to test any js framework",
+                "href": "/javascript/testing-javascript/4-Using-DOM-Testing-Library-to-test-any-JS-framework"
+              },
+              {
+                "title": "5 configure jest for testing js apps",
+                "href": "/javascript/testing-javascript/5-Configure-Jest-For-Testing-JS-Apps"
+              },
+              {
+                "title": "6 testing react components with jest and react testing library",
+                "href": "/javascript/testing-javascript/6-Testing-React-Components-With-Jest-And-React-Testing-Library"
+              },
+              {
+                "title": "Testing javascript",
+                "href": "/javascript/testing-javascript/Testing-Javascript"
+              }
+            ]
+          }
         ]
       },
       {
@@ -2816,6 +2973,19 @@
           {
             "title": "Usage",
             "href": "/jira/usage"
+          }
+        ]
+      },
+      {
+        "title": "Jscodeshift",
+        "files": [
+          {
+            "title": "Examples",
+            "href": "/jscodeshift/Examples"
+          },
+          {
+            "title": "Jscodeshift",
+            "href": "/jscodeshift/Jscodeshift"
           }
         ]
       },
@@ -3112,15 +3282,6 @@
           {
             "title": "Product considerations",
             "href": "/lean-product/product-considerations"
-          }
-        ]
-      },
-      {
-        "title": "Learn ruby the hard way",
-        "files": [
-          {
-            "title": "Learn ruby the hard way",
-            "href": "/learn-ruby-the-hard-way/learn-ruby-the-hard-way"
           }
         ]
       },
@@ -3638,6 +3799,19 @@
         ]
       },
       {
+        "title": "Planet scale",
+        "files": [
+          {
+            "title": "Planet scale",
+            "href": "/planet-scale/Planet-Scale"
+          },
+          {
+            "title": "Useful commands",
+            "href": "/planet-scale/Useful-Commands"
+          }
+        ]
+      },
+      {
         "title": "Posix",
         "files": [
           {
@@ -3798,6 +3972,10 @@
         "title": "Principles",
         "files": [
           {
+            "title": "Principles",
+            "href": "/principles/Principles"
+          },
+          {
             "title": "Communications",
             "href": "/principles/communications"
           },
@@ -3830,8 +4008,8 @@
             "href": "/principles/patterns"
           },
           {
-            "title": "Principles",
-            "href": "/principles/principles"
+            "title": "Principles overview",
+            "href": "/principles/principles-overview"
           },
           {
             "title": "Resources",
@@ -3905,7 +4083,11 @@
         "files": [
           {
             "title": "Productivity",
-            "href": "/productivity/productivity"
+            "href": "/productivity/Productivity"
+          },
+          {
+            "title": "Productivity overview",
+            "href": "/productivity/productivity-overview"
           }
         ]
       },
@@ -4397,6 +4579,10 @@
         "title": "Redis",
         "files": [
           {
+            "title": "Redis",
+            "href": "/redis/Redis"
+          },
+          {
             "title": "Redis kue nodejs",
             "href": "/redis/redis-kue-nodejs"
           },
@@ -4405,8 +4591,8 @@
             "href": "/redis/redis-nodejs"
           },
           {
-            "title": "Redis",
-            "href": "/redis/redis"
+            "title": "Redis overview",
+            "href": "/redis/redis-overview"
           }
         ]
       },
@@ -4506,6 +4692,10 @@
       {
         "title": "Ruby",
         "files": [
+          {
+            "title": "Debugging in vscode",
+            "href": "/ruby/Debugging-in-VScode"
+          },
           {
             "title": "Ruby",
             "href": "/ruby/Ruby"
@@ -5195,6 +5385,10 @@
         "title": "Style",
         "files": [
           {
+            "title": "Style",
+            "href": "/style/Style"
+          },
+          {
             "title": "Base animations",
             "href": "/style/base-animations"
           },
@@ -5207,8 +5401,8 @@
             "href": "/style/base"
           },
           {
-            "title": "Style",
-            "href": "/style/style"
+            "title": "Style overview",
+            "href": "/style/style-overview"
           }
         ]
       },
@@ -5373,7 +5567,11 @@
         "files": [
           {
             "title": "Terraform",
-            "href": "/terraform/terraform"
+            "href": "/terraform/Terraform"
+          },
+          {
+            "title": "Terraform overview",
+            "href": "/terraform/terraform-overview"
           }
         ]
       },
@@ -5502,6 +5700,10 @@
         "title": "Typescript",
         "files": [
           {
+            "title": "Noted to merge",
+            "href": "/typescript/Noted-To-Merge"
+          },
+          {
             "title": "Typescript",
             "href": "/typescript/Typescript"
           },
@@ -5623,6 +5825,10 @@
         "title": "Vim",
         "files": [
           {
+            "title": "Vim",
+            "href": "/vim/Vim"
+          },
+          {
             "title": "Intermediate vim",
             "href": "/vim/intermediate-vim"
           },
@@ -5631,8 +5837,8 @@
             "href": "/vim/neovim"
           },
           {
-            "title": "Vim",
-            "href": "/vim/vim"
+            "title": "Vim overview",
+            "href": "/vim/vim-overview"
           }
         ]
       },
@@ -5646,6 +5852,19 @@
           {
             "title": "Intro",
             "href": "/virtual-file-systems/intro"
+          }
+        ]
+      },
+      {
+        "title": "Visibuild",
+        "files": [
+          {
+            "title": "Testing hooks requiring apollo mocks",
+            "href": "/visibuild/Testing-Hooks-Requiring-Apollo-Mocks"
+          },
+          {
+            "title": "Visibuild",
+            "href": "/visibuild/Visibuild"
           }
         ]
       },
@@ -5768,6 +5987,10 @@
         "title": "Webpack",
         "files": [
           {
+            "title": "Webpack",
+            "href": "/webpack/Webpack"
+          },
+          {
             "title": "Building a webpack plugin",
             "href": "/webpack/building-a-webpack-plugin"
           },
@@ -5784,6 +6007,10 @@
             "href": "/webpack/webpack-5-federation"
           },
           {
+            "title": "Webpack notes",
+            "href": "/webpack/webpack-notes"
+          },
+          {
             "title": "Webpack optimisation",
             "href": "/webpack/webpack-optimisation"
           },
@@ -5794,10 +6021,6 @@
           {
             "title": "Webpack plugins",
             "href": "/webpack/webpack-plugins"
-          },
-          {
-            "title": "Webpack",
-            "href": "/webpack/webpack"
           }
         ]
       },
@@ -5853,7 +6076,11 @@
             "files": [
               {
                 "title": "Xstate with react",
-                "href": "/xstate/xstate-with-react/xstate-with-react"
+                "href": "/xstate/xstate-with-react/Xstate-With-React"
+              },
+              {
+                "title": "Xstate with react usage with redux",
+                "href": "/xstate/xstate-with-react/xstate-with-react-usage-with-redux"
               }
             ]
           }

@@ -2,6 +2,7 @@
 
 ## Material
 
+- [[Debugging-in-VScode]]
 - [[Destroy-All-Software]]
 - [[Ruby]]
 - [[cocoapods-workshop]]
