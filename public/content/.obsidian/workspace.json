@@ -4,16 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "81afcea829cb47b4",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "postgresql/SQL-A-Z-Postgres-Track-SQL-Basics/2-Querying-Multiple-Tables.md",
-            "mode": "source",
-            "source": false
+        "id": "c308d2a233f9a3a6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "81afcea829cb47b4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "postgresql/SQL-A-Z-Postgres-Track-SQL-Basics/7-Basics-Quiz.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        }
+        ]
       }
     ],
     "direction": "vertical"
@@ -31,7 +37,9 @@
             "type": "leaf",
             "state": {
               "type": "file-explorer",
-              "state": {}
+              "state": {
+                "sortOrder": "alphabetical"
+              }
             }
           },
           {
@@ -48,12 +56,20 @@
                 "sortOrder": "alphabetical"
               }
             }
+          },
+          {
+            "id": "cf72982543bb4656",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 538.5
+    "width": 359.5
   },
   "right": {
     "id": "61a0a2678a769da1",
@@ -69,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "postgresql/SQL-A-Z-Postgres-Track-SQL-Basics/2-Querying-Multiple-Tables.md",
+                "file": "postgresql/SQL-A-Z-Postgres-Track-SQL-Basics/7-Basics-Quiz.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -86,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "postgresql/SQL-A-Z-Postgres-Track-SQL-Basics/2-Querying-Multiple-Tables.md",
+                "file": "postgresql/SQL-A-Z-Postgres-Track-SQL-Basics/7-Basics-Quiz.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -109,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "postgresql/SQL-A-Z-Postgres-Track-SQL-Basics/2-Querying-Multiple-Tables.md"
+                "file": "postgresql/SQL-A-Z-Postgres-Track-SQL-Basics/7-Basics-Quiz.md"
               }
             }
           }
@@ -120,10 +136,31 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "81afcea829cb47b4",
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "command-palette:Open command palette": false,
+      "markdown-importer:Open format converter": false
+    }
+  },
+  "active": "debda34d105c3236",
   "lastOpenFiles": [
-    "postgresql/SQL-A-Z-Postgres-Track-SQL-Basics/1-SQL-Basics-In-Postgres.md",
+    "postgresql/SQL-A-Z-Postgres-Track-SQL-Basics/SQL-A-Z-Postgres-Track-SQL-Basics.md",
+    "java/Helsinki-MOOC/Helsinki-MOOC.md",
+    "postgresql/SQL-A-Z-Postgres-Track-SQL-Basics/6-Set-Operations.md",
+    "postgresql/SQL-A-Z-Postgres-Track-SQL-Basics/7-Basics-Quiz.md",
+    "java/Helsinki-MOOC/Part-1.md",
+    "java/Helsinki-MOOC/Setting up a Java Env.md",
+    "postgresql/SQL-A-Z-Postgres-Track-SQL-Basics/5-Subqueries.md",
+    "postgresql/SQL-A-Z-Postgres-Track-SQL-Basics/4-Joins.md",
+    "postgresql/SQL-A-Z-Postgres-Track-SQL-Basics/3-Aggregation-And-Grouping.md",
+    "vim/lazyvim.md",
+    "vim/neovim.md",
     "postgresql/SQL-A-Z-Postgres-Track-SQL-Basics/2-Querying-Multiple-Tables.md",
+    "java/Helsinki-MOOC",
+    "postgresql/SQL-A-Z-Postgres-Track-SQL-Basics/1-SQL-Basics-In-Postgres.md",
     "postgresql/Reading-PostgreSQL-Documentation.md",
     "postgresql/psql-tips.md",
     "typescript/Making-TypeScript-Stick-Journal.md",
