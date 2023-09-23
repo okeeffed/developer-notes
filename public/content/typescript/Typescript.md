@@ -2,6 +2,8 @@
 
 ## Material
 
+- [[Making-TypeScript-Stick-Journal]]
+- [[Making-TypeScript-Stick]]
 - [[Typescript]]
 - [[developers-guide]]
 - [[duck-typing]]
