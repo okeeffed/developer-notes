@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "postgresql/SQL-A-Z-Postgres-Track-SQL-Basics/7-Basics-Quiz.md",
+                "file": "rust/Rust-In-Action/Chapter-2.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 359.5
+    "width": 263.5
   },
   "right": {
     "id": "61a0a2678a769da1",
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "postgresql/SQL-A-Z-Postgres-Track-SQL-Basics/7-Basics-Quiz.md",
+                "file": "rust/Rust-In-Action/Chapter-2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "postgresql/SQL-A-Z-Postgres-Track-SQL-Basics/7-Basics-Quiz.md",
+                "file": "rust/Rust-In-Action/Chapter-2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "postgresql/SQL-A-Z-Postgres-Track-SQL-Basics/7-Basics-Quiz.md"
+                "file": "rust/Rust-In-Action/Chapter-2.md"
               }
             }
           }
@@ -145,8 +145,18 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "debda34d105c3236",
+  "active": "81afcea829cb47b4",
   "lastOpenFiles": [
+    "rust/Rust-In-Action/Chapter-1.md",
+    "rust/Rust-In-Action/Chapter-2.md",
+    "postgresql/SQL-A-Z-Postgres-Track-Common-Functions/2-String-Functions.md",
+    "rust/Rust-In-Action",
+    "postgresql/SQL-A-Z-Postgres-Track-Common-Functions/1-Intro-Quiz.md",
+    "postgresql/SQL-A-Z-Postgres-Track-SQL-Basics/3-Aggregation-And-Grouping.md",
+    "postgresql/SQL-A-Z-Postgres-Track-SQL-Basics/5-Subqueries.md",
+    "postgresql/SQL-A-Z-Postgres-Track-SQL-Basics/4-Joins.md",
+    "postgresql/SQL-A-Z-Postgres-Track-SQL-Basics/7-Basics-Quiz.md",
+    "postgresql/SQL-A-Z-Postgres-Track-Common-Functions",
     "visibuild/Visibuild.md",
     "visibuild/Testing-Hooks-Requiring-Apollo-Mocks.md",
     "visibuild",
@@ -171,17 +181,7 @@
     "customer-success/CX-For-Growth-Talk.md",
     "customer-success",
     "arel/Arel.md",
-    "arel",
     "ableton/Your-First-Arel-Query.md",
-    "postgresql/SQL-A-Z-Postgres-Track-SQL-Basics/SQL-A-Z-Postgres-Track-SQL-Basics.md",
-    "java/Helsinki-MOOC/Helsinki-MOOC.md",
-    "postgresql/SQL-A-Z-Postgres-Track-SQL-Basics/6-Set-Operations.md",
-    "postgresql/SQL-A-Z-Postgres-Track-SQL-Basics/7-Basics-Quiz.md",
-    "java/Helsinki-MOOC/Part-1.md",
-    "java/Helsinki-MOOC/Setting up a Java Env.md",
-    "postgresql/SQL-A-Z-Postgres-Track-SQL-Basics/5-Subqueries.md",
-    "postgresql/SQL-A-Z-Postgres-Track-SQL-Basics/4-Joins.md",
-    "postgresql/SQL-A-Z-Postgres-Track-SQL-Basics/3-Aggregation-And-Grouping.md",
-    "java/Helsinki-MOOC"
+    "postgresql/SQL-A-Z-Postgres-Track-SQL-Basics/SQL-A-Z-Postgres-Track-SQL-Basics.md"
   ]
 }
