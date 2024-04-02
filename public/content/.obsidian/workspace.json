@@ -13,13 +13,24 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "rust/Rust-In-Action/Chapter-2.md",
+                "file": "lang-chain/Lang-Chain-ChatGpt-Course/Section-1-Getting-Started.md",
                 "mode": "source",
                 "source": false
               }
             }
+          },
+          {
+            "id": "14ebf812c3bbbb3c",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.5.3"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "rust/Rust-In-Action/Chapter-2.md",
+                "file": "lang-chain/Lang-Chain-ChatGpt-Course/Section-1-Getting-Started.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "rust/Rust-In-Action/Chapter-2.md",
+                "file": "lang-chain/Lang-Chain-ChatGpt-Course/Section-1-Getting-Started.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "rust/Rust-In-Action/Chapter-2.md"
+                "file": "lang-chain/Lang-Chain-ChatGpt-Course/Section-1-Getting-Started.md"
               }
             }
           }
@@ -145,10 +156,13 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "81afcea829cb47b4",
+  "active": "14ebf812c3bbbb3c",
   "lastOpenFiles": [
-    "rust/Rust-In-Action/Chapter-1.md",
     "rust/Rust-In-Action/Chapter-2.md",
+    "lang-chain/Lang-Chain-ChatGpt-Course/Section-1-Getting-Started.md",
+    "lang-chain/Lang-Chain-ChatGpt-Course",
+    "lang-chain",
+    "rust/Rust-In-Action/Chapter-1.md",
     "postgresql/SQL-A-Z-Postgres-Track-Common-Functions/2-String-Functions.md",
     "rust/Rust-In-Action",
     "postgresql/SQL-A-Z-Postgres-Track-Common-Functions/1-Intro-Quiz.md",
@@ -175,13 +189,10 @@
     "japanese/Survival kit",
     "japanese/Japanese.md",
     "japanese/Genki-1",
-    "japanese",
     "design/Mastering-The-Design-Process-Course.md",
     "customer-success/Customer-Success.md",
     "customer-success/CX-For-Growth-Talk.md",
-    "customer-success",
     "arel/Arel.md",
-    "ableton/Your-First-Arel-Query.md",
-    "postgresql/SQL-A-Z-Postgres-Track-SQL-Basics/SQL-A-Z-Postgres-Track-SQL-Basics.md"
+    "ableton/Your-First-Arel-Query.md"
   ]
 }
