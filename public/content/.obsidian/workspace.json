@@ -13,19 +13,21 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "lang-chain/Lang-Chain-ChatGpt-Course/Section-1-Getting-Started.md",
+                "file": "fintech/fintech-practitioner-course-on-payment-gateway-and-qr-code.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "14ebf812c3bbbb3c",
+            "id": "97bd112a6032d7e4",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.5.3"
+                "file": "computer-science/crash-course/3-Booloean-Logic-And-Logic-Gates.md",
+                "mode": "source",
+                "source": true
               }
             }
           }
@@ -80,7 +82,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 263.5
+    "width": 368.5
   },
   "right": {
     "id": "61a0a2678a769da1",
@@ -96,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "lang-chain/Lang-Chain-ChatGpt-Course/Section-1-Getting-Started.md",
+                "file": "computer-science/crash-course/3-Booloean-Logic-And-Logic-Gates.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "lang-chain/Lang-Chain-ChatGpt-Course/Section-1-Getting-Started.md",
+                "file": "computer-science/crash-course/3-Booloean-Logic-And-Logic-Gates.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "lang-chain/Lang-Chain-ChatGpt-Course/Section-1-Getting-Started.md"
+                "file": "computer-science/crash-course/3-Booloean-Logic-And-Logic-Gates.md"
               }
             }
           }
@@ -156,10 +158,23 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "14ebf812c3bbbb3c",
+  "active": "97bd112a6032d7e4",
   "lastOpenFiles": [
-    "rust/Rust-In-Action/Chapter-2.md",
+    "computer-science/crash-course/5-The-Arithmetic-Logic-Unit-ALU.md",
+    "computer-science/crash-course/7-The-Central-Processing-Unit-CPU.md",
+    "computer-science/crash-course/6-Registers-and-RAM.md",
+    "computer-science/crash-course/4-Binary-Representation-of-Numbers-and-Letters.md",
+    "computer-science/crash-course/3-Booloean-Logic-And-Logic-Gates.md",
+    "xstate/state-machines-in-js.md",
+    "rust/Stephen-Grider-Course/10-Generics.md",
+    "computer-science/crash-course",
+    "generative-art/p5-getting-started.md",
+    "fintech/fintech-practitioner-course-on-payment-gateway-and-qr-code.md",
+    "generative-art/Generative-Art.md",
+    "functional-programming/an-example-of-constrained-return-types.md",
     "lang-chain/Lang-Chain-ChatGpt-Course/Section-1-Getting-Started.md",
+    "fintech",
+    "rust/Rust-In-Action/Chapter-2.md",
     "lang-chain/Lang-Chain-ChatGpt-Course",
     "lang-chain",
     "rust/Rust-In-Action/Chapter-1.md",
@@ -180,19 +195,6 @@
     "ruby/Debugging-in-VScode.md",
     "react-hook-form/Performance.md",
     "react-hook-form",
-    "jscodeshift/Jscodeshift.md",
-    "jscodeshift/Examples.md",
-    "jscodeshift",
-    "japanese/Survival kit/Survival kit.md",
-    "japanese/Genki-1/Genki-1.md",
-    "japanese/Genki-1/2-Shopping.md",
-    "japanese/Survival kit",
-    "japanese/Japanese.md",
-    "japanese/Genki-1",
-    "design/Mastering-The-Design-Process-Course.md",
-    "customer-success/Customer-Success.md",
-    "customer-success/CX-For-Growth-Talk.md",
-    "arel/Arel.md",
-    "ableton/Your-First-Arel-Query.md"
+    "jscodeshift"
   ]
 }
