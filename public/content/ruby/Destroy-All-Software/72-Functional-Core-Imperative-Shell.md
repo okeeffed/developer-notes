@@ -5,6 +5,7 @@
 - [Destroy all software video](https://www.destroyallsoftware.com/screencasts/catalog/functional-core-imperative-shell)
 - [Kenneth Lange blog](https://www.kennethlange.com/functional-core-imperative-shell/)
 - [Medium post](https://medium.com/@dev.junehoe/functional-core-imperative-shell-a5d1696a4ccb)
+- [DoorDash Engineering Blog](https://doordash.engineering/2022/07/26/functional-core-imperative-shell-using-structured-concurrency-to-write-maintainable-grpc-endpoints-in-kotlin/)
 
 ## The content
 
