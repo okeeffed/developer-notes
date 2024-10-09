@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "nodejs/benchmarking/Benchmarking-In-Nodejs.md",
+                "file": "vite/Vite Course - FrontEnd Masters Notes.md",
                 "mode": "source",
                 "source": true
               }
@@ -82,7 +82,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 368.5
+    "width": 230.5
   },
   "right": {
     "id": "61a0a2678a769da1",
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "nodejs/benchmarking/Benchmarking-In-Nodejs.md",
+                "file": "vite/Vite Course - FrontEnd Masters Notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "nodejs/benchmarking/Benchmarking-In-Nodejs.md",
+                "file": "vite/Vite Course - FrontEnd Masters Notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "nodejs/benchmarking/Benchmarking-In-Nodejs.md"
+                "file": "vite/Vite Course - FrontEnd Masters Notes.md"
               }
             }
           }
@@ -160,8 +160,18 @@
   },
   "active": "97bd112a6032d7e4",
   "lastOpenFiles": [
-    "computer-science/crash-course/5-The-Arithmetic-Logic-Unit-ALU.md",
+    "vim/nvim/Kickstarter-Neovim-Keymaps.md",
+    "vite/Vite Course - FrontEnd Masters Notes.md",
+    "vite",
+    "vim/neovim.md",
+    "vim/Vim.md",
+    "fintech/fintech-practitioner-course-on-payment-gateway-and-qr-code.md",
+    "fintech/Tokenisation-and-Encryption-in-Digital-Payments.md",
+    "tmux/tmux-with-nvim.md",
+    "tmux",
     "nodejs/benchmarking/Benchmarking-In-Nodejs.md",
+    "vim/nvim",
+    "computer-science/crash-course/5-The-Arithmetic-Logic-Unit-ALU.md",
     "computer-science/crash-course/3-Booloean-Logic-And-Logic-Gates.md",
     "nodejs/benchmarking",
     "computer-science/crash-course/7-The-Central-Processing-Unit-CPU.md",
@@ -171,7 +181,6 @@
     "rust/Stephen-Grider-Course/10-Generics.md",
     "computer-science/crash-course",
     "generative-art/p5-getting-started.md",
-    "fintech/fintech-practitioner-course-on-payment-gateway-and-qr-code.md",
     "generative-art/Generative-Art.md",
     "functional-programming/an-example-of-constrained-return-types.md",
     "lang-chain/Lang-Chain-ChatGpt-Course/Section-1-Getting-Started.md",
@@ -186,15 +195,6 @@
     "postgresql/SQL-A-Z-Postgres-Track-SQL-Basics/3-Aggregation-And-Grouping.md",
     "postgresql/SQL-A-Z-Postgres-Track-SQL-Basics/5-Subqueries.md",
     "postgresql/SQL-A-Z-Postgres-Track-SQL-Basics/4-Joins.md",
-    "postgresql/SQL-A-Z-Postgres-Track-SQL-Basics/7-Basics-Quiz.md",
-    "postgresql/SQL-A-Z-Postgres-Track-Common-Functions",
-    "visibuild/Visibuild.md",
-    "visibuild/Testing-Hooks-Requiring-Apollo-Mocks.md",
-    "visibuild",
-    "typescript/Noted-To-Merge.md",
-    "seo/seo-for-devs/Lesson-1-Part-1.md",
-    "seo/seo-for-devs",
-    "ruby/Debugging-in-VScode.md",
-    "react-hook-form"
+    "postgresql/SQL-A-Z-Postgres-Track-Common-Functions"
   ]
 }
