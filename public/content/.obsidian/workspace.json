@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "vite/Vite Course - FrontEnd Masters Notes.md",
+                "file": "web/frontend-masters-web-security-v2-course.md",
                 "mode": "source",
                 "source": true
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "vite/Vite Course - FrontEnd Masters Notes.md",
+                "file": "web/frontend-masters-web-security-v2-course.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "vite/Vite Course - FrontEnd Masters Notes.md",
+                "file": "web/frontend-masters-web-security-v2-course.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "vite/Vite Course - FrontEnd Masters Notes.md"
+                "file": "web/frontend-masters-web-security-v2-course.md"
               }
             }
           }
@@ -160,8 +160,10 @@
   },
   "active": "97bd112a6032d7e4",
   "lastOpenFiles": [
-    "vim/nvim/Kickstarter-Neovim-Keymaps.md",
     "vite/Vite Course - FrontEnd Masters Notes.md",
+    "web/frontend-masters-web-security-v2-course.md",
+    "web/web-security-v2-course",
+    "vim/nvim/Kickstarter-Neovim-Keymaps.md",
     "vite",
     "vim/neovim.md",
     "vim/Vim.md",
@@ -193,8 +195,6 @@
     "rust/Rust-In-Action",
     "postgresql/SQL-A-Z-Postgres-Track-Common-Functions/1-Intro-Quiz.md",
     "postgresql/SQL-A-Z-Postgres-Track-SQL-Basics/3-Aggregation-And-Grouping.md",
-    "postgresql/SQL-A-Z-Postgres-Track-SQL-Basics/5-Subqueries.md",
-    "postgresql/SQL-A-Z-Postgres-Track-SQL-Basics/4-Joins.md",
-    "postgresql/SQL-A-Z-Postgres-Track-Common-Functions"
+    "postgresql/SQL-A-Z-Postgres-Track-SQL-Basics/5-Subqueries.md"
   ]
 }
