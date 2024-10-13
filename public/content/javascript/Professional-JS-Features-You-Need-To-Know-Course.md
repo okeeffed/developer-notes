@@ -116,6 +116,63 @@ Two different symbols are not identical to each other.
 
 Read more https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol/for
 
+Some more code examples:
+
+```js
+console.log(Symbol.for('bar') === Symbol.for('bar'));
+// Expected output: true
+
+console.log(Symbol('bar') === Symbol('bar'));
+// Expected output: false
+
+const symbol1 = Symbol.for('foo');
+
+console.log(symbol1.toString());
+// Expected output: "Symbol(foo)"
+
+const symbolA = Symbol("A")
+
+class A {
+  _tag = symbolA
+  _generic = "A"
+
+  getTag() {
+    return this._tag
+  }
+
+  getGeneric() {
+    return this._generic
+  }
+}
+
+const symbolAltA = Symbol("A")
+
+class AltA {
+  _tag = symbolAltA
+  _generic = "A"
+
+  getTag() {
+    return this._tag
+  }
+
+  getGeneric() {
+    return this._generic
+  }
+}
+
+const a = new A()
+const ab = new A()
+const altA = new AltA()
+
+console.log(a.getTag() === ab.getTag()) // true
+console.log(a.getTag() === altA.getTag()) // false
+
+console.log(a.getGeneric() === ab.getGeneric()) // true
+console.log(a.getGeneric() === altA.getGeneric()) // true
+```
+
+This is actually used a lot in the EffectTS codebase https://github.com/Effect-TS/effect/blob/main/packages/effect/src/Effect.ts
+
 ### 5.4 Error Cause & Hashbang Grammar
 
 `cause` is a new value that can be added to an error in ES2022.

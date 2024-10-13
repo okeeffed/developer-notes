@@ -160,8 +160,9 @@
   },
   "active": "97bd112a6032d7e4",
   "lastOpenFiles": [
-    "tmux/tmux-with-nvim.md",
+    "typescript/Intermediate-TypeScript-v2.md",
     "javascript/Professional-JS-Features-You-Need-To-Know-Course.md",
+    "tmux/tmux-with-nvim.md",
     "javascript/Untitled",
     "vim/nvim/Kickstarter-Neovim-Keymaps.md",
     "web/frontend-masters-web-security-v2-course.md",
@@ -194,7 +195,6 @@
     "lang-chain",
     "rust/Rust-In-Action/Chapter-1.md",
     "postgresql/SQL-A-Z-Postgres-Track-Common-Functions/2-String-Functions.md",
-    "postgresql/SQL-A-Z-Postgres-Track-Common-Functions/1-Intro-Quiz.md",
-    "postgresql/SQL-A-Z-Postgres-Track-SQL-Basics/3-Aggregation-And-Grouping.md"
+    "postgresql/SQL-A-Z-Postgres-Track-Common-Functions/1-Intro-Quiz.md"
   ]
 }
