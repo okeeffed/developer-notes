@@ -161,6 +161,7 @@
   "active": "97bd112a6032d7e4",
   "lastOpenFiles": [
     "typescript/Intermediate-TypeScript-v2.md",
+    "typescript/developers-guide.md",
     "javascript/Professional-JS-Features-You-Need-To-Know-Course.md",
     "tmux/tmux-with-nvim.md",
     "javascript/Untitled",
@@ -194,7 +195,6 @@
     "lang-chain/Lang-Chain-ChatGpt-Course",
     "lang-chain",
     "rust/Rust-In-Action/Chapter-1.md",
-    "postgresql/SQL-A-Z-Postgres-Track-Common-Functions/2-String-Functions.md",
-    "postgresql/SQL-A-Z-Postgres-Track-Common-Functions/1-Intro-Quiz.md"
+    "postgresql/SQL-A-Z-Postgres-Track-Common-Functions/2-String-Functions.md"
   ]
 }

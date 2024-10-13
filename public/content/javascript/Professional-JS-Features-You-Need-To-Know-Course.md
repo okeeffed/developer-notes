@@ -1,3 +1,7 @@
+---
+menu: Javascript
+name: Professional JS Features You Need To Know
+---
 
 Please note that these docs only cover a small subset of things that I was interesting in covering.
 

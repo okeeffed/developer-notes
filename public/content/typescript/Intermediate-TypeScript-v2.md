@@ -1,3 +1,8 @@
+---
+menu: TypeScript
+name: Intermediate TypeScript v2
+---
+
 This is a course from Frontend masters https://frontendmasters.com/courses/intermediate-typescript-v2/
 
 I am only including the sections that make sense to include.
