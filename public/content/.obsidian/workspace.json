@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "web/frontend-masters-web-security-v2-course.md",
+                "file": "javascript/Professional-JS-Features-You-Need-To-Know-Course.md",
                 "mode": "source",
                 "source": true
               }
@@ -82,7 +82,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 230.5
+    "width": 244.5
   },
   "right": {
     "id": "61a0a2678a769da1",
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "web/frontend-masters-web-security-v2-course.md",
+                "file": "javascript/Professional-JS-Features-You-Need-To-Know-Course.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "web/frontend-masters-web-security-v2-course.md",
+                "file": "javascript/Professional-JS-Features-You-Need-To-Know-Course.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "web/frontend-masters-web-security-v2-course.md"
+                "file": "javascript/Professional-JS-Features-You-Need-To-Know-Course.md"
               }
             }
           }
@@ -160,16 +160,18 @@
   },
   "active": "97bd112a6032d7e4",
   "lastOpenFiles": [
-    "vite/Vite Course - FrontEnd Masters Notes.md",
-    "web/frontend-masters-web-security-v2-course.md",
-    "web/web-security-v2-course",
+    "tmux/tmux-with-nvim.md",
+    "javascript/Professional-JS-Features-You-Need-To-Know-Course.md",
+    "javascript/Untitled",
     "vim/nvim/Kickstarter-Neovim-Keymaps.md",
+    "web/frontend-masters-web-security-v2-course.md",
+    "vite/Vite Course - FrontEnd Masters Notes.md",
+    "web/web-security-v2-course",
     "vite",
     "vim/neovim.md",
     "vim/Vim.md",
     "fintech/fintech-practitioner-course-on-payment-gateway-and-qr-code.md",
     "fintech/Tokenisation-and-Encryption-in-Digital-Payments.md",
-    "tmux/tmux-with-nvim.md",
     "tmux",
     "nodejs/benchmarking/Benchmarking-In-Nodejs.md",
     "vim/nvim",
@@ -192,9 +194,7 @@
     "lang-chain",
     "rust/Rust-In-Action/Chapter-1.md",
     "postgresql/SQL-A-Z-Postgres-Track-Common-Functions/2-String-Functions.md",
-    "rust/Rust-In-Action",
     "postgresql/SQL-A-Z-Postgres-Track-Common-Functions/1-Intro-Quiz.md",
-    "postgresql/SQL-A-Z-Postgres-Track-SQL-Basics/3-Aggregation-And-Grouping.md",
-    "postgresql/SQL-A-Z-Postgres-Track-SQL-Basics/5-Subqueries.md"
+    "postgresql/SQL-A-Z-Postgres-Track-SQL-Basics/3-Aggregation-And-Grouping.md"
   ]
 }
