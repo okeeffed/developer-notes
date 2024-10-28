@@ -16,7 +16,9 @@
                 "file": "fintech/fintech-practitioner-course-on-payment-gateway-and-qr-code.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "fintech-practitioner-course-on-payment-gateway-and-qr-code"
             }
           },
           {
@@ -25,14 +27,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "javascript/Professional-JS-Features-You-Need-To-Know-Course.md",
+                "file": "postgresql/Complete-Intro-To-Sql-And-PostgresQL.md",
                 "mode": "source",
                 "source": true
-              }
+              },
+              "icon": "lucide-file",
+              "title": "Complete-Intro-To-Sql-And-PostgresQL"
+            }
+          },
+          {
+            "id": "c682de8f0a7b503b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "web/Web-Performance-Fundamentals-v2.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Web-Performance-Fundamentals-v2"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -52,7 +70,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
             }
           },
           {
@@ -67,7 +87,9 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "Search"
             }
           },
           {
@@ -75,14 +97,16 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 244.5
+    "width": 200
   },
   "right": {
     "id": "61a0a2678a769da1",
@@ -98,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "javascript/Professional-JS-Features-You-Need-To-Know-Course.md",
+                "file": "web/Web-Performance-Fundamentals-v2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,7 +130,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Web-Performance-Fundamentals-v2"
             }
           },
           {
@@ -115,10 +141,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "javascript/Professional-JS-Features-You-Need-To-Know-Course.md",
+                "file": "web/Web-Performance-Fundamentals-v2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Web-Performance-Fundamentals-v2"
             }
           },
           {
@@ -129,7 +157,9 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true
-              }
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
             }
           },
           {
@@ -138,8 +168,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "javascript/Professional-JS-Features-You-Need-To-Know-Course.md"
-              }
+                "file": "web/Web-Performance-Fundamentals-v2.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Web-Performance-Fundamentals-v2"
             }
           }
         ]
@@ -158,19 +190,32 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "97bd112a6032d7e4",
+  "active": "c682de8f0a7b503b",
   "lastOpenFiles": [
-    "typescript/Intermediate-TypeScript-v2.md",
-    "typescript/developers-guide.md",
-    "javascript/Professional-JS-Features-You-Need-To-Know-Course.md",
-    "tmux/tmux-with-nvim.md",
-    "javascript/Untitled",
+    "postgresql/Complete-Intro-To-Sql-And-PostgresQL.md",
     "vim/nvim/Kickstarter-Neovim-Keymaps.md",
+    "web/Web-Authentication-APIs.md",
+    "web/Web-Performance-Fundamentals-v2.md",
+    "web/web-performance-fundamentals/3-improving-performance.md",
+    "web/web-performance-fundamentals/4-optimizing-metrics.md",
+    "web/web-performance-fundamentals/5-planning.md",
+    "web/web-performance-fundamentals/2-metrics.md",
+    "web/web-performance-fundamentals/1-elements-of-performance.md",
+    "complete-intro-to-databases/sql.md",
+    "complete-intro-to-databases/Complete-Intro-To-Databases.md",
+    "ai/Build-AI-Powered-Apps-With-OpenAI-and-Nodejs.md",
+    "ai",
+    "containers/Complete-Intro-To-Containers.md",
+    "tmux/tmux-with-nvim.md",
+    "javascript/Professional-JS-Features-You-Need-To-Know-Course.md",
+    "typescript/Intermediate-TypeScript-v2.md",
+    "vim/neovim.md",
+    "typescript/developers-guide.md",
+    "javascript/Untitled",
     "web/frontend-masters-web-security-v2-course.md",
     "vite/Vite Course - FrontEnd Masters Notes.md",
     "web/web-security-v2-course",
     "vite",
-    "vim/neovim.md",
     "vim/Vim.md",
     "fintech/fintech-practitioner-course-on-payment-gateway-and-qr-code.md",
     "fintech/Tokenisation-and-Encryption-in-Digital-Payments.md",
@@ -180,21 +225,8 @@
     "computer-science/crash-course/5-The-Arithmetic-Logic-Unit-ALU.md",
     "computer-science/crash-course/3-Booloean-Logic-And-Logic-Gates.md",
     "nodejs/benchmarking",
-    "computer-science/crash-course/7-The-Central-Processing-Unit-CPU.md",
-    "computer-science/crash-course/6-Registers-and-RAM.md",
-    "computer-science/crash-course/4-Binary-Representation-of-Numbers-and-Letters.md",
-    "xstate/state-machines-in-js.md",
-    "rust/Stephen-Grider-Course/10-Generics.md",
     "computer-science/crash-course",
-    "generative-art/p5-getting-started.md",
-    "generative-art/Generative-Art.md",
-    "functional-programming/an-example-of-constrained-return-types.md",
-    "lang-chain/Lang-Chain-ChatGpt-Course/Section-1-Getting-Started.md",
     "fintech",
-    "rust/Rust-In-Action/Chapter-2.md",
-    "lang-chain/Lang-Chain-ChatGpt-Course",
-    "lang-chain",
-    "rust/Rust-In-Action/Chapter-1.md",
-    "postgresql/SQL-A-Z-Postgres-Track-Common-Functions/2-String-Functions.md"
+    "lang-chain/Lang-Chain-ChatGpt-Course"
   ]
 }
