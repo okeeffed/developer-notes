@@ -132,8 +132,6 @@ lang.org/query.html for more information.
 
 Certainly! I'll provide code examples for some of the key use cases I mentioned. This will help illustrate when and why you might use `Box` in Rust.
 
-
-
 ```rust
 // 1. Storing large data on the heap
 struct LargeStruct {
@@ -231,7 +229,6 @@ fn transfer_ownership() {
 }
 
 ```
-
 
 ## 3 Trait objects
 
@@ -478,8 +475,6 @@ First child's children: [Node { value: 4, parent: RefCell { value: (Weak) }, chi
 
 Certainly! I'd be happy to explain the code in detail. Let's break it down section by section:
 
-
-
 ```rust
 use std::cell::RefCell;
 use std::rc::{Rc, Weak};
@@ -537,15 +532,18 @@ fn main() {
 Now, let's go through each part in detail:
 
 1. Imports:
+
    ```rust
    use std::cell::RefCell;
    use std::rc::{Rc, Weak};
    ```
+
    - `RefCell`: Provides interior mutability, allowing us to change contents even when we only have shared references.
    - `Rc`: Reference Counted smart pointer, allowing multiple ownership.
    - `Weak`: A version of `Rc` that doesn't increase the strong reference count, used to prevent reference cycles.
 
 2. Node Structure:
+
    ```rust
    struct Node {
        value: i32,
@@ -553,24 +551,29 @@ Now, let's go through each part in detail:
        children: RefCell<Vec<Rc<Node>>>,
    }
    ```
+
    - `value`: The data stored in the node.
    - `parent`: A weak reference to the parent node, wrapped in a `RefCell` for interior mutability.
    - `children`: A vector of strong references to child nodes, also wrapped in a `RefCell`.
 
 3. Node Implementation:
+
    ```rust
    impl Node {
        fn new(value: i32) -> Rc<Self> { ... }
        fn add_child(self: &Rc<Self>, child: &Rc<Node>) { ... }
    }
    ```
+
    - `new`: Creates a new `Node` and wraps it in an `Rc`.
    - `add_child`: Adds a child node to the current node and sets the current node as the child's parent.
 
 4. Tree Creation:
+
    ```rust
    fn create_tree() -> Rc<Node> { ... }
    ```
+
    This function creates a simple tree structure and returns the root node.
 
 5. Main Function:
@@ -588,8 +591,7 @@ Key Concepts:
 
 This structure allows us to create a tree where nodes can reference their parents and children, while avoiding memory leaks that could be caused by reference cycles. It's a common pattern in Rust for creating complex, self-referential data structures.
 
-
-### Analogy for Rc<Node> vs Weak<Node>: The Company Directory
+### Analogy for `Rc<Node`> vs `Weak<Node>`: The Company Directory
 
 Imagine a company directory where each employee entry represents a `Node` in our tree structure.
 
@@ -674,22 +676,22 @@ impl Employee {
 fn main() {
     let alice = Employee::new("Alice".to_string());
     let bob = Employee::new("Bob".to_string());
-    
+
     bob.set_manager(&alice);
-    
+
     println!("Alice's subordinates count: {}", alice.subordinates.borrow().len());
     println!("Bob's manager: {:?}", bob.manager.borrow().upgrade().map(|m| m.name.clone()));
-    
+
     drop(alice);  // Alice leaves the company
-    
+
     println!("Bob's manager after Alice leaves: {:?}", bob.manager.borrow().upgrade().map(|m| m.name.clone()));
-    
+
     // Bob can now be removed from the company as well
     drop(bob);
 }
 
 // When you run it:
-// 
+//
 // Alice's subordinates count: 1
 // Bob's manager: Some("Alice")
 // Bob's manager after Alice leaves: None
@@ -756,35 +758,43 @@ Clone: Person { name: "Alice", age: RefCell { value: 31 } }
 Rc stands for "Reference Counted" and it's a smart pointer provided by Rust's standard library. Let's break this down:
 
 1. What is Rc?
+
    - Rc is a single-threaded reference-counting pointer.
    - It keeps track of the number of references to a value to determine whether the value is still in use.
    - When the last Rc pointing to a value is dropped, the value is dropped as well.
 
 2. Key Characteristics:
+
    - Allows multiple ownership of the same data.
    - Only for use in single-threaded scenarios (use Arc for multi-threaded).
    - Provides shared access to its contents, which are immutable by default.
 
 3. When to Use Rc:
    a. Multiple Ownership:
-      - When you need multiple parts of your code to own and share the same data.
-      - Example: In a graph or tree structure where nodes might be referenced by multiple other nodes.
+
+   - When you need multiple parts of your code to own and share the same data.
+   - Example: In a graph or tree structure where nodes might be referenced by multiple other nodes.
 
    b. Cyclic Data Structures:
-      - When creating self-referential structures like graphs (often used with Weak to prevent memory leaks).
+
+   - When creating self-referential structures like graphs (often used with Weak to prevent memory leaks).
 
    c. Caching or Memoization:
-      - When you want to keep data around as long as there are references to it.
+
+   - When you want to keep data around as long as there are references to it.
 
    d. Plugin or Extension Systems:
-      - Where multiple parts of a system might need to share access to resources.
+
+   - Where multiple parts of a system might need to share access to resources.
 
 4. Advantages:
+
    - Allows sharing of data without copying.
    - Automatically cleans up data when it's no longer needed.
    - Enables complex data structures that aren't easily expressed with Rust's usual ownership model.
 
 5. Considerations:
+
    - There's a small runtime cost for reference counting.
    - Not thread-safe (use Arc for that).
    - Can lead to reference cycles if not careful (use Weak to prevent this).

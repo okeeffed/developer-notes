@@ -2,7 +2,7 @@
 
 ## 4.39 Basics of Lifetimes
 
-Some common explanations of terms: 
+Some common explanations of terms:
 
 - **Lifetimes**: Refers to how long an owner/reference exists.
 - **Generic Lifetimes/Lifetime Annotations**: Extra syntax added in to clarify relationship between different lifetimes.
@@ -31,7 +31,6 @@ fn main() {
 In the above, `account` will be dropped after we return from `make_and_print_account`.
 
 What if we do this?
-
 
 ```rs
 fn make_and_print_account() -> &Account {
@@ -194,15 +193,14 @@ fn main() {
 
 As for the other Bank methods:
 
-
 Bank:
 
-| Description                                          | Method/associated func? | Name            | Args             | Returns     |
-| ---------------------------------------------------- | ----------------------- | --------------- | ---------------- | ----------- |
-| Creates Bank instance                                | AF                      | new()           | -                | Bank        |
-| Add an account to the list of accounts               | Method                  | add_account()   | account: Account | -           |
-| Calculate the total balance of all accounts          | Method                  | total_balance() | -                | i32         |
-| Create a Vec containing the summaries of all account | Method                  | summary()       | -                | Vec<String> |
+| Description                                          | Method/associated func? | Name            | Args             | Returns       |
+| ---------------------------------------------------- | ----------------------- | --------------- | ---------------- | ------------- |
+| Creates Bank instance                                | AF                      | new()           | -                | Bank          |
+| Add an account to the list of accounts               | Method                  | add_account()   | account: Account | -             |
+| Calculate the total balance of all accounts          | Method                  | total_balance() | -                | i32           |
+| Create a Vec containing the summaries of all account | Method                  | summary()       | -                | `Vec<String>` |
 
 For the implementation:
 

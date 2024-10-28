@@ -123,6 +123,19 @@
         ]
       },
       {
+        "title": "Ai",
+        "files": [
+          {
+            "title": "Ai",
+            "href": "/ai/Ai"
+          },
+          {
+            "title": "Build ai powered apps with openai and nodejs",
+            "href": "/ai/Build-AI-Powered-Apps-With-OpenAI-and-Nodejs"
+          }
+        ]
+      },
+      {
         "title": "Alexa",
         "files": [
           {
@@ -1139,6 +1152,37 @@
             "title": "Type theory",
             "href": "/computer-science/type-theory"
           }
+        ],
+        "dirs": [
+          {
+            "title": "Crash course",
+            "files": [
+              {
+                "title": "3 booloean logic and logic gates",
+                "href": "/computer-science/crash-course/3-Booloean-Logic-And-Logic-Gates"
+              },
+              {
+                "title": "4 binary representation of numbers and letters",
+                "href": "/computer-science/crash-course/4-Binary-Representation-of-Numbers-and-Letters"
+              },
+              {
+                "title": "5 the arithmetic logic unit alu",
+                "href": "/computer-science/crash-course/5-The-Arithmetic-Logic-Unit-ALU"
+              },
+              {
+                "title": "6 registers and ram",
+                "href": "/computer-science/crash-course/6-Registers-and-RAM"
+              },
+              {
+                "title": "7 the central processing unit cpu",
+                "href": "/computer-science/crash-course/7-The-Central-Processing-Unit-CPU"
+              },
+              {
+                "title": "Crash course",
+                "href": "/computer-science/crash-course/Crash-Course"
+              }
+            ]
+          }
         ]
       },
       {
@@ -1228,6 +1272,10 @@
       {
         "title": "Containers",
         "files": [
+          {
+            "title": "Complete intro to containers",
+            "href": "/containers/Complete-Intro-To-Containers"
+          },
           {
             "title": "Containers",
             "href": "/containers/Containers"
@@ -1834,6 +1882,19 @@
         ]
       },
       {
+        "title": "Dynamodb",
+        "files": [
+          {
+            "title": "Course amazon dynamodb data modeling for architects & developers",
+            "href": "/dynamodb/Course-Amazon-DynamoDB-Data-Modeling-for-Architects-&-Developers"
+          },
+          {
+            "title": "Dynamodb",
+            "href": "/dynamodb/Dynamodb"
+          }
+        ]
+      },
+      {
         "title": "Electron",
         "files": [
           {
@@ -2261,6 +2322,23 @@
           {
             "title": "Introduction",
             "href": "/finger-drumming/introduction"
+          }
+        ]
+      },
+      {
+        "title": "Fintech",
+        "files": [
+          {
+            "title": "Fintech",
+            "href": "/fintech/Fintech"
+          },
+          {
+            "title": "Tokenisation and encryption in digital payments",
+            "href": "/fintech/Tokenisation-and-Encryption-in-Digital-Payments"
+          },
+          {
+            "title": "Fintech practitioner course on payment gateway and qr code",
+            "href": "/fintech/fintech-practitioner-course-on-payment-gateway-and-qr-code"
           }
         ]
       },
@@ -2776,6 +2854,25 @@
             "title": "Maps in java",
             "href": "/java/maps-in-java"
           }
+        ],
+        "dirs": [
+          {
+            "title": "Helsinki mooc",
+            "files": [
+              {
+                "title": "Helsinki mooc",
+                "href": "/java/Helsinki-MOOC/Helsinki-MOOC"
+              },
+              {
+                "title": "Part 1",
+                "href": "/java/Helsinki-MOOC/Part-1"
+              },
+              {
+                "title": "Setting up a java env",
+                "href": "/java/Helsinki-MOOC/Setting up a Java Env"
+              }
+            ]
+          }
         ]
       },
       {
@@ -2784,6 +2881,10 @@
           {
             "title": "Javascript",
             "href": "/javascript/Javascript"
+          },
+          {
+            "title": "Professional js features you need to know course",
+            "href": "/javascript/Professional-JS-Features-You-Need-To-Know-Course"
           },
           {
             "title": "Enzyme testing",
@@ -3225,6 +3326,30 @@
               {
                 "title": "Setup",
                 "href": "/kubernetes/setup/Setup"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Lang chain",
+        "files": [
+          {
+            "title": "Lang chain",
+            "href": "/lang-chain/Lang-Chain"
+          }
+        ],
+        "dirs": [
+          {
+            "title": "Lang chain chatgpt course",
+            "files": [
+              {
+                "title": "Lang chain chatgpt course",
+                "href": "/lang-chain/Lang-Chain-ChatGpt-Course/Lang-Chain-ChatGpt-Course"
+              },
+              {
+                "title": "Section 1 getting started",
+                "href": "/lang-chain/Lang-Chain-ChatGpt-Course/Section-1-Getting-Started"
               }
             ]
           }
@@ -3678,6 +3803,21 @@
             "title": "Nodebots",
             "href": "/nodejs/nodebots"
           }
+        ],
+        "dirs": [
+          {
+            "title": "Benchmarking",
+            "files": [
+              {
+                "title": "Benchmarking in nodejs",
+                "href": "/nodejs/benchmarking/Benchmarking-In-Nodejs"
+              },
+              {
+                "title": "Benchmarking",
+                "href": "/nodejs/benchmarking/Benchmarking"
+              }
+            ]
+          }
         ]
       },
       {
@@ -3828,8 +3968,16 @@
         "title": "Postgresql",
         "files": [
           {
+            "title": "Complete intro to sql and postgresql",
+            "href": "/postgresql/Complete-Intro-To-Sql-And-PostgresQL"
+          },
+          {
             "title": "Postgresql",
             "href": "/postgresql/Postgresql"
+          },
+          {
+            "title": "Reading postgresql documentation",
+            "href": "/postgresql/Reading-PostgreSQL-Documentation"
           },
           {
             "title": "Psql tips",
@@ -3837,6 +3985,60 @@
           }
         ],
         "dirs": [
+          {
+            "title": "Sql a z postgres track common functions",
+            "files": [
+              {
+                "title": "1 intro quiz",
+                "href": "/postgresql/SQL-A-Z-Postgres-Track-Common-Functions/1-Intro-Quiz"
+              },
+              {
+                "title": "2 string functions",
+                "href": "/postgresql/SQL-A-Z-Postgres-Track-Common-Functions/2-String-Functions"
+              },
+              {
+                "title": "Sql a z postgres track common functions",
+                "href": "/postgresql/SQL-A-Z-Postgres-Track-Common-Functions/SQL-A-Z-Postgres-Track-Common-Functions"
+              }
+            ]
+          },
+          {
+            "title": "Sql a z postgres track sql basics",
+            "files": [
+              {
+                "title": "1 sql basics in postgres",
+                "href": "/postgresql/SQL-A-Z-Postgres-Track-SQL-Basics/1-SQL-Basics-In-Postgres"
+              },
+              {
+                "title": "2 querying multiple tables",
+                "href": "/postgresql/SQL-A-Z-Postgres-Track-SQL-Basics/2-Querying-Multiple-Tables"
+              },
+              {
+                "title": "3 aggregation and grouping",
+                "href": "/postgresql/SQL-A-Z-Postgres-Track-SQL-Basics/3-Aggregation-And-Grouping"
+              },
+              {
+                "title": "4 joins",
+                "href": "/postgresql/SQL-A-Z-Postgres-Track-SQL-Basics/4-Joins"
+              },
+              {
+                "title": "5 subqueries",
+                "href": "/postgresql/SQL-A-Z-Postgres-Track-SQL-Basics/5-Subqueries"
+              },
+              {
+                "title": "6 set operations",
+                "href": "/postgresql/SQL-A-Z-Postgres-Track-SQL-Basics/6-Set-Operations"
+              },
+              {
+                "title": "7 basics quiz",
+                "href": "/postgresql/SQL-A-Z-Postgres-Track-SQL-Basics/7-Basics-Quiz"
+              },
+              {
+                "title": "Sql a z postgres track sql basics",
+                "href": "/postgresql/SQL-A-Z-Postgres-Track-SQL-Basics/SQL-A-Z-Postgres-Track-SQL-Basics"
+              }
+            ]
+          },
           {
             "title": "Sql and postgresql the complete developers guide",
             "files": [
@@ -4411,6 +4613,19 @@
         ]
       },
       {
+        "title": "React hook form",
+        "files": [
+          {
+            "title": "Performance",
+            "href": "/react-hook-form/Performance"
+          },
+          {
+            "title": "React hook form",
+            "href": "/react-hook-form/React-Hook-Form"
+          }
+        ]
+      },
+      {
         "title": "React native",
         "files": [
           {
@@ -4933,6 +5148,81 @@
         ],
         "dirs": [
           {
+            "title": "Rust extra credit learning",
+            "files": [
+              {
+                "title": "1 box",
+                "href": "/rust/Rust-Extra-Credit-Learning/1-Box"
+              },
+              {
+                "title": "Rust extra credit learning",
+                "href": "/rust/Rust-Extra-Credit-Learning/Rust-Extra-Credit-Learning"
+              }
+            ]
+          },
+          {
+            "title": "Rust in action",
+            "files": [
+              {
+                "title": "Chapter 1",
+                "href": "/rust/Rust-In-Action/Chapter-1"
+              },
+              {
+                "title": "Chapter 2",
+                "href": "/rust/Rust-In-Action/Chapter-2"
+              },
+              {
+                "title": "Rust in action",
+                "href": "/rust/Rust-In-Action/Rust-In-Action"
+              }
+            ]
+          },
+          {
+            "title": "Stephen grider course",
+            "files": [
+              {
+                "title": "1 rust foundations",
+                "href": "/rust/Stephen-Grider-Course/1-Rust-Foundations"
+              },
+              {
+                "title": "10 generics",
+                "href": "/rust/Stephen-Grider-Course/10-Generics"
+              },
+              {
+                "title": "3 ownership and borrowing",
+                "href": "/rust/Stephen-Grider-Course/3-Ownership-and-Borrowing"
+              },
+              {
+                "title": "4 lifetimes explored",
+                "href": "/rust/Stephen-Grider-Course/4-Lifetimes-Explored"
+              },
+              {
+                "title": "5 enums pattern matching options",
+                "href": "/rust/Stephen-Grider-Course/5-Enums-Pattern-Matching-Options"
+              },
+              {
+                "title": "6 modules",
+                "href": "/rust/Stephen-Grider-Course/6-Modules"
+              },
+              {
+                "title": "7 errors and results",
+                "href": "/rust/Stephen-Grider-Course/7-Errors-and-Results"
+              },
+              {
+                "title": "8 iterators",
+                "href": "/rust/Stephen-Grider-Course/8-Iterators"
+              },
+              {
+                "title": "9 lifetime annotations",
+                "href": "/rust/Stephen-Grider-Course/9-Lifetime-annotations"
+              },
+              {
+                "title": "Stephen grider course",
+                "href": "/rust/Stephen-Grider-Course/Stephen-Grider-Course"
+              }
+            ]
+          },
+          {
             "title": "The rust programming language course",
             "files": [
               {
@@ -5065,6 +5355,21 @@
           {
             "title": "Seo for beginners",
             "href": "/seo/seo-for-beginners"
+          }
+        ],
+        "dirs": [
+          {
+            "title": "Seo for devs",
+            "files": [
+              {
+                "title": "Lesson 1 part 1",
+                "href": "/seo/seo-for-devs/Lesson-1-Part-1"
+              },
+              {
+                "title": "Seo for devs",
+                "href": "/seo/seo-for-devs/Seo-For-Devs"
+              }
+            ]
           }
         ]
       },
@@ -5650,6 +5955,19 @@
         ]
       },
       {
+        "title": "Tmux",
+        "files": [
+          {
+            "title": "Tmux",
+            "href": "/tmux/Tmux"
+          },
+          {
+            "title": "Tmux with nvim",
+            "href": "/tmux/tmux-with-nvim"
+          }
+        ]
+      },
+      {
         "title": "Tooling",
         "files": [
           {
@@ -5699,6 +6017,18 @@
       {
         "title": "Typescript",
         "files": [
+          {
+            "title": "Intermediate typescript v2",
+            "href": "/typescript/Intermediate-TypeScript-v2"
+          },
+          {
+            "title": "Making typescript stick journal",
+            "href": "/typescript/Making-TypeScript-Stick-Journal"
+          },
+          {
+            "title": "Making typescript stick",
+            "href": "/typescript/Making-TypeScript-Stick"
+          },
           {
             "title": "Noted to merge",
             "href": "/typescript/Noted-To-Merge"
@@ -5833,12 +6163,31 @@
             "href": "/vim/intermediate-vim"
           },
           {
+            "title": "Lazyvim",
+            "href": "/vim/lazyvim"
+          },
+          {
             "title": "Neovim",
             "href": "/vim/neovim"
           },
           {
             "title": "Vim overview",
             "href": "/vim/vim-overview"
+          }
+        ],
+        "dirs": [
+          {
+            "title": "Nvim",
+            "files": [
+              {
+                "title": "Kickstarter neovim keymaps",
+                "href": "/vim/nvim/Kickstarter-Neovim-Keymaps"
+              },
+              {
+                "title": "Nvim",
+                "href": "/vim/nvim/Nvim"
+              }
+            ]
           }
         ]
       },
@@ -5869,6 +6218,19 @@
         ]
       },
       {
+        "title": "Vite",
+        "files": [
+          {
+            "title": "Vite course   frontend masters notes",
+            "href": "/vite/Vite Course - FrontEnd Masters Notes"
+          },
+          {
+            "title": "Vite",
+            "href": "/vite/Vite"
+          }
+        ]
+      },
+      {
         "title": "Vscode",
         "files": [
           {
@@ -5893,6 +6255,14 @@
         "title": "Web",
         "files": [
           {
+            "title": "Web authentication apis",
+            "href": "/web/Web-Authentication-APIs"
+          },
+          {
+            "title": "Web performance fundamentals v2",
+            "href": "/web/Web-Performance-Fundamentals-v2"
+          },
+          {
             "title": "Web",
             "href": "/web/Web"
           },
@@ -5907,6 +6277,10 @@
           {
             "title": "Exploring service workers",
             "href": "/web/exploring-service-workers"
+          },
+          {
+            "title": "Frontend masters web security v2 course",
+            "href": "/web/frontend-masters-web-security-v2-course"
           },
           {
             "title": "Web apis",

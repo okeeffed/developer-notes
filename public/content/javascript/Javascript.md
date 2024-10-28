@@ -3,6 +3,7 @@
 ## Material
 
 - [[Javascript]]
+- [[Professional-JS-Features-You-Need-To-Know-Course]]
 - [[enzyme-testing]]
 - [[es6-fiddle]]
 - [[es6-guide]]

@@ -2,7 +2,10 @@
 
 ## Material
 
+- [[Rust-Extra-Credit-Learning]]
+- [[Rust-In-Action]]
 - [[Rust]]
+- [[Stephen-Grider-Course]]
 - [[The-Rust-Programming-Language-Course]]
 - [[Ultimate-Rust-Crash-Course]]
 - [[building-rust-clis]]
